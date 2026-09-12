@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "handoff_id": "HO-001",
+    "session_id": "",
+    "taught": "無",
+    "observed": "使用者改為 part-time；不訂第三方課程；LawHub Advantage 待訂閱",
+    "open_questions": "CP3 加延後至 2027-04-08 的評估分支（暫定門檻：寬鬆計時 <75% 或 12/6 基準 <160）；CP2 決定第三階段是否改為每週一套完整 PT；Advantage 訂閱後補 PT122–146 與 PT123 接觸狀態；LSAC 一月場改期截止日待查",
+    "date": "2026-09-12",
+    "stopped_at": "00 系統與計畫｜部署完成，訓練尚未開始",
+    "next_task": "01 LR｜9/13 Day 1：結論、理由、背景、反方立場、讓步的區分；原創題 5–6 題 + 移轉 2 題",
+    "client_request_id": "20260912-h1",
+    "created_at": "2026-09-12T18:39:35.206Z",
+    "updated_at": "2026-09-12T18:39:35.206Z"
+  }
+]
