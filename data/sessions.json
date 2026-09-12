@@ -6,7 +6,7 @@
     "phase": "起始週",
     "mode": "觀念學習",
     "effective_minutes": 5,
-    "material_source": "",
+    "material_source": "其他",
     "lr_minutes": null,
     "rc_minutes": null,
     "review_minutes": null,
@@ -15,8 +15,9 @@
     "attention": "",
     "fatigue": "",
     "sleep_hours": null,
-    "notes": "",
+    "notes": "測試紀錄（部署驗證用，不計入訓練）",
     "created_at": "2026-09-12T17:38:23.394Z",
-    "updated_at": "2026-09-12T17:38:23.394Z"
+    "updated_at": "2026-09-12T18:39:35.204Z",
+    "last_request_id": "20260912-s1"
   }
 ]
