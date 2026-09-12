@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "writer": "Claude 專案對話產生寫回包；使用者在 App 確認後由 App 寫入 repo。",
+  "allowed_operations": [
+    {
+      "op": "add_session",
+      "target": "sessions",
+      "note": "新增學習紀錄"
+    },
+    {
+      "op": "add_card",
+      "target": "cards",
+      "note": "新增知識卡片，狀態一律先為待確認"
+    },
+    {
+      "op": "add_handoff",
+      "target": "handoffs",
+      "note": "新增課後接續摘要"
+    },
+    {
+      "op": "add_signature",
+      "target": "signatures",
+      "note": "新增錯誤指紋，狀態為追蹤中"
+    },
+    {
+      "op": "suggest_signature_update",
+      "target": "signatures",
+      "note": "只更新 stage、signature_status、evidence_count、last_seen"
+    },
+    {
+      "op": "suggest_hypothesis_update",
+      "target": "hypotheses",
+      "note": "只更新 hypothesis_status、supporting_evidence、contrary_evidence、independent_observations、next_test、current_decision"
+    },
+    {
+      "op": "add_attempt",
+      "target": "attempts",
+      "note": "新增原創題作答；官方題作答由使用者在 App 輸入"
+    }
+  ],
+  "forbidden": [
+    "覆寫既有作答答案",
+    "刪除任何紀錄",
+    "修改 settings.json 的計畫參數",
+    "修改 checkpoints 的決定（決定由使用者在 App 作成）"
+  ],
+  "idempotency": "每筆項目必須有 client_request_id；App 拒絕已存在的 id。",
+  "mastery_rule": "知識卡片複習按「記得」不改變 status；status 升級只能由新題驗證後的寫回包提出，且仍需使用者確認。"
+}

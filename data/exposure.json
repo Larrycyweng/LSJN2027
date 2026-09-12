@@ -1,0 +1,4 @@
+[
+  {"pt_id": "PT123", "exposure_status": "已完成", "first_exposure": "2025-10-12", "last_exposure": "2025-10-12", "sections_seen": "全部四個部分", "questions_seen": 103, "full_score": 139, "blind_review": "否", "explanations_seen": "不明", "clean_pt_eligible": "否", "notes": "2025年7Sage測驗紀錄。不得再作為乾淨完整模考。", "source": "Analytics_ Overview_10122025.pdf"},
+  {"pt_id": "PT141", "exposure_status": "中斷", "first_exposure": "", "last_exposure": "", "sections_seen": "部分", "questions_seen": null, "full_score": null, "blind_review": "不明", "explanations_seen": "不明", "clean_pt_eligible": "否", "notes": "曾中斷作答，沒有有效完整分數，也不得作為乾淨完整模考。", "source": "LSJN2027_LSAT_Study_Plan_2026-09-12.docx"}
+]
