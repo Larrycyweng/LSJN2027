@@ -41,6 +41,16 @@
       "op": "update_exposure",
       "target": "exposure",
       "note": "更新官方題接觸狀態（依使用者回報或截圖）"
+    },
+    {
+      "op": "mark_progress",
+      "target": "progress",
+      "note": "標記進度表項目完成（item_id 來自 settings.checklist）。"
+    },
+    {
+      "op": "update_session",
+      "target": "sessions",
+      "note": "補充既有學習紀錄的內容欄位。"
     }
   ],
   "forbidden": [
