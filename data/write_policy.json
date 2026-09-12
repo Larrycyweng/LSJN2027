@@ -35,14 +35,20 @@
     {
       "op": "add_attempt",
       "target": "attempts",
-      "note": "新增原創題作答；官方題作答由使用者在 App 輸入"
+      "note": "新增作答。官方題必須附 source_evidence:'使用者截圖'，且只轉錄截圖可見內容，不明欄位留白。"
+    },
+    {
+      "op": "update_exposure",
+      "target": "exposure",
+      "note": "更新官方題接觸狀態（依使用者回報或截圖）"
     }
   ],
   "forbidden": [
-    "覆寫既有作答答案",
     "刪除任何紀錄",
     "修改 settings.json 的計畫參數",
-    "修改 checkpoints 的決定（決定由使用者在 App 作成）"
+    "修改 checkpoints 的決定（決定由使用者在 App 作成）",
+    "覆寫既有作答答案（同題重做須建新作答編號）",
+    "虛構截圖上不可見的作答資料"
   ],
   "idempotency": "每筆項目必須有 client_request_id；App 拒絕已存在的 id。",
   "mastery_rule": "知識卡片複習按「記得」不改變 status；status 升級只能由新題驗證後的寫回包提出，且仍需使用者確認。"
