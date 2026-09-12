@@ -134,6 +134,13 @@ details{margin-top:8px}
 .chk .cp-item .std{font-weight:400;color:var(--ink);font-size:.85rem;margin-top:4px}
 .grp summary{color:var(--ink);font-weight:600;padding:8px 0}
 .grp summary .pgr{color:var(--ink-2);font-weight:400;font-size:.85rem}
+.chk .hrs{font-size:.8rem;color:var(--blue);margin-top:2px;text-decoration:none;display:inline-block}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-top:4px}
+.days div{text-align:center;border:1px solid var(--line);border-radius:var(--r);padding:6px 0;font-size:.8rem;color:var(--ink-2)}
+.days div span{display:block}
+.days div b{display:block;color:var(--ink);font-weight:600;margin-top:2px}
+.days div.has{background:var(--blue-soft)}
+.days div.today{border-color:var(--blue)}
 summary{cursor:pointer;color:var(--blue)}
 .small{font-size:.85rem;color:var(--ink-2)}
 @media (prefers-reduced-motion:reduce){.toast{transition:none}}
