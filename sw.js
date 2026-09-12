@@ -1,14 +1,15 @@
-/* App shell 快取；data/*.json 一律走網路優先，避免讀到舊資料。 */
-const CACHE = 'lsjn-shell-v1';
+/* App shell：網路優先，斷網時用快取。data/*.json 一律網路優先。 */
+const CACHE = 'lsjn-shell-v3';
 const SHELL = ['./', './index.html', './app.js', './manifest.webmanifest', './icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-  if (url.origin !== location.origin) return;
-  if (url.pathname.includes('/data/')) {
-    e.respondWith(fetch(e.request).catch(() => new Response('[]', {headers: {'Content-Type': 'application/json'}})));
-    return;
-  }
-  e.respondWith(caches.match(e.request, {ignoreSearch: true}).then(r => r || fetch(e.request).then(res => { const copy = res.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return res; })));
+  if (url.origin !== location.origin || e.request.method !== 'GET') return;
+  e.respondWith(
+    fetch(e.request).then(res => {
+      if (res.ok && !url.pathname.includes('/data/')) caches.open(CACHE).then(c => c.put(e.request, res.clone()));
+      return res;
+    }).catch(() => caches.match(e.request, {ignoreSearch: true}).then(r => r || new Response(url.pathname.includes('/data/') ? '[]' : '', {status: 200, headers: {'Content-Type': url.pathname.includes('/data/') ? 'application/json' : 'text/plain'}})))
+  );
 });

@@ -8,7 +8,7 @@ const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
                 signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id', progress:'item_id'};
 const LS_LOCAL = 'lsjn.local.v1';
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.3.0';
+const APP_VERSION = '0.3.1';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
