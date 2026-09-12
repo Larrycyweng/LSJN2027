@@ -163,8 +163,9 @@ summary{cursor:pointer;color:var(--blue)}
     <div class="small" id="week-note"></div>
   </div>
   <div class="panel">
-    <h2>快速紀錄</h2>
-    <div class="hint">只記時間。內容、題目與觀察由課後寫回包補齊。</div>
+    <h2>最近紀錄</h2>
+    <ul class="list" id="session-list"></ul>
+    <details><summary>手動補一筆（備援，平常由寫回包寫入）</summary>
     <form id="f-session" autocomplete="off">
       <div class="row">
         <label class="f"><span class="l">日期</span><input type="date" name="session_date" required></label>
@@ -173,8 +174,7 @@ summary{cursor:pointer;color:var(--blue)}
       <label class="f"><span class="l">模式</span><div class="seg" data-seg="mode" data-opt="mode"></div></label>
       <label class="f"><span class="l">來源</span><div class="seg" data-seg="material_source" data-opt="source"></div></label>
       <div class="actions"><button class="btn block" type="submit">保存</button></div>
-    </form>
-    <ul class="list" id="session-list"></ul>
+    </form></details>
   </div>
 </section>
 
@@ -182,7 +182,7 @@ summary{cursor:pointer;color:var(--blue)}
 <section class="view" id="v-plan">
   <div class="panel">
     <h2>學習進度表</h2>
-    <div class="hint">打勾表示排程已完成，是提醒不是能力證明。檢查點的通過與否依證據在課程中作成，記錄於下方檢查點區。</div>
+    <div class="hint">打勾由課後寫回包自動完成，也可手動。打勾是排程提醒，不是能力證明；檢查點的通過依證據在課程中作成。</div>
     <div class="bar"><b id="plan-bar"></b></div>
     <div class="small" id="plan-note"></div>
     <div id="plan-groups"></div>
@@ -202,13 +202,12 @@ summary{cursor:pointer;color:var(--blue)}
     <div id="due-cards"></div>
   </div>
   <div class="panel">
-    <h2>快速筆記</h2>
-    <div class="hint">路上想到的東西先丟這裡，狀態為待確認，下次課程我會整理成正式卡片或併入既有卡片。</div>
+    <details><summary>快速筆記（備援；平常直接在對話跟 Claude 說）</summary>
     <form id="f-note" autocomplete="off">
       <label class="f"><span class="l">標題</span><input type="text" name="title" required placeholder="unless 的方向"></label>
       <label class="f"><span class="l">內容</span><textarea name="core" required placeholder="想確認：unless 翻成 if not 之後，箭頭指向哪邊？"></textarea></label>
       <div class="actions"><button class="btn block" type="submit">存為待確認卡片</button></div>
-    </form>
+    </form></details>
   </div>
   <div class="panel">
     <h2>知識卡片</h2>
@@ -249,7 +248,7 @@ summary{cursor:pointer;color:var(--blue)}
     <h2>寫回包</h2>
     <div class="hint">貼入 Claude 課後產生的 JSON，檢查後確認寫入。核對重點：題號與答案是否與你的截圖一致。</div>
     <textarea id="wb-text" placeholder='{"writeback_version":"1.0","items":[...]}'></textarea>
-    <div class="actions"><button class="btn ghost" type="button" id="btn-wb-check">檢查</button><button class="btn" type="button" id="btn-wb-apply" disabled>確認寫入</button></div>
+    <div class="actions"><button class="btn ghost" type="button" id="btn-wb-check">檢查</button><button class="btn" type="button" id="btn-wb-apply" disabled>確認寫入並同步</button></div>
     <ul class="list" id="wb-preview"></ul>
   </div>
   <div class="panel">
