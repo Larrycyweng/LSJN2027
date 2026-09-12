@@ -1,0 +1,13 @@
+{
+  "name": "LSJN2027 訓練紀錄",
+  "short_name": "LSAT紀錄",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F5F6F4",
+  "theme_color": "#F5F6F4",
+  "lang": "zh-Hant",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

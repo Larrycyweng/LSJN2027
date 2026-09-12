@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F5F6F4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>LSJN2027 訓練紀錄</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{
+  --paper:#F5F6F4;
+  --panel:#FFFFFF;
+  --ink:#1C2430;
+  --ink-2:#5A6470;
+  --line:#D9DDD8;
+  --blue:#2C4C7C;
+  --blue-soft:#E4EAF3;
+  --flag:#A3401F;
+  --flag-soft:#F6E7E0;
+  --ok:#2F6B4F;
+  --ok-soft:#E3EFE8;
+  --r:6px;
+  --font:"PingFang TC","Noto Sans TC","Microsoft JhengHei",-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--font)}
+body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.01em}
+h1{font-size:1.25rem}
+h2{font-size:1.05rem}
+h3{font-size:.95rem;color:var(--ink-2);font-weight:500}
+a{color:var(--blue)}
+
+header.top{
+  position:sticky;top:0;z-index:5;background:var(--paper);
+  padding:calc(12px + env(safe-area-inset-top)) 16px 10px;
+  display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  border-bottom:1px solid var(--line)
+}
+header.top .sub{color:var(--ink-2);font-size:.85rem}
+.sync{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--ink-2)}
+.sync i{width:8px;height:8px;border-radius:50%;background:var(--line);display:inline-block}
+.sync.dirty i{background:var(--flag)}
+.sync.clean i{background:var(--ok)}
+.sync.local i{background:#B08A2E}
+
+main{max-width:680px;margin:0 auto;padding:12px 16px 24px}
+section.view{display:none}
+section.view.active{display:block}
+
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin:0 0 12px}
+.panel + .panel{margin-top:12px}
+.panel h2{margin-bottom:8px}
+.panel .hint{color:var(--ink-2);font-size:.85rem;margin:2px 0 10px}
+
+/* ledger rows: the one memorable element, a quiet columnar ledger */
+.ledger{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.ledger td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.ledger tr:last-child td{border-bottom:0}
+.ledger td:first-child{color:var(--ink-2);width:46%}
+.ledger td:last-child{text-align:right;font-weight:500}
+.ledger .big{font-size:1.6rem;font-weight:600;line-height:1.1}
+
+.bar{height:6px;background:var(--blue-soft);border-radius:3px;overflow:hidden;margin:8px 0 2px}
+.bar b{display:block;height:100%;background:var(--blue);width:0}
+
+label.f{display:block;margin:10px 0 0}
+label.f span.l{display:block;font-size:.85rem;color:var(--ink-2);margin-bottom:4px}
+input[type=text],input[type=number],input[type=date],select,textarea{
+  width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:var(--r);background:#fff
+}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+textarea{min-height:88px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+
+/* segmented choice: large tap targets instead of dropdowns */
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{
+  flex:1 1 auto;min-width:56px;padding:9px 10px;border:1px solid var(--line);
+  background:#fff;border-radius:var(--r);cursor:pointer;color:var(--ink)
+}
+.seg button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.seg.ans button{flex:1 1 0;font-weight:600}
+
+.actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.btn{padding:11px 16px;border-radius:var(--r);border:1px solid var(--blue);background:var(--blue);color:#fff;cursor:pointer}
+.btn.ghost{background:#fff;color:var(--blue)}
+.btn.warn{background:#fff;color:var(--flag);border-color:var(--flag)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.block{width:100%}
+
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:10px 0;border-bottom:1px solid var(--line)}
+.list li:last-child{border-bottom:0}
+.list .t{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.list .m{color:var(--ink-2);font-size:.85rem;margin-top:2px}
+.tag{display:inline-block;font-size:.75rem;padding:1px 7px;border-radius:10px;background:var(--blue-soft);color:var(--blue);vertical-align:middle}
+.tag.flag{background:var(--flag-soft);color:var(--flag)}
+.tag.ok{background:var(--ok-soft);color:var(--ok)}
+.empty{color:var(--ink-2);padding:12px 0}
+
+pre.pack{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:12px;font:.82rem/1.5 ui-monospace,Menlo,Consolas,monospace;max-height:50vh;overflow:auto}
+
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%);
+  background:var(--ink);color:#fff;padding:10px 16px;border-radius:var(--r);font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .15s;max-width:90vw}
+.toast.show{opacity:1}
+
+nav.tabs{
+  position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;background:var(--panel);
+  border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)
+}
+nav.tabs button{flex:1;padding:12px 4px 10px;border:0;background:none;color:var(--ink-2);font-size:.85rem;cursor:pointer}
+nav.tabs button[aria-selected=true]{color:var(--blue);font-weight:600;box-shadow:inset 0 2px 0 var(--blue)}
+
+details{margin-top:8px}
+.card{border:1px solid var(--line);border-radius:var(--r);padding:14px;margin:10px 0;background:#fff}
+.card h3{color:var(--ink);font-weight:600;font-size:1.05rem}
+.card .body{margin-top:10px;display:none}
+.card.open .body{display:block}
+.card .body p{margin:6px 0}
+.card .body .k{color:var(--ink-2);font-size:.85rem}
+summary{cursor:pointer;color:var(--blue)}
+.small{font-size:.85rem;color:var(--ink-2)}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div>
+    <h1>LSJN2027 訓練紀錄</h1>
+    <div class="sub" id="hdr-sub">載入中</div>
+  </div>
+  <div class="sync local" id="sync-ind"><i></i><span id="sync-text">本機</span></div>
+</header>
+
+<main>
+
+<!-- 今日 -->
+<section class="view active" id="v-today">
+  <div class="panel">
+    <h2 id="task-title">今日任務</h2>
+    <div id="task-body" class="small"></div>
+  </div>
+  <div class="panel">
+    <table class="ledger" id="today-ledger"></table>
+    <div class="bar"><b id="week-bar"></b></div>
+    <div class="small" id="week-note"></div>
+  </div>
+
+  <div class="panel">
+    <h2>新增學習紀錄</h2>
+    <div class="hint">一次學習時段一筆。休息與行政時間不計入有效分鐘。</div>
+    <form id="f-session" autocomplete="off">
+      <div class="row">
+        <label class="f"><span class="l">日期</span><input type="date" name="session_date" required></label>
+        <label class="f"><span class="l">有效分鐘</span><input type="number" name="effective_minutes" min="5" max="600" step="5" inputmode="numeric" required></label>
+      </div>
+      <label class="f"><span class="l">模式</span><div class="seg" data-seg="mode" data-opt="mode"></div></label>
+      <label class="f"><span class="l">材料來源</span><div class="seg" data-seg="material_source" data-opt="source"></div></label>
+      <div class="row3">
+        <label class="f"><span class="l">LR 分鐘</span><input type="number" name="lr_minutes" min="0" step="5" inputmode="numeric"></label>
+        <label class="f"><span class="l">RC 分鐘</span><input type="number" name="rc_minutes" min="0" step="5" inputmode="numeric"></label>
+        <label class="f"><span class="l">檢討分鐘</span><input type="number" name="review_minutes" min="0" step="5" inputmode="numeric"></label>
+      </div>
+      <label class="f"><span class="l">重點能力</span><input type="text" name="focus_skill" placeholder="例：結論／理由／讓步區分"></label>
+      <label class="f"><span class="l">依計畫完成</span><div class="seg" data-seg="completion" data-opt="completion"></div></label>
+      <div class="row">
+        <label class="f"><span class="l">專注</span><div class="seg" data-seg="attention" data-opt="attention"></div></label>
+        <label class="f"><span class="l">疲勞</span><div class="seg" data-seg="fatigue" data-opt="fatigue"></div></label>
+      </div>
+      <div class="row">
+        <label class="f"><span class="l">前晚睡眠小時</span><input type="number" name="sleep_hours" min="0" max="14" step="0.5" inputmode="decimal"></label>
+        <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
+      </div>
+      <div class="actions"><button class="btn block" type="submit">保存學習紀錄</button></div>
+    </form>
+  </div>
+
+  <div class="panel">
+    <h2>最近學習紀錄</h2>
+    <ul class="list" id="session-list"></ul>
+  </div>
+</section>
+
+<!-- 題目 -->
+<section class="view" id="v-attempts">
+  <div class="panel">
+    <h2>新增題目紀錄</h2>
+    <div class="hint">先保存第一次答案，盲審完成後再回來補。官方題與原創題分開標記。</div>
+    <form id="f-attempt" autocomplete="off">
+      <div class="row">
+        <label class="f"><span class="l">日期</span><input type="date" name="attempt_date" required></label>
+        <label class="f"><span class="l">連結學習紀錄</span><select name="session_id"><option value="">（不連結）</option></select></label>
+      </div>
+      <label class="f"><span class="l">模式</span><div class="seg" data-seg="mode" data-opt="mode"></div></label>
+      <label class="f"><span class="l">材料類型</span><div class="seg" data-seg="material_type" data-opt="material_type"></div></label>
+      <div class="row3" id="official-fields">
+        <label class="f"><span class="l">測驗編號</span><input type="text" name="prep_test" placeholder="PT150"></label>
+        <label class="f"><span class="l">部分</span><select name="section"></select></label>
+        <label class="f"><span class="l">題號</span><input type="number" name="question_number" min="1" max="30" inputmode="numeric"></label>
+      </div>
+      <div class="row">
+        <label class="f"><span class="l">題型</span><select name="question_type"></select></label>
+        <label class="f"><span class="l">能力標籤</span><input type="text" name="skill_tag" placeholder="例：條件方向"></label>
+      </div>
+      <label class="f"><span class="l">第一次答案</span><div class="seg ans" data-seg="timed_answer" data-opt="answer"></div></label>
+      <label class="f"><span class="l">盲審答案（可留白）</span><div class="seg ans" data-seg="blind_review_answer" data-opt="answer" data-clearable="1"></div></label>
+      <label class="f"><span class="l">正確答案</span><div class="seg ans" data-seg="correct_answer" data-opt="answer"></div></label>
+      <div class="row">
+        <label class="f"><span class="l">作答秒數</span><input type="number" name="elapsed_seconds" min="0" inputmode="numeric"></label>
+        <label class="f"><span class="l">信心</span><div class="seg" data-seg="confidence" data-opt="confidence"></div></label>
+      </div>
+      <label class="f"><span class="l">重讀方式</span><div class="seg" data-seg="reread_method" data-opt="reread_method"></div></label>
+      <div class="row">
+        <label class="f"><span class="l">逾時</span><div class="seg" data-seg="overtime" data-opt="yes_no"></div></label>
+        <label class="f"><span class="l">猜測</span><div class="seg" data-seg="guessed" data-opt="yes_no"></div></label>
+      </div>
+      <label class="f"><span class="l">理由正確</span><div class="seg" data-seg="reason_correct" data-opt="reason_correct"></div></label>
+      <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
+      <div class="actions"><button class="btn block" type="submit">保存題目紀錄</button></div>
+    </form>
+    <details>
+      <summary>批次貼上（一行一題）</summary>
+      <div class="hint">格式：測驗編號, 部分, 題號, 第一次答案, 正確答案[, 秒數][, 信心 高/中/低]<br>例：PT150, LR1, 5, B, C, 95, 中</div>
+      <textarea id="batch-text" placeholder="PT150, LR1, 1, A, A, 60, 高&#10;PT150, LR1, 2, C, D, 130, 低"></textarea>
+      <div class="row">
+        <label class="f"><span class="l">日期</span><input type="date" id="batch-date"></label>
+        <label class="f"><span class="l">模式</span><select id="batch-mode"></select></label>
+      </div>
+      <div class="actions"><button class="btn ghost" type="button" id="btn-batch">匯入批次</button></div>
+    </details>
+  </div>
+
+  <div class="panel">
+    <h2>待檢討題目 <span class="tag flag" id="review-count">0</span></h2>
+    <div class="hint">答錯、低信心、逾時、猜測或理由不正確的題目。點一筆可補盲審答案與理由判斷。</div>
+    <ul class="list" id="review-list"></ul>
+  </div>
+
+  <div class="panel">
+    <h2>官方題累計</h2>
+    <table class="ledger" id="attempt-stats"></table>
+  </div>
+</section>
+
+<!-- 複習 -->
+<section class="view" id="v-review">
+  <div class="panel">
+    <h2>到期複習 <span class="tag" id="due-count">0</span></h2>
+    <div class="hint">一次最多五張。先自己回想，再按「揭示」。按「記得」只延後下次複習，不改變掌握狀態；掌握仍以新題驗證。</div>
+    <div id="due-cards"></div>
+  </div>
+  <div class="panel">
+    <h2>知識卡片</h2>
+    <div class="hint">一張卡只保存一個區分。狀態：待確認 → 已理解 → 已驗證（需新題驗證後由寫回包提出）。</div>
+    <ul class="list" id="card-list"></ul>
+    <details>
+      <summary>新增知識卡片</summary>
+      <form id="f-card" autocomplete="off">
+        <label class="f"><span class="l">標題</span><input type="text" name="title" required placeholder="必要條件 vs 充分條件"></label>
+        <label class="f"><span class="l">核心區分（一句）</span><textarea name="core" required></textarea></label>
+        <label class="f"><span class="l">我的常見誤判</span><input type="text" name="common_error"></label>
+        <label class="f"><span class="l">修正動作</span><input type="text" name="corrective_action"></label>
+        <label class="f"><span class="l">例子</span><textarea name="example"></textarea></label>
+        <div class="row">
+          <label class="f"><span class="l">範圍</span><div class="seg" data-seg="scope" data-opt="scope"></div></label>
+          <label class="f"><span class="l">連結錯誤指紋</span><select name="signature_id"><option value=""></option></select></label>
+        </div>
+        <label class="f"><span class="l">來源</span><input type="text" name="source" placeholder="2026-09-14 課程／PT150 LR1 Q5"></label>
+        <div class="actions"><button class="btn" type="submit">建立卡片</button></div>
+      </form>
+    </details>
+  </div>
+</section>
+
+<!-- 追蹤 -->
+<section class="view" id="v-track">
+  <div class="panel">
+    <h2>弱點排序（官方題）</h2>
+    <div class="hint">依題型與能力標籤計算。樣本未達門檻者列為「樣本不足」，不作為 drill 依據。原創題另列，不與官方題混合。</div>
+    <div id="weak-body"></div>
+  </div>
+  <div class="panel">
+    <h2>下一個檢查點</h2>
+    <div id="cp-next"></div>
+    <details><summary>全部檢查點與決定</summary><ul class="list" id="cp-list"></ul></details>
+  </div>
+
+  <div class="panel">
+    <h2>錯誤指紋 <span class="tag" id="sig-count">0</span></h2>
+    <div class="hint">只有重複出現、有觸發訊號且有可執行修正動作的錯誤才建立。每週保留 3 到 5 個追蹤中。</div>
+    <ul class="list" id="sig-list"></ul>
+    <details>
+      <summary>新增錯誤指紋</summary>
+      <form id="f-sig" autocomplete="off">
+        <label class="f"><span class="l">錯誤類型</span><input type="text" name="error_type" required placeholder="讓步≠理由"></label>
+        <label class="f"><span class="l">觸發訊號</span><input type="text" name="trigger_signal" required placeholder="nevertheless"></label>
+        <label class="f"><span class="l">錯誤選項為何有吸引力</span><input type="text" name="attraction" placeholder="被末句位置誤導"></label>
+        <label class="f"><span class="l">修正動作</span><input type="text" name="corrective_action" required placeholder="讓步只限縮立場，不支持主結論"></label>
+        <label class="f"><span class="l">範圍</span><div class="seg" data-seg="scope" data-opt="scope"></div></label>
+        <div class="actions"><button class="btn" type="submit">建立指紋</button></div>
+      </form>
+    </details>
+  </div>
+
+  <div class="panel">
+    <h2>診斷假設</h2>
+    <div class="hint">2025 年資料只形成待驗證假設，不代表目前能力。點一筆可更新狀態與證據。</div>
+    <ul class="list" id="hyp-list"></ul>
+  </div>
+
+  <div class="panel">
+    <h2>官方題接觸狀態</h2>
+    <div class="hint">看過題目、解析或中斷作答都要記錄。使用官方題前先查此表。</div>
+    <ul class="list" id="exp-list"></ul>
+    <form id="f-exp" autocomplete="off">
+      <div class="row3">
+        <label class="f"><span class="l">測驗編號</span><input type="text" name="pt_id" required placeholder="PT150"></label>
+        <label class="f"><span class="l">接觸狀態</span><select name="exposure_status"></select></label>
+        <label class="f"><span class="l">已看部分</span><input type="text" name="sections_seen" placeholder="LR1"></label>
+      </div>
+      <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
+      <div class="actions"><button class="btn ghost" type="submit">新增或更新接觸紀錄</button></div>
+    </form>
+  </div>
+</section>
+
+<!-- 匯出 -->
+<section class="view" id="v-export">
+  <div class="panel">
+    <h2>上下文包</h2>
+    <div class="hint">貼進專案對話。內容只含題號與表現資料，不含題目全文。</div>
+    <div class="row">
+      <label class="f"><span class="l">範圍</span><select id="pack-range"><option value="7">最近 7 天</option><option value="14">最近 14 天</option><option value="30">最近 30 天</option><option value="all">全部</option></select></label>
+      <label class="f"><span class="l">含待檢討題目明細</span><select id="pack-detail"><option value="1">是</option><option value="0">否</option></select></label>
+    </div>
+    <div class="actions">
+      <button class="btn" type="button" id="btn-pack">產生上下文包</button>
+      <button class="btn ghost" type="button" id="btn-copy" disabled>複製</button>
+    </div>
+    <pre class="pack" id="pack-out">尚未產生。</pre>
+  </div>
+
+  <div class="panel">
+    <h2>寫回包</h2>
+    <div class="hint">貼入 Claude 在課後產生的 JSON。App 逐筆列出，你確認後才寫入。已寫入過的 client_request_id 會被拒絕。</div>
+    <textarea id="wb-text" placeholder='{"writeback_version":"1.0","items":[...]}'></textarea>
+    <div class="actions"><button class="btn ghost" type="button" id="btn-wb-check">檢查</button><button class="btn" type="button" id="btn-wb-apply" disabled>確認寫入</button></div>
+    <ul class="list" id="wb-preview"></ul>
+  </div>
+
+  <div class="panel">
+    <h2>匯出檔案</h2>
+    <div class="hint">xlsx 只供檢視，不是資料權威。權威資料是 repo 中 data 資料夾的 JSON。</div>
+    <div class="actions">
+      <button class="btn ghost" type="button" id="btn-xlsx">下載 xlsx</button>
+      <button class="btn ghost" type="button" id="btn-json">下載全部 JSON</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>GitHub 同步</h2>
+    <div class="hint">資料讀取自此網站的 data 資料夾；寫入使用 GitHub Contents API。權杖只存在這支手機的瀏覽器中。</div>
+    <div class="row">
+      <label class="f"><span class="l">帳號（owner）</span><input type="text" id="gh-owner" autocapitalize="off"></label>
+      <label class="f"><span class="l">repo 名稱</span><input type="text" id="gh-repo" autocapitalize="off"></label>
+    </div>
+    <div class="row">
+      <label class="f"><span class="l">分支</span><input type="text" id="gh-branch" value="main" autocapitalize="off"></label>
+      <label class="f"><span class="l">Fine-grained token</span><input type="text" id="gh-token" autocapitalize="off" placeholder="github_pat_…"></label>
+    </div>
+    <div class="actions">
+      <button class="btn ghost" type="button" id="btn-save-gh">保存設定</button>
+      <button class="btn" type="button" id="btn-sync">立即同步</button>
+    </div>
+    <table class="ledger" id="sync-ledger"></table>
+  </div>
+
+  <div class="panel">
+    <h2>本機資料</h2>
+    <div class="hint">未同步的變更會留在本機。重新載入時會與 repo 資料合併，以較新的紀錄為準。</div>
+    <div class="actions">
+      <button class="btn ghost" type="button" id="btn-reload">重新載入 repo 資料</button>
+      <button class="btn warn" type="button" id="btn-clear-local">清除本機未同步資料</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>版本</h2>
+    <table class="ledger" id="ver-ledger"></table>
+  </div>
+</section>
+
+</main>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" data-view="v-today" aria-selected="true">今日</button>
+  <button role="tab" data-view="v-attempts" aria-selected="false">題目</button>
+  <button role="tab" data-view="v-review" aria-selected="false">複習</button>
+  <button role="tab" data-view="v-track" aria-selected="false">追蹤</button>
+  <button role="tab" data-view="v-export" aria-selected="false">同步</button>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
