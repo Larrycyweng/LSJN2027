@@ -3,12 +3,12 @@
 (() => {
 'use strict';
 
-const FILES = ['sessions','attempts','exposure','signatures','hypotheses','checkpoints','cards','handoffs'];
+const FILES = ['sessions','attempts','exposure','signatures','hypotheses','checkpoints','cards','handoffs','progress'];
 const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
-                signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id'};
+                signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id', progress:'item_id'};
 const LS_LOCAL = 'lsjn.local.v1';
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.2.0';
+const APP_VERSION = '0.3.0';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
@@ -214,67 +214,15 @@ function onSessionSubmit(e){
   e.preventDefault(); const f=e.target, o=formData(f);
   if(!o.mode){ toast('請選擇模式'); return; }
   const rec={ session_id: nextSessionId(o.session_date), session_date:o.session_date, week_label:weekLabel(o.session_date), phase:phaseFor(o.session_date).key,
-    mode:o.mode, effective_minutes:num(o.effective_minutes), material_source:o.material_source||'', lr_minutes:num(o.lr_minutes), rc_minutes:num(o.rc_minutes),
-    review_minutes:num(o.review_minutes), focus_skill:o.focus_skill||'', completion:o.completion||'', attention:o.attention||'', fatigue:o.fatigue||'',
-    sleep_hours:num(o.sleep_hours), notes:o.notes||'', created_at:nowISO(), updated_at:nowISO() };
+    mode:o.mode, effective_minutes:num(o.effective_minutes), material_source:o.material_source||'', lr_minutes:null, rc_minutes:null,
+    review_minutes:null, focus_skill:'', completion:'', attention:'', fatigue:'', sleep_hours:null, notes:'', created_at:nowISO(), updated_at:nowISO() };
   persist('sessions', rec); toast(`已保存 ${rec.session_id}`);
   f.reset(); segReset(f); $('input[name=session_date]',f).value=todayLA(); renderAll();
 }
 
-function onAttemptSubmit(e){
-  e.preventDefault(); const f=e.target, o=formData(f);
-  if(!o.mode||!o.material_type){ toast('請選擇模式與材料類型'); return; }
-  if(!o.timed_answer||!o.correct_answer){ toast('第一次答案與正確答案必填'); return; }
-  if(o.material_type==='官方題' && (!o.prep_test||!o.question_number)){ toast('官方題需要測驗編號與題號'); return; }
-  const rec=deriveAttempt({ attempt_date:o.attempt_date, session_id:o.session_id||'', mode:o.mode, material_type:o.material_type,
-    source:o.material_type==='官方題'?'LawHub':'專案對話', prep_test:o.material_type==='官方題'? o.prep_test.toUpperCase():'', section:o.material_type==='官方題'? o.section:'',
-    question_number:o.material_type==='官方題'? num(o.question_number):null, question_type:o.question_type||'', skill_tag:o.skill_tag||'',
-    timed_answer:o.timed_answer, blind_review_answer:o.blind_review_answer||'', correct_answer:o.correct_answer, elapsed_seconds:num(o.elapsed_seconds),
-    confidence:o.confidence||'', reread_method:o.reread_method||'', overtime:o.overtime||'', guessed:o.guessed||'', reason_correct:o.reason_correct||'',
-    signature_id:'', notes:o.notes||'', created_at:nowISO(), updated_at:nowISO() });
-  rec.attempt_id=nextAttemptId(rec);
-  persist('attempts', rec); toast(`已保存 ${rec.attempt_id}`);
-  // keep date, mode, material, PT, section for fast successive entry; bump question number
-  const keep={attempt_date:o.attempt_date, mode:o.mode, material_type:o.material_type, prep_test:o.prep_test, section:o.section, session_id:o.session_id};
-  const q=num(o.question_number);
-  f.reset(); segReset(f);
-  $('input[name=attempt_date]',f).value=keep.attempt_date; segSet(f,'mode',keep.mode); segSet(f,'material_type',keep.material_type);
-  $('input[name=prep_test]',f).value=keep.prep_test||''; $('select[name=section]',f).value=keep.section||''; $('select[name=session_id]',f).value=keep.session_id||'';
-  if(q) $('input[name=question_number]',f).value=q+1;
-  renderAll();
-}
 
-function onBatch(){
-  const lines=$('#batch-text').value.split('\n').map(l=>l.trim()).filter(Boolean);
-  const date=$('#batch-date').value||todayLA(), mode=$('#batch-mode').value||'測驗';
-  let ok=0, bad=[];
-  lines.forEach((ln,i)=>{
-    const p=ln.split(/[,\t，]/).map(s=>s.trim());
-    if(p.length<5||!/^[A-E]$/i.test(p[3])||!/^[A-E]$/i.test(p[4])){ bad.push(i+1); return; }
-    const rec=deriveAttempt({attempt_date:date, session_id:'', mode, material_type:'官方題', source:'LawHub', prep_test:p[0].toUpperCase(), section:p[1].toUpperCase(),
-      question_number:num(p[2]), question_type:'', skill_tag:'', timed_answer:p[3].toUpperCase(), blind_review_answer:'', correct_answer:p[4].toUpperCase(),
-      elapsed_seconds:num(p[5]||''), confidence:p[6]||'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', notes:'', created_at:nowISO(), updated_at:nowISO()});
-    rec.attempt_id=nextAttemptId(rec); persist('attempts',rec); ok++;
-  });
-  toast(`匯入 ${ok} 題${bad.length? `，第 ${bad.join('、')} 行格式錯誤`:''}`); if(ok){ $('#batch-text').value=''; renderAll(); }
-}
 
-function onSigSubmit(e){
-  e.preventDefault(); const f=e.target, o=formData(f);
-  const rec={ signature_id:nextSeqId('ES','signatures','signature_id'), error_type:o.error_type, trigger_signal:o.trigger_signal, attraction:o.attraction||'',
-    corrective_action:o.corrective_action, scope:o.scope||'', signature_status:'追蹤中', created:todayLA(), last_seen:todayLA(), stage:'已發現',
-    near_transfer:'未測試', far_transfer:'未測試', delayed_retest:'未測試', official_timed:'未測試', evidence_count:1, notes:'', created_at:nowISO(), updated_at:nowISO() };
-  persist('signatures',rec); toast(`已建立 ${rec.signature_id}`); f.reset(); segReset(f); renderAll();
-}
 
-function onExpSubmit(e){
-  e.preventDefault(); const f=e.target, o=formData(f);
-  const id=o.pt_id.toUpperCase(); const old=S.data.exposure.find(x=>x.pt_id===id)||{};
-  const rec=Object.assign({pt_id:id, first_exposure:todayLA(), questions_seen:null, full_score:null, blind_review:'不明', explanations_seen:'不明', source:'App'}, old,
-    {exposure_status:o.exposure_status, last_exposure:todayLA(), sections_seen:o.sections_seen||old.sections_seen||'', notes:o.notes||old.notes||'', updated_at:nowISO()});
-  rec.clean_pt_eligible = rec.exposure_status==='未接觸' ? '是' : '否';
-  persist('exposure',rec); toast(`已更新 ${id}`); f.reset(); renderAll();
-}
 
 
 /* ---------- today's task ---------- */
@@ -325,13 +273,36 @@ function renderWeakness(){
 
 /* ---------- knowledge cards & review ---------- */
 const REVIEW_STEPS=[1,3,7,14,30];
-function onCardSubmit(e){
+function onNoteSubmit(e){
   e.preventDefault(); const f=e.target, o=formData(f);
-  const rec={ card_id:nextSeqId('KC','cards','card_id'), title:o.title, core:o.core, common_error:o.common_error||'', corrective_action:o.corrective_action||'', example:o.example||'',
-    scope:o.scope||'', signature_id:o.signature_id||'', source:o.source||'', card_status:'待確認', next_review:todayLA(), review_step:0, review_count:0, last_result:'', ask_chat:'否',
-    created:todayLA(), created_at:nowISO(), updated_at:nowISO() };
-  persist('cards',rec); toast(`已建立 ${rec.card_id}`); f.reset(); segReset(f); renderAll();
+  const rec={ card_id:nextSeqId('KC','cards','card_id'), title:o.title, core:o.core, common_error:'', corrective_action:'', example:'', scope:'', signature_id:'', source:'快速筆記 '+todayLA(),
+    card_status:'待確認', next_review:todayLA(), review_step:0, review_count:0, last_result:'', ask_chat:'是', created:todayLA(), created_at:nowISO(), updated_at:nowISO() };
+  persist('cards',rec); toast(`已存 ${rec.card_id}，下次課程處理`); f.reset(); renderAll();
 }
+
+/* ---------- plan checklist ---------- */
+function planDone(){ const m=new Map(); S.data.progress.forEach(p=>m.set(p.item_id,p)); return m; }
+function togglePlan(id, done){
+  persist('progress',{item_id:id, done: done?'是':'否', done_date: done? todayLA():'', updated_at:nowISO(), created_at:nowISO()});
+  renderPlan(); renderHeader();
+}
+function renderPlan(){
+  const items=S.settings.checklist||[], doneMap=planDone();
+  const isDone=id=>{ const p=doneMap.get(id); return p&&p.done==='是'; };
+  const doable=items.filter(i=>i.kind!=='checkpoint');
+  const nd=doable.filter(i=>isDone(i.id)).length;
+  $('#plan-bar').style.width=(doable.length? 100*nd/doable.length:0)+'%';
+  $('#plan-note').textContent=`已完成 ${nd} / ${doable.length} 項排程`;
+  const groups=[]; items.forEach(i=>{ let g=groups.find(x=>x.name===i.group); if(!g){ g={name:i.group,items:[]}; groups.push(g); } g.items.push(i); });
+  const t=todayLA(); const curGroup=(()=>{ const ph=phaseFor(t).key; const map={'起始週':'起始週','第一階段':'第一階段','第二階段':'第二階段','第三階段':'第三階段','考前減量':'最後兩週'}; return map[ph]||''; })();
+  $('#plan-groups').innerHTML=groups.map(g=>{ const gd=g.items.filter(i=>i.kind!=='checkpoint'); const gn=gd.filter(i=>isDone(i.id)).length;
+    return `<details class="grp" ${g.name.startsWith(curGroup)?'open':''}><summary>${esc(g.name)} <span class="pgr">${gn}/${gd.length}</span></summary>
+    <ul class="chk">${g.items.map(i=> i.kind==='checkpoint'
+      ? `<li class="cp-item"><div class="lb">${esc(i.label)}<div class="std">${esc(i.detail)}</div></div></li>`
+      : `<li class="${isDone(i.id)?'done':''}"><input type="checkbox" data-plan="${esc(i.id)}" ${isDone(i.id)?'checked':''} aria-label="完成 ${esc(i.label)}"><div class="lb">${esc(i.label)}</div></li>`).join('')}</ul></details>`; }).join('');
+  $$('#plan-groups input[data-plan]').forEach(cb=>cb.addEventListener('change',()=>togglePlan(cb.dataset.plan, cb.checked)));
+}
+
 function reviewCard(card, result){
   const t=todayLA(); const rec=Object.assign({},card,{review_count:(card.review_count||0)+1, last_result:result, last_reviewed:t, updated_at:nowISO()});
   if(result==='記得'){ rec.review_step=Math.min((card.review_step||0)+1, REVIEW_STEPS.length-1); rec.next_review=addDays(t, REVIEW_STEPS[rec.review_step]); }
@@ -356,9 +327,8 @@ function renderReview(){
   $$('#due-cards .card').forEach(el=>{ const c=S.data.cards.find(x=>x.card_id===el.dataset.id);
     $('[data-act=reveal]',el).addEventListener('click',()=>{ el.classList.add('open'); $('[data-act=reveal]',el).style.display='none'; });
     $$('[data-act=result]',el).forEach(b=>b.addEventListener('click',()=>reviewCard(c,b.dataset.r))); });
-  const sel=$('#f-card select[name=signature_id]'); sel.innerHTML='<option value=""></option>'+S.data.signatures.map(s=>`<option>${esc(s.signature_id)}</option>`).join('');
   const cards=S.data.cards.slice().sort((a,b)=>a.card_id.localeCompare(b.card_id));
-  $('#card-list').innerHTML= cards.length? cards.map(c=>`<li><div class="t"><span>${esc(c.card_id)}　${esc(c.title)}</span><span class="tag ${c.card_status==='已驗證'?'ok':''}">${esc(c.card_status)}</span></div><div class="m">${esc(c.core)}${c.next_review?`　下次 ${esc(c.next_review)}`:''}${c.signature_id?`　${esc(c.signature_id)}`:''}</div></li>`).join('') : '<li class="empty">尚無卡片。課後由寫回包新增，或在下方手動建立。</li>';
+  $('#card-list').innerHTML= cards.length? cards.map(c=>`<li><div class="t"><span>${esc(c.card_id)}　${esc(c.title)}</span><span class="tag ${c.card_status==='已驗證'?'ok':''}">${esc(c.card_status)}</span></div><div class="m">${esc(c.core)}${c.next_review?`　下次 ${esc(c.next_review)}`:''}${c.signature_id?`　${esc(c.signature_id)}`:''}</div></li>`).join('') : '<li class="empty">尚無卡片。由課後寫回包或快速筆記建立。</li>';
 }
 
 /* ---------- write-back package ---------- */
@@ -369,16 +339,18 @@ function wbCheck(){
   let pkg; try{ pkg=JSON.parse($('#wb-text').value); }catch(e){ out.innerHTML=`<li class="empty">JSON 解析失敗：${esc(e.message)}</li>`; return; }
   if(!pkg||!Array.isArray(pkg.items)){ out.innerHTML='<li class="empty">缺少 items 陣列。</li>'; return; }
   const seen=allRequestIds(), inPkg=new Set(); const items=[];
-  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','suggest_hypothesis_update','add_attempt']);
+  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','suggest_hypothesis_update','add_attempt','update_exposure','update_session']);
   pkg.items.forEach((it,i)=>{
     const r={i:i+1, op:it.op, id:it.client_request_id, ok:true, msg:'', data:it.data||{}};
     if(!allowed.has(it.op)){ r.ok=false; r.msg='不允許的操作'; }
     else if(!it.client_request_id){ r.ok=false; r.msg='缺 client_request_id'; }
     else if(seen.has(it.client_request_id)){ r.ok=false; r.msg='已寫入過，略過'; }
     else if(inPkg.has(it.client_request_id)){ r.ok=false; r.msg='包內重複'; }
-    else if(it.op==='add_attempt' && r.data.material_type==='官方題'){ r.ok=false; r.msg='官方題作答只能由使用者在 App 輸入'; }
+    else if(it.op==='add_attempt' && r.data.material_type==='官方題' && r.data.source_evidence!=='使用者截圖'){ r.ok=false; r.msg='官方題需 source_evidence:使用者截圖'; }
+    else if(it.op==='update_exposure' && !r.data.pt_id){ r.ok=false; r.msg='缺 pt_id'; }
     else if(it.op==='suggest_signature_update' && !S.data.signatures.some(s=>s.signature_id===r.data.signature_id)){ r.ok=false; r.msg='找不到指紋'; }
     else if(it.op==='suggest_hypothesis_update' && !S.data.hypotheses.some(h=>h.hypothesis_id===r.data.hypothesis_id)){ r.ok=false; r.msg='找不到假設'; }
+    else if(it.op==='update_session' && !S.data.sessions.some(x=>x.session_id===r.data.session_id)){ r.ok=false; r.msg='找不到學習紀錄'; }
     else if(['add_session','add_card','add_handoff','add_signature','add_attempt'].includes(it.op)){
       const need={add_session:['session_date','mode','effective_minutes'],add_card:['title','core'],add_handoff:['date','stopped_at','next_task'],add_signature:['error_type','trigger_signal','corrective_action'],add_attempt:['attempt_date','mode','timed_answer','correct_answer']}[it.op];
       const miss=need.filter(k=>r.data[k]===undefined||r.data[k]===''); if(miss.length){ r.ok=false; r.msg='缺欄位：'+miss.join('、'); } }
@@ -387,7 +359,7 @@ function wbCheck(){
   out.innerHTML=items.map(r=>`<li><div class="t"><span>${r.i}. ${esc(r.op)}　${esc(summarizeWb(r))}</span><span class="tag ${r.ok?'ok':'flag'}">${r.ok?'可寫入':esc(r.msg)}</span></div></li>`).join('');
   WB=items.filter(r=>r.ok); $('#btn-wb-apply').disabled=!WB.length; $('#btn-wb-apply').textContent=`確認寫入 ${WB.length} 筆`;
 }
-function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`原創題 ${d.timed_answer}→${d.correct_answer}`}[r.op]||''; }
+function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`${d.material_type||'原創題'}${d.prep_test?` ${d.prep_test} ${d.section||''} Q${d.question_number||''}`:''} ${d.timed_answer}→${d.correct_answer}`, update_exposure:`${d.pt_id} → ${d.exposure_status||''}`, update_session:`${d.session_id} 補充`}[r.op]||''; }
 function wbApply(){
   if(!WB||!WB.length) return; const t=todayLA(); let n=0;
   WB.forEach(r=>{ const d=r.data, base={client_request_id:r.id, created_at:nowISO(), updated_at:nowISO()};
@@ -397,7 +369,9 @@ function wbApply(){
     else if(r.op==='add_signature') persist('signatures', Object.assign({signature_id:nextSeqId('ES','signatures','signature_id'), attraction:'', scope:'', created:t, last_seen:t, stage:'已發現', near_transfer:'未測試', far_transfer:'未測試', delayed_retest:'未測試', official_timed:'未測試', evidence_count:1, notes:''}, d, base, {signature_status:'追蹤中'}));
     else if(r.op==='suggest_signature_update'){ const s=S.data.signatures.find(x=>x.signature_id===d.signature_id); const u={}; ['stage','signature_status','evidence_count','last_seen'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('signatures', Object.assign({},s,u,{updated_at:nowISO(), last_request_id:r.id})); }
     else if(r.op==='suggest_hypothesis_update'){ const h=S.data.hypotheses.find(x=>x.hypothesis_id===d.hypothesis_id); const u={}; ['hypothesis_status','supporting_evidence','contrary_evidence','independent_observations','next_test','current_decision'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('hypotheses', Object.assign({},h,u,{last_updated:t, updated_at:nowISO(), last_request_id:r.id})); }
-    else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'專案對話', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', notes:''}, d, base, {material_type:'原創題'})); a.attempt_id=nextAttemptId(a); persist('attempts',a); }
+    else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'專案對話', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', notes:''}, d, base)); if(a.material_type==='官方題') a.source='LawHub'; a.attempt_id=nextAttemptId(a); persist('attempts',a); }
+    else if(r.op==='update_exposure'){ const old=S.data.exposure.find(x=>x.pt_id===d.pt_id)||{pt_id:d.pt_id, first_exposure:t, blind_review:'不明', explanations_seen:'不明', source:'寫回包'}; const rec=Object.assign({},old,d,base,{last_exposure:d.last_exposure||t}); rec.clean_pt_eligible = rec.exposure_status==='未接觸'?'是':'否'; persist('exposure',rec); }
+    else if(r.op==='update_session'){ const old=S.data.sessions.find(x=>x.session_id===d.session_id); if(old){ const u={}; ['focus_skill','notes','lr_minutes','rc_minutes','review_minutes','attention','fatigue','completion','material_source'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('sessions',Object.assign({},old,u,{updated_at:nowISO(), last_request_id:r.id})); } }
     n++; });
   WB=null; $('#wb-text').value=''; $('#wb-preview').innerHTML=''; $('#btn-wb-apply').disabled=true; $('#btn-wb-apply').textContent='確認寫入';
   toast(`已寫入 ${n} 筆。到「同步」按立即同步。`); renderAll();
@@ -426,38 +400,12 @@ function renderToday(){
   $('#week-bar').style.width=Math.min(100, budget? 100*mins/60/budget:0)+'%';
   $('#week-note').textContent = mins/60 < budget ? `距本週預算尚差 ${(budget-mins/60).toFixed(1)} 小時。` : '本週已達預算；若檢查點未達標，先改方法，不加時數。';
 
-  const recent=S.data.sessions.slice().sort((a,b)=>b.session_date.localeCompare(a.session_date)||b.session_id.localeCompare(a.session_id)).slice(0,8);
-  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span></span><span>${esc(s.effective_minutes)} 分</span></div>
-    <div class="m">${esc(s.session_id)}　${esc(s.material_source||'')}　${esc(s.focus_skill||'')}${s.attention?`　專注${esc(s.attention)}`:''}${s.fatigue?`　疲勞${esc(s.fatigue)}`:''}</div></li>`).join('')
-    : '<li class="empty">尚無紀錄。第一筆學習紀錄從上方表單開始。</li>';
+  const recent=S.data.sessions.slice().sort((a,b)=>b.session_date.localeCompare(a.session_date)||b.session_id.localeCompare(a.session_id)).slice(0,5);
+  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span>${s.notes&&s.notes.includes('測試')?'　<span class="tag">測試</span>':''}</span><span>${esc(s.effective_minutes)} 分　${esc(s.material_source||'')}</span></div></li>`).join('')
+    : '<li class="empty">尚無紀錄。</li>';
 }
 
 function renderAttempts(){
-  const sel=$('#f-attempt select[name=session_id]');
-  const cur=sel.value;
-  sel.innerHTML='<option value="">（不連結）</option>'+S.data.sessions.slice().sort((a,b)=>b.session_id.localeCompare(a.session_id)).slice(0,15).map(s=>`<option value="${esc(s.session_id)}">${esc(s.session_id)} ${esc(s.mode)}</option>`).join('');
-  sel.value=cur;
-
-  const pending=S.data.attempts.filter(a=>a.review_flag==='是').sort((a,b)=>b.attempt_date.localeCompare(a.attempt_date)||b.attempt_id.localeCompare(a.attempt_id));
-  $('#review-count').textContent=pending.length;
-  $('#review-list').innerHTML= pending.length? pending.slice(0,40).map(a=>`
-    <li><details><summary style="list-style:none;color:inherit">
-      <div class="t"><span>${esc(a.material_type==='官方題'? `${a.prep_test} ${a.section} Q${a.question_number}`:'原創題')}　<span class="tag">${esc(a.mode)}</span></span>
-      <span>${esc(a.timed_answer)}→${esc(a.correct_answer)}${a.blind_review_answer?`　盲審 ${esc(a.blind_review_answer)}`:''}</span></div>
-      <div class="m">${esc(a.attempt_date)}　${esc(a.question_type||'')}　${flagReasons(a).map(r=>`<span class="tag flag">${r}</span>`).join(' ')}${a.blind_review_answer?'':'　<span class="tag">盲審未填</span>'}</div>
-      </summary>
-      <form class="f-review" data-id="${esc(a.attempt_id)}">
-        <label class="f"><span class="l">盲審答案</span><div class="seg ans" data-seg="blind_review_answer" data-opt="answer" data-clearable="1"></div></label>
-        <label class="f"><span class="l">理由正確</span><div class="seg" data-seg="reason_correct" data-opt="reason_correct"></div></label>
-        <div class="row"><label class="f"><span class="l">連結錯誤指紋</span><select name="signature_id"><option value=""></option>${S.data.signatures.map(s=>`<option ${s.signature_id===a.signature_id?'selected':''}>${esc(s.signature_id)}</option>`).join('')}</select></label>
-        <label class="f"><span class="l">備註</span><input type="text" name="notes" value="${esc(a.notes||'')}"></label></div>
-        <div class="actions"><button class="btn" type="submit">更新</button></div>
-      </form></details></li>`).join('') : '<li class="empty">目前沒有待檢討題目。</li>';
-  buildSegs($('#review-list'));
-  $$('.f-review').forEach(f=>{ const a=S.data.attempts.find(x=>x.attempt_id===f.dataset.id); segSet(f,'blind_review_answer',a.blind_review_answer); segSet(f,'reason_correct',a.reason_correct);
-    f.addEventListener('submit',e=>{ e.preventDefault(); const o=formData(f); const rec=Object.assign({},a,{blind_review_answer:o.blind_review_answer||'',reason_correct:o.reason_correct||'',signature_id:o.signature_id||'',notes:o.notes||'',updated_at:nowISO()});
-      deriveAttempt(rec); persist('attempts',rec); toast('已更新'); renderAll(); }); });
-
   const off=S.data.attempts.filter(a=>a.material_type==='官方題'), orig=S.data.attempts.filter(a=>a.material_type!=='官方題');
   const stat=arr=>({n:arr.length, fc:arr.filter(a=>a.first_correct==='是').length, brN:arr.filter(a=>a.blind_review_answer).length, brC:arr.filter(a=>a.blind_correct==='是').length, rc:arr.filter(a=>a.reason_correct==='是').length, rcN:arr.filter(a=>a.reason_correct).length});
   const so=stat(off), sg=stat(orig);
@@ -466,172 +414,42 @@ function renderAttempts(){
     <tr><td>官方題第一次正確率</td><td>${pct(so.fc,so.n)}</td></tr>
     <tr><td>官方題盲審正確率（已盲審 ${so.brN}）</td><td>${pct(so.brC,so.brN)}</td></tr>
     <tr><td>官方題理由正確率（已判斷 ${so.rcN}）</td><td>${pct(so.rc,so.rcN)}</td></tr>
-    <tr><td>原創題筆數（分開計，不推估分數）</td><td>${sg.n}　第一次 ${pct(sg.fc,sg.n)}</td></tr>`;
+    <tr><td>原創題筆數（分開計）</td><td>${sg.n}　第一次 ${pct(sg.fc,sg.n)}</td></tr>`;
 }
 
 function renderTrack(){
   const t=todayLA(), cp=nextCheckpoint();
-  $('#cp-next').innerHTML= cp? `<table class="ledger">
-    <tr><td>${esc(cp.checkpoint_id)}　${esc(cp.gate)}</td><td><span class="big">${dateDiffDays(t,cp.review_date)}</span> 天　${esc(cp.review_date)}</td></tr>
-    <tr><td>核心問題</td><td style="text-align:left">${esc(cp.core_question)}</td></tr>
-    <tr><td>必要證據</td><td style="text-align:left">${esc(cp.required_evidence)}</td></tr>
-    <tr><td>參考門檻</td><td style="text-align:left">${esc(cp.threshold)}</td></tr></table>
-    <form id="f-cp" data-id="${esc(cp.checkpoint_id)}">
-      <label class="f"><span class="l">狀態</span><div class="seg" data-seg="checkpoint_status" data-opt="checkpoint_status"></div></label>
-      <label class="f"><span class="l">決定</span><div class="seg" data-seg="checkpoint_decision" data-opt="checkpoint_decision" data-clearable="1"></div></label>
-      <label class="f"><span class="l">證據摘要</span><textarea name="evidence_summary">${esc(cp.evidence_summary||'')}</textarea></label>
-      <div class="actions"><button class="btn ghost" type="submit">保存檢查點</button></div></form>` : '<div class="empty">四個檢查點皆已完成。</div>';
-  if(cp){ const f=$('#f-cp'); buildSegs(f); segSet(f,'checkpoint_status',cp.checkpoint_status); segSet(f,'checkpoint_decision',cp.checkpoint_decision);
-    f.addEventListener('submit',e=>{ e.preventDefault(); const o=formData(f); const rec=Object.assign({},cp,{checkpoint_status:o.checkpoint_status||cp.checkpoint_status, checkpoint_decision:o.checkpoint_decision||'', evidence_summary:o.evidence_summary||'', decision_date:o.checkpoint_status==='已完成'? t:(cp.decision_date||''), updated_at:nowISO()});
-      persist('checkpoints',rec); toast('已保存'); renderAll(); }); }
   $('#cp-list').innerHTML=S.data.checkpoints.map(c=>`<li><div class="t"><span>${esc(c.checkpoint_id)}　${esc(c.gate)}</span><span>${esc(c.review_date)}　<span class="tag ${c.checkpoint_status==='已完成'?'ok':''}">${esc(c.checkpoint_status)}</span></span></div><div class="m">${esc(c.checkpoint_decision||'尚無決定')}${c.evidence_summary?`　${esc(c.evidence_summary)}`:''}</div></li>`).join('');
-
+  $('#cp-decide').innerHTML= cp? `<div class="hint" style="margin-top:10px">下一個：${esc(cp.checkpoint_id)}（${esc(cp.review_date)}，${dateDiffDays(t,cp.review_date)} 天後）。決定由你在課程檢視證據後於此作成。</div>
+    <form id="f-cp">
+      <label class="f"><span class="l">決定</span><div class="seg" data-seg="checkpoint_decision" data-opt="checkpoint_decision" data-clearable="1"></div></label>
+      <label class="f"><span class="l">證據摘要（可由寫回包建議文字貼入）</span><textarea name="evidence_summary">${esc(cp.evidence_summary||'')}</textarea></label>
+      <div class="actions"><button class="btn ghost" type="submit">保存決定並標記完成</button></div></form>` : '';
+  if(cp){ const f=$('#f-cp'); buildSegs(f); segSet(f,'checkpoint_decision',cp.checkpoint_decision);
+    f.addEventListener('submit',e=>{ e.preventDefault(); const o=formData(f);
+      if(!o.checkpoint_decision){ toast('請先選擇決定'); return; }
+      persist('checkpoints',Object.assign({},cp,{checkpoint_status:'已完成', checkpoint_decision:o.checkpoint_decision, evidence_summary:o.evidence_summary||'', decision_date:t, updated_at:nowISO()}));
+      toast(`${cp.checkpoint_id} 已記錄`); renderAll(); }); }
   const sigs=S.data.signatures.slice().sort((a,b)=> (a.signature_status==='追蹤中'?0:1)-(b.signature_status==='追蹤中'?0:1) || a.signature_id.localeCompare(b.signature_id));
-  $('#sig-count').textContent=sigs.filter(s=>s.signature_status==='追蹤中').length+' 追蹤中';
-  $('#sig-list').innerHTML= sigs.length? sigs.map(s=>`<li><details><summary style="list-style:none;color:inherit">
-      <div class="t"><span>${esc(s.signature_id)}　${esc(s.error_type)}</span><span class="tag ${s.signature_status==='已封存'?'ok':''}">${esc(s.signature_status)}</span></div>
-      <div class="m">${esc(s.trigger_signal)}｜${esc(s.attraction||'')}｜${esc(s.corrective_action)}｜${esc(s.stage)}　證據 ${s.evidence_count}　最近 ${esc(s.last_seen)}</div></summary>
-      <form class="f-sig-edit" data-id="${esc(s.signature_id)}">
-        <label class="f"><span class="l">狀態</span><div class="seg" data-seg="signature_status" data-opt="signature_status"></div></label>
-        <label class="f"><span class="l">驗證階段</span><div class="seg" data-seg="stage" data-opt="signature_stage"></div></label>
-        <div class="actions"><button class="btn ghost" type="button" data-act="seen">記錄再次出現</button><button class="btn" type="submit">更新</button></div></form></details></li>`).join('')
-    : '<li class="empty">尚無錯誤指紋。單次錯題先留在題目紀錄。</li>';
-  buildSegs($('#sig-list'));
-  $$('.f-sig-edit').forEach(f=>{ const s=S.data.signatures.find(x=>x.signature_id===f.dataset.id); segSet(f,'signature_status',s.signature_status); segSet(f,'stage',s.stage);
-    const stageFlags=st=>({near_transfer: ['近移轉通過','遠移轉通過','延遲複測通過','官方計時驗證通過'].includes(st)?'通過':s.near_transfer, far_transfer:['遠移轉通過','延遲複測通過','官方計時驗證通過'].includes(st)?'通過':s.far_transfer, delayed_retest:['延遲複測通過','官方計時驗證通過'].includes(st)?'通過':s.delayed_retest, official_timed: st==='官方計時驗證通過'?'通過':s.official_timed});
-    f.addEventListener('submit',e=>{ e.preventDefault(); const o=formData(f); const st=o.stage||s.stage; persist('signatures',Object.assign({},s,stageFlags(st),{signature_status:o.signature_status||s.signature_status, stage:st, updated_at:nowISO()})); toast('已更新'); renderAll(); });
-    $('[data-act=seen]',f).addEventListener('click',()=>{ persist('signatures',Object.assign({},s,{evidence_count:(s.evidence_count||0)+1,last_seen:t,updated_at:nowISO()})); toast('已記錄再次出現'); renderAll(); }); });
-
-  $('#hyp-list').innerHTML=S.data.hypotheses.map(h=>`<li><details><summary style="list-style:none;color:inherit">
-      <div class="t"><span>${esc(h.hypothesis_id)}　<span class="tag">${esc(h.scope)}</span></span><span class="tag ${['已否定','已解決'].includes(h.hypothesis_status)?'ok':''}">${esc(h.hypothesis_status)}</span></div>
-      <div class="m">${esc(h.statement)}</div></summary>
-      <form class="f-hyp" data-id="${esc(h.hypothesis_id)}">
-        <label class="f"><span class="l">狀態</span><div class="seg" data-seg="hypothesis_status" data-opt="hypothesis_status"></div></label>
-        <label class="f"><span class="l">支持證據</span><textarea name="supporting_evidence">${esc(h.supporting_evidence||'')}</textarea></label>
-        <label class="f"><span class="l">反證或限制</span><textarea name="contrary_evidence">${esc(h.contrary_evidence||'')}</textarea></label>
-        <div class="row"><label class="f"><span class="l">獨立觀察次數</span><input type="number" name="independent_observations" value="${esc(h.independent_observations??0)}" min="0"></label>
-        <label class="f"><span class="l">下一項測試</span><input type="text" name="next_test" value="${esc(h.next_test||'')}"></label></div>
-        <label class="f"><span class="l">目前決定</span><input type="text" name="current_decision" value="${esc(h.current_decision||'')}"></label>
-        <div class="actions"><button class="btn" type="submit">更新假設</button></div></form></details></li>`).join('');
-  buildSegs($('#hyp-list'));
-  $$('.f-hyp').forEach(f=>{ const h=S.data.hypotheses.find(x=>x.hypothesis_id===f.dataset.id); segSet(f,'hypothesis_status',h.hypothesis_status);
-    f.addEventListener('submit',e=>{ e.preventDefault(); const o=formData(f); persist('hypotheses',Object.assign({},h,{hypothesis_status:o.hypothesis_status||h.hypothesis_status, supporting_evidence:o.supporting_evidence, contrary_evidence:o.contrary_evidence, independent_observations:num(o.independent_observations), next_test:o.next_test, current_decision:o.current_decision, last_updated:t, updated_at:nowISO()})); toast('已更新'); renderAll(); }); });
-
+  $('#sig-list').innerHTML= sigs.length? sigs.map(x=>`<li><div class="t"><span>${esc(x.signature_id)}　${esc(x.error_type)}</span><span class="tag ${x.signature_status==='已封存'?'ok':''}">${esc(x.signature_status)}</span></div><div class="m">${esc(x.trigger_signal)}｜${esc(x.corrective_action)}｜${esc(x.stage)}　證據 ${x.evidence_count}</div></li>`).join('') : '<li class="empty">尚無指紋。由課程診斷產生。</li>';
+  $('#hyp-list').innerHTML=S.data.hypotheses.map(h=>`<li><div class="t"><span>${esc(h.hypothesis_id)}　<span class="tag">${esc(h.scope)}</span></span><span class="tag ${['已否定','已解決'].includes(h.hypothesis_status)?'ok':''}">${esc(h.hypothesis_status)}</span></div><div class="m">${esc(h.statement)}</div></li>`).join('');
   const exp=S.data.exposure.slice().sort((a,b)=>a.pt_id.localeCompare(b.pt_id,undefined,{numeric:true}));
-  $('#exp-list').innerHTML= exp.length? exp.map(x=>`<li><div class="t"><span>${esc(x.pt_id)}　<span class="tag ${x.clean_pt_eligible==='是'?'ok':'flag'}">${x.clean_pt_eligible==='是'?'可作乾淨模考':'不可作乾淨模考'}</span></span><span>${esc(x.exposure_status)}</span></div>
-      <div class="m">${esc(x.sections_seen||'')}${x.full_score?`　分數 ${x.full_score}`:''}${x.last_exposure?`　最近 ${esc(x.last_exposure)}`:''}　${esc(x.notes||'')}</div></li>`).join('') : '<li class="empty">尚無紀錄。</li>';
+  $('#exp-list').innerHTML= exp.length? exp.map(x=>`<li><div class="t"><span>${esc(x.pt_id)}　<span class="tag ${x.clean_pt_eligible==='是'?'ok':'flag'}">${x.clean_pt_eligible==='是'?'可作乾淨模考':'不可作乾淨模考'}</span></span><span>${esc(x.exposure_status)}</span></div><div class="m">${esc(x.notes||'')}</div></li>`).join('') : '<li class="empty">尚無紀錄。</li>';
 }
 
-function renderSettings(){
+function renderSync(){
   $('#sync-ledger').innerHTML=`<tr><td>資料來源</td><td>${S.remoteOk?'repo data 資料夾':'本機快照'}</td></tr>
     <tr><td>未同步檔案</td><td>${S.dirty.size? Array.from(S.dirty).join('、'):'無'}</td></tr>
     <tr><td>寫入目標</td><td style="text-align:left">${S.gh&&S.gh.owner? esc(`${S.gh.owner}/${S.gh.repo}@${S.gh.branch}`):'未設定'}</td></tr>
     <tr><td>權杖</td><td>${S.gh&&S.gh.token? '已保存於本機':'未填'}</td></tr>`;
-  $('#ver-ledger').innerHTML=`<tr><td>App</td><td>${APP_VERSION}</td></tr><tr><td>資料結構</td><td>${esc(S.settings.schema_version)}</td></tr><tr><td>讀書計畫版本</td><td>${esc(S.settings.plan_version)}</td></tr><tr><td>時區</td><td>${esc(S.settings.timezone)}</td></tr>`;
+  $('#ver-ledger').innerHTML=`<tr><td>App</td><td>${APP_VERSION}</td></tr><tr><td>資料結構</td><td>${esc(S.settings.schema_version)}</td></tr><tr><td>讀書計畫版本</td><td>${esc(S.settings.plan_version)}</td></tr>`;
 }
 
-function renderAll(){ renderHeader(); renderToday(); renderAttempts(); renderWeakness(); renderReview(); renderTrack(); renderSettings(); }
+function renderAll(){ renderHeader(); renderToday(); renderPlan(); renderAttempts(); renderWeakness(); renderReview(); renderTrack(); renderSync(); }
 
 /* ---------- context pack ---------- */
-function buildPack(){
-  const t=todayLA(), range=$('#pack-range').value, detail=$('#pack-detail').value==='1';
-  const since = range==='all' ? '0000-00-00' : addDays(t, -Number(range)+1);
-  const ph=phaseFor(t), [ws,we]=weekRange(t), cp=nextCheckpoint();
-  const ses=S.data.sessions.filter(s=>s.session_date>=since).sort((a,b)=>a.session_date.localeCompare(b.session_date));
-  const att=S.data.attempts.filter(a=>a.attempt_date>=since);
-  const off=att.filter(a=>a.material_type==='官方題'), orig=att.filter(a=>a.material_type!=='官方題');
-  const wkMins=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we).reduce((a,s)=>a+(s.effective_minutes||0),0);
-  const L=[];
-  L.push(`# LSJN2027 上下文包`);
-  L.push(`產生日期 ${t}（${S.settings.timezone}）　範圍 ${range==='all'?'全部':`最近 ${range} 天（自 ${since}）`}　資料結構 ${S.settings.schema_version}`);
-  L.push(``);
-  L.push(`## 目前位置`);
-  L.push(`- 階段：${ph.key}${weekLabel(t)!==ph.key?`　${weekLabel(t)}`:''}（${ws} 至 ${we}）　每週預算 ${ph.weekly_hours} 小時`);
-  L.push(`- 本週有效小時：${fmtMin(wkMins)}　累計：${fmtMin(S.data.sessions.reduce((a,s)=>a+(s.effective_minutes||0),0))} / ${S.settings.total_plan_hours}`);
-  if(cp){ L.push(`- 下一個檢查點：${cp.checkpoint_id} ${cp.gate}　${cp.review_date}（${dateDiffDays(t,cp.review_date)} 天後）`); L.push(`  - 核心問題：${cp.core_question}`); L.push(`  - 必要證據：${cp.required_evidence}`); L.push(`  - 參考門檻：${cp.threshold}`); if(cp.evidence_summary) L.push(`  - 目前證據摘要：${cp.evidence_summary}`); }
-  L.push(``);
-  L.push(`## 學習紀錄摘要（${ses.length} 筆，${fmtMin(ses.reduce((a,s)=>a+(s.effective_minutes||0),0))} 小時）`);
-  const byMode={}; ses.forEach(s=>byMode[s.mode]=(byMode[s.mode]||0)+(s.effective_minutes||0));
-  L.push(`- 模式分布（小時）：${Object.entries(byMode).map(([k,v])=>`${k} ${fmtMin(v)}`).join('；')||'無'}`);
-  const lvl=(arr,k)=>{ const c={}; arr.forEach(s=>{ if(s[k]) c[s[k]]=(c[s[k]]||0)+1; }); return Object.entries(c).map(([a,b])=>`${a}${b}`).join(' ')||'無'; };
-  L.push(`- 專注：${lvl(ses,'attention')}　疲勞：${lvl(ses,'fatigue')}　依計畫完成：${lvl(ses,'completion')}`);
-  const focus=ses.map(s=>s.focus_skill).filter(Boolean); if(focus.length) L.push(`- 重點能力：${Array.from(new Set(focus)).join('；')}`);
-  L.push(``);
-  const statBlock=(arr,title)=>{
-    const n=arr.length, fc=arr.filter(a=>a.first_correct==='是').length, brN=arr.filter(a=>a.blind_review_answer).length, brC=arr.filter(a=>a.blind_correct==='是').length;
-    const rcN=arr.filter(a=>a.reason_correct).length, rc=arr.filter(a=>a.reason_correct==='是').length;
-    const ot=arr.filter(a=>a.overtime==='是').length, gs=arr.filter(a=>a.guessed==='是').length, lo=arr.filter(a=>a.confidence==='低').length;
-    const secs=arr.map(a=>a.elapsed_seconds).filter(v=>v!=null); const avg=secs.length? Math.round(secs.reduce((a,b)=>a+b,0)/secs.length):null;
-    L.push(`## ${title}（${n} 題）`);
-    if(!n){ L.push(`- 無`); L.push(``); return; }
-    L.push(`- 第一次正確 ${fc}/${n}（${pct(fc,n)}）　盲審正確 ${brC}/${brN}　理由正確 ${rc}/${rcN}`);
-    L.push(`- 逾時 ${ot}　猜測 ${gs}　低信心 ${lo}　平均秒數 ${avg??'—'}`);
-    const g={}; arr.forEach(a=>{ const k=a.section||'—'; g[k]=g[k]||{n:0,c:0}; g[k].n++; if(a.first_correct==='是') g[k].c++; });
-    if(arr.some(a=>a.section)) L.push(`- 依部分：${Object.entries(g).map(([k,v])=>`${k} ${v.c}/${v.n}`).join('；')}`);
-    const q={}; arr.forEach(a=>{ const k=a.question_type||'未標'; q[k]=q[k]||{n:0,c:0}; q[k].n++; if(a.first_correct==='是') q[k].c++; });
-    L.push(`- 依題型：${Object.entries(q).sort((a,b)=>b[1].n-a[1].n).map(([k,v])=>`${k} ${v.c}/${v.n}`).join('；')}`);
-    L.push(``);
-  };
-  statBlock(off,'官方題表現'); statBlock(orig,'原創題表現（分開計，不推估分數）');
-  if(detail){
-    const pend=att.filter(a=>a.review_flag==='是').sort((a,b)=>a.attempt_id.localeCompare(b.attempt_id));
-    L.push(`## 待檢討題目明細（${pend.length} 題）`);
-    if(!pend.length) L.push(`- 無`);
-    pend.forEach(a=> L.push(`- ${a.attempt_id}｜${a.mode}｜${a.material_type}${a.material_type==='官方題'?`｜${a.prep_test} ${a.section} Q${a.question_number}`:''}｜${a.question_type||'題型未標'}｜第一次 ${a.timed_answer}${a.blind_review_answer?` 盲審 ${a.blind_review_answer}`:' 盲審未填'} 正解 ${a.correct_answer}｜${a.elapsed_seconds!=null?a.elapsed_seconds+'秒':'秒數—'}｜信心${a.confidence||'—'}｜重讀${a.reread_method||'—'}｜理由${a.reason_correct||'未判斷'}｜${flagReasons(a).join('、')}${a.signature_id?`｜${a.signature_id}`:''}${a.notes?`｜${a.notes}`:''}`));
-    L.push(``);
-  }
-  const lastHo=S.data.handoffs.slice().sort((a,b)=>b.date.localeCompare(a.date)||b.handoff_id.localeCompare(a.handoff_id))[0];
-  L.push(`## 上次課程接續`);
-  if(lastHo){ L.push(`- ${lastHo.handoff_id}｜${lastHo.date}｜停在：${lastHo.stopped_at}`); if(lastHo.taught) L.push(`- 已教：${lastHo.taught}`); if(lastHo.observed) L.push(`- 觀察：${lastHo.observed}`); L.push(`- 下次任務：${lastHo.next_task}`); if(lastHo.open_questions) L.push(`- 待處理問題：${lastHo.open_questions}`); }
-  else L.push(`- 尚無接續摘要`);
-  L.push(``);
-  const wk=weaknessTable(S.data.attempts.filter(a=>a.material_type==='官方題')).filter(r=>r.score>0).slice(0,6);
-  L.push(`## 弱點排序（官方題全期，樣本 ≥ ${S.settings.weakness_min_n||3}）`);
-  if(!wk.length) L.push(`- 尚無達門檻且有錯題的題型`); wk.forEach(r=>L.push(`- ${r.kind} ${r.k}｜第一次 ${r.c}/${r.n}｜盲審 ${r.br}/${r.brN}｜理由錯 ${r.rw}`));
-  L.push(``);
-  const ask=S.data.cards.filter(c=>c.ask_chat==='是'), dueC=S.data.cards.filter(c=>c.next_review&&c.next_review<=t);
-  L.push(`## 知識卡片（共 ${S.data.cards.length}，到期 ${dueC.length}，待解釋 ${ask.length}）`);
-  ask.forEach(c=>L.push(`- 待 Claude 解釋：${c.card_id}｜${c.title}｜${c.core}${c.common_error?`｜誤判：${c.common_error}`:''}`));
-  S.data.cards.filter(c=>c.card_status==='待確認'&&c.ask_chat!=='是').slice(0,10).forEach(c=>L.push(`- 待確認：${c.card_id}｜${c.title}`));
-  L.push(``);
-  const act=S.data.signatures.filter(s=>s.signature_status!=='已封存');
-  L.push(`## 錯誤指紋（未封存 ${act.length}）`);
-  if(!act.length) L.push(`- 無`);
-  act.forEach(s=>L.push(`- ${s.signature_id}｜${s.error_type}｜${s.trigger_signal}｜${s.attraction||'—'}｜${s.corrective_action}｜${s.stage}｜${s.signature_status}｜證據 ${s.evidence_count}｜最近 ${s.last_seen}`));
-  L.push(``);
-  const openH=S.data.hypotheses.filter(h=>!['已否定','已解決'].includes(h.hypothesis_status));
-  L.push(`## 未結案診斷假設（${openH.length}）`);
-  openH.forEach(h=>L.push(`- ${h.hypothesis_id}｜${h.scope}｜${h.statement}｜${h.hypothesis_status}｜獨立觀察 ${h.independent_observations}｜下一項測試：${h.next_test}`));
-  L.push(``);
-  const notClean=S.data.exposure.filter(x=>x.clean_pt_eligible!=='是').map(x=>`${x.pt_id}（${x.exposure_status}）`);
-  L.push(`## 官方題接觸`);
-  L.push(`- 不可作乾淨完整模考：${notClean.join('、')||'無'}`);
-  L.push(``);
-  L.push(`## 使用限制`);
-  L.push(`- 本包只含題號與表現資料，不含題目全文。原創題表現不得與官方題混合，也不得用來推估分數。`);
-  L.push(`- 正確率須與盲審、理由品質、延遲保留及錯誤重複一併判讀，不得單獨作為決定依據。`);
-  return L.join('\n');
-}
 
 /* ---------- xlsx export ---------- */
-function loadScript(src){ return new Promise((res,rej)=>{ if(document.querySelector(`script[src="${src}"]`)) return res(); const s=document.createElement('script'); s.src=src; s.onload=res; s.onerror=()=>rej(new Error('無法載入 SheetJS')); document.head.appendChild(s); }); }
-async function exportXlsx(){
-  try{ await loadScript('https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js'); }catch(e){ toast(e.message); return; }
-  const H={
-    sessions:[['session_id','紀錄編號'],['session_date','日期'],['week_label','週次'],['phase','階段'],['mode','模式'],['effective_minutes','有效分鐘'],['material_source','材料來源'],['lr_minutes','LR分鐘'],['rc_minutes','RC分鐘'],['review_minutes','檢討分鐘'],['focus_skill','重點能力'],['completion','依計畫完成'],['attention','專注程度'],['fatigue','疲勞程度'],['sleep_hours','睡眠小時'],['notes','備註']],
-    attempts:[['attempt_id','作答編號'],['attempt_date','日期'],['session_id','學習紀錄編號'],['mode','模式'],['material_type','材料類型'],['source','來源'],['prep_test','測驗編號'],['section','部分'],['question_number','題號'],['question_type','題型'],['skill_tag','能力標籤'],['timed_answer','第一次答案'],['blind_review_answer','盲審答案'],['correct_answer','正確答案'],['first_correct','第一次正確'],['blind_correct','盲審正確'],['elapsed_seconds','作答秒數'],['confidence','信心程度'],['reread_method','重讀方式'],['overtime','逾時'],['guessed','猜測'],['reason_correct','理由正確'],['review_flag','檢討標記'],['signature_id','錯誤指紋編號'],['notes','備註']],
-    exposure:[['pt_id','測驗編號'],['exposure_status','接觸狀態'],['first_exposure','首次接觸'],['last_exposure','最近接觸'],['sections_seen','已看部分'],['questions_seen','已看題數'],['full_score','完整分數'],['blind_review','盲審'],['explanations_seen','看過解析'],['clean_pt_eligible','可作乾淨完整模考'],['notes','備註'],['source','來源']],
-    signatures:[['signature_id','指紋編號'],['error_type','錯誤類型'],['trigger_signal','觸發訊號'],['attraction','錯誤選項為何有吸引力'],['corrective_action','修正動作'],['signature_status','狀態'],['created','建立日期'],['last_seen','最近出現'],['stage','驗證階段'],['near_transfer','近移轉'],['far_transfer','遠移轉'],['delayed_retest','延遲複測'],['official_timed','官方計時驗證'],['evidence_count','證據筆數'],['notes','備註']],
-    hypotheses:[['hypothesis_id','假設編號'],['scope','範圍'],['statement','假設內容'],['hypothesis_status','狀態'],['first_raised','首次提出'],['last_updated','最近更新'],['supporting_evidence','支持證據'],['contrary_evidence','反證或限制'],['independent_observations','獨立觀察次數'],['next_test','下一項測試'],['checkpoint','檢查點'],['current_decision','目前決定'],['source','來源']],
-    cards:[['card_id','卡片編號'],['title','標題'],['core','核心區分'],['common_error','常見誤判'],['corrective_action','修正動作'],['example','例子'],['scope','範圍'],['signature_id','錯誤指紋編號'],['source','來源'],['card_status','狀態'],['next_review','下次複習'],['review_count','複習次數'],['last_result','最近結果'],['ask_chat','待Claude解釋']],
-    handoffs:[['handoff_id','接續編號'],['date','日期'],['session_id','學習紀錄編號'],['stopped_at','停點'],['taught','已教'],['observed','觀察'],['next_task','下次任務'],['open_questions','待處理問題']],
-    checkpoints:[['checkpoint_id','檢查點'],['review_date','檢視日期'],['gate','階段門檻'],['core_question','核心問題'],['required_evidence','必要證據'],['threshold','參考門檻'],['checkpoint_status','狀態'],['checkpoint_decision','決定'],['decision_date','決定日期'],['evidence_summary','證據摘要'],['repair_action','修復動作']]
-  };
-  const names={sessions:'學習紀錄',attempts:'題目紀錄',exposure:'官方題目使用',signatures:'錯誤指紋',hypotheses:'診斷假設',checkpoints:'檢查點',cards:'知識卡片',handoffs:'課程接續'};
-  const wb=XLSX.utils.book_new();
-  for(const f of FILES){ const rows=[H[f].map(h=>h[1])].concat(S.data[f].map(r=>H[f].map(h=>r[h[0]]??''))); XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(rows), names[f]); }
-  XLSX.writeFile(wb, `LSJN2027_Tracker_export_${todayLA()}.xlsx`); toast('已產生 xlsx');
-}
 function downloadJSON(){
   const blob=new Blob([JSON.stringify({settings:S.settings, ...S.data},null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`LSJN2027_data_${todayLA()}.json`; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000);
@@ -640,26 +458,11 @@ function downloadJSON(){
 /* ---------- init ---------- */
 function initForms(){
   buildSegs();
-  const o=S.settings.options;
-  fillSelect($('#f-attempt select[name=section]'), o.section, true);
-  fillSelect($('#f-attempt select[name=question_type]'), o.question_type_lr, true);
-  fillSelect($('#batch-mode'), o.mode); $('#batch-mode').value='測驗';
-  fillSelect($('#f-exp select[name=exposure_status]'), o.exposure_status);
-  $('#f-attempt select[name=section]').addEventListener('change',e=>{ const rc=e.target.value==='RC'; fillSelect($('#f-attempt select[name=question_type]'), rc? o.question_type_rc:o.question_type_lr, true); });
-  $('#f-attempt').addEventListener('segchange',e=>{ if(e.detail.name==='material_type'){ $('#official-fields').style.opacity = e.detail.value==='原創題'? .45:1; } });
-  const t=todayLA(); $('#f-session input[name=session_date]').value=t; $('#f-attempt input[name=attempt_date]').value=t; $('#batch-date').value=t;
-
+  const t=todayLA(); $('#f-session input[name=session_date]').value=t;
   $('#f-session').addEventListener('submit', onSessionSubmit);
-  $('#f-attempt').addEventListener('submit', onAttemptSubmit);
-  $('#btn-batch').addEventListener('click', onBatch);
-  $('#f-sig').addEventListener('submit', onSigSubmit);
-  $('#f-exp').addEventListener('submit', onExpSubmit);
-  $('#f-card').addEventListener('submit', onCardSubmit);
+  $('#f-note').addEventListener('submit', onNoteSubmit);
   $('#btn-wb-check').addEventListener('click', wbCheck);
   $('#btn-wb-apply').addEventListener('click', wbApply);
-  $('#btn-pack').addEventListener('click',()=>{ $('#pack-out').textContent=buildPack(); $('#btn-copy').disabled=false; });
-  $('#btn-copy').addEventListener('click', async()=>{ const txt=$('#pack-out').textContent; try{ await navigator.clipboard.writeText(txt); toast('已複製'); }catch{ const r=document.createRange(); r.selectNodeContents($('#pack-out')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); toast('請手動複製已選取的文字'); } });
-  $('#btn-xlsx').addEventListener('click', exportXlsx);
   $('#btn-json').addEventListener('click', downloadJSON);
   $('#btn-save-gh').addEventListener('click', saveGh);
   $('#btn-sync').addEventListener('click', syncNow);

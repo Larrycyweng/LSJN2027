@@ -123,6 +123,17 @@ details{margin-top:8px}
 .card.open .body{display:block}
 .card .body p{margin:6px 0}
 .card .body .k{color:var(--ink-2);font-size:.85rem}
+.chk{list-style:none;margin:0;padding:0}
+.chk li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--line)}
+.chk li:last-child{border-bottom:0}
+.chk input[type=checkbox]{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--blue)}
+.chk .lb{flex:1}
+.chk .done .lb{color:var(--ink-2);text-decoration:line-through;text-decoration-color:var(--line)}
+.chk .cp-item{background:var(--flag-soft);border-radius:var(--r);padding:9px 10px;margin:4px 0;border-bottom:0}
+.chk .cp-item .lb{font-weight:600;color:var(--flag);text-decoration:none}
+.chk .cp-item .std{font-weight:400;color:var(--ink);font-size:.85rem;margin-top:4px}
+.grp summary{color:var(--ink);font-weight:600;padding:8px 0}
+.grp summary .pgr{color:var(--ink-2);font-weight:400;font-size:.85rem}
 summary{cursor:pointer;color:var(--blue)}
 .small{font-size:.85rem;color:var(--ink-2)}
 @media (prefers-reduced-motion:reduce){.toast{transition:none}}
@@ -151,100 +162,35 @@ summary{cursor:pointer;color:var(--blue)}
     <div class="bar"><b id="week-bar"></b></div>
     <div class="small" id="week-note"></div>
   </div>
-
   <div class="panel">
-    <h2>新增學習紀錄</h2>
-    <div class="hint">一次學習時段一筆。休息與行政時間不計入有效分鐘。</div>
+    <h2>快速紀錄</h2>
+    <div class="hint">只記時間。內容、題目與觀察由課後寫回包補齊。</div>
     <form id="f-session" autocomplete="off">
       <div class="row">
         <label class="f"><span class="l">日期</span><input type="date" name="session_date" required></label>
         <label class="f"><span class="l">有效分鐘</span><input type="number" name="effective_minutes" min="5" max="600" step="5" inputmode="numeric" required></label>
       </div>
       <label class="f"><span class="l">模式</span><div class="seg" data-seg="mode" data-opt="mode"></div></label>
-      <label class="f"><span class="l">材料來源</span><div class="seg" data-seg="material_source" data-opt="source"></div></label>
-      <div class="row3">
-        <label class="f"><span class="l">LR 分鐘</span><input type="number" name="lr_minutes" min="0" step="5" inputmode="numeric"></label>
-        <label class="f"><span class="l">RC 分鐘</span><input type="number" name="rc_minutes" min="0" step="5" inputmode="numeric"></label>
-        <label class="f"><span class="l">檢討分鐘</span><input type="number" name="review_minutes" min="0" step="5" inputmode="numeric"></label>
-      </div>
-      <label class="f"><span class="l">重點能力</span><input type="text" name="focus_skill" placeholder="例：結論／理由／讓步區分"></label>
-      <label class="f"><span class="l">依計畫完成</span><div class="seg" data-seg="completion" data-opt="completion"></div></label>
-      <div class="row">
-        <label class="f"><span class="l">專注</span><div class="seg" data-seg="attention" data-opt="attention"></div></label>
-        <label class="f"><span class="l">疲勞</span><div class="seg" data-seg="fatigue" data-opt="fatigue"></div></label>
-      </div>
-      <div class="row">
-        <label class="f"><span class="l">前晚睡眠小時</span><input type="number" name="sleep_hours" min="0" max="14" step="0.5" inputmode="decimal"></label>
-        <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
-      </div>
-      <div class="actions"><button class="btn block" type="submit">保存學習紀錄</button></div>
+      <label class="f"><span class="l">來源</span><div class="seg" data-seg="material_source" data-opt="source"></div></label>
+      <div class="actions"><button class="btn block" type="submit">保存</button></div>
     </form>
-  </div>
-
-  <div class="panel">
-    <h2>最近學習紀錄</h2>
     <ul class="list" id="session-list"></ul>
   </div>
 </section>
 
-<!-- 題目 -->
-<section class="view" id="v-attempts">
+<!-- 進度 -->
+<section class="view" id="v-plan">
   <div class="panel">
-    <h2>新增題目紀錄</h2>
-    <div class="hint">先保存第一次答案，盲審完成後再回來補。官方題與原創題分開標記。</div>
-    <form id="f-attempt" autocomplete="off">
-      <div class="row">
-        <label class="f"><span class="l">日期</span><input type="date" name="attempt_date" required></label>
-        <label class="f"><span class="l">連結學習紀錄</span><select name="session_id"><option value="">（不連結）</option></select></label>
-      </div>
-      <label class="f"><span class="l">模式</span><div class="seg" data-seg="mode" data-opt="mode"></div></label>
-      <label class="f"><span class="l">材料類型</span><div class="seg" data-seg="material_type" data-opt="material_type"></div></label>
-      <div class="row3" id="official-fields">
-        <label class="f"><span class="l">測驗編號</span><input type="text" name="prep_test" placeholder="PT150"></label>
-        <label class="f"><span class="l">部分</span><select name="section"></select></label>
-        <label class="f"><span class="l">題號</span><input type="number" name="question_number" min="1" max="30" inputmode="numeric"></label>
-      </div>
-      <div class="row">
-        <label class="f"><span class="l">題型</span><select name="question_type"></select></label>
-        <label class="f"><span class="l">能力標籤</span><input type="text" name="skill_tag" placeholder="例：條件方向"></label>
-      </div>
-      <label class="f"><span class="l">第一次答案</span><div class="seg ans" data-seg="timed_answer" data-opt="answer"></div></label>
-      <label class="f"><span class="l">盲審答案（可留白）</span><div class="seg ans" data-seg="blind_review_answer" data-opt="answer" data-clearable="1"></div></label>
-      <label class="f"><span class="l">正確答案</span><div class="seg ans" data-seg="correct_answer" data-opt="answer"></div></label>
-      <div class="row">
-        <label class="f"><span class="l">作答秒數</span><input type="number" name="elapsed_seconds" min="0" inputmode="numeric"></label>
-        <label class="f"><span class="l">信心</span><div class="seg" data-seg="confidence" data-opt="confidence"></div></label>
-      </div>
-      <label class="f"><span class="l">重讀方式</span><div class="seg" data-seg="reread_method" data-opt="reread_method"></div></label>
-      <div class="row">
-        <label class="f"><span class="l">逾時</span><div class="seg" data-seg="overtime" data-opt="yes_no"></div></label>
-        <label class="f"><span class="l">猜測</span><div class="seg" data-seg="guessed" data-opt="yes_no"></div></label>
-      </div>
-      <label class="f"><span class="l">理由正確</span><div class="seg" data-seg="reason_correct" data-opt="reason_correct"></div></label>
-      <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
-      <div class="actions"><button class="btn block" type="submit">保存題目紀錄</button></div>
-    </form>
-    <details>
-      <summary>批次貼上（一行一題）</summary>
-      <div class="hint">格式：測驗編號, 部分, 題號, 第一次答案, 正確答案[, 秒數][, 信心 高/中/低]<br>例：PT150, LR1, 5, B, C, 95, 中</div>
-      <textarea id="batch-text" placeholder="PT150, LR1, 1, A, A, 60, 高&#10;PT150, LR1, 2, C, D, 130, 低"></textarea>
-      <div class="row">
-        <label class="f"><span class="l">日期</span><input type="date" id="batch-date"></label>
-        <label class="f"><span class="l">模式</span><select id="batch-mode"></select></label>
-      </div>
-      <div class="actions"><button class="btn ghost" type="button" id="btn-batch">匯入批次</button></div>
-    </details>
+    <h2>學習進度表</h2>
+    <div class="hint">打勾表示排程已完成，是提醒不是能力證明。檢查點的通過與否依證據在課程中作成，記錄於下方檢查點區。</div>
+    <div class="bar"><b id="plan-bar"></b></div>
+    <div class="small" id="plan-note"></div>
+    <div id="plan-groups"></div>
   </div>
-
   <div class="panel">
-    <h2>待檢討題目 <span class="tag flag" id="review-count">0</span></h2>
-    <div class="hint">答錯、低信心、逾時、猜測或理由不正確的題目。點一筆可補盲審答案與理由判斷。</div>
-    <ul class="list" id="review-list"></ul>
-  </div>
-
-  <div class="panel">
-    <h2>官方題累計</h2>
-    <table class="ledger" id="attempt-stats"></table>
+    <h2>檢查點決定</h2>
+    <ul class="list" id="cp-list"></ul>
+    <div id="cp-decide"></div>
   </div>
 </section>
 
@@ -252,29 +198,26 @@ summary{cursor:pointer;color:var(--blue)}
 <section class="view" id="v-review">
   <div class="panel">
     <h2>到期複習 <span class="tag" id="due-count">0</span></h2>
-    <div class="hint">一次最多五張。先自己回想，再按「揭示」。按「記得」只延後下次複習，不改變掌握狀態；掌握仍以新題驗證。</div>
+    <div class="hint">先回想，再揭示。「記得」只延後下次複習；掌握仍以新題驗證。</div>
     <div id="due-cards"></div>
   </div>
   <div class="panel">
+    <h2>快速筆記</h2>
+    <div class="hint">路上想到的東西先丟這裡，狀態為待確認，下次課程我會整理成正式卡片或併入既有卡片。</div>
+    <form id="f-note" autocomplete="off">
+      <label class="f"><span class="l">標題</span><input type="text" name="title" required placeholder="unless 的方向"></label>
+      <label class="f"><span class="l">內容</span><textarea name="core" required placeholder="想確認：unless 翻成 if not 之後，箭頭指向哪邊？"></textarea></label>
+      <div class="actions"><button class="btn block" type="submit">存為待確認卡片</button></div>
+    </form>
+  </div>
+  <div class="panel">
     <h2>知識卡片</h2>
-    <div class="hint">一張卡只保存一個區分。狀態：待確認 → 已理解 → 已驗證（需新題驗證後由寫回包提出）。</div>
     <ul class="list" id="card-list"></ul>
-    <details>
-      <summary>新增知識卡片</summary>
-      <form id="f-card" autocomplete="off">
-        <label class="f"><span class="l">標題</span><input type="text" name="title" required placeholder="必要條件 vs 充分條件"></label>
-        <label class="f"><span class="l">核心區分（一句）</span><textarea name="core" required></textarea></label>
-        <label class="f"><span class="l">我的常見誤判</span><input type="text" name="common_error"></label>
-        <label class="f"><span class="l">修正動作</span><input type="text" name="corrective_action"></label>
-        <label class="f"><span class="l">例子</span><textarea name="example"></textarea></label>
-        <div class="row">
-          <label class="f"><span class="l">範圍</span><div class="seg" data-seg="scope" data-opt="scope"></div></label>
-          <label class="f"><span class="l">連結錯誤指紋</span><select name="signature_id"><option value=""></option></select></label>
-        </div>
-        <label class="f"><span class="l">來源</span><input type="text" name="source" placeholder="2026-09-14 課程／PT150 LR1 Q5"></label>
-        <div class="actions"><button class="btn" type="submit">建立卡片</button></div>
-      </form>
-    </details>
+  </div>
+  <div class="panel">
+    <h2>錯誤指紋（唯讀）</h2>
+    <div class="hint">由課程診斷產生與更新。</div>
+    <ul class="list" id="sig-list"></ul>
   </div>
 </section>
 
@@ -282,90 +225,35 @@ summary{cursor:pointer;color:var(--blue)}
 <section class="view" id="v-track">
   <div class="panel">
     <h2>弱點排序（官方題）</h2>
-    <div class="hint">依題型與能力標籤計算。樣本未達門檻者列為「樣本不足」，不作為 drill 依據。原創題另列，不與官方題混合。</div>
+    <div class="hint">依作答紀錄計算。樣本不足者不排序。原創題另列，不混合。</div>
     <div id="weak-body"></div>
   </div>
   <div class="panel">
-    <h2>下一個檢查點</h2>
-    <div id="cp-next"></div>
-    <details><summary>全部檢查點與決定</summary><ul class="list" id="cp-list"></ul></details>
+    <h2>官方題累計</h2>
+    <table class="ledger" id="attempt-stats"></table>
   </div>
-
   <div class="panel">
-    <h2>錯誤指紋 <span class="tag" id="sig-count">0</span></h2>
-    <div class="hint">只有重複出現、有觸發訊號且有可執行修正動作的錯誤才建立。每週保留 3 到 5 個追蹤中。</div>
-    <ul class="list" id="sig-list"></ul>
-    <details>
-      <summary>新增錯誤指紋</summary>
-      <form id="f-sig" autocomplete="off">
-        <label class="f"><span class="l">錯誤類型</span><input type="text" name="error_type" required placeholder="讓步≠理由"></label>
-        <label class="f"><span class="l">觸發訊號</span><input type="text" name="trigger_signal" required placeholder="nevertheless"></label>
-        <label class="f"><span class="l">錯誤選項為何有吸引力</span><input type="text" name="attraction" placeholder="被末句位置誤導"></label>
-        <label class="f"><span class="l">修正動作</span><input type="text" name="corrective_action" required placeholder="讓步只限縮立場，不支持主結論"></label>
-        <label class="f"><span class="l">範圍</span><div class="seg" data-seg="scope" data-opt="scope"></div></label>
-        <div class="actions"><button class="btn" type="submit">建立指紋</button></div>
-      </form>
-    </details>
-  </div>
-
-  <div class="panel">
-    <h2>診斷假設</h2>
-    <div class="hint">2025 年資料只形成待驗證假設，不代表目前能力。點一筆可更新狀態與證據。</div>
-    <ul class="list" id="hyp-list"></ul>
-  </div>
-
-  <div class="panel">
-    <h2>官方題接觸狀態</h2>
-    <div class="hint">看過題目、解析或中斷作答都要記錄。使用官方題前先查此表。</div>
+    <h2>官方題接觸狀態（唯讀）</h2>
+    <div class="hint">使用官方題前先查此表。更新由寫回包完成。</div>
     <ul class="list" id="exp-list"></ul>
-    <form id="f-exp" autocomplete="off">
-      <div class="row3">
-        <label class="f"><span class="l">測驗編號</span><input type="text" name="pt_id" required placeholder="PT150"></label>
-        <label class="f"><span class="l">接觸狀態</span><select name="exposure_status"></select></label>
-        <label class="f"><span class="l">已看部分</span><input type="text" name="sections_seen" placeholder="LR1"></label>
-      </div>
-      <label class="f"><span class="l">備註</span><input type="text" name="notes"></label>
-      <div class="actions"><button class="btn ghost" type="submit">新增或更新接觸紀錄</button></div>
-    </form>
+  </div>
+  <div class="panel">
+    <h2>診斷假設（唯讀）</h2>
+    <ul class="list" id="hyp-list"></ul>
   </div>
 </section>
 
-<!-- 匯出 -->
+<!-- 同步 -->
 <section class="view" id="v-export">
   <div class="panel">
-    <h2>上下文包</h2>
-    <div class="hint">貼進專案對話。內容只含題號與表現資料，不含題目全文。</div>
-    <div class="row">
-      <label class="f"><span class="l">範圍</span><select id="pack-range"><option value="7">最近 7 天</option><option value="14">最近 14 天</option><option value="30">最近 30 天</option><option value="all">全部</option></select></label>
-      <label class="f"><span class="l">含待檢討題目明細</span><select id="pack-detail"><option value="1">是</option><option value="0">否</option></select></label>
-    </div>
-    <div class="actions">
-      <button class="btn" type="button" id="btn-pack">產生上下文包</button>
-      <button class="btn ghost" type="button" id="btn-copy" disabled>複製</button>
-    </div>
-    <pre class="pack" id="pack-out">尚未產生。</pre>
-  </div>
-
-  <div class="panel">
     <h2>寫回包</h2>
-    <div class="hint">貼入 Claude 在課後產生的 JSON。App 逐筆列出，你確認後才寫入。已寫入過的 client_request_id 會被拒絕。</div>
+    <div class="hint">貼入 Claude 課後產生的 JSON，檢查後確認寫入。核對重點：題號與答案是否與你的截圖一致。</div>
     <textarea id="wb-text" placeholder='{"writeback_version":"1.0","items":[...]}'></textarea>
     <div class="actions"><button class="btn ghost" type="button" id="btn-wb-check">檢查</button><button class="btn" type="button" id="btn-wb-apply" disabled>確認寫入</button></div>
     <ul class="list" id="wb-preview"></ul>
   </div>
-
-  <div class="panel">
-    <h2>匯出檔案</h2>
-    <div class="hint">xlsx 只供檢視，不是資料權威。權威資料是 repo 中 data 資料夾的 JSON。</div>
-    <div class="actions">
-      <button class="btn ghost" type="button" id="btn-xlsx">下載 xlsx</button>
-      <button class="btn ghost" type="button" id="btn-json">下載全部 JSON</button>
-    </div>
-  </div>
-
   <div class="panel">
     <h2>GitHub 同步</h2>
-    <div class="hint">資料讀取自此網站的 data 資料夾；寫入使用 GitHub Contents API。權杖只存在這支手機的瀏覽器中。</div>
     <div class="row">
       <label class="f"><span class="l">帳號（owner）</span><input type="text" id="gh-owner" autocapitalize="off"></label>
       <label class="f"><span class="l">repo 名稱</span><input type="text" id="gh-repo" autocapitalize="off"></label>
@@ -380,18 +268,13 @@ summary{cursor:pointer;color:var(--blue)}
     </div>
     <table class="ledger" id="sync-ledger"></table>
   </div>
-
   <div class="panel">
     <h2>本機資料</h2>
-    <div class="hint">未同步的變更會留在本機。重新載入時會與 repo 資料合併，以較新的紀錄為準。</div>
     <div class="actions">
       <button class="btn ghost" type="button" id="btn-reload">重新載入 repo 資料</button>
+      <button class="btn ghost" type="button" id="btn-json">下載全部 JSON</button>
       <button class="btn warn" type="button" id="btn-clear-local">清除本機未同步資料</button>
     </div>
-  </div>
-
-  <div class="panel">
-    <h2>版本</h2>
     <table class="ledger" id="ver-ledger"></table>
   </div>
 </section>
@@ -400,7 +283,7 @@ summary{cursor:pointer;color:var(--blue)}
 
 <nav class="tabs" role="tablist">
   <button role="tab" data-view="v-today" aria-selected="true">今日</button>
-  <button role="tab" data-view="v-attempts" aria-selected="false">題目</button>
+  <button role="tab" data-view="v-plan" aria-selected="false">進度</button>
   <button role="tab" data-view="v-review" aria-selected="false">複習</button>
   <button role="tab" data-view="v-track" aria-selected="false">追蹤</button>
   <button role="tab" data-view="v-export" aria-selected="false">同步</button>

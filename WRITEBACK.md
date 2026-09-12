@@ -29,7 +29,8 @@ Claude 在每次課程結束時輸出一個 JSON 寫回包。使用者貼入 App
 
 - `client_request_id` 由 Claude 產生，格式 `YYYYMMDD-<類型字母><序號>`。同一 id 重貼會被拒絕。
 - `add_card` 的 `card_status` 一律由 App 設為「待確認」。升級為「已理解」或「已驗證」由使用者在 App 操作，或日後在寫回包中另以明確操作提出。
-- `add_attempt` 只接受原創題。官方題作答一律由使用者在 App 輸入。
+- `add_attempt` 可寫入官方題，但必須含 `"source_evidence": "使用者截圖"`，且只轉錄截圖可見內容，不明欄位留白。原創題不需此欄位。
+- 新操作：`update_exposure`（更新官方題接觸狀態，需 pt_id）、`update_session`（補充既有學習紀錄的內容欄位，需 session_id）。
 - `suggest_*` 只能更新政策檔列出的欄位。
 - 不提供刪除或覆寫作答的操作。
 - 每筆課程至少包含一個 `add_handoff`，其 `stopped_at` 與 `next_task` 必填，供下次課前讀取。
