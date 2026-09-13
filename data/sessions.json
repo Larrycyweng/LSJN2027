@@ -19,5 +19,26 @@
     "created_at": "2026-09-12T17:38:23.394Z",
     "updated_at": "2026-09-12T18:39:35.204Z",
     "last_request_id": "20260912-s1"
+  },
+  {
+    "session_id": "S-20260913-01",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "原創題",
+    "lr_minutes": 40,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "論證角色：結論、理由、背景、反方立場、讓步",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "Day 1。練習一 5/5；練習二 5/6，(6) rule premise 誤判為背景，經刪除測試訂正；2 句移轉題（sleep/retention）通過。補充教學：persuasiveness vs. logical support——should 結論需要 premise 中有 should。教學語言依使用者要求改為英文。核心句使用者自述版本：待補。",
+    "session_date": "2026-09-13",
+    "mode": "觀念學習",
+    "effective_minutes": 40,
+    "client_request_id": "20260913-s1",
+    "created_at": "2026-09-13T19:04:50.927Z",
+    "updated_at": "2026-09-13T19:04:50.927Z"
   }
 ]
