@@ -11,5 +11,18 @@
     "client_request_id": "20260912-h1",
     "created_at": "2026-09-12T18:39:35.206Z",
     "updated_at": "2026-09-12T18:39:35.206Z"
+  },
+  {
+    "handoff_id": "HO-002",
+    "session_id": "S-20260913-01",
+    "taught": "五種論證角色與判定法；刪除測試；rule premise 概念；should 結論需要 should 前提",
+    "observed": "分類能力良好（10/11）；SIG-001 已建立並近距離移轉通過；教學語言改為英文，LSAT 術語保留英文",
+    "open_questions": "SIG-001 延遲複測（9/15–9/16 換題面不預告重測）；核心句使用者自述版本待補；中間結論尚未教（Week 1）；待 9/18 App 支援 outline 後以 add_section 補入 Day 1 內容",
+    "date": "2026-09-13",
+    "stopped_at": "01 LR｜Day 1 完成",
+    "next_task": "01 LR｜9/14 Day 2：因果宣稱、相關≠因果、替代原因、反向因果；不預告複測 SIG-001；開場收使用者自述核心句",
+    "client_request_id": "20260913-h1",
+    "created_at": "2026-09-13T19:04:50.928Z",
+    "updated_at": "2026-09-13T19:04:50.928Z"
   }
 ]
