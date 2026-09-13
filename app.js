@@ -292,15 +292,15 @@ function renderPlan(){
   const doable=items.filter(i=>i.kind!=='checkpoint');
   const nd=doable.filter(i=>isDone(i.id)).length;
   $('#plan-bar').style.width=(doable.length? 100*nd/doable.length:0)+'%';
-  const totalMin=S.data.sessions.filter(x=>!(x.notes||'').includes('測試')).reduce((a,x)=>a+(x.effective_minutes||0),0);
+  const totalMin=S.data.sessions.filter(x=>!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0);
   $('#plan-note').textContent=`已完成 ${nd} / ${doable.length} 項排程　累計有效 ${fmtMin(totalMin)} / ${S.settings.total_plan_hours} 小時（${Math.round(100*totalMin/60/S.settings.total_plan_hours)}%）`;
   const groups=[]; items.forEach(i=>{ let g=groups.find(x=>x.name===i.group); if(!g){ g={name:i.group,items:[]}; groups.push(g); } g.items.push(i); });
   const t=todayLA(); const curGroup=(()=>{ const ph=phaseFor(t).key; const map={'起始週':'起始週','第一階段':'第一階段','第二階段':'第二階段','第三階段':'第三階段','考前減量':'最後兩週'}; return map[ph]||''; })();
   const hoursFor=i=>{ let from,to; if(i.kind==='day'){ const md=i.id.slice(3); const y= md<'0201'? '2027':'2026'; from=to=`${y}-${md.slice(0,2)}-${md.slice(2)}`; }
     else if(i.kind==='week'){ const w=Number(i.id.slice(1)); from=addDays(S.settings.plan_start,w*7); to=addDays(from,6); } else return null;
-    const m=S.data.sessions.filter(x=>x.session_date>=from&&x.session_date<=to&&!(x.notes||'').includes('測試')).reduce((a,x)=>a+(x.effective_minutes||0),0);
+    const m=S.data.sessions.filter(x=>x.session_date>=from&&x.session_date<=to&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0);
     const target=i.kind==='week'? phaseFor(from).weekly_hours : null;
-    const cum=i.kind==='week'? S.data.sessions.filter(x=>x.session_date<=to&&!(x.notes||'').includes('測試')).reduce((a,x)=>a+(x.effective_minutes||0),0) : null;
+    const cum=i.kind==='week'? S.data.sessions.filter(x=>x.session_date<=to&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0) : null;
     const cumTarget=i.kind==='week'? (()=>{ let h=0; for(let w=0;w<=Number(i.id.slice(1));w++){ const f=addDays(S.settings.plan_start,w*7); h+=phaseFor(f).weekly_hours; } return h; })() : null;
     return {m,target,cum,cumTarget}; };
   $('#plan-groups').innerHTML=groups.map(g=>{ const gd=g.items.filter(i=>i.kind!=='checkpoint'); const gn=gd.filter(i=>isDone(i.id)).length;
@@ -382,7 +382,7 @@ function wbApply(){
     else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'專案對話', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', notes:''}, d, base)); if(a.material_type==='官方題') a.source='LawHub'; a.attempt_id=nextAttemptId(a); persist('attempts',a); }
     else if(r.op==='update_exposure'){ const old=S.data.exposure.find(x=>x.pt_id===d.pt_id)||{pt_id:d.pt_id, first_exposure:t, blind_review:'不明', explanations_seen:'不明', source:'寫回包'}; const rec=Object.assign({},old,d,base,{last_exposure:d.last_exposure||t}); rec.clean_pt_eligible = rec.exposure_status==='未接觸'?'是':'否'; persist('exposure',rec); }
     else if(r.op==='mark_progress'){ persist('progress',{item_id:d.item_id, done:d.done===undefined?'是':d.done, done_date:t, client_request_id:r.id, updated_at:nowISO(), created_at:nowISO()}); }
-    else if(r.op==='update_session'){ const old=S.data.sessions.find(x=>x.session_id===d.session_id); if(old){ const u={}; ['focus_skill','notes','lr_minutes','rc_minutes','review_minutes','attention','fatigue','completion','material_source'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('sessions',Object.assign({},old,u,{updated_at:nowISO(), last_request_id:r.id})); } }
+    else if(r.op==='update_session'){ const old=S.data.sessions.find(x=>x.session_id===d.session_id); if(old){ const u={}; ['focus_skill','notes','effective_minutes','lr_minutes','rc_minutes','review_minutes','attention','fatigue','completion','material_source'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('sessions',Object.assign({},old,u,{updated_at:nowISO(), last_request_id:r.id})); } }
     n++; });
   WB=null; $('#wb-text').value=''; $('#wb-preview').innerHTML=''; $('#btn-wb-apply').disabled=true; 
   renderAll();
@@ -397,13 +397,13 @@ function renderHeader(){
 function renderToday(){
   const t=todayLA(), ph=phaseFor(t), [ws,we]=weekRange(t), cp=nextCheckpoint();
   const tk=todayTask(t); $('#task-title').textContent=tk.title; $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>');
-  const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we&&!(s.notes||'').includes('測試'));
+  const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we&&!(s.notes||'').startsWith('測試紀錄'));
   const mins=wk.reduce((a,s)=>a+(s.effective_minutes||0),0), budget=ph.weekly_hours;
   const todaySessions=S.data.sessions.filter(s=>s.session_date===t);
   const tmins=todaySessions.reduce((a,s)=>a+(s.effective_minutes||0),0);
   const total=S.data.sessions.reduce((a,s)=>a+(s.effective_minutes||0),0);
   const dn=['日','一','二','三','四','五','六'];
-  const daily=Array.from({length:7},(_,i)=>{ const d=addDays(ws,i); const m=S.data.sessions.filter(x=>x.session_date===d&&!(x.notes||'').includes('測試')).reduce((a,x)=>a+(x.effective_minutes||0),0); return {d,m,isToday:d===t}; });
+  const daily=Array.from({length:7},(_,i)=>{ const d=addDays(ws,i); const m=S.data.sessions.filter(x=>x.session_date===d&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0); return {d,m,isToday:d===t}; });
   $('#today-ledger').innerHTML=`
     <tr><td>${ph.key}${weekLabel(t)!==ph.key?`　${weekLabel(t)}`:''}（${ws.slice(5)} 至 ${we.slice(5)}）<br><span class="small">本階段預算 ${budget} 小時／週</span></td><td><span class="big">${fmtMin(mins)}</span> / ${budget} 小時</td></tr>
     <tr><td colspan="2"><div class="days">${daily.map(x=>`<div class="${x.isToday?'today':''}${x.m?' has':''}"><span>${dn[new Date(x.d+'T12:00:00Z').getUTCDay()]}</span><b>${x.m? (x.m>=60? (x.m/60).toFixed(1)+'h' : x.m+'m') : '–'}</b></div>`).join('')}</div></td></tr>
@@ -416,7 +416,7 @@ function renderToday(){
   $('#week-note').textContent = mins/60 < budget ? `本週（${ws.slice(5).replace('-','/')}–${we.slice(5).replace('-','/')}）尚差 ${(budget-mins/60).toFixed(1)} 小時達到 ${budget} 小時預算。標為測試的紀錄不計。` : '本週已達預算；若檢查點未達標，先改方法，不加時數。';
 
   const recent=S.data.sessions.slice().sort((a,b)=>b.session_date.localeCompare(a.session_date)||b.session_id.localeCompare(a.session_id)).slice(0,5);
-  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span>${s.notes&&s.notes.includes('測試')?'　<span class="tag">測試</span>':''}</span><span>${esc(s.effective_minutes)} 分　${esc(s.material_source||'')}</span></div></li>`).join('')
+  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span>${s.notes&&s.notes.startsWith('測試紀錄')?'　<span class="tag">測試</span>':''}</span><span>${esc(s.effective_minutes)} 分　${esc(s.material_source||'')}</span></div></li>`).join('')
     : '<li class="empty">尚無紀錄。</li>';
 }
 
