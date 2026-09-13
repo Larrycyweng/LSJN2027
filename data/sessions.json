@@ -15,9 +15,9 @@
     "attention": "",
     "fatigue": "",
     "sleep_hours": null,
-    "notes": "測試紀錄（部署驗證用，不計入訓練）",
+    "notes": "起始週暖身與部署驗證（5 分鐘，計入訓練時數）",
     "created_at": "2026-09-12T17:38:23.394Z",
-    "updated_at": "2026-09-12T18:39:35.204Z",
+    "updated_at": "2026-09-13T19:36:49.000Z",
     "last_request_id": "20260912-s1"
   },
   {
