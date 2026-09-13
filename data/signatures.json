@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "signature_id": "SIG-001",
+    "attraction": "",
+    "scope": "LR",
+    "created": "2026-09-13",
+    "last_seen": "2026-09-13",
+    "stage": "近距離移轉✓／延遲複測待完成",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 1,
+    "notes": "",
+    "error_type": "Rule premise 誤判為背景",
+    "trigger_signal": "段末平鋪的一般性規則，前後無 therefore/because",
+    "why_attractive": "以「這是社會通則，不是作者創造的」推斷角色（origin ≠ role）",
+    "corrective_action": "刪除測試：刪掉後若事實前提到結論的橋斷裂，即為 premise",
+    "signature_status": "追蹤中",
+    "first_seen": "2026-09-13",
+    "source": "原創題（練習二第6句；移轉題 sleep/retention）",
+    "client_request_id": "20260913-g1",
+    "created_at": "2026-09-13T19:04:50.928Z",
+    "updated_at": "2026-09-13T19:04:50.928Z"
+  }
+]
