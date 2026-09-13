@@ -292,15 +292,15 @@ function renderPlan(){
   const doable=items.filter(i=>i.kind!=='checkpoint');
   const nd=doable.filter(i=>isDone(i.id)).length;
   $('#plan-bar').style.width=(doable.length? 100*nd/doable.length:0)+'%';
-  const totalMin=S.data.sessions.filter(x=>!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0);
+  const totalMin=S.data.sessions.reduce((a,x)=>a+(x.effective_minutes||0),0);
   $('#plan-note').textContent=`已完成 ${nd} / ${doable.length} 項排程　累計有效 ${fmtMin(totalMin)} / ${S.settings.total_plan_hours} 小時（${Math.round(100*totalMin/60/S.settings.total_plan_hours)}%）`;
   const groups=[]; items.forEach(i=>{ let g=groups.find(x=>x.name===i.group); if(!g){ g={name:i.group,items:[]}; groups.push(g); } g.items.push(i); });
   const t=todayLA(); const curGroup=(()=>{ const ph=phaseFor(t).key; const map={'起始週':'起始週','第一階段':'第一階段','第二階段':'第二階段','第三階段':'第三階段','考前減量':'最後兩週'}; return map[ph]||''; })();
   const hoursFor=i=>{ let from,to; if(i.kind==='day'){ const md=i.id.slice(3); const y= md<'0201'? '2027':'2026'; from=to=`${y}-${md.slice(0,2)}-${md.slice(2)}`; }
     else if(i.kind==='week'){ const w=Number(i.id.slice(1)); from=addDays(S.settings.plan_start,w*7); to=addDays(from,6); } else return null;
-    const m=S.data.sessions.filter(x=>x.session_date>=from&&x.session_date<=to&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0);
+    const m=S.data.sessions.filter(x=>x.session_date>=from&&x.session_date<=to).reduce((a,x)=>a+(x.effective_minutes||0),0);
     const target=i.kind==='week'? phaseFor(from).weekly_hours : null;
-    const cum=i.kind==='week'? S.data.sessions.filter(x=>x.session_date<=to&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0) : null;
+    const cum=i.kind==='week'? S.data.sessions.filter(x=>x.session_date<=to).reduce((a,x)=>a+(x.effective_minutes||0),0) : null;
     const cumTarget=i.kind==='week'? (()=>{ let h=0; for(let w=0;w<=Number(i.id.slice(1));w++){ const f=addDays(S.settings.plan_start,w*7); h+=phaseFor(f).weekly_hours; } return h; })() : null;
     return {m,target,cum,cumTarget}; };
   $('#plan-groups').innerHTML=groups.map(g=>{ const gd=g.items.filter(i=>i.kind!=='checkpoint'); const gn=gd.filter(i=>isDone(i.id)).length;
@@ -397,13 +397,13 @@ function renderHeader(){
 function renderToday(){
   const t=todayLA(), ph=phaseFor(t), [ws,we]=weekRange(t), cp=nextCheckpoint();
   const tk=todayTask(t); $('#task-title').textContent=tk.title; $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>');
-  const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we&&!(s.notes||'').startsWith('測試紀錄'));
+  const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we);
   const mins=wk.reduce((a,s)=>a+(s.effective_minutes||0),0), budget=ph.weekly_hours;
   const todaySessions=S.data.sessions.filter(s=>s.session_date===t);
   const tmins=todaySessions.reduce((a,s)=>a+(s.effective_minutes||0),0);
   const total=S.data.sessions.reduce((a,s)=>a+(s.effective_minutes||0),0);
   const dn=['日','一','二','三','四','五','六'];
-  const daily=Array.from({length:7},(_,i)=>{ const d=addDays(ws,i); const m=S.data.sessions.filter(x=>x.session_date===d&&!(x.notes||'').startsWith('測試紀錄')).reduce((a,x)=>a+(x.effective_minutes||0),0); return {d,m,isToday:d===t}; });
+  const daily=Array.from({length:7},(_,i)=>{ const d=addDays(ws,i); const m=S.data.sessions.filter(x=>x.session_date===d).reduce((a,x)=>a+(x.effective_minutes||0),0); return {d,m,isToday:d===t}; });
   $('#today-ledger').innerHTML=`
     <tr><td>${ph.key}${weekLabel(t)!==ph.key?`　${weekLabel(t)}`:''}（${ws.slice(5)} 至 ${we.slice(5)}）<br><span class="small">本階段預算 ${budget} 小時／週</span></td><td><span class="big">${fmtMin(mins)}</span> / ${budget} 小時</td></tr>
     <tr><td colspan="2"><div class="days">${daily.map(x=>`<div class="${x.isToday?'today':''}${x.m?' has':''}"><span>${dn[new Date(x.d+'T12:00:00Z').getUTCDay()]}</span><b>${x.m? (x.m>=60? (x.m/60).toFixed(1)+'h' : x.m+'m') : '–'}</b></div>`).join('')}</div></td></tr>
@@ -413,10 +413,10 @@ function renderToday(){
     <tr><td>到期複習卡</td><td>${S.data.cards.filter(c=>c.next_review&&c.next_review<=t).length}</td></tr>
     <tr><td>下一個檢查點</td><td>${cp? `${cp.checkpoint_id}　${cp.review_date}`:'無'}</td></tr>`;
   $('#week-bar').style.width=Math.min(100, budget? 100*mins/60/budget:0)+'%';
-  $('#week-note').textContent = mins/60 < budget ? `本週（${ws.slice(5).replace('-','/')}–${we.slice(5).replace('-','/')}）尚差 ${(budget-mins/60).toFixed(1)} 小時達到 ${budget} 小時預算。標為測試的紀錄不計。` : '本週已達預算；若檢查點未達標，先改方法，不加時數。';
+  $('#week-note').textContent = mins/60 < budget ? `本週（${ws.slice(5).replace('-','/')}–${we.slice(5).replace('-','/')}）尚差 ${(budget-mins/60).toFixed(1)} 小時達到 ${budget} 小時預算。` : '本週已達預算；若檢查點未達標，先改方法，不加時數。';
 
   const recent=S.data.sessions.slice().sort((a,b)=>b.session_date.localeCompare(a.session_date)||b.session_id.localeCompare(a.session_id)).slice(0,5);
-  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span>${s.notes&&s.notes.startsWith('測試紀錄')?'　<span class="tag">測試</span>':''}</span><span>${esc(s.effective_minutes)} 分　${esc(s.material_source||'')}</span></div></li>`).join('')
+  $('#session-list').innerHTML= recent.length? recent.map(s=>`<li><div class="t"><span>${esc(s.session_date)}　<span class="tag">${esc(s.mode)}</span></span><span>${esc(s.effective_minutes)} 分　${esc(s.material_source||'')}</span></div></li>`).join('')
     : '<li class="empty">尚無紀錄。</li>';
 }
 
