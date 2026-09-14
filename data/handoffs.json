@@ -50,5 +50,18 @@
     "client_request_id": "00-20260914-h1",
     "created_at": "2026-09-14T18:52:48.212Z",
     "updated_at": "2026-09-14T18:52:48.212Z"
+  },
+  {
+    "handoff_id": "HO-005",
+    "session_id": "S-20260914-02",
+    "taught": "無新概念；PT140 延遲盲審 5 題；fails to consider／takes for granted 兩個選項檢驗法",
+    "observed": "論證角色與因果概念可移轉至陌生官方題（S3Q12、S1Q9 盲審正確且理由正確）；SIG-003 跨 11 個月穩定誤判；SIG-004 同日兩次；使用者要求 outline 優先、少細節、對齊 LSATLab_Notes 架構、解析風格簡潔",
+    "open_questions": "SIG-001 延遲複測 9/15–9/16；SIG-003、SIG-004 近距離移轉待測（原創題，不預告）；S2 全部錯題與 S4 RC 錯題各需一張截圖補入 inventory；9/18 outline 沿用 §Argument Structure／§Reasoning Structures／§Eliminate Trap Answers，禁用 em dash；寫回包 add_attempt 必填：attempt_date、mode、timed_answer、correct_answer；官方題另需 source_evidence",
+    "date": "2026-09-14",
+    "stopped_at": "01 LR｜PT140 盲審 5/5 完成，Day 3 今晚進行",
+    "next_task": "01 LR｜9/14 晚 Day 3：條件邏輯（必要vs充分、條件鏈、量詞、否定）Learn+Drill；課後盲審條件類 PT140 錯題 2–3 題（S1Q16、S1Q17、S3Q11 候選）",
+    "client_request_id": "01-20260914-h5",
+    "created_at": "2026-09-14T21:59:12.135Z",
+    "updated_at": "2026-09-14T21:59:12.135Z"
   }
 ]
