@@ -94,5 +94,29 @@
     "client_request_id": "01-20260914-g4",
     "created_at": "2026-09-14T21:59:12.135Z",
     "updated_at": "2026-09-14T21:59:12.135Z"
+  },
+  {
+    "signature_id": "SIG-005",
+    "attraction": "",
+    "scope": "LR",
+    "created": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "stage": "近距離移轉✓／延遲複測待完成",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 2,
+    "notes": "",
+    "error_type": "some 逆著箭頭走",
+    "trigger_signal": "All A → B，接著 some B 有 X，結論 some A 有 X",
+    "why_attractive": "把「全部 A 都在 B 裡」誤讀成「B 都是 A」，兩群人大小搞反",
+    "corrective_action": "畫箭頭，標出尖端那群較大；some 只能從箭尾往箭尖走；逆行一律寫「無法推出」。使用者版：找出兩群人之間沒有支撐的縫",
+    "signature_status": "追蹤中",
+    "first_seen": "2026-09-14",
+    "source": "原創題（Exercise 1 第5題；Drill D3）",
+    "client_request_id": "01-20260914-g5",
+    "created_at": "2026-09-14T23:19:12.047Z",
+    "updated_at": "2026-09-14T23:19:12.047Z"
   }
 ]
