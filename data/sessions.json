@@ -58,9 +58,10 @@
     "attention": "",
     "fatigue": "",
     "sleep_hours": null,
-    "notes": "",
+    "notes": "LSAT Lab 自習（使用者手動紀錄）",
     "created_at": "2026-09-14T01:30:35.460Z",
-    "updated_at": "2026-09-14T01:30:35.460Z"
+    "updated_at": "2026-09-14T18:52:48.212Z",
+    "last_request_id": "00-20260914-s2"
   },
   {
     "session_id": "S-20260913-03",
@@ -78,9 +79,10 @@
     "attention": "",
     "fatigue": "",
     "sleep_hours": null,
-    "notes": "",
+    "notes": "LSAT Lab 自習（使用者手動紀錄）",
     "created_at": "2026-09-14T06:54:19.256Z",
-    "updated_at": "2026-09-14T06:54:19.256Z"
+    "updated_at": "2026-09-14T18:52:48.212Z",
+    "last_request_id": "00-20260914-s3"
   },
   {
     "session_id": "S-20260914-01",
