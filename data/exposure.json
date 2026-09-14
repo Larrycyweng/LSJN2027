@@ -29,6 +29,23 @@
     "source": "Analytics_ Overview_10122025.pdf"
   },
   {
+    "pt_id": "PT140",
+    "first_exposure": "2025-10-15",
+    "blind_review": "否",
+    "explanations_seen": "否",
+    "source": "寫回包",
+    "exposure_status": "已完成",
+    "last_exposure": "2025-10-15",
+    "sections_seen": "全部四個部分（S2 為實驗）",
+    "questions_seen": 78,
+    "full_score": 140,
+    "notes": "2025-10-15 LSAT Lab 完整計時，31/78。S1 LR 8/25、S2 LR實驗 7/26、S3 LR 10/26、S4 RC 13/27。歷史冷測基準，不可作乾淨 PT。錯題未看解析，可作 2026 延遲盲審診斷池。",
+    "client_request_id": "00-20260914-x1",
+    "created_at": "2026-09-14T18:52:48.211Z",
+    "updated_at": "2026-09-14T18:52:48.211Z",
+    "clean_pt_eligible": "否"
+  },
+  {
     "pt_id": "PT141",
     "exposure_status": "中斷",
     "first_exposure": "",
