@@ -104,5 +104,26 @@
     "client_request_id": "20260914-s1",
     "created_at": "2026-09-14T18:15:52.067Z",
     "updated_at": "2026-09-14T18:15:52.067Z"
+  },
+  {
+    "session_id": "S-20260914-02",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": 60,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "PT140 延遲盲審：論證角色＋因果（5/5 題）",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "HO-004 協定，不計時，解析五題均已看過。S3Q12 盲審✓理由正確（2025 E）；S2Q16 提示後✓（2025 A，2026 A），建 SIG-003；S1Q9 盲審✓理由正確（2025 E：correlation 讀成 causation）；S1Q13 理由對應 A 但口述 C（2025 C）；S3Q7 盲審 D✗，提示後 A（2025 C），與 S1Q13 合併建 SIG-004。使用者要求：以可折疊 outline 與重大錯誤為主，不陷入細節；outline 架構對齊專案檔 LSATLab_Notes（§Argument Structure／§Reasoning Structures／§Eliminate Trap Answers）；解析風格學 LSAT Lab 但不冗長。",
+    "session_date": "2026-09-14",
+    "mode": "檢討",
+    "effective_minutes": 60,
+    "client_request_id": "01-20260914-s2",
+    "created_at": "2026-09-14T21:59:12.132Z",
+    "updated_at": "2026-09-14T21:59:12.132Z"
   }
 ]
