@@ -37,5 +37,18 @@
     "client_request_id": "20260914-h1",
     "created_at": "2026-09-14T18:15:52.068Z",
     "updated_at": "2026-09-14T18:15:52.068Z"
+  },
+  {
+    "handoff_id": "HO-004",
+    "session_id": "",
+    "taught": "無",
+    "observed": "PT140（2025-10-15）47 題錯題使用者未看過解析，間隔 11 個月，可作接近陌生的官方題延遲盲審池。使用者以備援表單手動記錄 LSAT Lab 自習時間，屬正常紀錄。",
+    "open_questions": "寫回包 client_request_id 自即日起加聊天代碼前綴（00-/01-/02-/03-），避免跨聊天撞號；複習分頁定案改為 LR/RC 可折疊大綱，outline.json 與 add_section 等操作預定 9/18 後上線，上線前章節內容以 handoff 文字保存。",
+    "date": "2026-09-14",
+    "stopped_at": "00 系統與計畫｜協調用摘要，非課程",
+    "next_task": "01 LR 自 Day 3（9/15）起，每日概念課後加 3–5 題 PT140 對應題型錯題的延遲盲審：使用者先不看正解重做並說理由 → 家教提問確認讀法 → 看正解三方比對（當初／這次／正解）→ 依結果分類（配速或注意力／概念不穩／穩定誤判建指紋／概念未建立回 Learn）。Day 3 對應 Sufficient/Necessary Assumption 與 Conditional 類；Day 4（02 RC）對應 S4 RC 錯題 4–5 題。記錄為 2026 年 Review 模式官方題、不計時、附 source_evidence 使用者截圖，與 2025 原始作答分開。起始週每日上限 5 題，其餘進第一階段第 1–2 週。9/18 官方 section 照計畫不變。",
+    "client_request_id": "00-20260914-h1",
+    "created_at": "2026-09-14T18:52:48.212Z",
+    "updated_at": "2026-09-14T18:52:48.212Z"
   }
 ]
