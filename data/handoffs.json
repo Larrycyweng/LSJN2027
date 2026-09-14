@@ -63,5 +63,18 @@
     "client_request_id": "01-20260914-h5",
     "created_at": "2026-09-14T21:59:12.135Z",
     "updated_at": "2026-09-14T21:59:12.135Z"
+  },
+  {
+    "handoff_id": "HO-006",
+    "session_id": "S-20260914-03",
+    "taught": "條件邏輯：箭頭 = 就、必要在尖端；觸發字定位；逆否兩步；unless 公式（非Y → X）；and 否定為 or；量詞 all/no/most/some 與 some 順行規則；converse vs inverse 定義",
+    "observed": "箭頭方向與逆否經課內修正後穩定（Exercise 2 5/5、Drill converse/inverse 3/3）；量詞方向為目前唯一漏洞（SIG-005）；使用者對充分／必要的舊記憶有偏差，已用中文討論修正並確認；使用者要求會話開始時報時間以便計算分鐘數",
+    "open_questions": "SIG-001 延遲複測 9/15–9/16；SIG-003、SIG-004 近距離移轉待測（原創題，不預告）；SIG-005 延遲複測 9/16–9/17（不預告）；箭頭畫反（only if / unless）延遲複測 9/16；條件類 PT140 錯題盲審尚未做（S1Q16、S1Q17、S3Q11 候選）；S2 全部錯題與 S4 RC 錯題各需一張截圖補入 inventory；9/18 outline 沿用 LSATLab_Notes 架構，禁用 em dash",
+    "date": "2026-09-14",
+    "stopped_at": "01 LR｜Day 3 完成（下午）",
+    "next_task": "02 RC｜9/15 Day 4：閱讀理解 passage map 與 main point；課後盲審 PT140 S4 RC 錯題 4–5 題（需先補 S4 截圖）。01 LR 下次：條件類 PT140 盲審 2–3 題＋SIG-001／箭頭方向延遲複測",
+    "client_request_id": "01-20260914-h6",
+    "created_at": "2026-09-14T23:19:12.047Z",
+    "updated_at": "2026-09-14T23:19:12.047Z"
   }
 ]
