@@ -125,5 +125,26 @@
     "client_request_id": "01-20260914-s2",
     "created_at": "2026-09-14T21:59:12.132Z",
     "updated_at": "2026-09-14T21:59:12.132Z"
+  },
+  {
+    "session_id": "S-20260914-03",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "專案對話",
+    "lr_minutes": 45,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "條件邏輯：充分vs必要、逆否、unless、量詞",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "Day 3（Learn+Drill，下午進行）。Exercise 1：1/5，錯誤三類：箭頭畫反（第1、3題，only if / unless 後的詞放箭尾）、逆否只否定未翻轉（第2題 inverse）、some 逆行（第5題）。中文釐清定義：使用者原記憶把「P 不必要」誤記為「P 充分」；定案規則：箭頭 = 就，必要在尖端，左邊需要右邊。三步手法：觸發字定位、就句驗證、逆否翻轉再否定。Exercise 2：5/5。Drill：3/4，D1 converse、D2 inverse、D4 converse 全對；D3 some 逆行再錯，建 SIG-005。移轉題（pilots/medical exam）1/1，使用者自述理由：people 與 pilot 之間沒有支撐的縫。教學語言英文，定義討論改中文。",
+    "session_date": "2026-09-14",
+    "mode": "觀念學習",
+    "effective_minutes": 45,
+    "client_request_id": "01-20260914-s3",
+    "created_at": "2026-09-14T23:19:12.046Z",
+    "updated_at": "2026-09-14T23:19:12.046Z"
   }
 ]
