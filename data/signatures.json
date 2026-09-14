@@ -22,5 +22,29 @@
     "client_request_id": "20260913-g1",
     "created_at": "2026-09-13T19:04:50.928Z",
     "updated_at": "2026-09-13T19:04:50.928Z"
+  },
+  {
+    "signature_id": "SIG-002",
+    "attraction": "",
+    "scope": "LR",
+    "created": "2026-09-14",
+    "last_seen": "2026-09-14",
+    "stage": "已發現／近距離移轉待測",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 2,
+    "notes": "",
+    "error_type": "因果替代解釋標籤誤用",
+    "trigger_signal": "生成替代解釋後貼分類標籤的步驟（C、D1 各一次）",
+    "why_attractive": "selection 與 third factor 概念相鄰：都涉及組間差異",
+    "corrective_action": "貼標前先問：是否有一個 Z 同時對 X 和 Y 起因果作用（third factor），還是樣本形成方式本身偏斜（selection）",
+    "signature_status": "追蹤中",
+    "first_seen": "2026-09-14",
+    "source": "原創題（練習一C；Drill D1）",
+    "client_request_id": "20260914-g1",
+    "created_at": "2026-09-14T18:15:52.068Z",
+    "updated_at": "2026-09-14T18:15:52.068Z"
   }
 ]
