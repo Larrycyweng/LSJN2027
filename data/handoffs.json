@@ -102,5 +102,18 @@
     "client_request_id": "02-20260915-h1",
     "created_at": "2026-09-15T18:58:37.903Z",
     "updated_at": "2026-09-15T18:58:37.903Z"
+  },
+  {
+    "handoff_id": "HO-009",
+    "session_id": "S-20260915-02",
+    "taught": "無新教學（Drill 日）。課後一項小教學留待下次：作者態度形容詞詞義表（dismissive、skeptical、qualified approval、neutral、ambivalent、cautious）與各詞在文中需要的依據，掛 §Questions Author Opinion。",
+    "observed": "首答 7/8，提示後 8/8。LR 四題理由全對，SIG-001／003／005 延遲複測通過。RC：SIG-004 與 SIG-006 原創移轉通過；歸屬標記候選 2 對 1 錯；作者態度題錯兩次，錯因為態度詞詞義（使用者自述），與 2025 Q20 選 D（subject to debate）同型，兩實例 11 個月，待確認。",
+    "open_questions": "【App 根因已確認】app.js 第 382 行 wbApply 對 add_attempt 有 if(a.material_type==='官方題') a.source='LawHub' 硬覆蓋，導致所有官方題 source 被寫成 LawHub；9/18 改為採用寫回包提供的 source，缺值時才預設。已寫入官方題 attempts 五筆（9/14 兩筆、9/15 三筆）的 source 需改為 LSAT Lab。【候選】作者態度：作者有立場時選中立描述（2025 Q20 D；9/15 Item 6 二答 A），錯因使用者自述為態度詞詞義；再一實例則建指紋。【inventory】v1.3 檔可上傳；否則 9/18 回填。【本週有效指紋建議】SIG-004、SIG-006、SIG-003。",
+    "date": "2026-09-15",
+    "stopped_at": "02 RC｜Day 5 八題混合 Drill 完成；起始週 Day 1 到 Day 5 全部完成",
+    "next_task": "下次 02 RC：(1) 態度形容詞詞義 10 分鐘教學＋原創 3 題；(2) SIG-006 換領域（科學或法律說明文）移轉 1 題；(3) 歸屬標記候選第 4 次不預告複測，2 對後結案。9/18 官方 section（PT101 或 LSAT Lab）為起始週基準，交 03 Test Review，重點觀察：SIG-004 動詞核對在計時下是否維持；Q26 型錯誤是否集中末五題（疲勞假設）。",
+    "client_request_id": "02-20260915-h2",
+    "created_at": "2026-09-15T23:40:42.116Z",
+    "updated_at": "2026-09-15T23:40:42.116Z"
   }
 ]
