@@ -146,5 +146,26 @@
     "client_request_id": "01-20260914-s3",
     "created_at": "2026-09-14T23:19:12.046Z",
     "updated_at": "2026-09-14T23:19:12.046Z"
+  },
+  {
+    "session_id": "S-20260914-04",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "專案對話",
+    "lr_minutes": null,
+    "rc_minutes": 150,
+    "review_minutes": null,
+    "focus_skill": "RC：段落功能、文章組織、作者立場與他人觀點歸屬（筆記 Passage Map／Main Point）；PT140 S4 盲審 2 題",
+    "completion": "部分完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "Day 4（Learn+Review，02 RC，含檢討與方法討論共 150 分鐘）。Learn：Passage A（urban grid）功能標記 2/4 後修正，ownership 6/6 修正後，main point 定位正確、改寫需兩輪；一處候選缺口：on this reading／on this account 未當作歸屬標記。Passage B（Ladin）移轉：ownership 6/6 一次通過（歸屬標記已註冊），作者聲音段落角色（evaluate／position／extend）需提示後才分清，SIG-003 在 RC 重現（六字反駁句被當 hook）。Review：S4 Q15 2025 D／2026 C／正解 E，地圖正確、選項動詞未核對，歸 SIG-004；S4 Q20 2025 D／2026 A／正解 A，理由正確。S4 inventory 已建檔（11 錯題＋3 未作答）。方法缺失（家教）：未先讀 LSATLab_Notes、計畫、弱點分析；未用筆記節名；Passage B 主旨位置與筆記啟發式衝突未說明；Trap Answers 層未教即進官方 Purpose 題。已寫入記憶：課前必讀清單與一本書主義原則。",
+    "session_date": "2026-09-14",
+    "mode": "觀念學習",
+    "effective_minutes": 150,
+    "client_request_id": "02-20260914-s1",
+    "created_at": "2026-09-15T05:28:28.759Z",
+    "updated_at": "2026-09-15T05:28:28.759Z"
   }
 ]
