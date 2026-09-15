@@ -188,5 +188,26 @@
     "client_request_id": "02-20260915-s1",
     "created_at": "2026-09-15T18:58:37.900Z",
     "updated_at": "2026-09-15T18:58:37.900Z"
+  },
+  {
+    "session_id": "S-20260915-02",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "專案對話",
+    "lr_minutes": 12,
+    "rc_minutes": 18,
+    "review_minutes": null,
+    "focus_skill": "Day 5 八題混合原創 Drill（LR 4、RC 4）：指紋延遲複測與原創移轉",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "放鬆計時，過程不提示。首答 7/8，提示後 8/8。LR 4/4 理由皆對：SIG-001、SIG-003、SIG-005 延遲複測通過，SIG-002 標籤精確通過。RC：Karsu 功能題對（SIG-004 原創移轉通過）；電話交換機描述型 purpose 對（SIG-006 原創移轉 1 次通過）；歸屬標記 on this view 對（候選 2 對 1 錯）；Karsu 作者態度題錯兩次（B、A）後兩次提示改 C，使用者自述錯因：dismissive 與 neutral 兩個態度詞意義誤解，文章判讀本身正確。使用者親口確認 S4 Q1 刪 A 的理由為「以為論說文要有作者評論或意見，描述不能作為目的」，據此建 SIG-006。",
+    "session_date": "2026-09-15",
+    "mode": "練習",
+    "effective_minutes": 30,
+    "client_request_id": "02-20260915-s2",
+    "created_at": "2026-09-15T23:40:42.106Z",
+    "updated_at": "2026-09-15T23:40:42.106Z"
   }
 ]
