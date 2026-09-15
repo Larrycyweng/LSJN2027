@@ -167,5 +167,26 @@
     "client_request_id": "02-20260914-s1",
     "created_at": "2026-09-15T05:28:28.759Z",
     "updated_at": "2026-09-15T05:28:28.759Z"
+  },
+  {
+    "session_id": "S-20260915-01",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": 50,
+    "review_minutes": 50,
+    "focus_skill": "PT140 S4 延遲盲審 Q25、Q26、Q1；選項核對（方向預想、動詞篩、依據與範圍篩）",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "Day 4 續（02 RC）。Q25：2025 D／2026 C／正解 C，理由對，動詞篩去三個、範圍篩去一個。Q26：2025 C／2026 B／正解 B，理由對；2025 錯因兩候選待確認：疲勞（第 26 題、時間用滿）或 this explanation 指涉錯位。Q1（Humanities）：2025 C／2026 初答在 C 與 E 之間未定、A 被刪除，提示後改 A／正解 A，記提示後做對；同題再錯，錯因待確認（使用者尚未說明刪 A 的理由）。使用者對方法的修正已採納：預想只求方向不求逐題寫出；動詞先看為 SIG-004 短期隔離練習非作答程序；依據可為多句整合；刪除「短弱優先」；筆記 Anticipate（預期文章走向）與讀選項前預想答案為兩個動作。Karsu 原創 Drill 未做。",
+    "session_date": "2026-09-15",
+    "mode": "檢討",
+    "effective_minutes": 50,
+    "client_request_id": "02-20260915-s1",
+    "created_at": "2026-09-15T18:58:37.900Z",
+    "updated_at": "2026-09-15T18:58:37.900Z"
   }
 ]
