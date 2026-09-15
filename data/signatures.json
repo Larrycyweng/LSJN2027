@@ -53,12 +53,12 @@
     "scope": "LR",
     "created": "2026-09-14",
     "last_seen": "2026-09-14",
-    "stage": "已發現／近距離移轉待測",
+    "stage": "跨科重現（RC Passage B 六字反駁句）／近距離移轉待測",
     "near_transfer": "未測試",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
-    "evidence_count": 2,
+    "evidence_count": 3,
     "notes": "",
     "error_type": "壓縮式反駁結論被漏，末句事實誤為結論",
     "trigger_signal": "反方立場後緊接短句否定（This is simply false），其後為事實句",
@@ -69,7 +69,8 @@
     "source": "PT140 S2 Q16（2025 與 2026 同錯）",
     "client_request_id": "01-20260914-g3",
     "created_at": "2026-09-14T21:59:12.134Z",
-    "updated_at": "2026-09-14T21:59:12.134Z"
+    "updated_at": "2026-09-15T05:28:28.776Z",
+    "last_request_id": "02-20260914-e1"
   },
   {
     "signature_id": "SIG-004",
@@ -77,12 +78,12 @@
     "scope": "LR",
     "created": "2026-09-14",
     "last_seen": "2026-09-14",
-    "stage": "已發現／近距離移轉待測",
+    "stage": "多項證據支持（S1Q13、S3Q7、S4Q15 2026 與 2025）／修正動作已教（動詞先核對）／近距離移轉待測",
     "near_transfer": "未測試",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
-    "evidence_count": 2,
+    "evidence_count": 4,
     "notes": "",
     "error_type": "預想答案未對應到選項（Flaw／Weaken）",
     "trigger_signal": "已生成正確替代解釋後進入選項，選項含 takes for granted／presumes 措辭",
@@ -93,7 +94,8 @@
     "source": "PT140 S1 Q13、S3 Q7",
     "client_request_id": "01-20260914-g4",
     "created_at": "2026-09-14T21:59:12.135Z",
-    "updated_at": "2026-09-14T21:59:12.135Z"
+    "updated_at": "2026-09-15T05:28:28.776Z",
+    "last_request_id": "02-20260914-e2"
   },
   {
     "signature_id": "SIG-005",
