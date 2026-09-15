@@ -76,5 +76,18 @@
     "client_request_id": "01-20260914-h6",
     "created_at": "2026-09-14T23:19:12.047Z",
     "updated_at": "2026-09-14T23:19:12.047Z"
+  },
+  {
+    "handoff_id": "HO-007",
+    "session_id": "S-20260914-04",
+    "taught": "筆記 Passage Map：段落功能七類、四種組織模式；ownership：歸屬標記（argue／on this view／according to）、microphone rule、pivot 與評價詞取回發言權、trace-back 與 endorsement 兩測試。Main Point：判準為作者無條件主張且證據為其服務，位置是常見值不是定義。Trap Answers（課後補）：功能類選項動詞先核對。",
+    "observed": "ownership 兩篇後穩定（B 6/6）；作者聲音段落角色（evaluate／position／extend）兩篇都需提示，Q15 地圖卻正確，證據相反，標待確認；SIG-003 跨科；SIG-004 跨科且為 2025 D 的同一機制；Q20 對且理由對，Author Perspective 有移轉。使用者不同意以「未教完才給官方題」為規則，改採一本書主義。",
+    "open_questions": "【9/18 00 維護】signatures.json 需以檔案編輯補：SIG-003 scope→LR/RC，notes 加「RC：短 This 句是反駁本身不是 hook，後句為其證據」；SIG-004 scope→LR/RC，corrective_action 加「功能類題：先讀選項動詞，回文章找該動作的句子，無則刪，再看名詞」。inventory v1.2 已由使用者上傳（S4 11 題＋P1 3 題未作答題號待確認；Q16、Q19 題型待補）。update_pt140_review 上線後回填 01 五題。【outline 草稿，對齊 LSATLab_Notes 節名，禁 em dash】RC§Passage Map：段落功能七類（introduce／present view／competing view／support／evaluate／author position／extend）；四種組織模式與 main point 位置；ownership：歸屬標記＋microphone rule＋取回發言權三訊號＋trace-back／endorsement 測試；作者聲音在評價詞與 pivot 後的無歸屬結論。RC§Main Point：位置啟發式（P1 末／P2 初或末段初）為常見值；判準為作者無條件主張且證據都為它服務；hedged 結果（if this is right）為 extend 非 main point。RC§Trap Answers：功能類先核對動詞；Wrong Emphasis 型（作者有立場時不選中立描述如 subject to debate）；名詞相符不等於選項正確。LR§Argument Structure 補：SIG-003 RC 對應。【候選待確認】(a) on this reading／on this account 類歸屬標記，1 錯 1 對，延遲複測；(b) 作者聲音段落角色區分，Learn 兩次需提示但 Q15 地圖正確，再收證據。【流程】passage-first 為訓練預設，question-first 於第二輪單篇 drill 做對照測試。",
+    "date": "2026-09-14",
+    "stopped_at": "02 RC｜Day 4 Learn 完成；PT140 S4 盲審 2/5（Q15✗、Q20✓），Q25、Q26、Q1 未做",
+    "next_task": "02 RC｜9/15：(1) 開頭先讀 LSATLab_Notes、計畫當週列、弱點分析、最近三筆 handoff 並逐項報告；(2) Trap Answers 原創 Drill 10–15 分鐘（Purpose／Author Opinion 類，動詞先核對）；(3) 盲審 S4 Q25、Q26（Author Opinion）、Q1（Primary Purpose，Humanities）依 HO-004 流程；(4) 不預告：歸屬標記句一題、SIG-004 動詞核對近距離移轉。",
+    "client_request_id": "02-20260914-h1",
+    "created_at": "2026-09-15T05:28:28.777Z",
+    "updated_at": "2026-09-15T05:28:28.777Z"
   }
 ]
