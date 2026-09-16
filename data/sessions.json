@@ -231,5 +231,26 @@
     "created_at": "2026-09-16T06:17:17.396Z",
     "updated_at": "2026-09-16T06:20:45.413Z",
     "last_request_id": "01-20260915-s1-fix"
+  },
+  {
+    "session_id": "S-20260916-01",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": 130,
+    "review_minutes": null,
+    "focus_skill": "9/18 收尾 RC：雙篇文章關係、Local Purpose、Analogy、細節題原文比對、作者態度方向與強度",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "9/18 Week Zero 收尾 RC 區塊，提前於 9/16 執行，130 分鐘，部分題目在 ChatGPT 執行後由家教納入紀錄。六題 PT140 Review 依字母 3 對 3 錯：S4 Q8 對（B）；Q10 對（D，理由於本對話提問後補足）；Q12 錯（E，正解 A，同題兩年各錯一半）；Q3 對（D，理由正確）；Q19 錯（A，正解 D，2025 同答同理由，作答 2 次題目 1 題）；Q16 錯（B，正解 A，B 與主旨相反已確認，選 B 原因待驗證）。原創 Drill 態度兩小題：天賦說選 NEUTRAL 錯；訓練說 CAUTIOUS 不完整，證據句不存在原文。雙篇文章由 P2 官方題覆蓋。使用者要求修正家教：撤回 Report／Argue／Pose 與雙篇關係標籤；改為考場小抄；已記 HO-011。態度小抄合併版於本對話經使用者同意，用 hedge 不用 qualified。",
+    "session_date": "2026-09-16",
+    "mode": "檢討",
+    "effective_minutes": 130,
+    "client_request_id": "02-20260916-s1",
+    "created_at": "2026-09-16T22:46:41.101Z",
+    "updated_at": "2026-09-16T22:46:41.101Z"
   }
 ]
