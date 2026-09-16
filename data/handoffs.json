@@ -115,5 +115,18 @@
     "client_request_id": "02-20260915-h2",
     "created_at": "2026-09-15T23:40:42.116Z",
     "updated_at": "2026-09-15T23:40:42.116Z"
+  },
+  {
+    "handoff_id": "HO-010",
+    "session_id": "S-20260915-03",
+    "taught": "Sufficient Assumption 三步法（前提箭頭、結論箭頭、比對缺口）；Necessary 與 Sufficient 任務差別（最弱連結 vs 補滿缺口）；Most Supported 允許比前提弱不允許比前提多；Must Be True/Most Supported/Must Be False 共同判準：不能推出不等於為假；Agree/Disagree 兩道篩選；Comparison：推翻類比的差異須落在比較標準上；必要條件英文句型表（essential/necessary 箭頭指向 X；requires/only if 箭頭指向 Y）",
+    "observed": "6 題 PT140 Review：4 對 2 錯。錯因均由使用者親口確認。能操作已寫成條件句的箭頭與逆否（S1 Q17），但把自然英文 if not then not 畫成箭頭不穩（S3 Q11）。三個候選：(a) 偏好較不絕對選項、把必要讀成主要（S3 Q17，1 實例）；(b) 條件關係讀得比題目更緊（S1 Q16 讀 and、S3 Q11 找 only if，2 實例）；(c) 填答字母與意圖不符（S1 Q13、S1 Q6，2 實例，第 3 次建指紋，9/18 計時 section 為觀察點）。使用者要求：以 PT140 未檢討錯題對應筆記未驗證節，不用原創題重測已學技能。",
+    "open_questions": "【9/18 覆蓋結果 LR】已有獨立驗證：論證角色、因果替代解釋、條件逆否、Necessary Assumption 任務、Must Be True、Agree/Disagree。提示後才理解：Sufficient Assumption 方法（S3 Q11 當場教，換題驗證待做）；Comparison meaningful distinction（S1 Q10 第 3 項使用者答不知道，已教）。仍缺驗證：Plans/Recommendations 三形式、Anti-Causal 兩情境、作者解釋 Plausibility（Paradox）、Principle、Parallel、Parallel Flaw、Must Be False、Role、Method 任務辨識、Trap Answers 完整架構結合題幹。PT140 錯題無對應者留 Phase One 第一週。【outline 新增，對齊 Notes 節名，禁 em dash】LR§Reasoning Structures Conditional：必要條件英文句型表（代表題 S3 Q17）；逆命題否命題逆否命題哪個能推出（S1 Q17）；Sufficient Assumption 三步法（S3 Q11）。LR§Reasoning Structures Comparison：類比要推翻差異必須落在比較標準上（S1 Q10）。LR§Question Family Inference：不能推出不等於為假；Agree/Disagree 先篩共同主題再篩立場相反（S1 Q10）；Most Supported 可弱不可多（S3 Q17）。LR§Trap Answers Degree：語氣絕對不等於過強，只看前提是否支持（S3 Q17）。LR§Argument Structure：結論五模式 Recommendation/Hypothesis/Rebuttal/Judgment/Prediction，尚未獨立驗證。【資料】專案檔 LSATLab_Notes.docx 為純文字骨架，請以使用者 9/15 上傳之 LSATLab_Notes.pdf（含 26 圖）取代。本批 6 筆官方題 source 將被 app 覆蓋為 LawHub，9/18 維護一併改回 LSAT Lab；review_2026 六題待 update_pt140_review 上線回填；S1 Q16、S1 Q17 的 2025 答案字母待使用者補。",
+    "date": "2026-09-15",
+    "stopped_at": "01 LR｜9/18 收尾 LR 區塊完成（提前於 9/15 執行，100 分鐘）；RC 區塊未開始",
+    "next_task": "02 RC｜9/16 9/18 收尾 RC 區塊：S4 P2 Law 先讀文章回主旨、段落功能、作者立場，再做 Q8 Local Purpose、Q10 Analogy、Q12 Primary Purpose；Q3 Local Purpose（P1，SIG-006 領域）；Q16 或 Q19（P3，作答前先判題幹任務）；態度形容詞 10 分鐘教學（HO-009）；雙篇文章與 Inference/Meaning in Context 無 PT140 錯題可用，列尚缺驗證。完成後更新 9/18 計畫與交接，選出 Phase One 三至五個強化目標。",
+    "client_request_id": "01-20260915-h1",
+    "created_at": "2026-09-16T06:17:17.416Z",
+    "updated_at": "2026-09-16T06:17:17.416Z"
   }
 ]
