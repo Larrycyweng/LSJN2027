@@ -148,7 +148,6 @@
     "updated_at": "2026-09-15T23:40:42.113Z"
   },
   {
-    "signature_id": "SIG-007",
     "attraction": "",
     "scope": "RC",
     "created": "2026-09-16",
@@ -160,6 +159,7 @@
     "official_timed": "未測試",
     "evidence_count": 2,
     "notes": "唯一完全重複的錯誤，支持錯誤持續，不代表已在不同材料驗證。Phase One 第一週主要強化目標。",
+    "signature_id": "SIG-007",
     "error_type": "細節題引用不對應題幹要求的句子，選項名詞換類",
     "trigger_signal": "題幹 the passage says／according to the passage；選項名詞與原文相近但類別不同",
     "why_attractive": "用主旨相關句代替含題幹關鍵名詞的句子；比對時只對名詞本體（configurations 換 sequences of moves）",
@@ -168,11 +168,10 @@
     "first_seen": "2025-10-15",
     "signature_status": "追蹤中",
     "client_request_id": "02-20260916-g1",
-    "created_at": "2026-09-16T22:46:41.118Z",
-    "updated_at": "2026-09-16T22:46:41.118Z"
+    "created_at": "2026-09-16T22:56:34.000Z",
+    "updated_at": "2026-09-16T22:56:34.000Z"
   },
   {
-    "signature_id": "SIG-008",
     "attraction": "",
     "scope": "RC",
     "created": "2026-09-16",
@@ -184,6 +183,7 @@
     "official_timed": "未測試",
     "evidence_count": 3,
     "notes": "態度小抄為 [補充]，掛 Notes §Question types Opinion，使用者於本對話同意，用 hedge 不用 qualified；小抄中「無評價動詞才是中立」一句撤回，改為上述口訣。",
+    "signature_id": "SIG-008",
     "error_type": "作者有立場時選中立描述",
     "trigger_signal": "學術語氣平靜、無情緒詞；題幹 attitude／author would most likely agree；選項含 neutral、objective、descriptive",
     "why_attractive": "把語氣平靜等同於沒有立場（使用者 9/15 自述為態度詞詞義，9/16 P3 再現）",
@@ -192,7 +192,7 @@
     "first_seen": "2025-10-15",
     "signature_status": "追蹤中",
     "client_request_id": "02-20260916-g2",
-    "created_at": "2026-09-16T22:46:41.119Z",
-    "updated_at": "2026-09-16T22:46:41.119Z"
+    "created_at": "2026-09-16T22:56:34.000Z",
+    "updated_at": "2026-09-16T22:56:34.000Z"
   }
 ]
