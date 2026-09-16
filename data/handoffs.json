@@ -141,5 +141,18 @@
     "client_request_id": "00-20260916-h1",
     "created_at": "2026-09-16T18:17:34.614Z",
     "updated_at": "2026-09-16T18:17:34.614Z"
+  },
+  {
+    "handoff_id": "HO-012",
+    "session_id": "S-20260916-01",
+    "taught": "雙篇文章以七個段落功能標籤處理，有 AUTHOR 段即有立場，關係以兩篇主旨白話回答；Analogy 與 Primary Purpose 看選項前先以短語寫下關係；A does X while B does Y 型選項兩半分別核對；細節題以題幹關鍵名詞定位原句再比對名詞與限定語，合理改寫保留；作者態度：Identify whose judgment it is; determine its direction, then its strength；B4 難句詞義：counsel 動詞主張、intentionally commodified、cash out、tax shelter",
+    "observed": "6 題 PT140 Review 依字母 3 對 3 錯：Q8 對、Q10 對（理由本對話提問後補足）、Q3 對；Q12 錯、Q19 錯、Q16 錯。原創態度 Drill 兩小題：一錯（NEUTRAL）、一不完整（CAUTIOUS）且證據句不存在。有直接證據的機制：Q19 引用不對應題幹的句子（兩年同樣）。待驗證的機制：Q16 為何選 B；Q12 為何選 E。建 SIG-007（Q19）與 SIG-008（三實例）。候選：Half Scope 兩半只核一半（Q12 同題兩年）。使用者對家教修正三次：撤回 Report／Argue／Pose 與雙篇關係標籤；改為看選項前寫預測；要考場小抄不要蘇格拉底式教學。均採納。閱讀時間：P2 10 分鐘全篇重讀、P1 3 分鐘局部、P3 3 分鐘局部，作 Phase One 基線。作答次數與不同題目數分開計。",
+    "open_questions": "【9/18 覆蓋結果】已有獨立驗證：論證角色、因果替代解釋、條件逆否（S1 Q17）、Must Be True、Agree/Disagree（S1 Q10）、RC 主旨與段落功能地圖（P1、P3）、Local Purpose（Q3、Q8 理由正確）、雙篇關係（Q10 答對）。答對但理由需釐清：Necessary Assumption or 讀法（S1 Q16）；Analogy 區辨理由（Q10）。提示後才理解：Sufficient Assumption 三步（S3 Q11）；Comparison meaningful distinction（S1 Q10）；雙篇各篇主旨（P2 主旨 B 由外部修正）；作者態度方向與強度。仍缺驗證（PT140 無對應錯題）：Plans／Recommendations 三形式、Anti-Causal 兩情境、作者解釋 Plausibility、Principle、Parallel、Parallel Flaw、Must Be False、Role、Method 任務辨識、LR Trap Answers 完整架構結合題幹、結論五模式；RC Meaning in Context、Organization、Application、Principle、Strengthen／Weaken。HO-010 所稱雙篇與 Inference 無 PT140 覆蓋之說法作廢，已練過。確實尚未理解（有直接證據的重複錯誤）：細節題定位與名詞比對（SIG-007，Q19 同題兩年）；作者有立場時選中立（SIG-008，三實例，官方一題原創兩題）。【本堂 [補充] 清單】態度小抄合併版：使用者本對話同意，掛 Notes §Question types Opinion，術語 hedge／no hedge，撤回「無評價動詞才是中立」一句；Report／Argue／Pose 與雙篇關係標籤：撤回；七個段落功能標籤：沿用先前系統，來源標先前對話，入大綱 §Passage Map。【Phase One 強化目標】1 SIG-007 細節定位與名詞比對（不同題驗證）；2 SIG-008 作者態度方向（官方不同題驗證）；3 Sufficient Assumption 三步與自然英文必要條件句型（S3 Q11、S3 Q17）；4 Half Scope 兩半核對（候選）；5 字母誤填觀察（9/18 計時 section）。【第一堂建議】教材：LSAT Lab §Reasoning Structures Conditional 與 §RC Process Step 4 Inference；代表題：S3 Q11、S3 Q17、S4 Q19；陌生官方題：一題 Sufficient Assumption、一題 RC 細節題，不計時，只驗移轉。【9/18 維護窗新增待辦】update_pt140_review 上線後回填 12 題 review_2026；outline.json：§Passage Map 七標籤與 COUNTER／EVAL 區分；§Passages Topics Comparative 一句；§Question types Opinion 小抄 [補充] 修正版；§Trap Answers Half Scope；§Conditional only if 在 RC（Q19）；README 加 HO-011 七條與「錯題本與交接條目以考場小抄精簡程度書寫」；官方題 source 13 加 6 筆待 wbApply 修正後確認；LSATLab_Notes.docx 以 PDF 取代；S1 Q16、S1 Q17 的 2025 字母待補。",
+    "date": "2026-09-16",
+    "stopped_at": "02 RC｜9/18 收尾 RC 區塊完成（提前於 9/16 執行，130 分鐘）。9/18 教學部分全部完成；程式與筆記改版未做，留 9/18 維護窗",
+    "next_task": "00 系統｜9/18 維護窗依 HO-009 至 HO-012 待辦批次完成，先讀 live repo 與 LSATLab_Notes.pdf，改版與理解分開回報。之後 Phase One 第一堂依【第一堂建議】執行，開課報告列讀取狀態與本堂 [補充] 清單。",
+    "client_request_id": "02-20260916-h1",
+    "created_at": "2026-09-16T22:46:41.120Z",
+    "updated_at": "2026-09-16T22:46:41.120Z"
   }
 ]
