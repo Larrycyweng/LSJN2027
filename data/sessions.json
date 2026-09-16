@@ -209,5 +209,26 @@
     "client_request_id": "02-20260915-s2",
     "created_at": "2026-09-15T23:40:42.106Z",
     "updated_at": "2026-09-15T23:40:42.106Z"
+  },
+  {
+    "session_id": "S-20260915-03",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": 100,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "9/18 收尾 LR：Sufficient Assumption 方法、Most Supported 與 Must Be True 差別、Agree/Disagree 兩道篩選、Comparison meaningful distinction、必要條件英文句型",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "9/18 Week Zero 收尾 LR 區塊，提前於 9/15 執行，共 100 分鐘。課前依 LSATLab_Notes PDF（含 26 圖）與 repo 完成覆蓋核對。使用者要求改以 PT140 未檢討錯題對應筆記未驗證節，不用原創題。六題官方題 Review：S1 Q16 對；S3 Q17 錯（B，正解 C，偏好較不絕對選項，principally 為前提未有之比較）；S1 Q17 對（逆否應用，converse/inverse/contrapositive 表由使用者自行整理）；S3 Q11 錯（C，正解 A，結論 if not then not 畫反，SA 三步法當場教）；S1 Q6 對（口述 C 意圖 D，理由對應 D）；S1 Q10 C（第一道篩共同主題、第二道篩立場相反）。教學：SA 三步（前提箭頭、結論箭頭、比對缺口）；MS 允許比前提弱不允許比前提多；類比推翻的差異須落在比較標準上；essential/necessary/requires/only if 句型表。使用者對家教兩次修正：勿以原創題重測 Day1-5 已做技能；(2) 與 (5) 同一結論不必區分。均採納。RC 區塊移至 9/16。",
+    "session_date": "2026-09-15",
+    "mode": "檢討",
+    "effective_minutes": 100,
+    "client_request_id": "01-20260915-s1",
+    "created_at": "2026-09-16T06:17:17.396Z",
+    "updated_at": "2026-09-16T06:17:17.396Z"
   }
 ]
