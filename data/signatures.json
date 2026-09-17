@@ -8,8 +8,8 @@
     "stage": "延遲複測 1 次通過（9/15 原創，理由正確）／官方計時待驗",
     "near_transfer": "未測試",
     "far_transfer": "未測試",
-    "delayed_retest": "未測試",
-    "official_timed": "未測試",
+    "delayed_retest": "通過",
+    "official_timed": "待驗證",
     "evidence_count": 1,
     "notes": "",
     "error_type": "Rule premise 誤判為背景",
@@ -21,8 +21,8 @@
     "source": "原創題（練習二第6句；移轉題 sleep/retention）",
     "client_request_id": "20260913-g1",
     "created_at": "2026-09-13T19:04:50.928Z",
-    "updated_at": "2026-09-15T23:40:42.113Z",
-    "last_request_id": "02-20260915-e2"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "signature_id": "SIG-002",
@@ -31,7 +31,7 @@
     "created": "2026-09-14",
     "last_seen": "2026-09-14",
     "stage": "已發現／近距離移轉待測",
-    "near_transfer": "未測試",
+    "near_transfer": "待驗證",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
@@ -46,21 +46,22 @@
     "source": "原創題（練習一C；Drill D1）",
     "client_request_id": "20260914-g1",
     "created_at": "2026-09-14T18:15:52.068Z",
-    "updated_at": "2026-09-14T18:15:52.068Z"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "signature_id": "SIG-003",
     "attraction": "",
-    "scope": "LR",
+    "scope": "LR/RC",
     "created": "2026-09-14",
     "last_seen": "2026-09-15",
     "stage": "跨科重現後修正動作已教／延遲複測 1 次通過（9/15 原創 LR）／RC 官方待驗",
     "near_transfer": "未測試",
     "far_transfer": "未測試",
-    "delayed_retest": "未測試",
-    "official_timed": "未測試",
+    "delayed_retest": "通過",
+    "official_timed": "待驗證",
     "evidence_count": 3,
-    "notes": "",
+    "notes": "RC：短 This 句是反駁本身不是 hook，後句為其證據",
     "error_type": "壓縮式反駁結論被漏，末句事實誤為結論",
     "trigger_signal": "反方立場後緊接短句否定（This is simply false），其後為事實句",
     "why_attractive": "短句看似太薄不像結論；末句有實質內容像重點",
@@ -70,33 +71,33 @@
     "source": "PT140 S2 Q16（2025 與 2026 同錯）",
     "client_request_id": "01-20260914-g3",
     "created_at": "2026-09-14T21:59:12.134Z",
-    "updated_at": "2026-09-15T23:40:42.114Z",
-    "last_request_id": "02-20260915-e3"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "signature_id": "SIG-004",
     "attraction": "",
-    "scope": "LR",
+    "scope": "LR/RC",
     "created": "2026-09-14",
     "last_seen": "2026-09-15",
     "stage": "多項證據支持／修正動作已教／官方題單次通過（S4 Q25）／原創移轉通過（Karsu 功能題）／延遲複測待做",
-    "near_transfer": "未測試",
+    "near_transfer": "通過",
     "far_transfer": "未測試",
-    "delayed_retest": "未測試",
-    "official_timed": "未測試",
+    "delayed_retest": "待驗證",
+    "official_timed": "待驗證",
     "evidence_count": 4,
     "notes": "",
     "error_type": "預想答案未對應到選項（Flaw／Weaken）",
     "trigger_signal": "已生成正確替代解釋後進入選項，選項含 takes for granted／presumes 措辭",
     "why_attractive": "takes for granted 聽起來像在指出漏洞；未逐字核對選項是否說出自己的預想",
-    "corrective_action": "先用一句話寫出替代解釋，只選『說出那句話』的選項；沒有就重讀選項不重讀刺激。fails to consider X→X 能否 weaken；takes for granted X→否定 X 論證是否仍成立",
+    "corrective_action": "先用一句話寫出替代解釋，只選『說出那句話』的選項；沒有就重讀選項不重讀刺激。fails to consider X→X 能否 weaken；takes for granted X→否定 X 論證是否仍成立。功能類(Function)題先讀選項動詞(verbs)，回文章找該動作的句子，無則刪，再看名詞",
     "signature_status": "追蹤中",
     "first_seen": "2026-09-14",
     "source": "PT140 S1 Q13、S3 Q7",
     "client_request_id": "01-20260914-g4",
     "created_at": "2026-09-14T21:59:12.135Z",
-    "updated_at": "2026-09-15T23:40:42.115Z",
-    "last_request_id": "02-20260915-e5"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "signature_id": "SIG-005",
@@ -107,8 +108,8 @@
     "stage": "延遲複測 1 次通過（9/15 原創，理由正確）／官方計時待驗",
     "near_transfer": "未測試",
     "far_transfer": "未測試",
-    "delayed_retest": "未測試",
-    "official_timed": "未測試",
+    "delayed_retest": "通過",
+    "official_timed": "待驗證",
     "evidence_count": 2,
     "notes": "",
     "error_type": "some 逆著箭頭走",
@@ -120,8 +121,8 @@
     "source": "原創題（Exercise 1 第5題；Drill D3）",
     "client_request_id": "01-20260914-g5",
     "created_at": "2026-09-14T23:19:12.047Z",
-    "updated_at": "2026-09-15T23:40:42.114Z",
-    "last_request_id": "02-20260915-e4"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "signature_id": "SIG-006",
@@ -130,9 +131,9 @@
     "created": "2026-09-15",
     "last_seen": "2026-09-15",
     "stage": "提示後做對（PT140 S4 Q1）／原創移轉 1 次通過（電話交換機）／換領域再測待做／延遲複測待做",
-    "near_transfer": "未測試",
-    "far_transfer": "未測試",
-    "delayed_retest": "未測試",
+    "near_transfer": "通過",
+    "far_transfer": "待驗證",
+    "delayed_retest": "待驗證",
     "official_timed": "未測試",
     "evidence_count": 2,
     "notes": "",
@@ -145,7 +146,8 @@
     "source": "PT140 S4 Q1（2025 C；2026 C／E 未定，提示後 A）",
     "client_request_id": "02-20260915-g1",
     "created_at": "2026-09-15T23:40:42.113Z",
-    "updated_at": "2026-09-15T23:40:42.113Z"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "attraction": "",
@@ -153,7 +155,7 @@
     "created": "2026-09-16",
     "last_seen": "2026-09-16",
     "stage": "同題兩年重複／不同題驗證待做／近距離移轉待做",
-    "near_transfer": "未測試",
+    "near_transfer": "待驗證",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
@@ -169,7 +171,8 @@
     "signature_status": "追蹤中",
     "client_request_id": "02-20260916-g1",
     "created_at": "2026-09-16T22:56:34.000Z",
-    "updated_at": "2026-09-16T22:56:34.000Z"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "attraction": "",
@@ -177,7 +180,7 @@
     "created": "2026-09-16",
     "last_seen": "2026-09-16",
     "stage": "三實例／態度小抄已同意／官方不同題驗證待做",
-    "near_transfer": "未測試",
+    "near_transfer": "待驗證",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
@@ -193,6 +196,7 @@
     "signature_status": "追蹤中",
     "client_request_id": "02-20260916-g2",
     "created_at": "2026-09-16T22:56:34.000Z",
-    "updated_at": "2026-09-16T22:56:34.000Z"
+    "updated_at": "2026-09-16T23:34:22Z",
+    "last_request_id": "00-20260918-maint"
   }
 ]

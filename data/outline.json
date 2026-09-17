@@ -1,0 +1,1536 @@
+[
+  {
+    "section_id": "OL-001",
+    "parent_id": null,
+    "level": 1,
+    "order": 1,
+    "title": "LR",
+    "summary": "Logical Reasoning. How to master LR: Argument Structure, Reasoning Structure, Trap Answers. Question Family: Assumption (64%), Inference (24%), Function (19%).",
+    "blocks": [],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LR"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-002",
+    "parent_id": "OL-001",
+    "level": 2,
+    "order": 1,
+    "title": "LR Overview（總覽）",
+    "summary": "Three question families by share of the test; difficulty rises with question number.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Assumption family 64%; Inference family 24%; Function family 19%.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Difficulty by position (PT62 to PT81): Q1 to Q8 intuitive; Q9 to Q16 trap answers dominate; Q17 to Q25 reasoning structures plus trap answers.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Evidence, Assumption, Conclusion. Example: \"Blue cars are the fastest cars on the road. Therefore, you should buy a blue car.\" The assumption bridges evidence to conclusion.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Identify the task in the stem before reading the stimulus for structure.",
+        "label": "Steps"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§LR Overview"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-003",
+    "parent_id": "OL-002",
+    "level": 3,
+    "order": 1,
+    "title": "Assumption Family（假設家族）",
+    "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Necessary Assumption（必要假設）: pick the weakest link the argument cannot do without. Sufficient Assumption（充分假設）: pick the statement that fully closes the gap between premises and conclusion.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow.",
+        "label": "Why It Works"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S1-Q16"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§LR Overview Question Family"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-010"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-004",
+    "parent_id": "OL-002",
+    "level": 3,
+    "order": 2,
+    "title": "Inference Family（推論家族）",
+    "summary": "Most Supported 8%, Must Be True 7%, Paradox 7%, Must Be False 1%, Agree/Disagree 1%.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Most Supported（最受支持） 8%; Must Be True（必然為真） 7%; Paradox 7%; Must Be False（必然為假） 1%; Agree/Disagree（爭點） 1%.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "\"Cannot be inferred\" is not the same as \"false\". Must Be True（必然為真） and Most Supported（最受支持） reward what the premises support; Must Be False（必然為假） rewards what they contradict.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Most Supported（最受支持） may be weaker than the premises but may not add more than the premises give.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Agree/Disagree（爭點）: first screen for an option both speakers address; then screen for opposite positions on it.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S1 Q10 (Agree/Disagree（爭點）) answered with the two screens; PT140 S3 Q17 (Most Supported（最受支持）) missed by preferring a less absolute option and accepting \"principally\", which the premises never compared.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S1-Q10",
+          "A-20260915-PT140-S3-Q17"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§LR Overview Question Family"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-010"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-005",
+    "parent_id": "OL-002",
+    "level": 3,
+    "order": 3,
+    "title": "Function Family（功能家族）",
+    "summary": "Main Conclusion 3%, Role 3%, Method 5%, Parallel 3%, Parallel Flaw 4%.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Main Conclusion 3%; Role 3%; Method 5%; Parallel 3%; Parallel Flaw 4%.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Task recognition for Role and Method not yet independently verified (no PT140 error available).",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§LR Overview Question Family"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-010"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-006",
+    "parent_id": "OL-001",
+    "level": 2,
+    "order": 2,
+    "title": "Argument Structure（論證結構）",
+    "summary": "Argument = Conclusion (verdict or judgment) supported by Premise (evidence or support). Three steps.",
+    "blocks": [
+      {
+        "type": "ol",
+        "items": [
+          "Find the Conclusion + Evidence: use keywords, Opinion vs Fact, the logic of Supported / Supporting.",
+          "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion.",
+          "Pay Attention to Reasoning Patterns: Recommendations, Hypotheses, Rebuttals, Judgments, Predictions."
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-007",
+    "parent_id": "OL-006",
+    "level": 3,
+    "order": 1,
+    "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+    "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260914-PT140-S2-Q16",
+          "A-20260914-PT140-S3-Q12",
+          "A-20260914-PT140-S1-Q09"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure Find the Conclusion + Evidence"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-002, HO-005, HO-009"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT140 S2 Q16"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure Keywords"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-008",
+    "parent_id": "OL-006",
+    "level": 3,
+    "order": 2,
+    "title": "Skeptical of Conclusion（質疑結論）",
+    "summary": "Even though the evidence is true, argue the Anti-Conclusion.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Plans / Recommendations: how could we go along with this plan but not achieve the goal or be better off? \"Thus, we should do X\" → X does not help or is a net negative. \"Thus, if we want Y, we should do X\" → X does not help us get Y. \"Thus, if we want Y, we must do X\" → there are other ways to get Y.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Flaw and Weaken: state the gap in one sentence before reading options, then pick only the option that says that sentence. If none does, reread the options, not the stimulus.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "\"Fails to consider X\" is a flaw only if X, when true, weakens the argument. \"Takes for granted X\" is a flaw only if the argument collapses when X is denied.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "SIG-004: correct reasoning not matched to the answer letter (two instances 2026-09-13; PT140 S4 Q15). Corrective: match the pre-phrase to the option text; for Function questions verify the option verb first.",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S1 Q13 and S3 Q07 missed 2026-09-14; S1 Q06 reasoning pointed to D but C was filled in (letter mismatch, counted wrong).",
+        "label": "Official Example",
+        "refs": [
+          "A-20260914-PT140-S1-Q13",
+          "A-20260914-PT140-S3-Q07",
+          "A-20260915-PT140-S1-Q06"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Plans/Recommendations three forms and Anti-Conclusion: from Notes, not yet verified on a question. SIG-004 near transfer passed (original), official untimed passed once (S4 Q25); timed verification pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure Skeptical of Conclusion"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-002, HO-005, HO-010"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure Be Skeptical"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-009",
+    "parent_id": "OL-001",
+    "level": 2,
+    "order": 3,
+    "title": "Reasoning Structures（推理結構）",
+    "summary": "Three structures with a fixed question for each: Conditional, Comparison, Causation.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Conditional: A → B, B → C, therefore A → C. Causal: A causes B, B causes C, therefore A causes C. Comparative: A < B, B < C, therefore A < C.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Conditional: find the assumed conditions. Comparison: find differences (Analogy) or pros vs cons (Recommendation). Causation: ask for alternative explanations.",
+        "label": "Rule"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure Reasoning Structures"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-010",
+    "parent_id": "OL-009",
+    "level": 3,
+    "order": 1,
+    "title": "Conditional（條件）",
+    "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Negating \"A and B\" gives \"not A or not B\".",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\".",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal.",
+        "label": "Rule"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+          "Write the conclusion as an arrow.",
+          "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11.",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S1-Q17",
+          "A-20260915-PT140-S3-Q11",
+          "A-20260915-PT140-S3-Q17"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Reasoning Structures Conditional"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-006, HO-010"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT140 S1 Q17, S3 Q11, S3 Q17"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-011",
+    "parent_id": "OL-009",
+    "level": 3,
+    "order": 2,
+    "title": "Comparison（比較）",
+    "summary": "Find differences for Analogy; find pros vs cons for Recommendation.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "\"What is true in Case A should be true in Case B.\" Meaningful Distinctions: make it seem that the two cases are unfair to compare. \"X is better than Y / we should do X / X is a net gain\": Pros > Cons, we need to know and rank upsides and downsides.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "To defeat an analogy, the difference must bear on the standard of comparison. A difference that does not touch the standard is irrelevant.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S1 Q10: meaningful distinction was the third screen; user could not state it and it was taught.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S1-Q10"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Taught 2026-09-15; independent verification pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Reasoning Structures Comparison"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-010"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-012",
+    "parent_id": "OL-009",
+    "level": 3,
+    "order": 3,
+    "title": "Causation（因果）",
+    "summary": "Ask: is there an alternative explanation?",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Correlation: \"people who are X are more likely than others to be Y\" (X ¦ Y). Author's explanation: \"clearly, X contributes to Y\" (X → Y). Alternate explanations: Reverse Causality (X ← Y); Third Factor (Z → X and Z → Y). Plausibility of the author's explanation: was the suspect at the scene? more data to corroborate?",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Anti-Causal 1, Could Have Been Worse: \"took prep course X and scored only 150, thus the course did nothing\" ignores the counterfactual. Anti-Causal 2, Unfair Comparison: \"Bob took course X while Sharon self-studied; both got 150; thus the course did nothing\" ignores different initial reference points.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Working list of alternatives used in teaching: reverse causation, third factor, coincidence or small sample, selection. Notes name the first two; the last two are Supplement.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "A randomised controlled trial removes selection and reverse causation; it does not remove a third factor introduced after randomisation.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "SIG-002: alternative-explanation labels used imprecisely (third factor vs selection). Name the mechanism, not just \"another cause\".",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Reasoning Structures Causation"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-003"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Reasoning Structures Causation Be Skeptical"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-013",
+    "parent_id": "OL-001",
+    "level": 2,
+    "order": 4,
+    "title": "Eliminate Trap Answers（排除誘答）",
+    "summary": "Wrong answers fail on Scope, Logic, or Degree. Eliminate on textual grounds only.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Six trap categories. Scope: Out of Scope（超出範圍）, Half Scope（只對一半）. Logic: Premise Support（只支持前提）, Reversal（方向顛倒）. Degree: Too Weak（太弱）, Too Strong（太強）.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Withdrawn rule: \"the shorter or weaker option wins\". This is not a criterion. Eliminate an option only when the premises give it no support; support may come from several premises together.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Degree: absolute wording is not the same as too strong. Judge only whether the premises support the claim. \"Necessary\" is not \"principal\"; a comparative word the premises never made (\"principally\", \"mainly\") is unsupported.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S3 Q17: the correct option used absolute wording supported by the chain; the chosen option added \"principally\".",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S3-Q17"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Six-category names from Notes. Degree rule taught 2026-09-15; withdrawn rule documented.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Eliminate Trap Answers"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-010, 02 RC 2026-09-15 correction"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-014",
+    "parent_id": null,
+    "level": 1,
+    "order": 2,
+    "title": "RC",
+    "summary": "Reading Comprehension. Read for purpose and viewpoint; answer from the text.",
+    "blocks": [
+      {
+        "type": "ol",
+        "items": [
+          "Active Reading",
+          "Main Point",
+          "Passage Map",
+          "Trap Answers"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "RC"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-015",
+    "parent_id": "OL-014",
+    "level": 2,
+    "order": 1,
+    "title": "RC Overview（總覽）",
+    "summary": "Four passages, one comparative. Questions: Inference (78%), Purpose (17%), Assumption (5%).",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Difficulty rises with complex language and with many viewpoints. Simple language with one viewpoint is easiest; complex language with many viewpoints is hardest.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Passage first (read the whole passage, map it, then answer) is the training default. Question-first will be tested as a comparison in the second round of single-passage drills.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "Reading time baseline (2026-09-16): P2 full reread 10 min, P1 local 3 min, P3 local 3 min.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§RC Overview"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-007, HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-016",
+    "parent_id": "OL-014",
+    "level": 2,
+    "order": 2,
+    "title": "The RC Process（閱讀流程）",
+    "summary": "Four steps: Active Reading, Main Point, Passage Map, Questions.",
+    "blocks": [],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§The RC Process"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-017",
+    "parent_id": "OL-016",
+    "level": 3,
+    "order": 1,
+    "title": "Step 1: Active Reading（主動閱讀）",
+    "summary": "(1) Connect; (2) Anticipate where the passage is going.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Anticipating where the passage is going (Notes Step 1) is a reading action. Forming a direction before reading answer choices is a separate answering action. Do both; do not confuse them.",
+        "label": "Rule"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§RC Process Step 1"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-008"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-018",
+    "parent_id": "OL-016",
+    "level": 3,
+    "order": 2,
+    "title": "Step 2: Main Point（主旨）",
+    "summary": "Common locations: end of P1 and start of P2, or start of the last paragraph.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Location is a heuristic, not a definition. The main point is the author's own claim that the rest of the passage serves. It may carry qualifiers.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Corrected rule (was: \"the main point must be unconditional\"): a qualified claim can be the main point when the evidence serves it. A hedged downstream consequence (\"if this is right, then ...\") is EXTEND, not the main point.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Test: ask what every paragraph is doing for. If a candidate sentence is only served by one paragraph, it is a sub-point.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q20 (Main Point) answered correctly 2026-09-14; 2025 miss was an unread author stance.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260914-PT140-S4-Q20"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Verified on two original passages and one official (2026-09-14).",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§RC Process Step 2 Main Point"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-007"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-019",
+    "parent_id": "OL-016",
+    "level": 3,
+    "order": 3,
+    "title": "Step 3: Passage Map（文章地圖）",
+    "summary": "Focus on the purpose of each paragraph; how the rest combines to lead to the main point.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Seven paragraph-function labels: INTRO, VIEW, COUNTER, SUPPORT, EVAL, AUTHOR, EXTEND. No other label set is used.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "One structure shown in the Notes: Opposing Point → Support for Opposing Point → Evidence Against Opposing Point → Main Point. Map the paragraphs, then locate where the author's main point sits.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "COUNTER presents an opposing view or objection (someone's position). EVAL is the author weighing a view. When one paragraph both reports and judges, label it by the sentence that carries the judgment.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Ownership (whose view is speaking): attribution markers (\"some historians\", \"on this view\", \"according to\") hand the microphone to a source; the author takes it back with a pivot (\"but\", \"however\"), an evaluative word, or an unattributed conclusion. Tests: trace back to the owner; ask whether the author endorses it.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "Map only to the resolution the questions need. A label per paragraph is usually enough; do not label every sentence.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Passage map verified on PT140 S4 P1 and P3 (2026-09-15, 09-16).",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§RC Process Step 3 Passage Map"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-007, HO-011, HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-020",
+    "parent_id": "OL-016",
+    "level": 3,
+    "order": 4,
+    "title": "Step 4: Questions（作答）",
+    "summary": "Inference 77.6%, Purpose 17.3%, Assumption 5.2%. Form a direction, then verify against the text.",
+    "blocks": [
+      {
+        "type": "ol",
+        "items": [
+          "Read the stem; name the task.",
+          "Form a direction before reading choices (not a full prediction for every question).",
+          "For Function and Attitude questions, check the option verb against the text first; if the text never does that action, eliminate.",
+          "Read the full proposition: who did what, scope, qualifiers.",
+          "Support may be several sentences combined; eliminate only when no textual support exists."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This sequence is a training scaffold; the goal is to fade it, not to run it on every question in the exam.",
+        "label": "Why It Works"
+      },
+      {
+        "type": "p",
+        "text": "Withdrawn rule: \"prefer the shorter or weaker option\". Not a criterion.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Answer-choice verification taught 2026-09-15 (HO-008); applied on S4 Q25, Q26.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§RC Process Step 4 Questions"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-008"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-021",
+    "parent_id": "OL-014",
+    "level": 2,
+    "order": 3,
+    "title": "Question types（題型）",
+    "summary": "Twelve RC question types with their share of RC questions.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Inference 27.6%; Opinion 22.2%; Purpose 13.0%; Main Point 12.3%; Meaning in Context 6.4%; Organization 4.3%; Analogy 3.7%; Most Supported（最受支持） 3.0%; Weaken 2.7%; Application 2.3%; Strengthen 2.0%; Principle 0.5%.",
+        "label": "Recognition"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-022",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 1,
+    "title": "Author Opinion / Attitude（作者態度）",
+    "summary": "Identify whose judgment it is; determine its direction, then its strength.",
+    "blocks": [
+      {
+        "type": "ol",
+        "items": [
+          "Whose judgment: author or a reported source?",
+          "Direction: approving, disapproving, or neutral report.",
+          "Strength: hedge present (qualified, cautious) or no hedge (clear endorsement or dismissal)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "When the author has a stance, do not choose a neutral descriptor (\"subject to debate\", \"undecided\"). Neutral is correct only when the author reports without evaluating.",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "Attitude vocabulary: dismissive（不屑、否定）, skeptical（懷疑）, qualified approval（有保留的贊同）, cautious（謹慎）, ambivalent（正反並存）, neutral（中立、只報導不評價）, critical（批評）, enthusiastic（熱切贊同）. Each needs a supporting sentence in the passage; if none exists the word is not supported.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q25 and Q26 correct with reasons (2026-09-15). 2025 Q20 chose \"subject to debate\" although the author had a stance. SIG-008 (three instances).",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S4-Q25",
+          "A-20260915-PT140-S4-Q26"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Supplement approved by user 2026-09-16 (attitude cheat sheet, merged version). Official verification on a different passage pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Opinion"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-009, HO-012 (approved)"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-023",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 2,
+    "title": "Primary Purpose（文章目的）",
+    "summary": "What the whole passage does, covering every body paragraph.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Describing can be a purpose. In a descriptive passage with no rebuttal or proposal, the correct option is the description that covers all body paragraphs; an option that covers one paragraph but sounds like an argument is Out of Scope（超出範圍） (partial).",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Topic area does not determine structure; do not infer \"descriptive\" from \"humanities\".",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "For \"A does X while B does Y\" or two-part options, verify both halves separately (Half Scope（只對一半） candidate, PT140 S4 Q12).",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q1: same wrong direction as 2025, correct after hint (SIG-006). S4 Q12 missed 2026-09-16.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260915-PT140-S4-Q01",
+          "A-20260916-PT140-S4-Q12"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "SIG-006 near transfer passed on an original passage; cross-domain retest pending. Half Scope（只對一半）: candidate, not yet a signature.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Purpose"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-008, HO-009, HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-024",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 3,
+    "title": "Local Purpose / Function（局部功能）",
+    "summary": "Why the author includes a sentence or paragraph.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Check the option verb first: does the text actually do that action (illustrate, concede, qualify, refute)? If not, eliminate before reading the noun phrase.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q15 missed (map correct, verb not checked, SIG-004). S4 Q3 and Q8 correct with reasons (2026-09-16).",
+        "label": "Official Example",
+        "refs": [
+          "A-20260914-PT140-S4-Q15",
+          "A-20260916-PT140-S4-Q03",
+          "A-20260916-PT140-S4-Q08"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Function"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-007, HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-025",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 4,
+    "title": "Detail / Locate Details（細節定位）",
+    "summary": "Locate, then compare nouns and qualifiers.",
+    "blocks": [
+      {
+        "type": "ol",
+        "items": [
+          "Take the key noun from the stem and locate the original sentence.",
+          "Compare the option to that sentence noun by noun, including qualifiers.",
+          "Accept a reasonable paraphrase; reject a sentence that is in the passage but does not answer the stem."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Citing a sentence that does not correspond to the stem (SIG-007, PT140 S4 Q19, same error in 2025 and 2026).",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q19 missed twice; S4 Q16 missed 2026-09-16 (mechanism pending).",
+        "label": "Official Example",
+        "refs": [
+          "A-20260916-PT140-S4-Q19",
+          "A-20260916-PT140-S4-Q16"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Phase One week 1 focus (SIG-007); verification on a different question pending.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Detail"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-026",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 5,
+    "title": "Analogy / Relationship（類比與關係）",
+    "summary": "State the relationship in a short phrase before reading choices.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Write the relationship or the analogy target as a short phrase first; then match options to that phrase.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q10 (comparative, Analogy) correct 2026-09-16; distinguishing reason supplied on questioning.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260916-PT140-S4-Q10"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Analogy"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-027",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 6,
+    "title": "Inference（推論）",
+    "summary": "Largest RC type (27.6%). Direct textual support; watch scope and qualifiers.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Correct answer is supported by the text as written; the strongest support is a sentence or a combination of sentences you can point to.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Content beyond the Notes to be filled after Phase One week 1 teaching.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Inference"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-028",
+    "parent_id": "OL-014",
+    "level": 2,
+    "order": 4,
+    "title": "Passages Topics & Formats（主題與格式）",
+    "summary": "Topics do not determine structure. Formats: single and comparative.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Topics: Humanities, Law, Society, Science. Formats: three standard passages and one comparative passage per section.",
+        "label": "Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Topic area does not determine structure.",
+        "label": "Rule"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Passages Topics & Formats"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-029",
+    "parent_id": "OL-028",
+    "level": 3,
+    "order": 1,
+    "title": "Comparative Passages（比較文章）",
+    "summary": "Two passages on one topic; questions ask about each and about the relationship.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Map both passages with the seven labels. If a passage has an AUTHOR paragraph, it has a stance. State the relationship as the two main points in plain words.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "Two-part options (\"A does X while B does Y\"): verify each half against its passage.",
+        "label": "Trap"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 P2 (Law) worked 2026-09-16: Q8, Q10 correct; Q12 missed.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260916-PT140-S4-Q08",
+          "A-20260916-PT140-S4-Q10",
+          "A-20260916-PT140-S4-Q12"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Passages Topics & Formats Comparative"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-030",
+    "parent_id": "OL-014",
+    "level": 2,
+    "order": 5,
+    "title": "Trap Answers（誘答）",
+    "summary": "Named wrong-answer patterns seen in PT140 reviews.",
+    "blocks": [
+      {
+        "type": "ul",
+        "items": [
+          "Unsupported Comparison（無依據的比較）: the option ranks or compares two things the passage never compares (Notes example, Main Point question on code-switching).",
+          "Too Strong（太強）: stronger than the text supports (S4 Q25 option D).",
+          "Opposite（相反）: reverses the author's direction (S4 Q26 option C).",
+          "Out of Scope（超出範圍）, partial: covers one paragraph but sounds like the thesis (S4 Q1 option C).",
+          "Half Scope（只對一半）: one half of a two-part option is right, the other is not (S4 Q12, candidate).",
+          "Wrong Emphasis（重點錯置）: neutral descriptor when the author has a stance (2025 S4 Q20 option D).",
+          "Verb mismatch: the option names an action the text never performs (Function questions, S4 Q15)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Withdrawn rule: \"shorter or weaker option wins\". Eliminate only on missing textual support.",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "Patterns drawn from PT140 S4 reviews 2026-09-14 to 09-16; awaiting confirmation on other passages.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Trap Answers"
+      },
+      {
+        "type": "Supplement",
+        "ref": "HO-008, HO-012"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-031",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 7,
+    "title": "Main Point（主旨題）",
+    "summary": "12.3% of RC questions. See The RC Process Step 2 for the method.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Method is in Step 2: Main Point (Thesis). Trap in the Notes example: Unsupported Comparison（無依據的比較） (an option comparing two factors the passage never ranks).",
+        "label": "Rule"
+      },
+      {
+        "type": "p",
+        "text": "PT140 S4 Q20 correct 2026-09-14.",
+        "label": "Official Example",
+        "refs": [
+          "A-20260914-PT140-S4-Q20"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Main Point"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Trap Answers"
+      }
+    ],
+    "status": "已核准",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-032",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 8,
+    "title": "Meaning in Context（語境詞義）",
+    "summary": "6.4% of RC questions. Define the word or phrase by the sentence around it.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Content to be filled; no PT140 error available.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Meaning in Context"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-033",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 9,
+    "title": "Organization（組織）",
+    "summary": "4.3% of RC questions. How the passage or a paragraph is put together.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Answer from the passage map; check each part of the option against the paragraph order.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "Not yet verified on a question.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Organization"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-034",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 10,
+    "title": "Application（應用）",
+    "summary": "2.3% of RC questions. Apply the author's view or principle to a new case.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Content to be filled.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Application"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-035",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 11,
+    "title": "Strengthen / Weaken（加強／削弱）",
+    "summary": "Strengthen 2.0%, Weaken 2.7%. LR-style task applied to a claim in the passage.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Locate the claim, then treat as an LR Strengthen or Weaken question.",
+        "label": "Steps"
+      },
+      {
+        "type": "p",
+        "text": "Not yet verified on a question.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Strengthen, Weaken"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  },
+  {
+    "section_id": "OL-036",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 12,
+    "title": "Most Supported / Principle（最受支持／原則）",
+    "summary": "Most Supported 3.0%, Principle 0.5%.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Content to be filled.",
+        "label": "Status"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Question types Most Supported, Principle"
+      }
+    ],
+    "status": "待確認",
+    "protected": false,
+    "revisions": [],
+    "updated_at": "2026-09-16T22:00:00Z",
+    "updated_by": "00 maintenance 2026-09-18"
+  }
+]

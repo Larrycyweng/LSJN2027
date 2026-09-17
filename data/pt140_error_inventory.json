@@ -1,5 +1,5 @@
 {
-  "inventory_version": "1.2",
+  "inventory_version": "1.5",
   "pt": 140,
   "taken": "2025-10-15",
   "score": 140,
@@ -11,9 +11,9 @@
   },
   "completeness": {
     "S1": "complete (17 errors)",
-    "S2": "partial: only Causation-filtered errors captured (Q16, Q18); full list pending one screenshot",
+    "S2": "partial: only Causation-filtered errors captured (Q16, Q18); full list pending one screenshot (experimental section, low priority)",
     "S3": "complete (16 errors)",
-    "S4": "complete (11 errors captured from two screenshots; 3 P1 questions unanswered, among Q2/Q4/Q5/Q6, identities pending; unanswered treated as unseen per rules)"
+    "S4": "complete: 11 errors + P1 Q4-6 unanswered (treated as unseen); Q16 Inference, Q19 Locate Details filled (v1.5)"
   },
   "rules": [
     "Source of truth for PT140 delayed blind review selection (HO-004 protocol).",
@@ -21,7 +21,8 @@
     "Question text is never stored; lab_label is LSAT Lab's own list label used purely for identification.",
     "After each 2026 blind review, fill review_2026 via write-back (chat prefix 01- for LR, 02- for RC) rather than editing this file by hand.",
     "Feature tags come from the LSAT Lab Question Features filter; a missing tag means not yet checked, not absent.",
-    "Reading time is 0:00 for all S4 passages because LSAT Lab did not separate passage reading from question time in this attempt; passage_time is total per passage."
+    "Reading time is 0:00 for all S4 passages because LSAT Lab did not separate passage reading from question time in this attempt; passage_time is total per passage.",
+    "review_2026 is filled by write-back op update_pt140_review (or 00 maintenance backfill from attempts.json); attempts.json remains the full record."
   ],
   "features_checked": [
     "Causation",
@@ -39,8 +40,21 @@
       "features_lsatlab": [],
       "lab_label": "A recent taste test reveals",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "A",
+        "answer_2026": "C",
+        "correct_answer": "D",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "理由正確，字母不符",
+        "classification": "2025 A。口述 C，意圖 D，理由對應 D（缺口為香草不具巧克力的複雜度）。與 9/14 S1 Q13 同型，第二實例；候選指紋：理由完成後填答字母與意圖不符，修正動作為填字母前回看選項首字。C 與 A 皆 Scope（喜歡程度、口味偏好，非差異遮蔽）。",
+        "attempt_id": "A-20260915-PT140-S1-Q06",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -71,8 +85,21 @@
       ],
       "lab_label": "Records from 1850 to 1900",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-14",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "A",
+        "correct_answer": "A",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025: E（correlation 讀成 causal connection）。盲審說出 two other phenomena。",
+        "attempt_id": "A-20260914-PT140-S1-Q09",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -85,8 +112,21 @@
       "features_lsatlab": [],
       "lab_label": "Vincent: No scientific discipline",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "B",
+        "answer_2026": "C",
+        "correct_answer": "C",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025 B（B 只有 Yolanda 談到，第一道篩選未做）。2026 以有無共同討論篩掉 B、D、E，A 與 C 需第二道篩選立場相反，A 兩人同向。正解 C 由官方解析截圖確認。Comparison 教學：Yolanda 類比之比較標準為依賴自我報告，Vincent 反駁須指出兩種報告性質差異（驗光可對照儀器）。",
+        "attempt_id": "A-20260915-PT140-S1-Q10",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -117,8 +157,21 @@
       ],
       "lab_label": "Animal feed should not include",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-14",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "C",
+        "answer_2026": "C",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "理由正確，字母不符",
+        "classification": "2025: C。2026 理由完全對應 A，口述 C，自述意圖 A。",
+        "attempt_id": "A-20260914-PT140-S1-Q13",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -145,8 +198,22 @@
       "features_lsatlab": [],
       "lab_label": "At the end of 1997",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "C",
+        "answer_2026": "B",
+        "correct_answer": "B",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "部分正確，討論後釐清",
+        "classification": "2025 答案待補字母。理由方向正確：申報不變的國家須有開採或發現至少一項，否則作者的質疑無根據。初始理由把 B 的 or 讀成兩者皆須，且未分清「申報可能正確」與「作者質疑申報的根據」，討論後釐清。必要假設取最弱連結。",
+        "attempt_id": "A-20260915-PT140-S1-Q16",
+        "explanation_seen": true
+      },
+      "answer_2025": "C"
     },
     {
       "pt": 140,
@@ -159,8 +226,22 @@
       "features_lsatlab": [],
       "lab_label": "If a motor is sound-insulated",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "B",
+        "correct_answer": "B",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025 答案待補字母。A 逆命題、B 逆否應用、E 否命題誤用，使用者自行整理表格正確。Day 3 converse/inverse 在官方題延遲驗證通過。",
+        "attempt_id": "A-20260915-PT140-S1-Q17",
+        "explanation_seen": true
+      },
+      "answer_2025": "E"
     },
     {
       "pt": 140,
@@ -287,8 +368,21 @@
       ],
       "lab_label": "Some heartburn-medication advertisements",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-14",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "A",
+        "answer_2026": "A",
+        "correct_answer": "C",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "提示後正確",
+        "classification": "2025: A。壓縮式反駁結論（This is simply false）被漏，末句事實誤為結論。",
+        "attempt_id": "A-20260914-PT140-S2-Q16",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -319,8 +413,21 @@
       ],
       "lab_label": "More pedestrian injuries occur",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-14",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "C",
+        "answer_2026": "D",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "提示後正確",
+        "classification": "2025: C。生成 reverse causality 正確，但選了 takes-for-granted 型選項 D（3% 選擇率）。",
+        "attempt_id": "A-20260914-PT140-S3-Q07",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -361,8 +468,21 @@
       "features_lsatlab": [],
       "lab_label": "Secondary school students",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "C",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025 E。結論 if not mastery then not methods 應畫為 Methods → Mastery，使用者讀成 Mastery → Methods 並選其等價 C（Logic Reversal）。前提 Methods 且 Effort → Mastery，缺口為 Methods → Effo",
+        "attempt_id": "A-20260915-PT140-S3-Q11",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -375,8 +495,21 @@
       "features_lsatlab": [],
       "lab_label": "Consumer advocate: Even if one",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-14",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "A",
+        "correct_answer": "A",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025: E（unstated inference 當結論）。",
+        "attempt_id": "A-20260914-PT140-S3-Q12",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -421,8 +554,21 @@
       "features_lsatlab": [],
       "lab_label": "Science teacher: In any nation",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "01",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "B",
+        "correct_answer": "C",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025 E。essential/requires/necessary 串成條件鏈，正解 C 為逆否，強度由前提支持。使用者親口錯因：偏好看似較不絕對的選項，接受 principally。候選指紋：語氣絕對不等於過強，必要不等於主要；與已刪除之較短較弱優先為同一傾向。",
+        "attempt_id": "A-20260915-PT140-S3-Q17",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -552,8 +698,21 @@
       "features_lsatlab": [],
       "lab_label": "Sam Gilliam",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "C",
+        "answer_2026": "C",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "是",
+        "reason_correct": "是",
+        "classification": "2025: C。2026 初答在 C 與 E 之間未定（timed_answer 欄記 C 僅為佔位），A 被刪除；提示後改 A，理由正確（P2 動機、P3 作品）。記提示後做對，不算盲審通過。錯因待確認，候選指紋見 HO-008。",
+        "attempt_id": "A-20260915-PT140-S4-Q01",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -571,8 +730,69 @@
       "features_lsatlab": [],
       "lab_label": "Sam Gilliam",
       "result_2025": "incorrect",
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "A",
+        "answer_2026": "D",
+        "correct_answer": "D",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025 A。作答於 ChatGPT，選項截圖已上傳本對話。理由：舉同代人作品為例說明 Gilliam 不耐其直白再現手法，對應 D illustrate。P1 地圖 intro／support／support，讀 3 分鐘，局部重讀。Purpose 類官方正面證據，接續 Q1、Q25、Q26。",
+        "attempt_id": "A-20260916-PT140-S4-Q03",
+        "explanation_seen": true
+      }
+    },
+    {
+      "pt": 140,
+      "section": 4,
+      "q": 4,
+      "type": "",
+      "level": null,
+      "time_2025": "00:00",
+      "timed_out": true,
+      "unanswered_2025": true,
+      "features_lsatlab": [],
+      "lab_label": "",
+      "result_2025": "unanswered",
       "explanation_seen": false,
-      "review_2026": null
+      "review_2026": null,
+      "note": "P1，2025 未作答（使用者 2026-09-17 確認）。視為未見過的題，可作陌生官方題使用，不進三方比對。"
+    },
+    {
+      "pt": 140,
+      "section": 4,
+      "q": 5,
+      "type": "",
+      "level": null,
+      "time_2025": "00:00",
+      "timed_out": true,
+      "unanswered_2025": true,
+      "features_lsatlab": [],
+      "lab_label": "",
+      "result_2025": "unanswered",
+      "explanation_seen": false,
+      "review_2026": null,
+      "note": "P1，2025 未作答（使用者 2026-09-17 確認）。視為未見過的題，可作陌生官方題使用，不進三方比對。"
+    },
+    {
+      "pt": 140,
+      "section": 4,
+      "q": 6,
+      "type": "",
+      "level": null,
+      "time_2025": "00:00",
+      "timed_out": true,
+      "unanswered_2025": true,
+      "features_lsatlab": [],
+      "lab_label": "",
+      "result_2025": "unanswered",
+      "explanation_seen": false,
+      "review_2026": null,
+      "note": "P1，2025 未作答（使用者 2026-09-17 確認）。視為未見過的題，可作陌生官方題使用，不進三方比對。"
     },
     {
       "pt": 140,
@@ -590,8 +810,21 @@
       "features_lsatlab": [],
       "lab_label": "Online Game Currencies",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "D",
+        "answer_2026": "B",
+        "correct_answer": "B",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025 D。理由：skinning animals 為遊戲內活動，fish pulled from the ocean 為現實世界對應活動。2025 D 把魚讀成作者主張應課稅之商品，原文為僅於出售時課稅且主張戰利品同等對待。",
+        "attempt_id": "A-20260916-PT140-S4-Q08",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -609,8 +842,21 @@
       "features_lsatlab": [],
       "lab_label": "Online Game Currencies",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "B",
+        "answer_2026": "D",
+        "correct_answer": "D",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "部分正確，提問後補足（本對話 02，9/16）",
+        "classification": "2025 B。初始理由「第二篇建立在第一篇之上」無法區分 D 與 B；家教提問後定位差異：A 報導新現象、B 問既有法律如何適用；B 選項為立法新徵稅非適用既有學理。考場對應動作：看選項前先以短語寫下關係。",
+        "attempt_id": "A-20260916-PT140-S4-Q10",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -628,8 +874,21 @@
       "features_lsatlab": [],
       "lab_label": "Online Game Currencies",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "B",
+        "answer_2026": "E",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025 B。2026 E 前半可接受，後半 draws theoretical consequences 未對照 B3 B4 的 should／should not（正解 proposes solutions）。2025 B 為相反的一半。同一題兩年各錯一半，記作答 2 次題目 1 題，Half Scope 候選，需",
+        "attempt_id": "A-20260916-PT140-S4-Q12",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -656,7 +915,9 @@
         "answer_2026": "C",
         "correct_answer": "E",
         "correct_2026": false,
-        "classification": "穩定誤判，歸入 SIG-004（動詞未核對；地圖正確）",
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025: D。末段地圖正確（作者從 P2、P3 推出兩結論），選 C 因名詞相符，recapitulates／advocates 兩動詞無對應句。",
         "attempt_id": "A-20260914-PT140-S4-Q15",
         "explanation_seen": true
       }
@@ -670,15 +931,28 @@
       "passage_time": "10:02",
       "passage_accuracy": "50%",
       "q": 16,
-      "type": "unknown (hidden by tooltip in screenshot)",
+      "type": "Inference",
       "level": 5,
       "time_2025": "00:58",
       "timed_out": false,
       "features_lsatlab": [],
       "lab_label": "The Origins of Superior Performance",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "E",
+        "answer_2026": "B",
+        "correct_answer": "A",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025 E（Too Strong in any way，使用者自述只讀前半）。2026 B 說最高表現需要 highest level of innate talent，主旨句為 talent common to all reasonably competent performers；B 與主旨相反已由使用者確認。選",
+        "attempt_id": "A-20260916-PT140-S4-Q16",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -689,15 +963,28 @@
       "passage_time": "10:02",
       "passage_accuracy": "50%",
       "q": 19,
-      "type": "unknown (hidden by tooltip in screenshot)",
+      "type": "Locate Details",
       "level": 5,
       "time_2025": "00:40",
       "timed_out": false,
       "features_lsatlab": [],
       "lab_label": "The Origins of Superior Performance",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-16",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "A",
+        "answer_2026": "A",
+        "correct_answer": "D",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "2025 A，同答案同理由同引錯句；作答於 ChatGPT，選項截圖已上傳本對話。引 P3 circumvent basic limits 句代替 P2 末句含 memory 的句子；定位句 exceptional memory for configurations but only if typical of che",
+        "attempt_id": "A-20260916-PT140-S4-Q19",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -724,7 +1011,9 @@
         "answer_2026": "A",
         "correct_answer": "A",
         "correct_2026": true,
-        "classification": "概念已穩（暫時支持）；2025 錯因為作者立場未讀出（Author Perspective）",
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025: D（作者當中立轉述者，3:44）。2026 定位末段 however 後，D 動詞 debate 無對應句而刪除。",
         "attempt_id": "A-20260914-PT140-S4-Q20",
         "explanation_seen": true
       }
@@ -745,8 +1034,21 @@
       "features_lsatlab": [],
       "lab_label": "Explaining Mirror Images",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "D",
+        "answer_2026": "C",
+        "correct_answer": "C",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025: D（depends on training 無文章依據，Too Strong）。2026 動詞篩去 A、B、D，範圍篩去 E（accurate understanding 過廣）。SIG-004 修正動作在官方題單次通過。",
+        "attempt_id": "A-20260915-PT140-S4-Q25",
+        "explanation_seen": true
+      }
     },
     {
       "pt": 140,
@@ -764,8 +1066,21 @@
       "features_lsatlab": [],
       "lab_label": "Explaining Mirror Images",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-15",
+        "chat": "02",
+        "mode": "Review",
+        "answer_2025": "C",
+        "answer_2026": "B",
+        "correct_answer": "B",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "2025: C（Opposite，把 front-to-back 的缺點套到 field-of-sight）。2026 對回 P2 末句 most notable。2025 錯因待確認：疲勞 vs 指涉錯位。",
+        "attempt_id": "A-20260915-PT140-S4-Q26",
+        "explanation_seen": true
+      }
     }
   ],
   "lsatlab_feature_catalog": {
@@ -865,5 +1180,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-14"
+  "updated_at": "2026-09-16T22:00:00Z"
 }

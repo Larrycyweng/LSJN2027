@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.2",
   "writer": "Claude 專案對話產生寫回包；使用者在 App 確認後由 App 寫入 repo。",
   "allowed_operations": [
     {
@@ -35,7 +35,7 @@
     {
       "op": "add_attempt",
       "target": "attempts",
-      "note": "新增作答。官方題必須附 source_evidence:'使用者截圖'，且只轉錄截圖可見內容，不明欄位留白。"
+      "note": "新增作答。官方題必須附 source_evidence:使用者截圖 與 source（LSAT Lab／LawHub），App 不覆蓋來源；提示後答對以 hint_used:是 標記，與盲審分開。"
     },
     {
       "op": "update_exposure",
@@ -51,6 +51,31 @@
       "op": "update_session",
       "target": "sessions",
       "note": "補充既有學習紀錄的內容欄位。"
+    },
+    {
+      "op": "update_pt140_review",
+      "target": "pt140_error_inventory",
+      "note": "填入指定 section/q 的 review_2026，需 attempt_id 對應 attempts 既有紀錄"
+    },
+    {
+      "op": "add_section",
+      "target": "outline",
+      "note": "新增大綱節，需 parent_id、title、blocks；source_type 必填；status 一律先為草稿"
+    },
+    {
+      "op": "update_section",
+      "target": "outline",
+      "note": "更新既有節的 title 或 blocks；若該節 protected（使用者修訂）則顯示為提案，需確認後覆蓋"
+    },
+    {
+      "op": "move_section",
+      "target": "outline",
+      "note": "移動節到新 parent_id／order"
+    },
+    {
+      "op": "suggest_section_deletion",
+      "target": "outline",
+      "note": "提議刪除，僅標記，不刪除；刪除需使用者在 App 另行確認"
     }
   ],
   "forbidden": [
@@ -58,8 +83,25 @@
     "修改 settings.json 的計畫參數",
     "修改 checkpoints 的決定（決定由使用者在 App 作成）",
     "覆寫既有作答答案（同題重做須建新作答編號）",
-    "虛構截圖上不可見的作答資料"
+    "虛構截圖上不可見的作答資料",
+    "以寫回包整批取代 outline.json",
+    "把整堂課內容寫進單一大綱欄位",
+    "在大綱中把假設或家教自創術語標為 LSATLab Notes 來源"
   ],
   "idempotency": "每筆項目必須有 client_request_id；App 拒絕已存在的 id。",
-  "mastery_rule": "知識卡片複習按「記得」不改變 status；status 升級只能由新題驗證後的寫回包提出，且仍需使用者確認。"
+  "mastery_rule": "知識卡片複習按「記得」不改變 status；status 升級只能由新題驗證後的寫回包提出，且仍需使用者確認。",
+  "anti_error_rules_HO011": [
+    "來源閘：任何概念、標籤、規則必須標 [Notes §節名] 或 [補充]，無標記不得使用",
+    "補充三條件：具體題幹、筆記為何不覆蓋、使用者同意，缺一不教",
+    "標籤集凍結：七個段落功能、Scope／Logic／Degree 六類誘答、Notes LR 題型家族、Notes RC 題型；新增標籤集僅限 00 決定",
+    "題幹效益檢驗：新增前先答哪一題若有此項會改變答案",
+    "解析度規則：地圖與標示只做到題目需要的細度",
+    "一次撤回：使用者指出混淆或低效益即撤回，不辯護，記錄",
+    "稽核欄：每筆 handoff 列本堂 [補充] 清單，00 維護時檢視數量"
+  ],
+  "recording_principles": {
+    "signatures": "指紋一律如實記錄；只保留有學習價值、考場上能快速反應的反饋。不挑選每週強化清單，不重演歷史。",
+    "weekly_plan": "每週時數安排包含全盤複習與強化訓練，不逐細節鑽研。",
+    "teaching_pace": "提醒要點，不重複細節；不過度拆解問題，避免耗損專注力。"
+  }
 }

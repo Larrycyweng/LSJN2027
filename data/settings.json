@@ -13,7 +13,7 @@
       "key": "起始週",
       "start": "2026-09-13",
       "end": "2026-09-19",
-      "weekly_hours": 6
+      "weekly_hours": 20
     },
     {
       "key": "第一階段",
@@ -211,7 +211,23 @@
     "review_result": [
       "記得",
       "不確定",
-      "下次請 Claude 解釋"
+      "下次請家教解釋"
+    ],
+    "source_types": [
+      "LSATLab Notes",
+      "Official Example",
+      "User Revision",
+      "Supplement"
+    ],
+    "outline_status": [
+      "草稿",
+      "已核准",
+      "待確認",
+      "已撤回"
+    ],
+    "hint_used": [
+      "是",
+      "否"
     ]
   },
   "week_zero": [
@@ -512,5 +528,11 @@
       "label": "第17週 1/10–1/16　減量與正式考試：不學新概念。一到兩次短暖身，檢視 3 到 5 個指紋，考前 48 小時停止完整測驗。",
       "kind": "week"
     }
-  ]
+  ],
+  "role_name": "家教",
+  "principles": {
+    "signatures": "指紋一律如實記錄；只保留有學習價值、考場上能快速反應的反饋。不挑選每週強化清單，不重演歷史。",
+    "weekly_plan": "每週時數安排包含全盤複習與強化訓練，不逐細節鑽研。",
+    "teaching_pace": "提醒要點，不重複細節；不過度拆解問題，避免耗損專注力。"
+  }
 }

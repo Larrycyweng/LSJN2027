@@ -29,7 +29,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260914-PT140-S1-Q09"
+    "attempt_id": "A-20260914-PT140-S1-Q09",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-02",
@@ -61,7 +62,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260914-PT140-S1-Q13"
+    "attempt_id": "A-20260914-PT140-S1-Q13",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-02",
@@ -93,7 +95,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260914-PT140-S2-Q16"
+    "attempt_id": "A-20260914-PT140-S2-Q16",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-02",
@@ -125,7 +128,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260914-PT140-S3-Q07"
+    "attempt_id": "A-20260914-PT140-S3-Q07",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-02",
@@ -157,7 +161,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260914-PT140-S3-Q12"
+    "attempt_id": "A-20260914-PT140-S3-Q12",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-04",
@@ -188,7 +193,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260914-PT140-S4-Q15"
+    "attempt_id": "A-20260914-PT140-S4-Q15",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260914-04",
@@ -219,7 +225,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260914-PT140-S4-Q20"
+    "attempt_id": "A-20260914-PT140-S4-Q20",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -249,7 +256,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-01"
+    "attempt_id": "A-20260915-ORIG-01",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -279,7 +287,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-02"
+    "attempt_id": "A-20260915-ORIG-02",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -309,7 +318,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-03"
+    "attempt_id": "A-20260915-ORIG-03",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -339,7 +349,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-04"
+    "attempt_id": "A-20260915-ORIG-04",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -369,7 +380,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-05"
+    "attempt_id": "A-20260915-ORIG-05",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -399,7 +411,8 @@
     "first_correct": "否",
     "blind_correct": "是",
     "review_flag": "是",
-    "attempt_id": "A-20260915-ORIG-06"
+    "attempt_id": "A-20260915-ORIG-06",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -429,7 +442,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-07"
+    "attempt_id": "A-20260915-ORIG-07",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-02",
@@ -459,7 +473,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-ORIG-08"
+    "attempt_id": "A-20260915-ORIG-08",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -490,7 +505,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260915-PT140-S1-Q06"
+    "attempt_id": "A-20260915-PT140-S1-Q06",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -521,7 +537,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-PT140-S1-Q10"
+    "attempt_id": "A-20260915-PT140-S1-Q10",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -540,7 +557,7 @@
     "guessed": "",
     "reason_correct": "部分正確，討論後釐清",
     "signature_id": "",
-    "notes": "2025 答案待補字母。理由方向正確：申報不變的國家須有開採或發現至少一項，否則作者的質疑無根據。初始理由把 B 的 or 讀成兩者皆須，且未分清「申報可能正確」與「作者質疑申報的根據」，討論後釐清。必要假設取最弱連結。",
+    "notes": "2025 答案 C。理由方向正確：申報不變的國家須有開採或發現至少一項，否則作者的質疑無根據。初始理由把 B 的 or 讀成兩者皆須，且未分清「申報可能正確」與「作者質疑申報的根據」，討論後釐清。必要假設取最弱連結。",
     "attempt_date": "2026-09-15",
     "source_evidence": "使用者截圖",
     "mode": "Review",
@@ -548,11 +565,12 @@
     "correct_answer": "B",
     "client_request_id": "01-20260915-a1",
     "created_at": "2026-09-16T06:17:17.412Z",
-    "updated_at": "2026-09-16T06:24:12.000Z",
+    "updated_at": "2026-09-16T22:00:00Z",
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-PT140-S1-Q16"
+    "attempt_id": "A-20260915-PT140-S1-Q16",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -583,7 +601,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-PT140-S1-Q17"
+    "attempt_id": "A-20260915-PT140-S1-Q17",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -614,7 +633,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260915-PT140-S3-Q11"
+    "attempt_id": "A-20260915-PT140-S3-Q11",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-03",
@@ -645,7 +665,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260915-PT140-S3-Q17"
+    "attempt_id": "A-20260915-PT140-S3-Q17",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-01",
@@ -672,11 +693,12 @@
     "source_evidence": "使用者截圖",
     "client_request_id": "02-20260915-a3",
     "created_at": "2026-09-15T18:58:37.902Z",
-    "updated_at": "2026-09-16T06:24:12.000Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "否",
     "blind_correct": "是",
     "review_flag": "是",
-    "attempt_id": "A-20260915-PT140-S4-Q01"
+    "attempt_id": "A-20260915-PT140-S4-Q01",
+    "hint_used": "是"
   },
   {
     "session_id": "S-20260915-01",
@@ -707,7 +729,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-PT140-S4-Q25"
+    "attempt_id": "A-20260915-PT140-S4-Q25",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260915-01",
@@ -738,7 +761,8 @@
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260915-PT140-S4-Q26"
+    "attempt_id": "A-20260915-PT140-S4-Q26",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260916-01",
@@ -768,7 +792,8 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260916-ORIG-01"
+    "attempt_id": "A-20260916-ORIG-01",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260916-01",
@@ -798,12 +823,13 @@
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260916-ORIG-02"
+    "attempt_id": "A-20260916-ORIG-02",
+    "hint_used": "否"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 3,
@@ -825,16 +851,18 @@
     "correct_answer": "D",
     "client_request_id": "02-20260916-a4",
     "created_at": "2026-09-16T22:46:41.116Z",
-    "updated_at": "2026-09-16T22:46:41.116Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260916-PT140-S4-Q03"
+    "attempt_id": "A-20260916-PT140-S4-Q03",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 8,
@@ -856,16 +884,18 @@
     "correct_answer": "B",
     "client_request_id": "02-20260916-a1",
     "created_at": "2026-09-16T22:46:41.114Z",
-    "updated_at": "2026-09-16T22:46:41.114Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260916-PT140-S4-Q08"
+    "attempt_id": "A-20260916-PT140-S4-Q08",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 10,
@@ -887,16 +917,18 @@
     "correct_answer": "D",
     "client_request_id": "02-20260916-a2",
     "created_at": "2026-09-16T22:46:41.115Z",
-    "updated_at": "2026-09-16T22:46:41.115Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "是",
     "blind_correct": "",
     "review_flag": "否",
-    "attempt_id": "A-20260916-PT140-S4-Q10"
+    "attempt_id": "A-20260916-PT140-S4-Q10",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 12,
@@ -918,16 +950,18 @@
     "correct_answer": "A",
     "client_request_id": "02-20260916-a3",
     "created_at": "2026-09-16T22:46:41.115Z",
-    "updated_at": "2026-09-16T22:46:41.115Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260916-PT140-S4-Q12"
+    "attempt_id": "A-20260916-PT140-S4-Q12",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 16,
@@ -949,16 +983,18 @@
     "correct_answer": "A",
     "client_request_id": "02-20260916-a6",
     "created_at": "2026-09-16T22:46:41.117Z",
-    "updated_at": "2026-09-16T22:46:41.117Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260916-PT140-S4-Q16"
+    "attempt_id": "A-20260916-PT140-S4-Q16",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   },
   {
     "session_id": "S-20260916-01",
     "material_type": "官方題",
-    "source": "LawHub",
+    "source": "LSAT Lab",
     "prep_test": "PT140",
     "section": "S4",
     "question_number": 19,
@@ -980,10 +1016,12 @@
     "correct_answer": "D",
     "client_request_id": "02-20260916-a5",
     "created_at": "2026-09-16T22:46:41.117Z",
-    "updated_at": "2026-09-16T22:46:41.117Z",
+    "updated_at": "2026-09-16T23:34:22Z",
     "first_correct": "否",
     "blind_correct": "",
     "review_flag": "是",
-    "attempt_id": "A-20260916-PT140-S4-Q19"
+    "attempt_id": "A-20260916-PT140-S4-Q19",
+    "hint_used": "否",
+    "last_request_id": "00-20260918-maint"
   }
 ]
