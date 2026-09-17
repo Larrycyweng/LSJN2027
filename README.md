@@ -1,4 +1,4 @@
-# LSJN2027 訓練紀錄（v0.3.0）
+# LSJN2027 訓練紀錄（v0.5.0）
 
 個人 LSAT 訓練的知識管理與行動紀錄介面。部署在 GitHub Pages，資料存在本 repo 的 `data/` 資料夾，手機上每日輸入控制在 3 分鐘內。
 
@@ -20,36 +20,76 @@
 | `data/checkpoints.json` | 四個檢查點 |
 | `data/cards.json` | 知識卡片（複習用） |
 | `data/handoffs.json` | 每次課程的接續摘要 |
-| `data/write_policy.json` | Claude 寫回時允許與禁止的操作 |
+| `data/write_policy.json` | 家教 寫回時允許與禁止的操作 |
 | `data/progress.json` | 進度表打勾狀態 |
+| `data/outline.json` | Master Outline（LR／RC 概念大綱，Heading 1–4 層級） |
+| `data/pt140_error_inventory.json` | PT140 錯題清單與 2026 盲審結果（唯一來源） |
+| `outline.js` | 大綱模組：折疊檢視、搜尋、編輯、.docx／.json 匯出匯入、寫回操作 |
 | `WRITEBACK.md` | 寫回包 JSON 格式說明 |
 
 `data/*.json` 是唯一資料權威。xlsx 只是匯出檢視用，不要把 xlsx 改回來當輸入。
 
-## 部署步驟（一次完成，約 15 分鐘）
+## 更新到 v0.5.0（GitHub 網頁上傳，一次完成）
 
-1. 在 GitHub 建立新的公開 repo，名稱例如 `lsat-coach`。不要勾選任何初始化檔案。
-2. 把本資料夾內全部檔案上傳到 repo 根目錄（網頁介面 Add file → Upload files，或用 git push）。`data/` 資料夾要一起上傳。`.nojekyll` 是空檔，也要保留。
-3. 進入 repo 的 Settings → Pages。Source 選 Deploy from a branch，Branch 選 `main`、資料夾選 `/ (root)`，按 Save。
-4. 等一到兩分鐘，網址會是 `https://<你的帳號>.github.io/lsat-coach/`。
-5. 建立寫入用的權杖：GitHub 右上頭像 → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token。
-   - Repository access 選 Only select repositories，只選這個 repo。
-   - Permissions → Repository permissions → Contents 設為 Read and write。其他都不要開。
-   - 到期日建議設到 2027 年 1 月底之後。
-   - 產生後只會顯示一次，先複製。
-6. 用手機瀏覽器開啟網址，進入「設定」頁，確認 owner 與 repo 自動帶入正確，貼上權杖，按「保存設定」。權杖只存在這支手機瀏覽器的 localStorage，不會寫進 repo。
-7. 手機加到主畫面：iPhone 用 Safari 分享 → 加入主畫面；Android 用 Chrome 選單 → 加到主畫面。
+前提：手機與筆電上沒有未同步的寫回包（「同步」頁右上圓點為綠色「已同步」）。
+
+1. 在電腦解壓縮 `lsat-coach-v0.5.0-upload.zip`，得到資料夾 `v0.5.0-upload`，內含 6 個檔案、`data` 資料夾（7 個 json）、`vendor` 資料夾（1 個 js）。
+2. 瀏覽器開 `https://github.com/larrycyweng/LSJN2027`，按「Add file」→「Upload files」。
+3. 把 `v0.5.0-upload` **資料夾裡面的全部內容**（不是資料夾本身）一起拖進上傳區：6 個檔案、`data` 資料夾、`vendor` 資料夾。GitHub 會顯示 14 個檔案待上傳，路徑如 `data/outline.json`、`vendor/jszip.min.js`。
+4. 下方 Commit changes 訊息填 `v0.5.0 maintenance 2026-09-18`，選「Commit directly to the main branch」，按 Commit changes。
+5. 等一到兩分鐟，手機關閉 App 再重新開啟一次。底部分頁應為「今日／進度／大綱／追蹤／同步」，「同步」頁最下方「版本」應顯示 App 0.5.0。
+6. 到「大綱」分頁確認 LR 與 RC 可展開；到「同步」頁按「重新載入 repo 資料」一次。
+
+若步驟 5 仍看到舊版，等一分鐘再重開一次；仍舊則在手機瀏覽器清除此網站的網站資料後重開。
+
+## 原則
+
+### 流程規則
+- 教學對話（01 LR、02 RC）只做教與測。對系統、規則或家教表現的異議，在教學對話中以一句話記錄於 handoff 的 open_questions，格式「【移 00】一句話」，移到 00 處理。
+- 00 系統對話處理 App、資料、計畫與規則；每次涉及訓練安排前，先讀 live repo 並在開頭報告讀到的狀態。
+
+### 一本書主義
+- 教學、練習與官方題選擇全部掛在 LSATLab Notes 的節名、`data/outline.json` 與 `data/pt140_error_inventory.json` 之下。
+- 官方題可暴露未教的缺口；暴露後對回筆記節名立即補教，不延後。
+- 錯誤指紋一律如實記錄，只保留有學習價值、考場上能快速反應的反饋；不挑選每週強化清單。「今日」頁把追蹤中指紋以「觸發訊號 → 動作」一行列出。
+- 每週時數安排包含全盤複習與強化訓練；教學提醒要點，不重複細節，不過度拆解，避免耗損專注力。
+
+### PT140 錯題清單
+- `data/pt140_error_inventory.json` 是 PT140 錯題選題的唯一來源。所有對話在挑選延遲盲審題目前先讀此檔，不得要求使用者重新上傳截圖。
+- 盲審結果以寫回包 `update_pt140_review`（01- 或 02- 前綴）填入 `review_2026`，不手動編輯此檔。
+
+### 家教防錯七條（HO-011）
+1. 來源閘：任何概念、標籤、規則必須標 [Notes §節名] 或 [補充]，無標記不得使用。
+2. 補充三條件：標 [補充] 者須同時寫出服務的具體題幹、筆記為何不覆蓋、使用者同意；缺一不教。
+3. 標籤集凍結：七個段落功能（INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND）、Scope／Logic／Degree 六類誘答、Notes LR 題型家族、Notes RC 題型。不新增標籤集；新增僅限 00 對話決定。
+4. 題幹效益檢驗：新增前先答「哪一題若有此項會改變答案」，答不出不加。
+5. 解析度規則：地圖與標示只做到題目需要的細度。
+6. 一次撤回：使用者指出混淆或低效益即撤回，不辯護，記錄。
+7. 稽核欄：每筆 handoff 與每次開課報告列本堂 [補充] 清單，00 維護時檢視數量。
+
+### 書寫
+- 錯題本與交接條目以考場小抄的精簡程度書寫。全文不用 em dash。
+- 大綱中的操作性規則、步驟、陷阱以精簡英文書寫；使用者原文優先，修正時記錄。
+
+## Master Outline（大綱分頁）
+- 骨架固定為 LSATLab Notes 的節名：Heading 1 = LR／RC；Heading 2 = Notes 主要節；Heading 3 = 概念、方法或題型；Heading 4 = 子題。日期、PT、題號、課程、指紋不作為標題。
+- 節內標籤只用：Rule、Recognition、Steps、Why It Works、Trap、Official Example、Personal Note、Source、Status。官方題只以 PT／S／Q 引用並連結 `attempts.json`，不存題文。
+- 來源分四類：LSATLab Notes、Official Example、User Revision、Supplement。假設與家教自創術語不得標為 Notes。
+- 狀態：草稿（家教寫入，待核准）、已核准、待確認、已撤回。收合時只顯示節名與一句用途。
+- 你在 App 或 Google Docs 修改過的節標為 protected；之後家教的 `update_section` 對這些節只會顯示為「提案」，需你按接受才覆蓋。
+- 匯出 `.docx`（Google Docs 可開啟）與 `.json`（無損備份）。在 Google Docs 修改後「檔案 → 下載 → Microsoft Word」再匯入；匯入先顯示差異預覽（新增、修改、改名、移動、可能刪除、衝突、未變更），預設合併，不自動刪除，重複或跳層的標題會整份拒絕。匯入相同檔案不產生變更。
+- Google Docs 格式限制：只保留 Heading 1–4、段落、粗體標籤、項目與編號清單；顏色、字型、表格、圖片不保留。
 
 ## 分工
 
 - **App**：進度提醒（checklist）、快速時間紀錄、知識卡片複習、隨手筆記、寫回包入口。
-- **Claude 專案對話**：教學、截圖轉錄、錯誤診斷、弱點分析、產生寫回包。
+- **家教 專案對話**：教學、截圖轉錄、錯誤診斷、弱點分析、產生寫回包。
 - **LawHub / LSAT Lab**：實際練習與測驗。
 
 ## 每日流程
 
 1. 打開「今日」看今天任務；學習結束填分鐘數與模式（三個欄位）。
-2. 練習作答結果**截圖傳給 Claude**，不在 App 輸入題目。Claude 教學後產生寫回包。
+2. 練習作答結果**截圖傳給 家教**，不在 App 輸入題目。家教 教學後產生寫回包。
 3. 「同步」頁貼入寫回包 → 檢查（核對題號與答案是否與截圖一致）→ 確認寫入 → 立即同步。
 4. 「進度」頁把完成的排程打勾。
 5. 空檔時到「複習」回想到期卡片；路上想到的問題用「快速筆記」丟進去，下次課程處理。

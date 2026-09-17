@@ -134,6 +134,46 @@ details{margin-top:8px}
 .chk .cp-item .std{font-weight:400;color:var(--ink);font-size:.85rem;margin-top:4px}
 .grp summary{color:var(--ink);font-weight:600;padding:8px 0}
 .grp summary .pgr{color:var(--ink-2);font-weight:400;font-size:.85rem}
+.linkbtn{border:0;background:none;color:var(--blue);font-size:.8rem;cursor:pointer;padding:0 4px}
+.btn.sm{padding:6px 10px;font-size:.85rem}
+.focus{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+.focus .k{display:block;font-size:.8rem;color:var(--ink-2);margin-bottom:4px}
+.focus div+div{margin-top:6px}
+.ol-top{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.ol-subject{flex:0 0 auto}
+.ol-subject button{min-width:52px}
+.ol-tools{display:flex;gap:6px}
+#ol-search{margin-top:10px}
+.ol-node{border-left:2px solid var(--line);margin:4px 0 4px 0;padding-left:10px}
+.ol-node.l1{border-left:0;padding-left:0}
+.ol-node>summary{list-style:none;cursor:pointer;padding:6px 0;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.ol-node>summary::-webkit-details-marker{display:none}
+.ol-node>summary .tri{color:var(--ink-2);font-size:.75rem;width:12px;flex:none;transition:transform .12s}
+.ol-node[open]>summary .tri{transform:rotate(90deg)}
+.ol-node.l1>summary .ttl{font-size:1.1rem;font-weight:600}
+.ol-node.l2>summary .ttl{font-size:1rem;font-weight:600}
+.ol-node.l3>summary .ttl{font-weight:500}
+.ol-node.l4>summary .ttl{color:var(--ink-2)}
+.ol-node>summary .gist{color:var(--ink-2);font-size:.85rem;flex:1 1 100%;margin-left:20px;margin-top:-2px}
+.ol-node>summary .meta{flex:none;display:flex;gap:4px}
+.ol-body{margin:2px 0 8px 20px}
+.ol-body p{margin:5px 0}
+.ol-body ul,.ol-body ol{margin:4px 0 6px 0;padding-left:20px}
+.ol-body .lbl{font-weight:600}
+.ol-body .ex{background:var(--blue-soft);border-radius:var(--r);padding:6px 10px;margin:6px 0;font-size:.92rem}
+.ol-body .ex .lbl{color:var(--blue)}
+.ol-body .ex a{font-size:.8rem}
+.ol-body .prop{background:var(--flag-soft);border-radius:var(--r);padding:6px 10px;margin:6px 0;font-size:.9rem}
+.ol-body .src{font-size:.78rem;color:var(--ink-2)}
+.ol-edit{border:1px solid var(--line);border-radius:var(--r);padding:10px;margin:6px 0 10px 20px;background:#fff}
+.ol-edit textarea{min-height:140px;font:.9rem/1.5 ui-monospace,Menlo,Consolas,monospace}
+.ol-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.ol-hit{background:#FFF3C4}
+.diff-grp{margin:8px 0}
+.diff-grp h3{margin:6px 0}
+.diff-grp li{font-size:.9rem;padding:4px 0;border-bottom:1px solid var(--line)}
+.diff-grp li label{display:flex;gap:8px;align-items:flex-start}
+@media (min-width:760px){ main{max-width:900px} .ol-body{margin-left:24px} }
 .chk .hrs{font-size:.8rem;color:var(--blue);margin-top:2px;text-decoration:none;display:inline-block}
 .days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-top:4px}
 .days div{text-align:center;border:1px solid var(--line);border-radius:var(--r);padding:6px 0;font-size:.8rem;color:var(--ink-2)}
@@ -201,29 +241,31 @@ summary{cursor:pointer;color:var(--blue)}
   </div>
 </section>
 
-<!-- 複習 -->
+<!-- 大綱 -->
 <section class="view" id="v-review">
-  <div class="panel">
-    <h2>到期複習 <span class="tag" id="due-count">0</span></h2>
-    <div class="hint">先回想，再揭示。「記得」只延後下次複習；掌握仍以新題驗證。</div>
-    <div id="due-cards"></div>
+  <div class="panel ol-head">
+    <div class="ol-top">
+      <div class="seg ol-subject" id="ol-subject"><button type="button" data-sub="LR" aria-pressed="true">LR</button><button type="button" data-sub="RC" aria-pressed="false">RC</button></div>
+      <div class="ol-tools">
+        <button class="btn ghost sm" type="button" id="ol-expand">全部展開</button>
+        <button class="btn ghost sm" type="button" id="ol-collapse">全部收合</button>
+        <button class="btn ghost sm" type="button" id="ol-edit-toggle" aria-pressed="false">編輯</button>
+      </div>
+    </div>
+    <input type="search" id="ol-search" placeholder="搜尋大綱全文" autocomplete="off">
+    <div class="small" id="ol-legend">收合時只顯示節名與一句用途。<span class="tag">Notes</span> 來源為 LSATLab Notes；<span class="tag flag">補充</span> 為家教補充，需核准；<span class="tag ok">已核准</span>；<span class="tag">草稿</span> 待你核准。官方題以「Official Example」標示並連結作答紀錄。</div>
   </div>
+  <div class="panel" id="ol-tree"></div>
   <div class="panel">
-    <details><summary>快速筆記（備援；平常直接在對話跟 Claude 說）</summary>
-    <form id="f-note" autocomplete="off">
-      <label class="f"><span class="l">標題</span><input type="text" name="title" required placeholder="unless 的方向"></label>
-      <label class="f"><span class="l">內容</span><textarea name="core" required placeholder="想確認：unless 翻成 if not 之後，箭頭指向哪邊？"></textarea></label>
-      <div class="actions"><button class="btn block" type="submit">存為待確認卡片</button></div>
-    </form></details>
-  </div>
-  <div class="panel">
-    <h2>知識卡片</h2>
-    <ul class="list" id="card-list"></ul>
-  </div>
-  <div class="panel">
-    <h2>錯誤指紋（唯讀）</h2>
-    <div class="hint">由課程診斷產生與更新。</div>
-    <ul class="list" id="sig-list"></ul>
+    <details id="ol-io"><summary>匯出與匯入（Google Docs 相容）</summary>
+      <div class="hint">匯出 .docx 可用 Google Docs 開啟編輯；在 Google Docs 修改後「下載 → Microsoft Word (.docx)」再匯回。匯入前先顯示差異預覽，預設合併，不自動刪除。</div>
+      <div class="actions">
+        <button class="btn ghost" type="button" id="ol-export-docx">匯出 .docx</button>
+        <button class="btn ghost" type="button" id="ol-export-json">匯出 .json 備份</button>
+        <label class="btn ghost" for="ol-import-file" style="display:inline-block">匯入 .docx／.json<input type="file" id="ol-import-file" accept=".docx,.json" style="display:none"></label>
+      </div>
+      <div id="ol-import-preview"></div>
+    </details>
   </div>
 </section>
 
@@ -237,6 +279,11 @@ summary{cursor:pointer;color:var(--blue)}
   <div class="panel">
     <h2>官方題累計</h2>
     <table class="ledger" id="attempt-stats"></table>
+  </div>
+  <div class="panel">
+    <h2>錯誤指紋（唯讀）</h2>
+    <div class="hint">由課程診斷產生與更新。</div>
+    <ul class="list" id="sig-list"></ul>
   </div>
   <div class="panel">
     <h2>官方題接觸狀態（唯讀）</h2>
@@ -253,7 +300,7 @@ summary{cursor:pointer;color:var(--blue)}
 <section class="view" id="v-export">
   <div class="panel">
     <h2>寫回包</h2>
-    <div class="hint">貼入 Claude 課後產生的 JSON，檢查後確認寫入。核對重點：題號與答案是否與你的截圖一致。</div>
+    <div class="hint">貼入家教課後產生的 JSON，檢查後確認寫入。核對重點：題號與答案是否與你的截圖一致。</div>
     <textarea id="wb-text" placeholder='{"writeback_version":"1.0","items":[...]}'></textarea>
     <div class="actions"><button class="btn ghost" type="button" id="btn-wb-check">檢查</button><button class="btn" type="button" id="btn-wb-apply" disabled>確認寫入並同步</button></div>
     <ul class="list" id="wb-preview"></ul>
@@ -266,7 +313,7 @@ summary{cursor:pointer;color:var(--blue)}
     </div>
     <div class="row">
       <label class="f"><span class="l">分支</span><input type="text" id="gh-branch" value="main" autocapitalize="off"></label>
-      <label class="f"><span class="l">Fine-grained token</span><input type="text" id="gh-token" autocapitalize="off" placeholder="github_pat_…"></label>
+      <label class="f"><span class="l">Fine-grained token <button type="button" id="btn-token-toggle" class="linkbtn">顯示</button></span><input type="text" id="gh-token" autocapitalize="off" autocomplete="off" placeholder="github_pat_…"></label>
     </div>
     <div class="actions">
       <button class="btn ghost" type="button" id="btn-save-gh">保存設定</button>
@@ -290,7 +337,7 @@ summary{cursor:pointer;color:var(--blue)}
 <nav class="tabs" role="tablist">
   <button role="tab" data-view="v-today" aria-selected="true">今日</button>
   <button role="tab" data-view="v-plan" aria-selected="false">進度</button>
-  <button role="tab" data-view="v-review" aria-selected="false">複習</button>
+  <button role="tab" data-view="v-review" aria-selected="false">大綱</button>
   <button role="tab" data-view="v-track" aria-selected="false">追蹤</button>
   <button role="tab" data-view="v-export" aria-selected="false">同步</button>
 </nav>
@@ -298,5 +345,6 @@ summary{cursor:pointer;color:var(--blue)}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="app.js"></script>
+<script src="outline.js"></script>
 </body>
 </html>

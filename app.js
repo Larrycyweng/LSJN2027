@@ -3,12 +3,13 @@
 (() => {
 'use strict';
 
-const FILES = ['sessions','attempts','exposure','signatures','hypotheses','checkpoints','cards','handoffs','progress'];
+const FILES = ['sessions','attempts','exposure','signatures','hypotheses','checkpoints','cards','handoffs','progress','outline'];
+const OBJ_FILES = ['pt140_error_inventory'];
 const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
-                signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id', progress:'item_id'};
+                signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id', progress:'item_id', outline:'section_id'};
 const LS_LOCAL = 'lsjn.local.v1';
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.4.2';
+const APP_VERSION = '0.5.0';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
@@ -96,6 +97,13 @@ async function loadAll(){
     S.data[f] = mergeById(remote, pending, ID_KEY[f]);
     if(pending.length) S.dirty.add(f);
   }
+  for(const f of OBJ_FILES){
+    let remote=null;
+    try{ remote = await fetchJSON(`data/${f}.json`); }catch(e){ remote = (local[f]&&local[f].snapshot)||null; }
+    const pending = local[f]&&local[f].pendingObj;
+    S.data[f] = pending && (!remote || (pending.updated_at||'')>=(remote.updated_at||'')) ? pending : remote;
+    if(pending) S.dirty.add(f);
+  }
   S.data.attempts.forEach(deriveAttempt);
   S.remoteOk = remoteOk;
   updateSyncIndicator();
@@ -114,6 +122,12 @@ function persist(file, record){
   updateSyncIndicator();
 }
 
+function persistObj(file, obj){
+  obj.updated_at = nowISO();
+  S.data[file]=obj;
+  const local=readLocal(); local[file]=local[file]||{}; local[file].pendingObj=obj; local[file].snapshot=obj; writeLocal(local);
+  S.dirty.add(file); updateSyncIndicator();
+}
 function updateSyncIndicator(){
   const el=$('#sync-ind'), tx=$('#sync-text');
   el.className='sync';
@@ -131,6 +145,7 @@ function loadGh(){
   }
   S.gh=gh;
   $('#gh-owner').value=gh.owner||''; $('#gh-repo').value=gh.repo||''; $('#gh-branch').value=gh.branch||'main'; $('#gh-token').value=gh.token||'';
+  const tk=$('#gh-token'); tk.type='password'; const tg=$('#btn-token-toggle'); if(tg) tg.addEventListener('click',()=>{ tk.type = tk.type==='password'? 'text':'password'; tg.textContent = tk.type==='password'? '顯示':'隱藏'; });
 }
 function saveGh(){
   S.gh={owner:$('#gh-owner').value.trim(), repo:$('#gh-repo').value.trim(), branch:$('#gh-branch').value.trim()||'main', token:$('#gh-token').value.trim()};
@@ -150,19 +165,30 @@ async function syncNow(){
   const btn=$('#btn-sync'); btn.disabled=true;
   const local=readLocal();
   try{
+    const results=[];
     for(const f of Array.from(S.dirty)){
       const path=`data/${f}.json`;
-      const cur = await ghRequest('GET', path);
-      const remote = cur ? JSON.parse(b64decode(cur.content)) : [];
-      const merged = mergeById(remote, (local[f]&&local[f].pending)||[], ID_KEY[f]);
-      merged.sort((a,b)=> String(a[ID_KEY[f]]).localeCompare(String(b[ID_KEY[f]])));
-      const body={message:`update ${f} (${todayLA()})`, content:b64encode(JSON.stringify(merged,null,2)+'\n'), branch:S.gh.branch};
-      if(cur) body.sha=cur.sha;
-      await ghRequest('PUT', path, body);
-      S.data[f]=merged; if(f==='attempts') S.data[f].forEach(deriveAttempt);
-      local[f]={pending:[], snapshot:merged}; S.dirty.delete(f);
+      try{
+        const cur = await ghRequest('GET', path);
+        let out;
+        if(OBJ_FILES.includes(f)){
+          const remote = cur ? JSON.parse(b64decode(cur.content)) : null;
+          const pending = local[f]&&local[f].pendingObj;
+          out = (pending && (!remote || (pending.updated_at||'')>=(remote.updated_at||''))) ? pending : remote;
+        } else {
+          const remote = cur ? JSON.parse(b64decode(cur.content)) : [];
+          out = mergeById(remote, (local[f]&&local[f].pending)||[], ID_KEY[f]);
+          out.sort((a,b)=> String(a[ID_KEY[f]]).localeCompare(String(b[ID_KEY[f]])));
+        }
+        const body={message:`update ${f} (${todayLA()})`, content:b64encode(JSON.stringify(out,null,2)+'\n'), branch:S.gh.branch};
+        if(cur) body.sha=cur.sha;
+        await ghRequest('PUT', path, body);
+        S.data[f]=out; if(f==='attempts') S.data[f].forEach(deriveAttempt);
+        local[f]= OBJ_FILES.includes(f)? {snapshot:out} : {pending:[], snapshot:out}; S.dirty.delete(f); results.push(f+' ✓');
+      }catch(e){ results.push(f+' ✗ '+e.message.slice(0,80)); }
     }
-    writeLocal(local); S.remoteOk=true; updateSyncIndicator(); renderAll(); toast('同步完成');
+    writeLocal(local); S.remoteOk=true; updateSyncIndicator(); renderAll();
+    toast(S.dirty.size? '部分同步失敗：'+results.join('；') : '同步完成');
   }catch(e){ console.error(e); toast('同步失敗：'+e.message); }
   finally{ btn.disabled=false; }
 }
@@ -317,14 +343,14 @@ function reviewCard(card, result){
   if(result==='記得'){ rec.review_step=Math.min((card.review_step||0)+1, REVIEW_STEPS.length-1); rec.next_review=addDays(t, REVIEW_STEPS[rec.review_step]); }
   else if(result==='不確定'){ rec.review_step=0; rec.next_review=addDays(t,1); }
   else { rec.review_step=0; rec.next_review=addDays(t,1); rec.ask_chat='是'; }
-  persist('cards',rec); toast(result==='下次請 Claude 解釋'? '已標記，會出現在上下文包':'已記錄'); renderAll();
+  persist('cards',rec); toast(result==='下次請家教解釋'? '已標記，會出現在上下文包':'已記錄'); renderAll();
 }
 function renderReview(){
   const t=todayLA();
   const due=S.data.cards.filter(c=>c.next_review && c.next_review<=t).sort((a,b)=>a.next_review.localeCompare(b.next_review)).slice(0,5);
   $('#due-count').textContent=due.length;
   $('#due-cards').innerHTML= due.length? due.map(c=>`<div class="card" data-id="${esc(c.card_id)}">
-      <h3>${esc(c.title)}</h3><div class="small">${esc(c.card_id)}　${esc(c.card_status)}　複習 ${c.review_count||0} 次${c.ask_chat==='是'?'　<span class="tag flag">待 Claude 解釋</span>':''}</div>
+      <h3>${esc(c.title)}</h3><div class="small">${esc(c.card_id)}　${esc(c.card_status)}　複習 ${c.review_count||0} 次${c.ask_chat==='是'?'　<span class="tag flag">待家教解釋</span>':''}</div>
       <div class="actions"><button class="btn ghost" type="button" data-act="reveal">揭示</button></div>
       <div class="body">
         <p><span class="k">核心區分</span><br>${esc(c.core)}</p>
@@ -348,7 +374,7 @@ function wbCheck(){
   let pkg; try{ pkg=JSON.parse($('#wb-text').value); }catch(e){ out.innerHTML=`<li class="empty">JSON 解析失敗：${esc(e.message)}</li>`; return; }
   if(!pkg||!Array.isArray(pkg.items)){ out.innerHTML='<li class="empty">缺少 items 陣列。</li>'; return; }
   const seen=allRequestIds(), inPkg=new Set(); const items=[];
-  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','suggest_hypothesis_update','add_attempt','update_exposure','update_session','mark_progress']);
+  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','suggest_hypothesis_update','add_attempt','update_exposure','update_session','mark_progress','update_pt140_review','add_section','update_section','move_section','suggest_section_deletion']);
   pkg.items.forEach((it,i)=>{
     const r={i:i+1, op:it.op, id:it.client_request_id, ok:true, msg:'', data:it.data||{}};
     if(!allowed.has(it.op)){ r.ok=false; r.msg='不允許的操作'; }
@@ -358,6 +384,8 @@ function wbCheck(){
     else if(it.op==='add_attempt' && r.data.material_type==='官方題' && r.data.source_evidence!=='使用者截圖'){ r.ok=false; r.msg='官方題需 source_evidence:使用者截圖'; }
     else if(it.op==='update_exposure' && !r.data.pt_id){ r.ok=false; r.msg='缺 pt_id'; }
     else if(it.op==='mark_progress' && !(S.settings.checklist||[]).some(c=>c.id===r.data.item_id && c.kind!=='checkpoint')){ r.ok=false; r.msg='找不到進度項目'; }
+    else if(it.op==='update_pt140_review'){ const inv=S.data.pt140_error_inventory; const q=inv&&inv.questions.find(x=>x.section===Number(r.data.section)&&x.q===Number(r.data.q)); if(!q){ r.ok=false; r.msg='inventory 無此題'; } else if(!r.data.review_2026||!r.data.review_2026.attempt_id||!S.data.attempts.some(a=>a.attempt_id===r.data.review_2026.attempt_id)){ r.ok=false; r.msg='review_2026.attempt_id 需對應既有作答'; } }
+    else if(['add_section','update_section','move_section','suggest_section_deletion'].includes(it.op)){ const v=window.LSJN_OUTLINE? window.LSJN_OUTLINE.validateOp(it.op, r.data):'大綱模組未載入'; if(v){ r.ok=false; r.msg=v; } }
     else if(it.op==='suggest_signature_update' && !S.data.signatures.some(s=>s.signature_id===r.data.signature_id)){ r.ok=false; r.msg='找不到指紋'; }
     else if(it.op==='suggest_hypothesis_update' && !S.data.hypotheses.some(h=>h.hypothesis_id===r.data.hypothesis_id)){ r.ok=false; r.msg='找不到假設'; }
     else if(it.op==='update_session' && !S.data.sessions.some(x=>x.session_id===r.data.session_id)){ r.ok=false; r.msg='找不到學習紀錄'; }
@@ -369,24 +397,28 @@ function wbCheck(){
   out.innerHTML=items.map(r=>`<li><div class="t"><span>${r.i}. ${esc(r.op)}　${esc(summarizeWb(r))}</span><span class="tag ${r.ok?'ok':'flag'}">${r.ok?'可寫入':esc(r.msg)}</span></div></li>`).join('');
   WB=items.filter(r=>r.ok); $('#btn-wb-apply').disabled=!WB.length; $('#btn-wb-apply').textContent=`確認寫入 ${WB.length} 筆並同步`;
 }
-function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`${d.material_type||'原創題'}${d.prep_test?` ${d.prep_test} ${d.section||''} Q${d.question_number||''}`:''} ${d.timed_answer}→${d.correct_answer}`, update_exposure:`${d.pt_id} → ${d.exposure_status||''}`, update_session:`${d.session_id} 補充`, mark_progress:`進度 ${d.item_id} ${((S.settings.checklist||[]).find(c=>c.id===d.item_id)||{}).label||''}`.slice(0,60)}[r.op]||''; }
+function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`${d.material_type||'原創題'}${d.prep_test?` ${d.prep_test} ${d.section||''} Q${d.question_number||''}`:''} ${d.timed_answer}→${d.correct_answer}`, update_exposure:`${d.pt_id} → ${d.exposure_status||''}`, update_session:`${d.session_id} 補充`, update_pt140_review:`PT140 S${d.section} Q${d.q} review_2026`, add_section:`大綱 +「${d.title||''}」`, update_section:`大綱 ${d.section_id} 更新`, move_section:`大綱 ${d.section_id} 移動`, suggest_section_deletion:`大綱 ${d.section_id} 提議刪除`, mark_progress:`進度 ${d.item_id} ${((S.settings.checklist||[]).find(c=>c.id===d.item_id)||{}).label||''}`.slice(0,60)}[r.op]||''; }
 function wbApply(){
   if(!WB||!WB.length) return; const t=todayLA(); let n=0;
-  WB.forEach(r=>{ const d=r.data, base={client_request_id:r.id, created_at:nowISO(), updated_at:nowISO()};
+  const fails=[];
+  WB.forEach(r=>{ try{ const d=r.data, base={client_request_id:r.id, created_at:nowISO(), updated_at:nowISO()};
     if(r.op==='add_session') persist('sessions', Object.assign({session_id:nextSessionId(d.session_date), week_label:weekLabel(d.session_date), phase:phaseFor(d.session_date).key, material_source:'專案對話', lr_minutes:null, rc_minutes:null, review_minutes:null, focus_skill:'', completion:'', attention:'', fatigue:'', sleep_hours:null, notes:''}, d, base, {effective_minutes:Number(d.effective_minutes)}));
     else if(r.op==='add_card') persist('cards', Object.assign({card_id:nextSeqId('KC','cards','card_id'), common_error:'', corrective_action:'', example:'', scope:'', signature_id:'', source:'', review_step:0, review_count:0, last_result:'', ask_chat:'否', created:t}, d, base, {card_status:'待確認', next_review:d.next_review||t}));
     else if(r.op==='add_handoff') persist('handoffs', Object.assign({handoff_id:nextSeqId('HO','handoffs','handoff_id'), session_id:'', taught:'', observed:'', open_questions:''}, d, base));
     else if(r.op==='add_signature') persist('signatures', Object.assign({signature_id:nextSeqId('ES','signatures','signature_id'), attraction:'', scope:'', created:t, last_seen:t, stage:'已發現', near_transfer:'未測試', far_transfer:'未測試', delayed_retest:'未測試', official_timed:'未測試', evidence_count:1, notes:''}, d, base, {signature_status:'追蹤中'}));
     else if(r.op==='suggest_signature_update'){ const s=S.data.signatures.find(x=>x.signature_id===d.signature_id); const u={}; ['stage','signature_status','evidence_count','last_seen'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('signatures', Object.assign({},s,u,{updated_at:nowISO(), last_request_id:r.id})); }
     else if(r.op==='suggest_hypothesis_update'){ const h=S.data.hypotheses.find(x=>x.hypothesis_id===d.hypothesis_id); const u={}; ['hypothesis_status','supporting_evidence','contrary_evidence','independent_observations','next_test','current_decision'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('hypotheses', Object.assign({},h,u,{last_updated:t, updated_at:nowISO(), last_request_id:r.id})); }
-    else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'專案對話', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', notes:''}, d, base)); if(a.material_type==='官方題') a.source='LawHub'; a.attempt_id=nextAttemptId(a); persist('attempts',a); }
+    else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', hint_used:'否', notes:''}, d, base)); if(!a.source) a.source = a.material_type==='官方題'? 'LSAT Lab':'專案對話'; a.attempt_id=nextAttemptId(a); persist('attempts',a); }
+    else if(r.op==='update_pt140_review'){ const inv=JSON.parse(JSON.stringify(S.data.pt140_error_inventory)); const q=inv.questions.find(x=>x.section===Number(d.section)&&x.q===Number(d.q)); q.review_2026=Object.assign({},d.review_2026,{request_id:r.id}); q.explanation_seen=true; persistObj('pt140_error_inventory',inv); }
+    else if(['add_section','update_section','move_section','suggest_section_deletion'].includes(r.op)){ window.LSJN_OUTLINE.applyOp(r.op, d, r.id); }
     else if(r.op==='update_exposure'){ const old=S.data.exposure.find(x=>x.pt_id===d.pt_id)||{pt_id:d.pt_id, first_exposure:t, blind_review:'不明', explanations_seen:'不明', source:'寫回包'}; const rec=Object.assign({},old,d,base,{last_exposure:d.last_exposure||t}); rec.clean_pt_eligible = rec.exposure_status==='未接觸'?'是':'否'; persist('exposure',rec); }
     else if(r.op==='mark_progress'){ persist('progress',{item_id:d.item_id, done:d.done===undefined?'是':d.done, done_date:t, client_request_id:r.id, updated_at:nowISO(), created_at:nowISO()}); }
     else if(r.op==='update_session'){ const old=S.data.sessions.find(x=>x.session_id===d.session_id); if(old){ const u={}; ['focus_skill','notes','effective_minutes','lr_minutes','rc_minutes','review_minutes','attention','fatigue','completion','material_source'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('sessions',Object.assign({},old,u,{updated_at:nowISO(), last_request_id:r.id})); } }
-    n++; });
+    n++; }catch(e){ console.error(e); fails.push(`${r.i}. ${r.op}: ${e.message}`); } });
   WB=null; $('#wb-text').value=''; $('#wb-preview').innerHTML=''; $('#btn-wb-apply').disabled=true; 
   renderAll();
-  if(S.gh&&S.gh.token){ toast(`已寫入 ${n} 筆，同步中`); syncNow(); } else toast(`已寫入 ${n} 筆。尚未設定權杖，請到下方 GitHub 同步設定。`);
+  if(fails.length){ $('#wb-preview').innerHTML=fails.map(f=>`<li><span class="tag flag">失敗</span> ${esc(f)}</li>`).join(''); }
+  if(S.gh&&S.gh.token){ toast(`已寫入 ${n} 筆${fails.length?`，${fails.length} 筆失敗`:''}，同步中`); syncNow(); } else toast(`已寫入 ${n} 筆${fails.length?`，${fails.length} 筆失敗`:''}。尚未設定權杖。`);
 }
 
 /* ---------- render ---------- */
@@ -396,7 +428,10 @@ function renderHeader(){
 }
 function renderToday(){
   const t=todayLA(), ph=phaseFor(t), [ws,we]=weekRange(t), cp=nextCheckpoint();
-  const tk=todayTask(t); $('#task-title').textContent=tk.title; $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>');
+  const tk=todayTask(t); $('#task-title').textContent=tk.title;
+  const act=S.data.signatures.filter(x=>x.signature_status==='追蹤中');
+  const wfh= act.length? '<div class="focus"><span class="k">考場快速反應（追蹤中指紋，如實列出）</span>'+act.map(sg=>`<div><b>${esc(sg.signature_id)}</b>　${esc(sg.trigger_signal)} → ${esc(sg.corrective_action)}</div>`).join('')+'</div>' : '';
+  $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>')+wfh;
   const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we);
   const mins=wk.reduce((a,s)=>a+(s.effective_minutes||0),0), budget=ph.weekly_hours;
   const todaySessions=S.data.sessions.filter(s=>s.session_date===t);
@@ -460,7 +495,8 @@ function renderSync(){
   $('#ver-ledger').innerHTML=`<tr><td>App</td><td>${APP_VERSION}</td></tr><tr><td>資料結構</td><td>${esc(S.settings.schema_version)}</td></tr><tr><td>讀書計畫版本</td><td>${esc(S.settings.plan_version)}</td></tr>`;
 }
 
-function renderAll(){ renderHeader(); renderToday(); renderPlan(); renderAttempts(); renderWeakness(); renderReview(); renderTrack(); renderSync(); }
+function renderAll(){ renderHeader(); renderToday(); renderPlan(); renderAttempts(); renderWeakness(); renderTrack(); renderSync(); if(window.LSJN_OUTLINE) window.LSJN_OUTLINE.render(); }
+window.LSJN={ get S(){return S;}, persist, persistObj, toast, esc, todayLA, nowISO, renderAll, $, $$, readLocal, writeLocal, allRequestIds };
 
 /* ---------- context pack ---------- */
 
@@ -475,7 +511,6 @@ function initForms(){
   buildSegs();
   const t=todayLA(); $('#f-session input[name=session_date]').value=t;
   $('#f-session').addEventListener('submit', onSessionSubmit);
-  $('#f-note').addEventListener('submit', onNoteSubmit);
   $('#btn-wb-check').addEventListener('click', wbCheck);
   $('#btn-wb-apply').addEventListener('click', wbApply);
   $('#btn-json').addEventListener('click', downloadJSON);
@@ -484,7 +519,7 @@ function initForms(){
   $('#btn-reload').addEventListener('click', async()=>{ await loadAll(); renderAll(); toast('已重新載入'); });
   $('#btn-clear-local').addEventListener('click',()=>{ if(confirm('清除本機未同步資料？此動作無法復原。')){ localStorage.removeItem(LS_LOCAL); S.dirty.clear(); loadAll().then(renderAll); } });
 
-  $$('nav.tabs button').forEach(b=>b.addEventListener('click',()=>{ $$('nav.tabs button').forEach(x=>x.setAttribute('aria-selected','false')); b.setAttribute('aria-selected','true'); $$('section.view').forEach(v=>v.classList.toggle('active', v.id===b.dataset.view)); window.scrollTo({top:0}); }));
+  $$('nav.tabs button').forEach(b=>b.addEventListener('click',()=>{ $$('nav.tabs button').forEach(x=>x.setAttribute('aria-selected','false')); b.setAttribute('aria-selected','true'); $$('section.view').forEach(v=>v.classList.toggle('active', v.id===b.dataset.view)); window.scrollTo({top:0}); if(b.dataset.view==='v-review' && window.LSJN_OUTLINE) window.LSJN_OUTLINE.render(); }));
 }
 
 (async function main(){

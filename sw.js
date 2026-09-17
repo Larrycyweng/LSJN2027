@@ -1,6 +1,6 @@
 /* App shell：網路優先，斷網時用快取。data/*.json 一律網路優先。 */
-const CACHE = 'lsjn-shell-v3';
-const SHELL = ['./', './index.html', './app.js', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'lsjn-shell-v5';
+const SHELL = ['./', './index.html', './app.js', './outline.js', './vendor/jszip.min.js', './manifest.webmanifest', './icon.svg'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {
