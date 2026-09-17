@@ -269,33 +269,6 @@ summary{cursor:pointer;color:var(--blue)}
   </div>
 </section>
 
-<!-- 追蹤 -->
-<section class="view" id="v-track">
-  <div class="panel">
-    <h2>弱點排序（官方題）</h2>
-    <div class="hint">依作答紀錄計算。樣本不足者不排序。原創題另列，不混合。</div>
-    <div id="weak-body"></div>
-  </div>
-  <div class="panel">
-    <h2>官方題累計</h2>
-    <table class="ledger" id="attempt-stats"></table>
-  </div>
-  <div class="panel">
-    <h2>錯誤指紋（唯讀）</h2>
-    <div class="hint">由課程診斷產生與更新。</div>
-    <ul class="list" id="sig-list"></ul>
-  </div>
-  <div class="panel">
-    <h2>官方題接觸狀態（唯讀）</h2>
-    <div class="hint">使用官方題前先查此表。更新由寫回包完成。</div>
-    <ul class="list" id="exp-list"></ul>
-  </div>
-  <div class="panel">
-    <h2>診斷假設（唯讀）</h2>
-    <ul class="list" id="hyp-list"></ul>
-  </div>
-</section>
-
 <!-- 同步 -->
 <section class="view" id="v-export">
   <div class="panel">
@@ -338,7 +311,6 @@ summary{cursor:pointer;color:var(--blue)}
   <button role="tab" data-view="v-today" aria-selected="true">今日</button>
   <button role="tab" data-view="v-plan" aria-selected="false">進度</button>
   <button role="tab" data-view="v-review" aria-selected="false">大綱</button>
-  <button role="tab" data-view="v-track" aria-selected="false">追蹤</button>
   <button role="tab" data-view="v-export" aria-selected="false">同步</button>
 </nav>
 

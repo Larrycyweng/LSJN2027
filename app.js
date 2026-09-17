@@ -429,9 +429,7 @@ function renderHeader(){
 function renderToday(){
   const t=todayLA(), ph=phaseFor(t), [ws,we]=weekRange(t), cp=nextCheckpoint();
   const tk=todayTask(t); $('#task-title').textContent=tk.title;
-  const act=S.data.signatures.filter(x=>x.signature_status==='追蹤中');
-  const wfh= act.length? '<div class="focus"><span class="k">考場快速反應（追蹤中指紋，如實列出）</span>'+act.map(sg=>`<div><b>${esc(sg.signature_id)}</b>　${esc(sg.trigger_signal)} → ${esc(sg.corrective_action)}</div>`).join('')+'</div>' : '';
-  $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>')+wfh;
+  $('#task-body').innerHTML=esc(tk.body).replace(/\n/g,'<br>');
   const wk=S.data.sessions.filter(s=>s.session_date>=ws&&s.session_date<=we);
   const mins=wk.reduce((a,s)=>a+(s.effective_minutes||0),0), budget=ph.weekly_hours;
   const todaySessions=S.data.sessions.filter(s=>s.session_date===t);
@@ -444,8 +442,6 @@ function renderToday(){
     <tr><td colspan="2"><div class="days">${daily.map(x=>`<div class="${x.isToday?'today':''}${x.m?' has':''}"><span>${dn[new Date(x.d+'T12:00:00Z').getUTCDay()]}</span><b>${x.m? (x.m>=60? (x.m/60).toFixed(1)+'h' : x.m+'m') : '–'}</b></div>`).join('')}</div></td></tr>
     <tr><td>今日</td><td>${todaySessions.length} 筆，${fmtMin(tmins)} 小時</td></tr>
     <tr><td>累計有效小時</td><td>${fmtMin(total)} / ${S.settings.total_plan_hours}</td></tr>
-    <tr><td>待檢討題目</td><td>${S.data.attempts.filter(a=>a.review_flag==='是'&&!a.blind_review_answer).length}</td></tr>
-    <tr><td>到期複習卡</td><td>${S.data.cards.filter(c=>c.next_review&&c.next_review<=t).length}</td></tr>
     <tr><td>下一個檢查點</td><td>${cp? `${cp.checkpoint_id}　${cp.review_date}`:'無'}</td></tr>`;
   $('#week-bar').style.width=Math.min(100, budget? 100*mins/60/budget:0)+'%';
   $('#week-note').textContent = mins/60 < budget ? `本週（${ws.slice(5).replace('-','/')}–${we.slice(5).replace('-','/')}）尚差 ${(budget-mins/60).toFixed(1)} 小時達到 ${budget} 小時預算。` : '本週已達預算；若檢查點未達標，先改方法，不加時數。';
@@ -467,7 +463,7 @@ function renderAttempts(){
     <tr><td>原創題筆數（分開計）</td><td>${sg.n}　第一次 ${pct(sg.fc,sg.n)}</td></tr>`;
 }
 
-function renderTrack(){
+function renderCheckpoints(){
   const t=todayLA(), cp=nextCheckpoint();
   $('#cp-list').innerHTML=S.data.checkpoints.map(c=>`<li><div class="t"><span>${esc(c.checkpoint_id)}　${esc(c.gate)}</span><span>${esc(c.review_date)}　<span class="tag ${c.checkpoint_status==='已完成'?'ok':''}">${esc(c.checkpoint_status)}</span></span></div><div class="m">${esc(c.checkpoint_decision||'尚無決定')}${c.evidence_summary?`　${esc(c.evidence_summary)}`:''}</div></li>`).join('');
   $('#cp-decide').innerHTML= cp? `<div class="hint" style="margin-top:10px">下一個：${esc(cp.checkpoint_id)}（${esc(cp.review_date)}，${dateDiffDays(t,cp.review_date)} 天後）。決定由你在課程檢視證據後於此作成。</div>
@@ -480,11 +476,6 @@ function renderTrack(){
       if(!o.checkpoint_decision){ toast('請先選擇決定'); return; }
       persist('checkpoints',Object.assign({},cp,{checkpoint_status:'已完成', checkpoint_decision:o.checkpoint_decision, evidence_summary:o.evidence_summary||'', decision_date:t, updated_at:nowISO()}));
       toast(`${cp.checkpoint_id} 已記錄`); renderAll(); }); }
-  const sigs=S.data.signatures.slice().sort((a,b)=> (a.signature_status==='追蹤中'?0:1)-(b.signature_status==='追蹤中'?0:1) || a.signature_id.localeCompare(b.signature_id));
-  $('#sig-list').innerHTML= sigs.length? sigs.map(x=>`<li><div class="t"><span>${esc(x.signature_id)}　${esc(x.error_type)}</span><span class="tag ${x.signature_status==='已封存'?'ok':''}">${esc(x.signature_status)}</span></div><div class="m">${esc(x.trigger_signal)}｜${esc(x.corrective_action)}｜${esc(x.stage)}　證據 ${x.evidence_count}</div></li>`).join('') : '<li class="empty">尚無指紋。由課程診斷產生。</li>';
-  $('#hyp-list').innerHTML=S.data.hypotheses.map(h=>`<li><div class="t"><span>${esc(h.hypothesis_id)}　<span class="tag">${esc(h.scope)}</span></span><span class="tag ${['已否定','已解決'].includes(h.hypothesis_status)?'ok':''}">${esc(h.hypothesis_status)}</span></div><div class="m">${esc(h.statement)}</div></li>`).join('');
-  const exp=S.data.exposure.slice().sort((a,b)=>a.pt_id.localeCompare(b.pt_id,undefined,{numeric:true}));
-  $('#exp-list').innerHTML= exp.length? exp.map(x=>`<li><div class="t"><span>${esc(x.pt_id)}　<span class="tag ${x.clean_pt_eligible==='是'?'ok':'flag'}">${x.clean_pt_eligible==='是'?'可作乾淨模考':'不可作乾淨模考'}</span></span><span>${esc(x.exposure_status)}</span></div><div class="m">${esc(x.notes||'')}</div></li>`).join('') : '<li class="empty">尚無紀錄。</li>';
 }
 
 function renderSync(){
@@ -495,7 +486,7 @@ function renderSync(){
   $('#ver-ledger').innerHTML=`<tr><td>App</td><td>${APP_VERSION}</td></tr><tr><td>資料結構</td><td>${esc(S.settings.schema_version)}</td></tr><tr><td>讀書計畫版本</td><td>${esc(S.settings.plan_version)}</td></tr>`;
 }
 
-function renderAll(){ renderHeader(); renderToday(); renderPlan(); renderAttempts(); renderWeakness(); renderTrack(); renderSync(); if(window.LSJN_OUTLINE) window.LSJN_OUTLINE.render(); }
+function renderAll(){ renderHeader(); renderToday(); renderPlan(); renderCheckpoints(); renderSync(); if(window.LSJN_OUTLINE) window.LSJN_OUTLINE.render(); }
 window.LSJN={ get S(){return S;}, persist, persistObj, toast, esc, todayLA, nowISO, renderAll, $, $$, readLocal, writeLocal, allRequestIds };
 
 /* ---------- context pack ---------- */
