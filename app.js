@@ -257,6 +257,7 @@ function todayTask(t){
   if(z) return {title:`今日任務　${z.mode}`, body:z.task};
   const w=weekIndex(t); const wp=(S.settings.week_plan||[]).find(x=>x.week===w);
   const dow=new Date(t+'T12:00:00Z').getUTCDay();
+  if(wp && wp.days && wp.days[t]) return {title:`今日任務　第${w}週　${wp.focus}`, body:wp.days[t]+`\n本週要求：${wp.work}`};
   if(dow===6) return {title:'今日任務　休息', body:'週六為固定休息日。無讀書與行政工作。'};
   if(!wp) return {title:'今日任務', body: t<S.settings.plan_start? '計畫尚未開始。Day 1 是 2026-09-13。':'此週無排定內容。請查讀書計畫。'};
   const dayRole={0:'主要官方驗證、檢討、設定本週重點',1:'學習與引導練習（本週主要 LR 與 RC 技能）',2:'獨立 LR 練習與第一次閱讀分析',3:'RC 結構、文章與選項分析',4:'近／遠移轉與延遲保留',5:'延遲複測、選擇性檢討、每週整理'}[dow];
