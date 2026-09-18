@@ -252,5 +252,25 @@
     "client_request_id": "02-20260916-s1",
     "created_at": "2026-09-16T22:46:41.101Z",
     "updated_at": "2026-09-16T22:46:41.101Z"
+  },
+  {
+    "session_id": "S-20260917-01",
+    "session_date": "2026-09-17",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "mode": "測驗",
+    "effective_minutes": 80,
+    "material_source": "LawHub",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "",
+    "created_at": "2026-09-18T22:26:42.952Z",
+    "updated_at": "2026-09-18T22:26:42.952Z"
   }
 ]
