@@ -283,6 +283,42 @@
         "type": "p",
         "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
+          "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
+          "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
+          "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
+          "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
+        "refs": [
+          "A-20260918-PT141-S2-Q10"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "Direction words after an opposing view [Notes §Argument Structure 1, concession keywords]. When a sentence follows someone else's position, read its direction words before assigning it a side: only, merely (minimize), in any case, even if (independent of the preceding claim), despite, but (contrast). Main Conclusion answers must be stated in the stimulus; an evaluation the author never made is out."
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q11：only 淡化、in any case 獨立理由；支持句誤歸反方。",
+        "refs": [
+          "A-20260918-PT141-S2-Q11"
+        ]
       }
     ],
     "source_refs": [
@@ -301,13 +337,157 @@
       {
         "type": "LSATLab Notes",
         "ref": "§Argument Structure Keywords"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "§Argument Structure 1；§Reasoning Structures Conditional"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-18 PT141 S2 Q11"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-18",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260918-o1",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260914-PT140-S2-Q16",
+                "A-20260914-PT140-S3-Q12",
+                "A-20260914-PT140-S1-Q09"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
+              "label": "Status"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-09-18",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260918-o2",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260914-PT140-S2-Q16",
+                "A-20260914-PT140-S3-Q12",
+                "A-20260914-PT140-S1-Q09"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
+                "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
+                "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
+                "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
+                "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
+              "refs": [
+                "A-20260918-PT141-S2-Q10"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-19T06:30:03.785Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-008",
@@ -474,6 +654,29 @@
         "type": "p",
         "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Sufficient vs. Necessary Assumption [補充]. 邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Sufficient Assumption：強度大於或等於 bridge 者皆合格。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+          "Necessary Assumption：強度小於或等於 bridge 者皆合格。Negation Test：否定該選項後，論證是否瓦解。",
+          "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+          "題幹辨識：if assumed、allows、enables、logically follows 為 SA；depends upon、requires、the argument assumes 為 NA。",
+          "不在強度軸上的選項（需題文外事實才起作用）兩題型皆不收。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+        "refs": [
+          "A-20260918-PT141-S2-Q12"
+        ]
       }
     ],
     "source_refs": [
@@ -488,13 +691,92 @@
       {
         "type": "Official Example",
         "ref": "PT140 S1 Q17, S3 Q11, S3 Q17"
+      },
+      {
+        "type": "Supplement",
+        "ref": "[補充] 服務題 PT141 S2 Q12、PT140 S3 Q11；Notes 僅有 Find assumed conditions 一句；使用者 2026-09-18 同意"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-18",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260918-o3",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Negating \"A and B\" gives \"not A or not B\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal.",
+              "label": "Rule"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-19T06:30:03.787Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-011",
