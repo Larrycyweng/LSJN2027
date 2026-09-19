@@ -272,5 +272,26 @@
     "notes": "",
     "created_at": "2026-09-18T22:26:42.952Z",
     "updated_at": "2026-09-18T22:26:42.952Z"
+  },
+  {
+    "session_id": "S-20260918-01",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": 44,
+    "rc_minutes": 0,
+    "review_minutes": 25,
+    "focus_skill": "PT141 S2 LR section 16/25（Q1–20 計時內 15/20，Q21–25 超時 1/5）；檢討 Q10 SA 規則前提、Q11 主結論方向詞、Q12 SA 與 NA 強度",
+    "completion": "部分完成",
+    "attention": "高",
+    "fatigue": "低",
+    "sleep_hours": null,
+    "notes": "PT141 S1 RC 不計時 17/27 之時數已由使用者手動登錄，不重複計。方法檢驗：本週教過題型 Roles 4/4、Flaws 4/5、Matching 2/2、Assumptions 3/5，未被證偽。",
+    "session_date": "2026-09-18",
+    "mode": "測驗",
+    "effective_minutes": 70,
+    "client_request_id": "W1-20260918-s1",
+    "created_at": "2026-09-19T06:30:03.758Z",
+    "updated_at": "2026-09-19T06:30:03.758Z"
   }
 ]
