@@ -217,19 +217,63 @@
           "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion.",
           "Pay Attention to Reasoning Patterns: Recommendations, Hypotheses, Rebuttals, Judgments, Predictions."
         ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "削弱題作答前，先標出結論整句，包含全部限定語與同位語。攻擊點常在限定語而非主詞。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "核對選項動詞的層級：symbolize、resemble、be thought to 屬象徵或認知層面；要推翻「某物是 X」，須實物層級的陳述。",
+          "生字不影響結構時略過；影響選項判斷時，由上下文取其類別即可。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q19：結論含 communal object passed around a small assembly，正解攻擊此限定語。",
+        "refs": [
+          "A-20260918-PT141-S2-Q19"
+        ]
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "§Argument Structure"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S2 Q19"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-19",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919-o4",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "Argument = Conclusion (verdict or judgment) supported by Premise (evidence or support). Three steps.",
+          "blocks": [
+            {
+              "type": "ol",
+              "items": [
+                "Find the Conclusion + Evidence: use keywords, Opinion vs Fact, the logic of Supported / Supporting.",
+                "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion.",
+                "Pay Attention to Reasoning Patterns: Recommendations, Hypotheses, Rebuttals, Judgments, Predictions."
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-20T00:47:52.667Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-007",
@@ -570,19 +614,66 @@
         "type": "p",
         "text": "Conditional: find the assumed conditions. Comparison: find differences (Analogy) or pros vs cons (Recommendation). Causation: ask for alternative explanations.",
         "label": "Rule"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Deductions and Inference：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "先將規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端。",
+          "三類誤選直接對照刪除：箭頭反向、未定區域假設有人、把 most 當成 all。",
+          "未標明有人的區域一律視為可能為空；「至少有一位」須題文明確給出存在。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q21：most 全勤加逆否得出超過半數 ≥ B−；誤選項假設未定區域有人。",
+        "refs": [
+          "A-20260918-PT141-S2-Q21"
+        ]
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "§Argument Structure Reasoning Structures"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S2 Q21"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-19",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919-o3",
+        "before": {
+          "title": "Reasoning Structures（推理結構）",
+          "summary": "Three structures with a fixed question for each: Conditional, Comparison, Causation.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Conditional: A → B, B → C, therefore A → C. Causal: A causes B, B causes C, therefore A causes C. Comparative: A < B, B < C, therefore A < C.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Conditional: find the assumed conditions. Comparison: find differences (Analogy) or pros vs cons (Recommendation). Causation: ask for alternative explanations.",
+              "label": "Rule"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-20T00:47:52.665Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-010",
@@ -863,6 +954,28 @@
         "type": "p",
         "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "因果結論題的第一順位：列出同一結果的其他來源，再看選項刪去哪一個來源。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "標籤須嚴格對應：替代原因（第三因）、反向因果（結果導致原因）、巧合、取樣或選擇偏差。反事實比較句不屬於上述任一類。",
+          "題文若交代起點狀態（原本一致、原本相同），變化必發生於該時點之後，來源清單即受限縮，正解通常在清單之上。",
+          "先例或類比式選項：先確認該先例本身是否包含相同的因果關係。僅現象相同而成因未提者，屬 Half Scope。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。PT141 S2 Q22：起點基因一致，正解排除雜交此一來源。",
+        "refs": [
+          "A-20260918-PT141-S2-Q15",
+          "A-20260918-PT141-S2-Q22"
+        ]
       }
     ],
     "source_refs": [
@@ -877,13 +990,59 @@
       {
         "type": "LSATLab Notes",
         "ref": "§Reasoning Structures Causation Be Skeptical"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S2 Q15、Q22"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-19",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919-o1",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "Ask: is there an alternative explanation?",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Correlation: \"people who are X are more likely than others to be Y\" (X ¦ Y). Author's explanation: \"clearly, X contributes to Y\" (X → Y). Alternate explanations: Reverse Causality (X ← Y); Third Factor (Z → X and Z → Y). Plausibility of the author's explanation: was the suspect at the scene? more data to corroborate?",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Anti-Causal 1, Could Have Been Worse: \"took prep course X and scored only 150, thus the course did nothing\" ignores the counterfactual. Anti-Causal 2, Unfair Comparison: \"Bob took course X while Sharon self-studied; both got 150; thus the course did nothing\" ignores different initial reference points.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Working list of alternatives used in teaching: reverse causation, third factor, coincidence or small sample, selection. Notes name the first two; the last two are Supplement.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A randomised controlled trial removes selection and reverse causation; it does not remove a third factor introduced after randomisation.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "SIG-002: alternative-explanation labels used imprecisely (third factor vs selection). Name the mechanism, not just \"another cause\".",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-20T00:47:52.661Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-013",
@@ -920,6 +1079,31 @@
         "type": "p",
         "text": "Six-category names from Notes. Degree rule taught 2026-09-15; withdrawn rule documented.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "作答前先判兩件事：題幹的推論方向，以及本題型是否允許選項超出題文。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "方向：most strongly support、can be inferred 為題文支撐選項；strengthen、weaken 為選項作用於題文。方向判錯則後續比對全部無效。",
+          "是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。",
+          "Flaw 題的兩種句式門檻不同：fails to consider X 只需該可能性未被排除；takes for granted that X 須論證確實依賴 X，不依賴即刪。",
+          "含比較級的選項（greater、more than）須題文提供兩者的比較資料。",
+          "Explain 題正解須使衝突雙方同時成立；僅覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S2 Q15：takes for granted 句式門檻。PT141 S2 Q23：Most Supported 以 Strengthen 方向作答。PT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，且主體由聽眾換為附近居民。",
+        "refs": [
+          "A-20260918-PT141-S2-Q15",
+          "A-20260918-PT141-S2-Q23",
+          "A-20260918-PT141-S2-Q24"
+        ]
       }
     ],
     "source_refs": [
@@ -930,13 +1114,57 @@
       {
         "type": "Supplement",
         "ref": "HO-010, 02 RC 2026-09-15 correction"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S2 Q15、Q23、Q24"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-19",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919-o2",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "Wrong answers fail on Scope, Logic, or Degree. Eliminate on textual grounds only.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Six trap categories. Scope: Out of Scope（超出範圍）, Half Scope（只對一半）. Logic: Premise Support（只支持前提）, Reversal（方向顛倒）. Degree: Too Weak（太弱）, Too Strong（太強）.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Withdrawn rule: \"the shorter or weaker option wins\". This is not a criterion. Eliminate an option only when the premises give it no support; support may come from several premises together.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Degree: absolute wording is not the same as too strong. Judge only whether the premises support the claim. \"Necessary\" is not \"principal\"; a comparative word the premises never made (\"principally\", \"mainly\") is unsupported.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S3 Q17: the correct option used absolute wording supported by the chain; the chosen option added \"principally\".",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Six-category names from Notes. Degree rule taught 2026-09-15; withdrawn rule documented.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-20T00:47:52.663Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-014",
