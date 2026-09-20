@@ -29,13 +29,13 @@
     "attraction": "",
     "scope": "LR",
     "created": "2026-09-14",
-    "last_seen": "2026-09-14",
-    "stage": "已發現／近距離移轉待測",
+    "last_seen": "2026-09-18",
+    "stage": "已發現／官方計時 2 次未通過（PT141 S2 Q15 誤標反向因果、Q22 未排除其他來源）／近距離移轉待測",
     "near_transfer": "待驗證",
     "far_transfer": "未測試",
     "delayed_retest": "未測試",
     "official_timed": "未測試",
-    "evidence_count": 2,
+    "evidence_count": 4,
     "notes": "",
     "error_type": "因果替代解釋標籤誤用",
     "trigger_signal": "生成替代解釋後貼分類標籤的步驟（C、D1 各一次）",
@@ -46,8 +46,8 @@
     "source": "原創題（練習一C；Drill D1）",
     "client_request_id": "20260914-g1",
     "created_at": "2026-09-14T18:15:52.068Z",
-    "updated_at": "2026-09-16T23:34:22Z",
-    "last_request_id": "00-20260918-maint"
+    "updated_at": "2026-09-20T00:47:52.659Z",
+    "last_request_id": "W1-20260919-e2"
   },
   {
     "signature_id": "SIG-003",
@@ -221,5 +221,28 @@
     "client_request_id": "W1-20260918-e1",
     "created_at": "2026-09-19T06:30:03.780Z",
     "updated_at": "2026-09-19T06:30:03.780Z"
+  },
+  {
+    "signature_id": "SIG-010",
+    "attraction": "以 Inference 類判準處理需要外部資訊的題型",
+    "scope": "LR",
+    "created": "2026-09-19",
+    "last_seen": "2026-09-18",
+    "stage": "官方計時 2 次未通過／不同題驗證待做／近距離移轉待做",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 2,
+    "notes": "兩例錯因均由使用者自述。與 SIG-009 分工：SIG-009 為 SA 強度判準，SIG-010 為選項可否超出題文。",
+    "error_type": "跨題型套用「選項不得增加題文所無之資訊」判準",
+    "trigger_signal": "選項引入新事實或較強用語時產生排斥感",
+    "corrective_action": "作答前先判本題型是否允許新資訊。Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以",
+    "source": "PT141 S2 Q12（SA）、Q24（Explain or Resolve）",
+    "first_seen": "2026-09-18",
+    "signature_status": "追蹤中",
+    "client_request_id": "W1-20260919-e1",
+    "created_at": "2026-09-20T00:47:52.657Z",
+    "updated_at": "2026-09-20T00:47:52.657Z"
   }
 ]
