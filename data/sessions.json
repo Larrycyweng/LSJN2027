@@ -293,5 +293,26 @@
     "client_request_id": "W1-20260918-s1",
     "created_at": "2026-09-19T06:30:03.758Z",
     "updated_at": "2026-09-19T06:30:03.758Z"
+  },
+  {
+    "session_id": "S-20260919-01",
+    "week_label": "起始週",
+    "phase": "起始週",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "PT141 S2 LR 剩餘六題檢討（Q15、Q19、Q21、Q22、Q23、Q24）",
+    "completion": "是",
+    "attention": "高",
+    "fatigue": "低",
+    "sleep_hours": null,
+    "notes": "PT141 S1 RC 十題尚未檢討。",
+    "session_date": "2026-09-19",
+    "mode": "檢討",
+    "effective_minutes": 30,
+    "client_request_id": "W1-20260919-s1",
+    "created_at": "2026-09-20T00:47:52.656Z",
+    "updated_at": "2026-09-20T00:47:52.656Z"
   }
 ]
