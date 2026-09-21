@@ -862,10 +862,130 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-21",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "Even though the evidence is true, argue the Anti-Conclusion.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Plans / Recommendations: how could we go along with this plan but not achieve the goal or be better off? \"Thus, we should do X\" → X does not help or is a net negative. \"Thus, if we want Y, we should do X\" → X does not help us get Y. \"Thus, if we want Y, we must do X\" → there are other ways to get Y."
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "Flaw and Weaken: state the gap in one sentence before reading options, then pick only the option that says that sentence. If none does, reread the options, not the stimulus."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "\"Fails to consider X\" is a flaw only if X, when true, weakens the argument. \"Takes for granted X\" is a flaw only if the argument collapses when X is denied."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "SIG-004: correct reasoning not matched to the answer letter (two instances 2026-09-13; PT140 S4 Q15). Corrective: match the pre-phrase to the option text; for Function questions verify the option verb first."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q13 and S3 Q07 missed 2026-09-14; S1 Q06 reasoning pointed to D but C was filled in (letter mismatch, counted wrong).",
+              "refs": [
+                "A-20260914-PT140-S1-Q13",
+                "A-20260914-PT140-S3-Q07",
+                "A-20260915-PT140-S1-Q06"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Plans/Recommendations three forms and Anti-Conclusion: from Notes, not yet verified on a question. SIG-004 near transfer passed (original), official untimed passed once (S4 Q25); timed verification pending."
+            },
+            {
+              "type": "p",
+              "text": "Core: Flaw 題等於對造律師的異議。先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "選項的三種句式，門檻不同：Assumptions（takes for granted、presumes）須論證確實依賴該項，不依賴即刪；Objections（fails to consider、ignores、overlooks）只需該可能性存在且未被排除；Descriptions（concludes X on the basis of Y、infers）只需準確描述論證做了什麼，不含指控。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "十個常見缺陷，先認名稱再比對選項，快於逐項推敲。一題的五個選項常各指一個不同名稱。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Necessary v. Sufficient：必要與充分互換。",
+                "Causal：由相關或時序推因果，或未排除其他來源。",
+                "Unproven v. Proven False：未獲證明即當作為假。",
+                "Sampling：樣本過小、不具代表性或自我選擇。",
+                "Ad Hominem：攻擊主張提出者的動機或身分，而非主張本身。",
+                "Part v. Whole：以部分的性質推論整體，或反之。",
+                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+                "Circular：結論僅為前提的重述。",
+                "Internal Contradiction：論證自相矛盾。",
+                "Equivocation：同一關鍵詞前後使用兩種意思。",
+                "次要類型五項：Relative v. Absolute（相對與絕對）、False Choice（假二分）、Irrelevant Response（答非所問）、Overlap Errors（集合重疊，與 SIG-005 相關）、Intent v. Outcome（意圖與結果）。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥其主張，屬 Ad Hominem；正解句式為 Description。",
+              "refs": [
+                "A-20260920-PT140-S1-Q18"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T19:39:02.296Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-21T21:03:21.505Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260921-o1",
+        "date": "2026-09-21",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "診斷出缺陷名稱後的選項掃描：Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，以及 if 與 only if 對比的句子，先掃這些。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "結論出現 ensure、guarantee、will not 這類絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。",
+              "Necessary v. Sufficient 的常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。",
+              "缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 為缺陷名稱，Sufficient Assumption 為題型名稱。"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q24：P → Q 推 ~P → ~Q，正解為 Objections 句式且所指與診斷相符。PT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成。",
+            "refs": [
+              "A-20260921-PT140-S1-Q24",
+              "A-20260921-PT140-S1-Q21"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "Official Example",
+            "ref": "PT140 S1 Q24、S1 Q21"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-009",
