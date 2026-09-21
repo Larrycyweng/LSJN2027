@@ -1,6 +1,73 @@
 [
-  {"checkpoint_id": "CP1", "review_date": "2026-10-10", "gate": "基礎吸收", "core_question": "教學是否產生無提示理解？", "required_evidence": "兩組無提示原創小題組、正確解釋、延遲保留及少量官方題。", "threshold": "結構分類約80%且理由正確；不得只看百分比。", "checkpoint_status": "已排定", "checkpoint_decision": "", "decision_date": "", "evidence_summary": "", "repair_action": "每次課程只保留一項區分，改變例子與呈現方式，48至72小時後再測。"},
-  {"checkpoint_id": "CP2", "review_date": "2026-10-24", "gate": "官方題移轉", "core_question": "基礎能力能否移轉到陌生官方題？", "required_evidence": "任務辨認、預測、選項排除、理由品質、盲審及延遲複測。", "threshold": "少量陌生官方題約80%且理由正確；基礎錯誤不再重複出現。", "checkpoint_status": "已排定", "checkpoint_decision": "", "decision_date": "", "evidence_summary": "", "repair_action": "針對失敗層級安排七天基礎修復銜接。"},
-  {"checkpoint_id": "CP3", "review_date": "2026-11-28", "gate": "計時準備", "core_question": "主要限制是理解、選項判斷、配速、專注或疲勞？", "required_evidence": "至少兩個完整官方部分、第一次與盲審差異、完成度、題目位置時間及錯誤重複。", "threshold": "寬鬆計時下約85%且理由正確；基礎錯誤應少見而非反覆出現。", "checkpoint_status": "已排定", "checkpoint_decision": "", "decision_date": "", "evidence_summary": "", "repair_action": "未來七天改為針對已診斷限制的修復，同時保留綜合基準及最後乾淨模考。"},
-  {"checkpoint_id": "CP4", "review_date": "2027-01-02", "gate": "正式就緒", "core_question": "是否已驗證穩定達到170分以上？", "required_evidence": "連續三套先前未接觸的官方完整測驗，並採正式條件。", "threshold": "每套至少170分，理由穩健，沒有重要未完成題目，也不依賴幸運猜對。", "checkpoint_status": "已排定", "checkpoint_decision": "", "decision_date": "", "evidence_summary": "", "repair_action": "若未驗證，只處理一項已診斷限制，最多於1月7日前再做一套完整測驗，之後減量。"}
+  {
+    "checkpoint_id": "CP1",
+    "review_date": "2026-10-17",
+    "gate": "基礎吸收（LR）",
+    "core_question": "LR 體系是否已建立並產生無提示理解？",
+    "required_evidence": "陌生官方 LR 題不計時作答、理由正確性、兩組原創小題組、LR 大綱核准狀態。",
+    "threshold": "陌生官方 LR 題約85%且理由正確。",
+    "checkpoint_status": "已排定",
+    "checkpoint_decision": "",
+    "decision_date": "",
+    "evidence_summary": "",
+    "repair_action": "每次課程只保留一項區分，改變例子與呈現方式，48至72小時後再測。",
+    "updated_at": "2026-09-20T20:00:00Z"
+  },
+  {
+    "checkpoint_id": "CP2",
+    "review_date": "2026-10-31",
+    "gate": "官方題移轉（LR＋RC）",
+    "core_question": "兩科基礎能否移轉到陌生官方題？",
+    "required_evidence": "任務辨認、預測、選項排除、理由品質、盲審及延遲複測。",
+    "threshold": "陌生官方題約80%且理由正確；基礎錯誤不再重複。",
+    "checkpoint_status": "已排定",
+    "checkpoint_decision": "",
+    "decision_date": "",
+    "evidence_summary": "",
+    "repair_action": "針對失敗層級安排七天基礎修復銜接。",
+    "updated_at": "2026-09-20T20:00:00Z"
+  },
+  {
+    "checkpoint_id": "CP3",
+    "review_date": "2026-12-26",
+    "gate": "計時準備",
+    "core_question": "主要限制是理解、選項判斷、配速、專注或疲勞？",
+    "required_evidence": "至少三套完整 PT、第一次與盲審差異、完成度、位置時間、錯誤重複。",
+    "threshold": "寬鬆計時下約85%且理由正確；基礎錯誤應少見而非反覆出現。",
+    "checkpoint_status": "已排定",
+    "checkpoint_decision": "",
+    "decision_date": "",
+    "evidence_summary": "",
+    "repair_action": "未來七天改為針對已診斷限制的修復，同時保留綜合基準及最後乾淨模考。",
+    "updated_at": "2026-09-20T20:00:00Z"
+  },
+  {
+    "checkpoint_id": "CP3b",
+    "review_date": "2027-01-16",
+    "gate": "內部檢核（不計入就緒判定）",
+    "core_question": "距 175 的差距在哪一層：理解、選項判斷、配速或疲勞？",
+    "required_evidence": "正式條件下一套完整 PT、盲審差異、位置時間、疲勞記錄。",
+    "threshold": "無門檻；作為第三階段修復重點的依據。",
+    "checkpoint_status": "已排定",
+    "checkpoint_decision": "",
+    "decision_date": "",
+    "evidence_summary": "",
+    "repair_action": "依限制層級排定 1/17 到 3/20 的修復與乾淨 PT 節奏。",
+    "created_at": "2026-09-20T20:00:00Z",
+    "updated_at": "2026-09-20T20:00:00Z"
+  },
+  {
+    "checkpoint_id": "CP4",
+    "review_date": "2027-03-20",
+    "gate": "正式就緒（4/8 應考）",
+    "core_question": "是否已驗證穩定達到170分以上？",
+    "required_evidence": "連續三套先前未接觸的官方完整測驗，並採正式條件。",
+    "threshold": "每套至少173分，理由穩健，沒有重要未完成題目，也不依賴幸運猜對。",
+    "checkpoint_status": "已排定",
+    "checkpoint_decision": "",
+    "decision_date": "",
+    "evidence_summary": "",
+    "repair_action": "未就緒則評估改考 2027 年 6 月場次；4 月是否應考由使用者決定。",
+    "updated_at": "2026-09-20T20:00:00Z"
+  }
 ]

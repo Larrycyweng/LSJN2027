@@ -1,12 +1,12 @@
 {
   "schema_version": "v1.1-zh-TW",
-  "plan_version": "2026-09-12",
+  "plan_version": "2026-09-20 v2",
   "timezone": "America/Los_Angeles",
-  "target_score": 170,
+  "target_score": 175,
   "plan_start": "2026-09-13",
-  "test_window_start": "2027-01-13",
-  "test_window_end": "2027-01-16",
-  "total_plan_hours": 372,
+  "test_window_start": "2027-04-08",
+  "test_window_end": "2027-04-08",
+  "total_plan_hours": 425,
   "daily_admin_minutes_cap": 3,
   "phases": [
     {
@@ -18,26 +18,29 @@
     {
       "key": "第一階段",
       "start": "2026-09-20",
-      "end": "2026-10-24",
-      "weekly_hours": 20
+      "end": "2026-10-31",
+      "weekly_hours": 15,
+      "label": "基礎建模：LSLAB 影片與大綱"
     },
     {
       "key": "第二階段",
-      "start": "2026-10-25",
-      "end": "2026-11-28",
-      "weekly_hours": 24
+      "start": "2026-11-01",
+      "end": "2026-12-26",
+      "weekly_hours": 15,
+      "label": "官方應用與盲點修正"
     },
     {
       "key": "第三階段",
-      "start": "2026-11-29",
-      "end": "2027-01-02",
-      "weekly_hours": 24
+      "start": "2026-12-27",
+      "end": "2027-03-27",
+      "weekly_hours": 15,
+      "label": "計時實戰；1/16 內部檢核"
     },
     {
       "key": "考前減量",
-      "start": "2027-01-03",
-      "end": "2027-01-16",
-      "weekly_hours": 18
+      "start": "2027-03-28",
+      "end": "2027-04-08",
+      "weekly_hours": 10
     }
   ],
   "options": {
@@ -270,97 +273,226 @@
   "week_plan": [
     {
       "week": 1,
-      "focus": "論證結構與因果",
-      "work": "LR 角色、中間結論、讓步、因果缺口、替代原因、因果倒置。RC 文章地圖與段落目的。週末做小型官方驗證組。",
+      "start": "2026-09-20",
+      "end": "2026-09-26",
+      "focus": "LR 體系一：Assumption 家族",
+      "work": "影片：Flaw、Necessary Assumption、Sufficient Assumption、Strengthen、Weaken、Famous Flaws；Causation、Conditional、Comparison 1.25 倍速確認（約 4 小時）。每堂截 2 到 3 張投影片加一到三句自己的話貼給家教，寫進大綱。PT140 錯題池 8 題；原創移轉組；一篇 RC 維持（不計時）；週末 PT141 S4 LR 計時基準＋盲審。",
       "days": {
-        "2026-09-20": "PT101 S1 錯題三方比對與分類（01）；PT101 RC P1 不計時：段落地圖與作答（02）。約 3 小時。",
-        "2026-09-21": "Learn：中間結論、讓步、壓縮式反駁（Notes §Argument Structure）；原創 6 題；PT140 S1／S3 的 Main Conclusion、Role 類錯題 3 到 5 題（01）。約 3 小時。",
-        "2026-09-22": "LR drill：因果缺口、替代原因、因果倒置、Anti-Causal 1／2（Notes §Causation）；原創 8 題寬鬆計時；PT140 因果類錯題 3 到 5 題（01）。約 3.5 小時。",
-        "2026-09-23": "RC：段落功能與地圖，PT101 RC P2、P3 不計時；Primary Purpose 與 Function 題先核對選項動詞（02）。約 3.5 小時。",
-        "2026-09-24": "移轉：角色＋因果混合原創 8 題，12 分鐘計時；PT140 S3 剩餘錯題（01）。約 3 小時。",
-        "2026-09-25": "延遲複測（不預告）；大綱通讀 30 分；週檢視 15 分（01 → 00）。約 3 小時。",
-        "2026-09-26": "休息。"
+        "2026-09-20": "影片 Flaw（截 2 到 3 張投影片＋你的一句話貼 WK1）；PT140 Flaw 類錯題 3 題延遲盲審；一篇 RC 維持（PT101 RC P1 不計時）。約 2.5 小時。",
+        "2026-09-21": "影片 Necessary Assumption、Sufficient Assumption；家教用 LR-Strategies 對應頁補教 SA 三步；PT140 NA／SA 類錯題 3 題。約 2.5 小時。",
+        "2026-09-22": "影片 Strengthen、Weaken；原創移轉 6 題（Strengthen／Weaken 混合）；PT140 錯題 2 題。約 2.5 小時。",
+        "2026-09-23": "影片 Famous Flaws；家教整理 Famous Flaws 進大綱 Skeptical of Conclusion 節；原創 Flaw 辨識 8 題。約 2.5 小時。",
+        "2026-09-24": "Causation、Conditional、Comparison 三堂 1.25 倍速確認，只記與已學不同處；Language Cues 表對照 Conditional 節。約 2 小時。",
+        "2026-09-25": "延遲複測（不預告）；本週大綱新增節通讀 20 分；週檢視 15 分（00）。約 1.5 小時。",
+        "2026-09-26": "PT141 S4 LR 計時 35 分鐘＋盲審，截圖給 WK1。約 1.5 小時。"
       }
     },
     {
       "week": 2,
-      "focus": "條件邏輯與語言強度",
-      "work": "必要／充分、逆否、unless、only、量詞、比較對象、程度與範圍。RC 觀點歸屬與限定。"
+      "start": "2026-09-27",
+      "end": "2026-10-03",
+      "focus": "LR 體系二：Principle、Paradox、Evaluate、Rebuttals、Inference 家族",
+      "work": "影片：Principle、Paradox、Evaluate、Rebuttals、Must Be True、Must Be False、Most Supported、Agree/Disagree（約 4 小時）。一個計時 LR section＋盲審；PT140 錯題池 8 題；一篇 RC 維持。",
+      "days": {
+        "2026-09-27": "影片 Principle、Paradox；PT140 對應錯題 3 題。約 2.5 小時。",
+        "2026-09-28": "影片 Evaluate、Rebuttals（40 分）；原創 Rebuttal 結構辨識 6 題（SIG-003 相關）。約 2.5 小時。",
+        "2026-09-29": "影片 Must Be True、Must Be False；Snippets：哪些題型錯選偏 Too Strong／Too Weak 對照。約 2 小時。",
+        "2026-09-30": "影片 Most Supported、Agree/Disagree；PT140 Inference 家族錯題 3 題。約 2 小時。",
+        "2026-10-01": "計時 LR section（PT101 S? 依家教指派）35 分鐘＋盲審。約 2 小時。",
+        "2026-10-02": "section 錯題三方比對；一篇 RC 維持；延遲複測；週檢視。約 2.5 小時。",
+        "2026-10-03": "補課或休息。約 1.5 小時彈性。"
+      }
     },
     {
       "week": 3,
-      "focus": "任務辨認與預測",
-      "work": "題幹任務、作答前預測、相關性、選項強度。RC 主旨、目的、作者態度。10/10 完成 CP1。"
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "focus": "LR 體系三：Match 家族與整合",
+      "work": "影片：Main Conclusion、Role、Method、Parallel、Parallel Flaw（約 2.4 小時）。LR 大綱通讀 1 小時；一個計時 LR section＋盲審；混合題型原創組；PT140 錯題池收尾；一篇 RC 維持。",
+      "days": {
+        "2026-10-04": "影片 Main Conclusion、Role；PT140 對應錯題。約 2 小時。",
+        "2026-10-05": "影片 Method、Parallel；原創 Parallel 配方練習（寫 recipe）。約 2.5 小時。",
+        "2026-10-06": "影片 Parallel Flaw；Famous Flaws 複習對照。約 1.5 小時。",
+        "2026-10-07": "LR 大綱全體系通讀 1 小時（收合看骨架，展開查細節）；混合題型原創組 10 題。約 2.5 小時。",
+        "2026-10-08": "計時 LR section 35 分鐘＋盲審。約 2 小時。",
+        "2026-10-09": "section 錯題三方比對；PT140 錯題池收尾；一篇 RC 維持；週檢視。約 2.5 小時。",
+        "2026-10-10": "休息或補課。約 2 小時彈性。"
+      }
     },
     {
       "week": 4,
-      "focus": "評估類題型",
-      "work": "加強、削弱、假設、缺陷、方法，依推理操作分組。RC 推論與細節功能。近／遠移轉組。"
+      "start": "2026-10-11",
+      "end": "2026-10-17",
+      "focus": "RC 體系一：工具與題型",
+      "work": "影片：Big Picture Reading、Find a Framework、Passage Mapping；Opinion & Attitude、Inference、Locate Details、Author's Intent（約 3.5 小時）。RC 官方文章配合影片；一個計時 LR section 維持。10/17 CP1：LR 體系已建立。"
     },
     {
       "week": 5,
-      "focus": "推論與選項控制",
-      "work": "必然為真、最受支持、矛盾、原則、論證配對。範圍轉移、程度、比較對象、誘答。10/24 完成 CP2。"
+      "start": "2026-10-18",
+      "end": "2026-10-24",
+      "focus": "RC 體系二：題型與比較文章",
+      "work": "影片：Analogy/Application、Big Picture Questions、LR in RC、Comparative Passages＋示範、Challenge Position＋示範（約 3.5 小時）；四主題示範選配。RC 官方文章；一個計時 LR section 維持。"
     },
     {
       "week": 6,
-      "focus": "分類官方題移轉",
-      "work": "依推理操作的小型官方 LR 組，一次一篇官方 RC。先診斷官方錯誤再做原創移轉題。"
+      "start": "2026-10-25",
+      "end": "2026-10-31",
+      "focus": "兩科整合",
+      "work": "無新影片。計時 LR 與 RC 各一 section＋盲審；大綱兩科通讀；cram sheet 首次整頁檢視。10/31 CP2：官方題移轉。"
     },
     {
       "week": 7,
-      "focus": "跨主題移轉",
-      "work": "新官方主題、相同推理。比較第一次讀與盲審結構。延遲複測第 6 週指紋。"
+      "start": "2026-11-01",
+      "end": "2026-11-07",
+      "focus": "分類官方 LR 組",
+      "work": "依推理結構的小型官方 LR 組（不嚴格計時）；一篇官方 RC。先診斷官方錯誤再做原創移轉。"
     },
     {
       "week": 8,
-      "focus": "混合未標示練習",
-      "work": "無題型標籤的混合官方 LR 組與成對 RC 文章。寬鬆時間上限。"
+      "start": "2026-11-08",
+      "end": "2026-11-14",
+      "focus": "分類官方 RC 組",
+      "work": "官方 RC 依題型分組；一個計時 LR section。延遲複測第 6 到 7 週指紋。"
     },
     {
       "week": 9,
-      "focus": "Section 整合",
-      "work": "半 section，再分別完成一個完整 LR 與 RC section。記錄文章與題目位置時間。"
+      "start": "2026-11-15",
+      "end": "2026-11-21",
+      "focus": "混合未標示練習",
+      "work": "無題型標籤的混合官方 LR 組與成對 RC 文章，寬鬆時間上限。第一套完整 PT（寬鬆計時）。"
     },
     {
       "week": 10,
-      "focus": "配速準備",
-      "work": "中度計時各一個 LR 與 RC section，一次連續兩 section。檢視 3 到 5 個有效指紋。11/28 完成 CP3。"
+      "start": "2026-11-22",
+      "end": "2026-11-28",
+      "focus": "Section 整合一",
+      "work": "完整 LR 與 RC section 各一，中度計時。記錄位置時間。"
     },
     {
       "week": 11,
-      "focus": "分科計時轉換",
-      "work": "標準時間 LR 與 RC 各一（不同日）加一次連續兩 section。分別診斷準確、配速、完成度、疲勞。12/1 前完成報名。"
+      "start": "2026-11-29",
+      "end": "2026-12-05",
+      "focus": "Section 整合二",
+      "work": "一次連續兩 section；盲審與位置時間。第二套完整 PT。"
     },
     {
       "week": 12,
-      "focus": "綜合基準",
-      "work": "12/6 週日完成第一次完整計時基準，週五前盲審與診斷。"
+      "start": "2026-12-06",
+      "end": "2026-12-12",
+      "focus": "配速準備",
+      "work": "標準時間 LR 與 RC 各一 section；檢視有效指紋。"
     },
     {
       "week": 13,
-      "focus": "Clean PT 1",
-      "work": "12/13 完成 Clean PT 1。只修基準揭示的兩到三個最高影響問題。"
+      "start": "2026-12-13",
+      "end": "2026-12-19",
+      "focus": "第二階段收尾",
+      "work": "第三套完整 PT（標準計時）＋盲審；限制層級判定。12/26 CP3：計時準備。"
     },
     {
       "week": 14,
-      "focus": "Clean PT 2",
-      "work": "12/20 完成 Clean PT 2。12/22 起排定正式考試。"
+      "start": "2026-12-20",
+      "end": "2026-12-26",
+      "focus": "計時實戰一",
+      "work": "每週一套完整 PT＋盲審開始。"
     },
     {
       "week": 15,
-      "focus": "Clean PT 3 與就緒決定",
-      "work": "12/27 完成 Clean PT 3，12/30 前檢討完畢。1/2 完成 CP4。"
+      "start": "2026-12-27",
+      "end": "2027-01-02",
+      "focus": "內部檢核週",
+      "work": "1/16（週六）以正式條件做一套完整 PT，作為內部檢核（CP3b）；週內只做盲審與針對性修復。"
     },
     {
       "week": 16,
-      "focus": "最後分支",
-      "work": "已就緒：維持一到兩個 section，1/5 後完成 Argumentative Writing。未就緒：針對性修復，最多一套 PT 且不晚於 1/7。"
+      "start": "2027-01-03",
+      "end": "2027-01-09",
+      "focus": "計時實戰二",
+      "work": "完整 PT＋盲審；依內部檢核結果調整修復重點。"
     },
     {
       "week": 17,
-      "focus": "減量與正式考試",
-      "work": "不學新概念。一到兩次短暖身，檢視 3 到 5 個指紋，考前 48 小時停止完整測驗。"
+      "start": "2027-01-10",
+      "end": "2027-01-16",
+      "focus": "計時實戰三",
+      "work": "完整 PT＋盲審。"
+    },
+    {
+      "week": 18,
+      "start": "2027-01-17",
+      "end": "2027-01-23",
+      "focus": "計時實戰四",
+      "work": "完整 PT＋盲審；4 月場次報名截止日確認（2 月下旬）。"
+    },
+    {
+      "week": 19,
+      "start": "2027-01-24",
+      "end": "2027-01-30",
+      "focus": "乾淨 PT 一",
+      "work": "乾淨 PT（PT150 以後）＋盲審。"
+    },
+    {
+      "week": 20,
+      "start": "2027-01-31",
+      "end": "2027-02-06",
+      "focus": "乾淨 PT 二",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 21,
+      "start": "2027-02-07",
+      "end": "2027-02-13",
+      "focus": "乾淨 PT 三",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 22,
+      "start": "2027-02-14",
+      "end": "2027-02-20",
+      "focus": "乾淨 PT 四",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 23,
+      "start": "2027-02-21",
+      "end": "2027-02-27",
+      "focus": "乾淨 PT 五",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 24,
+      "start": "2027-02-28",
+      "end": "2027-03-06",
+      "focus": "乾淨 PT 六",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 25,
+      "start": "2027-03-07",
+      "end": "2027-03-13",
+      "focus": "乾淨 PT 七",
+      "work": "乾淨 PT＋盲審。"
+    },
+    {
+      "week": 26,
+      "start": "2027-03-14",
+      "end": "2027-03-20",
+      "focus": "就緒判定",
+      "work": "乾淨 PT＋盲審。3/20 CP4：連續三套乾淨 PT ≥173 為就緒；未達則評估 6 月場次。"
+    },
+    {
+      "week": 27,
+      "start": "2027-03-21",
+      "end": "2027-03-27",
+      "focus": "減量一",
+      "work": "短暖身、大綱與 cram sheet 通讀；一個 section 維持手感。"
+    },
+    {
+      "week": 28,
+      "start": "2027-03-28",
+      "end": "2027-04-03",
+      "focus": "減量二與應考",
+      "work": "考前 48 小時停止完整測驟；4/8 應考。"
     }
   ],
   "weakness_min_n": 3,
@@ -410,131 +542,204 @@
     {
       "id": "w01",
       "group": "第一階段 基礎建模",
-      "label": "第1週 9/20–9/26　論證結構與因果：LR 角色、中間結論、讓步、因果缺口、替代原因、因果倒置。RC 文章地圖與段落目的。週末做小型官方驗證組。",
+      "label": "第1週 09/20–09/26　LR 體系一：Assumption 家族：影片：Flaw、Necessary Assumption、Sufficient Assumption、Strengthen、Weaken、Famous Flaws；Causation、Conditional、Comparison 1.25 倍速確認（約 4 小時）。每堂截 2 到 3 張投影片加一到三句自己的話貼給家教，寫進大綱。PT140 錯題池 8 題；原創移轉組；一篇 RC 維持（不計時）；週末 PT141 S4 LR 計時基準＋盲審。",
       "kind": "week"
     },
     {
       "id": "w02",
       "group": "第一階段 基礎建模",
-      "label": "第2週 9/27–10/3　條件邏輯與語言強度：必要／充分、逆否、unless、only、量詞、比較對象、程度與範圍。RC 觀點歸屬與限定。",
+      "label": "第2週 09/27–10/03　LR 體系二：Principle、Paradox、Evaluate、Rebuttals、Inference 家族：影片：Principle、Paradox、Evaluate、Rebuttals、Must Be True、Must Be False、Most Supported、Agree/Disagree（約 4 小時）。一個計時 LR section＋盲審；PT140 錯題池 8 題；一篇 RC 維持。",
       "kind": "week"
     },
     {
       "id": "w03",
       "group": "第一階段 基礎建模",
-      "label": "第3週 10/4–10/10　任務辨認與預測：題幹任務、作答前預測、相關性、選項強度。RC 主旨、目的、作者態度。10/10 完成 CP1。",
+      "label": "第3週 10/04–10/10　LR 體系三：Match 家族與整合：影片：Main Conclusion、Role、Method、Parallel、Parallel Flaw（約 2.4 小時）。LR 大綱通讀 1 小時；一個計時 LR section＋盲審；混合題型原創組；PT140 錯題池收尾；一篇 RC 維持。",
+      "kind": "week"
+    },
+    {
+      "id": "w04",
+      "group": "第一階段 基礎建模",
+      "label": "第4週 10/11–10/17　RC 體系一：工具與題型：影片：Big Picture Reading、Find a Framework、Passage Mapping；Opinion & Attitude、Inference、Locate Details、Author's Intent（約 3.5 小時）。RC 官方文章配合影片；一個計時 LR section 維持。10/17 CP1：LR 體系已建立。",
       "kind": "week"
     },
     {
       "id": "cp1",
       "group": "第一階段 基礎建模",
-      "label": "CP1 10/10 基礎吸收",
-      "detail": "驗收：兩組無提示原創小題組約80%結構分類且理由正確；延遲複測保留；少量官方題無重複基礎混淆。未達：縮小教學單位、換例子、48–72小時後再測，不加題量。",
+      "label": "CP1 10/17 基礎吸收（LR）",
+      "detail": "驗收：陌生官方 LR 題不計時約85%且理由正確；LR 大綱各節已核准；兩組無提示原創小題組通過。未達：縮小教學單位、48–72 小時後再測，不加題量。",
       "kind": "checkpoint"
-    },
-    {
-      "id": "w04",
-      "group": "第一階段 基礎建模",
-      "label": "第4週 10/11–10/17　評估類題型：加強、削弱、假設、缺陷、方法，依推理操作分組。RC 推論與細節功能。近／遠移轉組。",
-      "kind": "week"
     },
     {
       "id": "w05",
       "group": "第一階段 基礎建模",
-      "label": "第5週 10/18–10/24　推論與選項控制：必然為真、最受支持、矛盾、原則、論證配對。範圍轉移、程度、比較對象、誘答。10/24 完成 CP2。",
+      "label": "第5週 10/18–10/24　RC 體系二：題型與比較文章：影片：Analogy/Application、Big Picture Questions、LR in RC、Comparative Passages＋示範、Challenge Position＋示範（約 3.5 小時）；四主題示範選配。RC 官方文章；一個計時 LR section 維持。",
+      "kind": "week"
+    },
+    {
+      "id": "w06",
+      "group": "第一階段 基礎建模",
+      "label": "第6週 10/25–10/31　兩科整合：無新影片。計時 LR 與 RC 各一 section＋盲審；大綱兩科通讀；cram sheet 首次整頁檢視。10/31 CP2：官方題移轉。",
       "kind": "week"
     },
     {
       "id": "cp2",
       "group": "第一階段 基礎建模",
-      "label": "CP2 10/24 官方題移轉",
-      "detail": "驗收：陌生官方題約80%且理由正確（任務辨認、預測、排除）；盲審與延遲複測無重複基礎錯誤。未達：定位失敗層級，10/25–10/31 七天基礎修復。",
+      "label": "CP2 10/31 官方題移轉（LR＋RC）",
+      "detail": "驗收：陌生官方題約80%且理由正確；RC 體系已建立；盲審與延遲複測無重複基礎錯誤。未達：定位失敗層級，七天基礎修復。",
       "kind": "checkpoint"
-    },
-    {
-      "id": "w06",
-      "group": "第二階段 官方應用",
-      "label": "第6週 10/25–10/31　分類官方題移轉：依推理操作的小型官方 LR 組，一次一篇官方 RC。先診斷官方錯誤再做原創移轉題。",
-      "kind": "week"
     },
     {
       "id": "w07",
       "group": "第二階段 官方應用",
-      "label": "第7週 11/1–11/7　跨主題移轉：新官方主題、相同推理。比較第一次讀與盲審結構。延遲複測第 6 週指紋。",
+      "label": "第7週 11/01–11/07　分類官方 LR 組：依推理結構的小型官方 LR 組（不嚴格計時）；一篇官方 RC。先診斷官方錯誤再做原創移轉。",
       "kind": "week"
     },
     {
       "id": "w08",
       "group": "第二階段 官方應用",
-      "label": "第8週 11/8–11/14　混合未標示練習：無題型標籤的混合官方 LR 組與成對 RC 文章。寬鬆時間上限。",
+      "label": "第8週 11/08–11/14　分類官方 RC 組：官方 RC 依題型分組；一個計時 LR section。延遲複測第 6 到 7 週指紋。",
       "kind": "week"
     },
     {
       "id": "w09",
       "group": "第二階段 官方應用",
-      "label": "第9週 11/15–11/21　Section 整合：半 section，再分別完成一個完整 LR 與 RC section。記錄文章與題目位置時間。",
+      "label": "第9週 11/15–11/21　混合未標示練習：無題型標籤的混合官方 LR 組與成對 RC 文章，寬鬆時間上限。第一套完整 PT（寬鬆計時）。",
       "kind": "week"
     },
     {
       "id": "w10",
       "group": "第二階段 官方應用",
-      "label": "第10週 11/22–11/28　配速準備：中度計時各一個 LR 與 RC section，一次連續兩 section。檢視 3 到 5 個有效指紋。11/28 完成 CP3。",
+      "label": "第10週 11/22–11/28　Section 整合一：完整 LR 與 RC section 各一，中度計時。記錄位置時間。",
+      "kind": "week"
+    },
+    {
+      "id": "w11",
+      "group": "第二階段 官方應用",
+      "label": "第11週 11/29–12/05　Section 整合二：一次連續兩 section；盲審與位置時間。第二套完整 PT。",
+      "kind": "week"
+    },
+    {
+      "id": "w12",
+      "group": "第二階段 官方應用",
+      "label": "第12週 12/06–12/12　配速準備：標準時間 LR 與 RC 各一 section；檢視有效指紋。",
+      "kind": "week"
+    },
+    {
+      "id": "w13",
+      "group": "第二階段 官方應用",
+      "label": "第13週 12/13–12/19　第二階段收尾：第三套完整 PT（標準計時）＋盲審；限制層級判定。12/26 CP3：計時準備。",
       "kind": "week"
     },
     {
       "id": "cp3",
       "group": "第二階段 官方應用",
-      "label": "CP3 11/28 計時準備",
-      "detail": "驗收：至少兩個完整官方section；寬鬆計時約85%且理由正確；能區分理解錯誤與配速疲勞錯誤；報告指明主要限制。未達：11/29–12/5 針對已診斷限制修復。",
+      "label": "CP3 12/26 計時準備",
+      "detail": "驗收：至少三套完整 PT；寬鬆計時約85%且理由正確；能區分理解錯誤與配速疲勞錯誤。未達：針對已診斷限制修復一週。",
       "kind": "checkpoint"
-    },
-    {
-      "id": "w11",
-      "group": "第三階段 計時實戰",
-      "label": "第11週 11/29–12/5　分科計時轉換：標準時間 LR 與 RC 各一（不同日）加一次連續兩 section。分別診斷準確、配速、完成度、疲勞。12/1 前完成報名。",
-      "kind": "week"
-    },
-    {
-      "id": "w12",
-      "group": "第三階段 計時實戰",
-      "label": "第12週 12/6–12/12　綜合基準：12/6 週日完成第一次完整計時基準，週五前盲審與診斷。",
-      "kind": "week"
-    },
-    {
-      "id": "w13",
-      "group": "第三階段 計時實戰",
-      "label": "第13週 12/13–12/19　Clean PT 1：12/13 完成 Clean PT 1。只修基準揭示的兩到三個最高影響問題。",
-      "kind": "week"
     },
     {
       "id": "w14",
       "group": "第三階段 計時實戰",
-      "label": "第14週 12/20–12/26　Clean PT 2：12/20 完成 Clean PT 2。12/22 起排定正式考試。",
+      "label": "第14週 12/20–12/26　計時實戰一：每週一套完整 PT＋盲審開始。",
       "kind": "week"
     },
     {
       "id": "w15",
       "group": "第三階段 計時實戰",
-      "label": "第15週 12/27–1/2　Clean PT 3 與就緒決定：12/27 完成 Clean PT 3，12/30 前檢討完畢。1/2 完成 CP4。",
+      "label": "第15週 12/27–01/02　內部檢核週：1/16（週六）以正式條件做一套完整 PT，作為內部檢核（CP3b）；週內只做盲審與針對性修復。",
+      "kind": "week"
+    },
+    {
+      "id": "cp3b",
+      "group": "第三階段 計時實戰",
+      "label": "CP3b 1/16 內部檢核（不計入就緒判定）",
+      "detail": "正式條件下一套完整 PT。目的：測量距 175 的差距與限制層級，決定第三階段修復重點。",
+      "kind": "checkpoint"
+    },
+    {
+      "id": "w16",
+      "group": "第三階段 計時實戰",
+      "label": "第16週 01/03–01/09　計時實戰二：完整 PT＋盲審；依內部檢核結果調整修復重點。",
+      "kind": "week"
+    },
+    {
+      "id": "w17",
+      "group": "第三階段 計時實戰",
+      "label": "第17週 01/10–01/16　計時實戰三：完整 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w18",
+      "group": "第三階段 計時實戰",
+      "label": "第18週 01/17–01/23　計時實戰四：完整 PT＋盲審；4 月場次報名截止日確認（2 月下旬）。",
+      "kind": "week"
+    },
+    {
+      "id": "w19",
+      "group": "第三階段 計時實戰",
+      "label": "第19週 01/24–01/30　乾淨 PT 一：乾淨 PT（PT150 以後）＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w20",
+      "group": "第三階段 計時實戰",
+      "label": "第20週 01/31–02/06　乾淨 PT 二：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w21",
+      "group": "第三階段 計時實戰",
+      "label": "第21週 02/07–02/13　乾淨 PT 三：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w22",
+      "group": "第三階段 計時實戰",
+      "label": "第22週 02/14–02/20　乾淨 PT 四：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w23",
+      "group": "第三階段 計時實戰",
+      "label": "第23週 02/21–02/27　乾淨 PT 五：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w24",
+      "group": "第三階段 計時實戰",
+      "label": "第24週 02/28–03/06　乾淨 PT 六：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w25",
+      "group": "第三階段 計時實戰",
+      "label": "第25週 03/07–03/13　乾淨 PT 七：乾淨 PT＋盲審。",
+      "kind": "week"
+    },
+    {
+      "id": "w26",
+      "group": "第三階段 計時實戰",
+      "label": "第26週 03/14–03/20　就緒判定：乾淨 PT＋盲審。3/20 CP4：連續三套乾淨 PT ≥173 為就緒；未達則評估 6 月場次。",
       "kind": "week"
     },
     {
       "id": "cp4",
       "group": "第三階段 計時實戰",
-      "label": "CP4 1/2 正式就緒",
-      "detail": "驗收：連續三套未接觸官方PT在正式條件下皆≥170；理由穩健、無重大未完成、不靠幸運猜對。未達：只修一項限制，最多1/7前一套PT，之後減量。",
+      "label": "CP4 3/20 正式就緒",
+      "detail": "驗收：連續三套未接觸官方 PT 在正式條件下皆 ≥173，理由穩健，無重大未完成。未達：評估改考 2027 年 6 月場次；仍可趕上 2028 年申請。",
       "kind": "checkpoint"
     },
     {
-      "id": "w16",
-      "group": "最後兩週",
-      "label": "第16週 1/3–1/9　最後分支：已就緒：維持一到兩個 section，1/5 後完成 Argumentative Writing。未就緒：針對性修復，最多一套 PT 且不晚於 1/7。",
+      "id": "w27",
+      "group": "減量與應考",
+      "label": "第27週 03/21–03/27　減量一：短暖身、大綱與 cram sheet 通讀；一個 section 維持手感。",
       "kind": "week"
     },
     {
-      "id": "w17",
-      "group": "最後兩週",
-      "label": "第17週 1/10–1/16　減量與正式考試：不學新概念。一到兩次短暖身，檢視 3 到 5 個指紋，考前 48 小時停止完整測驗。",
+      "id": "w28",
+      "group": "減量與應考",
+      "label": "第28週 03/28–04/03　減量二與應考：考前 48 小時停止完整測驟；4/8 應考。",
       "kind": "week"
     }
   ],
@@ -543,5 +748,6 @@
     "signatures": "指紋一律如實記錄；只保留有學習價值、考場上能快速反應的反饋。不挑選每週強化清單，不重演歷史。",
     "weekly_plan": "每週時數安排包含全盤複習與強化訓練，不逐細節鑽研。",
     "teaching_pace": "提醒要點，不重複細節；不過度拆解問題，避免耗損專注力。"
-  }
+  },
+  "internal_check": "2027-01-16"
 }
