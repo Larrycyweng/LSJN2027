@@ -290,5 +290,28 @@
     "client_request_id": "W1-20260919b-e2",
     "created_at": "2026-09-21T01:06:57.481Z",
     "updated_at": "2026-09-21T01:06:57.481Z"
+  },
+  {
+    "signature_id": "SIG-013",
+    "attraction": "覺得結論可被推翻，即以此為判準選項，忽略題幹所問",
+    "scope": "LR",
+    "created": "2026-09-21",
+    "last_seen": "2026-09-21",
+    "stage": "官方 2 次未通過／不同題驗證待做",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 2,
+    "notes": "兩例錯因均由使用者自述。",
+    "error_type": "作答前未確認題幹任務，改以自己對結論的判斷挑選項",
+    "trigger_signal": "讀完題文已對結論形成看法時",
+    "corrective_action": "看選項前先寫下題幹要什麼（問缺陷、問支持、問推論、問方向），再比對",
+    "source": "PT141 S2 Q23（Most Supported 以 Strengthen 方向作答）、PT140 S1 Q21（問缺陷卻以結論能否推翻為判準）",
+    "first_seen": "2026-09-18",
+    "signature_status": "追蹤中",
+    "client_request_id": "W1-20260921-e1",
+    "created_at": "2026-09-21T21:03:21.501Z",
+    "updated_at": "2026-09-21T21:03:21.501Z"
   }
 ]
