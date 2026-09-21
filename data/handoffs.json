@@ -193,5 +193,18 @@
     "client_request_id": "W1-20260919b-h1",
     "created_at": "2026-09-21T01:06:57.499Z",
     "updated_at": "2026-09-21T01:06:57.499Z"
+  },
+  {
+    "handoff_id": "HO-016",
+    "session_id": "",
+    "taught": "Flaw 題核心句（對造律師異議）；選項三種句式與門檻（Assumptions、Objections、Descriptions）；十個缺陷名稱與五項次要類型；條件訊號詞表（收於 OL-010，9/24 使用）。",
+    "observed": "PT140 S1 Q18 無提示答對且理由正確：缺陷名稱 Ad Hominem、句式 Description、結論定位皆由使用者自行說出，家教僅提兩個確認問題。2025 年同題答錯。依掌握標準僅達近距離移轉第一步，9/25 延遲複測納入 Ad Hominem。使用者最初標為 Unproven v. Proven False，經第二個確認問題後自行改正為 Ad Hominem，未建指紋（單次且當場修正）。今日時數 50 分鐘，低於計畫 1.5 小時。",
+    "open_questions": "【移 00】(1) pt140_error_inventory 對 S1 Q18 同時記載 time_2025 01:19 與 timed_out true，欄位衝突，本次以新題處理，請於 00 釐清此類記錄的判定規則。(2) 9/19 三筆寫回包使多節大綱狀態由已核准回退為草稿（OL-006、007、009、010、012、013、020、023、024、025、026、027、029、030），請確認是否為 App 預期行為並決定重新核准流程。(3) 使用者指示 settings.json 不修改，週計畫變動以實際進度記錄：9/20 的 PT101 RC P1 已移至 9/21。(4) 既有【移 00】見 HO-013 至 HO-015；其中 HO-013 第 1 點（week_plan 無 days 欄）為家教誤判，已作廢。",
+    "date": "2026-09-20",
+    "stopped_at": "WK1｜9/20 影片 Flaw 完成；PT140 S1 Q18 完成。PT140 Flaw 類尚餘 S1 Q21、Q24、S3 Q20 未做。",
+    "next_task": "WK1｜9/21：影片 Necessary Assumption 與 Sufficient Assumption；家教以 LR-Strategies 對應頁確認 SA 三步（9/18 已先教，僅補缺）；PT140 NA／SA 類錯題 3 題（S1 Q22、S3 Q19 未做，S1 Q16、S3 Q11 已檢討）；PT101 RC P1 不計時（自 9/20 移入）。",
+    "client_request_id": "W1-20260920-h1",
+    "created_at": "2026-09-21T06:41:57.208Z",
+    "updated_at": "2026-09-21T06:41:57.208Z"
   }
 ]
