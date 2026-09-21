@@ -254,8 +254,22 @@
       "features_lsatlab": [],
       "lab_label": "Mayor: A huge protest",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-20",
+        "chat": "W1",
+        "mode": "Drill",
+        "answer_2025": null,
+        "answer_2026": "C",
+        "correct_answer": "C",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "概念已建立，待延遲複測",
+        "attempt_id": "A-20260920-PT140-S1-Q18",
+        "explanation_seen": true,
+        "request_id": "W1-20260920-r3"
+      }
     },
     {
       "pt": 140,
@@ -1180,5 +1194,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-16T22:00:00Z"
+  "updated_at": "2026-09-21T06:44:37.967Z"
 }
