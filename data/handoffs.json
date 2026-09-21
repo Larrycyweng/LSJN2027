@@ -206,5 +206,18 @@
     "client_request_id": "W1-20260920-h1",
     "created_at": "2026-09-21T06:41:57.208Z",
     "updated_at": "2026-09-21T06:41:57.208Z"
+  },
+  {
+    "handoff_id": "HO-017",
+    "session_id": "",
+    "taught": "缺陷名稱與題型名稱之別；診斷後的選項掃描順序（先掃 enough／necessary／only 類寫法，fails to consider 仍讀但須核對所指）；絕對用語結論的處理。",
+    "observed": "Flaw 概念已移轉：三題（9/20 S1 Q18、本日 S1 Q24、S1 Q21）缺陷名稱與句式判定皆由使用者自行說出且正確。唯一失分為題幹任務未先確認（S1 Q21 選 D），建 SIG-013（使用者同意）。家教兩次被使用者修正：先前小抄稱「不要找 fails to consider」過強已撤回改為核對所指；另 9/20 起使用者指出自己看的影片為 Famous Flaws（9/23 內容）而非 Flaw，Flaw 全片待補看。家教建議不加練 Flaw，改依週計畫推進，理由為失分機制屬跨題型而非 Flaw 知識。使用者已自行於 App 修訂 OL-003（NA 用 Negation Test、SA 用 Bridge Test），家教未送該筆；家教曾誤將 Negation 寫為使用者所提 Neglect 之對照並更正。",
+    "open_questions": "【移 00】(1) 9/20 補送之 update_pt140_review（S1 Q18，client_request_id W1-20260920-r3）在 App 顯示可寫入並確認後，pt140_error_inventory.json 於 raw 端經 90 秒仍未更新（updated_at 停留 2026-09-16），疑為同步未完成，請於 00 檢查是否為已知 wbApply 問題；本日將再送一次。(2) 既有【移 00】見 HO-013 至 HO-016。",
+    "date": "2026-09-21",
+    "stopped_at": "WK1｜9/21 第一部分完成：PT140 S1 Q24、Q21。待辦：補看 Flaw 影片全片、NA 與 SA 影片、PT140 NA／SA 類 2 題（S1 Q22、S3 Q19）、PT101 RC P1 不計時。",
+    "next_task": "WK1｜9/21 第二部分：Flaw 影片補看（僅記與大綱不同處）；NA 與 SA 影片；PT140 S1 Q22、S3 Q19；PT101 RC P1 不計時（時間不足則移 9/22）。",
+    "client_request_id": "W1-20260921-h1",
+    "created_at": "2026-09-21T21:03:21.509Z",
+    "updated_at": "2026-09-21T21:03:21.509Z"
   }
 ]
