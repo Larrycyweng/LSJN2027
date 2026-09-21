@@ -1426,6 +1426,11 @@
         "type": "p",
         "text": "Answer-choice verification taught 2026-09-15 (HO-008); applied on S4 Q25, Q26.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "選項讀完整句再判斷，五個選項全部看過再決定。見一半吻合即停止檢視為既有失分模式。"
       }
     ],
     "source_refs": [
@@ -1436,13 +1441,54 @@
       {
         "type": "Supplement",
         "ref": "HO-008"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-19 PT141 S1 Q11"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o8",
+        "before": {
+          "title": "Step 4: Questions（作答）",
+          "summary": "Inference 77.6%, Purpose 17.3%, Assumption 5.2%. Form a direction, then verify against the text.",
+          "blocks": [
+            {
+              "type": "ol",
+              "items": [
+                "Read the stem; name the task.",
+                "Form a direction before reading choices (not a full prediction for every question).",
+                "For Function and Attitude questions, check the option verb against the text first; if the text never does that action, eliminate.",
+                "Read the full proposition: who did what, scope, qualifiers.",
+                "Support may be several sentences combined; eliminate only when no textual support exists."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "This sequence is a training scaffold; the goal is to fade it, not to run it on every question in the exam.",
+              "label": "Why It Works"
+            },
+            {
+              "type": "p",
+              "text": "Withdrawn rule: \"prefer the shorter or weaker option\". Not a criterion.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Answer-choice verification taught 2026-09-15 (HO-008); applied on S4 Q25, Q26.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.497Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-021",
@@ -1563,6 +1609,21 @@
         "type": "p",
         "text": "SIG-006 near transfer passed on an original passage; cross-domain retest pending. Half Scope（只對一半）: candidate, not yet a signature.",
         "label": "Status"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "選項寫批評某些人，而文章只談主張時，刪。",
+          "選項出現 traditional、recently proposed、gaining popularity 這類新舊或地位標籤時，回第一段確認誰新誰舊。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q7：strict constructionists 為新興立場，達爾文本人的說法才是傳統；正解受詞為 view 而非 proponents。",
+        "refs": [
+          "A-20260918-PT141-S1-Q07"
+        ]
       }
     ],
     "source_refs": [
@@ -1573,13 +1634,58 @@
       {
         "type": "Supplement",
         "ref": "HO-008, HO-009, HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q7"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o2",
+        "before": {
+          "title": "Primary Purpose（文章目的）",
+          "summary": "What the whole passage does, covering every body paragraph.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Describing can be a purpose. In a descriptive passage with no rebuttal or proposal, the correct option is the description that covers all body paragraphs; an option that covers one paragraph but sounds like an argument is Out of Scope（超出範圍） (partial).",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Topic area does not determine structure; do not infer \"descriptive\" from \"humanities\".",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "For \"A does X while B does Y\" or two-part options, verify both halves separately (Half Scope（只對一半） candidate, PT140 S4 Q12).",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S4 Q1: same wrong direction as 2025, correct after hint (SIG-006). S4 Q12 missed 2026-09-16.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S4-Q01",
+                "A-20260916-PT140-S4-Q12"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "SIG-006 near transfer passed on an original passage; cross-domain retest pending. Half Scope（只對一半）: candidate, not yet a signature.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.486Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-024",
@@ -1603,6 +1709,24 @@
           "A-20260916-PT140-S4-Q03",
           "A-20260916-PT140-S4-Q08"
         ]
+      },
+      {
+        "type": "ul",
+        "items": [
+          "先問該段做了幾件事。題幹含 completely 時，選項須涵蓋全部，只對一半者刪。",
+          "區分宣告反例存在與實際舉證，證據屬於列出它的那一段。",
+          "判斷局部功能前先確認全文對該對象的態度；全文為正面時，寫作者負面評價的選項刪。",
+          "區分陳述媒介或事物的性質與作者的評價。never、cannot、fails 出現在性質描述中，不代表批評。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q6：第二段僅宣告反例，證據在第三、四段。PT141 S1 Q14：suspension of disbelief 用以建立對照，非負面評價。",
+        "refs": [
+          "A-20260918-PT141-S1-Q06",
+          "A-20260918-PT141-S1-Q14"
+        ]
       }
     ],
     "source_refs": [
@@ -1613,13 +1737,44 @@
       {
         "type": "Supplement",
         "ref": "HO-007, HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q6、Q14"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o1",
+        "before": {
+          "title": "Local Purpose / Function（局部功能）",
+          "summary": "Why the author includes a sentence or paragraph.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Check the option verb first: does the text actually do that action (illustrate, concede, qualify, refute)? If not, eliminate before reading the noun phrase.",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S4 Q15 missed (map correct, verb not checked, SIG-004). S4 Q3 and Q8 correct with reasons (2026-09-16).",
+              "label": "Official Example",
+              "refs": [
+                "A-20260914-PT140-S4-Q15",
+                "A-20260916-PT140-S4-Q03",
+                "A-20260916-PT140-S4-Q08"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.483Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-025",
@@ -1655,6 +1810,22 @@
         "type": "p",
         "text": "Phase One week 1 focus (SIG-007); verification on a different question pending.",
         "label": "Status"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "歸屬題先標出該人名的段落界線，答案只能落在界線內；作者的質疑不計入。",
+          "分辨信念層與事實層：believe、think、regard、seem 為信念層；is、are、actually 為事實層。兩層並存不構成矛盾。",
+          "選項沿用文章關鍵詞但更換受益者或對象者刪。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q19：真假需求區分有問題為作者之見，非 Marcuse 之主張。",
+        "refs": [
+          "A-20260918-PT141-S1-Q19"
+        ]
       }
     ],
     "source_refs": [
@@ -1665,13 +1836,56 @@
       {
         "type": "Supplement",
         "ref": "HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q19"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o7",
+        "before": {
+          "title": "Detail / Locate Details（細節定位）",
+          "summary": "Locate, then compare nouns and qualifiers.",
+          "blocks": [
+            {
+              "type": "ol",
+              "items": [
+                "Take the key noun from the stem and locate the original sentence.",
+                "Compare the option to that sentence noun by noun, including qualifiers.",
+                "Accept a reasonable paraphrase; reject a sentence that is in the passage but does not answer the stem."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Citing a sentence that does not correspond to the stem (SIG-007, PT140 S4 Q19, same error in 2025 and 2026).",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S4 Q19 missed twice; S4 Q16 missed 2026-09-16 (mechanism pending).",
+              "label": "Official Example",
+              "refs": [
+                "A-20260916-PT140-S4-Q19",
+                "A-20260916-PT140-S4-Q16"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Phase One week 1 focus (SIG-007); verification on a different question pending.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.496Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-026",
@@ -1693,6 +1907,24 @@
         "refs": [
           "A-20260916-PT140-S4-Q10"
         ]
+      },
+      {
+        "type": "ul",
+        "items": [
+          "類比題先寫一句抽象關係句，再比對選項，不比對表面題材。",
+          "抽象關係句若有兩個成分，選項須兩個都對，只對一個者刪。",
+          "關係題先寫出兩個成分：層級關係（通論對個案、理論對應用）與立場關係（一致、對立、無關）。",
+          "選項含 in order to、designed to 時，回文章確認那是作者所述的意圖，還是無法避免的結果。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q11：平凡材料可見與非凡效果兩成分。PT141 S1 Q25：層級關係相同但立場關係不同（誤選含對立）。",
+        "refs": [
+          "A-20260918-PT141-S1-Q11",
+          "A-20260918-PT141-S1-Q25"
+        ]
       }
     ],
     "source_refs": [
@@ -1703,13 +1935,42 @@
       {
         "type": "Supplement",
         "ref": "HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q11、Q25"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o3",
+        "before": {
+          "title": "Analogy / Relationship（類比與關係）",
+          "summary": "State the relationship in a short phrase before reading choices.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Write the relationship or the analogy target as a short phrase first; then match options to that phrase.",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S4 Q10 (comparative, Analogy) correct 2026-09-16; distinguishing reason supplied on questioning.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260916-PT140-S4-Q10"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.488Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-027",
@@ -1728,19 +1989,70 @@
         "type": "p",
         "text": "Content beyond the Notes to be filled after Phase One week 1 teaching.",
         "label": "Status"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "推論題先回文章找具體細節，不問該細節與主旨是否相關。",
+          "不問重要性。覺得選項瑣碎或與主旨無關而想刪時，改去文章找有無明文或依據。",
+          "三類誤選：超出文章所述、方向相反、文章未提供的比較或趨勢。",
+          "看似多餘的描述（人物移動、忍耐、材質）常是推論題的依據。",
+          "填空題的句子須為全文推理的收束，範圍以作者實際做到的為限；作者只推翻某項論證時，不可選該結論為假。",
+          "選項寫「除了某點以外」時，回文章找該例外的出處，找不到即刪。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q13：依據為曝光時間長的具體細節。PT141 S1 Q21：作者僅推翻該批評，未主張廣告無害。",
+        "refs": [
+          "A-20260918-PT141-S1-Q13",
+          "A-20260918-PT141-S1-Q21"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Status",
+        "text": "本節依 2026-09-19 檢討定稿，請核准。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "§Question types Inference"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q13、Q21"
       }
     ],
-    "status": "待確認",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o4",
+        "before": {
+          "title": "Inference（推論）",
+          "summary": "Largest RC type (27.6%). Direct textual support; watch scope and qualifiers.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Correct answer is supported by the text as written; the strongest support is a sentence or a combination of sentences you can point to.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Content beyond the Notes to be filled after Phase One week 1 teaching.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.490Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-028",
@@ -1800,6 +2112,24 @@
           "A-20260916-PT140-S4-Q10",
           "A-20260916-PT140-S4-Q12"
         ]
+      },
+      {
+        "type": "ul",
+        "items": [
+          "both passages mention 類題目，逐項各查兩篇，任一篇找不到明文即刪。",
+          "細節與推論題不問重要性；覺得選項瑣碎而想刪時，改去文章找出處。",
+          "問「A 的作者會如何看待 B 的某事」時，逐一套用 A 的技術定義，不採 B 文或日常詞義。",
+          "兩篇共用同一個字時，先確認 A 是否為它下過專門定義。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q23：practicability 僅 B 有。PT141 S1 Q26：acquisition 專指取得無主物，本案屬 transfer。",
+        "refs": [
+          "A-20260918-PT141-S1-Q23",
+          "A-20260918-PT141-S1-Q26"
+        ]
       }
     ],
     "source_refs": [
@@ -1810,13 +2140,49 @@
       {
         "type": "Supplement",
         "ref": "HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q23、Q26"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o5",
+        "before": {
+          "title": "Comparative Passages（比較文章）",
+          "summary": "Two passages on one topic; questions ask about each and about the relationship.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Map both passages with the seven labels. If a passage has an AUTHOR paragraph, it has a stance. State the relationship as the two main points in plain words.",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "Two-part options (\"A does X while B does Y\"): verify each half against its passage.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S4 P2 (Law) worked 2026-09-16: Q8, Q10 correct; Q12 missed.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260916-PT140-S4-Q08",
+                "A-20260916-PT140-S4-Q10",
+                "A-20260916-PT140-S4-Q12"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.492Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-030",
@@ -1847,6 +2213,23 @@
         "type": "p",
         "text": "Patterns drawn from PT140 S4 reviews 2026-09-14 to 09-16; awaiting confirmation on other passages.",
         "label": "Status"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "選項含生字時，讀該選項其餘部分，判斷其層級與方向。",
+          "仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。",
+          "文章中的生字，不影響結構則跳過；影響時由上下文取其類別。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT141 S1 Q6（ramifications）、S2 Q19（mace）。",
+        "refs": [
+          "A-20260918-PT141-S1-Q06",
+          "A-20260918-PT141-S2-Q19"
+        ]
       }
     ],
     "source_refs": [
@@ -1857,13 +2240,51 @@
       {
         "type": "Supplement",
         "ref": "HO-008, HO-012"
+      },
+      {
+        "type": "Official Example",
+        "ref": "PT141 S1 Q6、S2 Q19"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260919b-o6",
+        "before": {
+          "title": "Trap Answers（誘答）",
+          "summary": "Named wrong-answer patterns seen in PT140 reviews.",
+          "blocks": [
+            {
+              "type": "ul",
+              "items": [
+                "Unsupported Comparison（無依據的比較）: the option ranks or compares two things the passage never compares (Notes example, Main Point question on code-switching).",
+                "Too Strong（太強）: stronger than the text supports (S4 Q25 option D).",
+                "Opposite（相反）: reverses the author's direction (S4 Q26 option C).",
+                "Out of Scope（超出範圍）, partial: covers one paragraph but sounds like the thesis (S4 Q1 option C).",
+                "Half Scope（只對一半）: one half of a two-part option is right, the other is not (S4 Q12, candidate).",
+                "Wrong Emphasis（重點錯置）: neutral descriptor when the author has a stance (2025 S4 Q20 option D).",
+                "Verb mismatch: the option names an action the text never performs (Function questions, S4 Q15)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Withdrawn rule: \"shorter or weaker option wins\". Eliminate only on missing textual support.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Patterns drawn from PT140 S4 reviews 2026-09-14 to 09-16; awaiting confirmation on other passages.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T01:06:57.494Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-031",
