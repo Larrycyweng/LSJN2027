@@ -310,8 +310,22 @@
       "features_lsatlab": [],
       "lab_label": "Lawyer: If you take something",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-21",
+        "chat": "W1",
+        "mode": "Drill",
+        "answer_2025": null,
+        "answer_2026": "D",
+        "correct_answer": "C",
+        "correct_2026": false,
+        "hint_used": "否",
+        "reason_correct": "否",
+        "classification": "缺陷診斷正確，題幹任務未確認（SIG-013）",
+        "attempt_id": "A-20260921-PT140-S1-Q21",
+        "explanation_seen": true,
+        "request_id": "W1-20260921-r2"
+      }
     },
     {
       "pt": 140,
@@ -352,8 +366,22 @@
       "features_lsatlab": [],
       "lab_label": "Pediatrician: Swollen tonsils give",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-21",
+        "chat": "W1",
+        "mode": "Drill",
+        "answer_2025": null,
+        "answer_2026": "E",
+        "correct_answer": "E",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "概念已建立，待延遲複測",
+        "attempt_id": "A-20260921-PT140-S1-Q24",
+        "explanation_seen": true,
+        "request_id": "W1-20260921-r1"
+      }
     },
     {
       "pt": 140,
@@ -1194,5 +1222,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-21T06:44:37.967Z"
+  "updated_at": "2026-09-21T21:05:20.099Z"
 }
