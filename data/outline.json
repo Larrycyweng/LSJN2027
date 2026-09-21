@@ -993,7 +993,7 @@
     "level": 2,
     "order": 3,
     "title": "Reasoning Structures（推理結構）",
-    "summary": "Three structures with a fixed question for each: Causation, Conditional, Comparison.",
+    "summary": "Three structures with a fixed question for each: Comparison (71%), Conditional (28%), Causation (23%).",
     "blocks": [
       {
         "type": "p",
@@ -1106,16 +1106,58 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-21",
+        "by": "user",
+        "summary": "Google Docs 修改",
+        "before": {
+          "title": "Reasoning Structures（推理結構）",
+          "summary": "Three structures with a fixed question for each: Causation, Conditional, Comparison.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Conditional: A → B, B → C, therefore A → C. Causal: A causes B, B causes C, therefore A causes C. Comparative: A < B, B < C, therefore A < C."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Conditional: find the assumed conditions. Comparison: find differences (Analogy) or pros vs cons (Recommendation). Causation: ask for alternative explanations."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Deductions and Inference：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "先將規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端。",
+                "三類誤選直接對照刪除：箭頭反向、未定區域假設有人、把 most 當成 all。",
+                "未標明有人的區域一律視為可能為空；「至少有一位」須題文明確給出存在。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q21：most 全勤加逆否得出超過半數 ≥ B−；誤選項假設未定區域有人。",
+              "refs": [
+                "A-20260918-PT141-S2-Q21"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T19:39:02.298Z",
+    "updated_at": "2026-09-21T23:28:48.877Z",
     "updated_by": "user"
   },
   {
     "section_id": "OL-010",
     "parent_id": "OL-009",
     "level": 3,
-    "order": 2,
+    "order": 3,
     "title": "Conditional（條件）",
     "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
     "blocks": [
@@ -1508,16 +1550,118 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-21",
+        "by": "user",
+        "summary": "依文件順序",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Negating \"A and B\" gives \"not A or not B\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal.",
+              "label": "Rule"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]. 邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 者皆合格。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 者皆合格。Negation Test：否定該選項後，論證是否瓦解。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "題幹辨識：if assumed、allows、enables、logically follows 為 SA；depends upon、requires、the argument assumes 為 NA。",
+                "不在強度軸上的選項（需題文外事實才起作用）兩題型皆不收。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+              "refs": [
+                "A-20260918-PT141-S2-Q12"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "條件訊號詞：引入充分條件（箭頭左側）者為 if、when、whenever、where、the only，以及全稱詞 all、no、every、each、any；引入必要條件（箭頭右側）者為 only、only if、unless、must、requires、depends on、necessitates，以及保證詞 ensures、implies、will、leads to。與 LR-Language-Cues 表對照，9/24 課程使用。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T19:39:02.317Z",
+    "updated_at": "2026-09-21T23:28:48.885Z",
     "updated_by": "user"
   },
   {
     "section_id": "OL-011",
     "parent_id": "OL-009",
     "level": 3,
-    "order": 3,
+    "order": 1,
     "title": "Comparison（比較）",
     "summary": "Find differences for Analogy; find pros vs cons for Recommendation.",
     "blocks": [
@@ -1591,16 +1735,50 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-21",
+        "by": "user",
+        "summary": "依文件順序",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Find differences for Analogy; find pros vs cons for Recommendation.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "\"What is true in Case A should be true in Case B.\" Meaningful Distinctions: make it seem that the two cases are unfair to compare. \"X is better than Y / we should do X / X is a net gain\": Pros > Cons, we need to know and rank upsides and downsides.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "To defeat an analogy, the difference must bear on the standard of comparison. A difference that does not touch the standard is irrelevant.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q10: meaningful distinction was the third screen; user could not state it and it was taught.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Taught 2026-09-15; independent verification pending.",
+              "label": "Status"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T19:39:02.321Z",
+    "updated_at": "2026-09-21T23:28:48.880Z",
     "updated_by": "user"
   },
   {
     "section_id": "OL-012",
     "parent_id": "OL-009",
     "level": 3,
-    "order": 1,
+    "order": 2,
     "title": "Causation（因果）",
     "summary": "Ask: is there an alternative explanation?",
     "blocks": [
@@ -1781,9 +1959,72 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-21",
+        "by": "user",
+        "summary": "依文件順序",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "Ask: is there an alternative explanation?",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Correlation: \"people who are X are more likely than others to be Y\" (X ¦ Y). Author's explanation: \"clearly, X contributes to Y\" (X → Y). Alternate explanations: Reverse Causality (X ← Y); Third Factor (Z → X and Z → Y). Plausibility of the author's explanation: was the suspect at the scene? more data to corroborate?",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Anti-Causal 1, Could Have Been Worse: \"took prep course X and scored only 150, thus the course did nothing\" ignores the counterfactual. Anti-Causal 2, Unfair Comparison: \"Bob took course X while Sharon self-studied; both got 150; thus the course did nothing\" ignores different initial reference points.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Working list of alternatives used in teaching: reverse causation, third factor, coincidence or small sample, selection. Notes name the first two; the last two are Supplement.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A randomised controlled trial removes selection and reverse causation; it does not remove a third factor introduced after randomisation.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "SIG-002: alternative-explanation labels used imprecisely (third factor vs selection). Name the mechanism, not just \"another cause\".",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "因果結論題的第一順位：列出同一結果的其他來源，再看選項刪去哪一個來源。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "標籤須嚴格對應：替代原因（第三因）、反向因果（結果導致原因）、巧合、取樣或選擇偏差。反事實比較句不屬於上述任一類。",
+                "題文若交代起點狀態（原本一致、原本相同），變化必發生於該時點之後，來源清單即受限縮，正解通常在清單之上。",
+                "先例或類比式選項：先確認該先例本身是否包含相同的因果關係。僅現象相同而成因未提者，屬 Half Scope。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。PT141 S2 Q22：起點基因一致，正解排除雜交此一來源。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15",
+                "A-20260918-PT141-S2-Q22"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T19:39:02.300Z",
+    "updated_at": "2026-09-21T23:28:48.882Z",
     "updated_by": "user"
   },
   {
