@@ -575,6 +575,50 @@
         "type": "p",
         "text": "Plans/Recommendations three forms and Anti-Conclusion: from Notes, not yet verified on a question. SIG-004 near transfer passed (original), official untimed passed once (S4 Q25); timed verification pending.",
         "label": "Status"
+      },
+      {
+        "type": "p",
+        "label": "Core",
+        "text": "Flaw 題等於對造律師的異議。先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "選項的三種句式，門檻不同：Assumptions（takes for granted、presumes）須論證確實依賴該項，不依賴即刪；Objections（fails to consider、ignores、overlooks）只需該可能性存在且未被排除；Descriptions（concludes X on the basis of Y、infers）只需準確描述論證做了什麼，不含指控。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "十個常見缺陷，先認名稱再比對選項，快於逐項推敲。一題的五個選項常各指一個不同名稱。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Necessary v. Sufficient：必要與充分互換。",
+          "Causal：由相關或時序推因果，或未排除其他來源。",
+          "Unproven v. Proven False：未獲證明即當作為假。",
+          "Sampling：樣本過小、不具代表性或自我選擇。",
+          "Ad Hominem：攻擊主張提出者的動機或身分，而非主張本身。",
+          "Part v. Whole：以部分的性質推論整體，或反之。",
+          "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+          "Circular：結論僅為前提的重述。",
+          "Internal Contradiction：論證自相矛盾。",
+          "Equivocation：同一關鍵詞前後使用兩種意思。"
+        ]
+      },
+      {
+        "type": "ul",
+        "items": [
+          "次要類型五項：Relative v. Absolute（相對與絕對）、False Choice（假二分）、Irrelevant Response（答非所問）、Overlap Errors（集合重疊，與 SIG-005 相關）、Intent v. Outcome（意圖與結果）。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥其主張，屬 Ad Hominem；正解句式為 Description。",
+        "refs": [
+          "A-20260920-PT140-S1-Q18"
+        ]
       }
     ],
     "source_refs": [
@@ -589,13 +633,64 @@
       {
         "type": "LSATLab Notes",
         "ref": "§Argument Structure Be Skeptical"
+      },
+      {
+        "type": "LSATLab Notes：影片《Flaw》",
+        "ref": "2026-09-20 影片 Flaw；使用者核心句經潤飾並同意"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260920-o1",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "Even though the evidence is true, argue the Anti-Conclusion.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Plans / Recommendations: how could we go along with this plan but not achieve the goal or be better off? \"Thus, we should do X\" → X does not help or is a net negative. \"Thus, if we want Y, we should do X\" → X does not help us get Y. \"Thus, if we want Y, we must do X\" → there are other ways to get Y.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Flaw and Weaken: state the gap in one sentence before reading options, then pick only the option that says that sentence. If none does, reread the options, not the stimulus.",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "\"Fails to consider X\" is a flaw only if X, when true, weakens the argument. \"Takes for granted X\" is a flaw only if the argument collapses when X is denied.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "SIG-004: correct reasoning not matched to the answer letter (two instances 2026-09-13; PT140 S4 Q15). Corrective: match the pre-phrase to the option text; for Function questions verify the option verb first.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q13 and S3 Q07 missed 2026-09-14; S1 Q06 reasoning pointed to D but C was filled in (letter mismatch, counted wrong).",
+              "label": "Official Example",
+              "refs": [
+                "A-20260914-PT140-S1-Q13",
+                "A-20260914-PT140-S3-Q07",
+                "A-20260915-PT140-S1-Q06"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Plans/Recommendations three forms and Anti-Conclusion: from Notes, not yet verified on a question. SIG-004 near transfer passed (original), official untimed passed once (S4 Q25); timed verification pending.",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-21T06:41:57.188Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-009",
@@ -768,6 +863,11 @@
         "refs": [
           "A-20260918-PT141-S2-Q12"
         ]
+      },
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "條件訊號詞：引入充分條件（箭頭左側）者為 if、when、whenever、where、the only，以及全稱詞 all、no、every、each、any；引入必要條件（箭頭右側）者為 only、only if、unless、must、requires、depends on、necessitates，以及保證詞 ensures、implies、will、leads to。與 LR-Language-Cues 表對照，9/24 課程使用。"
       }
     ],
     "source_refs": [
@@ -786,6 +886,10 @@
       {
         "type": "Supplement",
         "ref": "[補充] 服務題 PT141 S2 Q12、PT140 S3 Q11；Notes 僅有 Find assumed conditions 一句；使用者 2026-09-18 同意"
+      },
+      {
+        "type": "LSATLab Notes：影片《Conditional Logic》",
+        "ref": "2026-09-20 影片投影片（條件訊號詞）"
       }
     ],
     "status": "草稿",
@@ -864,9 +968,106 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260920-o3",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Negating \"A and B\" gives \"not A or not B\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\".",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal.",
+              "label": "Rule"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]. 邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 者皆合格。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 者皆合格。Negation Test：否定該選項後，論證是否瓦解。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "題幹辨識：if assumed、allows、enables、logically follows 為 SA；depends upon、requires、the argument assumes 為 NA。",
+                "不在強度軸上的選項（需題文外事實才起作用）兩題型皆不收。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+              "refs": [
+                "A-20260918-PT141-S2-Q12"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-19T06:30:03.787Z",
+    "updated_at": "2026-09-21T06:41:57.206Z",
     "updated_by": "tutor"
   },
   {
@@ -1104,6 +1305,11 @@
           "A-20260918-PT141-S2-Q23",
           "A-20260918-PT141-S2-Q24"
         ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Flaw 題選項第三種句式：Descriptions（concludes X on the basis of Y、infers）。僅描述論證所做之事，不含指控，故不適用 Assumptions 的依賴性檢驗，也不適用 Objections 的未排除可能性檢驗；判準為該描述是否與論證實際內容相符。原有兩種句式門檻見本節前段。"
       }
     ],
     "source_refs": [
@@ -1118,6 +1324,10 @@
       {
         "type": "Official Example",
         "ref": "PT141 S2 Q15、Q23、Q24"
+      },
+      {
+        "type": "LSATLab Notes：影片《Flaw》",
+        "ref": "2026-09-20 影片 Flaw"
       }
     ],
     "status": "草稿",
@@ -1161,9 +1371,73 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-20",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260920-o2",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "Wrong answers fail on Scope, Logic, or Degree. Eliminate on textual grounds only.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Six trap categories. Scope: Out of Scope（超出範圍）, Half Scope（只對一半）. Logic: Premise Support（只支持前提）, Reversal（方向顛倒）. Degree: Too Weak（太弱）, Too Strong（太強）.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Withdrawn rule: \"the shorter or weaker option wins\". This is not a criterion. Eliminate an option only when the premises give it no support; support may come from several premises together.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Degree: absolute wording is not the same as too strong. Judge only whether the premises support the claim. \"Necessary\" is not \"principal\"; a comparative word the premises never made (\"principally\", \"mainly\") is unsupported.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S3 Q17: the correct option used absolute wording supported by the chain; the chosen option added \"principally\".",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Six-category names from Notes. Degree rule taught 2026-09-15; withdrawn rule documented.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "作答前先判兩件事：題幹的推論方向，以及本題型是否允許選項超出題文。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "方向：most strongly support、can be inferred 為題文支撐選項；strengthen、weaken 為選項作用於題文。方向判錯則後續比對全部無效。",
+                "是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。",
+                "Flaw 題的兩種句式門檻不同：fails to consider X 只需該可能性未被排除；takes for granted that X 須論證確實依賴 X，不依賴即刪。",
+                "含比較級的選項（greater、more than）須題文提供兩者的比較資料。",
+                "Explain 題正解須使衝突雙方同時成立；僅覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：takes for granted 句式門檻。PT141 S2 Q23：Most Supported 以 Strengthen 方向作答。PT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，且主體由聽眾換為附近居民。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15",
+                "A-20260918-PT141-S2-Q23",
+                "A-20260918-PT141-S2-Q24"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-20T00:47:52.663Z",
+    "updated_at": "2026-09-21T06:41:57.205Z",
     "updated_by": "tutor"
   },
   {
