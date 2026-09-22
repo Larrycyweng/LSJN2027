@@ -338,8 +338,22 @@
       "features_lsatlab": [],
       "lab_label": "From time to time",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-21",
+        "chat": "W1",
+        "mode": "Drill",
+        "answer_2025": null,
+        "answer_2026": "E",
+        "correct_answer": "E",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "概念已建立，待延遲複測",
+        "attempt_id": "A-20260921-PT140-S1-Q22",
+        "explanation_seen": true,
+        "request_id": "W1-20260921b-r2"
+      }
     },
     {
       "pt": 140,
@@ -623,8 +637,22 @@
       "features_lsatlab": [],
       "lab_label": "Auditor: XYZ, a construction company",
       "result_2025": "incorrect",
-      "explanation_seen": false,
-      "review_2026": null
+      "explanation_seen": true,
+      "review_2026": {
+        "date": "2026-09-21",
+        "chat": "W1",
+        "mode": "Drill",
+        "answer_2025": "E",
+        "answer_2026": "D",
+        "correct_answer": "D",
+        "correct_2026": true,
+        "hint_used": "否",
+        "reason_correct": "是",
+        "classification": "概念已建立，待延遲複測",
+        "attempt_id": "A-20260921-PT140-S3-Q19",
+        "explanation_seen": true,
+        "request_id": "W1-20260921b-r1"
+      }
     },
     {
       "pt": 140,
@@ -1222,5 +1250,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-21T21:05:20.099Z"
+  "updated_at": "2026-09-22T06:19:12.286Z"
 }
