@@ -69,45 +69,41 @@
     "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
     "blocks": [
       {
-        "type": "p",
-        "label": "Recognition",
-        "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
-      },
-      {
-        "type": "p",
+        "type": "ol",
         "label": "Steps",
-        "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+        "items": [
+          "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+          "Write the conclusion as an arrow.",
+          "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+        ]
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+        "label": "Rule",
+        "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+          "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
+          "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+          "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
+        ]
       },
       {
         "type": "p",
         "label": "Official Example",
-        "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
+        "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
         "refs": [
-          "A-20260921-PT140-S3-Q19",
-          "A-20260921-PT140-S1-Q22",
-          "A-20260921-June 2007-S3-Q17",
-          "A-20260921-PT65-S4-Q13"
+          "A-20260918-PT141-S2-Q12",
+          "A-20260915-PT140-S3-Q11"
         ]
+      },
+      {
+        "type": "p",
+        "label": "Status",
+        "text": "2026-09-22 更新。NA：PT140 S1 Q16（9/15）、S3 Q19 與 S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA：PT140 S3 Q11（9/15）方向反轉；PT141 S2 Q10（規則前提未辨識，SIG-001）與 Q12（以 NA 判準刪除正解，SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
       }
     ],
     "source_refs": [
@@ -130,6 +126,10 @@
       {
         "type": "LSATLab Notes：影片《Necessary Assumption》《Sufficient Assumption》",
         "ref": "2026-09-21 至 09-22 兩支影片；PT140 S3 Q19、S1 Q22；本筆合併並取代 9/21 提案 W1-20260921b-o1"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 自 OL-010 移入：SA 三步（原 HO-006、HO-010）與強度軸（原 [補充]，使用者 2026-09-18 同意）；Status 更新"
       }
     ],
     "status": "已核准",
@@ -382,15 +382,135 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "user",
+        "summary": "接受提案 W1-20260922-o4",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
+              "refs": [
+                "A-20260921-PT140-S3-Q19",
+                "A-20260921-PT140-S1-Q22",
+                "A-20260921-June 2007-S3-Q17",
+                "A-20260921-PT65-S4-Q13"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "ol",
+              "label": "Steps",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+              "refs": [
+                "A-20260918-PT141-S2-Q12",
+                "A-20260915-PT140-S3-Q11"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "2026-09-22 更新。NA：PT140 S1 Q16（9/15）、S3 Q19 與 S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA：PT140 S3 Q11（9/15）方向反轉；PT141 S2 Q10（規則前提未辨識，SIG-001）與 Q12（以 NA 判準刪除正解，SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T04:32:05.224Z",
+    "updated_at": "2026-09-23T04:38:04.660Z",
     "updated_by": "tutor",
     "proposals": [
       {
-        "request_id": "W1-20260922-o4",
+        "request_id": "W1-20260922-o6",
         "date": "2026-09-22",
         "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+          },
+          {
+            "type": "p",
+            "label": "Why It Works",
+            "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+          },
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+          },
           {
             "type": "ol",
             "label": "Steps",
@@ -399,6 +519,26 @@
               "Write the conclusion as an arrow.",
               "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
             ]
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
           },
           {
             "type": "p",
@@ -416,6 +556,19 @@
           },
           {
             "type": "p",
+            "label": "Trap",
+            "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
+            "refs": [
+              "A-20260915-PT140-S1-Q16"
+            ]
+          },
+          {
+            "type": "p",
             "label": "Official Example",
             "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
             "refs": [
@@ -425,14 +578,25 @@
           },
           {
             "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
+            "refs": [
+              "A-20260921-PT140-S3-Q19",
+              "A-20260921-PT140-S1-Q22",
+              "A-20260921-June 2007-S3-Q17",
+              "A-20260921-PT65-S4-Q13"
+            ]
+          },
+          {
+            "type": "p",
             "label": "Status",
-            "text": "2026-09-22 更新。NA：PT140 S1 Q16（9/15）、S3 Q19 與 S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA：PT140 S3 Q11（9/15）方向反轉；PT141 S2 Q10（規則前提未辨識，SIG-001）與 Q12（以 NA 判準刪除正解，SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
+            "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending. 2026-09-22 更新：NA 於 PT140 S3 Q19、S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA 於 PT141 S2 Q10（SIG-001）與 Q12（SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
           }
         ],
         "source_refs": [
           {
             "type": "User Revision",
-            "ref": "2026-09-22 自 OL-010 移入：SA 三步（原 HO-006、HO-010）與強度軸（原 [補充]，使用者 2026-09-18 同意）；Status 更新"
+            "ref": "2026-09-22 清理：復原被覆寫的原有 5 個 blocks（含使用者原句），合併 9/22 兩筆內容，依閱讀順序排列"
           }
         ]
       }
@@ -1560,14 +1724,6 @@
         "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal."
       },
       {
-        "type": "ol",
-        "items": [
-          "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
-          "Write the conclusion as an arrow.",
-          "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
-        ]
-      },
-      {
         "type": "p",
         "label": "Trap",
         "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11."
@@ -1575,31 +1731,17 @@
       {
         "type": "p",
         "label": "Official Example",
-        "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\")."
+        "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+        "refs": [
+          "A-20260915-PT140-S1-Q17",
+          "A-20260915-PT140-S3-Q11",
+          "A-20260915-PT140-S3-Q17"
+        ]
       },
       {
         "type": "p",
         "label": "Status",
         "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15."
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "Sufficient vs. Necessary Assumption [補充]. 邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Sufficient Assumption：強度大於或等於 bridge 者皆合格。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
-          "Necessary Assumption：強度小於或等於 bridge 者皆合格。Negation Test：否定該選項後，論證是否瓦解。",
-          "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
-          "不在強度軸上的選項（需題文外事實才起作用）兩題型皆不收。"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。"
       },
       {
         "type": "p",
@@ -1609,7 +1751,7 @@
       {
         "type": "p",
         "label": "Recognition",
-        "text": "題幹辨識詞（NA 與 SA 各自的題幹寫法）統一收於 OL-003 Assumption Family，本節只處理題文層次的條件訊號詞。"
+        "text": "題幹辨識詞、Sufficient Assumption 三步、SA 與 NA 強度軸統一收於 OL-003 Assumption Family；本節只處理題文層次的條件邏輯與訊號詞。"
       }
     ],
     "source_refs": [
@@ -1640,9 +1782,13 @@
       {
         "type": "User Revision",
         "ref": "2026-09-21"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 一致性調整：SA 三步與強度軸移至 OL-003；Official Example 連結補回"
       }
     ],
-    "status": "待確認",
+    "status": "草稿",
     "protected": true,
     "revisions": [
       {
@@ -2423,89 +2569,109 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "user",
+        "summary": "接受提案 W1-20260922-o5",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negating \"A and B\" gives \"not A or not B\"."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\"."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal."
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\")."
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]. 邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 者皆合格。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 者皆合格。Negation Test：否定該選項後，論證是否瓦解。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "不在強度軸上的選項（需題文外事實才起作用）兩題型皆不收。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "條件訊號詞：引入充分條件（箭頭左側）者為 if、when、whenever、where、the only，以及全稱詞 all、no、every、each、any；引入必要條件（箭頭右側）者為 only、only if、unless、must、requires、depends on、necessitates，以及保證詞 ensures、implies、will、leads to。與 LR-Language-Cues 表對照，9/24 課程使用。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞（NA 與 SA 各自的題幹寫法）統一收於 OL-003 Assumption Family，本節只處理題文層次的條件訊號詞。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T04:32:05.229Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "W1-20260922-o5",
-        "date": "2026-09-22",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified."
-          },
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed."
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow."
-          },
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y."
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Negating \"A and B\" gives \"not A or not B\"."
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\"."
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal."
-          },
-          {
-            "type": "p",
-            "label": "Trap",
-            "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11."
-          },
-          {
-            "type": "p",
-            "label": "Official Example",
-            "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
-            "refs": [
-              "A-20260915-PT140-S1-Q17",
-              "A-20260915-PT140-S3-Q11",
-              "A-20260915-PT140-S3-Q17"
-            ]
-          },
-          {
-            "type": "p",
-            "label": "Status",
-            "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15."
-          },
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "條件訊號詞：引入充分條件（箭頭左側）者為 if、when、whenever、where、the only，以及全稱詞 all、no、every、each、any；引入必要條件（箭頭右側）者為 only、only if、unless、must、requires、depends on、necessitates，以及保證詞 ensures、implies、will、leads to。與 LR-Language-Cues 表對照，9/24 課程使用。"
-          },
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "題幹辨識詞、Sufficient Assumption 三步、SA 與 NA 強度軸統一收於 OL-003 Assumption Family；本節只處理題文層次的條件邏輯與訊號詞。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-22 一致性調整：SA 三步與強度軸移至 OL-003；Official Example 連結補回"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-09-23T04:32:34.407Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-011",
