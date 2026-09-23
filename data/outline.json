@@ -25,40 +25,71 @@
     "level": 2,
     "order": 1,
     "title": "LR Overview（總覽）",
-    "summary": "Three question families by share of the test; difficulty rises with question number.",
+    "summary": "三大題型家族比例；難度隨題號上升。",
     "blocks": [
       {
         "type": "p",
-        "text": "Assumption family 64%; Inference family 24%; Function family 19%.",
-        "label": "Rule"
+        "label": "Recognition",
+        "text": "三大家族：Assumption 64%、Inference 24%、Function 19%。難度依題號：Q1–Q8 直覺可解；Q9–Q16 誘答為主；Q17–Q25 推理結構加誘答。"
       },
       {
         "type": "p",
-        "text": "Difficulty by position (PT62 to PT81): Q1 to Q8 intuitive; Q9 to Q16 trap answers dominate; Q17 to Q25 reasoning structures plus trap answers.",
-        "label": "Recognition"
+        "label": "Rule",
+        "text": "R1 論證三要素：Evidence（證據）、Assumption（假設）、Conclusion（結論）。假設是連接證據與結論的那一步。例：藍車最快，所以你該買藍車；假設為「最快即該買」。"
       },
       {
         "type": "p",
-        "text": "Evidence, Assumption, Conclusion. Example: \"Blue cars are the fastest cars on the road. Therefore, you should buy a blue car.\" The assumption bridges evidence to conclusion.",
-        "label": "Rule"
-      },
-      {
-        "type": "p",
-        "text": "Identify the task in the stem before reading the stimulus for structure.",
-        "label": "Steps"
+        "label": "Steps",
+        "text": "S1 讀題文之前先讀題幹，確定任務（問缺陷、問支持、問推論、問功能），再讀結構。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "§LR Overview"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-002",
+        "before": {
+          "title": "LR Overview（總覽）",
+          "summary": "Three question families by share of the test; difficulty rises with question number.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Assumption family 64%; Inference family 24%; Function family 19%.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Difficulty by position (PT62 to PT81): Q1 to Q8 intuitive; Q9 to Q16 trap answers dominate; Q17 to Q25 reasoning structures plus trap answers.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Evidence, Assumption, Conclusion. Example: \"Blue cars are the fastest cars on the road. Therefore, you should buy a blue car.\" The assumption bridges evidence to conclusion.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Identify the task in the stem before reading the stimulus for structure.",
+              "label": "Steps"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-23T05:49:39.057Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-003",
@@ -69,13 +100,79 @@
     "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
     "blocks": [
       {
+        "type": "p",
+        "label": "Recognition",
+        "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": ""
+      },
+      {
+        "type": "p",
+        "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without."
+      },
+      {
+        "type": "p",
+        "text": "Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+      },
+      {
+        "type": "p",
+        "label": "Why It Works",
+        "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+      },
+      {
+        "type": "p",
+        "text": "題幹辨識詞。"
+      },
+      {
+        "type": "p",
+        "text": "NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。"
+      },
+      {
+        "type": "p",
+        "text": "SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+      },
+      {
         "type": "ol",
-        "label": "Steps",
         "items": [
           "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
           "Write the conclusion as an arrow.",
           "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
         ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Necessary Assumption 兩種結構。"
+      },
+      {
+        "type": "p",
+        "text": "Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。"
+      },
+      {
+        "type": "p",
+        "text": "Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。"
+      },
+      {
+        "type": "p",
+        "text": "判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
       },
       {
         "type": "p",
@@ -93,17 +190,8 @@
       },
       {
         "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
-        "refs": [
-          "A-20260918-PT141-S2-Q12",
-          "A-20260915-PT140-S3-Q11"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Status",
-        "text": "2026-09-22 更新。NA：PT140 S1 Q16（9/15）、S3 Q19 與 S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA：PT140 S3 Q11（9/15）方向反轉；PT141 S2 Q10（規則前提未辨識，SIG-001）與 Q12（以 NA 判準刪除正解，SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
+        "label": "Trap",
+        "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
       }
     ],
     "source_refs": [
@@ -130,6 +218,14 @@
       {
         "type": "User Revision",
         "ref": "2026-09-22 自 OL-010 移入：SA 三步（原 HO-006、HO-010）與強度軸（原 [補充]，使用者 2026-09-18 同意）；Status 更新"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 清理：復原被覆寫的原有 5 個 blocks（含使用者原句），合併 9/22 兩筆內容，依閱讀順序排列"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22"
       }
     ],
     "status": "已核准",
@@ -482,121 +578,356 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "user",
+        "summary": "接受提案 W1-20260922-o6",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "ol",
+              "label": "Steps",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+              "refs": [
+                "A-20260918-PT141-S2-Q12",
+                "A-20260915-PT140-S3-Q11"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "2026-09-22 更新。NA：PT140 S1 Q16（9/15）、S3 Q19 與 S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA：PT140 S3 Q11（9/15）方向反轉；PT141 S2 Q10（規則前提未辨識，SIG-001）與 Q12（以 NA 判準刪除正解，SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+            },
+            {
+              "type": "p",
+              "label": "Why It Works",
+              "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+            },
+            {
+              "type": "ol",
+              "label": "Steps",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
+              "refs": [
+                "A-20260915-PT140-S1-Q16"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
+              "refs": [
+                "A-20260918-PT141-S2-Q12",
+                "A-20260915-PT140-S3-Q11"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
+              "refs": [
+                "A-20260921-PT140-S3-Q19",
+                "A-20260921-PT140-S1-Q22",
+                "A-20260921-June 2007-S3-Q17",
+                "A-20260921-PT65-S4-Q13"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending. 2026-09-22 更新：NA 於 PT140 S3 Q19、S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA 於 PT141 S2 Q10（SIG-001）與 Q12（SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": ""
+            },
+            {
+              "type": "p",
+              "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without."
+            },
+            {
+              "type": "p",
+              "text": "Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+            },
+            {
+              "type": "p",
+              "label": "Why It Works",
+              "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+            },
+            {
+              "type": "p",
+              "text": "題幹辨識詞。"
+            },
+            {
+              "type": "p",
+              "text": "NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。"
+            },
+            {
+              "type": "p",
+              "text": "SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
+                "Write the conclusion as an arrow.",
+                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Necessary Assumption 兩種結構。"
+            },
+            {
+              "type": "p",
+              "text": "Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。"
+            },
+            {
+              "type": "p",
+              "text": "Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。"
+            },
+            {
+              "type": "p",
+              "text": "判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
+                "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
+                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
+                "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T04:38:04.660Z",
+    "updated_at": "2026-09-23T05:49:39.125Z",
     "updated_by": "tutor",
     "proposals": [
       {
-        "request_id": "W1-20260922-o6",
+        "request_id": "W1-20260922-LR-003",
         "date": "2026-09-22",
+        "summary": "Flaw 16%、NA 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、SA 4%。",
         "blocks": [
           {
             "type": "p",
             "label": "Recognition",
-            "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
-          },
-          {
-            "type": "p",
-            "label": "Why It Works",
-            "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+            "text": "家族比例：Flaw 16%；Necessary Assumption（必要假設）11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption（充分假設）4%。"
           },
           {
             "type": "p",
             "label": "Recognition",
-            "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+            "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層。"
           },
           {
-            "type": "ol",
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 兩題型方向不同：NA 問「論證成立必須什麼為真」；SA 問「加入什麼就能讓結論成立」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 強度軸 [補充]。邏輯強度：一項陳述排除的可能情況越多，強度越高。橋接陳述（bridge）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。SA：強度大於或等於 bridge 的選項皆可選，選項強於所需不是刪除理由。NA：強度小於或等於 bridge 的選項皆可選。需要題文以外事實才起作用的選項不在軸上，兩題型皆不可選。類比：買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 NA 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點，作答動作是列箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或途徑，作答動作是問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭；鏈條有斷點找 Linking；鏈條接得上但有其他解釋找 Defending。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 SA 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。SA 沒有 Defending 類型。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R6 Negation Test 的門檻：否定選項後，問「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；否定後若與題文前提直接矛盾，通常是否定的範圍讀錯了。五個選項各否定一次，傷害最大者為答案，五個都要測。"
+          },
+          {
+            "type": "p",
             "label": "Steps",
-            "items": [
-              "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
-              "Write the conclusion as an arrow.",
-              "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
-            ]
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+            "text": "S1 SA 三步：把前提鏈畫成箭頭；把結論畫成箭頭；比對，正解是缺的那一環，常以逆否形式出現。"
           },
           {
             "type": "p",
             "label": "Steps",
-            "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
-              "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
-              "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
-              "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
-            ]
+            "text": "S2 全稱詞（any、all、every、only）是否過強的兩步測試：先把該詞換成較弱的詞（some、most、at least one）得到弱化版；再問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
           },
           {
             "type": "p",
             "label": "Trap",
-            "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+            "text": "T1 誘答鏡像。NA：Too Strong 36%、Out of Scope 33%，先刪超出所需的選項（用 S2）。SA：Out of Scope 36%、Too Weak 31%，先刪加入後結論仍不必然成立的選項。SIG-009：SA 題因選項強於所需而刪除正解，正是反方向誤判。"
           },
           {
             "type": "p",
             "label": "Official Example",
-            "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
+            "text": "PT140 S1 Q16（NA）：正解容許 or 或 both，讀成 both required 使最弱連結看似過強。\nPT140 S3 Q11（SA）：結論方向反轉。\nPT141 S2 Q10（SA）：規則在末句未畫箭頭，SIG-001。\nPT141 S2 Q12（SA）：以 NA 判準刪除正解 most consented，SIG-009。\nPT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。\nPT140 S1 Q22（NA，Linking）：正解為事實到價值判斷的通則，any 經 S2 判為必要；D 的 only 弱化後仍夠用，Too Strong。\nJune 2007 S3 Q17（NA，Linking）：誤選 C 為 Reversal。\nPT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誤選 D 的 any students 屬 Too Strong。",
             "refs": [
-              "A-20260915-PT140-S1-Q16"
-            ]
-          },
-          {
-            "type": "p",
-            "label": "Official Example",
-            "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
-            "refs": [
+              "A-20260915-PT140-S1-Q16",
+              "A-20260915-PT140-S3-Q11",
+              "A-20260918-PT141-S2-Q10",
               "A-20260918-PT141-S2-Q12",
-              "A-20260915-PT140-S3-Q11"
-            ]
-          },
-          {
-            "type": "p",
-            "label": "Official Example",
-            "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
-            "refs": [
               "A-20260921-PT140-S3-Q19",
               "A-20260921-PT140-S1-Q22",
               "A-20260921-June 2007-S3-Q17",
               "A-20260921-PT65-S4-Q13"
             ]
-          },
-          {
-            "type": "p",
-            "label": "Status",
-            "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending. 2026-09-22 更新：NA 於 PT140 S3 Q19、S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA 於 PT141 S2 Q10（SIG-001）與 Q12（SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
           }
         ],
         "source_refs": [
           {
             "type": "User Revision",
-            "ref": "2026-09-22 清理：復原被覆寫的原有 5 個 blocks（含使用者原句），合併 9/22 兩筆內容，依閱讀順序排列"
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
           }
         ]
       }
@@ -608,35 +939,56 @@
     "level": 3,
     "order": 2,
     "title": "Inference Family（推論家族）",
-    "summary": "Most Supported 8%, Must Be True 7%, Paradox 7%, Must Be False 1%, Agree/Disagree 1%.",
+    "summary": "Most Supported 8%、Must Be True 7%、Paradox 7%、Must Be False 1%、Agree/Disagree 1%。",
     "blocks": [
       {
         "type": "p",
-        "text": "Most Supported（最受支持） 8%; Must Be True（必然為真） 7%; Paradox 7%; Must Be False（必然為假） 1%; Agree/Disagree（爭點） 1%.",
-        "label": "Recognition"
+        "label": "Recognition",
+        "text": "家族比例：Most Supported（最受支持）8%；Must Be True（必然為真）7%；Paradox 7%；Must Be False（必然為假）1%；Agree/Disagree（爭點）1%。題幹方向：題文支撐選項（與 Strengthen 相反，見 OL-013 R2）。"
       },
       {
         "type": "p",
-        "text": "\"Cannot be inferred\" is not the same as \"false\". Must Be True（必然為真） and Most Supported（最受支持） reward what the premises support; Must Be False（必然為假） rewards what they contradict.",
-        "label": "Rule"
+        "label": "Rule",
+        "text": "R1 「無法推出」不等於「為假」。Must Be True 與 Most Supported 找前提支撐的內容；Must Be False 找前提所矛盾的內容。"
       },
       {
         "type": "p",
-        "text": "Most Supported（最受支持） may be weaker than the premises but may not add more than the premises give.",
-        "label": "Rule"
+        "label": "Rule",
+        "text": "R2 Most Supported 的正解可以比前提弱，但不可多於前提所給；不得引入題文沒有的對象、比較或趨勢。"
       },
       {
         "type": "p",
-        "text": "Agree/Disagree（爭點）: first screen for an option both speakers address; then screen for opposite positions on it.",
-        "label": "Steps"
+        "label": "Rule",
+        "text": "R3 Deductions and Inference（Must Be True）：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
       },
       {
         "type": "p",
-        "text": "PT140 S1 Q10 (Agree/Disagree（爭點）) answered with the two screens; PT140 S3 Q17 (Most Supported（最受支持）) missed by preferring a less absolute option and accepting \"principally\", which the premises never compared.",
+        "label": "Steps",
+        "text": "S1 Must Be True：先把規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端，沿方向推出結論。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "S2 Agree/Disagree：先篩出兩人都有表態的選項；再篩出兩人立場相反者。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 Must Be True 三類誤選，直接對照刪除：箭頭反向；未定區域假設有人（未標明有人的區域一律視為可能為空，「至少有一位」須題文明確給出）；把 most 當成 all。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T2 Most Supported：偏好較不絕對的選項而刪除有鏈條支撐的絕對句；接受前提未比較過的比較詞（principally、mainly）。"
+      },
+      {
+        "type": "p",
         "label": "Official Example",
+        "text": "PT140 S1 Q10（Agree/Disagree）：兩步篩選答對。\nPT140 S3 Q17（Most Supported）：偏好較不絕對選項並接受 principally。\nPT141 S2 Q21（Must Be True）：most 全勤加逆否得出超過半數 ≥ B−；誤選假設未定區域有人。",
         "refs": [
           "A-20260915-PT140-S1-Q10",
-          "A-20260915-PT140-S3-Q17"
+          "A-20260915-PT140-S3-Q17",
+          "A-20260918-PT141-S2-Q21"
         ]
       }
     ],
@@ -648,13 +1000,58 @@
       {
         "type": "Supplement",
         "ref": "HO-010"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-004",
+        "before": {
+          "title": "Inference Family（推論家族）",
+          "summary": "Most Supported 8%, Must Be True 7%, Paradox 7%, Must Be False 1%, Agree/Disagree 1%.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Most Supported（最受支持） 8%; Must Be True（必然為真） 7%; Paradox 7%; Must Be False（必然為假） 1%; Agree/Disagree（爭點） 1%.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "\"Cannot be inferred\" is not the same as \"false\". Must Be True（必然為真） and Most Supported（最受支持） reward what the premises support; Must Be False（必然為假） rewards what they contradict.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Most Supported（最受支持） may be weaker than the premises but may not add more than the premises give.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Agree/Disagree（爭點）: first screen for an option both speakers address; then screen for opposite positions on it.",
+              "label": "Steps"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q10 (Agree/Disagree（爭點）) answered with the two screens; PT140 S3 Q17 (Most Supported（最受支持）) missed by preferring a less absolute option and accepting \"principally\", which the premises never compared.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q10",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-23T05:49:39.131Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-005",
@@ -662,17 +1059,12 @@
     "level": 3,
     "order": 3,
     "title": "Function Family（功能家族）",
-    "summary": "Main Conclusion 3%, Role 3%, Method 5%, Parallel 3%, Parallel Flaw 4%.",
+    "summary": "Main Conclusion 3%、Role 3%、Method 5%、Parallel 3%、Parallel Flaw 4%。",
     "blocks": [
       {
         "type": "p",
-        "text": "Main Conclusion 3%; Role 3%; Method 5%; Parallel 3%; Parallel Flaw 4%.",
-        "label": "Recognition"
-      },
-      {
-        "type": "p",
-        "text": "Task recognition for Role and Method not yet independently verified (no PT140 error available).",
-        "label": "Status"
+        "label": "Recognition",
+        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見 OL-007；Method、Parallel、Parallel Flaw 尚未教。"
       }
     ],
     "source_refs": [
@@ -683,13 +1075,39 @@
       {
         "type": "Supplement",
         "ref": "HO-010"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-16T22:00:00Z",
-    "updated_by": "00 maintenance 2026-09-18"
+    "revisions": [
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-005",
+        "before": {
+          "title": "Function Family（功能家族）",
+          "summary": "Main Conclusion 3%, Role 3%, Method 5%, Parallel 3%, Parallel Flaw 4%.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Main Conclusion 3%; Role 3%; Method 5%; Parallel 3%; Parallel Flaw 4%.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "Task recognition for Role and Method not yet independently verified (no PT140 error available).",
+              "label": "Status"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-09-23T05:49:39.134Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-006",
@@ -882,10 +1300,79 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "Argument = Conclusion (verdict or judgment) supported by Premise (evidence or support). Three steps.",
+          "blocks": [
+            {
+              "type": "ol",
+              "items": [
+                "Find the Conclusion + Evidence: use keywords, Opinion vs Fact, the logic of Supported / Supporting.",
+                "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion: Rebuttals.",
+                "Evaluate the Reasoning Patterns: Rebuttals, Causation, Conditional, Comparison."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "削弱題作答前，先標出結論整句，包含全部限定語與同位語。攻擊點常在限定語而非主詞。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "核對選項動詞的層級：symbolize、resemble、be thought to 屬象徵或認知層面；要推翻「某物是 X」，須實物層級的陳述。",
+                "生字不影響結構時略過；影響選項判斷時，由上下文取其類別即可。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q19：結論含 communal object passed around a small assembly，正解攻擊此限定語。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T03:17:19.993Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-23T05:49:39.137Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922-LR-006",
+        "date": "2026-09-22",
+        "summary": "論證 = 結論（判斷）加上支持它的前提（證據）。三步。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯（OL-007）。\nS2 質疑結論：即使證據為真，仍可論證反結論（OL-008）。\nS3 評估推理型態：反駁、因果、條件、比較（OL-009 至 OL-012）。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT141 S2 Q19（Weaken）：結論含 communal object passed around a small assembly，正解攻擊此限定語；誤選 E 為象徵層面陳述，與結論相容。",
+            "refs": [
+              "A-20260918-PT141-S2-Q19"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-007",
@@ -893,86 +1380,52 @@
     "level": 3,
     "order": 1,
     "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-    "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
+    "summary": "先找判斷句（結論），再找支持它的證據；其餘句子標角色。",
     "blocks": [
       {
         "type": "p",
-        "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
-        "label": "Rule"
-      },
-      {
-        "type": "p",
-        "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
-        "label": "Recognition"
-      },
-      {
-        "type": "p",
-        "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
-        "label": "Rule"
-      },
-      {
-        "type": "p",
-        "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
-        "label": "Trap"
-      },
-      {
-        "type": "p",
-        "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
-        "label": "Trap"
-      },
-      {
-        "type": "p",
-        "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
-        "label": "Recognition"
-      },
-      {
-        "type": "p",
-        "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
-        "label": "Official Example",
-        "refs": [
-          "A-20260914-PT140-S2-Q16",
-          "A-20260914-PT140-S3-Q12",
-          "A-20260914-PT140-S1-Q09"
-        ]
-      },
-      {
-        "type": "p",
-        "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
-        "label": "Status"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
-          "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
-          "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
-          "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
-          "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
-        "refs": [
-          "A-20260918-PT141-S2-Q10"
-        ]
+        "label": "Recognition",
+        "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
       },
       {
         "type": "p",
         "label": "Recognition",
-        "text": "Direction words after an opposing view [Notes §Argument Structure 1, concession keywords]. When a sentence follows someone else's position, read its direction words before assigning it a side: only, merely (minimize), in any case, even if (independent of the preceding claim), despite, but (contrast). Main Conclusion answers must be stated in the stimulus; an evaluation the author never made is out."
+        "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 規則前提。含 must、only if、requires、necessary、unless、if...then、any...that 的句子是規則，是證據，不是背景。讀到即畫箭頭。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。訊號詞漏抓時用刪除測試：刪掉該句，若事實到結論的路斷了，它就是前提。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解必須是題文說過的話，作者沒下的評價不選。"
       },
       {
         "type": "p",
         "label": "Official Example",
-        "text": "PT141 S2 Q11：only 淡化、in any case 獨立理由；支持句誤歸反方。",
+        "text": "PT140 S2 Q16：壓縮式反駁結論 2025 與 2026 皆漏，SIG-003。\nPT140 S3 Q12、S1 Q09：角色判斷正確並說出理由。\nPT141 S2 Q10：規則在末句，訊號詞 must；bridge 為 discern → care，SIG-001。\nPT141 S2 Q11：only 淡化、in any case 獨立理由；作者支持句誤歸反方。",
         "refs": [
+          "A-20260914-PT140-S2-Q16",
+          "A-20260914-PT140-S3-Q12",
+          "A-20260914-PT140-S1-Q09",
+          "A-20260918-PT141-S2-Q10",
           "A-20260918-PT141-S2-Q11"
         ]
       }
@@ -1001,6 +1454,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-18 PT141 S2 Q11"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
     "status": "草稿",
@@ -1140,9 +1597,101 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-007",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260914-PT140-S2-Q16",
+                "A-20260914-PT140-S3-Q12",
+                "A-20260914-PT140-S1-Q09"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
+                "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
+                "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
+                "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
+                "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
+              "refs": [
+                "A-20260918-PT141-S2-Q10"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Direction words after an opposing view [Notes §Argument Structure 1, concession keywords]. When a sentence follows someone else's position, read its direction words before assigning it a side: only, merely (minimize), in any case, even if (independent of the preceding claim), despite, but (contrast). Main Conclusion answers must be stated in the stimulus; an evaluation the author never made is out."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q11：only 淡化、in any case 獨立理由；支持句誤歸反方。",
+              "refs": [
+                "A-20260918-PT141-S2-Q11"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-19T06:30:03.785Z",
+    "updated_at": "2026-09-23T05:49:39.155Z",
     "updated_by": "tutor"
   },
   {
@@ -1508,11 +2057,115 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "Even though the evidence is true, argue the Anti-Conclusion.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "診斷出缺陷名稱後的選項掃描：Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，以及 if 與 only if 對比的句子，先掃這些。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "結論出現 ensure、guarantee、will not 這類絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。",
+                "Necessary v. Sufficient 的常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。",
+                "缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 為缺陷名稱，Sufficient Assumption 為題型名稱。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q24：P → Q 推 ~P → ~Q，正解為 Objections 句式且所指與診斷相符。PT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成。",
+              "refs": [
+                "A-20260921-PT140-S1-Q24",
+                "A-20260921-PT140-S1-Q21"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-22T05:31:57.961Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-23T05:49:39.160Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922-LR-008",
+        "date": "2026-09-22",
+        "summary": "即使證據為真，也可論證反結論。Flaw 題等於對造律師的異議。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 選項三種句式，門檻不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，不依賴即刪。Objections（fails to consider、ignores、overlooks）：只需該可能性存在且未被排除。Descriptions（concludes X on the basis of Y、infers）：只需準確描述論證做了什麼，不含指控。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+              "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+              "Unproven v. Proven False：未獲證明即當作為假。",
+              "Sampling：樣本過小、不具代表性或自我選擇。",
+              "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+              "Part v. Whole：以部分推整體，或反之。",
+              "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+              "Circular：結論僅為前提的重述。",
+              "Internal Contradiction：論證自相矛盾。",
+              "Equivocation：同一關鍵詞前後用兩種意思。",
+              "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+            "refs": [
+              "A-20260920-PT140-S1-Q18",
+              "A-20260921-PT140-S1-Q24",
+              "A-20260921-PT140-S1-Q21",
+              "A-20260918-PT141-S2-Q15"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-009",
@@ -1675,10 +2328,77 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Reasoning Structures（推理結構）",
+          "summary": "Three structures with a fixed question for each: Comparison (71%), Conditional (28%), Causation (23%).",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Conditional: A → B, B → C, therefore A → C. Causal: A causes B, B causes C, therefore A causes C. Comparative: A < B, B < C, therefore A < C."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Conditional: find the assumed conditions. Comparison: find differences (Analogy) or pros vs cons (Recommendation). Causation: ask for alternative explanations."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Deductions and Inference：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "先將規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端。",
+                "三類誤選直接對照刪除：箭頭反向、未定區域假設有人、把 most 當成 all。",
+                "未標明有人的區域一律視為可能為空；「至少有一位」須題文明確給出存在。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q21：most 全勤加逆否得出超過半數 ≥ B−；誤選項假設未定區域有人。",
+              "refs": [
+                "A-20260918-PT141-S2-Q21"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T23:28:48.877Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-23T05:49:39.164Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922-LR-009",
+        "date": "2026-09-22",
+        "summary": "三種推理結構各有固定的質疑問題：Comparison 71%、Conditional 28%、Causation 23%。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Conditional：A → B，B → C，故 A → C。Causal：A 導致 B，B 導致 C，故 A 導致 C。Comparative：A < B，B < C，故 A < C。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 各結構的固定問題。Conditional：找被假設的條件（OL-010）。Comparison：找差異（Analogy）或利弊（Recommendation）（OL-011）。Causation：問有無其他解釋（OL-012）。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-010",
@@ -2667,11 +3387,146 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "Find the assumed conditions. Arrow points at the necessary condition.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "The author assumes \"if X, then Y\". Example: evidence \"60% of the technicians are not certified\"; conclusion \"60% are unqualified\"; assumed: if uncertified, then unqualified."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Un-triggered conditionals: a stated rule whose trigger the evidence never establishes. Example: \"audiences don't care what happens to any characters → not succeed as drama\"; evidence only says audiences cannot discern personalities; the link \"cannot discern → do not care\" is assumed."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "If X then Y: X → Y. The necessary condition sits at the arrow tip. Contrapositive: negate both and reverse (not Y → not X). Converse and inverse do not follow."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Necessary-condition wording: \"X is essential / necessary / required for Y\" gives Y → X. \"Y requires X\", \"Y only if X\" gives Y → X. \"Unless X, Y\" gives not X → Y."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negating \"A and B\" gives \"not A or not B\"."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Quantifiers: all and no statements chain; most and some do not chain against the arrow. A \"some\" statement may be read in either direction but cannot be combined with another \"some\" or \"most\"."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Corrected rule (was: \"the group at the arrow tip is always larger\"): for an all-statement A → B, every A is a B, so the B group is at least as large as the A group. This says nothing about size for most or some statements, and nothing when the arrow comes from a single conditional claim rather than a universal."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Turning natural English \"if not X then not Y\" into an arrow: not X → not Y, contrapositive（逆否） Y → X. Direction reversed on PT140 S3 Q11."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q17 (contrapositive（逆否） applied, correct); S3 Q11 (Sufficient Assumption（充分假設）, direction reversed, method taught on the spot); S3 Q17 (necessary read as \"principally\").",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Symbolised conditionals and contrapositive（逆否）s: verified. Natural-English necessary-condition cues and Sufficient Assumption（充分假設） direction: pending independent verification (Phase One week 1 focus). SIG-005 \"some\" against the arrow: delayed retest passed 2026-09-15."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "條件訊號詞：引入充分條件（箭頭左側）者為 if、when、whenever、where、the only，以及全稱詞 all、no、every、each、any；引入必要條件（箭頭右側）者為 only、only if、unless、must、requires、depends on、necessitates，以及保證詞 ensures、implies、will、leads to。與 LR-Language-Cues 表對照，9/24 課程使用。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞、Sufficient Assumption 三步、SA 與 NA 強度軸統一收於 OL-003 Assumption Family；本節只處理題文層次的條件邏輯與訊號詞。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T04:32:34.407Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-23T05:49:39.168Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922-LR-010",
+        "date": "2026-09-22",
+        "summary": "找出被假設的條件。箭頭指向必要條件。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
+          },
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。題幹辨識詞、SA 三步、強度軸見 OL-003。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 否定「A and B」得「not A or not B」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 不可逆箭頭串接。some 陳述可雙向讀，但不可與另一個 some 或 most 合併。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。已撤回的舊說法：「箭頭尖端那群一定較大」。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。PT140 S3 Q11 方向反轉。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q17：逆否正確套用。\nPT140 S3 Q11（SA）：方向反轉，當場教。\nPT140 S3 Q17：necessary 讀成 principally。",
+            "refs": [
+              "A-20260915-PT140-S1-Q17",
+              "A-20260915-PT140-S3-Q11",
+              "A-20260915-PT140-S3-Q17"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-011",
@@ -2679,30 +3534,25 @@
     "level": 3,
     "order": 1,
     "title": "Comparison（比較）",
-    "summary": "Find differences for Analogy; find pros vs cons for Recommendation.",
+    "summary": "Analogy 找差異；Recommendation 找利弊。",
     "blocks": [
       {
         "type": "p",
-        "text": "\"What is true in Case A should be true in Case B.\" Meaningful Distinctions: make it seem that the two cases are unfair to compare. \"X is better than Y / we should do X / X is a net gain\": Pros > Cons, we need to know and rank upsides and downsides.",
-        "label": "Rule"
+        "label": "Rule",
+        "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。"
       },
       {
         "type": "p",
-        "text": "To defeat an analogy, the difference must bear on the standard of comparison. A difference that does not touch the standard is irrelevant.",
-        "label": "Rule"
+        "label": "Rule",
+        "text": "R2 要推翻類比，差異必須觸及比較的標準；不觸及標準的差異無關。"
       },
       {
         "type": "p",
-        "text": "PT140 S1 Q10: meaningful distinction was the third screen; user could not state it and it was taught.",
         "label": "Official Example",
+        "text": "PT140 S1 Q10：Meaningful Distinction 為第三道篩選；使用者當時無法說出，當場教。",
         "refs": [
           "A-20260915-PT140-S1-Q10"
         ]
-      },
-      {
-        "type": "p",
-        "text": "Taught 2026-09-15; independent verification pending.",
-        "label": "Status"
       }
     ],
     "source_refs": [
@@ -2713,9 +3563,13 @@
       {
         "type": "Supplement",
         "ref": "HO-010"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": false,
     "revisions": [
       {
@@ -2785,10 +3639,44 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-011",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Find differences for Analogy; find pros vs cons for Recommendation.",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "\"What is true in Case A should be true in Case B.\" Meaningful Distinctions: make it seem that the two cases are unfair to compare. \"X is better than Y / we should do X / X is a net gain\": Pros > Cons, we need to know and rank upsides and downsides.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "To defeat an analogy, the difference must bear on the standard of comparison. A difference that does not touch the standard is irrelevant.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "PT140 S1 Q10: meaningful distinction was the third screen; user could not state it and it was taught.",
+              "label": "Official Example",
+              "refs": [
+                "A-20260915-PT140-S1-Q10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Taught 2026-09-15; independent verification pending.",
+              "label": "Status"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T23:28:48.880Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-23T05:49:39.174Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-012",
@@ -2796,55 +3684,52 @@
     "level": 3,
     "order": 2,
     "title": "Causation（因果）",
-    "summary": "Ask: is there an alternative explanation?",
+    "summary": "問：有沒有其他解釋？",
     "blocks": [
       {
         "type": "p",
-        "text": "Correlation: \"people who are X are more likely than others to be Y\" (X ¦ Y). Author's explanation: \"clearly, X contributes to Y\" (X → Y). Alternate explanations: Reverse Causality (X ← Y); Third Factor (Z → X and Z → Y). Plausibility of the author's explanation: was the suspect at the scene? more data to corroborate?",
-        "label": "Rule"
-      },
-      {
-        "type": "p",
-        "text": "Anti-Causal 1, Could Have Been Worse: \"took prep course X and scored only 150, thus the course did nothing\" ignores the counterfactual. Anti-Causal 2, Unfair Comparison: \"Bob took course X while Sharon self-studied; both got 150; thus the course did nothing\" ignores different initial reference points.",
-        "label": "Rule"
-      },
-      {
-        "type": "p",
-        "text": "Working list of alternatives used in teaching: reverse causation, third factor, coincidence or small sample, selection. Notes name the first two; the last two are Supplement.",
-        "label": "Recognition"
-      },
-      {
-        "type": "p",
-        "text": "A randomised controlled trial removes selection and reverse causation; it does not remove a third factor introduced after randomisation.",
-        "label": "Recognition"
-      },
-      {
-        "type": "p",
-        "text": "SIG-002: alternative-explanation labels used imprecisely (third factor vs selection). Name the mechanism, not just \"another cause\".",
-        "label": "Trap"
-      },
-      {
-        "type": "p",
-        "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
-        "label": "Status"
+        "label": "Recognition",
+        "text": "相關句：「X 者較他人更可能 Y」（X ¦ Y）。作者解釋：「顯然 X 導致 Y」（X → Y）。看到因果結論，先問有無其他解釋，並問作者解釋的可信度（嫌犯在現場嗎？有更多資料佐證嗎？）。"
       },
       {
         "type": "p",
         "label": "Rule",
-        "text": "因果結論題的第一順位：列出同一結果的其他來源，再看選項刪去哪一個來源。"
+        "text": "R1 因果結論題的第一順位：列出同一結果的其他來源，再看選項刪去哪一個來源。"
       },
       {
-        "type": "ul",
-        "items": [
-          "標籤須嚴格對應：替代原因（第三因）、反向因果（結果導致原因）、巧合、取樣或選擇偏差。反事實比較句不屬於上述任一類。",
-          "題文若交代起點狀態（原本一致、原本相同），變化必發生於該時點之後，來源清單即受限縮，正解通常在清單之上。",
-          "先例或類比式選項：先確認該先例本身是否包含相同的因果關係。僅現象相同而成因未提者，屬 Half Scope。"
-        ]
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 來源清單四類，標籤嚴格對應：反向因果（X ← Y）；第三因（Z → X 且 Z → Y）；巧合或樣本過小；選擇偏差。前兩類為筆記原有，後兩類為補充。反事實比較句不屬任一類。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R3 題文交代起點狀態（原本一致、原本相同）時，變化必發生於該時點之後，來源清單受限縮，正解通常在清單上。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R4 隨機對照試驗排除選擇偏差與反向因果，不排除隨機化之後引入的第三因。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R5 Anti-Causal 1，Could Have Been Worse：「上了課只考 150，所以課沒用」忽略反事實（沒上可能更差）。Anti-Causal 2，Unfair Comparison：「Bob 上課、Sharon 自學，都考 150，所以課沒用」忽略起點不同。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 SIG-002：替代原因的標籤用得不精確（第三因對選擇偏差、反向因果對反事實）。要說出機制，不只說「另有原因」。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T2 先例或類比式選項：先確認該先例本身是否包含相同的因果關係；只有現象相同而成因未提者，屬 Half Scope。"
       },
       {
         "type": "p",
         "label": "Official Example",
-        "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。PT141 S2 Q22：起點基因一致，正解排除雜交此一來源。",
+        "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。\nPT141 S2 Q22：起點基因一致，正解排除雜交此一來源；誤選先例式選項。",
         "refs": [
           "A-20260918-PT141-S2-Q15",
           "A-20260918-PT141-S2-Q22"
@@ -2867,6 +3752,10 @@
       {
         "type": "Official Example",
         "ref": "PT141 S2 Q15、Q22"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
       }
     ],
     "status": "草稿",
@@ -3038,10 +3927,73 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260922-LR-012",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "Ask: is there an alternative explanation?",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Correlation: \"people who are X are more likely than others to be Y\" (X ¦ Y). Author's explanation: \"clearly, X contributes to Y\" (X → Y). Alternate explanations: Reverse Causality (X ← Y); Third Factor (Z → X and Z → Y). Plausibility of the author's explanation: was the suspect at the scene? more data to corroborate?",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Anti-Causal 1, Could Have Been Worse: \"took prep course X and scored only 150, thus the course did nothing\" ignores the counterfactual. Anti-Causal 2, Unfair Comparison: \"Bob took course X while Sharon self-studied; both got 150; thus the course did nothing\" ignores different initial reference points.",
+              "label": "Rule"
+            },
+            {
+              "type": "p",
+              "text": "Working list of alternatives used in teaching: reverse causation, third factor, coincidence or small sample, selection. Notes name the first two; the last two are Supplement.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "A randomised controlled trial removes selection and reverse causation; it does not remove a third factor introduced after randomisation.",
+              "label": "Recognition"
+            },
+            {
+              "type": "p",
+              "text": "SIG-002: alternative-explanation labels used imprecisely (third factor vs selection). Name the mechanism, not just \"another cause\".",
+              "label": "Trap"
+            },
+            {
+              "type": "p",
+              "text": "Verified with original items 2026-09-14 (SIG-002 near transfer pending). Anti-Causal 1 and 2 not yet verified on a question.",
+              "label": "Status"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "因果結論題的第一順位：列出同一結果的其他來源，再看選項刪去哪一個來源。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "標籤須嚴格對應：替代原因（第三因）、反向因果（結果導致原因）、巧合、取樣或選擇偏差。反事實比較句不屬於上述任一類。",
+                "題文若交代起點狀態（原本一致、原本相同），變化必發生於該時點之後，來源清單即受限縮，正解通常在清單之上。",
+                "先例或類比式選項：先確認該先例本身是否包含相同的因果關係。僅現象相同而成因未提者，屬 Half Scope。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。PT141 S2 Q22：起點基因一致，正解排除雜交此一來源。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15",
+                "A-20260918-PT141-S2-Q22"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-21T23:28:48.882Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-23T05:49:39.183Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-013",
@@ -3283,10 +4235,123 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "Wrong answers fail on Scope, Logic, or Degree. Eliminate on textual grounds only.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Six trap categories. Scope: Out of Scope（超出範圍）, Half Scope（只對一半）. Logic: Premise Support（只支持前提）, Reversal（方向顛倒）. Degree: Too Weak（太弱）, Too Strong（太強）."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Degree: absolute wording is not the same as too strong. Judge only whether the premises support the claim. \"Necessary\" is not \"principal\"; a comparative word the premises never made (\"principally\", \"mainly\") is unsupported."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S3 Q17: the correct option used absolute wording supported by the chain; the chosen option added \"principally\"."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "作答前先判兩件事：題幹的推論方向，以及本題型是否允許選項超出題文。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "方向：most strongly support、can be inferred 為題文支撐選項；strengthen、weaken 為選項作用於題文。方向判錯則後續比對全部無效。",
+                "是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。",
+                "Flaw 題的三種類式：(1) Objection: fails to consider X 只需該可能性未被排除；(2) Assumption: takes for granted that X 須論證確實依賴 X，不依賴即刪；(3) Description: concludes X on the basis of Y、infers 僅描述論證所做之事，判準為該描述是否與論證實際內容相符。",
+                "含比較級的選項（greater、more than）須題文提供兩者的比較資料。",
+                "Explain 題正解須使衝突雙方同時成立；僅覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：takes for granted 句式門檻。PT141 S2 Q23：Most Supported 以 Strengthen 方向作答。PT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，且主體由聽眾換為附近居民。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-22T05:40:48.855Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-23T05:49:39.189Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922-LR-013",
+        "date": "2026-09-22",
+        "summary": "誘答敗在 Scope、Logic 或 Degree。只憑題文刪除。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 含比較級的選項（greater、more than、more likely）須題文提供兩者的比較資料，否則刪。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見 OL-008 R1。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 SIG-010：跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。T2 SIG-013：作答前未確認題幹任務，以自己對結論的判斷挑選項。T3 SIG-011：選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。T4 SIG-004：診斷正確但未對應到選項字母。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S3 Q17：正解用有鏈條支撐的絕對句，誤選加入 principally。\nPT141 S2 Q23：Most Supported 以 Strengthen 方向作答，SIG-013。\nPT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，主體由聽眾換為附近居民，SIG-010。\nPT141 S2 Q19：誤選 E 為象徵層面陳述。\nPT141 S2 Q11：誤選為作者未下的評價，SIG-011。",
+            "refs": [
+              "A-20260915-PT140-S3-Q17",
+              "A-20260918-PT141-S2-Q23",
+              "A-20260918-PT141-S2-Q24",
+              "A-20260918-PT141-S2-Q19",
+              "A-20260918-PT141-S2-Q11"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-014",
