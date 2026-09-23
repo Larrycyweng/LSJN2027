@@ -232,5 +232,18 @@
     "client_request_id": "W1-20260921b-h1",
     "created_at": "2026-09-22T05:25:41.481Z",
     "updated_at": "2026-09-22T05:25:41.481Z"
+  },
+  {
+    "handoff_id": "HO-019",
+    "session_id": "",
+    "taught": "SA 與 NA 題幹辨識詞修正（follows logically 不分兩者，區別在 if 與 only if；兩清單無共用詞）；SA 推理結構與誘答鏡像；Strengthen 題幹辨識（most supports 的主受詞方向與 Most Supported 之別）；比較式結論的斷點在差異與標準之間；only 句逆否套用至比較另一方；結論聚焦成分時強化選項須談該成分。",
+    "observed": "家教推理失誤一次：June 2007 S3 Q13 將 only 句畫反（寫成有意識信念 → 可直接控制），由使用者指出兩條箭頭同指一終點無法串接、影片斜線為逆否，家教承認並改寫。家教另將 SA 清單的 follows logically 列為 SA 辨識詞，使用者質疑兩清單是否可區分，家教改正。使用者詢問 Opus 5.5 與 Fable 5.1 的推理差距，家教答以 Fable 5.1 屬較高分級、無可引用數據、換模型前先完成寫回。大綱重整：36 節統一為 Recognition／R／S／T／Official Example 結構，中文為主保留術語，Status 全數移除（使用者規則：驗證進度屬 handoff 與指紋，不入大綱）。LR 包中 OL-006、OL-008 為 protected，首次送出後未生效，本包以新 id 重送；OL-008 含 9/20 影片《Flaw》全部內容。移除之 Status 內容保存如下：OL-003：9/15 NA S1 Q16 理由正確；SA S3 Q11 當場教；9/21 NA S3 Q19、S1 Q22 答對且理由正確；SA 尚無獨立答對官方例；延遲複測排 9/25。OL-005：Role 與 Method 未獨立驗證。OL-007：角色判斷 9/13–9/15 驗證；SIG-001 延遲複測 9/15 通過；SIG-003 RC 官方驗證待做。OL-010：符號化條件與逆否已驗證；自然英語必要條件訊號與 SA 方向待獨立驗證；SIG-005 延遲複測 9/15 通過。OL-011：9/15 教，待驗證。OL-012：9/14 原創題驗證；SIG-002 近距離移轉待做；Anti-Causal 1、2 未於題目驗證。OL-015：閱讀時間基準 9/16：P2 全文重讀 10 分、P1 局部 3 分、P3 局部 3 分。OL-018：9/14 兩篇原創與一題官方驗證。OL-019：地圖於 PT140 S4 P1、P3 驗證。OL-020：選項驗證 9/15 教（HO-008），用於 S4 Q25、Q26。OL-022：態度補充 9/16 使用者核准；不同文章官方驗證待做。OL-023：SIG-006 原創近距離移轉通過，跨領域複測待做；Half Scope 候選。OL-025：SIG-007 為第一週重點，不同題驗證待做。OL-030：誘答型態取自 PT140 S4 檢討，待其他文章確認。OL-033、OL-035：未於題目驗證。",
+    "open_questions": "【移 00】(1) App 無核准草稿介面，重整後多數節狀態回到草稿，需 00 提供核准流程或直接改 status。(2) protected 節的提案有時未生效（OL-006、OL-008），請檢查提案佇列。(3) update_exposure 對 repo 中尚無之 pt_id（PT65、June 2007）是否能新建，請確認；June 2007 對應之 PrepTest 編號待確認。(4) 既有【移 00】見 HO-013 至 HO-018。",
+    "date": "2026-09-22",
+    "stopped_at": "WK1｜9/22 完成 SA 與 Strengthen 影片、兩題影片例題講解、大綱通篇重整。未做：Weaken 影片、PT140 Strengthen／Weaken 錯題、原創移轉 6 題、PT101 RC P1。",
+    "next_task": "WK1｜9/23：Weaken 影片（僅記與大綱不同處，寫入 Strengthen 同層新節或 OL-003 子節）；PT140 S3 Q16（Strengthen，L3，可三方比對）與 S3 Q21（Weaken，L5，新題）；原創移轉 6 題（Strengthen 與 Weaken 混合）；PT101 RC P1 不計時。9/23 原排 Famous Flaws 已於 9/20 完成。",
+    "client_request_id": "W1-20260922b-h1",
+    "created_at": "2026-09-23T06:47:00.532Z",
+    "updated_at": "2026-09-23T06:47:00.532Z"
   }
 ]
