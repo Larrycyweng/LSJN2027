@@ -1,5 +1,20 @@
 [
   {
+    "pt_id": "June 2007",
+    "first_exposure": "2026-09-21",
+    "blind_review": "否",
+    "explanations_seen": "S3 Q13、S3 Q17",
+    "source": "LSAT Lab 影片",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-09-22",
+    "sections_seen": "S3 Q13、S3 Q17（影片例題，已見解析）",
+    "clean_pt_eligible": "否",
+    "notes": "PrepTest 編號待確認（June 2007 場次）。",
+    "client_request_id": "W1-20260922b-x2",
+    "created_at": "2026-09-23T06:47:00.528Z",
+    "updated_at": "2026-09-23T06:47:00.528Z"
+  },
+  {
     "pt_id": "PT101",
     "first_exposure": "2026-09-12",
     "blind_review": "不明",
@@ -201,5 +216,20 @@
     "updated_at": "2026-09-12T18:39:35.205Z",
     "last_exposure": "2026-09-12",
     "clean_pt_eligible": "是"
+  },
+  {
+    "pt_id": "PT65",
+    "first_exposure": "2026-09-21",
+    "blind_review": "否",
+    "explanations_seen": "S1 Q1、S4 Q13",
+    "source": "LSAT Lab 影片",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-09-22",
+    "sections_seen": "S1 Q1（影片例題，已見解析）；S4 Q13（影片例題，已見解析）",
+    "clean_pt_eligible": "否",
+    "notes": "影片例題接觸，非作答；若日後作乾淨 PT 用，需排除或另判。",
+    "client_request_id": "W1-20260922b-x1",
+    "created_at": "2026-09-23T06:47:00.524Z",
+    "updated_at": "2026-09-23T06:47:00.524Z"
   }
 ]
