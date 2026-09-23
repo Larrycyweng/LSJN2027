@@ -398,5 +398,26 @@
     "client_request_id": "W1-20260921b-s1",
     "created_at": "2026-09-22T05:25:41.461Z",
     "updated_at": "2026-09-22T05:25:41.461Z"
+  },
+  {
+    "session_id": "S-20260922-01",
+    "week_label": "第1週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "影片 Sufficient Assumption、Strengthen；影片例題 June 2007 S3 Q13、PT65 S1 Q1 講解；大綱通篇重整（LR 與 RC 兩包）",
+    "completion": "部分完成",
+    "attention": "高",
+    "fatigue": "低",
+    "sleep_hours": null,
+    "notes": "Weaken 影片、PT140 Strengthen／Weaken 錯題、原創移轉題、PT101 RC P1 未做，移 9/23。",
+    "session_date": "2026-09-22",
+    "mode": "學習",
+    "effective_minutes": 90,
+    "client_request_id": "W1-20260922b-s1",
+    "created_at": "2026-09-23T06:47:00.507Z",
+    "updated_at": "2026-09-23T06:47:00.507Z"
   }
 ]
