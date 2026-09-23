@@ -191,9 +191,48 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+            },
+            {
+              "type": "p",
+              "label": "Why It Works",
+              "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
+              "refs": [
+                "A-20260915-PT140-S1-Q16"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending."
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-22T05:25:41.474Z",
+    "updated_at": "2026-09-23T04:00:57.379Z",
     "updated_by": "tutor",
     "proposals": [
       {
@@ -234,6 +273,59 @@
           {
             "type": "LSATLab Notes：影片《Necessary Assumption》",
             "ref": "2026-09-21 影片 Necessary Assumption；PT140 S3 Q19、S1 Q22"
+          }
+        ]
+      },
+      {
+        "request_id": "W1-20260922-o1",
+        "date": "2026-09-22",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
+            "refs": [
+              "A-20260921-PT140-S3-Q19",
+              "A-20260921-PT140-S1-Q22",
+              "A-20260921-June 2007-S3-Q17",
+              "A-20260921-PT65-S4-Q13"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "LSATLab Notes：影片《Necessary Assumption》《Sufficient Assumption》",
+            "ref": "2026-09-21 至 09-22 兩支影片；PT140 S3 Q19、S1 Q22；本筆合併並取代 9/21 提案 W1-20260921b-o1"
           }
         ]
       }
@@ -341,7 +433,7 @@
         "items": [
           "Find the Conclusion + Evidence: use keywords, Opinion vs Fact, the logic of Supported / Supporting.",
           "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion: Rebuttals.",
-          "Evaluate the Reasoning Patterns: Causation, Conditional, Comparison."
+          "Evaluate the Reasoning Patterns: Rebuttals, Causation, Conditional, Comparison."
         ]
       },
       {
@@ -378,6 +470,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-21"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-22"
       }
     ],
     "status": "已核准",
@@ -479,9 +575,45 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "Argument = Conclusion (verdict or judgment) supported by Premise (evidence or support). Three steps.",
+          "blocks": [
+            {
+              "type": "ol",
+              "items": [
+                "Find the Conclusion + Evidence: use keywords, Opinion vs Fact, the logic of Supported / Supporting.",
+                "Be Skeptical of the Conclusion: even though the Evidence is true, we can argue the Anti-Conclusion: Rebuttals.",
+                "Evaluate the Reasoning Patterns: Causation, Conditional, Comparison."
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "削弱題作答前，先標出結論整句，包含全部限定語與同位語。攻擊點常在限定語而非主詞。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "核對選項動詞的層級：symbolize、resemble、be thought to 屬象徵或認知層面；要推翻「某物是 X」，須實物層級的陳述。",
+                "生字不影響結構時略過；影響選項判斷時，由上下文取其類別即可。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q19：結論含 communal object passed around a small assembly，正解攻擊此限定語。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-22T05:31:21.359Z",
+    "updated_at": "2026-09-23T03:17:19.993Z",
     "updated_by": "user"
   },
   {
