@@ -1370,11 +1370,72 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "論證 = 結論（判斷）加上支持它的前提（證據）。三步。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯（OL-007）。\nS2 質疑結論：即使證據為真，仍可論證反結論（OL-008）。\nS3 評估推理型態：反駁、因果、條件、比較（OL-009 至 OL-012）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q19（Weaken）：結論含 communal object passed around a small assembly，正解攻擊此限定語；誤選 E 為象徵層面陳述，與結論相容。",
+              "refs": [
+                "A-20260918-PT141-S2-Q19"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T06:07:51.131Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-23T06:47:00.516Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922b-re-006",
+        "date": "2026-09-22",
+        "summary": "論證 = 結論（判斷）加上支持它的前提（證據）。三步。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯（OL-007）。\nS2 質疑結論：即使證據為真，仍可論證反結論（OL-008）。\nS3 評估推理型態：反駁、因果、條件、比較（OL-009 至 OL-012）。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT141 S2 Q19（Weaken）：結論含 communal object passed around a small assembly，正解攻擊此限定語；誤選 E 為象徵層面陳述，與結論相容。",
+            "refs": [
+              "A-20260918-PT141-S2-Q19"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-007",
@@ -2164,11 +2225,150 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-22",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "即使證據為真，也可論證反結論。Flaw 題等於對造律師的異議。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 選項三種句式，門檻不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，不依賴即刪。Objections（fails to consider、ignores、overlooks）：只需該可能性存在且未被排除。Descriptions（concludes X on the basis of Y、infers）：只需準確描述論證做了什麼，不含指控。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+                "Unproven v. Proven False：未獲證明即當作為假。",
+                "Sampling：樣本過小、不具代表性或自我選擇。",
+                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+                "Part v. Whole：以部分推整體，或反之。",
+                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+                "Circular：結論僅為前提的重述。",
+                "Internal Contradiction：論證自相矛盾。",
+                "Equivocation：同一關鍵詞前後用兩種意思。",
+                "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+              "refs": [
+                "A-20260920-PT140-S1-Q18",
+                "A-20260921-PT140-S1-Q24",
+                "A-20260921-PT140-S1-Q21",
+                "A-20260918-PT141-S2-Q15"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T06:08:04.660Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-23T06:47:00.521Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260922b-re-008",
+        "date": "2026-09-22",
+        "summary": "即使證據為真，也可論證反結論。Flaw 題等於對造律師的異議。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 選項三種句式，門檻不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，不依賴即刪。Objections（fails to consider、ignores、overlooks）：只需該可能性存在且未被排除。Descriptions（concludes X on the basis of Y、infers）：只需準確描述論證做了什麼，不含指控。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+              "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+              "Unproven v. Proven False：未獲證明即當作為假。",
+              "Sampling：樣本過小、不具代表性或自我選擇。",
+              "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+              "Part v. Whole：以部分推整體，或反之。",
+              "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+              "Circular：結論僅為前提的重述。",
+              "Internal Contradiction：論證自相矛盾。",
+              "Equivocation：同一關鍵詞前後用兩種意思。",
+              "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+            "refs": [
+              "A-20260920-PT140-S1-Q18",
+              "A-20260921-PT140-S1-Q24",
+              "A-20260921-PT140-S1-Q21",
+              "A-20260918-PT141-S2-Q15"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-009",
@@ -6450,6 +6650,73 @@
       }
     ],
     "updated_at": "2026-09-23T06:04:51.598Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-037",
+    "parent_id": "OL-003",
+    "level": 4,
+    "order": 1,
+    "title": "Strengthen（加強）",
+    "summary": "選項作用於論證，使結論更可能成立。先找斷點或其他來源，再找補上它的選項。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "題幹辨識詞：most strengthens、most supports、most justifies、strengthens EXCEPT。方向：選項作用於論證。注意 which of the following most supports the argument 為 Strengthen；the statements above most strongly support which 為 Most Supported（題文支撐選項，OL-004）。兩者只差主詞與受詞的位置，SIG-013 即出於此。"
+      },
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "推理結構：Comparison 72%、Causation 33%、Conditional 22%。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（OL-003 R4）；因果論證則排除同一結果的其他來源（OL-012 R1）。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 比較式結論（more effective than、better than）先問：題文給的差異有沒有接到比較的標準？沒接上之處即答案所在（OL-011 R2）。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R3 only 句畫成箭頭後（only X are Y：Y → X），常須以逆否套用到比較的另一方，斷點才會出現。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R4 結論聚焦於某一成分時，最強的強化直接談該成分的作用，不談整體結果。兩個選項都提到同一關鍵詞時，比較方向：哪一個讓結論更可能成立。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R5 Strengthen 允許新資訊，也允許選項比結論所需更強，只要方向一致（OL-013 R2）。只對比較中的一方設條件的選項，除非該條件造成優劣之分，否則不構成比較優勢。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 誘答分布：Out of Scope 30%、Weakens 28%（方向相反）、Too Weak 26%。T2 與結論提到同一關鍵詞但方向不助結論者（例：支持低脂有效，而結論只說低脂非必要）。"
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "June 2007 S3 Q13（影片例題）：only 句逆否套到另一種治療，斷點為「無法直接控制 → 難以有效」；正解 B 補上。誘答 D 只對另一方設門檻，不產生比較優勢。\nPT65 S1 Q1（影片例題）：地中海飲食效果可能來自其他成分，斷點為脂肪本身是否無害；正解 B 說明油脂保護心臟。誘答 A 與脂肪有關但方向不助結論。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "影片《Strengthen》；§LR Overview Question Family（Strengthen 7%）"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "W1-20260922b-o1",
+    "updated_at": "2026-09-23T06:47:00.512Z",
     "updated_by": "tutor"
   }
 ]
