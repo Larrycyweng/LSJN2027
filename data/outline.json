@@ -8408,5 +8408,57 @@
     "client_request_id": "W1-20260922b-o1",
     "updated_at": "2026-09-24T04:53:11.245Z",
     "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-038",
+    "parent_id": "OL-003",
+    "level": 4,
+    "order": 2,
+    "title": "Weaken（削弱）",
+    "summary": "",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "題幹辨識詞：most weakens、casts the most doubt、most seriously undermines、if true 加削弱義動詞。方向：選項作用於論證（OL-013 R2）。Weaken EXCEPT 選不削弱者，該選項可能無影響，也可能加強。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R1 接受選項為真，判斷它是否降低證據對結論的支持；不必證明結論必然為假。選項可以帶入題文以外的資訊。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 因果論證用兩問核對選項：① 選項是否提供其他原因，解釋同一結果？② 作者指定的原因，是否真的具備題文所說的條件（時間夠長、劑量夠大、對象正確）？兩問見 OL-012 Recognition。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "S1 先標出完整結論，含對象、範圍與限定語（OL-006 R1）；攻擊點常在限定語。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "S2 逐項說出作用：即使證據為真，這個選項指出什麼，使結論較難成立？說不出者為無影響。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 只指出研究有不完善之處，未必削弱。比較研究的選項須說明該問題如何造成兩組差距，或如何動搖作者對差距的解釋；對兩組作用相同者不削弱。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab Weaken 影片 takeaway（PT140 S3 Q21 解析截圖）；Notes §Reasoning Structures Be Skeptical"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "W1-20260923-o3",
+    "updated_at": "2026-09-24T06:29:47.341Z",
+    "updated_by": "tutor"
   }
 ]
