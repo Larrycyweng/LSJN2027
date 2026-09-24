@@ -301,45 +301,6 @@
     "revisions": [
       {
         "date": "2026-09-21",
-        "by": "user",
-        "summary": "Google Docs 修改",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%.",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "Necessary Assumption（必要假設）: pick the weakest link the argument cannot do without. Sufficient Assumption（充分假設）: pick the statement that fully closes the gap between premises and conclusion.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow.",
-              "label": "Why It Works"
-            },
-            {
-              "type": "p",
-              "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
-              "label": "Official Example",
-              "refs": [
-                "A-20260915-PT140-S1-Q16"
-              ]
-            },
-            {
-              "type": "p",
-              "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending.",
-              "label": "Status"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-21",
         "by": "tutor",
         "summary": "家教提案（待確認）",
         "before": {
@@ -1782,11 +1743,171 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family",
+          "summary": "NA：Negation Test；SA：Bridge Test；Principle Support：核對適用條件與 Conclusion。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "先讀完整 Question Stem，確認任務。NA（Necessary Assumption）：問 Argument 必須依賴什麼，常見 requires、depends on、relies on、must be assumed。SA（Sufficient Assumption）：問加入什麼可保證 Conclusion，常見 if assumed、enables the conclusion to be properly drawn。Principle Support：問哪項 Principle 最能支持 Argument。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "依完整句意分類：follows logically 單獨不能區分題型；須讀清楚 if／only if 的位置與作用。Question Stem 指作答要求；Stimulus 指題文，兩者的 Conditional Language 分開判讀（OL-010）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 NA — Negation Test：否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。只讓 Argument 稍弱，尚不足以確認答案；不要求否定後證明 Conclusion 為假。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 SA — Bridge Test：將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍可能，該選項不夠。若必須另加未給定的 Assumption 才能推出 Conclusion，也不夠。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 Principle Support — 核對 Conclusion 的對象、適用條件與主張，再檢查 Premises 是否讓該對象符合 Principle 的條件，以及套用後是否支持該主張。Principle 可以使用較廣的類別、Paraphrase 或等價形式；依適用關係判斷。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 NA — Linking：補上 Premises 與 Conclusion 之間必須依賴的連結。Defending：排除會破壞 Argument 的可能性。用這兩種作用理解 Answer Choice，再以 Negation Test 確認；無須先自行列出所有反例。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 SA — 常見作用：提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。辨認作用後，仍須以 R2 確認是否保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 NA：標出 Premises → Conclusion；找出所依賴的連結；對仍有競爭力的 Answer Choices 做 Negation Test。否定前先確認 Quantifier、Negation Scope 與時間範圍。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向；核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S3 Principle Support：依序核對「適用對象 → 適用條件 → 支持的主張」。每一步都須能對應 Stimulus；關鍵字相同不能取代這項核對。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 Strength：NA 不能只因 Answer Choice 較弱就接受；是否必要以 Negation Test 判斷。SA 可以強於所需，只要與 Premises 合用能保證 Conclusion（SIG-009）。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 SA：Right Ideas, Wrong Order — 核對箭頭方向與 Negation 位置。Lacks Crucial Term — 檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase。Too Weak — 加入後仍有 Counterexample。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T3 Scope：檢查 Answer Choice 是否作用於本題的 Premises → Conclusion。Principle Support 尤須核對適用對象；不能因選項同時包含 Premises 的關鍵字與 Conclusion 的動作就接受，也不能因第一個名詞不同就刪除（SIG-015）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜PT140 S1 Q16：inclusive or 允許其中之一或兩者皆有；誤讀為 both required，會把 Answer Choice 看得過強。",
+              "refs": [
+                "A-20260915-PT140-S1-Q16"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜PT140 S3 Q19（Defending）：排除那 20 輛車去年已不在公司手上的可能性。PT140 S1 Q22（Linking）：連接事實與價值判斷；any 是否必要須檢查整項命題。",
+              "refs": [
+                "A-20260921-PT140-S3-Q19",
+                "A-20260921-PT140-S1-Q22"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜June 2007 S3 Q17：C 將所需連結的方向反轉（Reversal）。PT65 S4 Q13（Defending）：正解排除從外地招募教師的途徑；D 的 any students 超出 Argument 必須依賴的範圍（Too Strong）。",
+              "refs": [
+                "A-20260921-June 2007-S3-Q17",
+                "A-20260921-PT65-S4-Q13"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "SA｜PT140 S3 Q11：核對 Conclusion 的箭頭方向。PT141 S2 Q10：末句的 Conditional Rule 也須納入 Premises。PT141 S2 Q12：不能以 NA 的判準刪除 most consented；須檢查它與 Premises 合用能否保證 Conclusion。",
+              "refs": [
+                "A-20260915-PT140-S3-Q11",
+                "A-20260918-PT141-S2-Q10",
+                "A-20260918-PT141-S2-Q12"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "Principle Support｜PT140 S3 Q9：C 適用於已感到無力的人，Premises 未建立所有想改善社會的人都符合此條件；D 將改善社會的目標，連接到拒絕使人無力行動的信念，支持 Conclusion。",
+              "refs": [
+                "A-20260923-PT140-S3-Q09"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T23:12:14.092Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-24T23:25:55.943Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260924-reorg-parent01",
+        "date": "2026-09-24",
+        "title": "Assumption Family",
+        "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Question Stem 指作答要求；Stimulus 指題文。先讀完整 Question Stem，確認題型與 EXCEPT，再使用對應子節的方法。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 標出 Premises 與完整 Conclusion，保留對象、範圍、Quantifier 及時間限定；辨認作者如何從 Premises 推到 Conclusion。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 按任務設定判斷門檻：NA 檢查 Argument 必須依賴的條件；SA 檢查是否保證 Conclusion；Strengthen／Weaken 檢查 Premises 對 Conclusion 的支持如何改變。Principle Support 依 Question Stem 判斷是增加支持，還是保證 Conclusion。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 確認任務 → 標出 Premises 與 Conclusion → 核對 Answer Choice 如何作用於兩者的推理關係。詳細方法見 NA vs. SA（OL-039）、Strengthen（OL-037）、Weaken（OL-038）及 Principle Support 子節。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 關鍵字或主題相同不足以判斷答案；核對 Answer Choice 的對象、条件、方向與作用。避免跨題型套用判準（SIG-010、SIG-013）。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "W1-20260924-reorg-parent01"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-004",
@@ -5067,11 +5188,125 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "看到條件詞先畫箭頭：箭頭指向必要條件；只走正向或逆否。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。題幹辨識詞、SA 三步、強度軸見 OL-003。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 否定「A and B」得「not A or not B」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 不可逆箭頭串接。some 陳述可雙向讀，但不可與另一個 some 或 most 合併。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。已撤回的舊說法：「箭頭尖端那群一定較大」。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。PT140 S3 Q11 方向反轉。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q17：逆否正確套用。\nPT140 S3 Q11（SA）：方向反轉，當場教。\nPT140 S3 Q17：necessary 讀成 principally。",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T04:54:14.502Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-24T23:25:55.975Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260924-reorg-conditional-ref01",
+        "date": "2026-09-24",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
+          },
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。NA／SA 的 Question Stem 辨識、操作步驟與 Strength 判斷見 OL-039。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 否定「A and B」得「not A or not B」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 不可逆箭頭串接。some 陳述可雙向讀，但不可與另一個 some 或 most 合併。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。已撤回的舊說法：「箭頭尖端那群一定較大」。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。PT140 S3 Q11 方向反轉。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q17：逆否正確套用。\nPT140 S3 Q11（SA）：方向反轉，當場教。\nPT140 S3 Q17：necessary 讀成 principally。",
+            "refs": [
+              "A-20260915-PT140-S1-Q17",
+              "A-20260915-PT140-S3-Q11",
+              "A-20260915-PT140-S3-Q17"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "配合 Assumption Family 重整，將 NA／SA 詳細方法的交叉引用改為 OL-039。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-011",
@@ -8915,7 +9150,7 @@
       {
         "type": "p",
         "label": "Rule",
-        "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（OL-003 R4）；因果論證則排除同一結果的其他來源（OL-012 R1）。"
+        "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（OL-039 R2）；因果論證則排除同一結果的其他來源（OL-012 R1）。"
       },
       {
         "type": "p",
@@ -8961,6 +9196,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "影片《Strengthen》Takeaways，2026-09-24 使用者截圖"
+      },
+      {
+        "type": "User Revision",
+        "ref": "配合 Assumption Family 重整，將 Linking 的交叉引用改為 OL-039 R2。"
       }
     ],
     "status": "草稿",
@@ -9082,11 +9321,72 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260924-reorg-strength-ref01",
+        "before": {
+          "title": "Strengthen（加強）",
+          "summary": "選項如何增加證據對結論的支持？可補缺口、排異議、強化證據或增添相關事實。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞：most strengthens、most supports、most justifies、strengthens EXCEPT。方向：選項作用於論證。注意 which of the following most supports the argument 為 Strengthen；the statements above most strongly support which 為 Most Supported（題文支撐選項，OL-004）。兩者只差主詞與受詞的位置，SIG-013 即出於此。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "推理結構：Comparison 72%、Causation 33%、Conditional 22%。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（OL-003 R4）；因果論證則排除同一結果的其他來源（OL-012 R1）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 比較式結論（more effective than、better than）先問：題文給的差異有沒有接到比較的標準？沒接上之處即答案所在（OL-011 R2）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 only 句畫成箭頭後（only X are Y：Y → X），常須以逆否套用到比較的另一方，斷點才會出現。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 結論聚焦於某一成分時，最強的強化直接談該成分的作用，不談整體結果。兩個選項都提到同一關鍵詞時，比較方向：哪一個讓結論更可能成立。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 Strengthen 允許新資訊，也允許選項比結論所需更強，只要方向一致（OL-013 R2）。只對比較中的一方設條件的選項，除非該條件造成優劣之分，否則不構成比較優勢。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R6 加強的作用可有四種：確認論證所需假設；反駁可能的異議；提高既有證據的可靠性、相關性或對結論的推力；加入新事實，使結論更可信。逐項問選項如何增加證據對結論的支持，不只比對主題詞。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 誘答分布：Out of Scope 30%、Weakens 28%（方向相反）、Too Weak 26%。T2 與結論提到同一關鍵詞但方向不助結論者（例：支持低脂有效，而結論只說低脂非必要）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "June 2007 S3 Q13（影片例題）：only 句逆否套到另一種治療，斷點為「無法直接控制 → 難以有效」；正解 B 補上。誘答 D 只對另一方設門檻，不產生比較優勢。\nPT65 S1 Q1（影片例題）：地中海飲食效果可能來自其他成分，斷點為脂肪本身是否無害；正解 B 說明油脂保護心臟。誘答 A 與脂肪有關但方向不助結論。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260922b-o1",
-    "updated_at": "2026-09-24T23:16:34.292Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-24T23:25:55.969Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-038",
@@ -9298,72 +9598,57 @@
     "level": 4,
     "order": 1,
     "title": "NA vs. SA",
-    "summary": "",
+    "summary": "NA：否定後是否失去必要支持？SA：加入後是否仍可能 Conclusion 為假？",
     "blocks": [
       {
         "type": "p",
         "label": "Recognition",
-        "text": "先讀完整 Question Stem，確認任務。NA（Necessary Assumption）：問 Argument 必須依賴什麼，常見 requires、depends on、relies on、must be assumed。SA（Sufficient Assumption）：問加入什麼可保證 Conclusion，常見 if assumed、enables the conclusion to be properly drawn。Principle Support：問哪項 Principle 最能支持 Argument。"
-      },
-      {
-        "type": "p",
-        "label": "Recognition",
-        "text": "依完整句意分類：follows logically 單獨不能區分題型；須讀清楚 if／only if 的位置與作用。Question Stem 指作答要求；Stimulus 指題文，兩者的 Conditional Language 分開判讀（OL-010）。"
+        "text": "NA（Necessary Assumption）：問 Argument 必須依賴什麼，常見 requires、depends on、relies on、must be assumed。SA（Sufficient Assumption）：問加入什麼可保證 Conclusion，常見 if assumed、enables the conclusion to be properly drawn。follows logically 單獨不能區分題型；依完整句意及 if／only if 的作用判讀。"
       },
       {
         "type": "p",
         "label": "Rule",
-        "text": "R1 NA — Negation Test：否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。只讓 Argument 稍弱，尚不足以確認答案；不要求否定後證明 Conclusion 為假。"
+        "text": "R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。"
       },
       {
         "type": "p",
         "label": "Rule",
-        "text": "R2 SA — Bridge Test：將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍可能，該選項不夠。若必須另加未給定的 Assumption 才能推出 Conclusion，也不夠。"
+        "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
       },
       {
         "type": "p",
         "label": "Rule",
-        "text": "R3 Principle Support — 核對 Conclusion 的對象、適用條件與主張，再檢查 Premises 是否讓該對象符合 Principle 的條件，以及套用後是否支持該主張。Principle 可以使用較廣的類別、Paraphrase 或等價形式；依適用關係判斷。"
+        "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
       },
       {
         "type": "p",
         "label": "Rule",
-        "text": "R4 NA — Linking：補上 Premises 與 Conclusion 之間必須依賴的連結。Defending：排除會破壞 Argument 的可能性。用這兩種作用理解 Answer Choice，再以 Negation Test 確認；無須先自行列出所有反例。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R5 SA — 常見作用：提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。辨認作用後，仍須以 R2 確認是否保證 Conclusion。"
+        "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
       },
       {
         "type": "p",
         "label": "Steps",
-        "text": "S1 NA：標出 Premises → Conclusion；找出所依賴的連結；對仍有競爭力的 Answer Choices 做 Negation Test。否定前先確認 Quantifier、Negation Scope 與時間範圍。"
+        "text": "S1 NA：確認 Argument 所依賴的連結；對仍有競爭力的 Answer Choices 做 Negation Test。否定前讀清楚 Quantifier、Negation Scope 與時間範圍。"
       },
       {
         "type": "p",
         "label": "Steps",
-        "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向；核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
-      },
-      {
-        "type": "p",
-        "label": "Steps",
-        "text": "S3 Principle Support：依序核對「適用對象 → 適用條件 → 支持的主張」。每一步都須能對應 Stimulus；關鍵字相同不能取代這項核對。"
+        "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
       },
       {
         "type": "p",
         "label": "Trap",
-        "text": "T1 Strength：NA 不能只因 Answer Choice 較弱就接受；是否必要以 Negation Test 判斷。SA 可以強於所需，只要與 Premises 合用能保證 Conclusion（SIG-009）。all、any、only、most、some 均須放回完整命題判斷。"
+        "text": "T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
       },
       {
         "type": "p",
         "label": "Trap",
-        "text": "T2 SA：Right Ideas, Wrong Order — 核對箭頭方向與 Negation 位置。Lacks Crucial Term — 檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase。Too Weak — 加入後仍有 Counterexample。"
+        "text": "T2 SA：Too Weak 指加入後仍有 Counterexample；選項強於所需不是刪除理由，只要與 Premises 合用能保證 Conclusion（SIG-009）。"
       },
       {
         "type": "p",
         "label": "Trap",
-        "text": "T3 Scope：檢查 Answer Choice 是否作用於本題的 Premises → Conclusion。Principle Support 尤須核對適用對象；不能因選項同時包含 Premises 的關鍵字與 Conclusion 的動作就接受，也不能因第一個名詞不同就刪除（SIG-015）。"
+        "text": "T3 SA：Right Ideas, Wrong Order 要核對箭頭方向與 Negation 位置；Lacks Crucial Term 要檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase；Out of Scope 要檢查選項是否真正參與推導 Conclusion。"
       },
       {
         "type": "p",
@@ -9400,20 +9685,16 @@
           "A-20260918-PT141-S2-Q10",
           "A-20260918-PT141-S2-Q12"
         ]
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "Principle Support｜PT140 S3 Q9：C 適用於已感到無力的人，Premises 未建立所有想改善社會的人都符合此條件；D 將改善社會的目標，連接到拒絕使人無力行動的信念，支持 Conclusion。",
-        "refs": [
-          "A-20260923-PT140-S3-Q09"
-        ]
       }
     ],
     "source_refs": [
       {
         "type": "User Revision",
         "ref": "使用者指定：將整理後的 Assumption 內容建立為子小節，與 Strengthen、Weaken 並列。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "W1-20260924-reorg-nasa01"
       }
     ],
     "status": "草稿",
@@ -9658,10 +9939,185 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260924-reorg-nasa01",
+        "before": {
+          "title": "NA vs. SA",
+          "summary": "",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "先讀完整 Question Stem，確認任務。NA（Necessary Assumption）：問 Argument 必須依賴什麼，常見 requires、depends on、relies on、must be assumed。SA（Sufficient Assumption）：問加入什麼可保證 Conclusion，常見 if assumed、enables the conclusion to be properly drawn。Principle Support：問哪項 Principle 最能支持 Argument。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "依完整句意分類：follows logically 單獨不能區分題型；須讀清楚 if／only if 的位置與作用。Question Stem 指作答要求；Stimulus 指題文，兩者的 Conditional Language 分開判讀（OL-010）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 NA — Negation Test：否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。只讓 Argument 稍弱，尚不足以確認答案；不要求否定後證明 Conclusion 為假。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 SA — Bridge Test：將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍可能，該選項不夠。若必須另加未給定的 Assumption 才能推出 Conclusion，也不夠。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 Principle Support — 核對 Conclusion 的對象、適用條件與主張，再檢查 Premises 是否讓該對象符合 Principle 的條件，以及套用後是否支持該主張。Principle 可以使用較廣的類別、Paraphrase 或等價形式；依適用關係判斷。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 NA — Linking：補上 Premises 與 Conclusion 之間必須依賴的連結。Defending：排除會破壞 Argument 的可能性。用這兩種作用理解 Answer Choice，再以 Negation Test 確認；無須先自行列出所有反例。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 SA — 常見作用：提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。辨認作用後，仍須以 R2 確認是否保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 NA：標出 Premises → Conclusion；找出所依賴的連結；對仍有競爭力的 Answer Choices 做 Negation Test。否定前先確認 Quantifier、Negation Scope 與時間範圍。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向；核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S3 Principle Support：依序核對「適用對象 → 適用條件 → 支持的主張」。每一步都須能對應 Stimulus；關鍵字相同不能取代這項核對。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 Strength：NA 不能只因 Answer Choice 較弱就接受；是否必要以 Negation Test 判斷。SA 可以強於所需，只要與 Premises 合用能保證 Conclusion（SIG-009）。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 SA：Right Ideas, Wrong Order — 核對箭頭方向與 Negation 位置。Lacks Crucial Term — 檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase。Too Weak — 加入後仍有 Counterexample。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T3 Scope：檢查 Answer Choice 是否作用於本題的 Premises → Conclusion。Principle Support 尤須核對適用對象；不能因選項同時包含 Premises 的關鍵字與 Conclusion 的動作就接受，也不能因第一個名詞不同就刪除（SIG-015）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜PT140 S1 Q16：inclusive or 允許其中之一或兩者皆有；誤讀為 both required，會把 Answer Choice 看得過強。",
+              "refs": [
+                "A-20260915-PT140-S1-Q16"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜PT140 S3 Q19（Defending）：排除那 20 輛車去年已不在公司手上的可能性。PT140 S1 Q22（Linking）：連接事實與價值判斷；any 是否必要須檢查整項命題。",
+              "refs": [
+                "A-20260921-PT140-S3-Q19",
+                "A-20260921-PT140-S1-Q22"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "NA｜June 2007 S3 Q17：C 將所需連結的方向反轉（Reversal）。PT65 S4 Q13（Defending）：正解排除從外地招募教師的途徑；D 的 any students 超出 Argument 必須依賴的範圍（Too Strong）。",
+              "refs": [
+                "A-20260921-June 2007-S3-Q17",
+                "A-20260921-PT65-S4-Q13"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "SA｜PT140 S3 Q11：核對 Conclusion 的箭頭方向。PT141 S2 Q10：末句的 Conditional Rule 也須納入 Premises。PT141 S2 Q12：不能以 NA 的判準刪除 most consented；須檢查它與 Premises 合用能否保證 Conclusion。",
+              "refs": [
+                "A-20260915-PT140-S3-Q11",
+                "A-20260918-PT141-S2-Q10",
+                "A-20260918-PT141-S2-Q12"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "Principle Support｜PT140 S3 Q9：C 適用於已感到無力的人，Premises 未建立所有想改善社會的人都符合此條件；D 將改善社會的目標，連接到拒絕使人無力行動的信念，支持 Conclusion。",
+              "refs": [
+                "A-20260923-PT140-S3-Q09"
+              ]
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-na-vs-sa-child01",
-    "updated_at": "2026-09-24T23:16:34.288Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-24T23:25:55.956Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-040",
+    "parent_id": "OL-003",
+    "level": 4,
+    "order": 4,
+    "title": "Principle Support",
+    "summary": "核對適用對象、適用條件，以及套用後支持的 Conclusion。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "Question Stem 要求以 Principle 支持 Argument，例如 which principle, if valid, most helps to justify the argument。依完整問句判斷門檻：most helps to justify 檢查支持程度；若要求 Conclusion follows logically，則須保證 Conclusion。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R1 核對 Conclusion 的對象、適用條件與主張。再檢查 Premises 是否使該對象符合 Principle 的條件，以及套用後是否支持該主張。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 Principle 可以使用較廣的類別、Paraphrase 或等價形式。依邏輯上的適用關係判斷；字面相同不保證適用，字面不同也不代表不能適用。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "S1 寫出「Conclusion 的對象／條件／主張」；將 Principle 的條件逐一對應 Premises；確認套用結果是否支持 Conclusion，並符合 Question Stem 的門檻。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 選項同時包含 Premises 的關鍵字與 Conclusion 的動作，仍須核對適用對象。若 Premises 未建立 Conclusion 的對象符合該條件，便不能直接套用 Principle（SIG-015）。"
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT140 S3 Q9：C 適用於已感到無力的人，Premises 未建立所有想改善社會的人都符合此條件。D 則說想改善社會的人不應接受使自己無力行動的信念；配合 Premises 所述該信念的影響，即可支持 Conclusion。",
+        "refs": [
+          "A-20260923-PT140-S3-Q09"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "由 Assumption Family 與 NA vs. SA 移入既有 Principle Support 規則及 PT140 S3 Q9 例題。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "W1-20260924-reorg-principle01",
+    "updated_at": "2026-09-24T23:25:55.962Z",
+    "updated_by": "tutor"
   }
 ]
