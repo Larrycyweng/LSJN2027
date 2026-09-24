@@ -245,5 +245,18 @@
     "client_request_id": "W1-20260922b-h1",
     "created_at": "2026-09-23T06:47:00.532Z",
     "updated_at": "2026-09-23T06:47:00.532Z"
+  },
+  {
+    "handoff_id": "HO-020",
+    "session_id": "",
+    "taught": "因果結論兩問（其他原因；作者指定原因是否具備題文條件）作為 Weaken 與 Strengthen 的操作句；原則支持題先圈結論主體；他處實例須對象、原因、機制三項相同（使用者不寫入大綱，僅口頭）。",
+    "observed": "四題 PT140 檢討：S3 Q16 對且理由正確；S1 Q12 錯（表象相似未比較機制，歸 OL-012 T2）；S3 Q9 錯，同題兩年重複，建 SIG-015；S3 Q21 對，理由未口述。使用者退回 R6、R7 兩提案並指示答對題不加 Official Example；使用者採用外部分析的 R8 版本，家教「時序不通」一句撤回。Weaken 影片尚未觀看。本堂 80 分由使用者告知，本週累計 340 分。OL-003 與 OL-012 皆為 protected，本包兩筆 update_section 將成為提案，以 replace 模式送出完整 blocks，若 App 追加而非取代造成重複，請拒絕提案。家教本堂失誤：前段紀錄一度將 S3 Q9 正解寫為 B，實為 D。",
+    "open_questions": "【移 00】(1) 開場指令文字仍寫 January 2027 正式考與 170 分目標，與 settings 及計畫 v2（4/8/2027、175）不一致，請更新指令。(2) 專案內學習計畫檔為 9/12 v1 版，計畫 v2 檔不在專案；Analyze_Top_Weaknesses 檔不在專案。(3) update_section 的 mode 欄位名稱是否為 mode，replace 與 append 如何指定，請確認。(4) 既有【移 00】見 HO-013 至 HO-019。",
+    "date": "2026-09-23",
+    "stopped_at": "WK1｜9/23 完成 PT140 S3 Q16、S1 Q12、S3 Q9、S3 Q21 檢討，SIG-015 建立。未做：Weaken 影片、原創移轉 6 題、PT101 RC P1。",
+    "next_task": "WK1｜9/24：先另包送 update_pt140_review 四題（S3 Q16、S1 Q12、S3 Q9、S3 Q21）；Weaken 影片（僅記與 OL-037、OL-012、OL-006 R1 不同處，新內容寫入 OL-003 下與 OL-037 同層新節）；原創移轉 6 題；PT101 RC P1 不計時；Causation、Conditional、Comparison 1.25 倍速確認；Language Cues 表對照 OL-010。9/26 PT141 S4 LR 計時基準不變。",
+    "client_request_id": "W1-20260923-h1",
+    "created_at": "2026-09-24T06:29:29.112Z",
+    "updated_at": "2026-09-24T06:29:29.112Z"
   }
 ]
