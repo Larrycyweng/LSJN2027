@@ -419,5 +419,26 @@
     "client_request_id": "W1-20260922b-s1",
     "created_at": "2026-09-23T06:47:00.507Z",
     "updated_at": "2026-09-23T06:47:00.507Z"
+  },
+  {
+    "session_id": "S-20260923-01",
+    "week_label": "第1週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "PT140 Strengthen／Weaken 錯題檢討四題（S3 Q16、S1 Q12、S3 Q9、S3 Q21）；建立 SIG-015；OL-003 R8、OL-012 因果兩問改寫",
+    "completion": "部分完成",
+    "attention": "高",
+    "fatigue": "低",
+    "sleep_hours": null,
+    "notes": "80 分鐘由使用者告知。未做：Weaken 影片、原創移轉 6 題、PT101 RC P1，移 9/24。",
+    "session_date": "2026-09-23",
+    "mode": "檢討",
+    "effective_minutes": 80,
+    "client_request_id": "W1-20260923-s1",
+    "created_at": "2026-09-24T06:29:29.019Z",
+    "updated_at": "2026-09-24T06:29:29.019Z"
   }
 ]
