@@ -313,5 +313,28 @@
     "client_request_id": "W1-20260921-e1",
     "created_at": "2026-09-21T21:03:21.501Z",
     "updated_at": "2026-09-21T21:03:21.501Z"
+  },
+  {
+    "signature_id": "SIG-015",
+    "attraction": "選項同時含前提關鍵字與結論動作",
+    "scope": "LR",
+    "created": "2026-09-23",
+    "last_seen": "2026-09-23",
+    "stage": "已發現／同題兩年重複／不同題驗證待做",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 1,
+    "notes": "錯因由使用者確認。與 SIG-007 同機制但使用者決定 SIG-007 不擴大，故另建 LR 指紋。",
+    "error_type": "選項主體與結論主體不同，因關鍵字相符而接受",
+    "trigger_signal": "選項開頭的「誰」與結論的「誰」不一致",
+    "corrective_action": "先圈結論的「誰」，選項第一個名詞不是它就刪",
+    "signature_status": "追蹤中",
+    "first_seen": "2025-10-15",
+    "source": "PT140 S3 Q9（2025 與 2026 同選 C）；相關實例 PT141 S2 Q24、S1 Q7（RC 主體替換，不計入證據）",
+    "client_request_id": "W1-20260923-e1",
+    "created_at": "2026-09-24T06:29:29.077Z",
+    "updated_at": "2026-09-24T06:29:29.077Z"
   }
 ]
