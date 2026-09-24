@@ -1136,11 +1136,186 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-23",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "必要假設：否定選項後，前提還撐得住結論嗎？充分假設：加入選項後，結論必然成立嗎？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "家族比例：Flaw 16%；Necessary Assumption（必要假設）11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption（充分假設）4%。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 兩題型方向不同：NA 問「論證成立必須什麼為真」；SA 問「加入什麼就能讓結論成立」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 強度軸 [補充]。邏輯強度：一項陳述排除的可能情況越多，強度越高。橋接陳述（bridge）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。SA：強度大於或等於 bridge 的選項皆可選，選項強於所需不是刪除理由。NA：強度小於或等於 bridge 的選項皆可選。需要題文以外事實才起作用的選項不在軸上，兩題型皆不可選。類比：買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 NA 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點，作答動作是列箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或途徑，作答動作是問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭；鏈條有斷點找 Linking；鏈條接得上但有其他解釋找 Defending。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 SA 常以條件鏈補缺口：正解可提供觸發既有規則的事實，或接起前提與結論的缺環。若題文只剩一種使結論不成立的可能，排除該可能也可保證結論；只排除多種可能之一仍不夠。三者皆以加入後結論必然成立為門檻。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R6 Negation Test 的門檻：否定選項後，問「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；否定後若與題文前提直接矛盾，通常是否定的範圍讀錯了。五個選項各否定一次，傷害最大者為答案，五個都要測。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 SA 先預述答案：畫出前提鏈與結論的箭頭，找缺少的事實或連結，用一句話說出；讀選項時也檢查逆否形式。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 全稱詞（any、all、every、only）是否過強的兩步測試：先把該詞換成較弱的詞（some、most、at least one）得到弱化版；再問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 誘答鏡像。NA：Too Strong 36%、Out of Scope 33%，先刪超出所需的選項（用 S2）。SA：Out of Scope 36%、Too Weak 31%，先刪加入後結論仍不必然成立的選項。SIG-009：SA 題因選項強於所需而刪除正解，正是反方向誤判。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 Reversal：選項用了正確概念，卻把缺環方向或否定位置寫反。Too Weak：選項漏掉結論中新出現的關鍵概念，或只給 some、most 等仍不能保證結論的強度。先畫出需要從哪一端走到哪一端，再核對選項是否完整覆蓋。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q16（NA）：正解容許 or 或 both，讀成 both required 使最弱連結看似過強。\nPT140 S3 Q11（SA）：結論方向反轉。\nPT141 S2 Q10（SA）：規則在末句未畫箭頭，SIG-001。\nPT141 S2 Q12（SA）：以 NA 判準刪除正解 most consented，SIG-009。\nPT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。\nPT140 S1 Q22（NA，Linking）：正解為事實到價值判斷的通則，any 經 S2 判為必要；D 的 only 弱化後仍夠用，Too Strong。\nJune 2007 S3 Q17（NA，Linking）：誤選 C 為 Reversal。\nPT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誤選 D 的 any students 屬 Too Strong。",
+              "refs": [
+                "A-20260915-PT140-S1-Q16",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260918-PT141-S2-Q10",
+                "A-20260918-PT141-S2-Q12",
+                "A-20260921-PT140-S3-Q19",
+                "A-20260921-PT140-S1-Q22",
+                "A-20260921-June 2007-S3-Q17",
+                "A-20260921-PT65-S4-Q13"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T04:53:23.427Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-24T06:29:29.100Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260923-o1",
+        "date": "2026-09-23",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "家族比例：Flaw 16%；Necessary Assumption（必要假設）11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption（充分假設）4%。"
+          },
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 兩題型方向不同：NA 問「論證成立必須什麼為真」；SA 問「加入什麼就能讓結論成立」。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 強度軸 [補充]。邏輯強度：一項陳述排除的可能情況越多，強度越高。橋接陳述（bridge）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。SA：強度大於或等於 bridge 的選項皆可選，選項強於所需不是刪除理由。NA：強度小於或等於 bridge 的選項皆可選。需要題文以外事實才起作用的選項不在軸上，兩題型皆不可選。類比：買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 NA 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點，作答動作是列箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或途徑，作答動作是問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭；鏈條有斷點找 Linking；鏈條接得上但有其他解釋找 Defending。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 SA 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。SA 沒有 Defending 類型。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R6 Negation Test 的門檻：否定選項後，問「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；否定後若與題文前提直接矛盾，通常是否定的範圍讀錯了。五個選項各否定一次，傷害最大者為答案，五個都要測。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R8 原則支持題：先圈出結論的「誰／什麼條件」，再找通則把理由接到「應該怎麼做」；前件不是結論主體的選項刪。考場一句：先圈結論的「誰」，選項第一個名詞不是它就刪。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 SA 三步：把前提鏈畫成箭頭；把結論畫成箭頭；比對，正解是缺的那一環，常以逆否形式出現。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S2 全稱詞（any、all、every、only）是否過強的兩步測試：先把該詞換成較弱的詞（some、most、at least one）得到弱化版；再問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 誘答鏡像。NA：Too Strong 36%、Out of Scope 33%，先刪超出所需的選項（用 S2）。SA：Out of Scope 36%、Too Weak 31%，先刪加入後結論仍不必然成立的選項。SIG-009：SA 題因選項強於所需而刪除正解，正是反方向誤判。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q16（NA）：正解容許 or 或 both，讀成 both required 使最弱連結看似過強。\nPT140 S3 Q11（SA）：結論方向反轉。\nPT141 S2 Q10（SA）：規則在末句未畫箭頭，SIG-001。\nPT141 S2 Q12（SA）：以 NA 判準刪除正解 most consented，SIG-009。\nPT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。\nPT140 S1 Q22（NA，Linking）：正解為事實到價值判斷的通則，any 經 S2 判為必要；D 的 only 弱化後仍夠用，Too Strong。\nJune 2007 S3 Q17（NA，Linking）：誤選 C 為 Reversal。\nPT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誤選 D 的 any students 屬 Too Strong。\nPT140 S3 Q9（Strengthen，原則支持）：2025 與 2026 同選 C，正解 D；C 的適用對象為已感無力者，非結論主體。SIG-015。",
+            "refs": [
+              "A-20260915-PT140-S1-Q16",
+              "A-20260915-PT140-S3-Q11",
+              "A-20260918-PT141-S2-Q10",
+              "A-20260918-PT141-S2-Q12",
+              "A-20260921-PT140-S3-Q19",
+              "A-20260921-PT140-S1-Q22",
+              "A-20260921-June 2007-S3-Q17",
+              "A-20260921-PT65-S4-Q13",
+              "A-20260923-PT140-S3-Q9"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "W1-20260923-o1"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-004",
@@ -5073,11 +5248,133 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-23",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "相關或時序被說成因果時，先找反向、共同因或選擇偏差等其他解釋。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "相關句：「X 者較他人更可能 Y」（X ¦ Y）。作者解釋：「顯然 X 導致 Y」（X → Y）。看到因果結論，先問有無其他解釋，並問作者解釋的可信度（嫌犯在現場嗎？有更多資料佐證嗎？）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 列出同一結果的其他來源，再看選項刪去哪一個來源。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 來源清單四類，標籤嚴格對應：反向因果（X ← Y）；第三因（Z → X 且 Z → Y）；巧合或樣本過小；選擇偏差。前兩類為筆記原有，後兩類為補充。反事實比較句不屬任一類。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 題文交代起點狀態（原本一致、原本相同）時，變化必發生於該時點之後，來源清單受限縮，正解通常在清單上。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 隨機對照試驗排除選擇偏差與反向因果，不排除隨機化之後引入的第三因。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 Anti-Causal 1，Could Have Been Worse：「上了課只考 150，所以課沒用」忽略反事實（沒上可能更差）。Anti-Causal 2，Unfair Comparison：「Bob 上課、Sharon 自學，都考 150，所以課沒用」忽略起點不同。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 SIG-002：替代原因的標籤用得不精確（第三因對選擇偏差、反向因果對反事實）。要說出機制，不只說「另有原因」。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 先例或類比式選項：先確認該先例本身是否包含相同的因果關係；只有現象相同而成因未提者，屬 Half Scope。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。\nPT141 S2 Q22：起點基因一致，正解排除雜交此一來源；誤選先例式選項。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15",
+                "A-20260918-PT141-S2-Q22"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T04:54:12.880Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-24T06:29:29.107Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260923-o2",
+        "date": "2026-09-23",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "相關句：「X 者較他人更可能 Y」（X ¦ Y）。作者解釋：「顯然 X 導致 Y」（X → Y）。因果結論先問兩句：① 還有什麼別的原因會造成同一結果？② 作者指定的原因，是否真的具備題文所說的條件（時間夠長、劑量夠大、對象正確）？"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 列出同一結果的其他來源，再看選項刪去哪一個來源。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 來源清單四類，標籤嚴格對應：反向因果（X ← Y）；第三因（Z → X 且 Z → Y）；巧合或樣本過小；選擇偏差。前兩類為筆記原有，後兩類為補充。反事實比較句不屬任一類。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 題文交代起點狀態（原本一致、原本相同）時，變化必發生於該時點之後，來源清單受限縮，正解通常在清單上。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 隨機對照試驗排除選擇偏差與反向因果，不排除隨機化之後引入的第三因。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 Anti-Causal 1，Could Have Been Worse：「上了課只考 150，所以課沒用」忽略反事實（沒上可能更差）。Anti-Causal 2，Unfair Comparison：「Bob 上課、Sharon 自學，都考 150，所以課沒用」忽略起點不同。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 SIG-002：替代原因的標籤用得不精確（第三因對選擇偏差、反向因果對反事實）。要說出機制，不只說「另有原因」。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T2 先例或類比式選項：先確認該先例本身是否包含相同的因果關係；只有現象相同而成因未提者，屬 Half Scope。官方例：PT141 S2 Q22；PT140 S1 Q12（誤選 D，比較最溫和地區與寒冷地區，缺少積雪融化機制）。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT141 S2 Q15：以反向因果之名選取反事實比較句。"
+          },
+          {
+            "type": "p",
+            "text": "PT141 S2 Q22：起點基因一致，正解排除雜交此一來源；誤選先例式選項。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "LSATLab Notes",
+            "ref": "W1-20260923-o2"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-013",
