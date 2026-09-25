@@ -284,5 +284,18 @@
     "client_request_id": "W1-20260924-slot1-handoff01",
     "created_at": "2026-09-25T00:15:26.822Z",
     "updated_at": "2026-09-25T00:15:26.822Z"
+  },
+  {
+    "handoff_id": "HO-023",
+    "session_id": "S-20260925-02",
+    "taught": "9/25 第一部分無新教學。原創移轉 6 題（Strengthen／Weaken 混合）檢討：第 4 題正解 E 屬 OL-012 R5 Anti-Causal 2（起點不同）；第 3 題類比題核對相同機制而非相同來源。PT141 S3 RC 計時全段作答，未檢討。",
+    "observed": "使用者確認 Weaken 影片已完整看完（HO-022 待確認項結案）。使用者決定以 PT141 S3 RC 取代 PT101 RC P1，PT101 RC P1 自本週計畫移除。本日第一部分 85 分鐘（原創 6 題 25 分、PT141 S3 RC 60 分含休息），由使用者告知；本週累計 490 分鐘，餘 410 分鐘。原創題初答 5 對 1 錯，信心均高，答對題理由皆正確。第 4 題初答 B、提示後 D、檢討後理解 E；使用者決定不列為 SIG-002 證據，指紋未更新。PT141 S3 RC 17/27，錯 10 題（A-20260925-PT141-S3-Q01、Q07、Q12、Q14、Q18、Q19、Q22、Q23、Q25、Q26，均已寫入 attempts，題型與錯因空白）。分布：Science 2、Humanities 2、Social science 2、Law 4。Q12、Q22、Q23 用時 52 至 79 秒，屬快速誤選；Q1 顯示 11:42 含休息，不代表作答時間。9/25 part 1 寫回包已驗證：兩筆 session 與 16 筆 attempts 均落地；update_exposure（W1-20260925-x1，PT141）未落地，exposure.json 仍為 9/18 狀態。家教本堂失誤：前兩版 handoff 漏列 9/24 原訂的三支影片確認與 Language Cues 對照，本版補回。",
+    "open_questions": "【移 00】(1) update_exposure 對既有 pt_id（PT141）的更新未生效，與 9/22 對新 pt_id 可新建的結果不同，請檢查 wbApply 的 update_exposure 分支。(2) 9/24 第二時段時數仍待使用者告知（HO-022）。(3) 9/24 23:16–23:26 UTC 大綱重整無對應 handoff；消失的 Notes 來源內容是否回補，待使用者決定。(4) SIG-015 修正動作用哪一句，待決定。(5) 既有【移 00】見 HO-020 至 HO-022。",
+    "date": "2026-09-25",
+    "stopped_at": "WK1｜9/25 第一部分結束：Weaken 影片已完成；原創 6 題完成；PT141 S3 RC 已作答未盲審（取代 PT101 RC P1）。本週尚餘見 next_task。",
+    "next_task": "【使用者規則，9/25 新增】行政資訊、驗證狀態、家教判斷與待辦只寫 handoff；大綱只放使用者閱讀學習用的內容。【本週剩餘，依原計畫順序】(a) 9/24 順延項：Causation、Conditional、Comparison 三支影片 1.25 倍速確認，只記與大綱（OL-012、OL-010、OL-011）不同處；Language Cues 表對照 OL-010。(b) 延遲複測不預告題目（SIG-001、SIG-003、SIG-005、Ad Hominem、SA）。(c) 大綱通讀 20 分；週檢視 15 分。(d) 9/26 PT141 S4 LR 計時 35 分加盲審，本週唯一 LR 計時基準。(e) 之後接學習計畫第 2 週列。【RC 錯題檢討，指定給下週 RC 學習時段】PT141 S3 十題錯題須逐題檢討以找出盲點，不得只看正確率：先盲審（不看正解，使用者重選並口述理由），再逐題確認題型、錯因由使用者自述，依 LSATLab_Notes RC 節名（Active Reading、Main Point、Passage Map、Questions、Trap Answers）歸類，補寫 attempts 的 question_type 與 review 資訊；快速誤選三題（Q12、Q22、Q23）與 Law 篇四題優先；是否形成新指紋或既有指紋（SIG-003、SIG-004、SIG-007、SIG-008、SIG-012）的證據，須使用者同意。",
+    "client_request_id": "W1-20260925-h3",
+    "created_at": "2026-09-25T23:07:34.830Z",
+    "updated_at": "2026-09-25T23:07:34.830Z"
   }
 ]
