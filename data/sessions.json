@@ -440,5 +440,26 @@
     "client_request_id": "W1-20260923-s1",
     "created_at": "2026-09-24T06:29:29.019Z",
     "updated_at": "2026-09-24T06:29:29.019Z"
+  },
+  {
+    "session_id": "S-20260924-01",
+    "week_label": "第1週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab；個人大綱",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Assumption Family 階層整理；Weaken 影片重點；PT65 S4 Q3；Causation 削弱方法",
+    "completion": "部分完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "9/24 第一時段，65 分鐘由使用者告知。整理 Assumption Family、NA vs. SA、Principle Support；閱讀 Weaken Summary 截圖，檢討 PT65 S4 Q3，整理 Causation 的常見削弱方法。使用者表示稍後還有學習；本紀錄僅計第一時段。已接觸 Weaken 影片內容，但尚未確認整支影片觀看完畢。",
+    "session_date": "2026-09-24",
+    "mode": "檢討",
+    "effective_minutes": 65,
+    "client_request_id": "W1-20260924-slot1-session01",
+    "created_at": "2026-09-25T00:15:26.705Z",
+    "updated_at": "2026-09-25T00:15:26.705Z"
   }
 ]
