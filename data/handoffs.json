@@ -271,5 +271,18 @@
     "client_request_id": "W1-20260924-handoff-merge01",
     "created_at": "2026-09-24T06:41:48.047Z",
     "updated_at": "2026-09-24T06:41:48.047Z"
+  },
+  {
+    "handoff_id": "HO-022",
+    "session_id": "",
+    "taught": "第一時段：整理 Assumption Family 與 NA vs. SA 的重複內容，提供父節導覽、NA vs. SA 及獨立 Principle Support 的重整包；教學 Weaken 的 Comparison、Causation 與常見 Trap Answers；檢討 PT65 S4 Q3；將 Causation 技巧合併為 Alternative Explanation 與檢查作者解釋兩條路徑。",
+    "observed": "使用者告知本時段 65 分鐘，稍後還有學習。本包只新增 9/24 第一時段時數，尚非全日結算。PT65 S4 Q3 選 C、正解 D；使用者自述因 C 攻擊 leisure travelers 對舒適的要求而選。教學指出 C 的 sleeping comfort／long flights／not primary 限定，以及 D 對 Ticket share → service priority 的削弱作用。未將教學推測另立為使用者已確認的錯因，未建立新指紋。已見 Weaken Summary 截圖與影片例題，尚未確認整支影片完成。大綱本包更新 OL-038 與 OL-012，保留既有例題；教材百分比標明來源，家教補充未冒稱影片原文。先前 Assumption 階層重整包的最終落地狀態，本次未重新驗證。",
+    "open_questions": "Weaken 影片是否已完整看完，待使用者告知；第二時段時數待使用者告知。",
+    "date": "2026-09-24",
+    "stopped_at": "9/24 第一時段結束，65 分鐘；完成 PT65 S4 Q3 的 C→D 檢討及 Causation 常用削弱技巧整理。稍後繼續學習。",
+    "next_task": "接續使用者第二時段的教材或練習，另記該時段分鐘數，避免重複計入本次 65 分鐘。後續核對本包寫入與大綱提案接受情況；PT65 S4 Q3 已見解析，不再作乾淨題使用。",
+    "client_request_id": "W1-20260924-slot1-handoff01",
+    "created_at": "2026-09-25T00:15:26.822Z",
+    "updated_at": "2026-09-25T00:15:26.822Z"
   }
 ]
