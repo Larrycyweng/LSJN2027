@@ -6186,11 +6186,198 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題文由相關、先後變化或組間差距，推論某因素造成結果。先指出觀察到的結果，再指出作者用來解釋結果的原因。相關不是因果結論本身。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 因果論證用兩問檢查：① 選項是否提供其他解釋，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 其他解釋包括反向因果（X ← Y）、共同原因（Z → X 且 Z → Y）、巧合或樣本過小、選擇偏差。後兩類為既有補充。先說明實際機制，再貼分類標籤；反事實比較句不等於反向因果。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 題文交代起點狀態一致時，先確認一致的是哪一項，再判斷它排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 隨機分派有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。隨機抽樣與隨機分派不同，不能只看到隨機二字就認定所有替代解釋已排除。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 Anti-Causal 1，Could Have Been Worse：上了課只考 150，不能直接認定課沒用，未上課可能更差。Anti-Causal 2，Unfair Comparison：上課者與自學者都考 150，不能直接認定課沒用，兩人的起點可能不同。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 第一問：選項是否提供其他原因，解釋題文的同一結果？指出是哪個因素、如何影響結果，或如何造成觀察到的差距。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 第二問：作者指定的原因是否實際存在，是否符合所需的時間、程度與對象，證據是否支持所稱的效果？例如結論說長期接觸或永久損害，就核對研究是否提供相應依據。只檢查題文與選項涉及的條件。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 SIG-002：要說出機制，不只說另有原因。共同原因、選擇偏差、反向因果與反事實比較須依實際關係區分。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：反事實比較句曾被誤稱為反向因果。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q22：起點基因一致，正解排除雜交來源；先例式誘答未提供相應的因果支持。",
+              "refs": [
+                "A-20260918-PT141-S2-Q22"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q12：依使用者檢討紀錄，誤選 D 的原因是只看到表象相似，未比較機制；比較溫和與寒冷地區，未補上所需的積雪融化機制。",
+              "refs": [
+                "A-20260923-PT140-S1-Q12"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T06:38:55.868Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-25T00:15:26.798Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260924-slot1-causation01",
+        "date": "2026-09-24",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 SIG-002：說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT141 S2 Q15：Counterfactual Comparison 曾被誤稱為 Reverse Causation。",
+            "refs": [
+              "A-20260918-PT141-S2-Q15"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT141 S2 Q22：起點基因一致，正解排除雜交來源；先例式誘答未提供相應的因果支持。",
+            "refs": [
+              "A-20260918-PT141-S2-Q22"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT140 S1 Q12：依使用者自述，誤選 D 的原因是只看到表象相似，未比較機制；比較溫和與寒冷地區，未補上所需的積雪融化機制。",
+            "refs": [
+              "A-20260923-PT140-S1-Q12"
+            ]
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "整合既有 Causation 兩問、使用者轉述 LSAT Lab Weaken 影片及本堂家教補充；技巧清單非影片逐字內容。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-013",
@@ -9549,11 +9736,126 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-24",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Weaken（削弱）",
+          "summary": "假設選項為真，它如何使證據較不足以支持結論？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題幹要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受選項為真。方向是選項作用於論證。Weaken EXCEPT 選不削弱者，可能無影響，也可能加強。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 接受選項為真，判斷它是否降低證據對結論的支持；不必證明結論必然為假。選項可以提供題文原先沒有的資訊。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 因果題依 OL-012 的兩問核對：是否有其他解釋，或作者解釋本身是否受到動搖。比較題則核對選項是否影響作者用來比較的標準或可比性（OL-011）。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 標出完整結論，保留對象、範圍與限定語，再找作者所用的證據（OL-006 R1）。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 逐項完成一句話：即使證據為真，這項資訊指出什麼，使作者的推論較不可靠？依作用判為削弱、加強或無影響；暫時說不出作用時，先核對選項的對象與關係，不立即判為無影響。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 研究有不完善之處，未必削弱這個論證。檢查它是否動搖測量效度、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也仍須判斷其對推論的作用，不能一律視為無關。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 與題文有相同關鍵字，不代表作用方向正確。只補充背景、與結論相容卻未降低其支持，或實際提高結論可信度的選項，都不能僅憑主題相關而選。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260923-o3",
-    "updated_at": "2026-09-24T23:16:24.993Z",
-    "updated_by": "user"
+    "updated_at": "2026-09-25T00:15:26.793Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "W1-20260924-slot1-weaken01",
+        "date": "2026-09-24",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
+          },
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。比例合計超過 100%，不可視為互斥分類；考場依實際 Argument 辨認結構。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R2 Causation 依 OL-012 核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（OL-011）。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（OL-006 R1）。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T2 教材 Trap Answer 統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。百分比僅作教材參考。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T3 Scope／Degree：not primary concern 不等於 not important；特定情境的一項需求不等於整體需求。讀清楚 Answer Choice 實際涵蓋的範圍與強度，再判斷其削弱作用。"
+          },
+          {
+            "type": "p",
+            "label": "Official Example",
+            "text": "PT65 S4 Q3：Premise 為 leisure travelers 購買 80% 機票；Conclusion 為航空公司應改為重視他們的舒適。使用者選 C，理由是它攻擊 leisure travelers 對舒適的要求。C 僅說長途飛行的 sleeping comfort 不是 primary concern，未充分動搖作者的優先順序，教材標為 Too Weak。D 指出 business travelers 的 Revenue share 遠高於 leisure travelers，提供優先照顧 business travelers 的商業理由，削弱 Ticket share → service priority 的推論。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "整合既有 Weaken 大綱、使用者提供的 LSAT Lab Weaken Summary 兩張截圖、PT65 S4 Q3 截圖及本堂檢討。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-039",
