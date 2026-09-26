@@ -310,5 +310,18 @@
     "client_request_id": "00-20260925-h1",
     "created_at": "2026-09-26T03:10:13.351Z",
     "updated_at": "2026-09-26T03:10:13.351Z"
+  },
+  {
+    "handoff_id": "HO-025",
+    "session_id": "S-20260925-03",
+    "taught": "延遲複測講評：SA 題結論後的通則仍是前提，照樣畫箭頭；conditional（規則，A → B）與 causal（解釋，A ⇒ B）的分辨與各自動作；PT65 S4 Q10 選項 C 為何加深矛盾（兩組其他食物相等，總脂肪不可能反而較多）。Comparison 影片內容整理為 OL-011 Recognition、R3 至 R6、S1。",
+    "observed": "第二部分 60 分鐘由使用者告知，本週累計 550 分，餘 350 分。延遲複測 4/5：SIG-003、SIG-009、Ad Hominem 通過且理由正確；SIG-005 答對但以刪除法，程序未展示；SIG-001 未通過，使用者自述不確定末句通則是前提還是待證，用猜的。使用者對第 1 題提出題目精簡的意見，家教說明結構與 PT141 S2 Q10 相同。第 5 題使用者把條件關係稱為 causation，已說明差異，不建指紋。三支影片只看完 Comparison；差異由使用者以 12 張截圖提供，整理入 OL-011（非 protected，直接寫入），三處中文措辭依使用者要求改為英文原詞。Causation、Conditional 影片與 Language Cues 表對照未做。update_signature 為 v0.5.1 新操作，本包首次使用；寫入後請驗證 SIG-001 的 delayed_retest 是否為未通過。",
+    "open_questions": "【移 00】(1) 9/24 第二時段時數仍待使用者告知（HO-022）。(2) 既有【移 00】見 HO-024。",
+    "date": "2026-09-25",
+    "stopped_at": "WK1｜9/25 第二部分結束：延遲複測完成、Comparison 影片完成、OL-011 整理完成。本週尚餘：Causation、Conditional 影片 1.25 倍速確認與 Language Cues 表對照 OL-010；大綱通讀 20 分；週檢視 15 分；9/26 PT141 S4 LR 計時 35 分加盲審。",
+    "next_task": "9/26：PT141 S4 LR 計時 35 分加盲審（本週唯一 LR 計時基準）；Causation、Conditional 影片只記與 OL-012、OL-010 不同處，Language Cues 表對照 OL-010；大綱通讀 20 分；週檢視 15 分（00 窗）。下週：PT141 S3 RC 十題錯題檢討見 HO-023 指示；SIG-001 需再排一次延遲複測（原創 SA 題，通則置於結論後）；SIG-005 下次複測要求口述箭頭；學習計畫第 2 週列。",
+    "client_request_id": "W1-20260925-h4",
+    "created_at": "2026-09-26T06:35:46.785Z",
+    "updated_at": "2026-09-26T06:35:46.786Z"
   }
 ]
