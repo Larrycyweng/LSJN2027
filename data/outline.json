@@ -5259,6 +5259,11 @@
     "blocks": [
       {
         "type": "p",
+        "label": "Recognition",
+        "text": "Comparison 占 LR 約 37%，最常出現在 Strengthen／Weaken、Paradox、Most Supported、Necessary Assumption、Flaw。辨認：題文把兩個東西放在一起比，常見七種：此時段對彼時段、此情況對彼情況、Plan 對 No-Plan、部分對整體（Part vs. Whole）、樣本對推廣（Sample vs. Generalization）、相對對絕對（Relative vs. Absolute）、百分比對數量（Percent vs. Number）。"
+      },
+      {
+        "type": "p",
         "label": "Rule",
         "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。"
       },
@@ -5269,11 +5274,41 @@
       },
       {
         "type": "p",
+        "label": "Rule",
+        "text": "R3 依題型決定動作。Strengthen：補上讓兩者 fair to compare 的相似點（complete the analogy）。Weaken 與 Paradox：指出一個 meaningful difference；Paradox 是提出新的差異來解釋題文中令人意外的差異。Necessary Assumption：正解是作者假設的一個相似點或一個差異點。Flaw：Part vs. Whole 或 Sampling。Most Supported：補完類比，或指出造成不同結果的那個差異（causal difference-maker）。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R4 Plans／Recommendations 也是比較：比的是 the world we currently live in 與 the world in which we follow this plan。支持與反駁都針對後者是否真的更好。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R5 Relative vs. Absolute：百分比上升不等於數量上升。看到 percentage、proportion、share 推到 more people、more cases 時，問總數有沒有變。例：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%，數量未變。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R6 Anti-Causal 的比較形式：「兩人結果相同，所以某因素沒有作用」。動作是指出兩者哪裡不一樣，使它們 unfair to compare。機制見 OL-012 R5 Anti-Causal 2。"
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "S1 先寫出被比較的兩個東西各是什麼；再問比較的標準是什麼；最後依題幹選 R3 的動作。"
+      },
+      {
+        "type": "p",
         "label": "Official Example",
         "text": "PT140 S1 Q10：Meaningful Distinction 為第三道篩選；使用者當時無法說出，當場教。",
         "refs": [
           "A-20260915-PT140-S1-Q10"
         ]
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "PT65 S4 Q10（Paradox，Comparison 影片例題）：減紅肉組反而吃進更多脂肪。正解 D 說出減紅肉者改吃更高脂食物，即新的差異；C 讓兩組其他食物攝取相等，反而加深矛盾。"
       }
     ],
     "source_refs": [
@@ -5288,6 +5323,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab Comparison 影片 Summary、Frequency、Correct Answers、Other Comparisons 截圖（12 張）；Comparison 影片例題 PT65 S4 Q10"
       }
     ],
     "status": "草稿",
@@ -5394,9 +5433,38 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-25",
+        "by": "tutor",
+        "summary": "家教更新 W1-20260925-o4",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Analogy 找差異；Recommendation 找利弊。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 要推翻類比，差異必須觸及比較的標準；不觸及標準的差異無關。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q10：Meaningful Distinction 為第三道篩選；使用者當時無法說出，當場教。",
+              "refs": [
+                "A-20260915-PT140-S1-Q10"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-23T05:49:39.174Z",
+    "updated_at": "2026-09-26T06:35:46.776Z",
     "updated_by": "tutor"
   },
   {
