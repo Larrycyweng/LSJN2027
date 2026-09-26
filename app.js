@@ -8,8 +8,9 @@ const OBJ_FILES = ['pt140_error_inventory'];
 const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
                 signatures:'signature_id', hypotheses:'hypothesis_id', checkpoints:'checkpoint_id', cards:'card_id', handoffs:'handoff_id', progress:'item_id', outline:'section_id'};
 const LS_LOCAL = 'lsjn.local.v1';
+const SIG_EDIT_FIELDS = ['error_type','trigger_signal','why_attractive','corrective_action','attraction','scope','notes','stage','signature_status','evidence_count','last_seen'];
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.5.0';
+const APP_VERSION = '0.5.1';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
@@ -369,13 +370,13 @@ function renderReview(){
 
 /* ---------- write-back package ---------- */
 let WB=null;
-function allRequestIds(){ const ids=new Set(); FILES.forEach(f=>S.data[f].forEach(r=>{ if(r.client_request_id) ids.add(r.client_request_id); })); return ids; }
+function allRequestIds(){ const ids=new Set(); FILES.forEach(f=>S.data[f].forEach(r=>{ if(r.client_request_id) ids.add(r.client_request_id); if(r.last_request_id) ids.add(r.last_request_id); })); return ids; }
 function wbCheck(){
   const out=$('#wb-preview'); WB=null; $('#btn-wb-apply').disabled=true;
   let pkg; try{ pkg=JSON.parse($('#wb-text').value); }catch(e){ out.innerHTML=`<li class="empty">JSON 解析失敗：${esc(e.message)}</li>`; return; }
   if(!pkg||!Array.isArray(pkg.items)){ out.innerHTML='<li class="empty">缺少 items 陣列。</li>'; return; }
   const seen=allRequestIds(), inPkg=new Set(); const items=[];
-  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','suggest_hypothesis_update','add_attempt','update_exposure','update_session','mark_progress','update_pt140_review','add_section','update_section','move_section','suggest_section_deletion']);
+  const allowed=new Set(['add_session','add_card','add_handoff','add_signature','suggest_signature_update','update_signature','suggest_hypothesis_update','add_attempt','update_exposure','update_session','mark_progress','update_pt140_review','add_section','update_section','move_section','suggest_section_deletion']);
   pkg.items.forEach((it,i)=>{
     const r={i:i+1, op:it.op, id:it.client_request_id, ok:true, msg:'', data:it.data||{}};
     if(!allowed.has(it.op)){ r.ok=false; r.msg='不允許的操作'; }
@@ -388,6 +389,7 @@ function wbCheck(){
     else if(it.op==='update_pt140_review'){ const inv=S.data.pt140_error_inventory; const q=inv&&inv.questions.find(x=>x.section===Number(r.data.section)&&x.q===Number(r.data.q)); if(!q){ r.ok=false; r.msg='inventory 無此題'; } else if(!r.data.review_2026||!r.data.review_2026.attempt_id||!S.data.attempts.some(a=>a.attempt_id===r.data.review_2026.attempt_id)){ r.ok=false; r.msg='review_2026.attempt_id 需對應既有作答'; } }
     else if(['add_section','update_section','move_section','suggest_section_deletion'].includes(it.op)){ const v=window.LSJN_OUTLINE? window.LSJN_OUTLINE.validateOp(it.op, r.data):'大綱模組未載入'; if(v){ r.ok=false; r.msg=v; } }
     else if(it.op==='suggest_signature_update' && !S.data.signatures.some(s=>s.signature_id===r.data.signature_id)){ r.ok=false; r.msg='找不到指紋'; }
+    else if(it.op==='update_signature'){ if(!S.data.signatures.some(s=>s.signature_id===r.data.signature_id)){ r.ok=false; r.msg='找不到指紋'; } else if(!SIG_EDIT_FIELDS.some(k=>r.data[k]!==undefined)){ r.ok=false; r.msg='無可更新欄位'; } }
     else if(it.op==='suggest_hypothesis_update' && !S.data.hypotheses.some(h=>h.hypothesis_id===r.data.hypothesis_id)){ r.ok=false; r.msg='找不到假設'; }
     else if(it.op==='update_session' && !S.data.sessions.some(x=>x.session_id===r.data.session_id)){ r.ok=false; r.msg='找不到學習紀錄'; }
     else if(['add_session','add_card','add_handoff','add_signature','add_attempt'].includes(it.op)){
@@ -398,7 +400,7 @@ function wbCheck(){
   out.innerHTML=items.map(r=>`<li><div class="t"><span>${r.i}. ${esc(r.op)}　${esc(summarizeWb(r))}</span><span class="tag ${r.ok?'ok':'flag'}">${r.ok?'可寫入':esc(r.msg)}</span></div></li>`).join('');
   WB=items.filter(r=>r.ok); $('#btn-wb-apply').disabled=!WB.length; $('#btn-wb-apply').textContent=`確認寫入 ${WB.length} 筆並同步`;
 }
-function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`${d.material_type||'原創題'}${d.prep_test?` ${d.prep_test} ${d.section||''} Q${d.question_number||''}`:''} ${d.timed_answer}→${d.correct_answer}`, update_exposure:`${d.pt_id} → ${d.exposure_status||''}`, update_session:`${d.session_id} 補充`, update_pt140_review:`PT140 S${d.section} Q${d.q} review_2026`, add_section:`大綱 +「${d.title||''}」`, update_section:`大綱 ${d.section_id} 更新`, move_section:`大綱 ${d.section_id} 移動`, suggest_section_deletion:`大綱 ${d.section_id} 提議刪除`, mark_progress:`進度 ${d.item_id} ${((S.settings.checklist||[]).find(c=>c.id===d.item_id)||{}).label||''}`.slice(0,60)}[r.op]||''; }
+function summarizeWb(r){ const d=r.data; return {add_session:`${d.session_date} ${d.mode} ${d.effective_minutes}分`, add_card:d.title, add_handoff:`${d.date} ${d.stopped_at}`, add_signature:d.error_type, suggest_signature_update:`${d.signature_id} → ${d.stage||''} ${d.signature_status||''}`, update_signature:`${d.signature_id} 欄位：${SIG_EDIT_FIELDS.filter(k=>d[k]!==undefined).join('、')}`, suggest_hypothesis_update:`${d.hypothesis_id} → ${d.hypothesis_status||''}`, add_attempt:`${d.material_type||'原創題'}${d.prep_test?` ${d.prep_test} ${d.section||''} Q${d.question_number||''}`:''} ${d.timed_answer}→${d.correct_answer}`, update_exposure:`${d.pt_id} → ${d.exposure_status||''}`, update_session:`${d.session_id} 補充`, update_pt140_review:`PT140 S${d.section} Q${d.q} review_2026`, add_section:`大綱 +「${d.title||''}」`, update_section:`大綱 ${d.section_id} 更新`, move_section:`大綱 ${d.section_id} 移動`, suggest_section_deletion:`大綱 ${d.section_id} 提議刪除`, mark_progress:`進度 ${d.item_id} ${((S.settings.checklist||[]).find(c=>c.id===d.item_id)||{}).label||''}`.slice(0,60)}[r.op]||''; }
 function wbApply(){
   if(!WB||!WB.length) return; const t=todayLA(); let n=0;
   const fails=[];
@@ -408,11 +410,12 @@ function wbApply(){
     else if(r.op==='add_handoff') persist('handoffs', Object.assign({handoff_id:nextSeqId('HO','handoffs','handoff_id'), session_id:'', taught:'', observed:'', open_questions:''}, d, base));
     else if(r.op==='add_signature') persist('signatures', Object.assign({signature_id:nextSeqId('ES','signatures','signature_id'), attraction:'', scope:'', created:t, last_seen:t, stage:'已發現', near_transfer:'未測試', far_transfer:'未測試', delayed_retest:'未測試', official_timed:'未測試', evidence_count:1, notes:''}, d, base, {signature_status:'追蹤中'}));
     else if(r.op==='suggest_signature_update'){ const s=S.data.signatures.find(x=>x.signature_id===d.signature_id); const u={}; ['stage','signature_status','evidence_count','last_seen'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('signatures', Object.assign({},s,u,{updated_at:nowISO(), last_request_id:r.id})); }
+    else if(r.op==='update_signature'){ const s=S.data.signatures.find(x=>x.signature_id===d.signature_id); const u={}; SIG_EDIT_FIELDS.forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('signatures', Object.assign({},s,u,{updated_at:nowISO(), last_request_id:r.id})); }
     else if(r.op==='suggest_hypothesis_update'){ const h=S.data.hypotheses.find(x=>x.hypothesis_id===d.hypothesis_id); const u={}; ['hypothesis_status','supporting_evidence','contrary_evidence','independent_observations','next_test','current_decision'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('hypotheses', Object.assign({},h,u,{last_updated:t, updated_at:nowISO(), last_request_id:r.id})); }
     else if(r.op==='add_attempt'){ const a=deriveAttempt(Object.assign({session_id:'', material_type:'原創題', source:'', prep_test:'', section:'', question_number:null, question_type:'', skill_tag:'', blind_review_answer:'', elapsed_seconds:null, confidence:'', reread_method:'', overtime:'', guessed:'', reason_correct:'', signature_id:'', hint_used:'否', notes:''}, d, base)); if(!a.source) a.source = a.material_type==='官方題'? 'LSAT Lab':'專案對話'; a.attempt_id=nextAttemptId(a); persist('attempts',a); }
     else if(r.op==='update_pt140_review'){ const inv=JSON.parse(JSON.stringify(S.data.pt140_error_inventory)); const q=inv.questions.find(x=>x.section===Number(d.section)&&x.q===Number(d.q)); q.review_2026=Object.assign({},d.review_2026,{request_id:r.id}); q.explanation_seen=true; persistObj('pt140_error_inventory',inv); }
     else if(['add_section','update_section','move_section','suggest_section_deletion'].includes(r.op)){ window.LSJN_OUTLINE.applyOp(r.op, d, r.id); }
-    else if(r.op==='update_exposure'){ const old=S.data.exposure.find(x=>x.pt_id===d.pt_id)||{pt_id:d.pt_id, first_exposure:t, blind_review:'不明', explanations_seen:'不明', source:'寫回包'}; const rec=Object.assign({},old,d,base,{last_exposure:d.last_exposure||t}); rec.clean_pt_eligible = rec.exposure_status==='未接觸'?'是':'否'; persist('exposure',rec); }
+    else if(r.op==='update_exposure'){ const old=S.data.exposure.find(x=>x.pt_id===d.pt_id); const seed=old||{pt_id:d.pt_id, first_exposure:t, blind_review:'不明', explanations_seen:'不明', source:'寫回包'}; const stamp= old? {updated_at:nowISO(), last_request_id:r.id} : base; const rec=Object.assign({},seed,d,stamp,{last_exposure:d.last_exposure||t}); if(old){ rec.client_request_id=old.client_request_id||r.id; rec.created_at=old.created_at||nowISO(); } rec.clean_pt_eligible = rec.exposure_status==='未接觸'?'是':'否'; persist('exposure',rec); }
     else if(r.op==='mark_progress'){ persist('progress',{item_id:d.item_id, done:d.done===undefined?'是':d.done, done_date:t, client_request_id:r.id, updated_at:nowISO(), created_at:nowISO()}); }
     else if(r.op==='update_session'){ const old=S.data.sessions.find(x=>x.session_id===d.session_id); if(old){ const u={}; ['focus_skill','notes','effective_minutes','lr_minutes','rc_minutes','review_minutes','attention','fatigue','completion','material_source'].forEach(k=>{ if(d[k]!==undefined) u[k]=d[k]; }); persist('sessions',Object.assign({},old,u,{updated_at:nowISO(), last_request_id:r.id})); } }
     n++; }catch(e){ console.error(e); fails.push(`${r.i}. ${r.op}: ${e.message}`); } });
