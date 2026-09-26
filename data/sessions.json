@@ -503,5 +503,26 @@
     "client_request_id": "W1-20260925-s2",
     "created_at": "2026-09-25T22:59:21.613Z",
     "updated_at": "2026-09-25T22:59:21.613Z"
+  },
+  {
+    "session_id": "S-20260925-03",
+    "week_label": "第1週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "延遲複測 5 題（4/5）；Comparison 影片 1.25 倍速確認；PT65 S4 Q10 選項 C 講解；Comparison 影片內容整理入 OL-011",
+    "completion": "部分完成",
+    "attention": "高",
+    "fatigue": "低",
+    "sleep_hours": null,
+    "notes": "60 分鐘由使用者告知。Causation、Conditional 影片與 Language Cues 表對照未做，移至本週剩餘。",
+    "session_date": "2026-09-25",
+    "mode": "觀念學習",
+    "effective_minutes": 60,
+    "client_request_id": "W1-20260925-s3",
+    "created_at": "2026-09-26T06:35:46.695Z",
+    "updated_at": "2026-09-26T06:35:46.695Z"
   }
 ]
