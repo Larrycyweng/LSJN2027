@@ -39,15 +39,15 @@
     "notes": "",
     "error_type": "因果替代解釋標籤誤用",
     "trigger_signal": "生成替代解釋後貼分類標籤的步驟（C、D1 各一次）",
-    "why_attractive": "selection 與 third factor 概念相鄰：都涉及組間差異",
-    "corrective_action": "貼標前先問：是否有一個 Z 同時對 X 和 Y 起因果作用（third factor），還是樣本形成方式本身偏斜（selection）",
+    "why_attractive": "selection 與共同原因概念相鄰：都涉及組間差異",
+    "corrective_action": "貼標前先問：是否有一個 Z 同時對 X 和 Y 起因果作用（共同原因），還是樣本形成方式本身偏斜（selection）",
     "signature_status": "追蹤中",
     "first_seen": "2026-09-14",
     "source": "原創題（練習一C；Drill D1）",
     "client_request_id": "20260914-g1",
     "created_at": "2026-09-14T18:15:52.068Z",
-    "updated_at": "2026-09-20T00:47:52.659Z",
-    "last_request_id": "W1-20260919-e2"
+    "updated_at": "2026-09-26T03:10:13.342Z",
+    "last_request_id": "00-20260925-g2"
   },
   {
     "signature_id": "SIG-003",
@@ -329,12 +329,13 @@
     "notes": "錯因由使用者確認。與 SIG-007 同機制但使用者決定 SIG-007 不擴大，故另建 LR 指紋。",
     "error_type": "選項主體與結論主體不同，因關鍵字相符而接受",
     "trigger_signal": "選項開頭的「誰」與結論的「誰」不一致",
-    "corrective_action": "先圈結論的「誰」，選項第一個名詞不是它就刪",
+    "corrective_action": "選項同時含 Premises 關鍵字與 Conclusion 動作時，仍須核對適用對象；Premises 未建立 Conclusion 的對象符合該條件，不套用該 Principle。",
     "signature_status": "追蹤中",
     "first_seen": "2025-10-15",
     "source": "PT140 S3 Q9（2025 與 2026 同選 C）；相關實例 PT141 S2 Q24、S1 Q7（RC 主體替換，不計入證據）",
     "client_request_id": "W1-20260923-e1",
     "created_at": "2026-09-24T06:29:29.077Z",
-    "updated_at": "2026-09-24T06:29:29.077Z"
+    "updated_at": "2026-09-26T03:10:13.336Z",
+    "last_request_id": "00-20260925-g1"
   }
 ]
