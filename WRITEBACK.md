@@ -32,6 +32,8 @@
 - `add_attempt` 可寫入官方題，但必須含 `"source_evidence": "使用者截圖"`，且只轉錄截圖可見內容，不明欄位留白。原創題不需此欄位。
 - 新操作：`update_exposure`（更新官方題接觸狀態，需 pt_id）、`update_session`（補充既有學習紀錄的內容欄位，需 session_id）。
 - `suggest_*` 只能更新政策檔列出的欄位。
+- `update_signature`（v0.5.1 起）：修正既有指紋的內容欄位，需 signature_id；可更新 error_type、trigger_signal、why_attractive、corrective_action、attraction、scope、notes、stage、signature_status、evidence_count、last_seen。未列出的欄位不動。
+- `update_exposure` 對既有 pt_id（v0.5.1 起）：保留原 created_at 與 client_request_id，本次請求寫入 last_request_id；只覆寫包內提供的欄位。
 - 不提供刪除或覆寫作答的操作。
 - 每筆課程至少包含一個 `add_handoff`，其 `stopped_at` 與 `next_task` 必填，供下次課前讀取。
 
