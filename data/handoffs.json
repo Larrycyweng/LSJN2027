@@ -297,5 +297,18 @@
     "client_request_id": "W1-20260925-h3",
     "created_at": "2026-09-25T23:07:34.830Z",
     "updated_at": "2026-09-25T23:07:34.830Z"
+  },
+  {
+    "handoff_id": "HO-024",
+    "session_id": "",
+    "taught": "無。",
+    "observed": "(1) A-20260923-PT140-S3-Q09 notes 所引「OL-003 R8」已不存在，對應為 OL-040 T1（Principle Support 的 Trap T1）；attempts 不改，以本筆為準。(2) SIG-015 corrective_action 改為 OL-040 T1 措辭；SIG-002 的 third factor 改為共同原因（OL-012 R2 Common Cause）。(3) HO-023 open_questions (1) 更正：W1-20260925-x1 已於 2026-09-25 22:59:26 UTC 落地（commit cf6b727，與同包 attempts 相隔 5 秒），先前判定為未落地是讀到舊版檔案；但該包未提供 sections_seen 與 questions_seen，故 PT141 仍顯示 S3 未接觸，本包補正。wbApply 的 update_exposure 分支另有缺陷：對既有 pt_id 會覆寫 created_at 與 client_request_id，v0.5.1 修正，並新增 update_signature 操作。(4) HO-023 open_questions (3) 作廢，大綱不回補；(4) 由本包 SIG-015 處理。(5) 開場指令修正版已提供（4/8/2027、目標 175、就緒門檻依 settings cp4 為連續三套 ≥173、1/16 內部檢核不計入就緒）。",
+    "open_questions": "【移 00】(1) 使用者更新專案開場指令後，HO-020 (1) 結案。(2) 9/24 第二時段時數仍待使用者告知（HO-022）。(3) 專案內計畫檔為 9/12 v1，計畫 v2 檔與 Analyze_Top_Weaknesses 不在專案（HO-020 (2)）。(4) update_section 的 mode 欄位與 replace／append 指定方式待確認（HO-020 (3)）。(5) 開場指令【資料優先順序】仍引用 00_LSAT_Master_Record 與 Tracker，【工具分工】仍寫 ChatGPT，是否改為 repo data 檔與本專案，待使用者決定。",
+    "date": "2026-09-25",
+    "stopped_at": "00 維護窗：舊資料向大綱對齊，未教學，不計時數。",
+    "next_task": "上傳 v0.5.1 後再貼本包（update_signature 為新操作，v0.5.0 會拒絕）。寫入後以 ?t= 時間戳讀 signatures.json、exposure.json、handoffs.json 驗證。教學進度接 HO-023 next_task：9/26 PT141 S4 LR 計時 35 分加盲審。",
+    "client_request_id": "00-20260925-h1",
+    "created_at": "2026-09-26T03:10:13.351Z",
+    "updated_at": "2026-09-26T03:10:13.351Z"
   }
 ]
