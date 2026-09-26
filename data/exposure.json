@@ -65,8 +65,8 @@
     "exposure_status": "部分接觸",
     "first_exposure": "",
     "last_exposure": "2026-09-25",
-    "sections_seen": "S1 RC 2026-09-18 不計時 17/27；S2 LR 2026-09-18 計時 16/25（Q21–25 超時）；S3 RC（實驗）與 S4 LR 未接觸；先前中斷之 section 不明",
-    "questions_seen": 52,
+    "sections_seen": "S1 RC 2026-09-18 不計時 17/27；S2 LR 2026-09-18 計時 16/25（Q21–25 超時）；S3 RC（實驗）2026-09-25 計時 17/27，未檢討；S4 LR 未接觸；先前中斷之 section 不明",
+    "questions_seen": 79,
     "full_score": null,
     "blind_review": "否",
     "explanations_seen": "S1、S2 已檢討；S3 已作答未檢討；S4 未接觸。",
@@ -75,7 +75,8 @@
     "source": "LSJN2027_LSAT_Study_Plan_2026-09-12.docx",
     "client_request_id": "W1-20260925-x1",
     "created_at": "2026-09-25T22:59:21.695Z",
-    "updated_at": "2026-09-25T22:59:21.695Z"
+    "updated_at": "2026-09-26T03:10:13.347Z",
+    "last_request_id": "00-20260925-x1"
   },
   {
     "pt_id": "PT150",
