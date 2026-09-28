@@ -524,5 +524,26 @@
     "client_request_id": "W1-20260925-s3",
     "created_at": "2026-09-26T06:35:46.695Z",
     "updated_at": "2026-09-26T06:35:46.695Z"
+  },
+  {
+    "session_id": "S-20260927-01",
+    "week_label": "第2週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Causation、Conditional 影片觀看（第一週順延項）；LSATLab_Notes 與大綱複習",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "100 分鐘由使用者告知。影片與 OL-012、OL-010 差異未回報，視為無新增。Language Cues 表對照 OL-010 未回報。",
+    "session_date": "2026-09-27",
+    "mode": "觀念學習",
+    "effective_minutes": 100,
+    "client_request_id": "W2-20260927-s1",
+    "created_at": "2026-09-28T06:49:46.961Z",
+    "updated_at": "2026-09-28T06:49:46.961Z"
   }
 ]
