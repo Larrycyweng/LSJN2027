@@ -349,5 +349,18 @@
     "client_request_id": "W2-20260928-h1",
     "created_at": "2026-09-29T04:18:26.603Z",
     "updated_at": "2026-09-29T04:18:26.603Z"
+  },
+  {
+    "handoff_id": "HO-028",
+    "session_id": "",
+    "taught": "無。本則為課程順序重排的落實紀錄，取代 HO-027 的 next_task 課程順序；HO-027 其餘內容（大綱修正包、暫停計時 section、CP1 與延遲複測待決事項）仍有效。",
+    "observed": "使用者採用第三份檢視文件：剩餘 LR 影片依能力先後重排為七組，RC 依先全文閱讀後題型重排為六組。方向不變：LR 先行、第一遍快速完成、只配少量既有錯題、不做新的完整 section。第一遍的最小回想動作：影片例題揭答前先判斷；關掉筆記用一句話說出該題型的任務；有不確定之處才配一題既有錯題，隔幾天短回想。這些屬 Learn/Review，不計入能力。RC 影片清單依使用者截圖為 13 堂課程加 6 個示範，片長不明；先前「16 堂約 8 小時」撤回。進度記錄「核心第一遍完成」與「全部影片看完」分開。CP1（10/17）仍需少量陌生官方 LR 題，題型須覆蓋各家族，不得以偏向熟悉家族的題組宣告體系完成。既有錯題池（PT140 尚未檢討，供各組按需要取用，不要求清空）：Main Conclusion/Role 無；Rebuttals/Method 無；MBT S3 Q10、MBF S1 Q19；Most Supported S1 Q8、S3 Q23、S2 Q18；Evaluate 無、Paradox S1 Q20、S3 Q26；Principle S1 Q25、S3 Q22；Parallel S1 Q14、S3 Q24、Parallel Flaw S1 Q23、S3 Q15；另 S3 Q20 Flaw、S3 Q25 Strengthen 屬已教家族，留 10/12 至 10/16 複習週。",
+    "open_questions": "【移 00】(1) settings.json week_plan 仍為 v2；本則的 LR 七組、RC 六組順序與 10/4、10/11、10/12 至 10/16 時段尚未進入 App 週計畫，待使用者決定是否改為 v3。(2) settings.json week_plan 第 15 週（12/27 至 1/2）的 work 文字寫 1/16 CP3b，日期屬第 17 週（1/10 至 1/16），已核實為錯置。(3) 文件稱 CP4 說明留有「170 分」舊文字：settings.json 全文未見 170，可能在計畫 docx 或其他文件，待查；CP4 日期 3/20 距 4/8 為 19 天，與開場指令「考前 10 至 14 天」不一致，已核實，待使用者決定 CP4 日期。(4) progress.json 是否新增「核心第一遍」與「全部影片」兩個獨立完成標記，待 00 窗處理。【待使用者決定】(5) 與 (6) 同 HO-027 (3)(4)：CP1 是否用 PT141 S4 不計時；延遲複測是否全延至 10/12 至 10/16。",
+    "date": "2026-09-28",
+    "stopped_at": "WK2｜9/28 深夜，課程順序重排已記錄，今晚不補課；HO-027 的大綱修正包與 v0.5.2 補丁已交付，落地待驗。",
+    "next_task": "下一次學習起依序進行，LR 第一遍以 10/4 左右完成，不硬切每日堂數：①Main Conclusion→Role（補清中間結論；不確定時取 PT141 S2 Q10 回想 SIG-001）；②Rebuttals→Method；③Must Be True→Must Be False（教到時補條件與量詞工具表進 OL-010）；④Most Supported→Agree/Disagree（教到時補推論家族門檻表進 OL-004，Agree/Disagree 步驟拆開）；⑤Evaluate→Paradox；⑥Principle（補原則題任務辨認進 OL-040）；⑦Parallel→Parallel Flaw。約 10/5 至 10/11 RC 核心第一遍：①Big Picture Reading→Find a Framework→Passage Mapping（補七種全文架構進 RC 大綱）；②Challenge Position 及其示範；③Big Picture Questions→Author's Intent→Opinion & Attitude；④Locate Details→Inference，配合 PT141 S3 十題分篇檢討；⑤LR in RC→Analogy/Application；⑥Comparative Passages 及其示範。四個主題示範按需要接續；How To Master RC 有完成紀錄則只快速確認。10/12 至 10/16 LR 舊題、陌生小題組、延遲複測。10/17 CP1。已看過的影片保留完成狀態，不重看。",
+    "client_request_id": "W2-20260928-h2",
+    "created_at": "2026-09-29T06:21:37.973Z",
+    "updated_at": "2026-09-29T06:21:37.973Z"
   }
 ]
