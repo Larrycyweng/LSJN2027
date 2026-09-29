@@ -336,5 +336,18 @@
     "client_request_id": "W2-20260927-h1",
     "created_at": "2026-09-28T06:49:47.064Z",
     "updated_at": "2026-09-28T06:49:47.064Z"
+  },
+  {
+    "handoff_id": "HO-027",
+    "session_id": "",
+    "taught": "無。本堂為第二週排程檢視與教材比對落實，無教學。",
+    "observed": "使用者提出兩份檢視文件並要求落實。(1) 排程：本週暫停 PT141 S4 與 PT101 S1 完整計時，不新增 RC 作答；剩餘 13 堂 LR 影片（Principle、Paradox、Evaluate、Rebuttals、Must Be True、Must Be False、Most Supported、Agree/Disagree、Main Conclusion、Role、Method、Parallel、Parallel Flaw）集中於 9/28 至 10/3，10/4 為緩衝；影片配合既有 PT140 錯題各一題作理解確認，不要求清空該類錯題；RC 核心影片 10/4 至 10/11，配合已做過的 PT141 S3 分篇檢討；10/12 至 10/16 LR 複習、既有錯題、延遲複測；CP1 10/17 只看 LR；CP2 10/31。(2) 教材比對：八處過度概括的大綱句子已核對 outline.json 現行文字無誤，本包以 update_section 修正七節（OL-007 R2、OL-018 R2、OL-024 R3、OL-025 R1 直接寫入；OL-008 R4 與次要項、OL-010 R3、OL-013 R3 為受保護節，進入提案待使用者於大綱頁接受）。LSATLab_Notes 頁 4 的 Possible v. Certain 混放屬使用者文件，由使用者自行修改。比對文件第四節的新內容（條件與量詞工具表、推論家族門檻表、原則題任務辨認、因果連接點、RC 七種全文架構）依一本書主義隨對應影片教到時再寫入，不預先加入。家教先前兩個說法已修正：「RC 除閱讀困難外其餘都是 LR」說得過滿，HO-015 只支持先學 LR；「影片時數為主要限制、錯題不拖後」無充分依據。HO-020 (3) 結案：update_section 的 blocks 為整節取代，mode 為 append 時才接在既有內容之後；受保護節一律轉為提案。",
+    "open_questions": "【移 00】(1) settings.json 的 week_plan 仍為 v2（第二週含計時 section、第三週才有 Match 家族）；本次改排屬 v3，是否更新 settings.json 的 week_plan 與 checklist，待使用者決定並於 00 窗處理。(2) 既有【移 00】見 HO-024 至 HO-026。【待使用者決定】(3) 家教建議 CP1（10/17）的陌生官方 LR 題使用 PT141 S4 不計時作答，不另消耗乾淨 PT；同意與否待回覆。(4) 延遲複測是否全部延到 10/12 至 10/16，或在 10/3 保留一次 10 分鐘複測以維持 SIG-001 的複測週期，待回覆。",
+    "date": "2026-09-28",
+    "stopped_at": "WK2｜9/28 排程與大綱修正落實完成，尚未開始今日影片。",
+    "next_task": "9/28：影片 Principle、Paradox；各配一題既有錯題確認方法（PT140 S1 Q25 Principle；PT140 S1 Q20 Paradox），不計時不提示，由使用者說理由。9/29：Evaluate、Rebuttals。9/30：Must Be True、Must Be False（教到時補條件與量詞工具表進 OL-010）。10/1：Most Supported、Agree/Disagree（教到時補推論家族門檻表進 OL-004，Agree/Disagree 步驟拆開）。10/2：Main Conclusion、Role、Method。10/3：Parallel、Parallel Flaw；補完未完成影片。10/4 緩衝。PT141 S4 保留為後續測量材料，本週不做。PT141 S3 十題錯題檢討依 HO-023 指示，改於 10/4 至 10/11 RC 影片期間分篇進行。使用者於大綱頁接受或拒絕 OL-008、OL-010、OL-013 三個提案。",
+    "client_request_id": "W2-20260928-h1",
+    "created_at": "2026-09-29T04:18:26.603Z",
+    "updated_at": "2026-09-29T04:18:26.603Z"
   }
 ]
