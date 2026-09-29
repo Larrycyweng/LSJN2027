@@ -81,8 +81,7 @@ function renderBlocks(n){
   });
   (n.proposals||[]).forEach((p,i)=>{ h+=`<div class="prop"><b>家教提案</b>（${esc(p.date)}，${esc(p.request_id)}）${p.title?`<br>標題 → ${esc(p.title)}`:''}${p.summary?`<br>${esc(p.summary)}`:''}${p.blocks?'<br>'+esc(blocksToText({blocks:p.blocks})).replace(/\n/g,'<br>'):''}<div class="ol-actions"><button class="btn sm" data-prop-accept="${i}" type="button">接受</button><button class="btn ghost sm" data-prop-reject="${i}" type="button">拒絕</button></div></div>`; });
   if(n.deletion_suggested) h+=`<div class="prop"><b>家教提議刪除</b>：${esc(n.deletion_suggested.reason||'')}<div class="ol-actions"><button class="btn warn sm" data-del-accept="1" type="button">確認刪除此節</button><button class="btn ghost sm" data-del-reject="1" type="button">保留</button></div></div>`;
-  const src=(n.source_refs||[]).map(r=>`${r.type}${r.ref?`: ${r.ref}`:''}`).join('；');
-  if(src) h+=`<div class="src">來源：${esc(src)}${n.updated_at?`　更新 ${esc(n.updated_at.slice(0,10))} ${esc(n.updated_by||'')}`:''}</div>`;
+  /* v0.5.2：來源與更新資訊不再顯示於大綱頁；source_refs 與 updated_at 仍保存在 outline.json 供稽核 */
   return h;
 }
 function hl(t){ const e=esc(t); if(!query) return e; const q=esc(query); const re=new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'ig'); return e.replace(re, m=>`<span class="ol-hit">${m}</span>`); }

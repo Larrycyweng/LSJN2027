@@ -10,7 +10,7 @@ const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
 const LS_LOCAL = 'lsjn.local.v1';
 const SIG_EDIT_FIELDS = ['error_type','trigger_signal','why_attractive','corrective_action','attraction','scope','notes','stage','signature_status','evidence_count','last_seen'];
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.5.1';
+const APP_VERSION = '0.5.2';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
