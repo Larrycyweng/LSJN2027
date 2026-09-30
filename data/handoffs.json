@@ -362,5 +362,18 @@
     "client_request_id": "W2-20260928-h2",
     "created_at": "2026-09-29T06:21:37.973Z",
     "updated_at": "2026-09-29T06:21:37.973Z"
+  },
+  {
+    "handoff_id": "HO-029",
+    "session_id": "",
+    "taught": "觀點歸屬與論證角色的區別；反駁結論的強度與代名詞還原；依新版 Notes 補入反駁、條件翻譯與串接、因果可信度與作用差異。Comparison clip 與 OL-011 既有內容重合，無需重複新增。[補充] 無；只整理使用者教材與本對話已說明的判準。",
+    "observed": "使用者回報 9/29 共 125 分鐘，未拆分活動時間，未回報作答。Rebuttals 已看完；Comparison、Conditional、Causation 為補增筆記，先前已看影片。未據此升級掌握程度，也未標記整週完成。已視讀新版 18 頁 PDF 中四個片段所在頁（pp.4–8、11–15）。GitHub 連線失敗，本包依本機 commit 5047750（9/28）比對，尚未核對遠端新增紀錄。",
+    "open_questions": "【移 00】本機 outline.js 對 protected 節的 append 提案未保留 append 模式，接受提案時會直接取代 blocks；本包以新增子節保留原文，交由維護家教檢查，未改 App。【筆記校正】p.5 把 Parallel Flaw 列在 Assumption 應改列 Match；p.8 Flowed Consequences 應為 Flawed Consequences；p.14 的因果 if-not 摘要須限定於題文支持的作用差異，不能當條件逆否使用。p.4 Possible v. Certain 仍與 Unproven v. Proven False 混放，沿用 HO-027 待修事項。【接觸紀錄】教材可見 PT65 S4 Q14/Q16、PT78 S1 Q2/Q3/Q8 及 S3 Q18、PT79 S1 Q13、PT55 S1 Q17、標為 PT307 S3 Q9、June 2007 S3 Q4 及 S2 Q22；只屬教材接觸，不建立作答。須核對新舊編號及既有 exposure 後合併，合併前勿選作陌生題；p.8 Haynes 例題的 PT65 S4 Q16 標示疑似與同頁另一例題重複，待查。",
+    "date": "2026-09-29",
+    "stopped_at": "9/29：Rebuttals 影片完成；Notes 四個 clip 補增完成；已產生本日 125 分鐘與大綱回寫包，待使用者貼入 App。",
+    "next_task": "依本對話提出的順序，下一支建議為 Main Conclusion，再接 Role、Method；先核對是否已在其他對話完成。維持影片第一遍優先，本週暫停完整計時 LR section、不新增 RC 作答（HO-027）。",
+    "client_request_id": "01-20260929-h1",
+    "created_at": "2026-09-30T06:35:11.453Z",
+    "updated_at": "2026-09-30T06:35:11.453Z"
   }
 ]
