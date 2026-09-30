@@ -2034,18 +2034,18 @@
     "parent_id": "OL-002",
     "level": 3,
     "order": 3,
-    "title": "Match Family（原筆記稱 Function Family）",
+    "title": "Match Family（配對家族；原稱 Function Family）",
     "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見 OL-007；Method、Parallel、Parallel Flaw 尚未教。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Match Family comprises Main Conclusion, Role, Method, Parallel, and Parallel Flaw. The Rebuttals clip applies across question families; Parallel Flaw remains in Match Family even when the matched flaw occurs in a rebuttal. Recognition of a rebuttal does not change the question’s family."
+        "label": "分類",
+        "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
       }
     ],
     "source_refs": [
@@ -2064,6 +2064,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-29 Notes p.1、pp.5–8；本對話家族名稱比對"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 保留既有內容，將上一包新增的英文段落改為中文"
       }
     ],
     "status": "草稿",
@@ -2121,9 +2125,30 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o27",
+        "before": {
+          "title": "Match Family（原筆記稱 Function Family）",
+          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見 OL-007；Method、Parallel、Parallel Flaw 尚未教。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Match Family comprises Main Conclusion, Role, Method, Parallel, and Parallel Flaw. The Rebuttals clip applies across question families; Parallel Flaw remains in Match Family even when the matched flaw occurs in a rebuttal. Recognition of a rebuttal does not change the question’s family."
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-30T06:35:11.442Z",
+    "updated_at": "2026-09-30T06:49:07.483Z",
     "updated_by": "tutor"
   },
   {
@@ -2518,42 +2543,42 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
       },
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R2 規則前提。must、only if、requires、necessary、unless、if...then、any...that 提示條件關係，讀到即畫箭頭；但這些詞不決定句子角色。含條件詞的句子可以是前提，也可以是作者要證明的結論，角色只看支持關係：刪掉該句，若事實到結論的路斷了，它是前提；若其他句子都在支持它，它是結論。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解必須是題文說過的話，作者沒下的評價不選。"
+        "label": "規則",
+        "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解須忠實表達作者已提出的主張，可以換句話說，但不能加入作者未下的新評價。"
       },
       {
         "type": "p",
-        "label": "Official Example",
+        "label": "官方例題",
         "text": "PT140 S2 Q16：壓縮式反駁結論 2025 與 2026 皆漏，SIG-003。\nPT140 S3 Q12、S1 Q09：角色判斷正確並說出理由。\nPT141 S2 Q10：規則在末句，訊號詞 must；bridge 為 discern → care，SIG-001。\nPT141 S2 Q11：only 淡化、in any case 獨立理由；作者支持句誤歸反方。",
         "refs": [
           "A-20260914-PT140-S2-Q16",
@@ -2565,8 +2590,8 @@
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Clarification of R5: a Main Conclusion answer may paraphrase the author’s claim. Match meaning, scope, degree, and attribution, not identical words. A pivot is a clue; verify the support relationship. See Reasoning Structures → Rebuttals."
+        "label": "規則補充",
+        "text": "主結論選項應保留作者主張的意思、範圍、程度與觀點歸屬，不要求使用相同字詞。轉折只是線索，仍須核對支持關係。反駁的完整方法見 OL-008 → Rebuttals（OL-041）。"
       }
     ],
     "source_refs": [
@@ -2605,6 +2630,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "2026-09-29 Notes pp.4–6 [Rebuttals clip]"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 保留既有內容與 refs，將上一包英文補充改為中文並修正 Rebuttals 索引"
       }
     ],
     "status": "草稿",
@@ -3010,9 +3039,72 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o28",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先找作者要證明的判斷，再辨每句是支持、背景、反方還是讓步。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 規則前提。must、only if、requires、necessary、unless、if...then、any...that 提示條件關係，讀到即畫箭頭；但這些詞不決定句子角色。含條件詞的句子可以是前提，也可以是作者要證明的結論，角色只看支持關係：刪掉該句，若事實到結論的路斷了，它是前提；若其他句子都在支持它，它是結論。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解必須是題文說過的話，作者沒下的評價不選。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S2 Q16：壓縮式反駁結論 2025 與 2026 皆漏，SIG-003。\nPT140 S3 Q12、S1 Q09：角色判斷正確並說出理由。\nPT141 S2 Q10：規則在末句，訊號詞 must；bridge 為 discern → care，SIG-001。\nPT141 S2 Q11：only 淡化、in any case 獨立理由；作者支持句誤歸反方。",
+              "refs": [
+                "A-20260914-PT140-S2-Q16",
+                "A-20260914-PT140-S3-Q12",
+                "A-20260914-PT140-S1-Q09",
+                "A-20260918-PT141-S2-Q10",
+                "A-20260918-PT141-S2-Q11"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Clarification of R5: a Main Conclusion answer may paraphrase the author’s claim. Match meaning, scope, degree, and attribution, not identical words. A pivot is a clue; verify the support relationship. See Reasoning Structures → Rebuttals."
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-30T06:35:11.399Z",
+    "updated_at": "2026-09-30T06:49:07.493Z",
     "updated_by": "tutor"
   },
   {
@@ -3914,11 +4006,113 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "即使前提為真，結論何處仍可能不成立？選項須描述準確，且指中這一步的漏洞。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+                "Unproven v. Proven False：未獲證明即當作為假。",
+                "Sampling：樣本過小、不具代表性或自我選擇。",
+                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+                "Part v. Whole：以部分推整體，或反之。",
+                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+                "Circular：結論僅為前提的重述。",
+                "Internal Contradiction：論證自相矛盾。",
+                "Equivocation：同一關鍵詞前後用兩種意思。",
+                "次要六項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome、Possible v. Certain（把 likely 推成 certain，屬 Degree，不同於 Unproven v. Proven False）。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，正解常為「還有別的原因或反例」，但該反例須足以破壞結論：另一原因也能產生結果，只推翻「唯一原因」的主張，不必然推翻「該原因足以保證結果」的主張。先看結論主張的是唯一性、充分性或必然性，再判斷反例是否命中。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+              "refs": [
+                "A-20260920-PT140-S1-Q18",
+                "A-20260921-PT140-S1-Q24",
+                "A-20260921-PT140-S1-Q21",
+                "A-20260918-PT141-S2-Q15"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-29T04:21:23.350Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-09-30T06:49:07.374Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20260929-o23",
+        "date": "2026-09-29",
+        "summary": "檢查前提是否足以支持結論，並辨認反駁所針對的主張與推理。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "導覽",
+            "text": "依筆記順序，本節下設兩個同層子節：① Flaw（缺陷）；② Rebuttals（反駁，OL-041）。"
+          },
+          {
+            "type": "p",
+            "label": "規則",
+            "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
+          },
+          {
+            "type": "p",
+            "label": "索引",
+            "text": "原 OL-008 的 R1–R5、S1、缺陷清單與官方例題連結，均保留於 Flaw 子節；其他章節原有的 OL-008 引用仍由此進入。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-09-29 層級修正：既有 Flaw 內容已保留於第一子節，Rebuttals 移入第二子節"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-009",
@@ -11238,54 +11432,156 @@
   },
   {
     "section_id": "OL-041",
-    "parent_id": "OL-009",
-    "level": 3,
-    "order": 4,
+    "parent_id": "OL-008",
+    "level": 4,
+    "order": 2,
     "title": "Rebuttals（反駁）",
-    "summary": "Identify whose claim is being challenged and exactly what the author rejects.",
+    "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
-        "text": "Attribution（觀點歸屬） identifies whose view is reported: X claims, many argue, some may believe. Look for a pivot (but, however, yet, nevertheless) and the author’s pushback; attribution alone does not establish disagreement."
+        "label": "辨識",
+        "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。"
       },
       {
         "type": "p",
-        "label": "Steps",
-        "text": "Identify the reported claim and its support; then identify the author’s response and support. Replace this, that, or it with the actual claim. State the rebuttal conclusion with its original scope and strength."
+        "label": "規則",
+        "text": "R1 Attribution 譯為「觀點歸屬」，不是因果上的「歸因」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Distinguish: the opposing conclusion is false; it is probably false; another explanation is more likely; or the opposing argument fails to establish it. Rejecting the support does not by itself prove the conclusion false."
+        "label": "規則",
+        "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "Check whether the author attacks the person instead of the reasoning (Ad Hominem), treats lack of proof as disproof, addresses a different issue (Irrelevant Response), changes the opposing claim (Straw Man), or raises an objection compatible with that claim (Compatible Objection). Identify the actual mismatch before applying a label."
+        "label": "步驟",
+        "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Main Conclusion: match the author’s rebuttal, including degree and pronoun referents (OL-007). Necessary Assumption: apply Linking or Defending to the author’s argument (OL-039). Most Supported: preserve the supported strength (OL-004). Method: describe the actual response, such as questioning an assumption, identifying undesirable consequences, offering an alternative explanation, or pointing out an overlooked consideration."
+        "label": "規則",
+        "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
       },
       {
         "type": "p",
-        "label": "Status",
-        "text": "Rebuttals video completed on 2026-09-29. Applications shown within this video do not establish completion or mastery of the separate Main Conclusion, Role, Method, or inference courses."
+        "label": "陷阱",
+        "text": "T1 核對反駁是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再貼缺陷標籤。"
+      },
+      {
+        "type": "p",
+        "label": "題型應用",
+        "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉，見 OL-007。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。"
+      },
+      {
+        "type": "p",
+        "label": "題型應用",
+        "text": "必要假設（Necessary Assumption）：針對作者自己的論證，檢查連結（Linking）或防禦（Defending），見 OL-039。最受支持（Most Supported）：表達題文支持的反駁結論，不自行加強，見 OL-004。"
+      },
+      {
+        "type": "p",
+        "label": "分類",
+        "text": "依個人筆記，本節位於 Argument Structure → Skeptical of Conclusion，與 Flaw 同層並接在其後。Rebuttals 描述論證回應他人主張的型態，可出現在多種題型中。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "2026-09-29 Notes pp.4–8 [Rebuttals clip]；本對話 Attribution 說明"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 將已匯入的 Rebuttals 內容改為中文為主；依 Notes pp.4–8 及本對話說明"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "移動節",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "Identify whose claim is being challenged and exactly what the author rejects.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Attribution（觀點歸屬） identifies whose view is reported: X claims, many argue, some may believe. Look for a pivot (but, however, yet, nevertheless) and the author’s pushback; attribution alone does not establish disagreement."
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "Identify the reported claim and its support; then identify the author’s response and support. Replace this, that, or it with the actual claim. State the rebuttal conclusion with its original scope and strength."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Distinguish: the opposing conclusion is false; it is probably false; another explanation is more likely; or the opposing argument fails to establish it. Rejecting the support does not by itself prove the conclusion false."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Check whether the author attacks the person instead of the reasoning (Ad Hominem), treats lack of proof as disproof, addresses a different issue (Irrelevant Response), changes the opposing claim (Straw Man), or raises an objection compatible with that claim (Compatible Objection). Identify the actual mismatch before applying a label."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Main Conclusion: match the author’s rebuttal, including degree and pronoun referents (OL-007). Necessary Assumption: apply Linking or Defending to the author’s argument (OL-039). Most Supported: preserve the supported strength (OL-004). Method: describe the actual response, such as questioning an assumption, identifying undesirable consequences, offering an alternative explanation, or pointing out an overlooked consideration."
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Rebuttals video completed on 2026-09-29. Applications shown within this video do not establish completion or mastery of the separate Main Conclusion, Role, Method, or inference courses."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o24",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "Identify whose claim is being challenged and exactly what the author rejects.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Attribution（觀點歸屬） identifies whose view is reported: X claims, many argue, some may believe. Look for a pivot (but, however, yet, nevertheless) and the author’s pushback; attribution alone does not establish disagreement."
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "Identify the reported claim and its support; then identify the author’s response and support. Replace this, that, or it with the actual claim. State the rebuttal conclusion with its original scope and strength."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Distinguish: the opposing conclusion is false; it is probably false; another explanation is more likely; or the opposing argument fails to establish it. Rejecting the support does not by itself prove the conclusion false."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Check whether the author attacks the person instead of the reasoning (Ad Hominem), treats lack of proof as disproof, addresses a different issue (Irrelevant Response), changes the opposing claim (Straw Man), or raises an objection compatible with that claim (Compatible Objection). Identify the actual mismatch before applying a label."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Main Conclusion: match the author’s rebuttal, including degree and pronoun referents (OL-007). Necessary Assumption: apply Linking or Defending to the author’s argument (OL-039). Most Supported: preserve the supported strength (OL-004). Method: describe the actual response, such as questioning an assumption, identifying undesirable consequences, offering an alternative explanation, or pointing out an overlooked consideration."
+            },
+            {
+              "type": "p",
+              "label": "Status",
+              "text": "Rebuttals video completed on 2026-09-29. Applications shown within this video do not establish completion or mastery of the separate Main Conclusion, Role, Method, or inference courses."
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20260929-o1",
-    "updated_at": "2026-09-30T06:35:11.393Z",
+    "updated_at": "2026-09-30T06:49:07.441Z",
     "updated_by": "tutor"
   },
   {
@@ -11293,51 +11589,97 @@
     "parent_id": "OL-010",
     "level": 4,
     "order": 1,
-    "title": "Conditional Translations and Chains（條件翻譯與串接）",
-    "summary": "Translate negation and compound conditions before linking arrows.",
+    "title": "條件翻譯與串接（Conditional Translations and Chains）",
+    "summary": "先處理否定與複合條件，再確認哪些條件足以啟動推論。",
     "blocks": [
       {
         "type": "p",
-        "label": "Rule",
-        "text": "A → B and B → C yield A → C. For (A and B) → C plus C → D, establishing A leaves B → D; A alone does not establish D."
+        "label": "規則",
+        "text": "R1 A → B、B → C，可串接為 A → C。若 (A and B) → C，且 C → D，在已知 A 時可推出 B → D；但只有 A，仍不能直接推出 D。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Negate and as or; negate or as and. (A and B) → C contraposes to not C → (not A or not B). X → (Y or Z) contraposes to (not Y and not Z) → not X."
+        "label": "規則",
+        "text": "R2 否定 and 要改為 or；否定 or 要改為 and。(A and B) → C 的逆否為 not C → (not A or not B)。X → (Y or Z) 的逆否為 (not Y and not Z) → not X。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "No A are B means A → not B. Not all A are B means some A are not B. The clip uses few A are B to indicate most A are not B; do not translate few as none."
+        "label": "規則",
+        "text": "R3 No A are B 表示 A → not B；Not all A are B 表示有些 A 不是 B。few 不可翻成 none；本片段以 few A are B 表達多數 A 不是 B，閱讀時仍須保留原句的量詞與範圍。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "P unless Q: not Q → P, equivalently not P → Q. Cannot P unless Q: P → Q. Read without, until, and except in the full sentence and track each negation."
+        "label": "規則",
+        "text": "R4 P unless Q 可寫成 not Q → P，等價於 not P → Q。Cannot P unless Q 則為 P → Q。遇到 without、until、except，要讀完整句並逐一處理否定，不只套用單字口訣。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "A if and only if B gives both A → B and B → A. Then and only then / when and only when express the same two-way requirement. With otherwise, reconstruct both clauses before deciding which conditions are equivalent."
+        "label": "規則",
+        "text": "R5 A if and only if B 表示 A → B 且 B → A。then and only then、when and only when 也表達雙向要求。遇到 otherwise，先還原前後兩句，再判斷是否形成雙條件。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "Signal words help translate a stated rule; they do not determine whether a sentence is a premise or conclusion. Leads to in a causal explanation must not automatically be treated as an exceptionless conditional guarantee."
+        "label": "陷阱",
+        "text": "T1 條件訊號詞協助翻譯規則，但不決定句子是前提或結論。因果敘述中的 leads to，不可一律轉成沒有例外的條件保證。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "2026-09-29 Notes pp.14–15 [Conditional clip]"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 將已匯入的 Conditional 補充改為中文為主"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o25",
+        "before": {
+          "title": "Conditional Translations and Chains（條件翻譯與串接）",
+          "summary": "Translate negation and compound conditions before linking arrows.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "A → B and B → C yield A → C. For (A and B) → C plus C → D, establishing A leaves B → D; A alone does not establish D."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Negate and as or; negate or as and. (A and B) → C contraposes to not C → (not A or not B). X → (Y or Z) contraposes to (not Y and not Z) → not X."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "No A are B means A → not B. Not all A are B means some A are not B. The clip uses few A are B to indicate most A are not B; do not translate few as none."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "P unless Q: not Q → P, equivalently not P → Q. Cannot P unless Q: P → Q. Read without, until, and except in the full sentence and track each negation."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "A if and only if B gives both A → B and B → A. Then and only then / when and only when express the same two-way requirement. With otherwise, reconstruct both clauses before deciding which conditions are equivalent."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Signal words help translate a stated rule; they do not determine whether a sentence is a premise or conclusion. Leads to in a causal explanation must not automatically be treated as an exceptionless conditional guarantee."
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20260929-o3",
-    "updated_at": "2026-09-30T06:35:11.409Z",
+    "updated_at": "2026-09-30T06:49:07.458Z",
     "updated_by": "tutor"
   },
   {
@@ -11345,46 +11687,171 @@
     "parent_id": "OL-012",
     "level": 4,
     "order": 1,
-    "title": "Causal Plausibility and Difference-Makers（因果可信度與作用差異）",
-    "summary": "Separate evaluating a proposed cause from drawing a limited inference from a stated causal effect.",
+    "title": "因果可信度與作用差異（Causal Plausibility and Difference-Makers）",
+    "summary": "分清正在評估的因果解釋，以及題文已提供的因果作用。",
     "blocks": [
       {
         "type": "p",
-        "label": "Rule",
-        "text": "First identify whether the causal relationship is the author’s proposed explanation or a relationship supplied by the stimulus. For a proposed explanation, apply OL-012: consider alternatives and assess the explanation’s plausibility."
+        "label": "規則",
+        "text": "R1 先判斷因果關係是作者提出、尚待評估的解釋，還是題文已提供的關係。若是待評估的解釋，沿用 OL-012 的兩問：有無其他解釋？作者的解釋本身是否可信？"
       },
       {
         "type": "p",
-        "label": "Recognition",
-        "text": "Alongside reverse causation, third factors, and bad data, consider regression to the mean when an unusually extreme result is followed by a less extreme one. The return toward typical performance may occur without the claimed intervention causing it."
+        "label": "辨識",
+        "text": "除了反向因果、第三因素及資料問題，也留意回歸平均（Regression to the Mean）：異常極端的表現之後出現較接近平常的表現，不一定是介入措施造成。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "Plausibility checks in the clip: covariation, a mechanism connecting cause and effect, whether the proposed cause was present and capable, and whether changing the cause would make a difference to the effect."
+        "label": "規則",
+        "text": "R2 因果可信度的檢查包括：原因與結果是否共同變動、兩者之間有無作用機制、原因是否實際存在且足以發揮作用，以及改變原因是否會使結果有所不同。依題文與選項所涉及的問題檢查。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "For a stated causal contribution, reducing that contribution can support a limited claim of less effect, with other relevant conditions held constant. Track the wording and each link in a causal chain. Less effect does not mean no effect; removing one contributor does not eliminate every other cause."
+        "label": "規則",
+        "text": "R3 題文已交代某因素對結果的貢獻時，在其他相關條件相同且符合所述作用關係的範圍內，減少該因素可支持結果減少的有限推論。仍須核對原句程度及因果鏈的每一環；結果減少不等於結果消失。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "Do not convert A causes B into the universal rule not A → not B. The clip’s causal difference-maker inference differs from denying the antecedent of a conditional rule; retain the stated degree and causal scope."
+        "label": "陷阱",
+        "text": "T1 A causes B 不可直接改寫成 not A → not B。移除一個原因，不表示其他原因也消失。片段的因果作用差異，不能當作條件邏輯中否定前件的通則，也不是逆否推論。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "2026-09-29 Notes pp.13–14 [Causation clip]"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 將已匯入的 Causation 補充改為中文為主"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o26",
+        "before": {
+          "title": "Causal Plausibility and Difference-Makers（因果可信度與作用差異）",
+          "summary": "Separate evaluating a proposed cause from drawing a limited inference from a stated causal effect.",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "First identify whether the causal relationship is the author’s proposed explanation or a relationship supplied by the stimulus. For a proposed explanation, apply OL-012: consider alternatives and assess the explanation’s plausibility."
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Alongside reverse causation, third factors, and bad data, consider regression to the mean when an unusually extreme result is followed by a less extreme one. The return toward typical performance may occur without the claimed intervention causing it."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "Plausibility checks in the clip: covariation, a mechanism connecting cause and effect, whether the proposed cause was present and capable, and whether changing the cause would make a difference to the effect."
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "For a stated causal contribution, reducing that contribution can support a limited claim of less effect, with other relevant conditions held constant. Track the wording and each link in a causal chain. Less effect does not mean no effect; removing one contributor does not eliminate every other cause."
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "Do not convert A causes B into the universal rule not A → not B. The clip’s causal difference-maker inference differs from denying the antecedent of a conditional rule; retain the stated degree and causal scope."
+            }
+          ]
+        }
+      }
+    ],
+    "client_request_id": "01-20260929-o4",
+    "updated_at": "2026-09-30T06:49:07.474Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-044",
+    "parent_id": "OL-008",
+    "level": 4,
+    "order": 1,
+    "title": "Flaw（缺陷）",
+    "summary": "先找前提到結論的漏洞，再核對選項是否準確描述該漏洞。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+          "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+          "Unproven v. Proven False：未獲證明即當作為假。",
+          "Sampling：樣本過小、不具代表性或自我選擇。",
+          "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+          "Part v. Whole：以部分推整體，或反之。",
+          "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+          "Circular：結論僅為前提的重述。",
+          "Internal Contradiction：論證自相矛盾。",
+          "Equivocation：同一關鍵詞前後用兩種意思。",
+          "次要六項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome、Possible v. Certain（把 likely 推成 certain，屬 Degree，不同於 Unproven v. Proven False）。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，正解常為「還有別的原因或反例」，但該反例須足以破壞結論：另一原因也能產生結果，只推翻「唯一原因」的主張，不必然推翻「該原因足以保證結果」的主張。先看結論主張的是唯一性、充分性或必然性，再判斷反例是否命中。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
+      },
+      {
+        "type": "p",
+        "label": "官方例題",
+        "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+        "refs": [
+          "A-20260920-PT140-S1-Q18",
+          "A-20260921-PT140-S1-Q24",
+          "A-20260921-PT140-S1-Q21",
+          "A-20260918-PT141-S2-Q15"
+        ]
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "依最新 repo 3d6cba6，將 OL-008 既有 Flaw 內容完整保留至子節；2026-09-29 使用者指定層級"
       }
     ],
     "status": "草稿",
     "protected": false,
     "revisions": [],
-    "client_request_id": "01-20260929-o4",
-    "updated_at": "2026-09-30T06:35:11.417Z",
+    "client_request_id": "01-20260929-o21",
+    "updated_at": "2026-09-30T06:49:07.328Z",
     "updated_by": "tutor"
   }
 ]
