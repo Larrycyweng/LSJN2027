@@ -3113,69 +3113,22 @@
     "level": 3,
     "order": 2,
     "title": "Skeptical of Conclusion（質疑結論）",
-    "summary": "即使前提為真，結論何處仍可能不成立？選項須描述準確，且指中這一步的漏洞。",
+    "summary": "檢查前提是否足以支持結論，並辨認反駁所針對的主張與推理。",
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
-        "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+        "label": "導覽",
+        "text": "依筆記順序，本節下設兩個同層子節：① Flaw（缺陷）；② Rebuttals（反駁，OL-041）。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
+        "label": "規則",
+        "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
-          "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
-          "Unproven v. Proven False：未獲證明即當作為假。",
-          "Sampling：樣本過小、不具代表性或自我選擇。",
-          "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
-          "Part v. Whole：以部分推整體，或反之。",
-          "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
-          "Circular：結論僅為前提的重述。",
-          "Internal Contradiction：論證自相矛盾。",
-          "Equivocation：同一關鍵詞前後用兩種意思。",
-          "次要六項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome、Possible v. Certain（把 likely 推成 certain，屬 Degree，不同於 Unproven v. Proven False）。"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，正解常為「還有別的原因或反例」，但該反例須足以破壞結論：另一原因也能產生結果，只推翻「唯一原因」的主張，不必然推翻「該原因足以保證結果」的主張。先看結論主張的是唯一性、充分性或必然性，再判斷反例是否命中。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
-      },
-      {
-        "type": "p",
-        "label": "Steps",
-        "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
-        "refs": [
-          "A-20260920-PT140-S1-Q18",
-          "A-20260921-PT140-S1-Q24",
-          "A-20260921-PT140-S1-Q21",
-          "A-20260918-PT141-S2-Q15"
-        ]
+        "label": "索引",
+        "text": "原 OL-008 的 R1–R5、S1、缺陷清單與官方例題連結，均保留於 Flaw 子節；其他章節原有的 OL-008 引用仍由此進入。"
       }
     ],
     "source_refs": [
@@ -3214,6 +3167,10 @@
       {
         "type": "Supplement",
         "ref": "LR-cram-sheet Famous Flaws；2026-09-28 教材比對"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 層級修正：既有 Flaw 內容已保留於第一子節，Rebuttals 移入第二子節"
       }
     ],
     "status": "草稿",
@@ -4079,40 +4036,84 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "user",
+        "summary": "接受提案 01-20260929-o23",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "即使前提為真，結論何處仍可能不成立？選項須描述準確，且指中這一步的漏洞。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
+                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
+                "Unproven v. Proven False：未獲證明即當作為假。",
+                "Sampling：樣本過小、不具代表性或自我選擇。",
+                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
+                "Part v. Whole：以部分推整體，或反之。",
+                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
+                "Circular：結論僅為前提的重述。",
+                "Internal Contradiction：論證自相矛盾。",
+                "Equivocation：同一關鍵詞前後用兩種意思。",
+                "次要六項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome、Possible v. Certain（把 likely 推成 certain，屬 Degree，不同於 Unproven v. Proven False）。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，正解常為「還有別的原因或反例」，但該反例須足以破壞結論：另一原因也能產生結果，只推翻「唯一原因」的主張，不必然推翻「該原因足以保證結果」的主張。先看結論主張的是唯一性、充分性或必然性，再判斷反例是否命中。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
+              "refs": [
+                "A-20260920-PT140-S1-Q18",
+                "A-20260921-PT140-S1-Q24",
+                "A-20260921-PT140-S1-Q21",
+                "A-20260918-PT141-S2-Q15"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-30T06:49:07.374Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260929-o23",
-        "date": "2026-09-29",
-        "summary": "檢查前提是否足以支持結論，並辨認反駁所針對的主張與推理。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "導覽",
-            "text": "依筆記順序，本節下設兩個同層子節：① Flaw（缺陷）；② Rebuttals（反駁，OL-041）。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
-          },
-          {
-            "type": "p",
-            "label": "索引",
-            "text": "原 OL-008 的 R1–R5、S1、缺陷清單與官方例題連結，均保留於 Flaw 子節；其他章節原有的 OL-008 引用仍由此進入。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-29 層級修正：既有 Flaw 內容已保留於第一子節，Rebuttals 移入第二子節"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-09-30T06:49:28.577Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-009",
