@@ -2034,13 +2034,18 @@
     "parent_id": "OL-002",
     "level": 3,
     "order": 3,
-    "title": "Function Family（功能家族）",
+    "title": "Match Family（原筆記稱 Function Family）",
     "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
     "blocks": [
       {
         "type": "p",
         "label": "Recognition",
         "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見 OL-007；Method、Parallel、Parallel Flaw 尚未教。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Match Family comprises Main Conclusion, Role, Method, Parallel, and Parallel Flaw. The Rebuttals clip applies across question families; Parallel Flaw remains in Match Family even when the matched flaw occurs in a rebuttal. Recognition of a rebuttal does not change the question’s family."
       }
     ],
     "source_refs": [
@@ -2055,6 +2060,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-29 Notes p.1、pp.5–8；本對話家族名稱比對"
       }
     ],
     "status": "草稿",
@@ -2096,9 +2105,25 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o5",
+        "before": {
+          "title": "Function Family（功能家族）",
+          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見 OL-007；Method、Parallel、Parallel Flaw 尚未教。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-24T04:53:10.988Z",
+    "updated_at": "2026-09-30T06:35:11.442Z",
     "updated_by": "tutor"
   },
   {
@@ -2537,6 +2562,11 @@
           "A-20260918-PT141-S2-Q10",
           "A-20260918-PT141-S2-Q11"
         ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Clarification of R5: a Main Conclusion answer may paraphrase the author’s claim. Match meaning, scope, degree, and attribution, not identical words. A pivot is a clue; verify the support relationship. See Reasoning Structures → Rebuttals."
       }
     ],
     "source_refs": [
@@ -2571,6 +2601,10 @@
       {
         "type": "Supplement",
         "ref": "LR-Strategies 論證結構；2026-09-28 教材比對"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-09-29 Notes pp.4–6 [Rebuttals clip]"
       }
     ],
     "status": "草稿",
@@ -2918,9 +2952,67 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-29",
+        "by": "tutor",
+        "summary": "家教更新 01-20260929-o2",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先找作者要證明的判斷，再辨每句是支持、背景、反方還是讓步。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 規則前提。must、only if、requires、necessary、unless、if...then、any...that 提示條件關係，讀到即畫箭頭；但這些詞不決定句子角色。含條件詞的句子可以是前提，也可以是作者要證明的結論，角色只看支持關係：刪掉該句，若事實到結論的路斷了，它是前提；若其他句子都在支持它，它是結論。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解必須是題文說過的話，作者沒下的評價不選。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S2 Q16：壓縮式反駁結論 2025 與 2026 皆漏，SIG-003。\nPT140 S3 Q12、S1 Q09：角色判斷正確並說出理由。\nPT141 S2 Q10：規則在末句，訊號詞 must；bridge 為 discern → care，SIG-001。\nPT141 S2 Q11：only 淡化、in any case 獨立理由；作者支持句誤歸反方。",
+              "refs": [
+                "A-20260914-PT140-S2-Q16",
+                "A-20260914-PT140-S3-Q12",
+                "A-20260914-PT140-S1-Q09",
+                "A-20260918-PT141-S2-Q10",
+                "A-20260918-PT141-S2-Q11"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-09-29T04:18:26.488Z",
+    "updated_at": "2026-09-30T06:35:11.399Z",
     "updated_by": "tutor"
   },
   {
@@ -11142,6 +11234,157 @@
     "revisions": [],
     "client_request_id": "W1-20260924-reorg-principle01",
     "updated_at": "2026-09-24T23:25:55.962Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-041",
+    "parent_id": "OL-009",
+    "level": 3,
+    "order": 4,
+    "title": "Rebuttals（反駁）",
+    "summary": "Identify whose claim is being challenged and exactly what the author rejects.",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "Attribution（觀點歸屬） identifies whose view is reported: X claims, many argue, some may believe. Look for a pivot (but, however, yet, nevertheless) and the author’s pushback; attribution alone does not establish disagreement."
+      },
+      {
+        "type": "p",
+        "label": "Steps",
+        "text": "Identify the reported claim and its support; then identify the author’s response and support. Replace this, that, or it with the actual claim. State the rebuttal conclusion with its original scope and strength."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Distinguish: the opposing conclusion is false; it is probably false; another explanation is more likely; or the opposing argument fails to establish it. Rejecting the support does not by itself prove the conclusion false."
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "Check whether the author attacks the person instead of the reasoning (Ad Hominem), treats lack of proof as disproof, addresses a different issue (Irrelevant Response), changes the opposing claim (Straw Man), or raises an objection compatible with that claim (Compatible Objection). Identify the actual mismatch before applying a label."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Main Conclusion: match the author’s rebuttal, including degree and pronoun referents (OL-007). Necessary Assumption: apply Linking or Defending to the author’s argument (OL-039). Most Supported: preserve the supported strength (OL-004). Method: describe the actual response, such as questioning an assumption, identifying undesirable consequences, offering an alternative explanation, or pointing out an overlooked consideration."
+      },
+      {
+        "type": "p",
+        "label": "Status",
+        "text": "Rebuttals video completed on 2026-09-29. Applications shown within this video do not establish completion or mastery of the separate Main Conclusion, Role, Method, or inference courses."
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-09-29 Notes pp.4–8 [Rebuttals clip]；本對話 Attribution 說明"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20260929-o1",
+    "updated_at": "2026-09-30T06:35:11.393Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-042",
+    "parent_id": "OL-010",
+    "level": 4,
+    "order": 1,
+    "title": "Conditional Translations and Chains（條件翻譯與串接）",
+    "summary": "Translate negation and compound conditions before linking arrows.",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "A → B and B → C yield A → C. For (A and B) → C plus C → D, establishing A leaves B → D; A alone does not establish D."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Negate and as or; negate or as and. (A and B) → C contraposes to not C → (not A or not B). X → (Y or Z) contraposes to (not Y and not Z) → not X."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "No A are B means A → not B. Not all A are B means some A are not B. The clip uses few A are B to indicate most A are not B; do not translate few as none."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "P unless Q: not Q → P, equivalently not P → Q. Cannot P unless Q: P → Q. Read without, until, and except in the full sentence and track each negation."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "A if and only if B gives both A → B and B → A. Then and only then / when and only when express the same two-way requirement. With otherwise, reconstruct both clauses before deciding which conditions are equivalent."
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "Signal words help translate a stated rule; they do not determine whether a sentence is a premise or conclusion. Leads to in a causal explanation must not automatically be treated as an exceptionless conditional guarantee."
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-09-29 Notes pp.14–15 [Conditional clip]"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20260929-o3",
+    "updated_at": "2026-09-30T06:35:11.409Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-043",
+    "parent_id": "OL-012",
+    "level": 4,
+    "order": 1,
+    "title": "Causal Plausibility and Difference-Makers（因果可信度與作用差異）",
+    "summary": "Separate evaluating a proposed cause from drawing a limited inference from a stated causal effect.",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "First identify whether the causal relationship is the author’s proposed explanation or a relationship supplied by the stimulus. For a proposed explanation, apply OL-012: consider alternatives and assess the explanation’s plausibility."
+      },
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "Alongside reverse causation, third factors, and bad data, consider regression to the mean when an unusually extreme result is followed by a less extreme one. The return toward typical performance may occur without the claimed intervention causing it."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "Plausibility checks in the clip: covariation, a mechanism connecting cause and effect, whether the proposed cause was present and capable, and whether changing the cause would make a difference to the effect."
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "For a stated causal contribution, reducing that contribution can support a limited claim of less effect, with other relevant conditions held constant. Track the wording and each link in a causal chain. Less effect does not mean no effect; removing one contributor does not eliminate every other cause."
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "Do not convert A causes B into the universal rule not A → not B. The clip’s causal difference-maker inference differs from denying the antecedent of a conditional rule; retain the stated degree and causal scope."
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-09-29 Notes pp.13–14 [Causation clip]"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20260929-o4",
+    "updated_at": "2026-09-30T06:35:11.417Z",
     "updated_by": "tutor"
   }
 ]
