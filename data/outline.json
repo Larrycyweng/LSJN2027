@@ -11478,11 +11478,6 @@
         "type": "p",
         "label": "題型應用",
         "text": "必要假設（Necessary Assumption）：針對作者自己的論證，檢查連結（Linking）或防禦（Defending），見 OL-039。最受支持（Most Supported）：表達題文支持的反駁結論，不自行加強，見 OL-004。"
-      },
-      {
-        "type": "p",
-        "label": "分類",
-        "text": "依個人筆記，本節位於 Argument Structure → Skeptical of Conclusion，與 Flaw 同層並接在其後。Rebuttals 描述論證回應他人主張的型態，可出現在多種題型中。"
       }
     ],
     "source_refs": [
@@ -11493,6 +11488,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-29 將已匯入的 Rebuttals 內容改為中文為主；依 Notes pp.4–8 及本對話說明"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 使用者要求刪除分類段落；其餘內容依最新 repo b75102d 保留"
       }
     ],
     "status": "草稿",
@@ -11579,10 +11578,66 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "tutor",
+        "summary": "家教更新 01-20260930-o2",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 Attribution 譯為「觀點歸屬」，不是因果上的「歸因」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 核對反駁是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再貼缺陷標籤。"
+            },
+            {
+              "type": "p",
+              "label": "題型應用",
+              "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉，見 OL-007。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。"
+            },
+            {
+              "type": "p",
+              "label": "題型應用",
+              "text": "必要假設（Necessary Assumption）：針對作者自己的論證，檢查連結（Linking）或防禦（Defending），見 OL-039。最受支持（Most Supported）：表達題文支持的反駁結論，不自行加強，見 OL-004。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "依個人筆記，本節位於 Argument Structure → Skeptical of Conclusion，與 Flaw 同層並接在其後。Rebuttals 描述論證回應他人主張的型態，可出現在多種題型中。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o1",
-    "updated_at": "2026-09-30T06:49:07.441Z",
+    "updated_at": "2026-09-30T15:19:00.801Z",
     "updated_by": "tutor"
   },
   {
@@ -11688,7 +11743,7 @@
     "parent_id": "OL-012",
     "level": 4,
     "order": 1,
-    "title": "因果可信度與作用差異（Causal Plausibility and Difference-Makers）",
+    "title": "結論可信度（Plausibility of Conclusion）與因果作用差異（Causal Difference-Maker）",
     "summary": "分清正在評估的因果解釋，以及題文已提供的因果作用。",
     "blocks": [
       {
@@ -11725,6 +11780,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-29 將已匯入的 Causation 補充改為中文為主"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 核對 Notes 第13–14頁：採用筆記原有名稱，保留於 Causation（OL-012）下"
       }
     ],
     "status": "草稿",
@@ -11765,10 +11824,46 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "tutor",
+        "summary": "家教更新 01-20260930-o1",
+        "before": {
+          "title": "因果可信度與作用差異（Causal Plausibility and Difference-Makers）",
+          "summary": "分清正在評估的因果解釋，以及題文已提供的因果作用。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 先判斷因果關係是作者提出、尚待評估的解釋，還是題文已提供的關係。若是待評估的解釋，沿用 OL-012 的兩問：有無其他解釋？作者的解釋本身是否可信？"
+            },
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "除了反向因果、第三因素及資料問題，也留意回歸平均（Regression to the Mean）：異常極端的表現之後出現較接近平常的表現，不一定是介入措施造成。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R2 因果可信度的檢查包括：原因與結果是否共同變動、兩者之間有無作用機制、原因是否實際存在且足以發揮作用，以及改變原因是否會使結果有所不同。依題文與選項所涉及的問題檢查。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R3 題文已交代某因素對結果的貢獻時，在其他相關條件相同且符合所述作用關係的範圍內，減少該因素可支持結果減少的有限推論。仍須核對原句程度及因果鏈的每一環；結果減少不等於結果消失。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 A causes B 不可直接改寫成 not A → not B。移除一個原因，不表示其他原因也消失。片段的因果作用差異，不能當作條件邏輯中否定前件的通則，也不是逆否推論。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o4",
-    "updated_at": "2026-09-30T06:49:07.474Z",
+    "updated_at": "2026-09-30T15:19:00.794Z",
     "updated_by": "tutor"
   },
   {
