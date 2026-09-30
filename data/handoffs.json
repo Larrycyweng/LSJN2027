@@ -388,5 +388,18 @@
     "client_request_id": "01-20260929-h3",
     "created_at": "2026-09-30T06:49:07.504Z",
     "updated_at": "2026-09-30T06:49:07.504Z"
+  },
+  {
+    "handoff_id": "HO-031",
+    "session_id": "",
+    "taught": "核對 Notes 第13–15頁原位階：結論可信度與因果作用差異屬於 Causation；第14頁中段才開始 Conditional clip。[補充] 無。",
+    "observed": "OL-043 維持在 OL-012 下，標題改用筆記原有的 Plausibility of Conclusion 與 Causal Difference-Maker。依使用者要求，刪除 OL-041 的分類段落，其餘八段保留。無新增作答或學習時數。",
+    "open_questions": "本包僅修正章節名稱及刪除指定段落，不改動既有層級。尚未確認本包實際匯入。",
+    "date": "2026-09-30",
+    "stopped_at": "已依最新 repo b75102d 製作大綱修正包，待使用者匯入。",
+    "next_task": "依已確認順序接 Main Conclusion，再接 Role、Method；開始前核對是否已有新增完成紀錄。",
+    "client_request_id": "01-20260930-h1",
+    "created_at": "2026-09-30T15:19:00.813Z",
+    "updated_at": "2026-09-30T15:19:00.813Z"
   }
 ]
