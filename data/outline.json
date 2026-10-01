@@ -168,8 +168,7 @@
     "blocks": [
       {
         "type": "p",
-        "label": "教材統計",
-        "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
+        "text": "教材統計: LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
       }
     ],
     "source_refs": [
@@ -232,63 +231,15 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-22",
-        "by": "user",
-        "summary": "接受提案 W1-20260922-o4",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
-            },
-            {
-              "type": "p",
-              "label": "Steps",
-              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
-            },
-            {
-              "type": "p",
-              "label": "Trap",
-              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
-              "refs": [
-                "A-20260921-PT140-S3-Q19",
-                "A-20260921-PT140-S1-Q22",
-                "A-20260921-June 2007-S3-Q17",
-                "A-20260921-PT65-S4-Q13"
-              ]
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-22",
         "by": "tutor",
@@ -1816,9 +1767,25 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:50:01.738Z",
+    "updated_at": "2026-10-01T05:03:14.271Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -2211,13 +2178,19 @@
     "blocks": [
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+        "text": "規則: R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯，見「論證結構 → 找結論與證據」。\nS2 質疑結論：檢查即使證據為真，結論是否仍可能不成立，見「論證結構 → 質疑結論」。\nS3 評估推理型態：反駁見「論證結構 → 質疑結論 → 反駁」；因果、條件與比較見「推理結構」各子節。"
+        "text": "步驟: S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯，見「論證結構 → 找結論與證據」。"
+      },
+      {
+        "type": "p",
+        "text": "S2 質疑結論：檢查即使證據為真，結論是否仍可能不成立，見「論證結構 → 質疑結論」。"
+      },
+      {
+        "type": "p",
+        "text": "S3 評估推理型態：反駁見「論證結構 → 質疑結論 → 反駁」；因果、條件與比較見「推理結構」各子節。"
       }
     ],
     "source_refs": [
@@ -2248,9 +2221,13 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": true,
     "revisions": [
       {
@@ -2631,9 +2608,30 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "先找結論與證據，再指出兩者之間的推理落差。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯，見「論證結構 → 找結論與證據」。\nS2 質疑結論：檢查即使證據為真，結論是否仍可能不成立，見「論證結構 → 質疑結論」。\nS3 評估推理型態：反駁見「論證結構 → 質疑結論 → 反駁」；因果、條件與比較見「推理結構」各子節。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:50:07.609Z",
+    "updated_at": "2026-10-01T05:03:28.950Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -7621,13 +7619,11 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+        "text": "辨識: 六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+        "text": "規則: R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
       },
       {
         "type": "p",
@@ -7651,8 +7647,19 @@
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。\nT2 作答前未確認題幹任務，以自己對結論的判斷挑選項。\nT3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。\nT4 診斷正確但未對應到選項字母。"
+        "text": "陷阱: T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。"
+      },
+      {
+        "type": "p",
+        "text": "T2 作答前未確認題幹任務，以自己對結論的判斷挑選項。"
+      },
+      {
+        "type": "p",
+        "text": "T3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。"
+      },
+      {
+        "type": "p",
+        "text": "T4 診斷正確但未對應到選項字母。"
       }
     ],
     "source_refs": [
@@ -7687,9 +7694,13 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30"
       }
     ],
-    "status": "已核准",
+    "status": "草稿",
     "protected": true,
     "revisions": [
       {
@@ -8333,9 +8344,55 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+            },
+            {
+              "type": "p",
+              "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
+            },
+            {
+              "type": "p",
+              "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+            },
+            {
+              "type": "p",
+              "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+            },
+            {
+              "type": "p",
+              "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「論證結構 → 質疑結論 → 缺陷」R1。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。\nT2 作答前未確認題幹任務，以自己對結論的判斷挑選項。\nT3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。\nT4 診斷正確但未對應到選項字母。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:50:20.750Z",
+    "updated_at": "2026-10-01T05:03:48.651Z",
     "updated_by": "user",
     "proposals": []
   },
