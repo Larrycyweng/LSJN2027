@@ -163,13 +163,13 @@
     "parent_id": "OL-002",
     "level": 3,
     "order": 1,
-    "title": "Assumption Family",
+    "title": "Assumption Family（假設家族）",
     "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
     "blocks": [
       {
         "type": "p",
         "label": "教材統計",
-        "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。各題型百分比為教材所列的整體 LR 占比，非家族內重新換算的比例；家族分類有重疊，數值依教材原樣保留，不作現行考試固定分布。"
+        "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
       }
     ],
     "source_refs": [
@@ -228,63 +228,15 @@
       {
         "type": "User Revision",
         "ref": "LSATLab Notes 第1頁。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "已核准",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-22",
-        "by": "tutor",
-        "summary": "家教提案（待確認）",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
-            },
-            {
-              "type": "p",
-              "label": "Steps",
-              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
-            },
-            {
-              "type": "p",
-              "label": "Trap",
-              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
-              "refs": [
-                "A-20260921-PT140-S3-Q19",
-                "A-20260921-PT140-S1-Q22",
-                "A-20260921-June 2007-S3-Q17",
-                "A-20260921-PT65-S4-Q13"
-              ]
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-22",
         "by": "user",
@@ -1848,30 +1800,27 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o101",
+        "before": {
+          "title": "Assumption Family",
+          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。各題型百分比為教材所列的整體 LR 占比，非家族內重新換算的比例；家族分類有重疊，數值依教材原樣保留，不作現行考試固定分布。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.895Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o101",
-        "date": "2026-09-30",
-        "title": "Assumption Family（假設家族）",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "教材統計",
-            "text": "LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:01.738Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-004",
@@ -2262,21 +2211,13 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Steps",
-        "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯（OL-007）。\nS2 質疑結論：即使證據為真，仍可論證反結論（OL-008）。\nS3 評估推理型態：反駁、因果、條件、比較（OL-009 至 OL-012）。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
       },
       {
         "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q19（Weaken）：結論含 communal object passed around a small assembly，正解攻擊此限定語；誤選 E 為象徵層面陳述，與結論相容。",
-        "refs": [
-          "A-20260918-PT141-S2-Q19"
-        ]
+        "label": "步驟",
+        "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯，見「論證結構 → 找結論與證據」。\nS2 質疑結論：檢查即使證據為真，結論是否仍可能不成立，見「論證結構 → 質疑結論」。\nS3 評估推理型態：反駁見「論證結構 → 質疑結論 → 反駁」；因果、條件與比較見「推理結構」各子節。"
       }
     ],
     "source_refs": [
@@ -2303,6 +2244,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "已核准",
@@ -2657,34 +2602,40 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o104",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "先找結論與證據，再指出兩者之間的推理落差。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯（OL-007）。\nS2 質疑結論：即使證據為真，仍可論證反結論（OL-008）。\nS3 評估推理型態：反駁、因果、條件、比較（OL-009 至 OL-012）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q19（Weaken）：結論含 communal object passed around a small assembly，正解攻擊此限定語；誤選 E 為象徵層面陳述，與結論相容。",
+              "refs": [
+                "A-20260918-PT141-S2-Q19"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.930Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o104",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 作答前先標出結論整句，包含所有限定語與同位語。削弱與強化的攻擊點常在限定語，不在主詞。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 找結論與證據：用關鍵字、意見對事實、被支持與支持的邏輯，見「論證結構 → 找結論與證據」。\nS2 質疑結論：檢查即使證據為真，結論是否仍可能不成立，見「論證結構 → 質疑結論」。\nS3 評估推理型態：反駁見「論證結構 → 質疑結論 → 反駁」；因果、條件與比較見「推理結構」各子節。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:07.609Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-007",
@@ -3315,18 +3266,8 @@
     "blocks": [
       {
         "type": "p",
-        "label": "導覽",
-        "text": "依筆記順序，本節下設兩個同層子節：① Flaw（缺陷）；② Rebuttals（反駁，OL-041）。"
-      },
-      {
-        "type": "p",
         "label": "規則",
         "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
-      },
-      {
-        "type": "p",
-        "label": "索引",
-        "text": "原 OL-008 的 R1–R5、S1、缺陷清單與官方例題連結，均保留於 Flaw 子節；其他章節原有的 OL-008 引用仍由此進入。"
       }
     ],
     "source_refs": [
@@ -3369,6 +3310,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-29 層級修正：既有 Flaw 內容已保留於第一子節，Rebuttals 移入第二子節"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "草稿",
@@ -4333,29 +4278,37 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o106",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "檢查前提是否足以支持結論，並辨認反駁所針對的主張與推理。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "導覽",
+              "text": "依筆記順序，本節下設兩個同層子節：① Flaw（缺陷）；② Rebuttals（反駁，OL-041）。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
+            },
+            {
+              "type": "p",
+              "label": "索引",
+              "text": "原 OL-008 的 R1–R5、S1、缺陷清單與官方例題連結，均保留於 Flaw 子節；其他章節原有的 OL-008 引用仍由此進入。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.951Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o106",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "即使前提為真，也要檢查是否足以支持作者的結論。理由不足，與結論已被證明為假，是不同判斷。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:09.853Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-009",
@@ -4367,13 +4320,13 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "Conditional：A → B，B → C，故 A → C。Causal：A 導致 B，B 導致 C，故 A 導致 C。Comparative：A < B，B < C，故 A < C。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R1 各結構的固定問題。Conditional：找被假設的條件（OL-010）。Comparison：找差異（Analogy）或利弊（Recommendation）（OL-011）。Causation：問有無其他解釋（OL-012）。"
+        "label": "規則",
+        "text": "R1 各結構的固定問題。Conditional：找被假設的條件（「推理結構 → 條件」）。Comparison：找差異（Analogy）或利弊（Recommendation）（「推理結構 → 比較」）。Causation：問有無其他解釋（「推理結構 → 因果」）。"
       }
     ],
     "source_refs": [
@@ -4392,6 +4345,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-22 大綱重整（LR 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語；OL-008 復原 9/20 影片《Flaw》內容"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "草稿",
@@ -4648,34 +4605,32 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o107",
+        "before": {
+          "title": "Reasoning Structures（推理結構）",
+          "summary": "先辨條件、比較或因果；各自問缺條件、可比性或其他解釋。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Conditional：A → B，B → C，故 A → C。Causal：A 導致 B，B 導致 C，故 A 導致 C。Comparative：A < B，B < C，故 A < C。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 各結構的固定問題。Conditional：找被假設的條件（OL-010）。Comparison：找差異（Analogy）或利弊（Recommendation）（OL-011）。Causation：問有無其他解釋（OL-012）。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.961Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o107",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "Conditional：A → B，B → C，故 A → C。Causal：A 導致 B，B 導致 C，故 A 導致 C。Comparative：A < B，B < C，故 A < C。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 各結構的固定問題。Conditional：找被假設的條件（「推理結構 → 條件」）。Comparison：找差異（Analogy）或利弊（Recommendation）（「推理結構 → 比較」）。Causation：問有無其他解釋（「推理結構 → 因果」）。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:12.178Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-010",
@@ -4687,48 +4642,34 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
       },
       {
         "type": "p",
-        "label": "Recognition",
-        "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。NA／SA 的 Question Stem 辨識、操作步驟與 Strength 判斷見 OL-039。"
+        "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。NA／SA 的 Question Stem 辨識、操作步驟與 Strength 判斷見「總覽 → 假設家族 → 必要假設與充分假設」。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R2 否定「A and B」得「not A or not B」。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 的事實可沿 all 箭頭方向推進（most A are B、all B are C，得 most A are C）。some 可雙向讀。兩個 some 不能合併；some 與 most 不能合併。同一母群的兩個 most 可以合併：most A are B、most A are C，推出 some B are C。most 為超過一半；not most 包含恰好一半。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。已撤回的舊說法：「箭頭尖端那群一定較大」。"
+        "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。PT140 S3 Q11 方向反轉。"
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT140 S1 Q17：逆否正確套用。\nPT140 S3 Q11（SA）：方向反轉，當場教。\nPT140 S3 Q17：necessary 讀成 principally。",
-        "refs": [
-          "A-20260915-PT140-S1-Q17",
-          "A-20260915-PT140-S3-Q11",
-          "A-20260915-PT140-S3-Q17"
-        ]
+        "label": "陷阱",
+        "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。"
       }
     ],
     "source_refs": [
@@ -4775,6 +4716,10 @@
       {
         "type": "Supplement",
         "ref": "LR-Strategies p.16；LR-cram-sheet 量詞；2026-09-28 教材比對"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "草稿",
@@ -6200,55 +6145,67 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o108",
+        "before": {
+          "title": "Conditional（條件）",
+          "summary": "看到條件詞先畫箭頭：箭頭指向必要條件；只走正向或逆否。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。NA／SA 的 Question Stem 辨識、操作步驟與 Strength 判斷見 OL-039。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 否定「A and B」得「not A or not B」。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 的事實可沿 all 箭頭方向推進（most A are B、all B are C，得 most A are C）。some 可雙向讀。兩個 some 不能合併；some 與 most 不能合併。同一母群的兩個 most 可以合併：most A are B、most A are C，推出 some B are C。most 為超過一半；not most 包含恰好一半。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。已撤回的舊說法：「箭頭尖端那群一定較大」。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。PT140 S3 Q11 方向反轉。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q17：逆否正確套用。\nPT140 S3 Q11（SA）：方向反轉，當場教。\nPT140 S3 Q17：necessary 讀成 principally。",
+              "refs": [
+                "A-20260915-PT140-S1-Q17",
+                "A-20260915-PT140-S3-Q11",
+                "A-20260915-PT140-S3-Q17"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.975Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o108",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "作者假設「若 X 則 Y」。例：證據「60% 技術員未取得證照」，結論「60% 不合格」，假設「未取證照 → 不合格」。未被觸發的條件句：題文陳述一條規則，但證據從未建立其前件。例：「觀眾不在意任何角色 → 不能成為成功的戲劇」，證據只說觀眾辨識不出角色特質，「辨識不出 → 不在意」是被假設的。"
-          },
-          {
-            "type": "p",
-            "text": "題文層的條件訊號詞。引入充分條件（箭頭左側）：if、when、whenever、where、the only，全稱詞 all、no、every、each、any。引入必要條件（箭頭右側）：only、only if、unless、must、requires、depends on、necessitates，保證詞 ensures、implies、will、leads to。自然英語的必要條件寫法：X is essential / necessary / required for Y 為 Y → X；Y requires X、Y only if X 為 Y → X；Unless X, Y 為 ~X → Y。與 LR-Language-Cues 表對照。NA／SA 的 Question Stem 辨識、操作步驟與 Strength 判斷見「總覽 → 假設家族 → 必要假設與充分假設」。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 若 X 則 Y：X → Y，必要條件在箭頭尖端。逆否：兩邊否定並反向（~Y → ~X）。逆命題與反命題皆不成立。"
-          },
-          {
-            "type": "p",
-            "text": "R2 否定「A and B」得「not A or not B」。"
-          },
-          {
-            "type": "p",
-            "text": "R3 量詞。all 與 no 陳述可以串接；most 與 some 的事實可沿 all 箭頭方向推進（most A are B、all B are C，得 most A are C）。some 可雙向讀。兩個 some 不能合併；some 與 most 不能合併。同一母群的兩個 most 可以合併：most A are B、most A are C，推出 some B are C。most 為超過一半；not most 包含恰好一半。"
-          },
-          {
-            "type": "p",
-            "text": "R4 集合大小。對 all 陳述 A → B，每個 A 都是 B，故 B 群至少與 A 群一樣大。此規則對 most 與 some 不適用，對單一條件句（非全稱）也不適用。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 自然英語「if not X then not Y」畫成箭頭：~X → ~Y，逆否 Y → X。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:18.372Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-011",
@@ -6533,92 +6490,59 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
       },
       {
         "type": "p",
-        "label": "Steps",
+        "label": "步驟",
         "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
       },
       {
         "type": "p",
-        "label": "Steps",
         "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "T1 SIG-002：說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+        "label": "陷阱",
+        "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
       },
       {
         "type": "p",
-        "label": "Trap",
         "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q15：Counterfactual Comparison 曾被誤稱為 Reverse Causation。",
-        "refs": [
-          "A-20260918-PT141-S2-Q15"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT141 S2 Q22：起點基因一致，正解排除雜交來源；先例式誘答未提供相應的因果支持。",
-        "refs": [
-          "A-20260918-PT141-S2-Q22"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT140 S1 Q12：依使用者自述，誤選 D 的原因是只看到表象相似，未比較機制；比較溫和與寒冷地區，未補上所需的積雪融化機制。",
-        "refs": [
-          "A-20260923-PT140-S1-Q12"
-        ]
       }
     ],
     "source_refs": [
@@ -6653,6 +6577,10 @@
       {
         "type": "User Revision",
         "ref": "整合既有 Causation 兩問、使用者轉述 LSAT Lab Weaken 影片及本堂家教補充；技巧清單非影片逐字內容。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "草稿",
@@ -7577,80 +7505,111 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o110",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 SIG-002：說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q15：Counterfactual Comparison 曾被誤稱為 Reverse Causation。",
+              "refs": [
+                "A-20260918-PT141-S2-Q15"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT141 S2 Q22：起點基因一致，正解排除雜交來源；先例式誘答未提供相應的因果支持。",
+              "refs": [
+                "A-20260918-PT141-S2-Q22"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S1 Q12：依使用者自述，誤選 D 的原因是只看到表象相似，未比較機制；比較溫和與寒冷地區，未補上所需的積雪融化機制。",
+              "refs": [
+                "A-20260923-PT140-S1-Q12"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:46.014Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o110",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
-          },
-          {
-            "type": "p",
-            "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
-          },
-          {
-            "type": "p",
-            "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
-          },
-          {
-            "type": "p",
-            "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
-          },
-          {
-            "type": "p",
-            "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
-          },
-          {
-            "type": "p",
-            "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
-          },
-          {
-            "type": "p",
-            "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
-          },
-          {
-            "type": "p",
-            "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
-          },
-          {
-            "type": "p",
-            "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
-          },
-          {
-            "type": "p",
-            "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:16.903Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-013",
@@ -7662,55 +7621,38 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1，SIG-010）。"
+        "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見 OL-008 R1。"
+        "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「論證結構 → 質疑結論 → 缺陷」R1。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "T1 SIG-010：跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。T2 SIG-013：作答前未確認題幹任務，以自己對結論的判斷挑選項。T3 SIG-011：選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。T4 SIG-004：診斷正確但未對應到選項字母。"
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "PT140 S3 Q17：正解用有鏈條支撐的絕對句，誤選加入 principally。\nPT141 S2 Q23：Most Supported 以 Strengthen 方向作答，SIG-013。\nPT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，主體由聽眾換為附近居民，SIG-010。\nPT141 S2 Q19：誤選 E 為象徵層面陳述。\nPT141 S2 Q11：誤選為作者未下的評價，SIG-011。",
-        "refs": [
-          "A-20260915-PT140-S3-Q17",
-          "A-20260918-PT141-S2-Q23",
-          "A-20260918-PT141-S2-Q24",
-          "A-20260918-PT141-S2-Q19",
-          "A-20260918-PT141-S2-Q11"
-        ]
+        "label": "陷阱",
+        "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。\nT2 作答前未確認題幹任務，以自己對結論的判斷挑選項。\nT3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。\nT4 診斷正確但未對應到選項字母。"
       }
     ],
     "source_refs": [
@@ -7741,6 +7683,10 @@
       {
         "type": "Supplement",
         "ref": "LR-Trap-Answer-Descriptions；2026-09-28 教材比對"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "已核准",
@@ -8324,59 +8270,74 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o111",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1，SIG-010）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見 OL-008 R1。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 SIG-010：跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。T2 SIG-013：作答前未確認題幹任務，以自己對結論的判斷挑選項。T3 SIG-011：選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。T4 SIG-004：診斷正確但未對應到選項字母。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT140 S3 Q17：正解用有鏈條支撐的絕對句，誤選加入 principally。\nPT141 S2 Q23：Most Supported 以 Strengthen 方向作答，SIG-013。\nPT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，主體由聽眾換為附近居民，SIG-010。\nPT141 S2 Q19：誤選 E 為象徵層面陳述。\nPT141 S2 Q11：誤選為作者未下的評價，SIG-011。",
+              "refs": [
+                "A-20260915-PT140-S3-Q17",
+                "A-20260918-PT141-S2-Q23",
+                "A-20260918-PT141-S2-Q24",
+                "A-20260918-PT141-S2-Q19",
+                "A-20260918-PT141-S2-Q11"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:46.064Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o111",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
-          },
-          {
-            "type": "p",
-            "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
-          },
-          {
-            "type": "p",
-            "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
-          },
-          {
-            "type": "p",
-            "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
-          },
-          {
-            "type": "p",
-            "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
-          },
-          {
-            "type": "p",
-            "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「論證結構 → 質疑結論 → 缺陷」R1。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。\nT2 作答前未確認題幹任務，以自己對結論的判斷挑選項。\nT3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。\nT4 診斷正確但未對應到選項字母。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:20.750Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-014",
@@ -11862,58 +11823,52 @@
     "blocks": [
       {
         "type": "p",
-        "label": "Recognition",
+        "label": "辨識",
         "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
       },
       {
         "type": "p",
-        "label": "Recognition",
-        "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。比例合計超過 100%，不可視為互斥分類；考場依實際 Argument 辨認結構。"
+        "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。"
       },
       {
         "type": "p",
-        "label": "Rule",
+        "label": "規則",
         "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
       },
       {
         "type": "p",
-        "label": "Rule",
-        "text": "R2 Causation 依 OL-012 核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（OL-011）。"
+        "text": "R2 Causation 依「推理結構 → 因果」核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（「推理結構 → 比較」）。"
       },
       {
         "type": "p",
-        "label": "Rule",
         "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
       },
       {
         "type": "p",
-        "label": "Steps",
-        "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（OL-006 R1）。"
+        "label": "步驟",
+        "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（「論證結構」R1）。"
       },
       {
         "type": "p",
-        "label": "Steps",
         "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
       },
       {
         "type": "p",
-        "label": "Trap",
+        "label": "陷阱",
         "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
       },
       {
         "type": "p",
-        "label": "Trap",
-        "text": "T2 教材 Trap Answer 統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。百分比僅作教材參考。"
+        "text": "T2 教材誘答統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。"
       },
       {
         "type": "p",
-        "label": "Trap",
         "text": "T3 Scope／Degree：not primary concern 不等於 not important；特定情境的一項需求不等於整體需求。讀清楚 Answer Choice 實際涵蓋的範圍與強度，再判斷其削弱作用。"
       },
       {
         "type": "p",
-        "label": "Official Example",
-        "text": "PT65 S4 Q3：Premise 為 leisure travelers 購買 80% 機票；Conclusion 為航空公司應改為重視他們的舒適。使用者選 C，理由是它攻擊 leisure travelers 對舒適的要求。C 僅說長途飛行的 sleeping comfort 不是 primary concern，未充分動搖作者的優先順序，教材標為 Too Weak。D 指出 business travelers 的 Revenue share 遠高於 leisure travelers，提供優先照顧 business travelers 的商業理由，削弱 Ticket share → service priority 的推論。"
+        "label": "例子",
+        "text": "旅遊乘客購買 80% 機票，不直接代表航空公司應優先重視其舒適需求。若商務乘客帶來的營收遠高於旅遊乘客，便提供不同的商業理由，削弱「機票占比 → 服務優先順序」的推論。只說長途旅遊者不把睡眠舒適列為首要考量，不等於他們不重視舒適，也未必足以改變整體優先順序。"
       }
     ],
     "source_refs": [
@@ -11932,6 +11887,10 @@
       {
         "type": "User Revision",
         "ref": "整合既有 Weaken 大綱、使用者提供的 LSAT Lab Weaken Summary 兩張截圖、PT65 S4 Q3 截圖及本堂檢討。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
       }
     ],
     "status": "草稿",
@@ -12232,74 +12191,78 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-09-30",
+        "by": "user",
+        "summary": "接受提案 01-20260930-o135",
+        "before": {
+          "title": "Weaken（削弱）",
+          "summary": "假設選項為真，它如何使證據較不足以支持結論？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
+            },
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。比例合計超過 100%，不可視為互斥分類；考場依實際 Argument 辨認結構。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R2 Causation 依 OL-012 核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（OL-011）。"
+            },
+            {
+              "type": "p",
+              "label": "Rule",
+              "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（OL-006 R1）。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T2 教材 Trap Answer 統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。百分比僅作教材參考。"
+            },
+            {
+              "type": "p",
+              "label": "Trap",
+              "text": "T3 Scope／Degree：not primary concern 不等於 not important；特定情境的一項需求不等於整體需求。讀清楚 Answer Choice 實際涵蓋的範圍與強度，再判斷其削弱作用。"
+            },
+            {
+              "type": "p",
+              "label": "Official Example",
+              "text": "PT65 S4 Q3：Premise 為 leisure travelers 購買 80% 機票；Conclusion 為航空公司應改為重視他們的舒適。使用者選 C，理由是它攻擊 leisure travelers 對舒適的要求。C 僅說長途飛行的 sleeping comfort 不是 primary concern，未充分動搖作者的優先順序，教材標為 Too Weak。D 指出 business travelers 的 Revenue share 遠高於 leisure travelers，提供優先照顧 business travelers 的商業理由，削弱 Ticket share → service priority 的推論。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260923-o3",
-    "updated_at": "2026-10-01T04:49:46.541Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20260930-o135",
-        "date": "2026-09-30",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
-          },
-          {
-            "type": "p",
-            "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
-          },
-          {
-            "type": "p",
-            "text": "R2 Causation 依「推理結構 → 因果」核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（「推理結構 → 比較」）。"
-          },
-          {
-            "type": "p",
-            "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（「論證結構」R1）。"
-          },
-          {
-            "type": "p",
-            "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
-          },
-          {
-            "type": "p",
-            "text": "T2 教材誘答統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。"
-          },
-          {
-            "type": "p",
-            "text": "T3 Scope／Degree：not primary concern 不等於 not important；特定情境的一項需求不等於整體需求。讀清楚 Answer Choice 實際涵蓋的範圍與強度，再判斷其削弱作用。"
-          },
-          {
-            "type": "p",
-            "label": "例子",
-            "text": "旅遊乘客購買 80% 機票，不直接代表航空公司應優先重視其舒適需求。若商務乘客帶來的營收遠高於旅遊乘客，便提供不同的商業理由，削弱「機票占比 → 服務優先順序」的推論。只說長途旅遊者不把睡眠舒適列為首要考量，不等於他們不重視舒適，也未必足以改變整體優先順序。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-01T04:50:06.170Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-039",
