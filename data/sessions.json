@@ -586,5 +586,26 @@
     "client_request_id": "01-20260929-s1",
     "created_at": "2026-09-30T06:35:11.386Z",
     "updated_at": "2026-09-30T06:35:11.386Z"
+  },
+  {
+    "session_id": "S-20261001-01",
+    "week_label": "第2週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Main Conclusion 影片與新增筆記",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報 Main Conclusion 影片已完成並新增筆記；今日學習合計30分鐘，不另拆分影片與筆記時間。屬 Learn，未回報獨立作答或測驗。",
+    "session_date": "2026-10-01",
+    "mode": "觀念學習",
+    "effective_minutes": 30,
+    "client_request_id": "01-20261001-s1",
+    "created_at": "2026-10-02T06:51:09.057Z",
+    "updated_at": "2026-10-02T06:51:09.057Z"
   }
 ]
