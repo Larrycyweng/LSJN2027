@@ -2032,7 +2032,7 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見「論證結構 → 找結論與證據」。"
+        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 的方法見「論證結構 → 找結論與證據 → 主結論」；Role 的角色判準見「論證結構 → 找結論與證據」。"
       },
       {
         "type": "p",
@@ -2064,6 +2064,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes(1).pdf 第3頁 [Main Conclusion clip]；更新題型索引"
       }
     ],
     "status": "草稿",
@@ -2163,9 +2167,30 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-01",
+        "by": "tutor",
+        "summary": "家教更新 01-20261001-o2",
+        "before": {
+          "title": "Match Family（配對家族；原稱 Function Family）",
+          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見「論證結構 → 找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.921Z",
+    "updated_at": "2026-10-02T06:51:09.127Z",
     "updated_by": "tutor"
   },
   {
@@ -13779,6 +13804,69 @@
     ],
     "client_request_id": "01-20260929-o21",
     "updated_at": "2026-10-01T04:49:46.708Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-045",
+    "parent_id": "OL-007",
+    "level": 4,
+    "order": 1,
+    "title": "Main Conclusion（主結論）",
+    "summary": "找出作者要證明的主張，選擇保留其意思、範圍與程度的轉述。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "題幹常問 the conclusion、the main conclusion 或 the overall conclusion；任務是辨認作者的主結論。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 以支持關係找主結論：前提用來支持它；中間結論雖受其他前提支持，仍被用來支持更後面的結論。不要只依句子位置或結論關鍵字判斷。"
+      },
+      {
+        "type": "p",
+        "text": "R2 正解可以換句話說，但須保留作者主張的意思、範圍、程度與觀點歸屬。unlikely 不等於不可能；probably 不等於必然。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 分清作者與反方的主張，確認哪些句子提供支持、哪些句子接受支持。"
+      },
+      {
+        "type": "p",
+        "text": "S2 用自己的話簡述作者要證明什麼，再逐一核對選項。關鍵字與壓縮式反駁的判讀見「論證結構 → 找結論與證據」。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "Premise（前提，38%）：選到支持結論的理由。Intermediate Conclusion（中間結論，7%）：選到推理中的一站，尚未到作者要證明的主結論。"
+      },
+      {
+        "type": "p",
+        "text": "Unsupported（缺乏支持，19%）：加入作者未提出或未支持的主張。Too Strong（程度過強，11%）：把作者較弱的主張改成更強的斷言。"
+      },
+      {
+        "type": "p",
+        "text": "Opposing Point（反方觀點，8%）：把作者反對的主張當成作者立場。Assumption（假設，7%）：選到論證依賴的假設，而非作者提出的結論。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "結論型態：Refutation（反駁）39%；Language Cue（語言線索）21%；Recommendation（建議）18%；Prediction（預測）12%；Explanation（解釋）9%。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes(1).pdf 第3頁；§Argument Structure → Find the Conclusion + Evidence → [Main Conclusion clip]；轉述判準沿用「找結論與證據」既有規則"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261001-o1",
+    "updated_at": "2026-10-02T06:51:09.120Z",
     "updated_by": "tutor"
   }
 ]
