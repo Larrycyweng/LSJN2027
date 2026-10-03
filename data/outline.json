@@ -13812,61 +13812,154 @@
     "level": 4,
     "order": 1,
     "title": "Main Conclusion（主結論）",
-    "summary": "找出作者要證明的主張，選擇保留其意思、範圍與程度的轉述。",
+    "summary": "找出作者要證明的最終主張，再核對選項是否忠實轉述。",
     "blocks": [
       {
         "type": "p",
         "label": "辨識",
-        "text": "題幹常問 the conclusion、the main conclusion 或 the overall conclusion；任務是辨認作者的主結論。"
+        "text": "題幹出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
       },
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 以支持關係找主結論：前提用來支持它；中間結論雖受其他前提支持，仍被用來支持更後面的結論。不要只依句子位置或結論關鍵字判斷。"
+        "text": "R1 主結論是作者要證明的最終主張。前提提供支持它的理由；中間結論則先由其他前提推得，再被用來支持主結論。某句有理由支持，仍不足以判定它就是主結論，還要看它是否繼續支持另一個結論。"
       },
       {
         "type": "p",
-        "text": "R2 正解可以換句話說，但須保留作者主張的意思、範圍、程度與觀點歸屬。unlikely 不等於不可能；probably 不等於必然。"
+        "text": "R2 正解可以換用同義詞或改變句式，但主張的意思、範圍、程度與觀點歸屬須相同。不能把「不太可能」改成「不可能」，也不能加入作者未提出的新主張。"
+      },
+      {
+        "type": "p",
+        "text": "R3 轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。完整方法見「論證結構 → 質疑結論 → 反駁」。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 分清作者與反方的主張，確認哪些句子提供支持、哪些句子接受支持。"
+        "text": "S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
       },
       {
         "type": "p",
-        "text": "S2 用自己的話簡述作者要證明什麼，再逐一核對選項。關鍵字與壓縮式反駁的判讀見「論證結構 → 找結論與證據」。"
+        "text": "S2 把論證讀成「因為這些理由，所以作者主張……」。找出理由在支持哪個主張；若該主張又被用來支持另一個結論，就繼續追到主結論。結論可能在前、理由在後，不要直接選最後一句。"
+      },
+      {
+        "type": "p",
+        "text": "S3 先用自己的話說出主結論，再比對選項。遇到 this、that、it 等代名詞，先代回它指涉的內容。核對選項是否保留同一主張，並排除下列誘答。"
       },
       {
         "type": "p",
         "label": "陷阱",
-        "text": "Premise（前提，38%）：選到支持結論的理由。Intermediate Conclusion（中間結論，7%）：選到推理中的一站，尚未到作者要證明的主結論。"
+        "text": "前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
       },
       {
         "type": "p",
-        "text": "Unsupported（缺乏支持，19%）：加入作者未提出或未支持的主張。Too Strong（程度過強，11%）：把作者較弱的主張改成更強的斷言。"
+        "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。不要停在推理中的中途。"
       },
       {
         "type": "p",
-        "text": "Opposing Point（反方觀點，8%）：把作者反對的主張當成作者立場。Assumption（假設，7%）：選到論證依賴的假設，而非作者提出的結論。"
+        "text": "反方觀點（Opposing Point，8%）：說的是作者回應或反對的他人主張，誤把他人的立場當成作者立場。"
+      },
+      {
+        "type": "p",
+        "text": "假設（Assumption，7%）：說的是作者沒有明說、但推理必須依賴的想法。即使作者需要這個假設，它也不是題文已提出的主結論。"
+      },
+      {
+        "type": "p",
+        "text": "缺乏支持（Unsupported，19%）：選項提出了題文未支持的主張；不能因為它看似合理，就當成作者的結論。"
+      },
+      {
+        "type": "p",
+        "text": "程度過強（Too Strong，11%）：主題雖相同，選項卻把作者的主張加強，例如把「可能」寫成「必然」。"
       },
       {
         "type": "p",
         "label": "教材統計",
-        "text": "結論型態：Refutation（反駁）39%；Language Cue（語言線索）21%；Recommendation（建議）18%；Prediction（預測）12%；Explanation（解釋）9%。"
+        "text": "反駁（Rebuttals）39%：作者回應先前的主張，指出其結論或推理有問題。"
+      },
+      {
+        "type": "p",
+        "text": "語言線索（Language Cue）21%：透過結論詞、支持詞、轉折詞或意見詞協助定位結論，仍須核對支持關係。"
+      },
+      {
+        "type": "p",
+        "text": "建議（Recommendation）18%：作者主張應該或不應該採取某項行動。"
+      },
+      {
+        "type": "p",
+        "text": "預測（Prediction）12%：作者主張某件事將會或可能發生。"
+      },
+      {
+        "type": "p",
+        "text": "解釋（Explanation）9%：作者提出原因，用來說明某個現象。"
       }
     ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "LSATLab Notes(1).pdf 第3頁；§Argument Structure → Find the Conclusion + Evidence → [Main Conclusion clip]；轉述判準沿用「找結論與證據」既有規則"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "Notes 第3頁：Main Conclusion clip；第5–6頁：Rebuttals clip；LR-Strategies：Main Conclusion"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-10-02",
+        "by": "tutor",
+        "summary": "家教更新 01-20261002-o1",
+        "before": {
+          "title": "Main Conclusion（主結論）",
+          "summary": "找出作者要證明的主張，選擇保留其意思、範圍與程度的轉述。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹常問 the conclusion、the main conclusion 或 the overall conclusion；任務是辨認作者的主結論。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 以支持關係找主結論：前提用來支持它；中間結論雖受其他前提支持，仍被用來支持更後面的結論。不要只依句子位置或結論關鍵字判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R2 正解可以換句話說，但須保留作者主張的意思、範圍、程度與觀點歸屬。unlikely 不等於不可能；probably 不等於必然。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分清作者與反方的主張，確認哪些句子提供支持、哪些句子接受支持。"
+            },
+            {
+              "type": "p",
+              "text": "S2 用自己的話簡述作者要證明什麼，再逐一核對選項。關鍵字與壓縮式反駁的判讀見「論證結構 → 找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "Premise（前提，38%）：選到支持結論的理由。Intermediate Conclusion（中間結論，7%）：選到推理中的一站，尚未到作者要證明的主結論。"
+            },
+            {
+              "type": "p",
+              "text": "Unsupported（缺乏支持，19%）：加入作者未提出或未支持的主張。Too Strong（程度過強，11%）：把作者較弱的主張改成更強的斷言。"
+            },
+            {
+              "type": "p",
+              "text": "Opposing Point（反方觀點，8%）：把作者反對的主張當成作者立場。Assumption（假設，7%）：選到論證依賴的假設，而非作者提出的結論。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "結論型態：Refutation（反駁）39%；Language Cue（語言線索）21%；Recommendation（建議）18%；Prediction（預測）12%；Explanation（解釋）9%。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20261001-o1",
-    "updated_at": "2026-10-02T06:51:09.120Z",
+    "updated_at": "2026-10-03T03:57:11.338Z",
     "updated_by": "tutor"
   }
 ]
