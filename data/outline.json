@@ -2032,7 +2032,7 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 的方法見「論證結構 → 找結論與證據 → 主結論」；Role 的角色判準見「論證結構 → 找結論與證據」。"
+        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。主結論與句子角色的題型方法，分別見「論證結構 → 找結論與證據 → 主結論」及「論證結構 → 找結論與證據 → 句子角色」。"
       },
       {
         "type": "p",
@@ -2068,6 +2068,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSATLab Notes(1).pdf 第3頁 [Main Conclusion clip]；更新題型索引"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "Notes：Question Family；Role影片"
       }
     ],
     "status": "草稿",
@@ -2188,9 +2192,30 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-02",
+        "by": "tutor",
+        "summary": "家教更新 01-20261002-o12",
+        "before": {
+          "title": "Match Family（配對家族；原稱 Function Family）",
+          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 的方法見「論證結構 → 找結論與證據 → 主結論」；Role 的角色判準見「論證結構 → 找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-02T06:51:09.127Z",
+    "updated_at": "2026-10-03T06:29:44.021Z",
     "updated_by": "tutor"
   },
   {
@@ -2666,37 +2691,82 @@
     "level": 3,
     "order": 1,
     "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-    "summary": "先找作者要證明的判斷，再辨每句是支持、背景、反方還是讓步。",
+    "summary": "先辨觀點歸屬，再把前提、中間結論與主結論的支持關係連起來。",
     "blocks": [
       {
         "type": "p",
         "label": "辨識",
-        "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
+        "text": "先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
       },
       {
         "type": "p",
-        "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
+        "label": "角色判準",
+        "text": "主結論（Main Conclusion）：作者用整段論證要證明的最終主張。"
+      },
+      {
+        "type": "p",
+        "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持後續結論。它同時接受支持、提供支持。"
+      },
+      {
+        "type": "p",
+        "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。角色取決於用途，不取決於句子是否包含意見。"
+      },
+      {
+        "type": "p",
+        "text": "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。"
+      },
+      {
+        "type": "p",
+        "text": "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。"
+      },
+      {
+        "type": "p",
+        "text": "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。"
+      },
+      {
+        "type": "p",
+        "text": "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+      },
+      {
+        "type": "p",
+        "label": "關鍵字",
+        "text": "用詞語找候選角色，再以支持關係確認。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+          "支持：for、after all、because、since（FABS）。",
+          "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+          "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+          "觀點歸屬：most people think、some biologists say，表示某個主張屬於誰。"
+        ]
       },
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
+        "text": "R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
       },
       {
         "type": "p",
-        "text": "R2 規則前提。must、only if、requires、necessary、unless、if...then、any...that 提示條件關係，讀到即畫箭頭；但這些詞不決定句子角色。含條件詞的句子可以是前提，也可以是作者要證明的結論，角色只看支持關係：刪掉該句，若事實到結論的路斷了，它是前提；若其他句子都在支持它，它是結論。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。"
+        "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
       },
       {
         "type": "p",
-        "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
+        "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「總覽 → 假設家族 → 必要假設與充分假設」。"
       },
       {
         "type": "p",
-        "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
+        "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由；不要因為後面還有句子，就把最後一句當成結論。"
       },
       {
         "type": "p",
-        "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解須保留作者主張的意思、範圍、程度與觀點歸屬，可以換句話說，但不能加入作者未下的新評價。轉折只是線索，仍須核對支持關係。反駁的完整方法見「論證結構 → 質疑結論 → 反駁」。"
+        "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。反駁的判讀見「論證結構 → 質疑結論 → 反駁」。"
+      },
+      {
+        "type": "p",
+        "label": "推理型態",
+        "text": "常見推理型態：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。依型態檢查證據如何支持結論。"
       }
     ],
     "source_refs": [
@@ -2743,6 +2813,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "Notes：Argument Structure → Find the Conclusion + Evidence；Role影片「Key Roles to Remember」；LR-Strategies：Main Conclusion、Role"
       }
     ],
     "status": "草稿",
@@ -3274,9 +3348,50 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-02",
+        "by": "tutor",
+        "summary": "家教更新 01-20261002-o10",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先找作者要證明的判斷，再辨每句是支持、背景、反方還是讓步。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "五種角色：Conclusion、Premise、Background、Opposing Position、Concession（讓步）。關鍵字。結論：so、thus、hence、therefore、as a result、this shows、consequently。支持：for、after all、because、since（FABS）。讓步與轉折：but、yet、however、although、granted、while、though it is true。意見詞：should、ought、clearly、obviously、evidently、apparently、probably。反方：歸屬語（most people think、some biologists say）。"
+            },
+            {
+              "type": "p",
+              "text": "推理型態（Notes 第三步）：Recommendations、Hypotheses、Rebuttals、Judgments、Predictions。依型態選擇質疑問題。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 讓步（although、nevertheless、admittedly）只限縮立場，不支持主結論。despite 或 although 子句是反方或讓步，緊接的主句才是作者主張。"
+            },
+            {
+              "type": "p",
+              "text": "R2 規則前提。must、only if、requires、necessary、unless、if...then、any...that 提示條件關係，讀到即畫箭頭；但這些詞不決定句子角色。含條件詞的句子可以是前提，也可以是作者要證明的結論，角色只看支持關係：刪掉該句，若事實到結論的路斷了，它是前提；若其他句子都在支持它，它是結論。位置不決定角色：規則常在首句或末句，緊鄰結論而被誤讀。"
+            },
+            {
+              "type": "p",
+              "text": "R3 畫完箭頭看結論在哪一端：要否定某物用逆否，要肯定某物用正向。SA 的正解是由事實前提走到規則入口的那一步，與題文已有連結重複的選項刪；NA、Flaw、Weaken 的落差也在規則所在之處。"
+            },
+            {
+              "type": "p",
+              "text": "R4 壓縮式反駁（This is a mistake. That view is wrong.）本身就是結論；其後的句子是證據。不要把最後一句事實當成結論。"
+            },
+            {
+              "type": "p",
+              "text": "R5 一句話接在反方觀點之後時，先看方向詞決定它站哪一邊：only、merely 淡化；in any case、even if 為獨立於前句的理由；despite、but 為對比。Main Conclusion 的正解須保留作者主張的意思、範圍、程度與觀點歸屬，可以換句話說，但不能加入作者未下的新評價。轉折只是線索，仍須核對支持關係。反駁的完整方法見「論證結構 → 質疑結論 → 反駁」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.940Z",
+    "updated_at": "2026-10-03T06:29:43.977Z",
     "updated_by": "tutor"
   },
   {
@@ -13960,6 +14075,86 @@
     ],
     "client_request_id": "01-20261001-o1",
     "updated_at": "2026-10-03T03:57:11.338Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-046",
+    "parent_id": "OL-007",
+    "level": 4,
+    "order": 2,
+    "title": "Role（句子角色）",
+    "summary": "指定句子扮演什麼角色？它支持或回應的究竟是哪個主張？",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見上一層「找結論與證據」。"
+      },
+      {
+        "type": "p",
+        "text": "R2 選項可以用功能描述取代角色名稱。evidence、example、illustration可描述提供支持的句子；supported premise、subsidiary conclusion可描述中間結論。須依指定句子的實際用途判斷。"
+      },
+      {
+        "type": "p",
+        "text": "R3 同一句話可能既支持作者的結論，也用來回應反方。先把雙方主張分開，再核對選項描述的是哪一種關係；不要只看到supports或opposes就選。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+      },
+      {
+        "type": "p",
+        "text": "S2 找到作者的主結論，再判斷指定句子是主結論、提供支持、提出反方主張或理由，還是僅交代背景。若它本身也有理由支持，檢查是否為中間結論。"
+      },
+      {
+        "type": "p",
+        "text": "S3 先用自己的話說「這句是……，用來支持／回應……」，再核對選項的角色、對象、方向與強度。若只是背景，就確認選項沒有替它加上推論作用。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+      },
+      {
+        "type": "p",
+        "text": "T2 方向相反（Opposite）：把支持寫成反對，或把作者用來反駁對方的內容，寫成支持對方。"
+      },
+      {
+        "type": "p",
+        "text": "T3 虛構論證成分或動作（Unsupported Ingredient）：選項加入題文沒有的用途，例如說作者提出某項證據後又將它否定，實際上作者一直在使用它。"
+      },
+      {
+        "type": "p",
+        "text": "T4 程度過強（Too Strong）：把「提供部分支持」說成「必不可少」或「足以證明」，或把「提出質疑」說成「已證明為假」。檢查題文是否支持這個強度。"
+      },
+      {
+        "type": "p",
+        "label": "例子",
+        "text": "主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "Role影片：How To Spot One、Key Roles to Remember、Key Trap Answers、June 2007 S1 Q11；LR-Strategies：Role"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261002-o11",
+    "updated_at": "2026-10-03T06:29:44.012Z",
     "updated_by": "tutor"
   }
 ]
