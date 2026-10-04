@@ -466,5 +466,18 @@
     "client_request_id": "01-20261003-h1",
     "created_at": "2026-10-04T16:36:42.059Z",
     "updated_at": "2026-10-04T16:36:42.059Z"
+  },
+  {
+    "handoff_id": "HO-037",
+    "session_id": "",
+    "taught": "僅調整既有大綱的結構、用語與引用。[補充] 無。",
+    "observed": "依 repo 85e72de，10/3 Method 影片30分鐘已匯入；本包不新增學習時間或接觸紀錄。Main Conclusion、Role、Method 依序移至 Match Family；Characterize 改為「論證方法」，九種方法接在 S3 內、S4 之前；沿用 Match Family 名稱，並更新跨節引用。",
+    "open_questions": "共用結論、證據與角色判準保留在「找結論與證據」；題型專屬解法置於 Match Family。",
+    "date": "2026-10-04",
+    "stopped_at": "大綱修正包完成：三個題型移至 Match Family；九種方法納入 Method 的 S3。",
+    "next_task": "依既定影片第一遍順序接 Must Be True，再接 Must Be False；開始前核對最新完成紀錄。",
+    "client_request_id": "01-20261004-h1",
+    "created_at": "2026-10-04T16:51:02.373Z",
+    "updated_at": "2026-10-04T16:51:02.373Z"
   }
 ]
