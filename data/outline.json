@@ -2027,17 +2027,22 @@
     "level": 3,
     "order": 3,
     "title": "Match Family（配對家族；原稱 Function Family）",
-    "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+    "summary": "分清題型任務：找主結論、判句子作用，或描述整段推理方法。",
     "blocks": [
       {
         "type": "p",
         "label": "辨識",
-        "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。主結論與句子角色的題型方法，分別見「論證結構 → 找結論與證據 → 主結論」及「論證結構 → 找結論與證據 → 句子角色」。"
+        "text": "Main Conclusion 問「作者要證明什麼」；Role 問「指定句子在論證中做什麼」；Method 問「作者如何論證或回應」。三者的解法分別見「論證結構 → 找結論與證據」下的「主結論」「句子角色」「論證方法」。"
       },
       {
         "type": "p",
         "label": "分類",
         "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "各題型占整體 LR 的比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。"
       }
     ],
     "source_refs": [
@@ -2072,6 +2077,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "Notes：Question Family；Role影片"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes(3).pdf 第1頁 Question Family、第3–5頁 Main Conclusion／Role／Method"
       }
     ],
     "status": "草稿",
@@ -2213,9 +2222,30 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261003-o2",
+        "before": {
+          "title": "Match Family（配對家族；原稱 Function Family）",
+          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。主結論與句子角色的題型方法，分別見「論證結構 → 找結論與證據 → 主結論」及「論證結構 → 找結論與證據 → 句子角色」。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-03T06:29:44.021Z",
+    "updated_at": "2026-10-04T16:36:42.025Z",
     "updated_by": "tutor"
   },
   {
@@ -14155,6 +14185,117 @@
     "revisions": [],
     "client_request_id": "01-20261002-o11",
     "updated_at": "2026-10-03T06:29:44.012Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-047",
+    "parent_id": "OL-007",
+    "level": 4,
+    "order": 3,
+    "title": "Method（論證方法）",
+    "summary": "找出結論與理由，再核對作者如何由理由推出結論。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "題幹出現 describes the method、proceeds by、responds by、technique of reasoning 或 argumentative strategy，要求描述作者如何論證或回應他人。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 答案須忠實描述作者從理由走向結論的方式。即使推理有缺陷，「由相關性推論因果關係」仍可能是正確描述；不要把 Method 當成 Flaw 題，改選作者沒有採用的推理。"
+      },
+      {
+        "type": "p",
+        "text": "R2 把選項拆成「理由、推理動作、結論」再對回題文。concludes C on the basis of E 與 infers from E that C，都表示「以 E 為理由，推出 C」。名詞要對上實際主張，動詞要對上作者實際做的事。"
+      },
+      {
+        "type": "p",
+        "text": "R3 對話題先分清誰回應誰，再判斷他質疑的是對方的前提、假設或結論。接受某個事實、反對對方對它的解釋，不等於否認該事實。觀點歸屬與反駁強度見「論證結構 → 質疑結論 → 反駁」。"
+      },
+      {
+        "type": "p",
+        "text": "R4 正解可以只描述題幹所問的一種手法，不必重述整篇；但選項寫出的每一部分，都必須在題文找到對應。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 找結論（Conclusion）：確認題幹問哪位作者或說話者，找出他要你接受的主張。"
+      },
+      {
+        "type": "p",
+        "text": "S2 找理由（Evidence）：找出支持該主張的證據；不要把對方的理由誤當成作者自己的理由。"
+      },
+      {
+        "type": "p",
+        "text": "S3 描述推理（Characterize）：暫時抽掉主題細節，用自己的話說「作者用什麼，來支持或反駁什麼」。"
+      },
+      {
+        "type": "p",
+        "text": "S4 預想答案（Anticipate）：把上一步濃縮成一句方法描述，例如「質疑原有解釋，再提出另一解釋」。不必先猜中教材術語。"
+      },
+      {
+        "type": "p",
+        "text": "S5 比對選項（Answers）：將選項的抽象用語代回題文，依序核對結論、理由、推理動作及程度；有一部分對不上，就不能選。"
+      },
+      {
+        "type": "p",
+        "label": "常見方法",
+        "text": "以下用語描述作者採取的動作；選擇時仍須回到題文確認。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "類比（Analogy）：利用兩種情況的相似處，支持另一項相似的判斷。",
+          "排除其他可能（Rules Out Alternatives）：排除競爭解釋或選項，以支持剩下的可能。",
+          "提出另一解釋（Provides Alternate Interpretation）：同一現象仍成立，但作者提出不同的解讀或成因。",
+          "定義詞語（Defines a Term）：說明某個詞的意義，並用這個定義推進論證。",
+          "舉例或反例（Provides an Example / Counterexample）：例子用來說明或支持主張；反例用來反駁一般主張。須分清作者採用哪一種。",
+          "質疑假設（Calls Into Question an Assumption）：指出對方推理所依賴的想法未必成立。",
+          "指出推論後果（Shows Implications of Logic）：順著某個主張或推理推出其後果，再用該後果支持或反對原主張。",
+          "作出區分（Makes a Distinction）：分開原先被混為一談的情況、條件或概念，指出它們不能一概而論。",
+          "提出被忽略的資訊（Brings Up Overlooked Information）：補上原論證未納入、但會影響判斷的事實或考量。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 結論配對錯誤（Wrong Conclusion）：方法聽起來合理，卻把作者要證明的主張換掉。先讀選項「推出什麼」的部分，再與題文結論比對。"
+      },
+      {
+        "type": "p",
+        "text": "T2 前提配對錯誤（Wrong Premise）：把作者沒有使用的證據或關係寫成起點。例如題文從相關性出發，選項卻說作者以一項已知因果關係為前提。"
+      },
+      {
+        "type": "p",
+        "text": "T3 程度過強（Too Strong）：把「有因果關係」改成「唯一原因」，或把「質疑某解釋」改成「徹底排除該解釋」。核對唯一性、確定性與適用範圍。"
+      },
+      {
+        "type": "p",
+        "text": "T4 與題文相反（Contradiction）：選項把作者接受、否定、支持或反對的方向寫反。這裡指選項與題文不符，並非指論證本身有「自相矛盾」缺陷。"
+      },
+      {
+        "type": "p",
+        "label": "例子",
+        "text": "條件式預測：有人以「結果未發生」批評原預測，回應者指出原預測有適用條件，而條件已改變。方法可描述為「區分適用情況」或「提出被忽略的條件」；不能改寫成「否認結果未發生」，也不能由條件未成立就推定結果必不發生。條件推論見「推理結構 → 條件」。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "Method 誘答：Wrong Conclusion 44%；Wrong Premise 31%；Too Strong 13%；Contradiction 13%。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes(3).pdf 第4–5頁 [Method clip]；LR-Strategies：Method；LR Trap Answer Descriptions：Contradiction、Too Strong"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261003-o1",
+    "updated_at": "2026-10-04T16:36:41.915Z",
     "updated_by": "tutor"
   }
 ]
