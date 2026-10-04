@@ -7803,11 +7803,156 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+            },
+            {
+              "type": "p",
+              "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+            },
+            {
+              "type": "p",
+              "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+            },
+            {
+              "type": "p",
+              "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+            },
+            {
+              "type": "p",
+              "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+            },
+            {
+              "type": "p",
+              "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:50:16.903Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-04T23:49:52.976Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20261004-o20",
+        "date": "2026-10-04",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "辨識",
+            "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+          },
+          {
+            "type": "p",
+            "label": "規則",
+            "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+          },
+          {
+            "type": "p",
+            "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+          },
+          {
+            "type": "p",
+            "text": "回歸平均（Regression to the Mean）也是其他解釋：若挑選一次表現特別極端的對象，再觀察後續表現，之後可能較接近平常水準。不能只憑「介入後恢復正常」，就把變化歸功於介入；要查是否只是極端表現回到較平常的水準。"
+          },
+          {
+            "type": "p",
+            "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+          },
+          {
+            "type": "p",
+            "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+          },
+          {
+            "type": "p",
+            "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+          },
+          {
+            "type": "p",
+            "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+          },
+          {
+            "type": "p",
+            "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+          },
+          {
+            "type": "p",
+            "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+          },
+          {
+            "type": "p",
+            "label": "步驟",
+            "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+          },
+          {
+            "type": "p",
+            "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+          },
+          {
+            "type": "p",
+            "label": "陷阱",
+            "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+          },
+          {
+            "type": "p",
+            "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+          },
+          {
+            "type": "p",
+            "label": "題型連結",
+            "text": "檢查作者提出的原因是否有依據，見「因果 → 因果解釋的可信度」；題文已提供因果作用、要求推出受支持的結論時，見「因果 → 因果鏈」。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "LSATLab Notes",
+            "ref": "LSATLab Notes.pdf 第13–14頁 [Causation clip]"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-013",
@@ -13284,7 +13429,7 @@
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 Attribution 譯為「觀點歸屬」，不是因果上的「歸因」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
+        "text": "R1 Attribution 譯為「觀點歸屬」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
       },
       {
         "type": "p",
@@ -13334,6 +13479,10 @@
       {
         "type": "User Revision",
         "ref": "LSATLab Notes：Rebuttals／Question Families affected"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes：Rebuttals／Recognizing Rebuttals"
       }
     ],
     "status": "草稿",
@@ -13575,10 +13724,58 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o23",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 Attribution 譯為「觀點歸屬」，不是因果上的「歸因」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
+            },
+            {
+              "type": "p",
+              "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 核對反駁是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再貼缺陷標籤。"
+            },
+            {
+              "type": "p",
+              "label": "題型應用",
+              "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。各題型解法見「總覽 → 配對家族」下的「主結論」「句子角色」「論證方法」。"
+            },
+            {
+              "type": "p",
+              "text": "必要假設（Necessary Assumption）：針對作者自己的論證，檢查連結（Linking）或防禦（Defending），見「總覽 → 假設家族 → 必要假設與充分假設」。最受支持（Most Supported）：表達題文支持的反駁結論，不自行加強，見「總覽 → 推論家族」。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o1",
-    "updated_at": "2026-10-04T16:51:02.357Z",
+    "updated_at": "2026-10-04T23:49:53.008Z",
     "updated_by": "tutor"
   },
   {
@@ -13725,31 +13922,58 @@
     "parent_id": "OL-012",
     "level": 4,
     "order": 1,
-    "title": "結論可信度（Plausibility of Conclusion）與因果作用差異（Causal Difference-Maker）",
-    "summary": "分清正在評估的因果解釋，以及題文已提供的因果作用。",
+    "title": "因果解釋的可信度（Plausibility of Conclusion）",
+    "summary": "檢查作者提出的原因，是否有足以支持其作用的證據。",
     "blocks": [
       {
         "type": "p",
         "label": "辨識",
-        "text": "除了反向因果、第三因素及資料問題，也留意回歸平均（Regression to the Mean）：異常極端的表現之後出現較接近平常的表現，不一定是介入措施造成。"
+        "text": "作者用 X 解釋觀察到的 Y，本節要檢查這個因果解釋有何依據。「造成結果差異的因果因素（Causal Difference-Maker）」指真正對結果起作用的因素；作者認為 X 有這個作用，仍須核對證據。"
       },
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 先判斷因果關係是作者提出、尚待評估的解釋，還是題文已提供的關係。若是待評估的解釋，沿用「推理結構 → 因果」的兩問：有無其他解釋？作者的解釋本身是否可信？"
+        "text": "R1 共同變動（Covariation）：在可比較的情況下，原因與結果是否一起改變？更多原因伴隨更多結果、移除原因後結果減少，可提高該解釋的可信度；原因改變而結果不變，則可能削弱它。這些是支持程度的變化，不能只憑共同變動就認定因果已證明。"
       },
       {
         "type": "p",
-        "text": "R2 因果可信度的檢查包括：原因與結果是否共同變動、兩者之間有無作用機制、原因是否實際存在且足以發揮作用，以及改變原因是否會使結果有所不同。依題文與選項所涉及的問題檢查。"
+        "text": "R2 作用機制（Causal Mechanism）：X 如何造成 Y？選項若補出兩者之間的作用過程，可支持作者的解釋；若指出這個過程無法發生，則可動搖解釋。"
       },
       {
         "type": "p",
-        "text": "R3 題文已交代某因素對結果的貢獻時，在其他相關條件相同且符合所述作用關係的範圍內，減少該因素可支持結果減少的有限推論。仍須核對原句程度及因果鏈的每一環；結果減少不等於結果消失。"
+        "text": "R3 因素是否真的不同（Difference-Maker Was a Difference）：作者若用 X 的差異解釋 Y 的差異，先核對 X 在所比較的情況中是否真的不同。若 X 前後或組間相同，就不能用「X 發生改變」來解釋這項結果差異。"
+      },
+      {
+        "type": "p",
+        "text": "R4 原因是否存在且能起作用（Culprit Was Present and Capable）：X 是否在相關時間與情況中存在？其劑量、程度或作用條件，是否能產生作者主張的影響？「曾經存在」與「在本次結果中起作用」要分清。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 分別指出觀察到的結果 Y，以及作者提出的原因 X。"
+      },
+      {
+        "type": "p",
+        "text": "S2 依選項實際內容，判斷它補強或動搖哪一項：共同變動、作用機制、因素差異，或原因的存在與作用能力。不要每題都自行列舉全部檢查。"
+      },
+      {
+        "type": "p",
+        "text": "S3 用一句話說清楚：「這項資訊使 X 解釋 Y 更可信／更不可信，因為……」。若選項只支持無關事實，沒有影響這個因果解釋，就不符合任務。"
+      },
+      {
+        "type": "p",
+        "label": "題型應用",
+        "text": "加強（Strengthen）：補強作者解釋的依據。削弱（Weaken）：動搖這些依據，或支持其他解釋。評估（Evaluate）：找出答案會影響該解釋可信度的問題；對同一問題作不同回答，應能改變評估結果。"
+      },
+      {
+        "type": "p",
+        "label": "例子",
+        "text": "作者把遭到拒絕歸因於戴著某隊的帽子。其他相關情況可比較時，拿掉帽子後拒絕減少，會提高「帽子有影響」的可信度；拒絕仍然相同，則會降低這項解釋的可信度。這是在測試候選原因。"
       },
       {
         "type": "p",
         "label": "陷阱",
-        "text": "T1 A causes B 不可直接改寫成 not A → not B。移除一個原因，不表示其他原因也消失。片段的因果作用差異，不能當作條件邏輯中否定前件的通則，也不是逆否推論。"
+        "text": "T1 「無原因卻有結果」不一定證明該原因完全沒有作用；結果也可能有其他來源。核對作者主張的是一項促成因素、唯一原因，還是無例外的必然關係。其他解釋的判讀見上一層「因果」。"
       }
     ],
     "source_refs": [
@@ -13768,6 +13992,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes.pdf 第13–14頁：Assessing Plausibility；Causation-handout.pdf 第40、56–65頁"
       }
     ],
     "status": "草稿",
@@ -13880,10 +14108,44 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o21",
+        "before": {
+          "title": "結論可信度（Plausibility of Conclusion）與因果作用差異（Causal Difference-Maker）",
+          "summary": "分清正在評估的因果解釋，以及題文已提供的因果作用。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "除了反向因果、第三因素及資料問題，也留意回歸平均（Regression to the Mean）：異常極端的表現之後出現較接近平常的表現，不一定是介入措施造成。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 先判斷因果關係是作者提出、尚待評估的解釋，還是題文已提供的關係。若是待評估的解釋，沿用「推理結構 → 因果」的兩問：有無其他解釋？作者的解釋本身是否可信？"
+            },
+            {
+              "type": "p",
+              "text": "R2 因果可信度的檢查包括：原因與結果是否共同變動、兩者之間有無作用機制、原因是否實際存在且足以發揮作用，以及改變原因是否會使結果有所不同。依題文與選項所涉及的問題檢查。"
+            },
+            {
+              "type": "p",
+              "text": "R3 題文已交代某因素對結果的貢獻時，在其他相關條件相同且符合所述作用關係的範圍內，減少該因素可支持結果減少的有限推論。仍須核對原句程度及因果鏈的每一環；結果減少不等於結果消失。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 A causes B 不可直接改寫成 not A → not B。移除一個原因，不表示其他原因也消失。片段的因果作用差異，不能當作條件邏輯中否定前件的通則，也不是逆否推論。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o4",
-    "updated_at": "2026-10-01T04:49:46.678Z",
+    "updated_at": "2026-10-04T23:49:52.987Z",
     "updated_by": "tutor"
   },
   {
@@ -14809,6 +15071,73 @@
     ],
     "client_request_id": "01-20261003-o1",
     "updated_at": "2026-10-04T16:51:02.342Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-048",
+    "parent_id": "OL-012",
+    "level": 4,
+    "order": 2,
+    "title": "因果鏈（Causal Chains）",
+    "summary": "沿用題文已提供的因果作用，核對變化方向、連結與推論程度。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "題文已提供某因素如何促進、降低或維持某結果，題幹要求推出受支持的結論。本節沿用這些因果作用，判斷因素改變後，哪項影響會跟著改變。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 先讀清作用方向與程度：題文說的是「增加」「降低」「有助於」或「提高機率」？只能沿著已交代的作用推論，不可自行改成必然發生、唯一原因或完全消失。"
+      },
+      {
+        "type": "p",
+        "text": "R2 題文明確交代 A 會增加或維持 B 時，在其他相關條件相同、符合該作用關係的情況下，減少 A 可支持「B 較少／較不持續」等相應推論。要核對具體作用，不能把任何「A causes B」都當成「A 少一點，B 必定少一點」的通則。"
+      },
+      {
+        "type": "p",
+        "text": "R3 結果若有多個來源，減弱其中一項，只能直接支持「至少一項促成來源減弱」。不能跳成所有來源都消失，也不能忽略其他來源或抵銷作用，保證總結果必然下降。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 找出題文明說的因果關係，標出原因、結果及促進或抑制的方向。"
+      },
+      {
+        "type": "p",
+        "text": "S2 若有因果鏈，逐一核對每一環：前一因素的改變，如何依題文影響下一因素？不要逆向推論，也不要跳過未交代的連結。"
+      },
+      {
+        "type": "p",
+        "text": "S3 比對選項的程度。優先確認它是否忠實表達題文支持的影響，例如「減弱一項來源」；不能只因選項語氣較弱，就認定它正確。"
+      },
+      {
+        "type": "p",
+        "label": "例子",
+        "text": "題文說衝浪有助於讓皮膚持續曬黑。若其他相關條件相同，大幅減少衝浪，可支持「皮膚較不會持續那麼黑」。這不表示皮膚絕不會曬黑，因為還可能有其他日曬來源。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 條件句「A → B」本身不能推出「非 A → 非 B」。例如題文只說「能衝浪 → 平衡感好」，不能由「不能衝浪」推出「平衡感不好」。前面的曬黑例子是在讀「減少一項原因會減弱其作用」，並非對條件箭頭作否定前件或逆否推論。條件規則見「推理結構 → 條件」。"
+      },
+      {
+        "type": "p",
+        "text": "T2 「結果較少」「結果較不常發生」「某項原因減弱」「結果完全不再發生」強度不同。選項若換掉其中的程度，即使因果方向看似正確，也可能沒有得到題文支持。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes.pdf 第13頁 Causal Difference-Maker、第14頁 Causal Chains"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261004-o22",
+    "updated_at": "2026-10-04T23:49:52.998Z",
     "updated_by": "tutor"
   }
 ]
