@@ -2032,7 +2032,7 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "Main Conclusion 問「作者要證明什麼」；Role 問「指定句子在論證中做什麼」；Method 問「作者如何論證或回應」。三者的解法分別見「論證結構 → 找結論與證據」下的「主結論」「句子角色」「論證方法」。"
+        "text": "Main Conclusion 問「作者要證明什麼」；Role 問「指定句子在論證中做什麼」；Method 問「作者如何論證或回應」。共用的結論、證據與角色判準見「論證結構 → 找結論與證據」；題型解法見本家族下的「主結論」「句子角色」「論證方法」。"
       },
       {
         "type": "p",
@@ -2081,6 +2081,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSATLab Notes(3).pdf 第1頁 Question Family、第3–5頁 Main Conclusion／Role／Method"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes：Question Family／Match Family"
       }
     ],
     "status": "草稿",
@@ -2243,9 +2247,35 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o2",
+        "before": {
+          "title": "Match Family（配對家族；原稱 Function Family）",
+          "summary": "分清題型任務：找主結論、判句子作用，或描述整段推理方法。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "Main Conclusion 問「作者要證明什麼」；Role 問「指定句子在論證中做什麼」；Method 問「作者如何論證或回應」。三者的解法分別見「論證結構 → 找結論與證據」下的「主結論」「句子角色」「論證方法」。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "各題型占整體 LR 的比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-04T16:36:42.025Z",
+    "updated_at": "2026-10-04T16:51:02.227Z",
     "updated_by": "tutor"
   },
   {
@@ -13277,7 +13307,7 @@
       {
         "type": "p",
         "label": "題型應用",
-        "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉，見「論證結構 → 找結論與證據」。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。"
+        "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。各題型解法見「總覽 → 配對家族」下的「主結論」「句子角色」「論證方法」。"
       },
       {
         "type": "p",
@@ -13300,6 +13330,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes：Rebuttals／Question Families affected"
       }
     ],
     "status": "草稿",
@@ -13493,10 +13527,58 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o8",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 Attribution 譯為「觀點歸屬」，不是因果上的「歸因」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。"
+            },
+            {
+              "type": "p",
+              "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 核對反駁是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再貼缺陷標籤。"
+            },
+            {
+              "type": "p",
+              "label": "題型應用",
+              "text": "主結論（Main Conclusion）：對上作者的反駁，保留程度與代名詞指涉，見「論證結構 → 找結論與證據」。角色（Role）：分清指定句子屬於誰，以及支持或反駁哪個主張。方法（Method）：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量。"
+            },
+            {
+              "type": "p",
+              "text": "必要假設（Necessary Assumption）：針對作者自己的論證，檢查連結（Linking）或防禦（Defending），見「總覽 → 假設家族 → 必要假設與充分假設」。最受支持（Most Supported）：表達題文支持的反駁結論，不自行加強，見「總覽 → 推論家族」。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o1",
-    "updated_at": "2026-10-01T04:49:46.616Z",
+    "updated_at": "2026-10-04T16:51:02.357Z",
     "updated_by": "tutor"
   },
   {
@@ -13953,7 +14035,7 @@
   },
   {
     "section_id": "OL-045",
-    "parent_id": "OL-007",
+    "parent_id": "OL-005",
     "level": 4,
     "order": 1,
     "title": "Main Conclusion（主結論）",
@@ -14101,15 +14183,103 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "移動節",
+        "before": {
+          "title": "Main Conclusion（主結論）",
+          "summary": "找出作者要證明的最終主張，再核對選項是否忠實轉述。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 主結論是作者要證明的最終主張。前提提供支持它的理由；中間結論則先由其他前提推得，再被用來支持主結論。某句有理由支持，仍不足以判定它就是主結論，還要看它是否繼續支持另一個結論。"
+            },
+            {
+              "type": "p",
+              "text": "R2 正解可以換用同義詞或改變句式，但主張的意思、範圍、程度與觀點歸屬須相同。不能把「不太可能」改成「不可能」，也不能加入作者未提出的新主張。"
+            },
+            {
+              "type": "p",
+              "text": "R3 轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。完整方法見「論證結構 → 質疑結論 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "S2 把論證讀成「因為這些理由，所以作者主張……」。找出理由在支持哪個主張；若該主張又被用來支持另一個結論，就繼續追到主結論。結論可能在前、理由在後，不要直接選最後一句。"
+            },
+            {
+              "type": "p",
+              "text": "S3 先用自己的話說出主結論，再比對選項。遇到 this、that、it 等代名詞，先代回它指涉的內容。核對選項是否保留同一主張，並排除下列誘答。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。不要停在推理中的中途。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point，8%）：說的是作者回應或反對的他人主張，誤把他人的立場當成作者立場。"
+            },
+            {
+              "type": "p",
+              "text": "假設（Assumption，7%）：說的是作者沒有明說、但推理必須依賴的想法。即使作者需要這個假設，它也不是題文已提出的主結論。"
+            },
+            {
+              "type": "p",
+              "text": "缺乏支持（Unsupported，19%）：選項提出了題文未支持的主張；不能因為它看似合理，就當成作者的結論。"
+            },
+            {
+              "type": "p",
+              "text": "程度過強（Too Strong，11%）：主題雖相同，選項卻把作者的主張加強，例如把「可能」寫成「必然」。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "反駁（Rebuttals）39%：作者回應先前的主張，指出其結論或推理有問題。"
+            },
+            {
+              "type": "p",
+              "text": "語言線索（Language Cue）21%：透過結論詞、支持詞、轉折詞或意見詞協助定位結論，仍須核對支持關係。"
+            },
+            {
+              "type": "p",
+              "text": "建議（Recommendation）18%：作者主張應該或不應該採取某項行動。"
+            },
+            {
+              "type": "p",
+              "text": "預測（Prediction）12%：作者主張某件事將會或可能發生。"
+            },
+            {
+              "type": "p",
+              "text": "解釋（Explanation）9%：作者提出原因，用來說明某個現象。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20261001-o1",
-    "updated_at": "2026-10-03T03:57:11.338Z",
+    "updated_at": "2026-10-04T16:51:02.248Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-046",
-    "parent_id": "OL-007",
+    "parent_id": "OL-005",
     "level": 4,
     "order": 2,
     "title": "Role（句子角色）",
@@ -14123,7 +14293,7 @@
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見上一層「找結論與證據」。"
+        "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見「論證結構 → 找結論與證據」。"
       },
       {
         "type": "p",
@@ -14178,18 +14348,161 @@
       {
         "type": "LSATLab Notes",
         "ref": "Role影片：How To Spot One、Key Roles to Remember、Key Trap Answers、June 2007 S1 Q11；LR-Strategies：Role"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes：Argument Structure／Role"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "移動節",
+        "before": {
+          "title": "Role（句子角色）",
+          "summary": "指定句子扮演什麼角色？它支持或回應的究竟是哪個主張？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見上一層「找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項可以用功能描述取代角色名稱。evidence、example、illustration可描述提供支持的句子；supported premise、subsidiary conclusion可描述中間結論。須依指定句子的實際用途判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 同一句話可能既支持作者的結論，也用來回應反方。先把雙方主張分開，再核對選項描述的是哪一種關係；不要只看到supports或opposes就選。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+            },
+            {
+              "type": "p",
+              "text": "S2 找到作者的主結論，再判斷指定句子是主結論、提供支持、提出反方主張或理由，還是僅交代背景。若它本身也有理由支持，檢查是否為中間結論。"
+            },
+            {
+              "type": "p",
+              "text": "S3 先用自己的話說「這句是……，用來支持／回應……」，再核對選項的角色、對象、方向與強度。若只是背景，就確認選項沒有替它加上推論作用。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+            },
+            {
+              "type": "p",
+              "text": "T2 方向相反（Opposite）：把支持寫成反對，或把作者用來反駁對方的內容，寫成支持對方。"
+            },
+            {
+              "type": "p",
+              "text": "T3 虛構論證成分或動作（Unsupported Ingredient）：選項加入題文沒有的用途，例如說作者提出某項證據後又將它否定，實際上作者一直在使用它。"
+            },
+            {
+              "type": "p",
+              "text": "T4 程度過強（Too Strong）：把「提供部分支持」說成「必不可少」或「足以證明」，或把「提出質疑」說成「已證明為假」。檢查題文是否支持這個強度。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o6",
+        "before": {
+          "title": "Role（句子角色）",
+          "summary": "指定句子扮演什麼角色？它支持或回應的究竟是哪個主張？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見上一層「找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項可以用功能描述取代角色名稱。evidence、example、illustration可描述提供支持的句子；supported premise、subsidiary conclusion可描述中間結論。須依指定句子的實際用途判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 同一句話可能既支持作者的結論，也用來回應反方。先把雙方主張分開，再核對選項描述的是哪一種關係；不要只看到supports或opposes就選。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+            },
+            {
+              "type": "p",
+              "text": "S2 找到作者的主結論，再判斷指定句子是主結論、提供支持、提出反方主張或理由，還是僅交代背景。若它本身也有理由支持，檢查是否為中間結論。"
+            },
+            {
+              "type": "p",
+              "text": "S3 先用自己的話說「這句是……，用來支持／回應……」，再核對選項的角色、對象、方向與強度。若只是背景，就確認選項沒有替它加上推論作用。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+            },
+            {
+              "type": "p",
+              "text": "T2 方向相反（Opposite）：把支持寫成反對，或把作者用來反駁對方的內容，寫成支持對方。"
+            },
+            {
+              "type": "p",
+              "text": "T3 虛構論證成分或動作（Unsupported Ingredient）：選項加入題文沒有的用途，例如說作者提出某項證據後又將它否定，實際上作者一直在使用它。"
+            },
+            {
+              "type": "p",
+              "text": "T4 程度過強（Too Strong）：把「提供部分支持」說成「必不可少」或「足以證明」，或把「提出質疑」說成「已證明為假」。檢查題文是否支持這個強度。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20261002-o11",
-    "updated_at": "2026-10-03T06:29:44.012Z",
+    "updated_at": "2026-10-04T16:51:02.330Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-047",
-    "parent_id": "OL-007",
+    "parent_id": "OL-005",
     "level": 4,
     "order": 3,
     "title": "Method（論證方法）",
@@ -14228,20 +14541,7 @@
       },
       {
         "type": "p",
-        "text": "S3 描述推理（Characterize）：暫時抽掉主題細節，用自己的話說「作者用什麼，來支持或反駁什麼」。"
-      },
-      {
-        "type": "p",
-        "text": "S4 預想答案（Anticipate）：把上一步濃縮成一句方法描述，例如「質疑原有解釋，再提出另一解釋」。不必先猜中教材術語。"
-      },
-      {
-        "type": "p",
-        "text": "S5 比對選項（Answers）：將選項的抽象用語代回題文，依序核對結論、理由、推理動作及程度；有一部分對不上，就不能選。"
-      },
-      {
-        "type": "p",
-        "label": "常見方法",
-        "text": "以下用語描述作者採取的動作；選擇時仍須回到題文確認。"
+        "text": "S3 論證方法（Characterize）：暫時抽掉主題細節，用自己的話說「作者用什麼，來支持或反駁什麼」。常見方法如下；依題文實際動作辨認，不必勉強套入某個名稱。"
       },
       {
         "type": "ul",
@@ -14256,6 +14556,14 @@
           "作出區分（Makes a Distinction）：分開原先被混為一談的情況、條件或概念，指出它們不能一概而論。",
           "提出被忽略的資訊（Brings Up Overlooked Information）：補上原論證未納入、但會影響判斷的事實或考量。"
         ]
+      },
+      {
+        "type": "p",
+        "text": "S4 預想答案（Anticipate）：把上一步濃縮成一句方法描述，例如「質疑原有解釋，再提出另一解釋」。不必先猜中教材術語。"
+      },
+      {
+        "type": "p",
+        "text": "S5 比對選項（Answers）：將選項的抽象用語代回題文，依序核對結論、理由、推理動作及程度；有一部分對不上，就不能選。"
       },
       {
         "type": "p",
@@ -14289,13 +14597,218 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSATLab Notes(3).pdf 第4–5頁 [Method clip]；LR-Strategies：Method；LR Trap Answer Descriptions：Contradiction、Too Strong"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes(3).pdf 第4–5頁 [Method clip]"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "移動節",
+        "before": {
+          "title": "Method（論證方法）",
+          "summary": "找出結論與理由，再核對作者如何由理由推出結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹出現 describes the method、proceeds by、responds by、technique of reasoning 或 argumentative strategy，要求描述作者如何論證或回應他人。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 答案須忠實描述作者從理由走向結論的方式。即使推理有缺陷，「由相關性推論因果關係」仍可能是正確描述；不要把 Method 當成 Flaw 題，改選作者沒有採用的推理。"
+            },
+            {
+              "type": "p",
+              "text": "R2 把選項拆成「理由、推理動作、結論」再對回題文。concludes C on the basis of E 與 infers from E that C，都表示「以 E 為理由，推出 C」。名詞要對上實際主張，動詞要對上作者實際做的事。"
+            },
+            {
+              "type": "p",
+              "text": "R3 對話題先分清誰回應誰，再判斷他質疑的是對方的前提、假設或結論。接受某個事實、反對對方對它的解釋，不等於否認該事實。觀點歸屬與反駁強度見「論證結構 → 質疑結論 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 正解可以只描述題幹所問的一種手法，不必重述整篇；但選項寫出的每一部分，都必須在題文找到對應。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 找結論（Conclusion）：確認題幹問哪位作者或說話者，找出他要你接受的主張。"
+            },
+            {
+              "type": "p",
+              "text": "S2 找理由（Evidence）：找出支持該主張的證據；不要把對方的理由誤當成作者自己的理由。"
+            },
+            {
+              "type": "p",
+              "text": "S3 描述推理（Characterize）：暫時抽掉主題細節，用自己的話說「作者用什麼，來支持或反駁什麼」。"
+            },
+            {
+              "type": "p",
+              "text": "S4 預想答案（Anticipate）：把上一步濃縮成一句方法描述，例如「質疑原有解釋，再提出另一解釋」。不必先猜中教材術語。"
+            },
+            {
+              "type": "p",
+              "text": "S5 比對選項（Answers）：將選項的抽象用語代回題文，依序核對結論、理由、推理動作及程度；有一部分對不上，就不能選。"
+            },
+            {
+              "type": "p",
+              "label": "常見方法",
+              "text": "以下用語描述作者採取的動作；選擇時仍須回到題文確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "類比（Analogy）：利用兩種情況的相似處，支持另一項相似的判斷。",
+                "排除其他可能（Rules Out Alternatives）：排除競爭解釋或選項，以支持剩下的可能。",
+                "提出另一解釋（Provides Alternate Interpretation）：同一現象仍成立，但作者提出不同的解讀或成因。",
+                "定義詞語（Defines a Term）：說明某個詞的意義，並用這個定義推進論證。",
+                "舉例或反例（Provides an Example / Counterexample）：例子用來說明或支持主張；反例用來反駁一般主張。須分清作者採用哪一種。",
+                "質疑假設（Calls Into Question an Assumption）：指出對方推理所依賴的想法未必成立。",
+                "指出推論後果（Shows Implications of Logic）：順著某個主張或推理推出其後果，再用該後果支持或反對原主張。",
+                "作出區分（Makes a Distinction）：分開原先被混為一談的情況、條件或概念，指出它們不能一概而論。",
+                "提出被忽略的資訊（Brings Up Overlooked Information）：補上原論證未納入、但會影響判斷的事實或考量。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 結論配對錯誤（Wrong Conclusion）：方法聽起來合理，卻把作者要證明的主張換掉。先讀選項「推出什麼」的部分，再與題文結論比對。"
+            },
+            {
+              "type": "p",
+              "text": "T2 前提配對錯誤（Wrong Premise）：把作者沒有使用的證據或關係寫成起點。例如題文從相關性出發，選項卻說作者以一項已知因果關係為前提。"
+            },
+            {
+              "type": "p",
+              "text": "T3 程度過強（Too Strong）：把「有因果關係」改成「唯一原因」，或把「質疑某解釋」改成「徹底排除該解釋」。核對唯一性、確定性與適用範圍。"
+            },
+            {
+              "type": "p",
+              "text": "T4 與題文相反（Contradiction）：選項把作者接受、否定、支持或反對的方向寫反。這裡指選項與題文不符，並非指論證本身有「自相矛盾」缺陷。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "條件式預測：有人以「結果未發生」批評原預測，回應者指出原預測有適用條件，而條件已改變。方法可描述為「區分適用情況」或「提出被忽略的條件」；不能改寫成「否認結果未發生」，也不能由條件未成立就推定結果必不發生。條件推論見「推理結構 → 條件」。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "Method 誘答：Wrong Conclusion 44%；Wrong Premise 31%；Too Strong 13%；Contradiction 13%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 01-20261004-o7",
+        "before": {
+          "title": "Method（論證方法）",
+          "summary": "找出結論與理由，再核對作者如何由理由推出結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹出現 describes the method、proceeds by、responds by、technique of reasoning 或 argumentative strategy，要求描述作者如何論證或回應他人。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 答案須忠實描述作者從理由走向結論的方式。即使推理有缺陷，「由相關性推論因果關係」仍可能是正確描述；不要把 Method 當成 Flaw 題，改選作者沒有採用的推理。"
+            },
+            {
+              "type": "p",
+              "text": "R2 把選項拆成「理由、推理動作、結論」再對回題文。concludes C on the basis of E 與 infers from E that C，都表示「以 E 為理由，推出 C」。名詞要對上實際主張，動詞要對上作者實際做的事。"
+            },
+            {
+              "type": "p",
+              "text": "R3 對話題先分清誰回應誰，再判斷他質疑的是對方的前提、假設或結論。接受某個事實、反對對方對它的解釋，不等於否認該事實。觀點歸屬與反駁強度見「論證結構 → 質疑結論 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 正解可以只描述題幹所問的一種手法，不必重述整篇；但選項寫出的每一部分，都必須在題文找到對應。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 找結論（Conclusion）：確認題幹問哪位作者或說話者，找出他要你接受的主張。"
+            },
+            {
+              "type": "p",
+              "text": "S2 找理由（Evidence）：找出支持該主張的證據；不要把對方的理由誤當成作者自己的理由。"
+            },
+            {
+              "type": "p",
+              "text": "S3 描述推理（Characterize）：暫時抽掉主題細節，用自己的話說「作者用什麼，來支持或反駁什麼」。"
+            },
+            {
+              "type": "p",
+              "text": "S4 預想答案（Anticipate）：把上一步濃縮成一句方法描述，例如「質疑原有解釋，再提出另一解釋」。不必先猜中教材術語。"
+            },
+            {
+              "type": "p",
+              "text": "S5 比對選項（Answers）：將選項的抽象用語代回題文，依序核對結論、理由、推理動作及程度；有一部分對不上，就不能選。"
+            },
+            {
+              "type": "p",
+              "label": "常見方法",
+              "text": "以下用語描述作者採取的動作；選擇時仍須回到題文確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "類比（Analogy）：利用兩種情況的相似處，支持另一項相似的判斷。",
+                "排除其他可能（Rules Out Alternatives）：排除競爭解釋或選項，以支持剩下的可能。",
+                "提出另一解釋（Provides Alternate Interpretation）：同一現象仍成立，但作者提出不同的解讀或成因。",
+                "定義詞語（Defines a Term）：說明某個詞的意義，並用這個定義推進論證。",
+                "舉例或反例（Provides an Example / Counterexample）：例子用來說明或支持主張；反例用來反駁一般主張。須分清作者採用哪一種。",
+                "質疑假設（Calls Into Question an Assumption）：指出對方推理所依賴的想法未必成立。",
+                "指出推論後果（Shows Implications of Logic）：順著某個主張或推理推出其後果，再用該後果支持或反對原主張。",
+                "作出區分（Makes a Distinction）：分開原先被混為一談的情況、條件或概念，指出它們不能一概而論。",
+                "提出被忽略的資訊（Brings Up Overlooked Information）：補上原論證未納入、但會影響判斷的事實或考量。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 結論配對錯誤（Wrong Conclusion）：方法聽起來合理，卻把作者要證明的主張換掉。先讀選項「推出什麼」的部分，再與題文結論比對。"
+            },
+            {
+              "type": "p",
+              "text": "T2 前提配對錯誤（Wrong Premise）：把作者沒有使用的證據或關係寫成起點。例如題文從相關性出發，選項卻說作者以一項已知因果關係為前提。"
+            },
+            {
+              "type": "p",
+              "text": "T3 程度過強（Too Strong）：把「有因果關係」改成「唯一原因」，或把「質疑某解釋」改成「徹底排除該解釋」。核對唯一性、確定性與適用範圍。"
+            },
+            {
+              "type": "p",
+              "text": "T4 與題文相反（Contradiction）：選項把作者接受、否定、支持或反對的方向寫反。這裡指選項與題文不符，並非指論證本身有「自相矛盾」缺陷。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "條件式預測：有人以「結果未發生」批評原預測，回應者指出原預測有適用條件，而條件已改變。方法可描述為「區分適用情況」或「提出被忽略的條件」；不能改寫成「否認結果未發生」，也不能由條件未成立就推定結果必不發生。條件推論見「推理結構 → 條件」。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "Method 誘答：Wrong Conclusion 44%；Wrong Premise 31%；Too Strong 13%；Contradiction 13%。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20261003-o1",
-    "updated_at": "2026-10-04T16:36:41.915Z",
+    "updated_at": "2026-10-04T16:51:02.342Z",
     "updated_by": "tutor"
   }
 ]
