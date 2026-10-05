@@ -6702,6 +6702,10 @@
       },
       {
         "type": "p",
+        "text": "回歸平均（Regression to the Mean）也是其他解釋：若挑選一次表現特別極端的對象，再觀察後續表現，之後可能較接近平常水準。不能只憑「介入後恢復正常」，就把變化歸功於介入；要查是否只是極端表現回到較平常的水準。"
+      },
+      {
+        "type": "p",
         "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
       },
       {
@@ -6741,6 +6745,11 @@
       {
         "type": "p",
         "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+      },
+      {
+        "type": "p",
+        "label": "題型連結",
+        "text": "檢查作者提出的原因是否有依據，見「因果 → 因果解釋的可信度」；題文已提供因果作用、要求推出受支持的結論時，見「因果 → 因果鏈」。"
       }
     ],
     "source_refs": [
@@ -6779,6 +6788,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab Notes.pdf 第13–14頁 [Causation clip]"
       }
     ],
     "status": "草稿",
@@ -7870,89 +7883,78 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "接受提案 01-20261004-o20",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+            },
+            {
+              "type": "p",
+              "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+            },
+            {
+              "type": "p",
+              "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+            },
+            {
+              "type": "p",
+              "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+            },
+            {
+              "type": "p",
+              "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+            },
+            {
+              "type": "p",
+              "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-04T23:49:52.976Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20261004-o20",
-        "date": "2026-10-04",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
-          },
-          {
-            "type": "p",
-            "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
-          },
-          {
-            "type": "p",
-            "text": "回歸平均（Regression to the Mean）也是其他解釋：若挑選一次表現特別極端的對象，再觀察後續表現，之後可能較接近平常水準。不能只憑「介入後恢復正常」，就把變化歸功於介入；要查是否只是極端表現回到較平常的水準。"
-          },
-          {
-            "type": "p",
-            "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
-          },
-          {
-            "type": "p",
-            "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
-          },
-          {
-            "type": "p",
-            "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
-          },
-          {
-            "type": "p",
-            "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
-          },
-          {
-            "type": "p",
-            "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
-          },
-          {
-            "type": "p",
-            "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
-          },
-          {
-            "type": "p",
-            "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
-          },
-          {
-            "type": "p",
-            "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
-          },
-          {
-            "type": "p",
-            "label": "題型連結",
-            "text": "檢查作者提出的原因是否有依據，見「因果 → 因果解釋的可信度」；題文已提供因果作用、要求推出受支持的結論時，見「因果 → 因果鏈」。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "LSATLab Notes",
-            "ref": "LSATLab Notes.pdf 第13–14頁 [Causation clip]"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-04T23:51:06.740Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-013",
