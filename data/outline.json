@@ -6684,72 +6684,73 @@
     "level": 3,
     "order": 2,
     "title": "Causation（因果）",
-    "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+    "summary": "先辨識觀察與解釋；評估解釋走兩條路，因果推論沿已知關係核對方向與程度。",
     "blocks": [
       {
         "type": "p",
         "label": "辨識",
-        "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+        "text": "因果題先分清「觀察到什麼」與「如何解釋它」。作者若由觀察提出原因，要評估這個解釋；題文若把因果作用作為前提、要求由此前提推出結論，則沿著已知關係推論。"
+      },
+      {
+        "type": "p",
+        "text": "因果動詞：causes、leads to、results in、has the effect of 表達因果作用；promotes、inhibits、raises、lowers、deters、encourages 要核對促進或抑制的方向；influences、contributes to、is a factor in 表達影響或部分促成。讀全句的否定與程度，不能把「促成因素」改成「唯一原因」。"
+      },
+      {
+        "type": "p",
+        "text": "跨句連結語：because of this、due to this、this allows、this leads to、this makes possible、as a result。先把 this 等指涉代回具體事件，再辨認前句哪個因素影響後句哪個結果。consequently、accordingly 也可能連接理由與結論；是否主張因果，仍須核對句意。"
+      },
+      {
+        "type": "p",
+        "label": "體系",
+        "text": "本節有四個子節。第一部分辨識觀察與解釋；第二、三部分分別從「其他解釋」與「作者解釋的依據」評估論證；第四部分處理題文已提供因果關係時的推論。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "待解釋的比較與變化（Curious Comparisons）：找出相關、組間差異、先後變化或比例差異與變化，以及作者對它的解釋。",
+          "多種解釋（Multiple Ways to Explain）：檢查反向因果、第三因素、資料問題及回歸平均。",
+          "評估因果解釋的可信度（Assessing Plausibility）：檢查共同變動、作用機制、因素是否真的不同，以及原因是否存在且能起作用。",
+          "因果鏈（Causal Chains）：沿著題文明說的因果作用，核對方向、連結與推論程度。"
+        ]
       },
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+        "text": "R1 評估作者的解釋時，核對兩問：同一現象有沒有其他解釋？作者提出的原因本身有什麼依據？依題文與選項判斷它影響哪一問，不必每題自行列舉全部可能。"
       },
       {
         "type": "p",
-        "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+        "text": "R2 題文把因果作用作為前提、要求推出結論時，先接受題目給定的關係，再判斷選項是否沿著該關係推出受支持的影響。解法見「因果鏈」。"
       },
       {
         "type": "p",
-        "text": "回歸平均（Regression to the Mean）也是其他解釋：若挑選一次表現特別極端的對象，再觀察後續表現，之後可能較接近平常水準。不能只憑「介入後恢復正常」，就把變化歸功於介入；要查是否只是極端表現回到較平常的水準。"
+        "label": "題型應用",
+        "text": "評估作者的因果解釋時，各題型運用兩條路徑的方式如下："
       },
       {
         "type": "p",
-        "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+        "text": "削弱（Weaken）：通常提供同一現象的其他解釋，例如反向因果、第三因素、不同起點、回歸平均或資料問題；也可能動搖作者解釋的可信度，例如作用機制不成立，或可比較的資料顯示有原因卻無結果、無原因卻有結果。"
       },
       {
         "type": "p",
-        "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+        "text": "加強（Strengthen）：通常增加作者解釋的可信度，例如可比較的資料顯示無原因則無結果、更多原因伴隨更多結果，或補出作用機制；也可能排除其他解釋。支持程度提高，不等於已證明因果。"
       },
       {
         "type": "p",
-        "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+        "text": "缺陷（Flaw）：指出作者直接由相關推因果，或在證據不足、仍有其他可成立的解釋時，對因果結論過度確定。先指出證據到結論缺了哪一步，再核對選項是否描述題文實際的推論不足。"
       },
       {
         "type": "p",
-        "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+        "text": "必要假設（Necessary Assumption）：找作者因果論證必須依賴的條件，可能排除會破壞推論的其他解釋，或補上必需的連結。僅能增加可信度還不夠；排除另一原因也不必然是必要條件，須核對結論的程度並用否定測試確認。解法見「總覽 → 假設家族 → 必要假設與充分假設」。"
       },
       {
         "type": "p",
-        "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
-      },
-      {
-        "type": "p",
-        "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+        "text": "評估（Evaluate）：找出答案會影響其他解釋或作者解釋可信度的問題。對同一問題作不同回答，應能使論證獲得不同程度的支持。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
-      },
-      {
-        "type": "p",
-        "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
-      },
-      {
-        "type": "p",
-        "label": "陷阱",
-        "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
-      },
-      {
-        "type": "p",
-        "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
-      },
-      {
-        "type": "p",
-        "label": "題型連結",
-        "text": "檢查作者提出的原因是否有依據，見「因果 → 因果解釋的可信度」；題文已提供因果作用、要求推出受支持的結論時，見「因果 → 因果鏈」。"
+        "text": "S1 先確認題幹任務，再用一句話寫出「觀察是什麼、作者如何解釋」或「題文給定哪條因果關係」。前者走兩條評估路徑，後者沿因果鏈核對選項。"
       }
     ],
     "source_refs": [
@@ -6792,6 +6793,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSATLab Notes.pdf 第13–14頁 [Causation clip]"
+      },
+      {
+        "type": "User Revision",
+        "ref": "LSATLab Notes.pdf 第13–14頁：Causation；Causation-handout.pdf 第3–4、40頁；Causation takeaway／Language Cues 截圖"
       }
     ],
     "status": "草稿",
@@ -8026,91 +8031,87 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "接受提案 01-20261004-o40",
+        "before": {
+          "title": "Causation（因果）",
+          "summary": "同一結果有無其他解釋？作者的解釋本身有何依據？依選項核對，不先列舉所有可能。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "作者由 Correlation、先後變化或組間差距，推論 X causes Y。先指出觀察到的結果 Y，再指出作者提出的原因 X；區分觀察到的關聯與作者的因果解釋。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 核對兩問：① 選項是否提供 Alternative Explanation，說明同一結果？② 選項是否支持或動搖作者的解釋本身？Strengthen 可排除其他解釋或提高作者解釋的可信度；Weaken 可支持其他解釋或動搖作者解釋的依據。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Alternative Explanation：Alternative Cause 為 Z 可解釋 Y；Reverse Causation 為 Y 導致 X；Common Cause 為 Z 同時造成 X 與 Y；Selection Bias 為分組或納入樣本的方式造成相關差異。先說明選項中的實際機制，再使用標籤；Counterfactual Comparison 不等於 Reverse Causation。"
+            },
+            {
+              "type": "p",
+              "text": "回歸平均（Regression to the Mean）也是其他解釋：若挑選一次表現特別極端的對象，再觀察後續表現，之後可能較接近平常水準。不能只憑「介入後恢復正常」，就把變化歸功於介入；要查是否只是極端表現回到較平常的水準。"
+            },
+            {
+              "type": "p",
+              "text": "R3 題文交代起點一致時，確認一致的是哪一項，再判斷排除了哪些原有差異。不能由一項起點相同，推定所有條件都相同。Confounding 要核對是否有與 X 同時變動、足以影響 Y 的因素。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Random Assignment 有助降低組間原有差異；仍須核對實際處理、分派後的其他影響及測量方式。Random Sampling 與 Random Assignment 不同，不能只看到 random 就認定所有 Alternative Explanations 已排除。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Anti-Causal Arguments：Could Have Been Worse，例如上課後只考 150，未上課可能更差，不能直接認定課沒用。Unfair Comparison，例如上課者與自學者都考 150，兩人的起點可能不同，不能直接認定課沒用。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Attack the Correlation：核對選項是否揭露測量、樣本或資料比較的問題，使觀察到的 X–Y 關聯不可靠。樣本小或研究不完美本身不自動構成削弱，須說明如何影響本題的證據。"
+            },
+            {
+              "type": "p",
+              "text": "R7 Timing／Mechanism：核對 Y 是否早於 X 出現，以及 X 是否具備作者所需的時間、劑量、程度與作用條件。只檢查 Stimulus 與 Answer Choice 實際涉及的條件。"
+            },
+            {
+              "type": "p",
+              "text": "R8 Counterexample／Control Comparison：在可比較的情況下，檢查有 X 無 Y，或無 X 也有 Y，是否降低作者解釋的可信度。X 可能只是提高 Y 的機率，或只是多個原因之一，因此這些情況不自動推翻因果。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 指出作者用什麼證據支持 X causes Y，再核對選項提供的是其他解釋，還是動搖 Correlation、Timing、Mechanism 或比較條件。依選項檢查，不先自行列舉所有可能原因。"
+            },
+            {
+              "type": "p",
+              "text": "S2 用一句話說明：這項資訊如何改變作者把 Y 歸因於 X 的可信度？若 Conclusion 含 prolonged、permanent 等限定語，也核對證據是否支持該程度。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 說明實際機制，不只說另有原因。Common Cause、Selection Bias、Reverse Causation 與 Counterfactual Comparison 須依關係區分。"
+            },
+            {
+              "type": "p",
+              "text": "T2 先例或類比式選項：核對例子是否支持作者所用的因果機制。只有結果或表面條件相似，卻沒有支持該機制，可能只符合部分內容（Half Scope）。"
+            },
+            {
+              "type": "p",
+              "label": "題型連結",
+              "text": "檢查作者提出的原因是否有依據，見「因果 → 因果解釋的可信度」；題文已提供因果作用、要求推出受支持的結論時，見「因果 → 因果鏈」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T00:29:31.242Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20261004-o40",
-        "date": "2026-10-04",
-        "summary": "先辨識觀察與解釋；評估解釋走兩條路，因果推論沿已知關係核對方向與程度。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "因果題先分清「觀察到什麼」與「如何解釋它」。作者若由觀察提出原因，要評估這個解釋；題文若把因果作用作為前提、要求由此前提推出結論，則沿著已知關係推論。"
-          },
-          {
-            "type": "p",
-            "text": "因果動詞：causes、leads to、results in、has the effect of 表達因果作用；promotes、inhibits、raises、lowers、deters、encourages 要核對促進或抑制的方向；influences、contributes to、is a factor in 表達影響或部分促成。讀全句的否定與程度，不能把「促成因素」改成「唯一原因」。"
-          },
-          {
-            "type": "p",
-            "text": "跨句連結語：because of this、due to this、this allows、this leads to、this makes possible、as a result。先把 this 等指涉代回具體事件，再辨認前句哪個因素影響後句哪個結果。consequently、accordingly 也可能連接理由與結論；是否主張因果，仍須核對句意。"
-          },
-          {
-            "type": "p",
-            "label": "體系",
-            "text": "本節有四個子節。第一部分辨識觀察與解釋；第二、三部分分別從「其他解釋」與「作者解釋的依據」評估論證；第四部分處理題文已提供因果關係時的推論。"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "待解釋的比較與變化（Curious Comparisons）：找出相關、組間差異、先後變化或比例差異與變化，以及作者對它的解釋。",
-              "多種解釋（Multiple Ways to Explain）：檢查反向因果、第三因素、資料問題及回歸平均。",
-              "評估因果解釋的可信度（Assessing Plausibility）：檢查共同變動、作用機制、因素是否真的不同，以及原因是否存在且能起作用。",
-              "因果鏈（Causal Chains）：沿著題文明說的因果作用，核對方向、連結與推論程度。"
-            ]
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 評估作者的解釋時，核對兩問：同一現象有沒有其他解釋？作者提出的原因本身有什麼依據？依題文與選項判斷它影響哪一問，不必每題自行列舉全部可能。"
-          },
-          {
-            "type": "p",
-            "text": "R2 題文把因果作用作為前提、要求推出結論時，先接受題目給定的關係，再判斷選項是否沿著該關係推出受支持的影響。解法見「因果鏈」。"
-          },
-          {
-            "type": "p",
-            "label": "題型應用",
-            "text": "評估作者的因果解釋時，各題型運用兩條路徑的方式如下："
-          },
-          {
-            "type": "p",
-            "text": "削弱（Weaken）：通常提供同一現象的其他解釋，例如反向因果、第三因素、不同起點、回歸平均或資料問題；也可能動搖作者解釋的可信度，例如作用機制不成立，或可比較的資料顯示有原因卻無結果、無原因卻有結果。"
-          },
-          {
-            "type": "p",
-            "text": "加強（Strengthen）：通常增加作者解釋的可信度，例如可比較的資料顯示無原因則無結果、更多原因伴隨更多結果，或補出作用機制；也可能排除其他解釋。支持程度提高，不等於已證明因果。"
-          },
-          {
-            "type": "p",
-            "text": "缺陷（Flaw）：指出作者直接由相關推因果，或在證據不足、仍有其他可成立的解釋時，對因果結論過度確定。先指出證據到結論缺了哪一步，再核對選項是否描述題文實際的推論不足。"
-          },
-          {
-            "type": "p",
-            "text": "必要假設（Necessary Assumption）：找作者因果論證必須依賴的條件，可能排除會破壞推論的其他解釋，或補上必需的連結。僅能增加可信度還不夠；排除另一原因也不必然是必要條件，須核對結論的程度並用否定測試確認。解法見「總覽 → 假設家族 → 必要假設與充分假設」。"
-          },
-          {
-            "type": "p",
-            "text": "評估（Evaluate）：找出答案會影響其他解釋或作者解釋可信度的問題。對同一問題作不同回答，應能使論證獲得不同程度的支持。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 先確認題幹任務，再用一句話寫出「觀察是什麼、作者如何解釋」或「題文給定哪條因果關係」。前者走兩條評估路徑，後者沿因果鏈核對選項。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "LSATLab Notes.pdf 第13–14頁：Causation；Causation-handout.pdf 第3–4、40頁；Causation takeaway／Language Cues 截圖"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-05T00:31:03.934Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-013",
