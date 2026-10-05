@@ -1791,47 +1791,36 @@
   },
   {
     "section_id": "OL-004",
-    "parent_id": "OL-002",
-    "level": 3,
-    "order": 2,
+    "parent_id": "OL-001",
+    "level": 2,
+    "order": 5,
     "title": "Inference Family（推論家族）",
-    "summary": "必然為真由題文推出；最受支持守住範圍；爭點題先查雙方是否都表態。",
+    "summary": "接受題文提供的 statements，先找彼此相關的資訊，再辨認可用的 Reasoning Structure；在看選項前先預測可推出的關係，最後檢查答案是否真的受到題文支持。",
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "家族比例：Most Supported（最受支持）8%；Must Be True（必然為真）7%；Paradox 7%；Must Be False（必然為假）1%；Agree/Disagree（爭點）1%。題幹方向：題文支撐選項（與 Strengthen 相反，見「排除誘答」R2）。"
+        "label": "Recognition",
+        "text": "Inference Family 包括 Must Be True、Most Supported、Must Be False、Agree/Disagree。這類題目的基本方向是由題文 statements 推出答案，而不是像 Assumption Family 一樣先攻擊前提到結論之間的缺口。"
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 「無法推出」不等於「為假」。Must Be True 與 Most Supported 找前提支撐的內容；Must Be False 找前提所矛盾的內容。"
+        "label": "Steps",
+        "text": "S1 Related Statements：先找題文中彼此能連接、重疊、比較或共同限制同一問題的 statements。"
       },
       {
         "type": "p",
-        "text": "R2 Most Supported 的正解可以比前提弱，但不可多於前提所給；不得引入題文沒有的對象、比較或趨勢。"
+        "label": "Steps",
+        "text": "S2 Reasoning Structure：辨認 statements 使用的既有推理結構，再套用該結構原本的規則。本節不重複建立第二套 Conditional、Quantified、Comparison 或 Causation 規則。"
       },
       {
         "type": "p",
-        "text": "R3 Deductions and Inference（Must Be True）：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+        "label": "Steps",
+        "text": "S3 Anticipate：在看選項前，先預測目前資訊可以安全推出的關係與邏輯強度；不要求猜中選項原句。"
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 Must Be True：先把規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端，沿方向推出結論。"
-      },
-      {
-        "type": "p",
-        "text": "S2 Agree/Disagree：先篩出兩人都有表態的選項；再篩出兩人立場相反者。"
-      },
-      {
-        "type": "p",
-        "label": "陷阱",
-        "text": "T1 Must Be True 三類誤選，直接對照刪除：箭頭反向；未定區域假設有人（未標明有人的區域一律視為可能為空，「至少有一位」須題文明確給出）；把 most 當成 all。"
-      },
-      {
-        "type": "p",
-        "text": "T2 Most Supported：偏好較不絕對的選項而刪除有鏈條支撐的絕對句；接受前提未比較過的比較詞（principally、mainly）。"
+        "label": "Steps",
+        "text": "S4 Answers：逐項檢查選項是否真的由題文推出，並注意它是否增加未建立的關係、反轉方向、否定既有關係，或把較弱資訊升級成較強結論。"
       }
     ],
     "source_refs": [
@@ -1850,6 +1839,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "影片《Must Be True》Inference Family Process 與 Takeaways；2026-10-04 使用者截圖"
       }
     ],
     "status": "草稿",
@@ -2016,9 +2009,103 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "移動節",
+        "before": {
+          "title": "Inference Family（推論家族）",
+          "summary": "必然為真由題文推出；最受支持守住範圍；爭點題先查雙方是否都表態。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "家族比例：Most Supported（最受支持）8%；Must Be True（必然為真）7%；Paradox 7%；Must Be False（必然為假）1%；Agree/Disagree（爭點）1%。題幹方向：題文支撐選項（與 Strengthen 相反，見「排除誘答」R2）。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 「無法推出」不等於「為假」。Must Be True 與 Most Supported 找前提支撐的內容；Must Be False 找前提所矛盾的內容。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Most Supported 的正解可以比前提弱，但不可多於前提所給；不得引入題文沒有的對象、比較或趨勢。"
+            },
+            {
+              "type": "p",
+              "text": "R3 Deductions and Inference（Must Be True）：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Must Be True：先把規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端，沿方向推出結論。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Agree/Disagree：先篩出兩人都有表態的選項；再篩出兩人立場相反者。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 Must Be True 三類誤選，直接對照刪除：箭頭反向；未定區域假設有人（未標明有人的區域一律視為可能為空，「至少有一位」須題文明確給出）；把 most 當成 all。"
+            },
+            {
+              "type": "p",
+              "text": "T2 Most Supported：偏好較不絕對的選項而刪除有鏈條支撐的絕對句；接受前提未比較過的比較詞（principally、mainly）。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-inf-v2-02",
+        "before": {
+          "title": "Inference Family（推論家族）",
+          "summary": "必然為真由題文推出；最受支持守住範圍；爭點題先查雙方是否都表態。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "家族比例：Most Supported（最受支持）8%；Must Be True（必然為真）7%；Paradox 7%；Must Be False（必然為假）1%；Agree/Disagree（爭點）1%。題幹方向：題文支撐選項（與 Strengthen 相反，見「排除誘答」R2）。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 「無法推出」不等於「為假」。Must Be True 與 Most Supported 找前提支撐的內容；Must Be False 找前提所矛盾的內容。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Most Supported 的正解可以比前提弱，但不可多於前提所給；不得引入題文沒有的對象、比較或趨勢。"
+            },
+            {
+              "type": "p",
+              "text": "R3 Deductions and Inference（Must Be True）：正解須由事實加規則的方向（正向或逆否）直接走出。走不出即刪，不作情境想像。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Must Be True：先把規則畫成箭頭，再把 most 或 some 的事實標在箭頭一端，沿方向推出結論。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Agree/Disagree：先篩出兩人都有表態的選項；再篩出兩人立場相反者。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 Must Be True 三類誤選，直接對照刪除：箭頭反向；未定區域假設有人（未標明有人的區域一律視為可能為空，「至少有一位」須題文明確給出）；把 most 當成 all。"
+            },
+            {
+              "type": "p",
+              "text": "T2 Most Supported：偏好較不絕對的選項而刪除有鏈條支撐的絕對句；接受前提未比較過的比較詞（principally、mainly）。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T04:49:45.911Z",
+    "updated_at": "2026-10-05T04:06:39.582Z",
     "updated_by": "tutor"
   },
   {
@@ -2026,7 +2113,7 @@
     "parent_id": "OL-002",
     "level": 3,
     "order": 3,
-    "title": "Match Family（配對家族；原稱 Function Family）",
+    "title": "Match Family（配對家族）",
     "summary": "分清題型任務：找主結論、判句子作用，或描述整段推理方法。",
     "blocks": [
       {
@@ -2273,9 +2360,35 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-inf-v2-07",
+        "before": {
+          "title": "Match Family（配對家族；原稱 Function Family）",
+          "summary": "分清題型任務：找主結論、判句子作用，或描述整段推理方法。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "Main Conclusion 問「作者要證明什麼」；Role 問「指定句子在論證中做什麼」；Method 問「作者如何論證或回應」。共用的結論、證據與角色判準見「論證結構 → 找結論與證據」；題型解法見本家族下的「主結論」「句子角色」「論證方法」。"
+            },
+            {
+              "type": "p",
+              "label": "分類",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "各題型占整體 LR 的比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-04T16:51:02.227Z",
+    "updated_at": "2026-10-05T04:06:39.657Z",
     "updated_by": "tutor"
   },
   {
@@ -15682,6 +15795,166 @@
     "revisions": [],
     "client_request_id": "01-20261004-o42",
     "updated_at": "2026-10-05T00:29:31.262Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-051",
+    "parent_id": "OL-004",
+    "level": 3,
+    "order": 1,
+    "title": "Must Be True",
+    "summary": "假設題文 statements 為真，找出因此必然成立的結論；答案必須由已知資訊保證，而不是只有可能、合理或較有說服力。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "Recognition",
+        "text": "題幹常見訊號：statements、information、passage、must be true、properly inferred、follows logically、can be inferred、can be concluded。看到這些訊號，任務是問：如果題文資訊都是真的，哪一項也一定成立？"
+      },
+      {
+        "type": "p",
+        "label": "Stimulus Tendencies",
+        "text": "題文通常提供 FACTS，而不是要你評價其好壞的 ARGUMENTS。常見素材是 Conditional 或 Quantified / Mathematical ideas，因此閱讀重點是找可以連接或重疊的 statements，而不是先找 Conclusion 與 Flaw。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R1 必然性門檻：Must Be True 不是選「聽起來合理」或「最可能」的答案。正解必須在題文 statements 都成立時不能為假。若選項還需要補入一項題文沒有給你的事實、關係或假設，便沒有達到 Must Be True 的門檻。"
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R2 Conditional Inferences：看到條件關係時，先問能否形成 chain、是否有 fact 觸發某條 rule，以及是否能藉由排除有限選項推出唯一剩餘結果。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Chain：A → B → C → D 時，可推出 A → D，也可以推出合法的子鏈，例如 A → C 或 B → D；同時保留合法的 contrapositive，例如 ~D → ~A。",
+          "Trigger a Rule：題文若另外給一項 fact 滿足某條 conditional 的 sufficient condition，就推出該 rule 的結果；有時必須先使用 contrapositive 才看得到觸發關係。",
+          "Eliminate Alternatives：題文若限定只有兩個或三個可能結果，並逐一排除到只剩一個，便可推出最後剩下的選項。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R3 Quantified / Mathematical Inferences：看到 Some、Most、All、Few，或百分比、平均值與不等式時，不只看字面內容，而要問兩組資訊是否強迫某些集合重疊、某一群體較大，或某一數值必須高於另一數值。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Most A's are B + Most A's are C → 至少有 Some B are C。兩個都涵蓋 A 的多數，因此 B 與 C 必須在部分 A 上重疊。",
+          "All A's are B + Some A's are C → Some B are C。那個同時屬於 A 與 C 的成員也必然屬於 B。",
+          "Most A's are B + All B's are C → Most A's are C。A 中屬於 B 的多數也全部屬於 C。",
+          "Most A's are B + Most B's are not A → B 的群體必須大於 A。共同成員同時超過 A 的一半、但不到 B 的一半，因此 B 較大。",
+          "不等式具有可傳遞性：若 x > y 且 y > z，則 x > z。",
+          "平均值題須看加權結果：若整體平均為 160，而其中一個非空子群平均只有 152，另一子群平均必須高於 160，才可能把整體拉回 160。",
+          "比例固定時可推原始量的方向：若租金現在比五年前高，但租金仍占薪資相同比例，則現在薪資也必須高於五年前。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "Rule",
+        "text": "R4 Answer Strength：推論只能到題文真正保證的程度。方向正確仍不夠；比較程度、數量範圍、可能性與確定性都不能被選項偷偷提高。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T1 Unsupported Relationship：選項使用題文出現過的元素，卻自行建立題文從未支持的關係。題目裡兩個名詞都出現過，不代表兩者之間的特定關係已被證明。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T2 Too Strong：選項的方向可能相關，但把程度、範圍、比較或確定性提高到題文無法保證的程度。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T3 Reversal / Negation：Reversal 把原有條件或關係方向倒轉；Negation 則把題文建立的條件或結果改成其否定。Conditional 題尤其要回到原箭頭核對。"
+      },
+      {
+        "type": "p",
+        "label": "Trap",
+        "text": "T4 Contradiction：選項直接與題文已給定的 statement 衝突。主題再相關，只要與已知事實矛盾，就不可能是 Must Be True。"
+      },
+      {
+        "type": "p",
+        "label": "Official Example",
+        "text": "June 2007 S3 Q22：把數個條件關係連起來，最後推出必然結果。A／B 是 Reversal；E 是 Negation。\nPT2 S4 Q23：比較語句只支持「at least as quickly」，不能升級成 more quickly 或 same time。這題用來檢查 answer strength 是否守住題文真正給出的比較程度。\nPT65 S4 Q6：題文只支持一條「可能發生」的因果鏈，所以正解用 can result in；錯誤選項卻自行增加必要性或其他未建立的關係。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "影片《Must Be True》完整影片、例題與 Takeaways；2026-10-04 使用者截圖"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "00-20261004-inf-v2-03",
+    "updated_at": "2026-10-05T04:06:39.610Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-052",
+    "parent_id": "OL-004",
+    "level": 3,
+    "order": 2,
+    "title": "Most Supported",
+    "summary": "待完成對應影片後補入規則、陷阱與例題；本次只建立節點，不先行填入尚未學習的內容。",
+    "blocks": [],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "Inference Family overview；詳細影片尚未完成"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "00-20261004-inf-v2-04",
+    "updated_at": "2026-10-05T04:06:39.621Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-053",
+    "parent_id": "OL-004",
+    "level": 3,
+    "order": 3,
+    "title": "Must Be False",
+    "summary": "待完成對應影片後補入規則、陷阱與例題；本次只建立節點，不先行填入尚未學習的內容。",
+    "blocks": [],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "Inference Family overview；詳細影片尚未完成"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "00-20261004-inf-v2-05",
+    "updated_at": "2026-10-05T04:06:39.632Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-054",
+    "parent_id": "OL-004",
+    "level": 3,
+    "order": 4,
+    "title": "Agree/Disagree",
+    "summary": "待完成對應影片後補入規則、陷阱與例題；本次只建立節點，不先行填入尚未學習的內容。",
+    "blocks": [],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "Inference Family overview；詳細影片尚未完成"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "00-20261004-inf-v2-06",
+    "updated_at": "2026-10-05T04:06:39.647Z",
     "updated_by": "tutor"
   }
 ]
