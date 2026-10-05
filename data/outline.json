@@ -1793,7 +1793,7 @@
     "section_id": "OL-004",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 5,
+    "order": 4,
     "title": "Inference Family（推論家族）",
     "summary": "接受題文提供的 statements，先找彼此相關的資訊，再辨認可用的 Reasoning Structure；在看選項前先預測可推出的關係，最後檢查答案是否真的受到題文支持。",
     "blocks": [
@@ -2103,10 +2103,46 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "調整順序",
+        "before": {
+          "title": "Inference Family（推論家族）",
+          "summary": "接受題文提供的 statements，先找彼此相關的資訊，再辨認可用的 Reasoning Structure；在看選項前先預測可推出的關係，最後檢查答案是否真的受到題文支持。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "Recognition",
+              "text": "Inference Family 包括 Must Be True、Most Supported、Must Be False、Agree/Disagree。這類題目的基本方向是由題文 statements 推出答案，而不是像 Assumption Family 一樣先攻擊前提到結論之間的缺口。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S1 Related Statements：先找題文中彼此能連接、重疊、比較或共同限制同一問題的 statements。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S2 Reasoning Structure：辨認 statements 使用的既有推理結構，再套用該結構原本的規則。本節不重複建立第二套 Conditional、Quantified、Comparison 或 Causation 規則。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S3 Anticipate：在看選項前，先預測目前資訊可以安全推出的關係與邏輯強度；不要求猜中選項原句。"
+            },
+            {
+              "type": "p",
+              "label": "Steps",
+              "text": "S4 Answers：逐項檢查選項是否真的由題文推出，並注意它是否增加未建立的關係、反轉方向、否定既有關係，或把較弱資訊升級成較強結論。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T04:06:39.582Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-05T04:07:07.228Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-005",
@@ -8230,7 +8266,7 @@
     "section_id": "OL-013",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 4,
+    "order": 5,
     "title": "Eliminate Trap Answers（排除誘答）",
     "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
     "blocks": [
@@ -9007,9 +9043,64 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "調整順序",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+            },
+            {
+              "type": "p",
+              "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
+            },
+            {
+              "type": "p",
+              "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+            },
+            {
+              "type": "p",
+              "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+            },
+            {
+              "type": "p",
+              "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「論證結構 → 質疑結論 → 缺陷」R1。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。"
+            },
+            {
+              "type": "p",
+              "text": "T2 作答前未確認題幹任務，以自己對結論的判斷挑選項。"
+            },
+            {
+              "type": "p",
+              "text": "T3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。"
+            },
+            {
+              "type": "p",
+              "text": "T4 診斷正確但未對應到選項字母。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-01T05:03:48.651Z",
+    "updated_at": "2026-10-05T04:07:07.219Z",
     "updated_by": "user",
     "proposals": []
   },
