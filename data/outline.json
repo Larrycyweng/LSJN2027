@@ -5,7 +5,7 @@
     "level": 1,
     "order": 1,
     "title": "LR",
-    "summary": "先讀題幹定任務；論證題找結論與缺口，推論與功能題按各自任務作答。",
+    "summary": "先讀題問確認任務，再依題型判讀題文。",
     "blocks": [],
     "source_refs": [
       {
@@ -25,9 +25,19 @@
           "summary": "Logical Reasoning. How to master LR: Argument Structure, Reasoning Structure, Trap Answers. Question Family: Assumption (64%), Inference (24%), Function (19%).",
           "blocks": []
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-compact-statistics-01",
+        "before": {
+          "title": "LR",
+          "summary": "先讀題幹定任務；論證題找結論與缺口，推論與功能題按各自任務作答。",
+          "blocks": []
+        }
       }
     ],
-    "updated_at": "2026-09-24T04:53:10.901Z",
+    "updated_at": "2026-10-05T05:18:56.274Z",
     "updated_by": "tutor"
   },
   {
@@ -36,47 +46,31 @@
     "level": 2,
     "order": 1,
     "title": "LR Overview（總覽）",
-    "summary": "題幹定任務；證據如何支持結論？中間缺哪一步？",
+    "summary": "論證題找結論、證據與推理缺口。",
     "blocks": [
       {
         "type": "p",
-        "text": "三大家族如下。",
-        "label": "辨識"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Assumption 64%。",
-          "Inference 24%。",
-          "Match（原稱 Function）19%。"
-        ]
+        "label": "辨識",
+        "text": "三大家族：Assumption 64%；Inference 24%；Match（原稱 Function）19%。"
       },
       {
         "type": "p",
-        "text": "教材按題號描述難度：",
-        "label": "題號與難度"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Q1–Q8：直覺可解。",
-          "Q9–Q16：誘答為主。",
-          "Q17–Q25：推理結構加誘答。"
-        ]
+        "label": "題號與難度",
+        "text": "Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
       },
       {
         "type": "p",
-        "text": "R1 論證三要素：Evidence（證據）、Assumption（假設）、Conclusion（結論）。假設是連接證據與結論的那一步。",
+        "text": "R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。",
         "label": "規則"
       },
       {
         "type": "p",
-        "text": "藍車最快，所以你該買藍車；假設為「最快即該買」。",
+        "text": "藍車最快 → 該買藍車；假設是「最快就該買」。",
         "label": "例子"
       },
       {
         "type": "p",
-        "text": "S1 讀題文之前先讀題幹，確定任務（問缺陷、問支持、問推論、問功能），再讀結構。",
+        "text": "S1 先讀題問，確認任務，再讀題文。",
         "label": "步驟"
       }
     ],
@@ -209,9 +203,61 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-compact-statistics-02",
+        "before": {
+          "title": "LR Overview（總覽）",
+          "summary": "題幹定任務；證據如何支持結論？中間缺哪一步？",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "三大家族如下。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Assumption 64%。",
+                "Inference 24%。",
+                "Match（原稱 Function）19%。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "教材按題號描述難度：",
+              "label": "題號與難度"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Q1–Q8：直覺可解。",
+                "Q9–Q16：誘答為主。",
+                "Q17–Q25：推理結構加誘答。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 論證三要素：Evidence（證據）、Assumption（假設）、Conclusion（結論）。假設是連接證據與結論的那一步。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "藍車最快，所以你該買藍車；假設為「最快即該買」。",
+              "label": "例子"
+            },
+            {
+              "type": "p",
+              "text": "S1 讀題文之前先讀題幹，確定任務（問缺陷、問支持、問推論、問功能），再讀結構。",
+              "label": "步驟"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T05:04:07.878Z",
+    "updated_at": "2026-10-05T05:18:56.285Z",
     "updated_by": "tutor"
   },
   {
@@ -296,118 +342,6 @@
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-22",
-        "by": "user",
-        "summary": "使用者編輯",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "Flaw 16%, Necessary Assumption 11%, Weaken 9%, Principle 9%, Strengthen 7%, Paradox 7%, Sufficient Assumption 4%.",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Flaw 16%; Necessary Assumption（必要假設） 11%; Weaken 9%; Principle 9%; Strengthen 7%; Paradox 7%; Sufficient Assumption（充分假設） 4%."
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Necessary Assumption（必要假設）: Negation Test: negate the choice; if the argument collapses, it is necessary. Pick the weakest statement the argument cannot do without. Sufficient Assumption（充分假設）: Bridge Test: add the choice; if the conclusion then follows, it is sufficient. Pick the statement that fully closes the gap between premises and conclusion."
-            },
-            {
-              "type": "p",
-              "label": "Why It Works",
-              "text": "Two tasks differ in direction. Necessary asks what must be true for the argument; Sufficient asks what would make the conclusion follow."
-            },
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "題幹辨識詞。NA：requires、depends on、relies on、must be assumed、only if、the argument assumes that、presumes。SA：if（assumed）、enables、ensures、suffices、allows、would make。兩份清單無共用詞；follows logically 本身不分兩者，區別在其後接 if 或 only if。無法判定時預設按 NA 處理。題幹層的 must、ensures 與題文層的條件訊號詞（OL-010）分屬兩層，不可混用。"
-            },
-            {
-              "type": "ol",
-              "label": "Steps",
-              "items": [
-                "Sufficient Assumption（充分假設） three steps: write the premise chain as arrows.",
-                "Write the conclusion as an arrow.",
-                "Compare; the correct option is the missing link, often stated as its contrapositive（逆否）."
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Sufficient Assumption 的推理結構：Conditional 90%、Comparison 13%。SA 題幾乎都是箭頭題，讀題文時先畫箭頭。影片未為 SA 列出 Defending 類型。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Necessary Assumption 兩種結構。Linking（41%）：正解補上前提與結論之間鏈條的斷點；作答動作為列出箭頭找斷點。Defending（59%）：正解排除一個會擊倒論證的其他可能或其他途徑；作答動作為問「還有什麼別的路徑或原因會讓結論不成立」。判斷順序：先列箭頭，鏈條有斷點找 Linking，鏈條接得上但有其他解釋找 Defending。兩者皆以 Negation Test 確認。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Negation Test 的門檻：否定選項後，問的是「前提還撐得住結論嗎」，不是「結論被推翻了嗎」。否定的對象永遠是選項本身；若否定後與題文前提直接矛盾，通常表示否定的內容讀錯了範圍。五個選項各否定一次，傷害最大者為答案，因此五個都要測。"
-            },
-            {
-              "type": "p",
-              "label": "Steps",
-              "text": "全稱詞（any、all、every、only）是否過強的兩步測試：第一步，把該詞換成較弱的詞（some、most、at least one）得到弱化版；第二步，問弱化版能否讓論證走到結論。弱化版不夠用，原全稱必要，保留；弱化版仍夠用，原句超出所需，刪除。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Sufficient vs. Necessary Assumption [補充]。邏輯強度：一項陳述排除的可能情況越多，其強度越高。橋接陳述（bridge statement）：恰能連接前提與結論的最低限度陳述，同時為充分且必要。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Sufficient Assumption：強度大於或等於 bridge 的選項皆可選。Bridge Test：加入該選項後，結論是否必然成立。選項強度超過所需並非刪除理由。",
-                "Necessary Assumption：強度小於或等於 bridge 的選項皆可選。Negation Test：否定該選項後，前提是否仍撐得住結論。",
-                "類比：購買一美元商品，持有一百萬美元為充分而非必要；持有至少一美元為必要而未必充分。",
-                "需要題文以外事實才能起作用的選項不在強度軸上，兩種題型都不可選。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Trap",
-              "text": "兩種題型的誘答分布互為鏡像。NA：Too Strong 36%、Out of Scope 33%；考場動作為先刪超出所需的選項（用弱化兩步測試）。SA：Out of Scope 36%、Too Weak 31%；考場動作為先刪加入後結論仍不必然成立的選項。與強度軸一致：NA 的誤選往強的方向超出，SA 的誤選往弱的方向不足（對照 SIG-009）。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q16 (Necessary Assumption（必要假設）): correct answer allows \"or\" or \"both\"; reading it as \"both required\" makes the weakest link look too strong.",
-              "refs": [
-                "A-20260915-PT140-S1-Q16"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT141 S2 Q12：以 NA 判準刪除 SA 正解（most consented）。PT140 S3 Q11：SA 結論方向。",
-              "refs": [
-                "A-20260918-PT141-S2-Q12",
-                "A-20260915-PT140-S3-Q11"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S3 Q19（NA，Defending）：正解保證那 20 輛去年仍在公司手上；2025 選 E，2026 選 D。PT140 S1 Q22（NA，Linking）：正解為由事實到價值判斷的通則，any 經弱化測試判為必要；D 的 only 弱化後仍夠用，屬 Too Strong。June 2007 S3 Q17（NA，Linking）：誘答 C 為 Reversal。PT65 S4 Q13（NA，Defending）：正解排除外地招募途徑；誘答 D 之 any students 弱化後仍夠用，屬 Too Strong。",
-              "refs": [
-                "A-20260921-PT140-S3-Q19",
-                "A-20260921-PT140-S1-Q22",
-                "A-20260921-June 2007-S3-Q17",
-                "A-20260921-PT65-S4-Q13"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Status",
-              "text": "Verified 2026-09-15 with reasoning stated (S1 Q16). Sufficient Assumption（充分假設） method taught on the spot (S3 Q11); independent verification still pending. 2026-09-22 更新：NA 於 PT140 S3 Q19、S1 Q22（9/21）無提示答對且理由正確，Linking 與 Defending 各有實例。SA 於 PT141 S2 Q10（SIG-001）與 Q12（SIG-009）皆錯，錯因已釐清；SA 獨立答對的官方實例尚無。延遲複測排 9/25。"
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-22",
         "by": "tutor",
@@ -1773,11 +1707,39 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教提案（待確認）",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "教材統計: LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T05:04:38.482Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-05T05:18:56.315Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "00-20261004-compact-statistics-03",
+        "date": "2026-10-04",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "教材統計",
+            "text": "LSAT Lab 題型比例：Assumption Family 64%；Flaw 16%；Necessary Assumption 11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption 4%。"
+          }
+        ],
+        "source_refs": []
+      }
+    ]
   },
   {
     "section_id": "OL-004",
@@ -2361,18 +2323,8 @@
       },
       {
         "type": "p",
-        "text": "各題型占整體 LR 的比例：",
-        "label": "教材統計"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Main Conclusion 3%。",
-          "Role 3%。",
-          "Method 5%。",
-          "Parallel 3%。",
-          "Parallel Flaw 4%。"
-        ]
+        "label": "教材統計",
+        "text": "各題型占整體 LR 的比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。"
       }
     ],
     "source_refs": [
@@ -2685,9 +2637,61 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-compact-statistics-04",
+        "before": {
+          "title": "Match Family（配對家族）",
+          "summary": "分清題型任務：找主結論、判句子作用，或描述整段推理方法。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "本家族的三個已學題型各有不同任務：",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Main Conclusion：作者要證明什麼？",
+                "Role：指定句子在論證中做什麼？",
+                "Method：作者如何論證或回應？"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "共用的結論、證據與角色判準見「論證結構 → 找結論與證據」；題型解法見本家族下的「主結論」「句子角色」「論證方法」。"
+            },
+            {
+              "type": "p",
+              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。",
+              "label": "分類"
+            },
+            {
+              "type": "p",
+              "text": "Rebuttals 可出現在不同題型中。即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family；不能因題文具有反駁型態就改變題型家族。"
+            },
+            {
+              "type": "p",
+              "text": "各題型占整體 LR 的比例：",
+              "label": "教材統計"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Main Conclusion 3%。",
+                "Role 3%。",
+                "Method 5%。",
+                "Parallel 3%。",
+                "Parallel Flaw 4%。"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T05:04:07.946Z",
+    "updated_at": "2026-10-05T05:18:56.326Z",
     "updated_by": "tutor"
   },
   {
@@ -10957,25 +10961,8 @@
     "blocks": [
       {
         "type": "p",
-        "text": "各題型比例：",
-        "label": "教材統計"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Inference 27.6%。",
-          "Opinion 22.2%。",
-          "Purpose 13.0%。",
-          "Main Point 12.3%。",
-          "Meaning in Context 6.4%。",
-          "Organization 4.3%。",
-          "Analogy 3.7%。",
-          "Most Supported 3.0%。",
-          "Weaken 2.7%。",
-          "Application 2.3%。",
-          "Strengthen 2.0%。",
-          "Principle 0.5%。"
-        ]
+        "label": "教材統計",
+        "text": "各題型比例：Inference 27.6%；Opinion 22.2%；Purpose 13.0%；Main Point 12.3%；Meaning in Context 6.4%；Organization 4.3%；Analogy 3.7%；Most Supported 3.0%；Weaken 2.7%；Application 2.3%；Strengthen 2.0%；Principle 0.5%。"
       }
     ],
     "source_refs": [
@@ -11062,9 +11049,42 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "tutor",
+        "summary": "家教更新 00-20261004-compact-statistics-05",
+        "before": {
+          "title": "Question types（題型）",
+          "summary": "先辨題幹要找的資訊，再選用主旨、段落地圖或原句。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "各題型比例：",
+              "label": "教材統計"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Inference 27.6%。",
+                "Opinion 22.2%。",
+                "Purpose 13.0%。",
+                "Main Point 12.3%。",
+                "Meaning in Context 6.4%。",
+                "Organization 4.3%。",
+                "Analogy 3.7%。",
+                "Most Supported 3.0%。",
+                "Weaken 2.7%。",
+                "Application 2.3%。",
+                "Strengthen 2.0%。",
+                "Principle 0.5%。"
+              ]
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T05:04:08.130Z",
+    "updated_at": "2026-10-05T05:18:56.341Z",
     "updated_by": "tutor"
   },
   {
