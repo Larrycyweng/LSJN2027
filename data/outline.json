@@ -1793,7 +1793,7 @@
     "section_id": "OL-004",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 6,
+    "order": 5,
     "title": "Inference Family（推論家族）",
     "summary": "由題文提供的 statements 推出答案；先連接相關資訊、辨認推理結構，再預測可安全推出的內容並核對選項。",
     "blocks": [
@@ -2200,10 +2200,31 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "調整順序",
+        "before": {
+          "title": "Inference Family（推論家族）",
+          "summary": "由題文提供的 statements 推出答案；先連接相關資訊、辨認推理結構，再預測可安全推出的內容並核對選項。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "Inference Family 的方向是由題文 statements 推向答案，而不是先攻擊前提到結論之間的漏洞。家族包括 Must Be True、Most Supported、Must Be False、Agree/Disagree；各題型的證明門檻在各自子節處理。"
+            },
+            {
+              "type": "p",
+              "label": "判斷步驟",
+              "text": "S1 Related Statements：找彼此可以連接、重疊、比較或共同限制同一問題的 statements。\nS2 Reasoning Structure：判斷這些 statements 使用哪一種已學過的推理結構，再套用相應規則。\nS3 Anticipate：看選項前，先預測目前資訊可以安全推出的關係與邏輯強度；不要求猜中選項原句。\nS4 Answers：核對每個選項是否真的得到題文支持，並檢查是否增加未建立的關係、反轉方向、改變否定位置或提高原本的邏輯強度。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T04:23:08.464Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-05T04:23:48.547Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-005",
@@ -8353,7 +8374,7 @@
     "section_id": "OL-013",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 5,
+    "order": 6,
     "title": "Eliminate Trap Answers（排除誘答）",
     "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
     "blocks": [
@@ -9185,9 +9206,64 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-04",
+        "by": "user",
+        "summary": "調整順序",
+        "before": {
+          "title": "Eliminate Trap Answers（排除誘答）",
+          "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+            },
+            {
+              "type": "p",
+              "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
+            },
+            {
+              "type": "p",
+              "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
+            },
+            {
+              "type": "p",
+              "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+            },
+            {
+              "type": "p",
+              "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「論證結構 → 質疑結論 → 缺陷」R1。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。"
+            },
+            {
+              "type": "p",
+              "text": "T2 作答前未確認題幹任務，以自己對結論的判斷挑選項。"
+            },
+            {
+              "type": "p",
+              "text": "T3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。"
+            },
+            {
+              "type": "p",
+              "text": "T4 診斷正確但未對應到選項字母。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T04:07:07.219Z",
+    "updated_at": "2026-10-05T04:23:48.539Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -15977,100 +16053,14 @@
   },
   {
     "section_id": "OL-051",
-    "parent_id": "OL-004",
-    "level": 3,
-    "order": 1,
-    "title": "Must Be True",
-    "summary": "假設題文 statements 為真，找出因此必然成立的結論；答案必須由已知資訊保證，而不是只有可能、合理或較有說服力。",
-    "blocks": [
-      {
-        "type": "p",
-        "label": "Recognition",
-        "text": "題幹常見訊號：statements、information、passage、must be true、properly inferred、follows logically、can be inferred、can be concluded。看到這些訊號，任務是問：如果題文資訊都是真的，哪一項也一定成立？"
-      },
-      {
-        "type": "p",
-        "label": "Stimulus Tendencies",
-        "text": "題文通常提供 FACTS，而不是要你評價其好壞的 ARGUMENTS。常見素材是 Conditional 或 Quantified / Mathematical ideas，因此閱讀重點是找可以連接或重疊的 statements，而不是先找 Conclusion 與 Flaw。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R1 必然性門檻：Must Be True 不是選「聽起來合理」或「最可能」的答案。正解必須在題文 statements 都成立時不能為假。若選項還需要補入一項題文沒有給你的事實、關係或假設，便沒有達到 Must Be True 的門檻。"
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R2 Conditional Inferences：看到條件關係時，先問能否形成 chain、是否有 fact 觸發某條 rule，以及是否能藉由排除有限選項推出唯一剩餘結果。"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Chain：A → B → C → D 時，可推出 A → D，也可以推出合法的子鏈，例如 A → C 或 B → D；同時保留合法的 contrapositive，例如 ~D → ~A。",
-          "Trigger a Rule：題文若另外給一項 fact 滿足某條 conditional 的 sufficient condition，就推出該 rule 的結果；有時必須先使用 contrapositive 才看得到觸發關係。",
-          "Eliminate Alternatives：題文若限定只有兩個或三個可能結果，並逐一排除到只剩一個，便可推出最後剩下的選項。"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R3 Quantified / Mathematical Inferences：看到 Some、Most、All、Few，或百分比、平均值與不等式時，不只看字面內容，而要問兩組資訊是否強迫某些集合重疊、某一群體較大，或某一數值必須高於另一數值。"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Most A's are B + Most A's are C → 至少有 Some B are C。兩個都涵蓋 A 的多數，因此 B 與 C 必須在部分 A 上重疊。",
-          "All A's are B + Some A's are C → Some B are C。那個同時屬於 A 與 C 的成員也必然屬於 B。",
-          "Most A's are B + All B's are C → Most A's are C。A 中屬於 B 的多數也全部屬於 C。",
-          "Most A's are B + Most B's are not A → B 的群體必須大於 A。共同成員同時超過 A 的一半、但不到 B 的一半，因此 B 較大。",
-          "不等式具有可傳遞性：若 x > y 且 y > z，則 x > z。",
-          "平均值題須看加權結果：若整體平均為 160，而其中一個非空子群平均只有 152，另一子群平均必須高於 160，才可能把整體拉回 160。",
-          "比例固定時可推原始量的方向：若租金現在比五年前高，但租金仍占薪資相同比例，則現在薪資也必須高於五年前。"
-        ]
-      },
-      {
-        "type": "p",
-        "label": "Rule",
-        "text": "R4 Answer Strength：推論只能到題文真正保證的程度。方向正確仍不夠；比較程度、數量範圍、可能性與確定性都不能被選項偷偷提高。"
-      },
-      {
-        "type": "p",
-        "label": "Trap",
-        "text": "T1 Unsupported Relationship：選項使用題文出現過的元素，卻自行建立題文從未支持的關係。題目裡兩個名詞都出現過，不代表兩者之間的特定關係已被證明。"
-      },
-      {
-        "type": "p",
-        "label": "Trap",
-        "text": "T2 Too Strong：選項的方向可能相關，但把程度、範圍、比較或確定性提高到題文無法保證的程度。"
-      },
-      {
-        "type": "p",
-        "label": "Trap",
-        "text": "T3 Reversal / Negation：Reversal 把原有條件或關係方向倒轉；Negation 則把題文建立的條件或結果改成其否定。Conditional 題尤其要回到原箭頭核對。"
-      },
-      {
-        "type": "p",
-        "label": "Trap",
-        "text": "T4 Contradiction：選項直接與題文已給定的 statement 衝突。主題再相關，只要與已知事實矛盾，就不可能是 Must Be True。"
-      },
-      {
-        "type": "p",
-        "label": "Official Example",
-        "text": "June 2007 S3 Q22：把數個條件關係連起來，最後推出必然結果。A／B 是 Reversal；E 是 Negation。\nPT2 S4 Q23：比較語句只支持「at least as quickly」，不能升級成 more quickly 或 same time。這題用來檢查 answer strength 是否守住題文真正給出的比較程度。\nPT65 S4 Q6：題文只支持一條「可能發生」的因果鏈，所以正解用 can result in；錯誤選項卻自行增加必要性或其他未建立的關係。"
-      }
-    ],
-    "source_refs": [
-      {
-        "type": "LSATLab Notes",
-        "ref": "影片《Must Be True》完整影片、例題與 Takeaways；2026-10-04 使用者截圖"
-      }
-    ],
-    "status": "草稿",
-    "protected": false,
-    "revisions": [],
-    "client_request_id": "00-20261004-inf-v2-03",
-    "updated_at": "2026-10-05T04:06:39.610Z",
-    "updated_by": "tutor"
+    "parent_id": null,
+    "level": 9,
+    "order": 0,
+    "title": "",
+    "deleted": true,
+    "deleted_at": "2026-10-05T04:24:42.525Z",
+    "updated_at": "2026-10-05T04:24:42.525Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-052",
