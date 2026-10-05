@@ -649,5 +649,26 @@
     "client_request_id": "01-20261003-s1",
     "created_at": "2026-10-04T16:36:41.789Z",
     "updated_at": "2026-10-04T16:36:41.789Z"
+  },
+  {
+    "session_id": "S-20261004-01",
+    "week_label": "第3週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Most Supported：比較基準與淨效果、因果方向、unless 條件翻譯",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日全天總學習時間 2 小時，記錄為 120 分鐘，不是 Most Supported 影片單獨片長。Most Supported 影片已完成；屬 Learn，包含影片學習與家教討論。未回報各活動時間，故不拆分。Must Be True 也已完成，本次只是提醒先前進度。未回報獨立作答結果或計時，不建立作答紀錄。",
+    "session_date": "2026-10-04",
+    "mode": "觀念學習",
+    "effective_minutes": 120,
+    "client_request_id": "W1-20261004-most-supported-daily-total-120",
+    "created_at": "2026-10-05T06:52:09.768Z",
+    "updated_at": "2026-10-05T06:52:09.768Z"
   }
 ]
