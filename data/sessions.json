@@ -670,5 +670,26 @@
     "client_request_id": "W1-20261004-most-supported-daily-total-120",
     "created_at": "2026-10-05T06:52:09.768Z",
     "updated_at": "2026-10-05T06:52:09.768Z"
+  },
+  {
+    "session_id": "S-20261006-01",
+    "week_label": "第3週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Agree/Disagree：同一命題的雙方立場、無法判定、風險降低與必要監督",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日學習 Agree/Disagree 影片40分鐘，新增截圖於LSATLab Notes(5).pdf。只記錄所回報的40分鐘；影片是否已完整看完未另確認。例題討論屬影片學習與家教解說，未回報獨立計時作答。",
+    "session_date": "2026-10-06",
+    "mode": "觀念學習",
+    "effective_minutes": 40,
+    "client_request_id": "W1-20261006-agree-disagree-session-40",
+    "created_at": "2026-10-07T06:57:53.928Z",
+    "updated_at": "2026-10-07T06:57:53.928Z"
   }
 ]
