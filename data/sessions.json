@@ -691,5 +691,26 @@
     "client_request_id": "W1-20261006-agree-disagree-session-40",
     "created_at": "2026-10-07T06:57:53.928Z",
     "updated_at": "2026-10-07T06:57:53.928Z"
+  },
+  {
+    "session_id": "S-20261007-01",
+    "week_label": "第3週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Must Be False：條件衝突、可推出結論、could be true EXCEPT與違反原則",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報10/7已看完Must Be False影片，學習50分鐘，並在LSATLab Notes(6).pdf增補對應小節。時間只記所回報的50分鐘；影片已完成，例題屬已接觸教學解析，未回報獨立作答結果或計時。",
+    "session_date": "2026-10-07",
+    "mode": "觀念學習",
+    "effective_minutes": 50,
+    "client_request_id": "W1-20261007-must-be-false-session-50",
+    "created_at": "2026-10-08T05:59:13.423Z",
+    "updated_at": "2026-10-08T05:59:13.423Z"
   }
 ]
