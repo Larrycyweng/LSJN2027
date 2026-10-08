@@ -18329,26 +18329,23 @@
     "blocks": [
       {
         "type": "p",
-        "text": "題問要求找不能與題文同時為真的選項。線索：must be false、cannot be true、could be true EXCEPT；LEAST compatible、violates principle 仍須依完整問句確認，原則題按原則要求檢查行為。",
-        "label": "辨識"
+        "text": "辨識: 題問要求找不能與題文同時為真的選項。線索：must be false、cannot be true、could be true EXCEPT；LEAST compatible、violates principle 仍須依完整問句確認，原則題按原則要求檢查行為。"
       },
       {
         "type": "p",
-        "text": "R1 逐項問：「題文與這個選項能否同時成立？」只要能找到一種同時成立的情況，就不是必然為假；正解須與給定資訊或其必然結果衝突。",
-        "label": "規則"
+        "text": "規則: R1 逐項問：「題文與這個選項能否同時成立？」只要能找到一種同時成立的情況，就不是必然為假；正解須與給定資訊或其必然結果衝突。"
       },
       {
         "type": "p",
-        "text": "R2 兩種檢查形式：直接違反題文規則，或違反由題文必然推出的結論。條件 P → Q 的違反情況是 P 成立且 Q 不成立；只有非 Q，尚未確認 P，並不構成違反。"
+        "text": "R2 兩種檢查形式：(1) Contradict a conditional; (2) Contradict an inference。條件 P → Q 的違反情況是 P 成立且 Q 不成立；只有非 Q，尚未確認 P，並不構成違反。"
       },
       {
         "type": "p",
-        "text": "R3 違反原則題：找適用條件已成立、行為卻不符合要求的案例。「應該如何做」不表示現實中的人必定遵守，須區分規範違反與事實矛盾。"
+        "text": "R3 Contradict a conditional：找適用條件已成立、行為卻不符合要求的案例 (Trigger happens, Outcome doesn't)。「應該如何做」不表示現實中的人必定遵守，須區分規範違反與事實矛盾。"
       },
       {
         "type": "p",
-        "text": "T1 資訊不足、超出題文範圍或未獲支持，都不等於必然為假。逆命題、反命題雖不能由原條件推出，仍須核對其他資訊，才能判斷是否必然為假。",
-        "label": "陷阱"
+        "text": "陷阱: T1 資訊不足、超出題文範圍或未獲支持，都不等於必然為假。逆命題、反命題雖不能由原條件推出，仍須核對其他資訊，才能判斷是否必然為假。"
       },
       {
         "type": "p",
@@ -18356,21 +18353,7 @@
       },
       {
         "type": "p",
-        "text": "PT71 S1 Q19，違反原則：非為對方利益的目的，卻故意歪曲對方信念，才違反此原則。限定的是行為目的，不能只用實際是否使對方受益判斷。",
-        "label": "官方例題"
-      },
-      {
-        "type": "p",
-        "text": "PT18 S2 Q23，教師：題問給定教師使學生能自行決定，而這需要教師有課堂決策權。E「沒有決策權」與給定條件衝突；D「有決策權」必然為真，應排除。"
-      },
-      {
-        "type": "p",
-        "text": "Q23 的 A「學生未成為獨立學習者」仍可能，因為能自行決定只是獨立學習的必要條件，也不足以保證教師有效。B「教師無效」與 C「教師有效」均未被排除。"
-      },
-      {
-        "type": "p",
-        "text": "推理結構：條件邏輯（Conditional Logic）90%；比較（Comparison）5%；因果（Causation）5%。誘答：未受排除（Unopposed）38%；超出範圍（Out of Scope）25%；得到支持（Supported）21%；逆命題／反命題（Reversal／Negation）8%；程度太弱（Too Weak）8%。",
-        "label": "教材統計"
+        "text": "教材統計: 推理結構：條件邏輯（Conditional Logic）90%；比較（Comparison）5%；因果（Causation）5%。誘答：未受排除（Unopposed）38%；超出範圍（Out of Scope）25%；得到支持（Supported）21%；逆命題／反命題（Reversal／Negation）8%；程度太弱（Too Weak）8%。"
       }
     ],
     "source_refs": [
@@ -18389,10 +18372,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-07 使用者確認之推論家族整併；沿用現行大綱的教材與教學解析，基準 repo f51e1a3。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-08"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-04",
@@ -18524,11 +18511,67 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-08",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Must Be False（必然為假）",
+          "summary": "找與題文不能同時為真的選項；未獲支持或推論不合法，都不等於必然為假。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "題問要求找不能與題文同時為真的選項。線索：must be false、cannot be true、could be true EXCEPT；LEAST compatible、violates principle 仍須依完整問句確認，原則題按原則要求檢查行為。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 逐項問：「題文與這個選項能否同時成立？」只要能找到一種同時成立的情況，就不是必然為假；正解須與給定資訊或其必然結果衝突。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 兩種檢查形式：直接違反題文規則，或違反由題文必然推出的結論。條件 P → Q 的違反情況是 P 成立且 Q 不成立；只有非 Q，尚未確認 P，並不構成違反。"
+            },
+            {
+              "type": "p",
+              "text": "R3 違反原則題：找適用條件已成立、行為卻不符合要求的案例。「應該如何做」不表示現實中的人必定遵守，須區分規範違反與事實矛盾。"
+            },
+            {
+              "type": "p",
+              "text": "T1 資訊不足、超出題文範圍或未獲支持，都不等於必然為假。逆命題、反命題雖不能由原條件推出，仍須核對其他資訊，才能判斷是否必然為假。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 could be true EXCEPT：必然為真的選項也屬於可以為真，應排除；仍可能為真的選項亦排除，留下不可能為真的一項。"
+            },
+            {
+              "type": "p",
+              "text": "PT71 S1 Q19，違反原則：非為對方利益的目的，卻故意歪曲對方信念，才違反此原則。限定的是行為目的，不能只用實際是否使對方受益判斷。",
+              "label": "官方例題"
+            },
+            {
+              "type": "p",
+              "text": "PT18 S2 Q23，教師：題問給定教師使學生能自行決定，而這需要教師有課堂決策權。E「沒有決策權」與給定條件衝突；D「有決策權」必然為真，應排除。"
+            },
+            {
+              "type": "p",
+              "text": "Q23 的 A「學生未成為獨立學習者」仍可能，因為能自行決定只是獨立學習的必要條件，也不足以保證教師有效。B「教師無效」與 C「教師有效」均未被排除。"
+            },
+            {
+              "type": "p",
+              "text": "推理結構：條件邏輯（Conditional Logic）90%；比較（Comparison）5%；因果（Causation）5%。誘答：未受排除（Unopposed）38%；超出範圍（Out of Scope）25%；得到支持（Supported）21%；逆命題／反命題（Reversal／Negation）8%；程度太弱（Too Weak）8%。",
+              "label": "教材統計"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "00-20261004-inf-v5-05",
-    "updated_at": "2026-10-08T14:39:33.211Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-08T14:47:46.113Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-058",
