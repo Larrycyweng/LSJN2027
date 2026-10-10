@@ -6987,6 +6987,10 @@
       },
       {
         "type": "p",
+        "text": "R7 原則題中的比較：先確認比較對象、面向與層次，再依任務使用它。Conform／Illustrate／Parallel 保留原文的比較關係；Justify 檢查原則能否支持比較結論，不要求選項一定採用相同句式。PT65 S4 Q18 比的是組織整體與成員，不能換成某些組織與所有組織。各任務見「原則支持」「Principle-Conform」及「命題／概括」。"
+      },
+      {
+        "type": "p",
         "text": "S1 先寫出被比較的兩個東西各是什麼；再問比較的標準是什麼；最後依題幹選 R3 的動作。",
         "label": "步驟"
       },
@@ -7020,6 +7024,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
       }
     ],
     "status": "草稿",
@@ -7270,9 +7278,88 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-09",
+        "by": "tutor",
+        "summary": "家教更新 01-20261009-principle-o4",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Analogy 找差異；Recommendation 找利弊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Comparison 占 LR 約 37%，最常出現在 Strengthen／Weaken、Paradox、Most Supported、Necessary Assumption、Flaw。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "題文把兩個東西放在一起比，常見七種比較："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "此時段對彼時段。",
+                "此情況對彼情況。",
+                "Plan 對 No-Plan。",
+                "部分對整體（Part vs. Whole）。",
+                "樣本對推廣（Sample vs. Generalization）。",
+                "相對對絕對（Relative vs. Absolute）。",
+                "百分比對數量（Percent vs. Number）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 要推翻類比，差異必須觸及比較的標準；不觸及標準的差異無關。"
+            },
+            {
+              "type": "p",
+              "text": "R3 依題型決定動作。",
+              "label": "題型應用"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Strengthen：補上讓兩者公平可比的相似點（complete the analogy）。",
+                "Weaken：指出有意義的差異（meaningful difference）。",
+                "Paradox：提出新的差異，解釋題文中令人意外的差異。",
+                "Necessary Assumption：檢查作者所依賴的相似點或差異點。",
+                "Flaw：檢查部分與整體、樣本與推廣的推論問題。",
+                "Most Supported：補完類比，或指出造成不同結果的差異（causal difference-maker）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R4 Plans／Recommendations 也是比較：比的是 the world we currently live in 與 the world in which we follow this plan。支持與反駁都針對後者是否真的更好。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Relative vs. Absolute：百分比上升不等於數量上升。看到 percentage、proportion、share 推到 more people、more cases 時，問總數有沒有變。例：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%，數量未變。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Anti-Causal 的比較形式：「兩人結果相同，所以某因素沒有作用」。動作是指出兩者哪裡不一樣，使它們 unfair to compare。機制見「推理結構 → 因果 → 評估因果解釋的可信度」R6 的不公平比較（Unfair Comparison）。"
+            },
+            {
+              "type": "p",
+              "text": "S1 先寫出被比較的兩個東西各是什麼；再問比較的標準是什麼；最後依題幹選 R3 的動作。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "減少紅肉的一組反而吃進更多脂肪。若這組改吃脂肪含量更高的食物，便提供新的差異來解釋現象；若只說兩組其他食物攝取相等，反而未解釋矛盾。",
+              "label": "例子"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-05T05:04:08.046Z",
+    "updated_at": "2026-10-10T06:57:37.873Z",
     "updated_by": "tutor"
   },
   {
@@ -15127,35 +15214,94 @@
     "level": 4,
     "order": 4,
     "title": "Principle Support（原則支持）",
-    "summary": "核對適用對象、適用條件，以及套用後支持的 Conclusion。",
+    "summary": "原則支持先核對對象、觸發條件與結果；原則在選項時找橋接規則，在題文時補足適用事實。其他原則任務見對應小節。",
     "blocks": [
       {
         "type": "p",
-        "text": "Question Stem 要求以 Principle 支持 Argument，例如 which principle, if valid, most helps to justify the argument。",
+        "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題幹常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
         "label": "辨識"
       },
       {
-        "type": "p",
-        "text": "依完整問句判斷門檻：most helps to justify 檢查支持程度；若要求 Conclusion follows logically，則須保證 Conclusion。"
+        "type": "ul",
+        "items": [
+          "Justify：若原則成立，是否支持原文結論？本節整理原則支持。",
+          "Conform：個案是否正確套用原則，或選項是否貼合原文推理？見「配對家族 → Principle-Conform」。",
+          "Illustrate：例子最能說明什麼一般敘述？見「最受支持 → Principle-Conform：Proposition／Generalization」。",
+          "Parallel：另一個論證是否使用相近的隱含原則？見「配對家族 → Principle-Conform」。",
+          "Underlie：哪條原則最準確表達原文推理背後的規則？見「配對家族 → Principle-Conform」。",
+          "Contradict：哪個個案符合原則適用條件，卻違反其要求？見「推論家族 → 必然為假」的違反原則規則。"
+        ]
       },
       {
         "type": "p",
-        "text": "R1 核對 Conclusion 的對象、適用條件與主張。再檢查 Premises 是否使該對象符合 Principle 的條件，以及套用後是否支持該主張。",
+        "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
         "label": "規則"
       },
       {
         "type": "p",
-        "text": "R2 Principle 可以使用較廣的類別、Paraphrase 或等價形式。依邏輯上的適用關係判斷；字面相同不保證適用，字面不同也不代表不能適用。"
+        "text": "R2 原則在選項（Principle-Strengthen with Principles in Answers）：先預想「若理由所給的條件成立，則支持結論的判斷」。檢查理由是否滿足原則的條件，套用結果是否支持原文結論；同義轉述或較廣類別可以適用，字面相同卻未建立適用關係仍不夠。"
       },
       {
         "type": "p",
-        "text": "S1 寫出「Conclusion 的對象／條件／主張」；將 Principle 的條件逐一對應 Premises；確認套用結果是否支持 Conclusion，並符合 Question Stem 的門檻。",
-        "label": "步驟"
+        "text": "R3 原則在題文（Principle-Strengthen with Principles in Stimulus）：題文給規則及其應用，卻未充分建立規則的觸發條件。選項須補上使個案符合條件的事實，才能支持該應用。"
       },
       {
         "type": "p",
-        "text": "T1 選項同時包含 Premises 的關鍵字與 Conclusion 的動作，仍須核對適用對象。若 Premises 未建立 Conclusion 的對象符合該條件，便不能直接套用 Principle。",
+        "text": "R4 most justifies／most helps to justify 比較支持程度，不一律要求完全保證結論；若題幹明確要求 conclusion follows logically，才須達到保證結論的門檻。支持用的原則若較強，不因此自動排除；表達作者原則則須避免超出原文，見「Principle-Conform」。"
+      },
+      {
+        "type": "p",
+        "text": "R5 若作者衡量利弊（Weighing Tradeoffs），原則須處理其取捨或比較；不要只預想無例外的絕對規則。比較的共用判準見「推理結構 → 比較」。"
+      },
+      {
+        "type": "p",
+        "text": "S1 先確認原則在題文還是選項，再找個案已給定的條件與待支持的結論；原則在選項時找橋接規則，原則在題文時找欠缺的適用事實。",
+        "label": "判斷步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 逐項對應「適用對象／觸發條件／結果」，再核對支持程度是否符合完整題幹。條件翻譯、逆否與串接見「推理結構 → 條件」，不另外建立一套條件規則。"
+      },
+      {
+        "type": "p",
+        "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
         "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 逆命題／反命題（Reversal／Negation）：原則 P → Q 不保證 Q → P 或非 P → 非 Q；正確內容、錯誤順序仍不能支持結論。"
+      },
+      {
+        "type": "p",
+        "text": "T3 其餘依本題任務檢查：超出範圍（Out of Scope）改談其他問題；削弱（Weakens）降低原文結論的支持；矛盾（Contradiction）與已給資訊衝突。強度須看完整命題與題幹門檻。"
+      },
+      {
+        "type": "p",
+        "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
+        "label": "教材統計"
+      },
+      {
+        "type": "p",
+        "text": "推理結構：Conditional Logic 66%；Comparison 34%；Causation 12%。"
+      },
+      {
+        "type": "p",
+        "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。「Too Weak／Too Weak」依截圖原文保留，第二個標籤待核，不改寫成未確認的教材分類。"
+      },
+      {
+        "type": "p",
+        "text": "前一張頻次表以原則位置／形式列題數，原表名稱如下："
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Principle-Strengthen（Principles in Arguments）：149。",
+          "Principle-Conform（Principle in Stimulus）：45。",
+          "Principle-Conform（Proposition／Generalization）：38。",
+          "Principle-Conform（Principle in Arguments）：32。",
+          "Principle-Conform（Implicit Principles）：31。",
+          "Principle-Strengthen（Principle in Stimulus）：16。"
+        ]
       }
     ],
     "source_refs": [
@@ -15170,6 +15316,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
       }
     ],
     "status": "草稿",
@@ -15253,10 +15403,49 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-09",
+        "by": "tutor",
+        "summary": "家教更新 01-20261009-principle-o1",
+        "before": {
+          "title": "Principle Support（原則支持）",
+          "summary": "核對適用對象、適用條件，以及套用後支持的 Conclusion。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Question Stem 要求以 Principle 支持 Argument，例如 which principle, if valid, most helps to justify the argument。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "依完整問句判斷門檻：most helps to justify 檢查支持程度；若要求 Conclusion follows logically，則須保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "R1 核對 Conclusion 的對象、適用條件與主張。再檢查 Premises 是否使該對象符合 Principle 的條件，以及套用後是否支持該主張。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 Principle 可以使用較廣的類別、Paraphrase 或等價形式。依邏輯上的適用關係判斷；字面相同不保證適用，字面不同也不代表不能適用。"
+            },
+            {
+              "type": "p",
+              "text": "S1 寫出「Conclusion 的對象／條件／主張」；將 Principle 的條件逐一對應 Premises；確認套用結果是否支持 Conclusion，並符合 Question Stem 的門檻。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "T1 選項同時包含 Premises 的關鍵字與 Conclusion 的動作，仍須核對適用對象。若 Premises 未建立 Conclusion 的對象符合該條件，便不能直接套用 Principle。",
+              "label": "陷阱"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-10-05T05:04:08.387Z",
+    "updated_at": "2026-10-10T06:57:37.164Z",
     "updated_by": "tutor"
   },
   {
@@ -18778,6 +18967,131 @@
     ],
     "client_request_id": "00-20261004-inf-v5-06",
     "updated_at": "2026-10-08T14:39:33.149Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-059",
+    "parent_id": "OL-005",
+    "level": 4,
+    "order": 4,
+    "title": "Principle-Conform（原則符合）",
+    "summary": "準確表達作者的原則，檢查個案是否正確套用規則，或比較兩個論證的隱含原則。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "本節整理符合或表達原則的題目。線索：most conforms to the reasoning、most accurately expresses the principle underlying the reasoning、which situation conforms to the principle；原則可能在題文、選項，或隱含於論證。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 原則在選項（Principle-Conform with Principles in Answers）：抽象化作者從理由走到結論所依循的規則，保留原文關係、方向與適用範圍。選項即使足以支持結論，若比作者推理更強或更廣，也未必準確表達該原則。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 原則在題文（Principle-Conform with Principle in Stimulus）：在個案選項中檢查條件是否觸發原則，結論是否為原則所允許或要求的結果。不能只因結果相同，就認定個案正確套用規則。"
+      },
+      {
+        "type": "p",
+        "text": "R3 隱含原則（Principle-Conform with Implicit Principles）：先用一般敘述概括原論證的規則，再找另一個使用相近原則的論證。主題或名詞相似不足以構成平行。"
+      },
+      {
+        "type": "p",
+        "text": "R4 Main Conclusion 找作者已提出的主張；Underlying Principle 找支持關係背後的一般規則。例如個案結論只針對一個人，原則則說明具有某條件的人應如何行動。主結論判準見「配對家族 → 主結論」。"
+      },
+      {
+        "type": "p",
+        "text": "S1 原則在選項時，先說清「因為什麼條件，所以可以得到什麼判斷」；原則在題文時，把選項的事實與結論分別對應規則兩端；隱含原則題則比較兩個論證的一般規則。",
+        "label": "判斷步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
+      },
+      {
+        "type": "p",
+        "text": "T1 程度過強（Too Strong）：把原文有條件的規則擴成所有情況、無例外的規則。Conform／Underlie 要準確表達，不能只因它支持得更強就選它。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 觸發條件／結果錯置（Wrong Trigger／Outcome）：條件方向反轉、否定位置改變，或結果不是原則所允許或要求的判斷。"
+      },
+      {
+        "type": "p",
+        "text": "T3 表面相似：用了相同人物、主題或動作，卻改變真正的推理關係。隱含原則題比的是規則，條件與量詞形式仍依既有邏輯判準檢查。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261009-principle-o2",
+    "updated_at": "2026-10-10T06:57:37.773Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-060",
+    "parent_id": "OL-056",
+    "level": 4,
+    "order": 1,
+    "title": "Principle-Conform：Proposition／Generalization（命題／概括）",
+    "summary": "從具體事件選出受支持的一般敘述；抽象化時保留原文關係、比較層次與程度。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "題幹使用 proposition／generalization，並問 most clearly illustrates 或 best illustrated by the example。原文提供具體事件，選項提出其支持的一般敘述；任務接近 Most Supported。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 支持方向是「具體事件 → 概括選項」。安全概括原文說明的關係，保留對象、比較層次與強度。題文可能只有描述，沒有作者已提出的主結論供辨認。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 題文若以某項差異解釋不同結果（Causal Difference-Maker），概括該差異的作用；若比較整體與部分，保留這兩個層次。不能把個案可成立的現象擴成所有個案必然如此。"
+      },
+      {
+        "type": "p",
+        "text": "S1 先說清原文說明哪個關係，再換成一般類別。看選項時核對比較的是誰與誰、哪個面向，以及一般敘述的強度是否有依據；不要求另找缺口來支持原文。",
+        "label": "判斷步驟"
+      },
+      {
+        "type": "p",
+        "text": "T1 關係未獲支持（Unsupported Relationship）：選項用了題文名詞，卻加入原文沒有的動機、意圖、用途或比較層次。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 程度過強（Too Strong）：由可以、未必或部分情況，擴成必然、所有或沒有例外。一般化可以改用較廣類別，不能增加未獲支持的關係。"
+      },
+      {
+        "type": "p",
+        "text": "PT65 S4 Q18（影片已見解析）：B 保留「組織整體與個別成員的性質可以不同」。A 改成某些組織與所有組織的比較，換掉原文層次。",
+        "label": "官方例題"
+      },
+      {
+        "type": "p",
+        "text": "Q18 的 C 加入宣稱動機與實際動機；D 加入創辦人意圖與社會後果；E 加入原先用途與其他用途。這些關係均未由原文建立。僅記教學解析，不視為獨立作答。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261009-principle-o3",
+    "updated_at": "2026-10-10T06:57:37.824Z",
     "updated_by": "tutor"
   }
 ]
