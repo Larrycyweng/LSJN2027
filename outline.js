@@ -23,7 +23,11 @@ function pathOf(n){ const p=[]; let cur=n; let guard=0; while(cur && guard++<10)
 function nextId(){ let n=all().length+1, id; do{ id='OL-'+String(n).padStart(3,'0'); n++; }while(all().some(x=>x.section_id===id)); return id; }
 function save(node, by='user', revSummary=''){
   const old=byId(node.section_id);
-  if(old && revSummary){ node.revisions=(old.revisions||[]).concat([{date:L().todayLA(), by, summary:revSummary, before:{title:old.title, summary:old.summary, blocks:old.blocks}}]).slice(-20); }
+  /* v0.5.3：只有標題、摘要或內容真的改變時才保存 before 快照；移動、排序等純結構操作只記一行摘要。
+     舊版每次移動都複製整節 blocks 進 revisions，是 outline.json 膨脹到 1 MB 以上的主因。 */
+  if(old && revSummary){ const changed = old.title!==node.title || (old.summary||'')!==(node.summary||'') || !blocksEqual(old.blocks,node.blocks);
+    const rev={date:L().todayLA(), by, summary:revSummary}; if(changed) rev.before={title:old.title, summary:old.summary, blocks:old.blocks};
+    node.revisions=(old.revisions||[]).concat([rev]).slice(-20); }
   node.updated_at=L().nowISO(); node.updated_by=by;
   L().persist('outline', node);
 }

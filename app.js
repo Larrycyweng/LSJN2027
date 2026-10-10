@@ -10,7 +10,7 @@ const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
 const LS_LOCAL = 'lsjn.local.v1';
 const SIG_EDIT_FIELDS = ['error_type','trigger_signal','why_attractive','corrective_action','attraction','scope','notes','stage','signature_status','evidence_count','last_seen'];
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.5.2';
+const APP_VERSION = '0.5.3';
 
 const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
 
@@ -152,13 +152,24 @@ function saveGh(){
   S.gh={owner:$('#gh-owner').value.trim(), repo:$('#gh-repo').value.trim(), branch:$('#gh-branch').value.trim()||'main', token:$('#gh-token').value.trim()};
   localStorage.setItem(LS_GH, JSON.stringify(S.gh)); toast('已保存設定'); renderSettings();
 }
-async function ghRequest(method, path, body){
+async function ghRequest(method, path, body, raw){
   const res = await fetch(`https://api.github.com/repos/${S.gh.owner}/${S.gh.repo}/contents/${path}`+(method==='GET'?`?ref=${S.gh.branch}&t=${Date.now()}`:''),{
-    method, headers:{'Authorization':`Bearer ${S.gh.token}`,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},
+    method, headers:{'Authorization':`Bearer ${S.gh.token}`,'Accept': raw? 'application/vnd.github.raw+json':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},
     body: body? JSON.stringify(body):undefined });
   if(res.status===404 && method==='GET') return null;
   if(!res.ok){ const t=await res.text(); throw new Error(`${res.status} ${t.slice(0,160)}`); }
-  return res.json();
+  return raw? res.text() : res.json();
+}
+/* v0.5.3：讀取遠端檔案。contents API 對 1 MB 以上的檔案只回傳 metadata（content 為空字串、encoding 為 none），
+   舊版直接 JSON.parse(b64decode('')) 會丟出 SyntaxError，導致 outline.json 超過 1 MB 後永遠無法同步。
+   此處改為：metadata 取 sha；content 為空時改用 raw 媒體型別再讀一次（上限 100 MB）。 */
+async function ghRead(path){
+  const cur = await ghRequest('GET', path); if(!cur) return null;
+  let text;
+  if(cur.encoding==='base64' && cur.content) text = b64decode(cur.content);
+  else text = await ghRequest('GET', path, null, true);
+  if(!text || !text.trim()) throw new Error('遠端檔案內容為空，拒絕覆寫');
+  return {sha:cur.sha, text};
 }
 async function syncNow(){
   if(!S.gh||!S.gh.token||!S.gh.owner||!S.gh.repo){ toast('請先填寫 owner、repo 與 token'); return; }
@@ -170,14 +181,14 @@ async function syncNow(){
     for(const f of Array.from(S.dirty)){
       const path=`data/${f}.json`;
       try{
-        const cur = await ghRequest('GET', path);
+        const cur = await ghRead(path);
         let out;
         if(OBJ_FILES.includes(f)){
-          const remote = cur ? JSON.parse(b64decode(cur.content)) : null;
+          const remote = cur ? JSON.parse(cur.text) : null;
           const pending = local[f]&&local[f].pendingObj;
           out = (pending && (!remote || (pending.updated_at||'')>=(remote.updated_at||''))) ? pending : remote;
         } else {
-          const remote = cur ? JSON.parse(b64decode(cur.content)) : [];
+          const remote = cur ? JSON.parse(cur.text) : [];
           out = mergeById(remote, (local[f]&&local[f].pending)||[], ID_KEY[f]);
           out.sort((a,b)=> String(a[ID_KEY[f]]).localeCompare(String(b[ID_KEY[f]])));
         }
