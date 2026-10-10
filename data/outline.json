@@ -15214,7 +15214,7 @@
     "level": 4,
     "order": 4,
     "title": "Principle Support（原則支持）",
-    "summary": "原則支持先核對對象、觸發條件與結果；原則在選項時找橋接規則，在題文時補足適用事實。其他原則任務見對應小節。",
+    "summary": "先理解題文結構，再依題幹辨認支持、符合或概括任務；確認為原則支持題後，依原則位置檢查規則或適用事實。",
     "blocks": [
       {
         "type": "p",
@@ -15255,12 +15255,16 @@
       },
       {
         "type": "p",
-        "text": "S1 先確認原則在題文還是選項，再找個案已給定的條件與待支持的結論；原則在選項時找橋接規則，原則在題文時找欠缺的適用事實。",
+        "text": "S1 先理解題文結構：找出結論與支持理由，說清理由如何支持結論；若題文只有原則或現象描述，則辨認其條件與關係，不硬找結論。",
         "label": "判斷步驟"
       },
       {
         "type": "p",
-        "text": "S2 逐項對應「適用對象／觸發條件／結果」，再核對支持程度是否符合完整題幹。條件翻譯、逆否與串接見「推理結構 → 條件」，不另外建立一套條件規則。"
+        "text": "S2 再依題幹辨認任務：支持推論（support／justify the reasoning，Strengthen）是假設選項成立，檢查它能否使結論更有根據；反映推論（conform to the reasoning／express the principle underlying the reasoning，Conform／Underlie）是準確表達作者依循的規則。若要求個案符合原則，檢查其應用；若問例子最能說明哪個概括，則由題文支持選項，分別見對應小節。"
+      },
+      {
+        "type": "p",
+        "text": "S3 確認為原則支持題後，再看原則的位置：在選項時依 R2 找橋接規則，在題文時依 R3 補足適用事實。逐項對應「適用對象／觸發條件／結果」，核對支持程度是否符合完整題幹；條件翻譯、逆否與串接見「推理結構 → 條件」。"
       },
       {
         "type": "p",
@@ -15320,6 +15324,10 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-10 使用者修訂：先理解題文結構，再依題幹辨認支持／符合等任務，最後確認原則位置；橋接規則／補足適用事實僅限原則支持題。依 repo eba1904 現行大綱修改，沿用既有層級與段落格式。"
       }
     ],
     "status": "草稿",
@@ -15442,10 +15450,108 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-10",
+        "by": "tutor",
+        "summary": "家教更新 01-20261010-principle-sequence-o1",
+        "before": {
+          "title": "Principle Support（原則支持）",
+          "summary": "原則支持先核對對象、觸發條件與結果；原則在選項時找橋接規則，在題文時補足適用事實。其他原則任務見對應小節。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題幹常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Justify：若原則成立，是否支持原文結論？本節整理原則支持。",
+                "Conform：個案是否正確套用原則，或選項是否貼合原文推理？見「配對家族 → Principle-Conform」。",
+                "Illustrate：例子最能說明什麼一般敘述？見「最受支持 → Principle-Conform：Proposition／Generalization」。",
+                "Parallel：另一個論證是否使用相近的隱含原則？見「配對家族 → Principle-Conform」。",
+                "Underlie：哪條原則最準確表達原文推理背後的規則？見「配對家族 → Principle-Conform」。",
+                "Contradict：哪個個案符合原則適用條件，卻違反其要求？見「推論家族 → 必然為假」的違反原則規則。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 原則在選項（Principle-Strengthen with Principles in Answers）：先預想「若理由所給的條件成立，則支持結論的判斷」。檢查理由是否滿足原則的條件，套用結果是否支持原文結論；同義轉述或較廣類別可以適用，字面相同卻未建立適用關係仍不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R3 原則在題文（Principle-Strengthen with Principles in Stimulus）：題文給規則及其應用，卻未充分建立規則的觸發條件。選項須補上使個案符合條件的事實，才能支持該應用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 most justifies／most helps to justify 比較支持程度，不一律要求完全保證結論；若題幹明確要求 conclusion follows logically，才須達到保證結論的門檻。支持用的原則若較強，不因此自動排除；表達作者原則則須避免超出原文，見「Principle-Conform」。"
+            },
+            {
+              "type": "p",
+              "text": "R5 若作者衡量利弊（Weighing Tradeoffs），原則須處理其取捨或比較；不要只預想無例外的絕對規則。比較的共用判準見「推理結構 → 比較」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 先確認原則在題文還是選項，再找個案已給定的條件與待支持的結論；原則在選項時找橋接規則，原則在題文時找欠缺的適用事實。",
+              "label": "判斷步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 逐項對應「適用對象／觸發條件／結果」，再核對支持程度是否符合完整題幹。條件翻譯、逆否與串接見「推理結構 → 條件」，不另外建立一套條件規則。"
+            },
+            {
+              "type": "p",
+              "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 逆命題／反命題（Reversal／Negation）：原則 P → Q 不保證 Q → P 或非 P → 非 Q；正確內容、錯誤順序仍不能支持結論。"
+            },
+            {
+              "type": "p",
+              "text": "T3 其餘依本題任務檢查：超出範圍（Out of Scope）改談其他問題；削弱（Weakens）降低原文結論的支持；矛盾（Contradiction）與已給資訊衝突。強度須看完整命題與題幹門檻。"
+            },
+            {
+              "type": "p",
+              "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
+              "label": "教材統計"
+            },
+            {
+              "type": "p",
+              "text": "推理結構：Conditional Logic 66%；Comparison 34%；Causation 12%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。「Too Weak／Too Weak」依截圖原文保留，第二個標籤待核，不改寫成未確認的教材分類。"
+            },
+            {
+              "type": "p",
+              "text": "前一張頻次表以原則位置／形式列題數，原表名稱如下："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Principle-Strengthen（Principles in Arguments）：149。",
+                "Principle-Conform（Principle in Stimulus）：45。",
+                "Principle-Conform（Proposition／Generalization）：38。",
+                "Principle-Conform（Principle in Arguments）：32。",
+                "Principle-Conform（Implicit Principles）：31。",
+                "Principle-Strengthen（Principle in Stimulus）：16。"
+              ]
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-10-10T06:57:37.164Z",
+    "updated_at": "2026-10-10T07:08:27.665Z",
     "updated_by": "tutor"
   },
   {
@@ -19001,12 +19107,16 @@
       },
       {
         "type": "p",
-        "text": "S1 原則在選項時，先說清「因為什麼條件，所以可以得到什麼判斷」；原則在題文時，把選項的事實與結論分別對應規則兩端；隱含原則題則比較兩個論證的一般規則。",
+        "text": "S1 先理解題文結構：若是論證，找出結論、理由及兩者的關係；若直接給原則，辨認其適用條件與結果。再依題幹確認要表達作者的原則、選出符合原則的個案，或配對隱含原則。",
         "label": "判斷步驟"
       },
       {
         "type": "p",
-        "text": "S2 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
+        "text": "S2 再依原則的位置作對應：原則在選項時，選準確表達原文推理的規則；原則在題文時，將個案事實及判斷對應規則兩端；隱含原則題則比較兩個論證的一般規則。"
+      },
+      {
+        "type": "p",
+        "text": "S3 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
       },
       {
         "type": "p",
@@ -19026,13 +19136,73 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-10 使用者修訂：先理解題文結構，再依題幹辨認支持／符合等任務，最後確認原則位置；橋接規則／補足適用事實僅限原則支持題。依 repo eba1904 現行大綱修改，沿用既有層級與段落格式。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-10-10",
+        "by": "tutor",
+        "summary": "家教更新 01-20261010-principle-sequence-o2",
+        "before": {
+          "title": "Principle-Conform（原則符合）",
+          "summary": "準確表達作者的原則，檢查個案是否正確套用規則，或比較兩個論證的隱含原則。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "本節整理符合或表達原則的題目。線索：most conforms to the reasoning、most accurately expresses the principle underlying the reasoning、which situation conforms to the principle；原則可能在題文、選項，或隱含於論證。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 原則在選項（Principle-Conform with Principles in Answers）：抽象化作者從理由走到結論所依循的規則，保留原文關係、方向與適用範圍。選項即使足以支持結論，若比作者推理更強或更廣，也未必準確表達該原則。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 原則在題文（Principle-Conform with Principle in Stimulus）：在個案選項中檢查條件是否觸發原則，結論是否為原則所允許或要求的結果。不能只因結果相同，就認定個案正確套用規則。"
+            },
+            {
+              "type": "p",
+              "text": "R3 隱含原則（Principle-Conform with Implicit Principles）：先用一般敘述概括原論證的規則，再找另一個使用相近原則的論證。主題或名詞相似不足以構成平行。"
+            },
+            {
+              "type": "p",
+              "text": "R4 Main Conclusion 找作者已提出的主張；Underlying Principle 找支持關係背後的一般規則。例如個案結論只針對一個人，原則則說明具有某條件的人應如何行動。主結論判準見「配對家族 → 主結論」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 原則在選項時，先說清「因為什麼條件，所以可以得到什麼判斷」；原則在題文時，把選項的事實與結論分別對應規則兩端；隱含原則題則比較兩個論證的一般規則。",
+              "label": "判斷步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
+            },
+            {
+              "type": "p",
+              "text": "T1 程度過強（Too Strong）：把原文有條件的規則擴成所有情況、無例外的規則。Conform／Underlie 要準確表達，不能只因它支持得更強就選它。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 觸發條件／結果錯置（Wrong Trigger／Outcome）：條件方向反轉、否定位置改變，或結果不是原則所允許或要求的判斷。"
+            },
+            {
+              "type": "p",
+              "text": "T3 表面相似：用了相同人物、主題或動作，卻改變真正的推理關係。隱含原則題比的是規則，條件與量詞形式仍依既有邏輯判準檢查。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20261009-principle-o2",
-    "updated_at": "2026-10-10T06:57:37.773Z",
+    "updated_at": "2026-10-10T07:08:27.679Z",
     "updated_by": "tutor"
   },
   {
