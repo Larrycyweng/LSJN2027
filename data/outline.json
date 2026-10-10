@@ -15218,8 +15218,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題幹常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
-        "label": "辨識"
+        "text": "辨識: 原則（Principle）是一般規則的表達形式，可用於不同任務。題幹常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。"
       },
       {
         "type": "ul",
@@ -15234,8 +15233,7 @@
       },
       {
         "type": "p",
-        "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
-        "label": "規則"
+        "text": "規則: R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。"
       },
       {
         "type": "p",
@@ -15255,8 +15253,7 @@
       },
       {
         "type": "p",
-        "text": "S1 先理解題文結構：找出結論與支持理由，說清理由如何支持結論；若題文只有原則或現象描述，則辨認其條件與關係，不硬找結論。",
-        "label": "判斷步驟"
+        "text": "判斷步驟: S1 先理解題文結構：找出結論與支持理由，說清理由如何支持結論；若題文只有原則或現象描述，則辨認其條件與關係，不硬找結論。"
       },
       {
         "type": "p",
@@ -15268,8 +15265,7 @@
       },
       {
         "type": "p",
-        "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
-        "label": "陷阱"
+        "text": "陷阱: T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。"
       },
       {
         "type": "p",
@@ -15281,8 +15277,7 @@
       },
       {
         "type": "p",
-        "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
-        "label": "教材統計"
+        "text": "教材統計: 任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。"
       },
       {
         "type": "p",
@@ -15290,22 +15285,7 @@
       },
       {
         "type": "p",
-        "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。「Too Weak／Too Weak」依截圖原文保留，第二個標籤待核，不改寫成未確認的教材分類。"
-      },
-      {
-        "type": "p",
-        "text": "前一張頻次表以原則位置／形式列題數，原表名稱如下："
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Principle-Strengthen（Principles in Arguments）：149。",
-          "Principle-Conform（Principle in Stimulus）：45。",
-          "Principle-Conform（Proposition／Generalization）：38。",
-          "Principle-Conform（Principle in Arguments）：32。",
-          "Principle-Conform（Implicit Principles）：31。",
-          "Principle-Strengthen（Principle in Stimulus）：16。"
-        ]
+        "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。"
       }
     ],
     "source_refs": [
@@ -15328,10 +15308,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-10 使用者修訂：先理解題文結構，再依題幹辨認支持／符合等任務，最後確認原則位置；橋接規則／補足適用事實僅限原則支持題。依 repo eba1904 現行大綱修改，沿用既有層級與段落格式。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-10"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-09-30",
@@ -15548,11 +15532,113 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-10",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Principle Support（原則支持）",
+          "summary": "先理解題文結構，再依題幹辨認支持、符合或概括任務；確認為原則支持題後，依原則位置檢查規則或適用事實。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題幹常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Justify：若原則成立，是否支持原文結論？本節整理原則支持。",
+                "Conform：個案是否正確套用原則，或選項是否貼合原文推理？見「配對家族 → Principle-Conform」。",
+                "Illustrate：例子最能說明什麼一般敘述？見「最受支持 → Principle-Conform：Proposition／Generalization」。",
+                "Parallel：另一個論證是否使用相近的隱含原則？見「配對家族 → Principle-Conform」。",
+                "Underlie：哪條原則最準確表達原文推理背後的規則？見「配對家族 → Principle-Conform」。",
+                "Contradict：哪個個案符合原則適用條件，卻違反其要求？見「推論家族 → 必然為假」的違反原則規則。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 原則在選項（Principle-Strengthen with Principles in Answers）：先預想「若理由所給的條件成立，則支持結論的判斷」。檢查理由是否滿足原則的條件，套用結果是否支持原文結論；同義轉述或較廣類別可以適用，字面相同卻未建立適用關係仍不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R3 原則在題文（Principle-Strengthen with Principles in Stimulus）：題文給規則及其應用，卻未充分建立規則的觸發條件。選項須補上使個案符合條件的事實，才能支持該應用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 most justifies／most helps to justify 比較支持程度，不一律要求完全保證結論；若題幹明確要求 conclusion follows logically，才須達到保證結論的門檻。支持用的原則若較強，不因此自動排除；表達作者原則則須避免超出原文，見「Principle-Conform」。"
+            },
+            {
+              "type": "p",
+              "text": "R5 若作者衡量利弊（Weighing Tradeoffs），原則須處理其取捨或比較；不要只預想無例外的絕對規則。比較的共用判準見「推理結構 → 比較」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 先理解題文結構：找出結論與支持理由，說清理由如何支持結論；若題文只有原則或現象描述，則辨認其條件與關係，不硬找結論。",
+              "label": "判斷步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 再依題幹辨認任務：支持推論（support／justify the reasoning，Strengthen）是假設選項成立，檢查它能否使結論更有根據；反映推論（conform to the reasoning／express the principle underlying the reasoning，Conform／Underlie）是準確表達作者依循的規則。若要求個案符合原則，檢查其應用；若問例子最能說明哪個概括，則由題文支持選項，分別見對應小節。"
+            },
+            {
+              "type": "p",
+              "text": "S3 確認為原則支持題後，再看原則的位置：在選項時依 R2 找橋接規則，在題文時依 R3 補足適用事實。逐項對應「適用對象／觸發條件／結果」，核對支持程度是否符合完整題幹；條件翻譯、逆否與串接見「推理結構 → 條件」。"
+            },
+            {
+              "type": "p",
+              "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 逆命題／反命題（Reversal／Negation）：原則 P → Q 不保證 Q → P 或非 P → 非 Q；正確內容、錯誤順序仍不能支持結論。"
+            },
+            {
+              "type": "p",
+              "text": "T3 其餘依本題任務檢查：超出範圍（Out of Scope）改談其他問題；削弱（Weakens）降低原文結論的支持；矛盾（Contradiction）與已給資訊衝突。強度須看完整命題與題幹門檻。"
+            },
+            {
+              "type": "p",
+              "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
+              "label": "教材統計"
+            },
+            {
+              "type": "p",
+              "text": "推理結構：Conditional Logic 66%；Comparison 34%；Causation 12%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。「Too Weak／Too Weak」依截圖原文保留，第二個標籤待核，不改寫成未確認的教材分類。"
+            },
+            {
+              "type": "p",
+              "text": "前一張頻次表以原則位置／形式列題數，原表名稱如下："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Principle-Strengthen（Principles in Arguments）：149。",
+                "Principle-Conform（Principle in Stimulus）：45。",
+                "Principle-Conform（Proposition／Generalization）：38。",
+                "Principle-Conform（Principle in Arguments）：32。",
+                "Principle-Conform（Implicit Principles）：31。",
+                "Principle-Strengthen（Principle in Stimulus）：16。"
+              ]
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-10-10T07:08:27.665Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-10T07:10:20.902Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-041",
