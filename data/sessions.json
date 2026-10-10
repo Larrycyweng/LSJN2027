@@ -712,5 +712,26 @@
     "client_request_id": "W1-20261007-must-be-false-session-50",
     "created_at": "2026-10-08T05:59:13.423Z",
     "updated_at": "2026-10-08T05:59:13.423Z"
+  },
+  {
+    "session_id": "S-20261009-01",
+    "week_label": "第3週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab；專案對話",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Principle：支持、符合、概括與主結論的任務區別；原則適用條件；比較關係與層次",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報美西10/9今日總學習40分鐘，已看完Principle影片。以一筆40分鐘記錄影片學習與家教討論，不另加討論時間。屬Learn；PT65 S4 Q18為已見正解與解析的影片例題，未回報獨立作答、信心或解題時間，不建立作答成績，也不據此宣稱掌握。",
+    "session_date": "2026-10-09",
+    "mode": "觀念學習",
+    "effective_minutes": 40,
+    "client_request_id": "01-20261009-principle-s1",
+    "created_at": "2026-10-10T06:57:37.883Z",
+    "updated_at": "2026-10-10T06:57:37.883Z"
   }
 ]
