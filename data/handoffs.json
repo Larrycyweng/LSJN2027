@@ -544,5 +544,18 @@
     "client_request_id": "W1-20261007-must-be-false-handoff",
     "created_at": "2026-10-08T05:59:13.433Z",
     "updated_at": "2026-10-08T05:59:13.433Z"
+  },
+  {
+    "handoff_id": "HO-043",
+    "session_id": "",
+    "taught": "原則是跨任務的表達形式：Justify支持推理；Conform／Underlie準確表達或套用規則；Illustrate由個案選概括；Parallel比較隱含原則；Contradict找違反規則。主結論題辨認作者既有主張。Comparison須保留對象、面向與層次；PT65 S4 Q18保留整體與成員的性質可以不同。依截圖收錄辨識詞、任務比例、推理結構及誘答比例。",
+    "observed": "使用者辨認第1個題幹為Main Conclusion，詢問justify the reasoning與express the principle underlying the reasoning的差別；主動提出Comparison並以影片截圖校正教學。這些屬Learn討論，尚無完整無提示新題、理由、計時或延遲保留資料，不新增錯誤指紋或掌握判定。",
+    "open_questions": "原創題幹第2、3問尚未完成無提示任務辨認。Summary誘答原文為Too Weak／Too Weak，第二標籤待核。補充清單：博物館與Nora為本堂家教原創教學示例，未作能力測量，未寫成教材或官方例題。回寫實際匯入尚未驗證。",
+    "date": "2026-10-09",
+    "stopped_at": "Principle影片已完成；今日Learn總時間40分鐘。已依最新repo bfe7ae5製作回寫包，待使用者貼入App。",
+    "next_task": "依已確定的影片學習進度接續，Principle列為已完成；後續在既定驗證中區分原則支持、原則符合與概括推論。",
+    "client_request_id": "01-20261009-principle-h1",
+    "created_at": "2026-10-10T06:57:37.957Z",
+    "updated_at": "2026-10-10T06:57:37.957Z"
   }
 ]
