@@ -733,5 +733,26 @@
     "client_request_id": "01-20261009-principle-s1",
     "created_at": "2026-10-10T06:57:37.883Z",
     "updated_at": "2026-10-10T06:57:37.883Z"
+  },
+  {
+    "session_id": "S-20261011-01",
+    "week_label": "第4週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab；專案對話",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Paradox、Evaluate、Parallel、Parallel Flaw：影片學習與大綱複習",
+    "completion": "完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日四小節影片學習及大綱複習，總計3.5小時（210分鐘）；未分別回報各影片與複習時間，合併記錄一筆。",
+    "session_date": "2026-10-11",
+    "mode": "觀念學習",
+    "effective_minutes": 210,
+    "client_request_id": "01-20261011-learning-time-s1",
+    "created_at": "2026-10-12T06:38:15.351Z",
+    "updated_at": "2026-10-12T06:38:15.351Z"
   }
 ]
