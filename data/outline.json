@@ -127,7 +127,7 @@
     "section_id": "OL-003",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 3,
+    "order": 4,
     "title": "Assumption Family（假設家族）",
     "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
     "blocks": [
@@ -207,37 +207,6 @@
     "protected": true,
     "revisions": [
       {
-        "date": "2026-10-04",
-        "by": "user",
-        "summary": "接受提案 00-20261004-compact-statistics-03",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "教材統計: LSAT Lab 題型比例：Assumption Family 64%；其中 Flaw 16%、Necessary Assumption 11%、Weaken 9%、Principle 9%、Strengthen 7%、Paradox 7%、Sufficient Assumption 4%。"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-10-10",
-        "by": "user",
-        "summary": "移動節",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "教材統計",
-              "text": "LSAT Lab 題型比例：Assumption Family 64%；Flaw 16%；Necessary Assumption 11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption 4%。"
-            }
-          ]
-        }
-      },
-      {
         "date": "2026-10-10",
         "by": "user",
         "summary": "調整順序",
@@ -480,17 +449,77 @@
         "date": "2026-10-11",
         "by": "user",
         "summary": "拒絕提案 01-20261011-consistency-o3"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-12T04:53:50.043Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-12T04:59:47.999Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20261011-notes-v3-u003",
+        "date": "2026-10-11",
+        "summary": "先分清題問要求的答案，再用同一論證比較六種思考角度；原則支持與解釋矛盾另依各自任務處理。",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "先依完整題問確認任務。評估論證的共用程序見「論證結構 → 質疑結論」；各題型的差別，在於選項須滿足哪個答案要求。",
+            "label": "辨識"
+          },
+          {
+            "type": "p",
+            "text": "R1 同一命題可能既是必要假設，也有加強作用；題型仍由題問決定。必要假設檢查必需性，充分假設檢查能否保證結論，加強與削弱則檢查支持程度的變化。",
+            "label": "規則"
+          },
+          {
+            "type": "p",
+            "text": "教材共用論證：Jason 申請了 Notre Dame，因此他一定想就讀好學校。以下比較同一論證的六種答題角度；示例用於辨認任務，不把每個合理補充都當成必要假設。",
+            "label": "例子"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "缺陷（Flaw）：作者哪一步不可靠？此處把申請行為的一種可能動機，當成必然的動機；答案須描述這個推理問題。",
+              "必要假設（NA）：什麼條件不可缺？例如「至少有一位 Notre Dame 申請者想就讀好學校」；若一位也沒有，已申請的 Jason 就不可能如結論所述。原命題本身則尚不足以證明 Jason 的意願。",
+              "充分假設（SA）：加入什麼就足以保證結論？例如「凡申請 Notre Dame 的人，都想就讀好學校」，與已知申請事實合用，即能推出結論。",
+              "加強（Strengthen）：哪項事實使這個動機更可信？例如 Jason 選擇申請對象時，特別重視學校品質；增加支持即可，不必保證結論。",
+              "削弱（Weaken）：哪項事實使申請較不能反映這個動機？例如這份申請只是研究學校如何回覆的一部分，與本人就讀意願無關；削弱的是申請到意願的推論。",
+              "評估（Evaluate）：查明什麼會改變這個判斷？例如「這份申請是否反映 Jason 本人的就讀意願？」比較不同回答對推論的影響，選的是值得查明的問題。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "原則支持以一般規則或適用事實支持結論，門檻依完整題問判斷。Paradox 則接受題文現象、尋找解釋，不強行套入「前提支持結論」；各自見本家族相應子節。",
+            "label": "題型應用"
+          },
+          {
+            "type": "p",
+            "label": "教材統計",
+            "text": "LSAT Lab 題型比例：Assumption Family 64%；Flaw 16%；Necessary Assumption 11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption 4%。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。比較模板取自 Notes v2 第3–5頁，依既有 NA／SA 判準校正必要性與強弱方向；模板僅置於家族開頭。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-004",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 5,
+    "order": 6,
     "title": "Inference Family（推論家族）",
     "summary": "先讀題問，以題文資訊判斷選項；共用流程為相關陳述、推理結構、預想答案、比對選項。",
     "blocks": [
@@ -1105,22 +1134,27 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-10-10T20:42:21.845Z",
-    "updated_by": "user"
+    "updated_at": "2026-10-12T04:59:47.967Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-005",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 6,
+    "order": 3,
     "title": "Match Family（配對家族）",
-    "summary": "依題問配對作者的主張、句子作用、推理方法或原則。",
+    "summary": "辨認主張與句子作用，描述或配對推理；平行缺陷另須核對同一錯誤。",
     "blocks": [
       {
         "type": "p",
-        "text": "目前各子節的任務如下：",
+        "text": "依題問辨認、描述或配對論證：",
         "label": "辨識"
       },
       {
@@ -1129,16 +1163,18 @@
           "Main Conclusion：作者要證明什麼？",
           "Role：指定句子在論證中做什麼？",
           "Method：作者如何論證或回應？",
+          "Parallel：哪個論證採用相同的推理形式？",
+          "Parallel Flaw：哪個論證以相同方式犯下推理錯誤？",
           "Principle-Conform：表達作者依循的原則、檢查個案應用，或配對隱含原則。"
         ]
       },
       {
         "type": "p",
-        "text": "共用的結論、證據與角色判準見「論證結構 → 找結論與證據」；各題型的答案要求見本家族相應子節。"
+        "text": "結論、證據與角色判準見「論證結構 → 找結論與證據」。Method 描述一個論證的方法，Parallel 比對兩個論證的形式，Parallel Flaw 再核對同一推理錯誤。"
       },
       {
         "type": "p",
-        "text": "本大綱沿用 Match Family（原稱 Function Family）；平行論證（Parallel）與平行缺陷（Parallel Flaw）亦歸於本家族。",
+        "text": "本大綱沿用 Match Family（原稱 Function Family）。Parallel Flaw 的缺陷判斷見「假設家族 → 缺陷」；本家族處理兩個論證是否以相同方式推理。",
         "label": "分類"
       },
       {
@@ -1199,53 +1235,15 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。"
       }
     ],
     "status": "草稿",
     "protected": false,
     "revisions": [
-      {
-        "date": "2026-10-01",
-        "by": "tutor",
-        "summary": "家教更新 01-20261001-o2",
-        "before": {
-          "title": "Match Family（配對家族；原稱 Function Family）",
-          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "辨識",
-              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 與 Role 的判準見「論證結構 → 找結論與證據」。"
-            },
-            {
-              "type": "p",
-              "label": "分類",
-              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-10-02",
-        "by": "tutor",
-        "summary": "家教更新 01-20261002-o12",
-        "before": {
-          "title": "Match Family（配對家族；原稱 Function Family）",
-          "summary": "主結論看作者要證明什麼；句子角色看它如何服務結論。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "辨識",
-              "text": "家族比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。Main Conclusion 的方法見「論證結構 → 找結論與證據 → 主結論」；Role 的角色判準見「論證結構 → 找結論與證據」。"
-            },
-            {
-              "type": "p",
-              "label": "分類",
-              "text": "Match Family 包含 Main Conclusion、Role、Method、Parallel、Parallel Flaw，對應原筆記的 Function Family。Rebuttals 可出現在不同題型中；即使平行缺陷題比較的是反駁論證，Parallel Flaw 仍屬 Match Family，不能因題文具有反駁型態就改變題型家族。"
-            }
-          ]
-        }
-      },
       {
         "date": "2026-10-04",
         "by": "tutor",
@@ -1889,9 +1887,57 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o5"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教更新 01-20261011-notes-v3-u005",
+        "before": {
+          "title": "Match Family（配對家族）",
+          "summary": "依題問配對作者的主張、句子作用、推理方法或原則。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "目前各子節的任務如下：",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Main Conclusion：作者要證明什麼？",
+                "Role：指定句子在論證中做什麼？",
+                "Method：作者如何論證或回應？",
+                "Principle-Conform：表達作者依循的原則、檢查個案應用，或配對隱含原則。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "共用的結論、證據與角色判準見「論證結構 → 找結論與證據」；各題型的答案要求見本家族相應子節。"
+            },
+            {
+              "type": "p",
+              "text": "本大綱沿用 Match Family（原稱 Function Family）；平行論證（Parallel）與平行缺陷（Parallel Flaw）亦歸於本家族。",
+              "label": "分類"
+            },
+            {
+              "type": "p",
+              "text": "遇到反駁題文，先依「論證結構 → 找結論與證據 → 反駁」分清雙方，再回答題問；反駁型態本身不決定題型家族。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "各題型占整體 LR 的比例：Main Conclusion 3%；Role 3%；Method 5%；Parallel 3%；Parallel Flaw 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T04:52:57.677Z",
+    "updated_at": "2026-10-12T04:59:48.009Z",
     "updated_by": "tutor"
   },
   {
@@ -3076,39 +3122,6 @@
     "revisions": [
       {
         "date": "2026-09-22",
-        "by": "tutor",
-        "summary": "家教提案（待確認）",
-        "before": {
-          "title": "Skeptical of Conclusion（質疑結論）",
-          "summary": "Even though the evidence is true, argue the Anti-Conclusion.",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "診斷出缺陷名稱後的選項掃描：Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，以及 if 與 only if 對比的句子，先掃這些。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "結論出現 ensure、guarantee、will not 這類絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。",
-                "Necessary v. Sufficient 的常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。",
-                "缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 為缺陷名稱，Sufficient Assumption 為題型名稱。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q24：P → Q 推 ~P → ~Q，正解為 Objections 句式且所指與診斷相符。PT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成。",
-              "refs": [
-                "A-20260921-PT140-S1-Q24",
-                "A-20260921-PT140-S1-Q21"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-22",
         "by": "user",
         "summary": "接受提案 W1-20260922-LR-008",
         "before": {
@@ -3850,17 +3863,54 @@
         "date": "2026-10-11",
         "by": "user",
         "summary": "接受提案 01-20261011-consistency-o8"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-12T04:53:31.617Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-12T04:59:48.058Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20261011-notes-v3-u008",
+        "date": "2026-10-11",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "R1 接受題文前提，再問它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假。",
+            "label": "規則"
+          },
+          {
+            "type": "p",
+            "text": "S1 指出推理缺口：前提與結論之間缺少哪個連結，或依賴什麼未交代的條件？",
+            "label": "步驟"
+          },
+          {
+            "type": "p",
+            "text": "S2 檢查可能異議：即使前提為真，是否仍有反例、其他解釋或被忽略的差異，足以影響這個結論？"
+          },
+          {
+            "type": "p",
+            "text": "以上為評估論證的共用程序；必要假設、缺陷、加強、削弱及 Evaluate 的答案要求，見「假設家族」相應子節。",
+            "label": "題型應用"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。Evaluate 題型解法集中至新子節，共用評估程序保留於本節。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-009",
     "parent_id": "OL-001",
     "level": 2,
-    "order": 4,
+    "order": 5,
     "title": "Reasoning Structures（推理結構）",
     "summary": "先辨條件、比較或因果；各自問缺條件、可比性或其他解釋。",
     "blocks": [
@@ -4345,10 +4395,15 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-10-10T20:42:23.575Z",
-    "updated_by": "user",
+    "updated_at": "2026-10-12T04:59:47.959Z",
+    "updated_by": "tutor",
     "proposals": []
   },
   {
@@ -4608,7 +4663,7 @@
         "items": [
           "Strengthen：補上讓兩者公平可比的相似點（complete the analogy）。",
           "Weaken：指出有意義的差異（meaningful difference）。",
-          "Paradox：提出新的差異，解釋題文中令人意外的差異。",
+          "Paradox：找出能解釋意外結果的差異或抵銷因素；方法見「假設家族 → 解釋矛盾」。",
           "Necessary Assumption：檢查作者所依賴的相似點或差異點。",
           "Flaw：檢查部分與整體、樣本與推廣的推論問題。",
           "Most Supported：補完類比，或指出造成不同結果的差異（causal difference-maker）。"
@@ -4669,12 +4724,100 @@
       {
         "type": "LSATLab Notes",
         "ref": "LSAT Lab 影片《Principle》；使用者於2026-10-09美西晚間提供的分類說明、Reasoning與Summary截圖，以及PT65 S4 Q18教學截圖。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。依 Paradox 教材補足不同背景卻相同結果的情況。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-10T06:57:37.873Z",
+    "revisions": [
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教更新 01-20261011-notes-v3-u011",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Analogy 找差異；Recommendation 找利弊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Comparison 占 LR 約 37%，最常出現在 Strengthen／Weaken、Paradox、Most Supported、Necessary Assumption、Flaw。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "題文把兩個東西放在一起比，常見七種比較："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "此時段對彼時段。",
+                "此情況對彼情況。",
+                "Plan 對 No-Plan。",
+                "部分對整體（Part vs. Whole）。",
+                "樣本對推廣（Sample vs. Generalization）。",
+                "相對對絕對（Relative vs. Absolute）。",
+                "百分比對數量（Percent vs. Number）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 要推翻類比，差異必須觸及比較的標準；不觸及標準的差異無關。"
+            },
+            {
+              "type": "p",
+              "text": "R3 依題型決定動作。",
+              "label": "題型應用"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Strengthen：補上讓兩者公平可比的相似點（complete the analogy）。",
+                "Weaken：指出有意義的差異（meaningful difference）。",
+                "Paradox：提出新的差異，解釋題文中令人意外的差異。",
+                "Necessary Assumption：檢查作者所依賴的相似點或差異點。",
+                "Flaw：檢查部分與整體、樣本與推廣的推論問題。",
+                "Most Supported：補完類比，或指出造成不同結果的差異（causal difference-maker）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R4 Plans／Recommendations 也是比較：比的是 the world we currently live in 與 the world in which we follow this plan。支持與反駁都針對後者是否真的更好。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Relative vs. Absolute：百分比上升不等於數量上升。看到 percentage、proportion、share 推到 more people、more cases 時，問總數有沒有變。例：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%，數量未變。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Anti-Causal 的比較形式：「兩人結果相同，所以某因素沒有作用」。動作是指出兩者哪裡不一樣，使它們 unfair to compare。機制見「推理結構 → 因果 → 評估因果解釋的可信度」R6 的不公平比較（Unfair Comparison）。"
+            },
+            {
+              "type": "p",
+              "text": "R7 原則題中的比較：先確認比較對象、面向與層次，再依任務使用它。Conform／Illustrate／Parallel 保留原文的比較關係；Justify 檢查原則能否支持比較結論，不要求選項一定採用相同句式。PT65 S4 Q18 比的是組織整體與成員，不能換成某些組織與所有組織。各任務見「原則支持」「Principle-Conform」及「命題／概括」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 先寫出被比較的兩個東西各是什麼；再問比較的標準是什麼；最後依題幹選 R3 的動作。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "減少紅肉的一組反而吃進更多脂肪。若這組改吃脂肪含量更高的食物，便提供新的差異來解釋現象；若只說兩組其他食物攝取相等，反而未解釋矛盾。",
+              "label": "例子"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-12T04:59:48.068Z",
     "updated_by": "tutor"
   },
   {
@@ -4934,11 +5077,112 @@
         "date": "2026-10-11",
         "by": "user",
         "summary": "接受提案 01-20261011-consistency-o12"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-12T04:54:41.388Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-12T04:59:48.079Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20261011-notes-v3-u012",
+        "date": "2026-10-11",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "因果題先分清觀察與解釋，以及因果關係是作者要證明的結論，還是題目給定的前提；後續依題問選擇評估、推論或描述。",
+            "label": "辨識"
+          },
+          {
+            "type": "p",
+            "text": "因果動詞依作用與程度分組：",
+            "label": "語言線索"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "causes、leads to、results in、has the effect of：表達因果作用。",
+              "promotes、inhibits、raises、lowers、deters、encourages：核對促進或抑制的方向。",
+              "influences、contributes to、is a factor in：表達影響或部分促成。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "讀全句的否定與程度，不能把「促成因素」改成「唯一原因」。"
+          },
+          {
+            "type": "p",
+            "text": "跨句連結語包括 because of this、due to this、this allows、this leads to、this makes possible、as a result。"
+          },
+          {
+            "type": "p",
+            "text": "先把 this 等指涉代回具體事件，再辨認前句哪個因素影響後句哪個結果。consequently、accordingly 也可能連接理由與結論；是否主張因果，仍須核對句意。"
+          },
+          {
+            "type": "p",
+            "text": "本節有四個子節。第一部分辨識觀察與解釋；第二、三部分分別從「其他解釋」與「作者解釋的依據」評估論證；第四部分處理題文已提供因果關係時的推論。",
+            "label": "體系"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "待解釋的比較與變化（Curious Comparisons）：找出相關、組間差異、先後變化或比例差異與變化，以及作者對它的解釋。",
+              "多種解釋（Multiple Ways to Explain）：檢查反向因果、第三因素、資料問題及回歸平均。",
+              "評估因果解釋的可信度（Assessing Plausibility）：檢查共同變動、作用機制、因素是否真的不同，以及原因是否存在且能起作用。",
+              "因果鏈（Causal Chains）：沿著題文明說的因果作用，核對方向、連結與推論程度。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "R1 評估作者的解釋時，核對兩問：同一現象有沒有其他解釋？作者提出的原因本身有什麼依據？依題文與選項判斷它影響哪一問，不必每題自行列舉全部可能。",
+            "label": "規則"
+          },
+          {
+            "type": "p",
+            "text": "R2 題文把因果作用作為前提、要求推出結論時，先接受題目給定的關係，再判斷選項是否沿著該關係推出受支持的影響。解法見「因果鏈」。"
+          },
+          {
+            "type": "p",
+            "text": "評估作者的因果解釋時，各題型運用兩條路徑的方式如下：",
+            "label": "題型應用"
+          },
+          {
+            "type": "p",
+            "text": "削弱（Weaken）：通常提供同一現象的其他解釋，例如反向因果、第三因素、不同起點、回歸平均或資料問題；也可能動搖作者解釋的可信度，例如作用機制不成立，或可比較的資料顯示有原因卻無結果、無原因卻有結果。"
+          },
+          {
+            "type": "p",
+            "text": "加強（Strengthen）：通常增加作者解釋的可信度，例如可比較的資料顯示無原因則無結果、更多原因伴隨更多結果，或補出作用機制；也可能排除其他解釋。支持程度提高，不等於已證明因果。"
+          },
+          {
+            "type": "p",
+            "text": "缺陷（Flaw）：指出作者直接由相關推因果，或在證據不足、仍有其他可成立的解釋時，對因果結論過度確定。先指出證據到結論缺了哪一步，再核對選項是否描述題文實際的推論不足。"
+          },
+          {
+            "type": "p",
+            "text": "必要假設（Necessary Assumption）：找作者因果論證必須依賴的條件，可能排除會破壞推論的其他解釋，或補上必需的連結。僅能增加可信度還不夠；排除另一原因也不必然是必要條件，須核對結論的程度並用否定測試確認。解法見「假設家族 → 必要假設與充分假設」。"
+          },
+          {
+            "type": "p",
+            "text": "評估（Evaluate）：查明其他解釋是否成立，或作者解釋的依據是否可靠；不同回答的檢驗方法見「假設家族 → 評估論證」。"
+          },
+          {
+            "type": "p",
+            "text": "S1 先確認題問任務，再用一句話寫出「觀察是什麼、作者如何解釋」或「題文給定哪條因果關係」。需要評估解釋時，使用兩條評估路徑；要求由給定關係推論時，沿因果鏈核對選項；辨認或描述論證時，依題問忠實對應題文。",
+            "label": "步驟"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。保留因果應用，通用 Evaluate 檢驗移由題型小節統一說明。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-013",
@@ -5059,52 +5303,6 @@
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-22",
-        "by": "user",
-        "summary": "接受提案 W1-20260922-LR-013",
-        "before": {
-          "title": "Eliminate Trap Answers（排除誘答）",
-          "summary": "Wrong answers fail on Scope, Logic, or Degree. Eliminate on textual grounds only.",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Six trap categories. Scope: Out of Scope（超出範圍）, Half Scope（只對一半）. Logic: Premise Support（只支持前提）, Reversal（方向顛倒）. Degree: Too Weak（太弱）, Too Strong（太強）."
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Degree: absolute wording is not the same as too strong. Judge only whether the premises support the claim. \"Necessary\" is not \"principal\"; a comparative word the premises never made (\"principally\", \"mainly\") is unsupported."
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S3 Q17: the correct option used absolute wording supported by the chain; the chosen option added \"principally\"."
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "作答前先判兩件事：題幹的推論方向，以及本題型是否允許選項超出題文。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "方向：most strongly support、can be inferred 為題文支撐選項；strengthen、weaken 為選項作用於題文。方向判錯則後續比對全部無效。",
-                "是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。",
-                "Flaw 題的三種類式：(1) Objection: fails to consider X 只需該可能性未被排除；(2) Assumption: takes for granted that X 須論證確實依賴 X，不依賴即刪；(3) Description: concludes X on the basis of Y、infers 僅描述論證所做之事，判準為該描述是否與論證實際內容相符。",
-                "含比較級的選項（greater、more than）須題文提供兩者的比較資料。",
-                "Explain 題正解須使衝突雙方同時成立；僅覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT141 S2 Q15：takes for granted 句式門檻。PT141 S2 Q23：Most Supported 以 Strengthen 方向作答。PT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，且主體由聽眾換為附近居民。"
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-23",
         "by": "tutor",
@@ -6118,11 +6316,89 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-12T04:55:58.978Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-12T04:59:48.092Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "01-20261011-notes-v3-u013",
+        "date": "2026-10-11",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "六類誘答按範圍、邏輯與程度分組：",
+            "label": "辨識"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。",
+              "Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。",
+              "Degree：Too Weak（太弱）、Too Strong（太強）。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。",
+            "label": "規則"
+          },
+          {
+            "type": "p",
+            "text": "R2 看選項前先判兩件事：題問方向，以及是否允許選項提供新資訊。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "題文支撐選項：most strongly support、can be inferred。",
+              "選項作用於題文：strengthen、weaken。方向判錯，後續比對便會錯置。",
+              "Inference、Must Be True：答案所主張的內容須得到題文支持。",
+              "Explain、Strengthen、Weaken、Sufficient Assumption：選項必須或可以提供題文原先沒有的資訊。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
+          },
+          {
+            "type": "p",
+            "text": "R4 Paradox／Explain 依題問找出待解釋現象。若為表面衝突，須保留兩邊事實，不能以否定其中一邊來化解；若只問單一事件，直接檢查該事件的解釋。具體判準見「假設家族 → 解釋矛盾」。"
+          },
+          {
+            "type": "p",
+            "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+          },
+          {
+            "type": "p",
+            "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「假設家族 → 缺陷」R1。"
+          },
+          {
+            "type": "p",
+            "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。",
+            "label": "陷阱"
+          },
+          {
+            "type": "p",
+            "text": "T2 作答前未確認題問任務，以自己對結論的判斷挑選項。"
+          },
+          {
+            "type": "p",
+            "text": "T3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。區分表面矛盾與單一事件的 Explain 題。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-014",
@@ -9818,7 +10094,7 @@
     "section_id": "OL-040",
     "parent_id": "OL-003",
     "level": 3,
-    "order": 5,
+    "order": 6,
     "title": "Principle Support（原則支持）",
     "summary": "依題問確認支持任務，找出理由與結論，再依原則位置檢查橋接規則或適用事實。",
     "blocks": [
@@ -10674,11 +10950,16 @@
         "date": "2026-10-11",
         "by": "user",
         "summary": "接受提案 01-20261011-consistency-o40"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-10-12T04:54:27.190Z",
-    "updated_by": "user",
+    "updated_at": "2026-10-12T04:59:47.978Z",
+    "updated_by": "tutor",
     "proposals": []
   },
   {
@@ -15036,7 +15317,7 @@
     "section_id": "OL-059",
     "parent_id": "OL-005",
     "level": 3,
-    "order": 4,
+    "order": 6,
     "title": "Principle-Conform（原則符合）",
     "summary": "準確表達作者的原則，檢查個案是否正確套用規則，或比較兩個論證的隱含原則。",
     "blocks": [
@@ -15401,10 +15682,15 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o59"
+      },
+      {
+        "date": "2026-10-11",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
     "client_request_id": "01-20261009-principle-o2",
-    "updated_at": "2026-10-12T04:52:57.886Z",
+    "updated_at": "2026-10-12T04:59:47.989Z",
     "updated_by": "tutor"
   },
   {
@@ -15464,6 +15750,281 @@
     "revisions": [],
     "client_request_id": "01-20261009-principle-o3",
     "updated_at": "2026-10-10T06:57:37.824Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-061",
+    "parent_id": "OL-003",
+    "level": 3,
+    "order": 5,
+    "title": "Evaluate（評估論證）",
+    "summary": "比較同一問題的不同可能答案，找出最能影響論證評價的資訊。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "題問常見 evaluate、evaluating、assessing，或 most useful to know／determine。任務是找出其答案能影響論證評價的問題或資訊；先讀清最有用、最無用或 EXCEPT 的要求。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 選項提出待查明的問題，不代表某個回答已成立。判斷重點是：答案不同時，理由對結論的支持是否改變，而不是問題是否與主題有關。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 可先想一個會削弱推論的回答，再用另一種回答確認其評估價值。常見情況是一邊加強、一邊削弱；重點是支持程度有差異，不要求兩邊的影響完全對稱。"
+      },
+      {
+        "type": "p",
+        "text": "R3 問題可檢查必要連結、其他解釋，或比較與建議中被忽略的條件；不必先證明問題中的某個命題就是必要假設。因果與比較的檢查見「推理結構」相應子節。"
+      },
+      {
+        "type": "p",
+        "text": "S1 找出題問指定的論證及推理缺口，預想「需要查明什麼，才能判斷這個理由是否站得住？」共用評估程序見「論證結構 → 質疑結論」。",
+        "label": "步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 對候選問題代入兩種有對照的可能答案，例如是／否、高／低；分別說明它們如何影響推論，不猜現實中哪個答案才是真的。"
+      },
+      {
+        "type": "p",
+        "text": "S3 比較影響大小：most useful 選最有助於評價論證者；LEAST useful 選最少影響推論者。EXCEPT 則依完整題問，找不具指定評估作用的選項。"
+      },
+      {
+        "type": "p",
+        "text": "T1 無影響（No Impact）：問題只談相關背景，回答如何改變都不影響這個論證。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 範圍過廣或過度具體（Too Specific／Strong）：例如問是否「只申請會考慮就讀的學校」，回答否可能只涉及另一所學校，未必說明本次申請的動機。要把每個回答對回本題對象；精確數字或強用語本身不是刪除理由。"
+      },
+      {
+        "type": "p",
+        "text": "T3 把問句當成事實，或只因某個回答聽起來合理就選。即使不知道實際答案，也能判斷查明該資訊有沒有用。"
+      },
+      {
+        "type": "p",
+        "text": "教材的燈泡建議例中，購買成本、使用成本與壽命會影響使用者的利弊；業者預期獲利多少，本身沒有建立對使用者利弊的影響。判斷的是資訊對該建議的作用，不是它是否與燈泡產業有關。",
+        "label": "例子"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab_Notes_v2.pdf 第3–6頁 Evaluate 截圖與 PT65 S1 Q3 解析；LR-Strategies.pdf 第14頁 Evaluate。依2026-10-11對話整理；將待查明問題與已給事實、必要性與支持變化分開，未照錄受壓力申請例的反向標註。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261011-notes-v3-a1",
+    "updated_at": "2026-10-12T04:59:48.020Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-062",
+    "parent_id": "OL-003",
+    "level": 3,
+    "order": 7,
+    "title": "Paradox（解釋矛盾）",
+    "summary": "接受題文現象，找出能解釋意外結果或化解表面衝突的新資訊。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "題問常見 explain、resolve、paradox、discrepancy、apparent conflict，通常以 if true 指示接受選項為真。先確認要解釋哪個現象；有些 Explain 題只有待解釋事件，不一定有兩邊明顯衝突。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 題文的現象都保留為真。若有表面衝突，答案須說明它們為何能同時發生，不能否定其中一邊，也不必把題文硬拆成前提與結論。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 正解可提供新資訊，使意外結果變得合理；most helps to explain 比較解釋力，不要求證明唯一原因。可用一般常識連接資訊，但不能另編選項沒有提供的關鍵條件。"
+      },
+      {
+        "type": "p",
+        "text": "R3 比較題常問：背景相似，結果為何不同？背景不同，結果為何相同？前者找有意義的差異，後者檢查抵銷因素或原先差異為何未起作用。比較與因果工具見「推理結構」相應子節。"
+      },
+      {
+        "type": "p",
+        "text": "S1 依題問定位待解釋結果，再找使它令人意外的背景。however、yet、nevertheless 是線索，句子位置不能單獨決定解釋對象。",
+        "label": "步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 把問題讀成「已知這個背景，為什麼卻出現這個結果？」說清原本預期什麼、實際卻如何；若只問單一事件，就直接確認該事件。"
+      },
+      {
+        "type": "p",
+        "text": "S3 接受選項為真，完成一句話：「因為這項資訊，所以這個背景下仍會出現該結果。」Resolve／Explain EXCEPT 選未提供解釋者；其餘選項可以各用不同機制解釋。"
+      },
+      {
+        "type": "p",
+        "text": "T1 加深矛盾（Deepens Paradox）：選項使意外結果更難理解，而非較容易理解。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 只解釋背景（Explains Background）：說明原本預期為何合理，卻未解釋實際結果。"
+      },
+      {
+        "type": "p",
+        "text": "T3 未交代有關差異（No Distinction）：結果不同，選項卻只說兩邊共有的情況，且未說明效果為何不同。核對同一群體、時段與衡量標準，不能換主體。"
+      },
+      {
+        "type": "p",
+        "text": "T4 解釋力不足（Too Weak）：資訊未足以涉及待解釋現象，或仍須另加關鍵假設。依整句的範圍與作用判斷，不因出現 some、may 就直接排除。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LR-Strategies.pdf 第12–13頁 Paradox；LR-cram-sheet.pdf 第1頁 Paradox；既有大綱 Comparison 的 Paradox 應用。Notes v2 第6頁僅列標題，v3 未收錄專節，故依已附 LSAT Lab 教材補齊，並保留現有家族編排。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261011-notes-v3-a2",
+    "updated_at": "2026-10-12T04:59:48.030Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-063",
+    "parent_id": "OL-005",
+    "level": 3,
+    "order": 4,
+    "title": "Parallel（平行論證）",
+    "summary": "抽象化前提到結論的骨架，再比對命題類型、強度與推理方式。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "題問常見 most similar to the reasoning、most closely parallels the reasoning、most closely resembles the reasoning。任務是找另一個推理形式相同的論證；若明說 flawed／erroneous，另見「平行缺陷」。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 配對的是前提如何支持結論。人物、主題、名詞及句子排列順序可以不同；題材相似或結論同樣合理，都不足以構成平行。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 保留命題類型與強度：條件、量詞、比較、因果、規範判斷或事實，不能任意互換。另核對 and／or、否定位置、數量範圍，以及結論是必然、可能還是建議。"
+      },
+      {
+        "type": "p",
+        "text": "R3 數量與可能性分開核對：most 表示比例，probably 表示可能性；some 表示至少有一個，不能只因用語看似不絕對就視為相同。邏輯等價的改寫仍可匹配。"
+      },
+      {
+        "type": "p",
+        "text": "S1 抽掉主題，把題文寫成「這些前提 → 這個結論」的骨架。遇到條件或量詞再畫圖；翻譯與串接沿用「推理結構 → 條件」，一般論證可用一句抽象敘述。",
+        "label": "步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 先掃選項結論的類型、範圍與強度，再查前提及連接方式。找到確定且無法用等價改寫消除的不匹配，就先排除，不必把五個選項都完整重畫。"
+      },
+      {
+        "type": "p",
+        "text": "S3 對剩餘選項逐一對應前提與結論，確認推理動作及有效性一致。不能只因兩個論證都有效，就認定它們使用同一種推理。"
+      },
+      {
+        "type": "p",
+        "text": "T1 前提或結論錯配（Wrong Premise／Wrong Conclusion）：把全稱換成部分、把事實換成建議，或把可能推成必然，導致推理骨架改變。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 有效性或推理方式不同（Wrong Validity／Wrong Reasoning）：一個能由前提推出結論，另一個仍缺條件；或雖同樣有效，推導方式不同。先看原論證，不能預設一般 Parallel 必然有效。"
+      },
+      {
+        "type": "p",
+        "text": "T3 表面配對：沿用題文名詞、句子數或敘述順序，卻改變支持關係。比對論證成分的用途，不要求逐句照原順序出現。"
+      },
+      {
+        "type": "p",
+        "text": "教材條件例可抽象為：P → Q；Q →（R 或 S）；因此，非 R →（非 P 或 S）。比對時保留否定與「或」的關係，或先改寫成等價形式；不同名詞仍可對應同一骨架。",
+        "label": "例子"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab_Notes_v3.pdf 第10頁 Parallel、命題類型與強度、PT71 S3 Q24 解析。以既有條件及量詞規則區分數量與可能性，整理成配對程序；不照抄教材將 most 與 probably 並列的速記分組。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261011-notes-v3-a3",
+    "updated_at": "2026-10-12T04:59:48.039Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-064",
+    "parent_id": "OL-005",
+    "level": 3,
+    "order": 5,
+    "title": "Parallel Flaw（平行缺陷）",
+    "summary": "先診斷原論證的錯誤，再比對選項是否以相同結構重犯該錯誤。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "題問常見 most similar to the flawed reasoning、most parallels the erroneous reasoning、most closely resembles the flawed argument。先找原論證的錯誤，再選以相同方式犯錯的另一個論證。",
+        "label": "辨識"
+      },
+      {
+        "type": "p",
+        "text": "R1 同屬「因果錯誤」或「必要與充分混淆」只是線索；還須核對前提、結論及錯誤發生的那一步是否對應。主題相同、都不合理或缺陷名稱相同，仍可能不平行。",
+        "label": "規則"
+      },
+      {
+        "type": "p",
+        "text": "R2 缺陷判準沿用「假設家族 → 缺陷」，結構對應沿用「配對家族 → 平行論證」。Flaw 選描述原論證漏洞的敘述；Parallel Flaw 選重犯同一錯誤的論證。"
+      },
+      {
+        "type": "p",
+        "text": "S1 用一句話指出原論證的錯誤，例如「把必要條件當成充分條件」，再標出它從哪個已知命題跳到哪個結論。",
+        "label": "步驟"
+      },
+      {
+        "type": "p",
+        "text": "S2 保留造成錯誤的條件方向、否定、量詞、範圍與結論強度，對應選項的前提及結論；常見缺陷清單回查「假設家族 → 缺陷」，不另背一份。"
+      },
+      {
+        "type": "p",
+        "text": "S3 對仍有競爭力的選項說明「它也從這個理由，錯誤地推出那個結論」。若它推理有效，或錯在另一個關係，就不能匹配。"
+      },
+      {
+        "type": "p",
+        "text": "T1 不同缺陷（Wrong Flaw）：題文是由結果倒推條件，選項卻把「有資格／可以做」當成「實際會做」。兩者都有問題，但錯誤不同。",
+        "label": "陷阱"
+      },
+      {
+        "type": "p",
+        "text": "T2 前提、結論或有效性錯配：選項補上題文欠缺的條件，或改變量詞與主張強度，已不再重現原來的錯誤。其餘配對誘答見「平行論證」。"
+      },
+      {
+        "type": "p",
+        "text": "教材例的錯誤形式是 P → Q、Q，因此 P；例如由轉機航班延誤，倒推原航班延誤。另一種「滿足年資 → 可以參加；已滿足年資，因此實際參加」則把可能或資格當成實際行為，不能只因兩者都錯就配在一起。",
+        "label": "例子"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "LSATLab_Notes_v3.pdf 第11–12頁 Parallel Flaw、與 Flaw／Parallel 的分工、PT65 S4 Q17 解析；既有大綱 Flaw 與 Conditional。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261011-notes-v3-a4",
+    "updated_at": "2026-10-12T04:59:48.049Z",
     "updated_by": "tutor"
   }
 ]
