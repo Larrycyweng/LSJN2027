@@ -25,32 +25,27 @@
     "level": 2,
     "order": 1,
     "title": "LR Overview（總覽）",
-    "summary": "先讀題問確認任務，再依題文結構與答案要求作答。",
+    "summary": "先讀題問(Question Stem)確認任務。",
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "三大家族：Assumption 64%；Inference 24%；Match（原稱 Function）19%。"
+        "text": "規則: R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。"
       },
       {
         "type": "p",
-        "label": "題號與難度",
-        "text": "Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
+        "text": "例子: 藍車最快 → 該買藍車；假設是「最快就該買」。"
       },
       {
         "type": "p",
-        "text": "R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。",
-        "label": "規則"
+        "text": "步驟: S1 先讀題問確認任務，再讀題文；題型辨識以完整問句為準。"
       },
       {
         "type": "p",
-        "text": "藍車最快 → 該買藍車；假設是「最快就該買」。",
-        "label": "例子"
+        "text": "教材統計: 三大家族：Assumption 64%；Inference 24%；Match（Function）19%。"
       },
       {
         "type": "p",
-        "text": "S1 先讀題問確認任務，再讀題文；題型辨識以完整問句為準。",
-        "label": "步驟"
+        "text": "題號與難度: Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
       }
     ],
     "source_refs": [
@@ -73,10 +68,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-11",
@@ -118,10 +117,113 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o2"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "LR Overview（總覽）",
+          "summary": "先讀題問確認任務，再依題文結構與答案要求作答。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "三大家族：Assumption 64%；Inference 24%；Match（原稱 Function）19%。"
+            },
+            {
+              "type": "p",
+              "label": "題號與難度",
+              "text": "Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
+            },
+            {
+              "type": "p",
+              "text": "R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "藍車最快 → 該買藍車；假設是「最快就該買」。",
+              "label": "例子"
+            },
+            {
+              "type": "p",
+              "text": "S1 先讀題問確認任務，再讀題文；題型辨識以完整問句為準。",
+              "label": "步驟"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "LR Overview（總覽）",
+          "summary": "先讀Qst Stem確認任務，再依題文結構與答案要求作答。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。"
+            },
+            {
+              "type": "p",
+              "text": "例子: 藍車最快 → 該買藍車；假設是「最快就該買」。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 先讀題問確認任務，再讀題文；題型辨識以完整問句為準。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 三大家族：Assumption 64%；Inference 24%；Match（Function）19%。"
+            },
+            {
+              "type": "p",
+              "text": "題號與難度: Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "LR Overview（總覽）",
+          "summary": "先讀Question Stem確認任務。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 證據（Evidence）透過假設（Assumption）支持結論（Conclusion）。"
+            },
+            {
+              "type": "p",
+              "text": "例子: 藍車最快 → 該買藍車；假設是「最快就該買」。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 先讀題問確認任務，再讀題文；題型辨識以完整問句為準。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 三大家族：Assumption 64%；Inference 24%；Match（Function）19%。"
+            },
+            {
+              "type": "p",
+              "text": "題號與難度: Q1–Q8：直覺可解；Q9–Q16：誘答為主；Q17–Q25：推理結構加誘答。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T04:52:57.657Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-14T03:46:11.159Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-003",
@@ -2020,21 +2122,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "R1 找出結論整句，保留限定語與同位語；加強或削弱的作用可能落在這些限制，而不只在主詞。",
-        "label": "規則"
-      },
-      {
-        "type": "p",
-        "text": "S1 找結論與證據：以關鍵字定位，再由觀點歸屬與支持關係確認。反駁題文依「找結論與證據 → 反駁」分清雙方論證。",
-        "label": "步驟"
-      },
-      {
-        "type": "p",
-        "text": "S2 依題問使用論證結構：辨認主結論、句子角色或論證方法時，忠實對應題文；需要評估推理時，再用「質疑結論」檢查支持關係。"
-      },
-      {
-        "type": "p",
-        "text": "條件、比較與因果關係的判讀，見「推理結構」各子節。"
+        "text": "規則: R1 找出結論整句。保留限定語與同位語：Strengthen或Weaken的作用可能落在這些限制，而不只在主詞。"
       }
     ],
     "source_refs": [
@@ -2081,6 +2169,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
@@ -2127,9 +2219,53 @@
         "date": "2026-10-11",
         "by": "user",
         "summary": "接受提案 01-20261011-consistency-o6"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "先辨觀點與支持關係；需要評估時，再檢查理由對結論的支持。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 找出結論整句，保留限定語與同位語；加強或削弱的作用可能落在這些限制，而不只在主詞。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "S1 找結論與證據：以關鍵字定位，再由觀點歸屬與支持關係確認。反駁題文依「找結論與證據 → 反駁」分清雙方論證。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 依題問使用論證結構：辨認主結論、句子角色或論證方法時，忠實對應題文；需要評估推理時，再用「質疑結論」檢查支持關係。"
+            },
+            {
+              "type": "p",
+              "text": "條件、比較與因果關係的判讀，見「推理結構」各子節。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Argument Structure（論證結構）",
+          "summary": "先辨觀點與支持關係；需要評估時，再檢查理由對結論的支持。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 找出結論整句，保留限定語與同位語；加強或削弱的作用可能落在這些限制，而不只在主詞。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T04:53:23.907Z",
+    "updated_at": "2026-10-14T03:50:55.215Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -2139,25 +2275,23 @@
     "level": 3,
     "order": 1,
     "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-    "summary": "先辨觀點歸屬，再把前提、中間結論與主結論的支持關係連起來。",
+    "summary": "先辨識題文的主結論，若非論證題則無結論。",
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
+        "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。Role名稱描述的是一句話在論證中做什麼。"
       },
       {
         "type": "p",
-        "label": "角色判準",
-        "text": "主結論（Main Conclusion）：作者用整段論證要證明的最終主張。"
+        "text": "角色判準: 主結論（Main Conclusion）：整段論證的最終主張。"
       },
       {
         "type": "p",
-        "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持後續結論。它同時接受支持、提供支持。"
+        "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持最終主張。"
       },
       {
         "type": "p",
-        "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。角色取決於用途，不取決於句子是否包含意見。"
+        "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。"
       },
       {
         "type": "p",
@@ -2177,8 +2311,7 @@
       },
       {
         "type": "p",
-        "label": "關鍵字",
-        "text": "用詞語找候選角色，再以支持關係確認。"
+        "text": "關鍵字: 用詞語找候選角色，再以支持關係確認。"
       },
       {
         "type": "ul",
@@ -2187,13 +2320,12 @@
           "支持：for、after all、because、since（FABS）。",
           "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
           "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
-          "觀點歸屬：most people think、some biologists say，表示某個主張屬於誰。"
+          "觀點歸屬：most people think、say，表示某個主張屬於誰。"
         ]
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+        "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認/反駁什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
       },
       {
         "type": "p",
@@ -2201,20 +2333,15 @@
       },
       {
         "type": "p",
-        "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「假設家族 → 必要假設與充分假設」。"
+        "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。"
       },
       {
         "type": "p",
-        "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由；不要因為後面還有句子，就把最後一句當成結論。"
+        "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由。"
       },
       {
         "type": "p",
-        "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。反駁的判讀見「論證結構 → 找結論與證據 → 反駁」。"
-      },
-      {
-        "type": "p",
-        "label": "推理型態",
-        "text": "常見推理型態：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。先辨作者提出何種主張，再依題問決定如何分析。"
+        "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
       }
     ],
     "source_refs": [
@@ -2269,10 +2396,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-09-18",
@@ -3104,10 +3235,335 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o7"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨觀點歸屬，再把前提、中間結論與主結論的支持關係連起來。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
+            },
+            {
+              "type": "p",
+              "label": "角色判準",
+              "text": "主結論（Main Conclusion）：作者用整段論證要證明的最終主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持後續結論。它同時接受支持、提供支持。"
+            },
+            {
+              "type": "p",
+              "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。角色取決於用途，不取決於句子是否包含意見。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。"
+            },
+            {
+              "type": "p",
+              "text": "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。"
+            },
+            {
+              "type": "p",
+              "text": "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。"
+            },
+            {
+              "type": "p",
+              "text": "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+            },
+            {
+              "type": "p",
+              "label": "關鍵字",
+              "text": "用詞語找候選角色，再以支持關係確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+                "支持：for、after all、because、since（FABS）。",
+                "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+                "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+                "觀點歸屬：most people think、some biologists say，表示某個主張屬於誰。"
+              ]
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「假設家族 → 必要假設與充分假設」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由；不要因為後面還有句子，就把最後一句當成結論。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。反駁的判讀見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "label": "推理型態",
+              "text": "常見推理型態：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。先辨作者提出何種主張，再依題問決定如何分析。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨Opinion歸屬，再把Premise、Intermediate Conclusion與Main Conclusoin的論理關係連起來。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
+            },
+            {
+              "type": "p",
+              "text": "角色判準: 主結論（Main Conclusion）：作者用整段論證要證明的最終主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持後續結論。它同時接受支持、提供支持。"
+            },
+            {
+              "type": "p",
+              "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。角色取決於用途，不取決於句子是否包含意見。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。"
+            },
+            {
+              "type": "p",
+              "text": "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。"
+            },
+            {
+              "type": "p",
+              "text": "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。"
+            },
+            {
+              "type": "p",
+              "text": "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+            },
+            {
+              "type": "p",
+              "text": "關鍵字: 用詞語找候選角色，再以支持關係確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+                "支持：for、after all、because、since（FABS）。",
+                "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+                "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+                "觀點歸屬：most people think、some biologists say，表示某個主張屬於誰。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「假設家族 → 必要假設與充分假設」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由；不要因為後面還有句子，就把最後一句當成結論。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。反駁的判讀見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "推理型態: 常見推理型態：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。先辨作者提出何種主張，再依題問決定如何分析。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨Opinion歸屬，再把Premise、Intermediate Conclusion與Main Conclusoin的論理關係連起來。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
+            },
+            {
+              "type": "p",
+              "text": "角色判準: 主結論（Main Conclusion）：整段論證的最終主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持最終主張。它同時接受支持、提供支持。"
+            },
+            {
+              "type": "p",
+              "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。角色取決於用途，不取決於句子是否包含意見。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。"
+            },
+            {
+              "type": "p",
+              "text": "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。"
+            },
+            {
+              "type": "p",
+              "text": "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。"
+            },
+            {
+              "type": "p",
+              "text": "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+            },
+            {
+              "type": "p",
+              "text": "關鍵字: 用詞語找候選角色，再以支持關係確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+                "支持：for、after all、because、since（FABS）。",
+                "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+                "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+                "觀點歸屬：most people think、some biologists say，表示某個主張屬於誰。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「假設家族 → 必要假設與充分假設」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由；不要因為後面還有句子，就把最後一句當成結論。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。反駁的判讀見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "推理型態: 常見推理型態：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。先辨作者提出何種主張，再依題問決定如何分析。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨Opinion歸屬，再把Premise、Intermediate Conclusion與Main Conclusoin的論理關係連起來。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。角色名稱描述的是一句話在論證中做什麼。"
+            },
+            {
+              "type": "p",
+              "text": "角色判準: 主結論（Main Conclusion）：整段論證的最終主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持最終主張。"
+            },
+            {
+              "type": "p",
+              "text": "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。"
+            },
+            {
+              "type": "p",
+              "text": "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。"
+            },
+            {
+              "type": "p",
+              "text": "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。"
+            },
+            {
+              "type": "p",
+              "text": "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+            },
+            {
+              "type": "p",
+              "text": "關鍵字: 用詞語找候選角色，再以支持關係確認。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+                "支持：for、after all、because、since（FABS）。",
+                "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+                "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+                "觀點歸屬：most people think、say，表示某個主張屬於誰。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認/反駁什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。條件推論見「推理結構 → 條件」；補足推理的題型方法見「假設家族 → 必要假設與充分假設」。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T04:52:57.698Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-14T04:37:15.742Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-008",
@@ -3115,11 +3571,11 @@
     "level": 3,
     "order": 2,
     "title": "Skeptical of Conclusion（質疑結論）",
-    "summary": "以題文前提為起點，檢查理由與結論間的缺口及可能異議。",
+    "summary": "檢查理由與結論間的缺口（內部資訊）及可能異議（外部資訊）。",
     "blocks": [
       {
         "type": "p",
-        "text": "規則: R1 接受題文前提，再問它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假。"
+        "text": "規則: R1 即使前提為真，它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假(not false)。"
       },
       {
         "type": "p",
@@ -3131,7 +3587,7 @@
       },
       {
         "type": "p",
-        "text": "題型應用: 以上為評估論證的共用程序；NA、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
+        "text": "題型應用: 以上為評估論證的共用程序；Necessary Assumption、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
       }
     ],
     "source_refs": [
@@ -3190,293 +3646,15 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-23",
-        "by": "tutor",
-        "summary": "家教提案（待確認）",
-        "before": {
-          "title": "Skeptical of Conclusion（質疑結論）",
-          "summary": "即使證據為真，也可論證反結論。Flaw 題等於對造律師的異議。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R1 選項三種句式，門檻不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，不依賴即刪。Objections（fails to consider、ignores、overlooks）：只需該可能性存在且未被排除。Descriptions（concludes X on the basis of Y、infers）：只需準確描述論證做了什麼，不含指控。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
-                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
-                "Unproven v. Proven False：未獲證明即當作為假。",
-                "Sampling：樣本過小、不具代表性或自我選擇。",
-                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
-                "Part v. Whole：以部分推整體，或反之。",
-                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
-                "Circular：結論僅為前提的重述。",
-                "Internal Contradiction：論證自相矛盾。",
-                "Equivocation：同一關鍵詞前後用兩種意思。",
-                "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
-              "refs": [
-                "A-20260920-PT140-S1-Q18",
-                "A-20260921-PT140-S1-Q24",
-                "A-20260921-PT140-S1-Q21",
-                "A-20260918-PT141-S2-Q15"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-23",
-        "by": "user",
-        "summary": "接受提案 00-20260924-o108",
-        "before": {
-          "title": "Skeptical of Conclusion（質疑結論）",
-          "summary": "即使證據為真，也可論證反結論。Flaw 題等於對造律師的異議。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R1 選項三種句式，門檻不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，不依賴即刪。Objections（fails to consider、ignores、overlooks）：只需該可能性存在且未被排除。Descriptions（concludes X on the basis of Y、infers）：只需準確描述論證做了什麼，不含指控。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
-                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
-                "Unproven v. Proven False：未獲證明即當作為假。",
-                "Sampling：樣本過小、不具代表性或自我選擇。",
-                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
-                "Part v. Whole：以部分推整體，或反之。",
-                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
-                "Circular：結論僅為前提的重述。",
-                "Internal Contradiction：論證自相矛盾。",
-                "Equivocation：同一關鍵詞前後用兩種意思。",
-                "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
-              "refs": [
-                "A-20260920-PT140-S1-Q18",
-                "A-20260921-PT140-S1-Q24",
-                "A-20260921-PT140-S1-Q21",
-                "A-20260918-PT141-S2-Q15"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-28",
-        "by": "tutor",
-        "summary": "家教提案（待確認）",
-        "before": {
-          "title": "Skeptical of Conclusion（質疑結論）",
-          "summary": "即使前提為真，結論何處仍可能不成立？選項須描述準確，且指中這一步的漏洞。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
-                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
-                "Unproven v. Proven False：未獲證明即當作為假。",
-                "Sampling：樣本過小、不具代表性或自我選擇。",
-                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
-                "Part v. Whole：以部分推整體，或反之。",
-                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
-                "Circular：結論僅為前提的重述。",
-                "Internal Contradiction：論證自相矛盾。",
-                "Equivocation：同一關鍵詞前後用兩種意思。",
-                "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
-            },
-            {
-              "type": "p",
-              "label": "Steps",
-              "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
-              "refs": [
-                "A-20260920-PT140-S1-Q18",
-                "A-20260921-PT140-S1-Q24",
-                "A-20260921-PT140-S1-Q21",
-                "A-20260918-PT141-S2-Q15"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-28",
-        "by": "user",
-        "summary": "接受提案 W2-20260928-o5",
-        "before": {
-          "title": "Skeptical of Conclusion（質疑結論）",
-          "summary": "即使前提為真，結論何處仍可能不成立？選項須描述準確，且指中這一步的漏洞。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Flaw 題等於對造律師的異議：先問對方的推理哪裡站不住，再看選項用哪一種句式把它說出來。題幹：most vulnerable to criticism、flawed in that、questionable because。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R1 Flaw 正解須同時準確描述題文，並指出前提走到結論的邏輯問題。三種選項句式的檢驗不同。Assumptions（takes for granted、presumes）：論證須確實依賴該項，過強或超出範圍即刪。Objections（fails to consider、ignores、overlooks）：該可能性須未被排除且足以影響結論，太弱或無關即刪。Descriptions（concludes X on the basis of Y、infers）：抽象措辭須正確對應前提、結論與缺陷；不必明說「錯誤」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R2 十個常見缺陷，先認名稱再比對選項；一題的五個選項常各指一個名稱。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Necessary v. Sufficient：必要與充分互換（P → Q 推 ~P → ~Q）。",
-                "Causal：由相關或時序推因果，或未排除其他來源（OL-012）。",
-                "Unproven v. Proven False：未獲證明即當作為假。",
-                "Sampling：樣本過小、不具代表性或自我選擇。",
-                "Ad Hominem：攻擊提出者的動機或身分，而非主張本身。",
-                "Part v. Whole：以部分推整體，或反之。",
-                "Inappropriate Appeals：訴諸同情、多數意見或不適格專家。",
-                "Circular：結論僅為前提的重述。",
-                "Internal Contradiction：論證自相矛盾。",
-                "Equivocation：同一關鍵詞前後用兩種意思。",
-                "次要五項：Relative v. Absolute、False Choice、Irrelevant Response、Overlap Errors（集合重疊，SIG-005）、Intent v. Outcome。"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R3 診斷後的選項掃描。Necessary v. Sufficient 最常寫成含 enough、sufficient、necessary、required、only，或 if 與 only if 對比的句子，先掃這些；常見寫法：takes a condition that by itself is enough... to also be necessary；treats a necessary condition as a sufficient one；confuses if with only if。fails to consider 的選項仍要讀，但須核對它所指的可能性是否就是你診斷出的那一步，不符即刪。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R4 結論含 ensure、guarantee、will not 等絕對用語時，只要存在任何一個其他原因結論即倒，正解常為「還有別的原因」。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R5 缺陷名稱與題型名稱不可混用：Necessary v. Sufficient 是缺陷名稱，Sufficient Assumption 是題型名稱。"
-            },
-            {
-              "type": "p",
-              "label": "Steps",
-              "text": "S1 看 Flaw 選項先過兩關：它是否準確描述作者所做的推理？它是否指出從前提到結論的漏洞？再依假設、異議或描述句型檢查門檻。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S1 Q18：市長以抗議者受雇之動機駁斥主張，Ad Hominem；正解為 Description 句式。\nPT140 S1 Q24：P → Q 推 ~P → ~Q；正解為 Objections 句式且所指與診斷相符。\nPT140 S1 Q21：診斷正確但選項所指無關，正解以 enough 與 necessary 寫成；錯因為題幹任務未確認，SIG-013。\nPT141 S2 Q15：以反向因果之名選取反事實比較句；takes for granted 門檻未達，SIG-002。",
-              "refs": [
-                "A-20260920-PT140-S1-Q18",
-                "A-20260921-PT140-S1-Q24",
-                "A-20260921-PT140-S1-Q21",
-                "A-20260918-PT141-S2-Q15"
-              ]
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-29",
         "by": "tutor",
@@ -3861,9 +4039,117 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "以題文前提為起點，檢查理由與結論間的缺口及可能異議。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 接受題文前提，再問它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 指出推理缺口：前提與結論之間缺少哪個連結，或依賴什麼未交代的條件？"
+            },
+            {
+              "type": "p",
+              "text": "S2 檢查可能異議：即使前提為真，是否仍有反例、其他解釋或被忽略的差異，足以影響這個結論？"
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 以上為評估論證的共用程序；NA、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "檢查理由與結論間的缺口(內部)及可能異議(外部)。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 接受題文前提，再問它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假(not false)。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 指出推理缺口：前提與結論之間缺少哪個連結，或依賴什麼未交代的條件？"
+            },
+            {
+              "type": "p",
+              "text": "S2 檢查可能異議：即使前提為真，是否仍有反例、其他解釋或被忽略的差異，足以影響這個結論？"
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 以上為評估論證的共用程序；Necessary Assumption、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "檢查理由與結論間的缺口(內部)及可能異議(外部)。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 即使前提為真，它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假(not false)。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 指出推理缺口：前提與結論之間缺少哪個連結，或依賴什麼未交代的條件？"
+            },
+            {
+              "type": "p",
+              "text": "S2 檢查可能異議：即使前提為真，是否仍有反例、其他解釋或被忽略的差異，足以影響這個結論？"
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 以上為評估論證的共用程序；Necessary Assumption、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Skeptical of Conclusion（質疑結論）",
+          "summary": "檢查理由與結論間的缺口(內部資訊)及可能異議(外部資訊)。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 即使前提為真，它們是否足以支持作者所主張的結論及程度。理由不足，不等於結論已被證明為假(not false)。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 指出推理缺口：前提與結論之間缺少哪個連結，或依賴什麼未交代的條件？"
+            },
+            {
+              "type": "p",
+              "text": "S2 檢查可能異議：即使前提為真，是否仍有反例、其他解釋或被忽略的差異，足以影響這個結論？"
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 以上為評估論證的共用程序；Necessary Assumption、Flaw、Stength、Weaken 及 Evaluate 的答案要求，見「假設家族」相應子節。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T06:32:24.528Z",
+    "updated_at": "2026-10-14T05:10:39.536Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -10874,43 +11160,41 @@
     "blocks": [
       {
         "type": "p",
-        "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。",
-        "label": "辨識"
+        "text": "辨識: 反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。找Pivot關鍵詞: but、however、yet、nevertheless 。"
       },
       {
         "type": "p",
-        "text": "R1 Attribution 譯為「觀點歸屬」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。",
-        "label": "規則"
+        "text": "步驟: S1 Attribution:先問「這是誰的主張？」再看作者如何回應。同一主張可以是他人的結論。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
       },
       {
         "type": "p",
-        "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
+        "text": "S2 Pushback的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
       },
       {
         "type": "p",
-        "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
-      },
-      {
-        "type": "p",
-        "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。",
-        "label": "步驟"
-      },
-      {
-        "type": "p",
-        "text": "T1 需要評估反駁時，檢查是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再依「假設家族 → 缺陷」核對判準。",
-        "label": "陷阱"
-      },
-      {
-        "type": "p",
-        "text": "依題問使用反駁結構：",
-        "label": "題型應用"
+        "text": "陷阱: T1 需要評估反駁時，依「假設家族 → Flaw 缺陷」核對判準："
       },
       {
         "type": "ul",
         "items": [
-          "辨認或描述反駁：核對作者的結論、句子作用或回應方式，見「配對家族」的「主結論」「句子角色」「論證方法」。",
-          "評估反駁：以題問指定的論證為對象，避免誤評被反駁的一方。共用程序見「論證結構 → 質疑結論」，答案判準依各題型處理；必要假設的連結與防禦，見「假設家族 → 必要假設與充分假設」。",
-          "最受支持：選出題文支持的反駁結論，保留原有程度，見「推論家族 → 最受支持」。"
+          "攻擊提出者而非推理（Ad Hominem）",
+          "把未證明當成為假（Unproven v. Proven False）",
+          "回應不同問題（Irrelevant Response）",
+          "改變對方原主張（Straw Man）",
+          "提出其實與對方主張相容的異議（Compatible Objection）"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "題型應用: 依題問使用反駁結構："
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Main Conclusion：比對作者的反駁，保留程度與代名詞指涉。",
+          "Role：分清指定句子屬於誰，以及支持或反駁哪個主張。",
+          "Method：描述作者實際採用的回應，例如質疑假設、指出不利後果、提出其他解釋或指出被忽略的考量",
+          "Most Supported：選出題文支持的反駁結論，須保留原有程度。"
         ]
       }
     ],
@@ -10946,10 +11230,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-09-29",
@@ -11554,11 +11842,116 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o41"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。先問「這是誰的主張？」再看作者如何回應。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 Attribution 譯為「觀點歸屬」。X claims、many argue 表示某人或某群體提出觀點；may lead some to believe 表示某些人可能形成的看法。同一主張可以是他人的結論，也同時具有觀點歸屬標記。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 but、however、yet、nevertheless 是轉折線索；觀點歸屬本身不代表作者反對。須核對作者後續立場與支持關係，不能只靠訊號詞判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 保留反駁結論的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
+            },
+            {
+              "type": "p",
+              "text": "S1 分開標出他人的主張及理由、作者的回應及理由。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "T1 需要評估反駁時，檢查是否攻擊提出者而非推理（Ad Hominem）、把未證明當成為假（Unproven v. Proven False）、回應不同問題（Irrelevant Response）、改變對方原主張（Straw Man），或提出其實與對方主張相容的異議（Compatible Objection）。先說明實際錯在哪一步，再依「假設家族 → 缺陷」核對判準。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "依題問使用反駁結構：",
+              "label": "題型應用"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "辨認或描述反駁：核對作者的結論、句子作用或回應方式，見「配對家族」的「主結論」「句子角色」「論證方法」。",
+                "評估反駁：以題問指定的論證為對象，避免誤評被反駁的一方。共用程序見「論證結構 → 質疑結論」，答案判準依各題型處理；必要假設的連結與防禦，見「假設家族 → 必要假設與充分假設」。",
+                "最受支持：選出題文支持的反駁結論，保留原有程度，見「推論家族 → 最受支持」。"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Rebuttals（反駁）",
+          "summary": "先分清觀點歸屬，再找作者反駁的對象、理由及結論強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 反駁常依序出現觀點歸屬（Attribution）、轉折（Pivot）與反駁回應（Pushback）。找Pivot關鍵詞: but、however、yet、nevertheless 。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 Attribution:先問「這是誰的主張？」再看作者如何回應。同一主張可以是他人的結論。遇到 this、that、it，把實際指涉的主張代回，再用一句話表達作者究竟反駁什麼。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Pushback的強度：「對方結論為假」「對方可能誇大」「另一解釋較合理」「對方的理由不足以證明結論」並不相同。推翻理由，不等於證明結論為假。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 需要評估反駁時，檢查是否"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "攻擊提出者而非推理（Ad Hominem）",
+                "把未證明當成為假（Unproven v. Proven False）",
+                "回應不同問題（Irrelevant Response）",
+                "改變對方原主張（Straw Man）",
+                "提出其實與對方主張相容的異議（Compatible Objection）"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "先說明實際錯在哪一步，再依「假設家族 → Flaw 缺陷」核對判準。"
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 依題問使用反駁結構："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "辨認或描述反駁：核對作者的結論、句子作用或回應方式，見「配對家族」的「主結論」「句子角色」「論證方法」。",
+                "評估反駁：以題問指定的論證為對象，避免誤評被反駁的一方。共用程序見「論證結構 → 質疑結論」，答案判準依各題型處理；必要假設的連結與防禦，見「假設家族 → 必要假設與充分假設」。",
+                "最受支持：選出題文支持的反駁結論，保留原有程度，見「推論家族 → 最受支持」。"
+              ]
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20260929-o1",
-    "updated_at": "2026-10-12T04:52:57.831Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-14T05:04:58.843Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-042",
@@ -12858,13 +13251,11 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "題問出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
+        "text": "辨識: 題問出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 主結論是作者要證明的最終主張。前提提供支持它的理由；中間結論則先由其他前提推得，再被用來支持主結論。某句有理由支持，仍不足以判定它就是主結論，還要看它是否繼續支持另一個結論。"
+        "text": "規則: R1 主結論是作者要證明的最終主張。前提提供支持它的理由；中間結論則先由其他前提推得，再被用來支持主結論。某句有理由支持，仍不足以判定它就是主結論，還要看它是否繼續支持另一個結論。"
       },
       {
         "type": "p",
@@ -12876,8 +13267,7 @@
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
+        "text": "步驟: S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
       },
       {
         "type": "p",
@@ -12889,8 +13279,7 @@
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
+        "text": "陷阱: 前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
       },
       {
         "type": "p",
@@ -12914,24 +13303,7 @@
       },
       {
         "type": "p",
-        "label": "教材統計",
-        "text": "反駁（Rebuttals）39%：作者回應先前的主張，指出其結論或推理有問題。"
-      },
-      {
-        "type": "p",
-        "text": "語言線索（Language Cue）21%：透過結論詞、支持詞、轉折詞或意見詞協助定位結論，仍須核對支持關係。"
-      },
-      {
-        "type": "p",
-        "text": "建議（Recommendation）18%：作者主張應該或不應該採取某項行動。"
-      },
-      {
-        "type": "p",
-        "text": "預測（Prediction）12%：作者主張某件事將會或可能發生。"
-      },
-      {
-        "type": "p",
-        "text": "解釋（Explanation）9%：作者提出原因，用來說明某個現象。"
+        "text": "教材統計: 反駁（Rebuttals）39%；語言線索（Language Cue）21%；建議（Recommendation）18%；預測（Prediction）12%；解釋（Explanation）9%。"
       }
     ],
     "source_refs": [
@@ -12946,10 +13318,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-02",
@@ -13447,11 +13823,99 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o45"
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Main Conclusion（主結論）",
+          "summary": "找出作者要證明的最終主張，再核對選項是否忠實轉述。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題問出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 主結論是作者要證明的最終主張。前提提供支持它的理由；中間結論則先由其他前提推得，再被用來支持主結論。某句有理由支持，仍不足以判定它就是主結論，還要看它是否繼續支持另一個結論。"
+            },
+            {
+              "type": "p",
+              "text": "R2 正解可以換用同義詞或改變句式，但主張的意思、範圍、程度與觀點歸屬須相同。不能把「不太可能」改成「不可能」，也不能加入作者未提出的新主張。"
+            },
+            {
+              "type": "p",
+              "text": "R3 轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。完整方法見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "S2 把論證讀成「因為這些理由，所以作者主張……」。找出理由在支持哪個主張；若該主張又被用來支持另一個結論，就繼續追到主結論。結論可能在前、理由在後，不要直接選最後一句。"
+            },
+            {
+              "type": "p",
+              "text": "S3 先用自己的話說出主結論，再比對選項。遇到 this、that、it 等代名詞，先代回它指涉的內容。核對選項是否保留同一主張，並排除下列誘答。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。不要停在推理中的中途。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point，8%）：說的是作者回應或反對的他人主張，誤把他人的立場當成作者立場。"
+            },
+            {
+              "type": "p",
+              "text": "假設（Assumption，7%）：說的是作者沒有明說、但推理必須依賴的想法。即使作者需要這個假設，它也不是題文已提出的主結論。"
+            },
+            {
+              "type": "p",
+              "text": "缺乏支持（Unsupported，19%）：選項提出了題文未支持的主張；不能因為它看似合理，就當成作者的結論。"
+            },
+            {
+              "type": "p",
+              "text": "程度過強（Too Strong，11%）：主題雖相同，選項卻把作者的主張加強，例如把「可能」寫成「必然」。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "反駁（Rebuttals）39%：作者回應先前的主張，指出其結論或推理有問題。"
+            },
+            {
+              "type": "p",
+              "text": "語言線索（Language Cue）21%：透過結論詞、支持詞、轉折詞或意見詞協助定位結論，仍須核對支持關係。"
+            },
+            {
+              "type": "p",
+              "text": "建議（Recommendation）18%：作者主張應該或不應該採取某項行動。"
+            },
+            {
+              "type": "p",
+              "text": "預測（Prediction）12%：作者主張某件事將會或可能發生。"
+            },
+            {
+              "type": "p",
+              "text": "解釋（Explanation）9%：作者提出原因，用來說明某個現象。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20261001-o1",
-    "updated_at": "2026-10-12T04:52:57.860Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-14T05:16:58.526Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-046",
@@ -13463,13 +13927,11 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
+        "text": "辨識: 題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見「論證結構 → 找結論與證據」。"
+        "text": "規則: R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見「論證結構 → 找結論與證據」。"
       },
       {
         "type": "p",
@@ -13481,8 +13943,7 @@
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+        "text": "步驟: S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
       },
       {
         "type": "p",
@@ -13494,8 +13955,7 @@
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+        "text": "陷阱: T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
       },
       {
         "type": "p",
@@ -13511,13 +13971,11 @@
       },
       {
         "type": "p",
-        "label": "例子",
-        "text": "主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+        "text": "例子: 主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
       },
       {
         "type": "p",
-        "label": "教材統計",
-        "text": "主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+        "text": "教材統計: 主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
       }
     ],
     "source_refs": [
@@ -13528,10 +13986,14 @@
       {
         "type": "User Revision",
         "ref": "LSATLab Notes：Argument Structure／Role"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-04",
@@ -13877,10 +14339,84 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Role（句子角色）",
+          "summary": "指定句子扮演什麼角色？它支持或回應的究竟是哪個主張？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "題幹常出現describes the role、figures in the argument、functions in the argument。任務是描述指定句子在論證中的作用。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見「論證結構 → 找結論與證據」。"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項可以用功能描述取代角色名稱。evidence、example、illustration可描述提供支持的句子；supported premise、subsidiary conclusion可描述中間結論。須依指定句子的實際用途判斷。"
+            },
+            {
+              "type": "p",
+              "text": "R3 同一句話可能既支持作者的結論，也用來回應反方。先把雙方主張分開，再核對選項描述的是哪一種關係；不要只看到supports或opposes就選。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+            },
+            {
+              "type": "p",
+              "text": "S2 找到作者的主結論，再判斷指定句子是主結論、提供支持、提出反方主張或理由，還是僅交代背景。若它本身也有理由支持，檢查是否為中間結論。"
+            },
+            {
+              "type": "p",
+              "text": "S3 先用自己的話說「這句是……，用來支持／回應……」，再核對選項的角色、對象、方向與強度。若只是背景，就確認選項沒有替它加上推論作用。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+            },
+            {
+              "type": "p",
+              "text": "T2 方向相反（Opposite）：把支持寫成反對，或把作者用來反駁對方的內容，寫成支持對方。"
+            },
+            {
+              "type": "p",
+              "text": "T3 虛構論證成分或動作（Unsupported Ingredient）：選項加入題文沒有的用途，例如說作者提出某項證據後又將它否定，實際上作者一直在使用它。"
+            },
+            {
+              "type": "p",
+              "text": "T4 程度過強（Too Strong）：把「提供部分支持」說成「必不可少」或「足以證明」，或把「提出質疑」說成「已證明為假」。檢查題文是否支持這個強度。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯"
       }
     ],
     "client_request_id": "01-20261002-o11",
-    "updated_at": "2026-10-10T20:38:21.152Z",
+    "updated_at": "2026-10-14T05:17:41.950Z",
     "updated_by": "user"
   },
   {
@@ -16433,6 +16969,94 @@
     ],
     "client_request_id": "01-20261011-notes-v3-a4",
     "updated_at": "2026-10-12T06:27:01.481Z",
+    "updated_by": "user"
+  },
+  {
+    "section_id": "OL-065",
+    "parent_id": "OL-006",
+    "level": 3,
+    "order": 3,
+    "title": "Characterize Reasoning Method",
+    "summary": "辨明不同推理型態和方法。",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "規則：依型態檢查證據如何支持結論，特別在Parallel題型要辨明論述脈絡。"
+      },
+      {
+        "type": "p",
+        "text": "步驟：見「配對家族 → Method (Argument Structure)和Parallel」。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-10-13"
+      }
+    ],
+    "status": "草稿",
+    "protected": true,
+    "revisions": [
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Evaluate Reasoning Pattern",
+          "summary": "辨明不同推理型態，特別在Parallel題型要辨明論述脈絡。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識：建議（Recommendations）、假說（Hypotheses）、反駁（Rebuttals）、判斷（Judgments）、預測（Predictions）。依型態檢查證據如何支持結論。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Evaluate Reasoning Pattern",
+          "summary": "辨明不同推理型態和方法。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則：依型態檢查證據如何支持結論，特別在Parallel題型要辨明論述脈絡。"
+            },
+            {
+              "type": "p",
+              "text": "步驟：見「配對家族 → Method (Argument Structure)」。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Evaluate Reasoning Pattern",
+          "summary": "辨明不同推理型態和方法。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則：依型態檢查證據如何支持結論，特別在Parallel題型要辨明論述脈絡。"
+            },
+            {
+              "type": "p",
+              "text": "步驟：見「配對家族 → Method (Argument Structure)和Parallel」。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "by": "user",
+        "summary": "使用者編輯"
+      }
+    ],
+    "updated_at": "2026-10-14T05:43:02.387Z",
     "updated_by": "user"
   }
 ]
