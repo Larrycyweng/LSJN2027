@@ -796,5 +796,26 @@
     "client_request_id": "01-20261014-learning-time-s1",
     "created_at": "2026-10-15T05:57:32.275Z",
     "updated_at": "2026-10-15T05:57:32.275Z"
+  },
+  {
+    "session_id": "S-20261015-01",
+    "week_label": "第4週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab；專案對話",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "PT140 舊題4題重做與檢討",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "今日第一部分，共20分鐘。S3 Q10選C，正解A，信心未回報；使用者確認錯因為英文句意誤解，誤認完全控制的主體，不延伸成邏輯規則或加入筆記。S3 Q15選A、信心高，正確辨識由下位類別擴大至整個上位類別的缺陷。S3 Q20選B、信心高，答對。加做S3 Q21選A、信心高，答對。僅記錄學習，不更新大綱或知識卡片。",
+    "session_date": "2026-10-15",
+    "mode": "練習",
+    "effective_minutes": 20,
+    "client_request_id": "01-20261015-part1-s1",
+    "created_at": "2026-10-16T05:59:25.932Z",
+    "updated_at": "2026-10-16T05:59:25.932Z"
   }
 ]
