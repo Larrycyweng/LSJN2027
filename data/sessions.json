@@ -817,5 +817,26 @@
     "client_request_id": "01-20261015-part1-s1",
     "created_at": "2026-10-16T05:59:25.932Z",
     "updated_at": "2026-10-16T05:59:25.932Z"
+  },
+  {
+    "session_id": "S-20261016-01",
+    "week_label": "第4週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab — Big Picture Reading 影片及使用者截圖",
+    "lr_minutes": null,
+    "rc_minutes": 30,
+    "review_minutes": null,
+    "focus_skill": "RC：Big Picture Reading",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "觀看 Big Picture Reading 影片30分鐘。學習內容：首段辨識中心主題、初步組織框架及作者是否轉折；閱讀時區分主要觀點與支持細節，從例子及列舉中抓出所支持的大意；認識題問要求與段落功能的關係。影片例題 June 2007 RC P4 Q23 示範：第二段提出方法，末段指出其限制，構成 qualify a claim（限縮主張的適用範圍）。本次為影片學習，未回報獨立作答或閱讀練習，不據此判定已掌握。",
+    "session_date": "2026-10-16",
+    "mode": "觀念學習",
+    "effective_minutes": 30,
+    "client_request_id": "02-20261016-bigpicture-s1",
+    "created_at": "2026-10-17T06:29:30.569Z",
+    "updated_at": "2026-10-17T06:29:30.569Z"
   }
 ]
