@@ -3,17 +3,17 @@
     "pt_id": "June 2007",
     "first_exposure": "2026-09-21",
     "blind_review": "否",
-    "explanations_seen": "S3 Q13、S3 Q17、S1 Q11",
+    "explanations_seen": "S3 Q13、S3 Q17、S1 Q11、RC P4 Q23",
     "source": "LSAT Lab 影片",
     "exposure_status": "部分接觸",
-    "last_exposure": "2026-10-02",
-    "sections_seen": "S3 Q13、S3 Q17（影片例題，已見解析）；S1 Q11（Role影片例題，已見題文、選項及正解C標註）",
+    "last_exposure": "2026-10-16",
+    "sections_seen": "S3 Q13、S3 Q17（影片例題，已見解析）；S1 Q11（Role影片例題，已見題文、選項及正解C標註）；RC P4 Q23（Big Picture Reading影片例題，已見段落節錄、選項及解析；截圖未標示section編號）",
     "clean_pt_eligible": "否",
-    "notes": "PrepTest 編號待確認（June 2007 場次）。10/2新增S1 Q11影片例題接觸，未回報自行作答。",
+    "notes": "PrepTest 編號待確認（June 2007 場次）。10/2新增S1 Q11影片例題接觸，未回報自行作答。10/16新增RC P4 Q23影片解析接觸，未回報獨立作答，不建立作答成績。",
     "client_request_id": "W1-20260922b-x2",
     "created_at": "2026-09-23T06:47:00.528Z",
-    "updated_at": "2026-10-03T06:29:44.030Z",
-    "last_request_id": "01-20261002-x1"
+    "updated_at": "2026-10-17T06:29:30.578Z",
+    "last_request_id": "02-20261016-bigpicture-x1"
   },
   {
     "pt_id": "PT101",
