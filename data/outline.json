@@ -6760,7 +6760,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。題文閱讀允許二次。"
+        "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。"
       }
     ],
     "source_refs": [
@@ -6804,9 +6804,24 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "The RC Process（閱讀流程）",
+          "summary": "主動閱讀、找主旨、畫段落地圖、作答；只保留有助判題的資訊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。題文閱讀允許二次。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:19:01.154Z",
+    "updated_at": "2026-10-18T02:53:51.698Z",
     "updated_by": "user"
   },
   {
@@ -7264,7 +7279,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "步驟: S1 讀題幹，說出任務。"
+        "text": "步驟: S1 讀題幹，說出任務。See 「Question Stem Types」."
       },
       {
         "type": "p",
@@ -7276,7 +7291,7 @@
       },
       {
         "type": "p",
-        "text": "S4 選項讀完整句再判斷，五個選項全部看過再決定。"
+        "text": "S4 選項讀完整句再判斷。See 「Trap Answers」."
       }
     ],
     "source_refs": [
@@ -7433,9 +7448,36 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Step 4: Question Stem & Answer（作答）",
+          "summary": "先辨題幹任務與答案方向，再回文章核對動作、對象及限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "步驟: S1 讀題幹，說出任務。"
+            },
+            {
+              "type": "p",
+              "text": "S2 讀選項前先形成方向（不必每題完整預測）。"
+            },
+            {
+              "type": "p",
+              "text": "S3 依題目任務回文章核對。"
+            },
+            {
+              "type": "p",
+              "text": "S4 選項讀完整句再判斷，五個選項全部看過再決定。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:55:02.763Z",
+    "updated_at": "2026-10-18T02:56:05.963Z",
     "updated_by": "user"
   },
   {
