@@ -6594,28 +6594,17 @@
     "level": 1,
     "order": 2,
     "title": "RC",
-    "summary": "讀作者主張、他人觀點與段落功能；答案回文章核對。",
+    "summary": "難度隨語言複雜度與觀點數量上升。",
     "blocks": [
       {
         "type": "p",
-        "text": "S1 主動閱讀。",
-        "label": "步驟"
+        "label": "辨識",
+        "text": "語言複雜且多重觀點最難。"
       },
       {
         "type": "p",
-        "text": "S2 找主旨。"
-      },
-      {
-        "type": "p",
-        "text": "S3 畫文章地圖。"
-      },
-      {
-        "type": "p",
-        "text": "S4 作答。"
-      },
-      {
-        "type": "p",
-        "text": "四步方法見「閱讀流程」各子節；選項判準見「閱讀理解 → 誘答」。"
+        "label": "題型",
+        "text": "Inference (78%), Purpose (17%), Assumption (5%)"
       }
     ],
     "source_refs": [
@@ -6634,12 +6623,49 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.102Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o114",
+        "before": {
+          "title": "RC",
+          "summary": "讀作者主張、他人觀點與段落功能；答案回文章核對。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "S1 主動閱讀。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 找主旨。"
+            },
+            {
+              "type": "p",
+              "text": "S3 畫文章地圖。"
+            },
+            {
+              "type": "p",
+              "text": "S4 作答。"
+            },
+            {
+              "type": "p",
+              "text": "四步方法見「閱讀流程」各子節；選項判準見「閱讀理解 → 誘答」。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.625Z",
     "updated_by": "tutor"
   },
   {
@@ -6648,17 +6674,11 @@
     "level": 2,
     "order": 1,
     "title": "RC Overview（總覽）",
-    "summary": "先讀全文，抓作者立場與段落功能；比較文章分別抓兩篇主旨。",
+    "summary": "Big Picture Reading (抓作者立場與段落功能)；Question Stem Types; Trap Answers。",
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "難度隨語言複雜度與觀點數量上升：語言簡單且單一觀點最易；語言複雜且多重觀點最難。"
-      },
-      {
-        "type": "p",
-        "label": "步驟",
-        "text": "S1 先讀完整篇、畫文章地圖，再作答。"
+        "text": "Big Picture Reading 對應 Step 1–3；Question Stem Awareness 與 Answer Choice Analysis 對應 Step 4。Trap Answers 集中整理選項判斷中的誘答。"
       }
     ],
     "source_refs": [
@@ -6677,12 +6697,38 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-01T04:49:46.103Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o115",
+        "before": {
+          "title": "RC Overview（總覽）",
+          "summary": "先讀全文，抓作者立場與段落功能；比較文章分別抓兩篇主旨。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "難度隨語言複雜度與觀點數量上升：語言簡單且單一觀點最易；語言複雜且多重觀點最難。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 先讀完整篇、畫文章地圖，再作答。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.642Z",
     "updated_by": "tutor"
   },
   {
@@ -6692,17 +6738,37 @@
     "order": 2,
     "title": "The RC Process（閱讀流程）",
     "summary": "主動閱讀、找主旨、畫段落地圖、作答；只保留有助判題的資訊。",
-    "blocks": [],
+    "blocks": [
+      {
+        "type": "p",
+        "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。四個 Step 是工作順序，不要求分成四次閱讀。"
+      }
+    ],
     "source_refs": [
       {
         "type": "LSATLab Notes",
         "ref": "§The RC Process"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-09-24T04:53:11.067Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o116",
+        "before": {
+          "title": "The RC Process（閱讀流程）",
+          "summary": "主動閱讀、找主旨、畫段落地圖、作答；只保留有助判題的資訊。",
+          "blocks": []
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.655Z",
     "updated_by": "tutor"
   },
   {
@@ -6710,26 +6776,30 @@
     "parent_id": "OL-016",
     "level": 3,
     "order": 1,
-    "title": "Step 1: Active Reading（主動閱讀）",
-    "summary": "首段掌握主題與初步框架，隨後文修正預期；連接各段而不迷失於細節。",
+    "title": "Step 1: Active Reading / Finding Framework（主動閱讀）",
+    "summary": "掌握全文Framework。",
     "blocks": [
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 閱讀時依前文預測接下來需要的解釋、證據或回應，並隨後文修正；初步組織框架用來理解文章，不強迫每篇符合固定模式。"
-      },
-      {
-        "type": "p",
-        "text": "R2 長句先抓主句，再辨認修飾部分的作用。例如 by V-ing 可交代手段，despite、in spite of、although 可引入讓步；while 的作用依上下文判斷。信念層（believe、think、regard、seem）與事實層（is、actually）並存不必然構成矛盾。"
+        "label": "辨識",
+        "text": "全文框架可包括：Explanation、Defend against Criticism、Illustrate Generalization、Highlight Noteworthy、Challenge a position、Present a Debate、Problem/ Solution、Old/ New。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 首段：文章在談什麼？目前呈現什麼問題或觀點？作者是否已出現轉折或表態？尚未明朗的部分留待後文確認。"
+        "text": "S1 首段任務: (1)找出文章主題（非必然作者主旨）; (2)認出全文框架; (3) 找出作者主旨。"
       },
       {
         "type": "p",
-        "text": "S2 續讀：新段如何承接前文？它是在解釋、支持、反駁，還是指出限制？組織框架與段落功能見「閱讀流程 → 文章地圖」。"
+        "text": "S2 以框架預測文章走向，作為主動閱讀。"
+      },
+      {
+        "type": "p",
+        "text": "(1) Connect; (2) Anticipate where the passage is going."
+      },
+      {
+        "type": "p",
+        "text": "S3 續讀時把新內容連回前文，追蹤框架需要的資訊。例如 Present a Debate 要追蹤各方立場與作者如何處理爭論；Problem/ Solution 要追蹤問題、解法及作者的評價。依後文確認或修正 Framework。"
       }
     ],
     "source_refs": [
@@ -6752,6 +6822,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-16：依 Big Picture Reading 影片截圖整合既有主動閱讀內容。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
@@ -6776,9 +6850,38 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o117",
+        "before": {
+          "title": "Step 1: Active Reading（主動閱讀）",
+          "summary": "首段掌握主題與初步框架，隨後文修正預期；連接各段而不迷失於細節。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 閱讀時依前文預測接下來需要的解釋、證據或回應，並隨後文修正；初步組織框架用來理解文章，不強迫每篇符合固定模式。"
+            },
+            {
+              "type": "p",
+              "text": "R2 長句先抓主句，再辨認修飾部分的作用。例如 by V-ing 可交代手段，despite、in spite of、although 可引入讓步；while 的作用依上下文判斷。信念層（believe、think、regard、seem）與事實層（is、actually）並存不必然構成矛盾。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 首段：文章在談什麼？目前呈現什麼問題或觀點？作者是否已出現轉折或表態？尚未明朗的部分留待後文確認。"
+            },
+            {
+              "type": "p",
+              "text": "S2 續讀：新段如何承接前文？它是在解釋、支持、反駁，還是指出限制？組織框架與段落功能見「閱讀流程 → 文章地圖」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-17T06:34:48.058Z",
+    "updated_at": "2026-10-18T01:14:51.663Z",
     "updated_by": "tutor"
   },
   {
@@ -6786,30 +6889,45 @@
     "parent_id": "OL-016",
     "level": 3,
     "order": 2,
-    "title": "Step 2: Main Point（主旨）",
-    "summary": "抓出全文主要傳達的核心意思，區分主要觀點與支持細節，並保留作者的限定。",
+    "title": "Step 2: Main Point/Conclusion（主旨）",
+    "summary": "找作者的觀點，方法同Main Conclusion。",
     "blocks": [
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 主旨是全文主要傳達的核心意思。論說型文章通常是作者的主要主張；描述或解說型文章則概括作者主要介紹或解釋的內容。只說出主題，尚未完整表達主旨。"
+        "text": "R1 位置只是線索，不是定義。主旨是作者自己的主張，全文其餘部分為它服務；可以帶限定語。"
       },
       {
         "type": "p",
-        "text": "R2 主旨的位置與語氣都是線索，不能單獨決定其層級。帶有條件或保留的句子也可以是主旨；概括時須保留影響意思的限定。"
-      },
-      {
-        "type": "p",
-        "text": "R3 轉折與呼應前文的語句可提示主要觀點；例子、列舉及補充說明常提供支持。提示詞只協助辨認，實際功能仍須由前後文確認。"
+        "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；語氣不決定層級。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 讀到例子或列舉時，問「這些內容共同說明或支持什麼？」用一句話抓出大意，避免以單一細節代替主要觀點。"
+        "text": "S1 Big Idea vs. Support: 問每一段在support 誰。"
       },
       {
         "type": "p",
-        "text": "S2 用一句話概括全文，再檢查各段如何介紹、支持、對照或限制這個核心意思。若只涵蓋局部內容，需重新調整；不以支持它的段落數量直接判定主旨。"
+        "text": "S2 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
+      },
+      {
+        "type": "p",
+        "label": "位置線索",
+        "text": "常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
+      },
+      {
+        "type": "p",
+        "label": "句子判讀",
+        "text": "句中出現 by V-ing、in spite of、despite、while、although 時，先切出主句，再標手段與讓步，分段讀。"
+      },
+      {
+        "type": "p",
+        "label": "觀點歸屬",
+        "text": "先區分：觀點層（believe、think、regard、seem）與事實層（is、actually）並存不構成矛盾。"
+      },
+      {
+        "type": "p",
+        "text": "此處比較的是「某人相信什麼」與「實際情況」，須先確認命題與觀點歸屬；例如某人相信 P，與實際上非 P，可以同時成立。"
       }
     ],
     "source_refs": [
@@ -6836,6 +6954,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-16：依 Big Picture Reading 影片截圖補充主要觀點與支持細節，統一論說型及描述型文章的主旨定義。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
@@ -6865,9 +6987,42 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o118",
+        "before": {
+          "title": "Step 2: Main Point（主旨）",
+          "summary": "抓出全文主要傳達的核心意思，區分主要觀點與支持細節，並保留作者的限定。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 主旨是全文主要傳達的核心意思。論說型文章通常是作者的主要主張；描述或解說型文章則概括作者主要介紹或解釋的內容。只說出主題，尚未完整表達主旨。"
+            },
+            {
+              "type": "p",
+              "text": "R2 主旨的位置與語氣都是線索，不能單獨決定其層級。帶有條件或保留的句子也可以是主旨；概括時須保留影響意思的限定。"
+            },
+            {
+              "type": "p",
+              "text": "R3 轉折與呼應前文的語句可提示主要觀點；例子、列舉及補充說明常提供支持。提示詞只協助辨認，實際功能仍須由前後文確認。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 讀到例子或列舉時，問「這些內容共同說明或支持什麼？」用一句話抓出大意，避免以單一細節代替主要觀點。"
+            },
+            {
+              "type": "p",
+              "text": "S2 用一句話概括全文，再檢查各段如何介紹、支持、對照或限制這個核心意思。若只涵蓋局部內容，需重新調整；不以支持它的段落數量直接判定主旨。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-17T06:34:48.067Z",
+    "updated_at": "2026-10-18T01:14:51.674Z",
     "updated_by": "tutor"
   },
   {
@@ -6875,17 +7030,18 @@
     "parent_id": "OL-016",
     "level": 3,
     "order": 3,
-    "title": "Step 3: Passage Map（文章地圖）",
-    "summary": "用全文框架掌握組織，再標出各段功能與觀點歸屬。",
+    "title": "Step 3: Passage Map/Function（文章地圖）",
+    "summary": "每段用一個功能標籤，並確認觀點屬於作者還是他人。",
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "全文框架可包括：解釋疑問、回應批評、以例子說明一般概念、介紹值得注意的現象、挑戰某立場、問題與解決方案、呈現爭論、新舊觀點對照。"
+        "label": "方法連接",
+        "text": "段落 purpose 沿用 LR 的 Function 分析：用 Role 判斷指定內容的作用，用 Method 理解作者如何組織論述。既有方法見 LR 的 Match Family。"
       },
       {
         "type": "p",
-        "text": "既有段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。全文框架描述各段如何組合；段落標籤描述該段在其中做什麼。"
+        "label": "辨識",
+        "text": "七個段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。"
       },
       {
         "type": "p",
@@ -6899,11 +7055,20 @@
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 確認觀點歸屬：誰提出這個看法，作者如何回應？以歸屬語、指代及前後文追蹤；轉折詞或評價詞是線索，不單憑一個詞認定說話者已改變。"
+        "text": "S1 Focus on the purpose of each paragraph to avoid getting bogged down in details."
       },
       {
         "type": "p",
-        "text": "S2 串起各段功能，確認全文框架。例如「提出問題 → 介紹解法 → 評估解法限制」；後段指出限制時，地圖應保留這個變化。"
+        "text": "S2 How the rest of the passage combine and lead to the author’s main point. 串起各段功能，確認或修正全文框架與主旨。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Callbacks：遇到回指前文的詞句，找回所指的觀點或內容，確認本段如何承接它。"
+      },
+      {
+        "type": "p",
+        "label": "反駁示例結構",
+        "text": "反方觀點 → 反方支持 → 作者反對反方的證據 → 作者主旨。"
       }
     ],
     "source_refs": [
@@ -6926,6 +7091,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-16：依 Big Picture Reading 影片截圖，將組織框架整合至既有文章地圖小節。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
@@ -6960,9 +7129,47 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o119",
+        "before": {
+          "title": "Step 3: Passage Map（文章地圖）",
+          "summary": "用全文框架掌握組織，再標出各段功能與觀點歸屬。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "全文框架可包括：解釋疑問、回應批評、以例子說明一般概念、介紹值得注意的現象、挑戰某立場、問題與解決方案、呈現爭論、新舊觀點對照。"
+            },
+            {
+              "type": "p",
+              "text": "既有段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。全文框架描述各段如何組合；段落標籤描述該段在其中做什麼。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 依段落的主要作用選標籤。SUPPORT 提供支持某觀點的事實、機制或例子；EVAL 衡量某觀點或方法。報導與評價並存時，看哪個作用主導該段；必要時簡記其轉折。"
+            },
+            {
+              "type": "p",
+              "text": "R2 地圖通常每段用一個簡短功能描述即可，不逐句摘錄。標籤不足以表達關係時，直接寫出「提出方法」「指出方法限制」等具體作用。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 確認觀點歸屬：誰提出這個看法，作者如何回應？以歸屬語、指代及前後文追蹤；轉折詞或評價詞是線索，不單憑一個詞認定說話者已改變。"
+            },
+            {
+              "type": "p",
+              "text": "S2 串起各段功能，確認全文框架。例如「提出問題 → 介紹解法 → 評估解法限制」；後段指出限制時，地圖應保留這個變化。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-17T06:34:48.078Z",
+    "updated_at": "2026-10-18T01:14:51.685Z",
     "updated_by": "tutor"
   },
   {
@@ -6970,18 +7177,13 @@
     "parent_id": "OL-016",
     "level": 3,
     "order": 4,
-    "title": "Step 4: Questions（作答）",
+    "title": "Step 4: Question Stem & Answer（作答）",
     "summary": "先辨題幹任務與答案方向，再回文章核對動作、對象及限定語。",
     "blocks": [
       {
         "type": "p",
-        "text": "R1 依題目需要使用以下步驟，不必每題完整預測。",
-        "label": "規則"
-      },
-      {
-        "type": "p",
-        "text": "S1 讀題幹，說出任務。",
-        "label": "步驟"
+        "label": "步驟",
+        "text": "S1 讀題幹，說出任務。"
       },
       {
         "type": "p",
@@ -6989,11 +7191,11 @@
       },
       {
         "type": "p",
-        "text": "S3 Function 與 Attitude 題先核對選項動詞：文章沒做那個動作即刪。"
+        "text": "S3 讀完整命題：誰、做了什麼、範圍、限定語。"
       },
       {
         "type": "p",
-        "text": "S4 讀完整命題：誰、做了什麼、範圍、限定語。"
+        "text": "S4 依題目任務回文章核對；依據可為多句整合。選項即使提到文章中的內容，也須回答本題所問。"
       },
       {
         "type": "p",
@@ -7001,16 +7203,8 @@
       },
       {
         "type": "p",
-        "text": "S6 依據可為多句整合；只有在找不到文章依據時才刪。"
-      },
-      {
-        "type": "p",
-        "text": "T1 較短或較弱的選項不自動優先。",
-        "label": "陷阱"
-      },
-      {
-        "type": "p",
-        "text": "T2 見選項一半吻合即停止檢視，未比較其餘選項。"
+        "label": "題型連接",
+        "text": "Function 的動作核對見 Local Purpose / Function；Attitude 的方向與強度判斷見 Author Opinion / Attitude。其他題型見 Question Stem Types；共通誘答見 Trap Answers。"
       }
     ],
     "source_refs": [
@@ -7037,12 +7231,67 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.116Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o120",
+        "before": {
+          "title": "Step 4: Questions（作答）",
+          "summary": "先辨題幹任務與答案方向，再回文章核對動作、對象及限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 依題目需要使用以下步驟，不必每題完整預測。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "S1 讀題幹，說出任務。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 讀選項前先形成方向（不必每題完整預測）。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Function 與 Attitude 題先核對選項動詞：文章沒做那個動作即刪。"
+            },
+            {
+              "type": "p",
+              "text": "S4 讀完整命題：誰、做了什麼、範圍、限定語。"
+            },
+            {
+              "type": "p",
+              "text": "S5 選項讀完整句再判斷，五個選項全部看過再決定。"
+            },
+            {
+              "type": "p",
+              "text": "S6 依據可為多句整合；只有在找不到文章依據時才刪。"
+            },
+            {
+              "type": "p",
+              "text": "T1 較短或較弱的選項不自動優先。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 見選項一半吻合即停止檢視，未比較其餘選項。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.695Z",
     "updated_by": "tutor"
   },
   {
@@ -7050,7 +7299,7 @@
     "parent_id": "OL-014",
     "level": 2,
     "order": 3,
-    "title": "Question types（題型）",
+    "title": "Question Stem Types（題型）",
     "summary": "先辨題幹要找的資訊，再選用主旨、段落地圖或原句。",
     "blocks": [
       {
@@ -7075,12 +7324,33 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:18:56.341Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o121",
+        "before": {
+          "title": "Question types（題型）",
+          "summary": "先辨題幹要找的資訊，再選用主旨、段落地圖或原句。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "各題型比例：Inference 27.6%；Opinion 22.2%；Purpose 13.0%；Main Point 12.3%；Meaning in Context 6.4%；Organization 4.3%；Analogy 3.7%；Most Supported 3.0%；Weaken 2.7%；Application 2.3%；Strengthen 2.0%；Principle 0.5%。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.706Z",
     "updated_by": "tutor"
   },
   {
@@ -7234,6 +7504,11 @@
     "blocks": [
       {
         "type": "p",
+        "label": "方法連接",
+        "text": "沿用 Step 3: Passage Map/Function 與 LR 的 Role／Method，將已判斷的功能對應到題目指定內容及選項。"
+      },
+      {
+        "type": "p",
         "label": "規則",
         "text": "R1 功能題問作者為什麼放入指定內容。題問要求完整描述時，答案須涵蓋該部分的主要作用，不能只描述其中一半。"
       },
@@ -7287,6 +7562,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-16：依 Big Picture Reading 影片截圖補充 qualify a claim，整合既有局部功能判準。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
@@ -7325,9 +7604,46 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o124",
+        "before": {
+          "title": "Local Purpose / Function（局部功能）",
+          "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 功能題問作者為什麼放入指定內容。題問要求完整描述時，答案須涵蓋該部分的主要作用，不能只描述其中一半。"
+            },
+            {
+              "type": "p",
+              "text": "R2 區分「宣告反例存在」與「實際舉出反例」；證據屬於實際呈現它的段落。"
+            },
+            {
+              "type": "p",
+              "text": "R3 作者可以整體贊同、局部批評。全文態度不能代替對指定內容的判讀；never、cannot、fails 等詞也不單獨構成批評，須確認它們描述的對象與作用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 限縮主張（qualify a claim）是指出主張的限制、條件或例外，使其適用範圍更精確。例如先介紹方法的用途，再指出它無法解答的問題；指出限制本身不等於否定整個方法。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 確認題問指定的句子或段落，用一句話說出它的作用；問段落關係時，分別確認兩段做什麼，再描述其連接方式。"
+            },
+            {
+              "type": "p",
+              "text": "S2 核對選項的動作、對象與強度：文章是否真的在舉例、讓步、限縮或反駁？動詞吻合後，仍須核對它作用於哪個主張，以及有無誇大。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-17T06:34:48.088Z",
+    "updated_at": "2026-10-18T01:14:51.736Z",
     "updated_by": "tutor"
   },
   {
@@ -7345,11 +7661,7 @@
       },
       {
         "type": "p",
-        "text": "R2 分辨信念層與事實層：believe、think、regard、seem 為信念層；is、are、actually 為事實層。兩層並存不構成矛盾。"
-      },
-      {
-        "type": "p",
-        "text": "R3 選項沿用文章關鍵詞但更換受益者或對象者刪。"
+        "text": "R2 選項沿用文章關鍵詞但更換受益者或對象者刪。"
       },
       {
         "type": "p",
@@ -7398,12 +7710,59 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.206Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o125",
+        "before": {
+          "title": "Detail / Locate Details（細節定位）",
+          "summary": "先定位，再逐字比對名詞與限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues、according to X）、指代（he、this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 分辨信念層與事實層：believe、think、regard、seem 為信念層；is、are、actually 為事實層。兩層並存不構成矛盾。"
+            },
+            {
+              "type": "p",
+              "text": "R3 選項沿用文章關鍵詞但更換受益者或對象者刪。"
+            },
+            {
+              "type": "p",
+              "text": "S1 取題幹的關鍵名詞，定位原句。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 選項與原句逐名詞比對，含限定語。"
+            },
+            {
+              "type": "p",
+              "text": "S3 接受合理改寫；文章有但不回答題幹的句子刪。"
+            },
+            {
+              "type": "p",
+              "text": "T1 引用的句子與題幹不對應；須核對所引內容是否回答本題所問。",
+              "label": "陷阱"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.745Z",
     "updated_by": "tutor"
   },
   {
@@ -7587,12 +7946,12 @@
       },
       {
         "type": "p",
-        "text": "S1 用七個標籤畫兩篇地圖；有 AUTHOR 段的那一篇有立場。",
+        "text": "S1 分別依 Passage Map/Function 畫兩篇地圖，並確認各篇作者的立場。",
         "label": "步驟"
       },
       {
         "type": "p",
-        "text": "S2 用白話寫出兩篇的主旨，即為兩篇的關係。"
+        "text": "S2 用白話寫出兩篇的主旨，再比較兩篇的關係。"
       },
       {
         "type": "p",
@@ -7624,12 +7983,51 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.254Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o129",
+        "before": {
+          "title": "Comparative Passages（比較文章）",
+          "summary": "兩篇同主題文章；題目問各篇，也問兩篇的關係。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 both passages mention 類題目，逐項各查兩篇，任一篇找不到明文即刪。此類題不問重要性；覺得選項瑣碎而想刪時，改去文章找出處。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 問「A 的作者會如何看待 B 的某事」時，逐一套用 A 的技術定義，不採 B 文或日常詞義。兩篇共用同一個字時，先確認 A 是否為它下過專門定義。"
+            },
+            {
+              "type": "p",
+              "text": "S1 用七個標籤畫兩篇地圖；有 AUTHOR 段的那一篇有立場。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 用白話寫出兩篇的主旨，即為兩篇的關係。"
+            },
+            {
+              "type": "p",
+              "text": "T1 兩部分選項（A 做 X 而 B 做 Y）：兩半分別對照各自的文章。",
+              "label": "陷阱"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.758Z",
     "updated_by": "tutor"
   },
   {
@@ -7660,7 +8058,7 @@
       },
       {
         "type": "p",
-        "text": "R1 只在找不到文章依據時刪除；較短或較弱不是勝出的判準。",
+        "text": "R1 以題目任務及文章依據判斷選項；較短或較弱不是勝出的判準。",
         "label": "規則"
       },
       {
@@ -7692,12 +8090,55 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.273Z",
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o130",
+        "before": {
+          "title": "Trap Answers（誘答）",
+          "summary": "先找文章依據，再查方向、範圍與強度；兩部分選項兩半皆核對。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "逐項辨認下列誘答。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "T1 Unsupported Comparison（無依據的比較）：選項排序或比較文章從未比較的兩件事。",
+                "T2 Too Strong（太強）：強於文章所支撐。",
+                "T3 Opposite（相反）：與作者方向相反。",
+                "T4 Out of Scope（超出範圍）部分型：只涵蓋一段卻像全文論點。",
+                "T5 Half Scope（只對一半）：兩部分選項一半對一半錯。",
+                "T6 Wrong Emphasis（重點錯置）：作者有立場卻選中立描述。",
+                "T7 動詞不符：選項寫文章沒做的動作。",
+                "T8 加入作者未表達的評價。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 只在找不到文章依據時刪除；較短或較弱不是勝出的判準。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項含生字時，讀該選項其餘部分，判斷其層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。文章中的生字，不影響結構則跳過；影響時由上下文取其類別。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-10-18T01:14:51.771Z",
     "updated_by": "tutor"
   },
   {
@@ -7706,12 +8147,12 @@
     "level": 3,
     "order": 7,
     "title": "Main Point（主旨題）",
-    "summary": "選出準確概括全文核心意思的選項，保留作者的立場、範圍與限定。",
+    "summary": "選出準確表達作者主張的選項，保留範圍與限定。",
     "blocks": [
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 主旨判讀方法見「閱讀流程 → 主旨」。選項須概括全文核心意思；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
+        "text": "R1 方法見 Step 2: Main Point/Conclusion。選項須準確表達作者主張；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
       }
     ],
     "source_refs": [
@@ -7734,6 +8175,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-16：同步閱讀流程的主旨定義，避免主旨題小節沿用不同判準。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
       }
     ],
     "status": "草稿",
@@ -7754,9 +8199,25 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "tutor",
+        "summary": "家教更新 03-20261017-o131",
+        "before": {
+          "title": "Main Point（主旨題）",
+          "summary": "選出準確概括全文核心意思的選項，保留作者的立場、範圍與限定。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 主旨判讀方法見「閱讀流程 → 主旨」。選項須概括全文核心意思；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-17T06:34:48.111Z",
+    "updated_at": "2026-10-18T01:14:51.784Z",
     "updated_by": "tutor"
   },
   {
