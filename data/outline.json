@@ -6741,7 +6741,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。四個 Step 是工作順序，不要求分成四次閱讀。"
+        "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。題文閱讀允許二次。"
       }
     ],
     "source_refs": [
@@ -6752,10 +6752,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-17",
@@ -6766,10 +6770,25 @@
           "summary": "主動閱讀、找主旨、畫段落地圖、作答；只保留有助判題的資訊。",
           "blocks": []
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "The RC Process（閱讀流程）",
+          "summary": "主動閱讀、找主旨、畫段落地圖、作答；只保留有助判題的資訊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "閱讀時同步尋找作者主張並判斷段落功能；以各段的關係確認或修正 Framework 與 Main Point，再依題目任務作答。四個 Step 是工作順序，不要求分成四次閱讀。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.655Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-18T01:19:01.154Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-017",
@@ -6894,8 +6913,7 @@
     "blocks": [
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 位置只是線索，不是定義。主旨是作者自己的主張，全文其餘部分為它服務；可以帶限定語。"
+        "text": "規則: R1 Big Idea vs. Support: 問每一段在support 誰。"
       },
       {
         "type": "p",
@@ -6903,31 +6921,19 @@
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 Big Idea vs. Support: 問每一段在support 誰。"
+        "text": "步驟: S1 位置線索: 常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
       },
       {
         "type": "p",
-        "text": "S2 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
+        "text": "S2 句子判讀: (1)區分觀點層與事實層。"
       },
       {
         "type": "p",
-        "label": "位置線索",
-        "text": "常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
+        "text": "(2)句中出現從句 by V-ing、in spite of、despite、while、although 時，先找出主句，再標手段與讓步，分段讀。"
       },
       {
         "type": "p",
-        "label": "句子判讀",
-        "text": "句中出現 by V-ing、in spite of、despite、while、although 時，先切出主句，再標手段與讓步，分段讀。"
-      },
-      {
-        "type": "p",
-        "label": "觀點歸屬",
-        "text": "先區分：觀點層（believe、think、regard、seem）與事實層（is、actually）並存不構成矛盾。"
-      },
-      {
-        "type": "p",
-        "text": "此處比較的是「某人相信什麼」與「實際情況」，須先確認命題與觀點歸屬；例如某人相信 P，與實際上非 P，可以同時成立。"
+        "text": "S3 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
       }
     ],
     "source_refs": [
@@ -6958,10 +6964,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-16",
@@ -7020,10 +7030,63 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Step 2: Main Point/Conclusion（主旨）",
+          "summary": "找作者的觀點，方法同Main Conclusion。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 位置只是線索，不是定義。主旨是作者自己的主張，全文其餘部分為它服務；可以帶限定語。"
+            },
+            {
+              "type": "p",
+              "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；語氣不決定層級。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Big Idea vs. Support: 問每一段在support 誰。"
+            },
+            {
+              "type": "p",
+              "text": "S2 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
+            },
+            {
+              "type": "p",
+              "label": "位置線索",
+              "text": "常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
+            },
+            {
+              "type": "p",
+              "label": "句子判讀",
+              "text": "句中出現 by V-ing、in spite of、despite、while、although 時，先切出主句，再標手段與讓步，分段讀。"
+            },
+            {
+              "type": "p",
+              "label": "觀點歸屬",
+              "text": "先區分：觀點層（believe、think、regard、seem）與事實層（is、actually）並存不構成矛盾。"
+            },
+            {
+              "type": "p",
+              "text": "此處比較的是「某人相信什麼」與「實際情況」，須先確認命題與觀點歸屬；例如某人相信 P，與實際上非 P，可以同時成立。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯"
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.674Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-18T01:29:17.353Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-019",
@@ -7182,8 +7245,7 @@
     "blocks": [
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 讀題幹，說出任務。"
+        "text": "步驟: S1 讀題幹，說出任務。"
       },
       {
         "type": "p",
@@ -7200,11 +7262,6 @@
       {
         "type": "p",
         "text": "S5 選項讀完整句再判斷，五個選項全部看過再決定。"
-      },
-      {
-        "type": "p",
-        "label": "題型連接",
-        "text": "Function 的動作核對見 Local Purpose / Function；Attitude 的方向與強度判斷見 Author Opinion / Attitude。其他題型見 Question Stem Types；共通誘答見 Trap Answers。"
       }
     ],
     "source_refs": [
@@ -7235,10 +7292,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-17",
@@ -7289,10 +7350,47 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Step 4: Question Stem & Answer（作答）",
+          "summary": "先辨題幹任務與答案方向，再回文章核對動作、對象及限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 讀題幹，說出任務。"
+            },
+            {
+              "type": "p",
+              "text": "S2 讀選項前先形成方向（不必每題完整預測）。"
+            },
+            {
+              "type": "p",
+              "text": "S3 讀完整命題：誰、做了什麼、範圍、限定語。"
+            },
+            {
+              "type": "p",
+              "text": "S4 依題目任務回文章核對；依據可為多句整合。選項即使提到文章中的內容，也須回答本題所問。"
+            },
+            {
+              "type": "p",
+              "text": "S5 選項讀完整句再判斷，五個選項全部看過再決定。"
+            },
+            {
+              "type": "p",
+              "label": "題型連接",
+              "text": "Function 的動作核對見 Local Purpose / Function；Attitude 的方向與強度判斷見 Author Opinion / Attitude。其他題型見 Question Stem Types；共通誘答見 Trap Answers。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.695Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-18T01:31:04.488Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-021",
