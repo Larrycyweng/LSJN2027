@@ -838,5 +838,26 @@
     "client_request_id": "02-20261016-bigpicture-s1",
     "created_at": "2026-10-17T06:29:30.569Z",
     "updated_at": "2026-10-17T06:29:30.569Z"
+  },
+  {
+    "session_id": "S-20261017-01",
+    "week_label": "第4週",
+    "phase": "第一階段",
+    "material_source": "Big picture reading 影片、Test 141 S1 P16／P18、RC 大綱",
+    "lr_minutes": 0,
+    "rc_minutes": 120,
+    "review_minutes": null,
+    "focus_skill": "Big picture reading／Challenge position／RC 大綱複習",
+    "completion": "觀看 Big picture reading 影片；Challenge position 兩題均看懂後答對，非猜對；複習 RC 大綱。",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "今日總學習時間為 120 分鐘，包含影片、兩題練習及大綱複習，不重複加計。影片屬 Learn；題目練習屬 Drill；大綱複習屬 Review。使用者確認 Test 141 S1 P16、P18 兩題均理解後答對，非猜對。題號保留使用者原記法；未提供的逐題選項與時間不補填。",
+    "session_date": "2026-10-17",
+    "mode": "Learn／Drill／Review",
+    "effective_minutes": 120,
+    "client_request_id": "03-20261017-s201",
+    "created_at": "2026-10-18T05:25:22.002Z",
+    "updated_at": "2026-10-18T05:25:22.002Z"
   }
 ]
