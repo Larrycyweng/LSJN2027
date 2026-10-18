@@ -6678,7 +6678,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "Big Picture Reading 對應 Step 1–3；Question Stem Awareness 與 Answer Choice Analysis 對應 Step 4。Trap Answers 集中整理選項判斷中的誘答。"
+        "text": "Big Picture Reading 對應 Step 1–3；Question Stem Awareness 與 Answer Choice Analysis 對應 Step 4。"
       }
     ],
     "source_refs": [
@@ -6701,10 +6701,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-17"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-17",
@@ -6726,10 +6730,25 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "RC Overview（總覽）",
+          "summary": "Big Picture Reading (抓作者立場與段落功能)；Question Stem Types; Trap Answers。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Big Picture Reading 對應 Step 1–3；Question Stem Awareness 與 Answer Choice Analysis 對應 Step 4。Trap Answers 集中整理選項判斷中的誘答。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.642Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-18T01:49:49.610Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-016",
@@ -7990,7 +8009,7 @@
     "section_id": "OL-028",
     "parent_id": "OL-014",
     "level": 2,
-    "order": 4,
+    "order": 5,
     "title": "Passages Topics & Formats（主題與格式）",
     "summary": "主題不決定結構；比較文章須分別抓主旨再比較關係。",
     "blocks": [
@@ -8021,9 +8040,15 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-01T04:49:46.358Z",
-    "updated_by": "tutor"
+    "revisions": [
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "調整順序"
+      }
+    ],
+    "updated_at": "2026-10-18T01:46:50.150Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-029",
@@ -8132,7 +8157,7 @@
     "section_id": "OL-030",
     "parent_id": "OL-014",
     "level": 2,
-    "order": 5,
+    "order": 4,
     "title": "Trap Answers（誘答）",
     "summary": "先找文章依據，再查方向、範圍與強度；兩部分選項兩半皆核對。",
     "blocks": [
@@ -8234,10 +8259,15 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-17",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.771Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-18T01:46:50.161Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-031",
