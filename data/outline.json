@@ -15742,11 +15742,113 @@
         "date": "2026-10-17",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-10-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
     "client_request_id": "01-20261002-o11",
-    "updated_at": "2026-10-18T05:46:44.836Z",
-    "updated_by": "user"
+    "updated_at": "2026-10-19T06:15:32.287Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261018-role-outline-1",
+        "date": "2026-10-18",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "辨識: 題幹常出現describes the role、figures in the argument、functions in the argument。Role任務是描述一句話在論證中的作用。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "角色判準: 主結論（Main Conclusion）：整段論證的最終主張。",
+              "中間結論（Intermediate Conclusion）：先由其他前提支持，再被用來支持最終主張。",
+              "前提（Premise）：作者用來支持結論的理由，可以是事實、規則或例子。",
+              "反方觀點（Opposing Point／Opposing Position）：作者所回應或反駁的他人主張。",
+              "反方支持（Opposing Support）：用來支持反方主張的理由。作者轉述這個理由，不表示作者把它當成自己論證的前提。",
+              "背景（Background）：交代主題或語境。若該句沒有支持或反對結論等推論作用，在Role題中可描述為無推論作用（No Role）。",
+              "讓步（Concession）：作者承認不利的事實或他人的部分觀點，仍維持自己的主張。判角色時，要看被承認的內容在整段論證中如何被使用。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "關鍵字: 用詞語找候選角色，再以支持關係確認。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "結論：so、thus、hence、therefore、as a result、this shows、consequently。",
+              "支持：for、after all、because、since（FABS）。",
+              "讓步與轉折：but、yet、however、although、granted、while、though it is true。",
+              "意見：should、ought、clearly、obviously、evidently、apparently、probably。",
+              "觀點歸屬：most people think、say，表示某個主張屬於誰。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "規則: R1 選項要同時對上「角色」與「作用對象」。即使正確說某句是證據，若說錯它支持哪個結論，仍須排除。共用角色定義見「論證結構 → 找結論與證據」。"
+          },
+          {
+            "type": "p",
+            "text": "R2 選項可以用功能描述取代角色名稱。evidence、example、illustration可描述提供支持的句子；supported premise、subsidiary conclusion可描述中間結論。須依指定句子的實際用途判斷。"
+          },
+          {
+            "type": "p",
+            "text": "R3 同一句話可能既支持作者的結論，也用來回應反方。先把雙方主張分開，再核對選項描述的是哪一種關係；不要只看到supports或opposes就選。"
+          },
+          {
+            "type": "p",
+            "text": "步驟: S1 圈定題幹指定的句子，先確認它是誰提出或採用的內容。"
+          },
+          {
+            "type": "p",
+            "text": "S2 找到作者的主結論，再判斷指定句子是主結論、提供支持、提出反方主張或理由，還是僅交代背景。若它本身也有理由支持，檢查是否為中間結論。"
+          },
+          {
+            "type": "p",
+            "text": "S3 先用自己的話說「這句是……，用來支持／回應……」，再核對選項的角色、對象、方向與強度。若只是背景，就確認選項沒有替它加上推論作用。"
+          },
+          {
+            "type": "p",
+            "text": "陷阱: T1 角色正確、結論錯置（Correct Role, Incorrect Conclusion）：選項說它是證據或例子，卻把它接到作者沒有提出的結論。須核對選項中「支持什麼」的完整內容。"
+          },
+          {
+            "type": "p",
+            "text": "T2 方向相反（Opposite）：把支持寫成反對，或把作者用來反駁對方的內容，寫成支持對方。"
+          },
+          {
+            "type": "p",
+            "text": "T3 虛構論證成分或動作（Unsupported Ingredient）：選項加入題文沒有的用途，例如說作者提出某項證據後又將它否定，實際上作者一直在使用它。"
+          },
+          {
+            "type": "p",
+            "text": "T4 程度過強（Too Strong）：把「提供部分支持」說成「必不可少」或「足以證明」，或把「提出質疑」說成「已證明為假」。檢查題文是否支持這個強度。"
+          },
+          {
+            "type": "p",
+            "text": "例子: 主結論若是「變化不等於整體退化」，用來支持它的例子，不能改寫為「證明某項能力沒有退步」。兩者都可能被描述為證據，但支持的主張不同。"
+          },
+          {
+            "type": "p",
+            "label": "官方例題",
+            "text": "PT141 S4 Q9：Role 正確仍須核對 Degree；unlikely／cast doubt 不等於 guarantees falsity。"
+          },
+          {
+            "type": "p",
+            "text": "教材統計: 主結論（Main Conclusion）14%；中間結論（Intermediate Conclusion）18%；前提（Premise）41%；反方觀點（Opposing Point）9%；反方支持（Opposing Support）14%；無推論作用（No Role）5%。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-18 使用者確認；既有 OL-046 S3／T4；PT141 S4 Q9 使用者截圖。僅補例題，不新增規則。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-047",
