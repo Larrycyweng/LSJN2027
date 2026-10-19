@@ -8850,8 +8850,8 @@
     "blocks": [
       {
         "type": "p",
-        "text": "題問辨識詞：most strengthens、most supports、most justifies、strengthens EXCEPT。方向是由選項作用於論證。",
-        "label": "辨識"
+        "label": "辨識",
+        "text": "題問辨識詞：most strengthens、most supports、most justifies、strengthens EXCEPT。方向是由選項作用於論證。"
       },
       {
         "type": "p",
@@ -8870,8 +8870,8 @@
       },
       {
         "type": "p",
-        "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（「假設家族 → 必要假設與充分假設」R2）；因果論證則排除同一結果的其他來源（「推理結構 → 因果」R1）。",
-        "label": "規則"
+        "label": "規則",
+        "text": "R1 先分清 Premises 與 Main Conclusion。把選項當真，比較它如何增加 Evidence 對 Main Conclusion 的支持，例如補強因果連結或排除相關的替代解釋；不要求選項是論證不可缺少的 Necessary Assumption。"
       },
       {
         "type": "p",
@@ -8895,8 +8895,8 @@
       },
       {
         "type": "p",
-        "text": "T1 誘答分布：Out of Scope 30%、Weakens 28%（方向相反）、Too Weak 26%。",
-        "label": "陷阱"
+        "label": "陷阱",
+        "text": "T1 誘答分布：Out of Scope 30%、Weakens 28%（方向相反）、Too Weak 26%。"
       },
       {
         "type": "p",
@@ -8904,12 +8904,17 @@
       },
       {
         "type": "p",
-        "text": "only 句可用逆否套到另一種治療；若論證仍缺「無法直接控制 → 難以有效」，加強選項須補上該連結。只對另一方設門檻，未必產生比較優勢。",
-        "label": "例子"
+        "label": "例子",
+        "text": "only 句可用逆否套到另一種治療；若論證仍缺「無法直接控制 → 難以有效」，加強選項須補上該連結。只對另一方設門檻，未必產生比較優勢。"
       },
       {
         "type": "p",
         "text": "地中海飲食的效果可能來自其他成分。若結論針對脂肪本身，說明油脂保護心臟可直接支持其作用；只提脂肪而方向不助結論，仍不構成加強。"
+      },
+      {
+        "type": "p",
+        "label": "官方例題",
+        "text": "PT141 S4 Q20：A 擴大已給的 Mechanism；D 排除血中 glutamate 的 Other Sources，使數據能支持神經細胞滲漏確實發生，再接上已知傷害機制。見「因果 → 評估因果解釋的可信度」R4：已知 Capable，再補強 Present。"
       }
     ],
     "source_refs": [
@@ -8936,6 +8941,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-18 使用者確認之 Strengthen R1 修訂；既有 OL-037 R6、OL-043 R4；PT141 S4 Q20 使用者截圖。[補充]：以增加支持為判準，區分前提與主結論。"
       }
     ],
     "status": "草稿",
@@ -9609,10 +9618,84 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o37"
+      },
+      {
+        "date": "2026-10-18",
+        "by": "tutor",
+        "summary": "家教更新 03-20261018-strengthen-outline-1",
+        "before": {
+          "title": "Strengthen（加強）",
+          "summary": "選項如何增加證據對結論的支持？可補缺口、排異議、強化證據或增添相關事實。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "題問辨識詞：most strengthens、most supports、most justifies、strengthens EXCEPT。方向是由選項作用於論證。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "下列兩句須分清主詞與受詞："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "which of the following most supports the argument：Strengthen。",
+                "the statements above most strongly support which：Most Supported，題文支撐選項，見「推論家族」。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "推理結構：Comparison 72%、Causation 33%、Conditional 22%。"
+            },
+            {
+              "type": "p",
+              "text": "R1 論證有斷點時，最強的強化是補上斷點，作法同 NA 的 Linking（「假設家族 → 必要假設與充分假設」R2）；因果論證則排除同一結果的其他來源（「推理結構 → 因果」R1）。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 比較式結論（more effective than、better than）先問：題文給的差異有沒有接到比較的標準？沒接上之處即答案所在（「推理結構 → 比較」R2）。"
+            },
+            {
+              "type": "p",
+              "text": "R3 only 句畫成箭頭後（only X are Y：Y → X），常須以逆否套用到比較的另一方，斷點才會出現。"
+            },
+            {
+              "type": "p",
+              "text": "R4 結論聚焦於某一成分時，最強的強化直接談該成分的作用，不談整體結果。兩個選項都提到同一關鍵詞時，比較方向：哪一個讓結論更可能成立。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Strengthen 允許新資訊，也允許選項比結論所需更強，只要方向一致（「排除誘答」R2）。只對比較中的一方設條件的選項，除非該條件造成優劣之分，否則不構成比較優勢。"
+            },
+            {
+              "type": "p",
+              "text": "R6 加強的作用可有四種：確認論證所需假設；反駁可能的異議；提高既有證據的可靠性、相關性或對結論的推力；加入新事實，使結論更可信。逐項問選項如何增加證據對結論的支持，不只比對主題詞。"
+            },
+            {
+              "type": "p",
+              "text": "T1 誘答分布：Out of Scope 30%、Weakens 28%（方向相反）、Too Weak 26%。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 與結論提到同一關鍵詞但方向不助結論者（例：支持低脂有效，而結論只說低脂非必要）。"
+            },
+            {
+              "type": "p",
+              "text": "only 句可用逆否套到另一種治療；若論證仍缺「無法直接控制 → 難以有效」，加強選項須補上該連結。只對另一方設門檻，未必產生比較優勢。",
+              "label": "例子"
+            },
+            {
+              "type": "p",
+              "text": "地中海飲食的效果可能來自其他成分。若結論針對脂肪本身，說明油脂保護心臟可直接支持其作用；只提脂肪而方向不助結論，仍不構成加強。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260922b-o1",
-    "updated_at": "2026-10-12T04:52:57.788Z",
+    "updated_at": "2026-10-19T05:31:12.386Z",
     "updated_by": "tutor"
   },
   {
