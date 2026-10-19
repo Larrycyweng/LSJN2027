@@ -2342,7 +2342,7 @@
       },
       {
         "type": "p",
-        "text": "步驟: 見「配對家族 → Main Conclusion和Role」。"
+        "text": "步驟: S1 見「配對家族 → Main Conclusion和Role」。"
       }
     ],
     "source_refs": [
@@ -2405,146 +2405,15 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-18",
-        "by": "tutor",
-        "summary": "家教更新 W1-20260918-o1",
-        "before": {
-          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
-              "label": "Official Example",
-              "refs": [
-                "A-20260914-PT140-S2-Q16",
-                "A-20260914-PT140-S3-Q12",
-                "A-20260914-PT140-S1-Q09"
-              ]
-            },
-            {
-              "type": "p",
-              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
-              "label": "Status"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-09-18",
-        "by": "tutor",
-        "summary": "家教更新 W1-20260918-o2",
-        "before": {
-          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
-              "label": "Official Example",
-              "refs": [
-                "A-20260914-PT140-S2-Q16",
-                "A-20260914-PT140-S3-Q12",
-                "A-20260914-PT140-S1-Q09"
-              ]
-            },
-            {
-              "type": "p",
-              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
-              "label": "Status"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
-                "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
-                "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
-                "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
-                "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
-              "refs": [
-                "A-20260918-PT141-S2-Q10"
-              ]
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-22",
         "by": "tutor",
@@ -3762,9 +3631,53 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯"
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨識題文的主結論，若非論證題則無結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認/反駁什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: 見「配對家族 → Main Conclusion和Role」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T05:48:49.370Z",
+    "updated_at": "2026-10-19T22:45:25.359Z",
     "updated_by": "user"
   },
   {
@@ -5124,7 +5037,7 @@
       },
       {
         "type": "p",
-        "text": "R5 Relative vs. Absolute：百分比上升不等於數量上升。看到 percentage、proportion、share 推到 more people、more cases 時，問總數有沒有變。例：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%，數量未變。"
+        "text": "R5 Percent vs. Number：部分數量＝總量 × 比例。比例上升不必然表示部分數量增加；部分數量增加，也不必然表示比例上升，須看總量如何變動。"
       },
       {
         "type": "p",
@@ -5141,8 +5054,16 @@
       },
       {
         "type": "p",
+        "text": "S2 數量／比例比較：先辨認題文與選項各談 Number 還是 Proportion。遇到 most／percentage／share，確認「哪一部分占哪個整體」；遇到 more／less，確認「誰與誰、哪個時期相比」。若推論跨越數量與比例，回題文找總量資訊，再依 R5 判斷。"
+      },
+      {
+        "type": "p",
         "text": "減少紅肉的一組反而吃進更多脂肪。若這組改吃脂肪含量更高的食物，便提供新的差異來解釋現象；若只說兩組其他食物攝取相等，反而未解釋矛盾。",
         "label": "例子"
+      },
+      {
+        "type": "p",
+        "text": "比例與數量：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%。比例上升，但部分數量未變。"
       }
     ],
     "source_refs": [
@@ -5177,6 +5098,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者要求以 repo f232890 現行大綱為主整理 Notes v3，Match Family 移到 Argument Structure 後並維持同層。v3 第10–12頁為 Parallel／Parallel Flaw；Evaluate 比較模板沿用 v2 第3–6頁；Paradox 依已附 LR-Strategies 第12–13頁及既有比較小節整理。依 Paradox 教材補足不同背景卻相同結果的情況。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "既有 OL-011 Comparison；2026-10-19 使用者確認將數量／比例的推理判準保留於 R5，操作檢查另列 S2。修訂由 PT141 S4 Q12 檢討提出，原有數字例子移至例子區。"
       }
     ],
     "status": "草稿",
@@ -5264,9 +5189,92 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "tutor",
+        "summary": "家教更新 03-20261019-comparison-number-proportion-1",
+        "before": {
+          "title": "Comparison（比較）",
+          "summary": "Analogy 找差異；Recommendation 找利弊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Comparison 占 LR 約 37%，最常出現在 Strengthen／Weaken、Paradox、Most Supported、Necessary Assumption、Flaw。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "題文把兩個東西放在一起比，常見七種比較："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "此時段對彼時段。",
+                "此情況對彼情況。",
+                "Plan 對 No-Plan。",
+                "部分對整體（Part vs. Whole）。",
+                "樣本對推廣（Sample vs. Generalization）。",
+                "相對對絕對（Relative vs. Absolute）。",
+                "百分比對數量（Percent vs. Number）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 類比：「A 案為真者，B 案亦應為真」。反駁類比找 Meaningful Distinction，使兩案看起來不能相比。建議：「X 優於 Y、應做 X、X 是淨收益」為利大於弊，需要知道並排序利與弊。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 要推翻類比，差異必須觸及比較的標準；不觸及標準的差異無關。"
+            },
+            {
+              "type": "p",
+              "text": "R3 依題型決定動作。",
+              "label": "題型應用"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Strengthen：補上讓兩者公平可比的相似點（complete the analogy）。",
+                "Weaken：指出有意義的差異（meaningful difference）。",
+                "Paradox：找出能解釋意外結果的差異或抵銷因素；方法見「假設家族 → 解釋矛盾」。",
+                "Necessary Assumption：檢查作者所依賴的相似點或差異點。",
+                "Flaw：檢查部分與整體、樣本與推廣的推論問題。",
+                "Most Supported：補完類比，或指出造成不同結果的差異（causal difference-maker）。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R4 Plans／Recommendations 也是比較：比的是 the world we currently live in 與 the world in which we follow this plan。支持與反駁都針對後者是否真的更好。"
+            },
+            {
+              "type": "p",
+              "text": "R5 Relative vs. Absolute：百分比上升不等於數量上升。看到 percentage、proportion、share 推到 more people、more cases 時，問總數有沒有變。例：去年 12 件中 6 件為 50%，今年 10 件中 6 件為 60%，數量未變。"
+            },
+            {
+              "type": "p",
+              "text": "R6 Anti-Causal 的比較形式：「兩人結果相同，所以某因素沒有作用」。動作是指出兩者哪裡不一樣，使它們 unfair to compare。機制見「推理結構 → 因果 → 評估因果解釋的可信度」R6 的不公平比較（Unfair Comparison）。"
+            },
+            {
+              "type": "p",
+              "text": "R7 原則題中的比較：先確認比較對象、面向與層次，再依任務使用它。Conform／Illustrate／Parallel 保留原文的比較關係；Justify 檢查原則能否支持比較結論，不要求選項一定採用相同句式。PT65 S4 Q18 比的是組織整體與成員，不能換成某些組織與所有組織。各任務見「原則支持」「Principle-Conform」及「命題／概括」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 先寫出被比較的兩個東西各是什麼；再問比較的標準是什麼；最後依題幹選 R3 的動作。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "減少紅肉的一組反而吃進更多脂肪。若這組改吃脂肪含量更高的食物，便提供新的差異來解釋現象；若只說兩組其他食物攝取相等，反而未解釋矛盾。",
+              "label": "例子"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T04:59:48.068Z",
+    "updated_at": "2026-10-19T23:37:58.396Z",
     "updated_by": "tutor"
   },
   {
@@ -14497,27 +14505,27 @@
       },
       {
         "type": "p",
-        "text": "陷阱: 前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
+        "text": "陷阱: T1 前提（Premise，38%）：說的是作者用來支持結論的理由，但非主結論本身。"
       },
       {
         "type": "p",
-        "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。不要停在推理中的中途。"
+        "text": "T2 缺乏支持（Unsupported，19%）：選項提出了New matter，範圍超出題文支持的主張。"
       },
       {
         "type": "p",
-        "text": "反方觀點（Opposing Point，8%）：說的是作者回應或反對的他人主張，誤把他人的立場當成作者立場。"
+        "text": "T3 程度過強（Too Strong，11%）：主題雖相同，程度超出作者的主張，例如把「可能」寫成「必然」，把「不太可能」改成「不可能」。轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。見「論證結構 → 找結論與證據 → 反駁」。"
       },
       {
         "type": "p",
-        "text": "假設（Assumption，7%）：說的是作者沒有明說、但推理必須依賴的想法。即使作者需要這個假設，它也不是題文已提出的主結論。"
+        "text": "T4 反方觀點（Opposing Point，8%）：誤把他人的主張當成作者主張。"
       },
       {
         "type": "p",
-        "text": "缺乏支持（Unsupported，19%）：選項提出了題文未支持的主張；不能因為它看似合理，就當成作者的結論。"
+        "text": "T5 中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。"
       },
       {
         "type": "p",
-        "text": "程度過強（Too Strong，11%）：主題雖相同，選項卻把作者的主張加強，例如把「可能」寫成「必然」，把「不太可能」改成「不可能」。轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。完整方法見「論證結構 → 找結論與證據 → 反駁」。"
+        "text": "T6 假設（Assumption，7%）：選項雖能支持作者的主結論，但非主結論本身。"
       },
       {
         "type": "p",
@@ -15205,10 +15213,128 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Main Conclusion（主結論）",
+          "summary": "找出作者要證明的最終主張，再核對選項是否忠實轉述。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 題問出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 正解可以換用同義詞或改變句式，但主張的意思、範圍、程度與觀點歸屬須相同。No new Matter."
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "S2 把論證讀成「因為這些理由，所以作者主張……」。找出理由在支持哪個主張；若該主張又被用來支持另一個結論，就繼續追到主結論。結論可能在前、理由在後，不要直接選第一句或最後一句。"
+            },
+            {
+              "type": "p",
+              "text": "S3 跨句還原意思：遇到 this、that、it 等代名詞，先代回它指涉的內容，還原作者主張。接著，核對選項是否保留同一主張，並排除下列誘答。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: 前提（Premise，38%）：說的是作者用來支持結論的理由。它可能完全符合題文，但不是作者要證明的主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。不要停在推理中的中途。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point，8%）：說的是作者回應或反對的他人主張，誤把他人的立場當成作者立場。"
+            },
+            {
+              "type": "p",
+              "text": "假設（Assumption，7%）：說的是作者沒有明說、但推理必須依賴的想法。即使作者需要這個假設，它也不是題文已提出的主結論。"
+            },
+            {
+              "type": "p",
+              "text": "缺乏支持（Unsupported，19%）：選項提出了題文未支持的主張；不能因為它看似合理，就當成作者的結論。"
+            },
+            {
+              "type": "p",
+              "text": "程度過強（Too Strong，11%）：主題雖相同，選項卻把作者的主張加強，例如把「可能」寫成「必然」，把「不太可能」改成「不可能」。轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。完整方法見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 反駁（Rebuttals）39%；語言線索（Language Cue）21%；建議（Recommendation）18%；預測（Prediction）12%；解釋（Explanation）9%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Main Conclusion（主結論）",
+          "summary": "找出作者要證明的最終主張，再核對選項是否忠實轉述。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 題問出現 the conclusion、the main conclusion 或 the overall conclusion 時，要找的是作者在這段論證中要你接受的主張，並選出意思相同的轉述。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 正解可以換用同義詞或改變句式，但主張的意思、範圍、程度與觀點歸屬須相同。No new Matter."
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 分清他人主張與作者立場。遇到 but、however、yet 等轉折詞，留意作者是否開始提出自己的回應，再以支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "S2 把論證讀成「因為這些理由，所以作者主張……」。找出理由在支持哪個主張；若該主張又被用來支持另一個結論，就繼續追到主結論。結論可能在前、理由在後，不要直接選第一句或最後一句。"
+            },
+            {
+              "type": "p",
+              "text": "S3 跨句還原意思：遇到 this、that、it 等代名詞，先代回它指涉的內容，還原作者主張。接著，核對選項是否保留同一主張，並排除下列誘答。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: 前提（Premise，38%）：說的是作者用來支持結論的理由，但非主結論本身。"
+            },
+            {
+              "type": "p",
+              "text": "缺乏支持（Unsupported，19%）：選項提出了New matter，範圍超出題文支持的主張。"
+            },
+            {
+              "type": "p",
+              "text": "程度過強（Too Strong，11%）：主題雖相同，程度超出作者的主張，例如把「可能」寫成「必然」，把「不太可能」改成「不可能」。轉述反駁結論時，要保留作者實際否定的對象與強度。「對方的理由不足」不等於「對方的結論為假」。見「論證結構 → 找結論與證據 → 反駁」。"
+            },
+            {
+              "type": "p",
+              "text": "反方觀點（Opposing Point，8%）：誤把他人的主張當成作者主張。"
+            },
+            {
+              "type": "p",
+              "text": "中間結論（Intermediate Conclusion，7%）：本身有理由支持，卻仍被用來支持另一個結論。"
+            },
+            {
+              "type": "p",
+              "text": "假設（Assumption，7%）：選項雖能支持作者的主結論，但非主結論本身。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 反駁（Rebuttals）39%；語言線索（Language Cue）21%；建議（Recommendation）18%；預測（Prediction）12%；解釋（Explanation）9%。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20261001-o1",
-    "updated_at": "2026-10-19T21:41:19.509Z",
+    "updated_at": "2026-10-19T22:43:21.827Z",
     "updated_by": "user"
   },
   {
