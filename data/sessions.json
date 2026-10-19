@@ -859,5 +859,26 @@
     "client_request_id": "03-20261017-s201",
     "created_at": "2026-10-18T05:25:22.002Z",
     "updated_at": "2026-10-18T05:25:22.002Z"
+  },
+  {
+    "session_id": "S-20261018-01",
+    "week_label": "第5週",
+    "phase": "第一階段",
+    "material_source": "PT141 S4 官方 LR 題；使用者上傳之成績報告 PDF",
+    "lr_minutes": 60,
+    "rc_minutes": 0,
+    "review_minutes": null,
+    "focus_skill": "CP1：陌生官方 LR 混合題不限時作答",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "Test 模式，不限時完成 PT141 S4 全部26題，16題正確、10題錯誤，正確率61.5%。今日學習時間依使用者回報記錄60分鐘，不採用報告顯示的跨日計時或逐題時間，也不另追加分析時間。CP1既定標準為陌生官方LR不限時約85%且理由正確；本次正確率未達標。後續先檢討錯因並安排針對性補強。完整逐題答案及錯題清單保存於同日handoff；本次未進行逐題檢討。",
+    "session_date": "2026-10-18",
+    "mode": "測驗",
+    "effective_minutes": 60,
+    "client_request_id": "03-20261018-cp1-s1",
+    "created_at": "2026-10-19T02:36:54.778Z",
+    "updated_at": "2026-10-19T02:36:54.778Z"
   }
 ]
