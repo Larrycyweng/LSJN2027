@@ -596,5 +596,18 @@
     "client_request_id": "03-20261017-h201",
     "created_at": "2026-10-18T05:25:22.049Z",
     "updated_at": "2026-10-18T05:25:22.049Z"
+  },
+  {
+    "handoff_id": "HO-047",
+    "session_id": "",
+    "taught": "本次為Test及成績分析。後續依既定Learn、Drill、Review流程診斷失敗層級，再驗證能力移轉。",
+    "observed": "【來源】Test141 Score Report (untimed) 1018 2026.pdf，第5頁；對錯已經視覺核對。\n【全題作答】Q1 D 正確；Q2 D 正確；Q3 E 正確；Q4 C 正確；Q5 A 正確；Q6 E 正確；Q7 E 正確；Q8 D 正確；Q9 A 錯誤；Q10 E 正確；Q11 C 錯誤；Q12 D 錯誤；Q13 B 正確；Q14 D 錯誤；Q15 B 錯誤；Q16 E 正確；Q17 B 錯誤；Q18 C 正確；Q19 C 錯誤；Q20 A 錯誤；Q21 E 正確；Q22 D 正確；Q23 E 正確；Q24 B 錯誤；Q25 E 正確；Q26 E 錯誤。\n【錯題清單】Q9、Q11、Q12、Q14、Q15、Q17、Q19、Q20、Q24、Q26，共10題。\n【錯題分類：沿用報告】Techniques, Roles, and Principles：Q9，選A，Level 2；Conclusions and Disputes：Q11，選C，Level 2；Deductions and Inference：Q12，選D，Level 3；Q14，選D，Level 2；Explain or Resolve：Q15，選B，Level 2；Strengthen or Weaken：Q17，選B，Level 3；Q20，選A，Level 3；Assumptions：Q19，選C，Level 2；Q24，選B，Level 3；Q26，選E，Level 3。\n【題型表現】Flaws 3/3；Techniques, Roles, and Principles 4/5；Matching Flaws 1/1；Matching Structure and Principles 1/1；Assumptions 1/4；Strengthen or Weaken 2/4；Deductions and Inference 2/4；Conclusions and Disputes 1/2；Explain or Resolve 1/2。\n【歷次比較】2026/9/18 PT141 S2為16/25，前20題限時內15/20，最後5題超時1/5；本次S4不限時16/26。兩節題目與作答條件不同，不能直接判定退步；目前未見整體正確率提升。兩節均在假設、加強／削弱、推論類出現較多錯誤。\n【診斷假設】上述三類為優先檢查方向；具體錯因尚未經逐題檢討確認，不預設為英文、粗心、疲勞或猜測。報告總分154為跨日及不同作答條件的合併結果，不作正式模考分數。",
+    "open_questions": "報告提供作答選項、對錯、廣義題型及難度，未提供題文與錯題正解選項；後續檢討時補充，不推測。信心、重讀方式及逐題作答理由未回報，保持空白，不據此把答對題歸為猜對。已看見對錯標記，後續訂正屬Review，不將重做結果當成未見答案的盲審。報告異常時間不用於配速或疲勞診斷。本次不新增錯誤指紋、不修改大綱，也不直接修改checkpoint決定。[補充]：無新增教材規則。",
+    "date": "2026-10-18",
+    "stopped_at": "CP1 PT141 S4 LR不限時測驗已完成，16/26；今日學習60分鐘。已核對成績報告並整理26題答案，尚未開始逐題錯題檢討。",
+    "next_task": "Review：先依序檢討PT141 S4 Q14、Q19、Q20、Q9，再處理Q11、Q12、Q15、Q17、Q24、Q26。使用者提供題目後，先讓其說明原本如何理解題問、選擇及排除選項；家教從第一個出錯處給有限提示，不先揭露正解或完整解析。每題只記最小必要錯因，找出最常重複的兩個失敗環節。接著局部回看相關大綱，以少量原創題進行近距離及不同題材移轉，48至72小時後延遲驗證。修復後依原CP1原則，以20題未接觸官方LR混合題不限時重評，參考約17/20、理由正確及同類錯誤是否再現。RC保留既定學習與複習。",
+    "client_request_id": "03-20261018-cp1-h1",
+    "created_at": "2026-10-19T02:36:54.826Z",
+    "updated_at": "2026-10-19T02:36:54.826Z"
   }
 ]
