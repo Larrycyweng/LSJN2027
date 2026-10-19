@@ -5762,69 +5762,6 @@
     "protected": true,
     "revisions": [
       {
-        "date": "2026-09-23",
-        "by": "user",
-        "summary": "接受提案 00-20260924-o112",
-        "before": {
-          "title": "Eliminate Trap Answers（排除誘答）",
-          "summary": "誘答敗在 Scope、Logic 或 Degree。只憑題文刪除。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "六類誘答。Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。Degree：Too Weak（太弱）、Too Strong（太強）。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R2 看選項前先判兩件事。題幹方向：most strongly support、can be inferred 是題文支撐選項；strengthen、weaken 是選項作用於題文；方向判錯則後續比對全部無效。是否允許新資訊：Inference、Must Be True 不可；Explain、Strengthen、Weaken、Sufficient Assumption 必須或可以。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R3 含比較級的選項（greater、more than、more likely）須題文提供兩者的比較資料，否則刪。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R4 Explain 題正解須使衝突雙方同時成立；只覆述一面或更換主體者刪。核對選項主體是否為題文所指的同一群人。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見 OL-008 R1。"
-            },
-            {
-              "type": "p",
-              "label": "Trap",
-              "text": "T1 SIG-010：跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。T2 SIG-013：作答前未確認題幹任務，以自己對結論的判斷挑選項。T3 SIG-011：選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。T4 SIG-004：診斷正確但未對應到選項字母。"
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT140 S3 Q17：正解用有鏈條支撐的絕對句，誤選加入 principally。\nPT141 S2 Q23：Most Supported 以 Strengthen 方向作答，SIG-013。\nPT141 S2 Q24：以不得增加資訊之判準刪除 Explain 正解，主體由聽眾換為附近居民，SIG-010。\nPT141 S2 Q19：誤選 E 為象徵層面陳述。\nPT141 S2 Q11：誤選為作者未下的評價，SIG-011。",
-              "refs": [
-                "A-20260915-PT140-S3-Q17",
-                "A-20260918-PT141-S2-Q23",
-                "A-20260918-PT141-S2-Q24",
-                "A-20260918-PT141-S2-Q19",
-                "A-20260918-PT141-S2-Q11"
-              ]
-            }
-          ]
-        }
-      },
-      {
         "date": "2026-09-28",
         "by": "tutor",
         "summary": "家教提案（待確認）",
@@ -6784,11 +6721,95 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-12T05:06:31.317Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-10-19T04:39:42.691Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261018-lr-outline-1",
+        "date": "2026-10-18",
+        "summary": "先辨題文與選項的作用方向；再查範圍、邏輯與程度。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "辨識",
+            "text": "六類誘答按範圍、邏輯與程度分組："
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Scope：Out of Scope（超出範圍）、Half Scope（只對一半）。",
+              "Logic：Premise Support（只支持前提）、Reversal（方向顛倒）。",
+              "Degree：Too Weak（太弱）、Too Strong（太強）。"
+            ]
+          },
+          {
+            "type": "p",
+            "label": "規則",
+            "text": "R1 Degree：絕對用語不等於過強，只看前提是否支撐該主張。necessary 不是 principal；前提未比較過的比較詞（principally、mainly）無支撐。"
+          },
+          {
+            "type": "p",
+            "text": "R2 看選項前，先讀完整題問，確認「誰提供資訊、誰受到支持」，再判斷選項是否可提供新資訊。不能只憑 support／supported、most strongly 或題文本身有無論證決定題型。"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "最受支持：題文 → 選項。The statements, if true, most strongly support which answer? 與 Which answer is most strongly supported by the statements? 方向相同；心中改述為「根據題文，能推出什麼？」。",
+              "加強：選項 → 論證。Which answer, if true, most strongly supports the argument? 心中改述為「加入哪項新資訊，會讓結論更可信？」。削弱同樣以選項作用於論證，但降低其支持程度。",
+              "if true 修飾題文還是選項，可作為方向線索；最終依完整句子的主詞、受詞及題目要求判斷，主動或被動語態本身不決定方向。",
+              "必要假設問論證不可缺少什麼，以否定測試檢查必要性；加強只要求增加支持，不要求選項不可缺少。最受支持則核對題文對選項的依據，不以否定選項後論證是否受損來選答案。",
+              "推論與必然為真：選項的主張須得到題文支持；解釋、加強、削弱與充分假設：選項可提供題文原先沒有的資訊，依各自任務判斷。"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "R3 含比較級的選項（greater、more than、more likely）：Inference、Must Be True、Most Supported 題須題文提供兩者的比較資料，否則刪；Strengthen、Weaken、Explain 題的選項本來就可以提供題文沒有的新比較，不以此刪（見 T1）。"
+          },
+          {
+            "type": "p",
+            "text": "R4 Paradox／Explain 依題問找出待解釋現象。若為表面衝突，須保留兩邊事實，不能以否定其中一邊來化解；若只問單一事件，直接檢查該事件的解釋。具體判準見「假設家族 → 解釋矛盾」。"
+          },
+          {
+            "type": "p",
+            "text": "R5 選項動詞層級：symbolize、resemble、be thought to、in order to 屬象徵、認知或意圖層；要推翻「某物是 X」須實物層陳述；要確認是意圖還是無法避免的結果，回題文找。"
+          },
+          {
+            "type": "p",
+            "text": "R6 選項含生字時，讀其餘部分判斷層級與方向；仍無法判斷者暫時保留，改從其他選項找確定的硬傷，以刪去法收斂。Flaw 題三種句式見「假設家族 → 缺陷」R1。"
+          },
+          {
+            "type": "p",
+            "text": "R7 檢查排他性時，問題文是否真的排除了其他因素。「某因素通常不影響決定」不能推出「只有另一因素影響決定」。需要否定「只考慮 A」時，只能得出存在非 A 的考量，不能自行指定為 B；也不能把「考慮 B」直接推成「B 足以改變行為」。含量詞時仍須核對其否定範圍。"
+          },
+          {
+            "type": "p",
+            "label": "陷阱",
+            "text": "T1 跨題型套用「選項不得增加題文所無之資訊」判準，刪除 Explain 或 SA 的正解。"
+          },
+          {
+            "type": "p",
+            "text": "T2 作答前未確認題問任務，以自己對結論的判斷挑選項。"
+          },
+          {
+            "type": "p",
+            "text": "T3 選項加入作者未表達的評價（criticize、negative、inappropriate），先找該評價的出處。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-10-18 使用者確認；既有大綱 OL-013／OL-037／OL-056；PT141 S4 Q14 使用者截圖。[補充]：完整題問的支持方向辨識、排他性與額外假設的檢查。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-014",
@@ -16872,27 +16893,27 @@
     "blocks": [
       {
         "type": "p",
-        "text": "題問要求由題文找支持最充分的結論。線索：most supported、most reasonably inferred、provide the strongest support for；「最合乎邏輯地完成論證」也可能要求填入受支持的結論。",
-        "label": "辨識"
+        "label": "辨識",
+        "text": "題問要求由題文找支持最充分的結論，方向是題文 → 選項。完整題問與加強題的對照見「排除誘答」R2。「最合乎邏輯地完成論證」也可能要求填入受支持的結論，須依完整題問及空格作用判斷。"
       },
       {
         "type": "p",
-        "text": "R1 接受題文資訊為真，比較各選項的支持程度。僅與題文相容、看似可能或符合題外常識都不夠；不要求每題都達到必然性，但必然結果也可以是正解。",
-        "label": "規則"
+        "label": "規則",
+        "text": "R1 接受題文資訊為真，比較各選項的支持程度。僅與題文相容、看似可能或符合題外常識都不夠；不要求每題都達到必然性，但必然結果也可以是正解。"
       },
       {
         "type": "p",
-        "text": "R2 有競爭選項時，指出各選項需要哪一項關係、比較或假設，再核對題文是否提供依據。題文支持到哪一步，就保留到哪一步。"
+        "text": "R2 有競爭選項時，依序確認「選項完整主張什麼 → 題文哪項資訊支持 → 還需額外加入什麼關係、比較或假設」。支持可來自多句資訊的合理整合，不要求逐字重述；選項超過題文支持的部分，不能自行補足。"
       },
       {
         "type": "p",
-        "text": "不能只因選項語氣較弱或使用熟悉名詞就選它；程度是否過強，要看完整命題與題文依據，不能只憑 will 等單字判斷。",
-        "label": "陷阱"
+        "label": "陷阱",
+        "text": "不能只因選項語氣較弱或使用熟悉名詞就選它；程度是否過強，要看完整命題與題文依據，不能只憑 will 等單字判斷。"
       },
       {
         "type": "p",
-        "text": "June 2007 S2 Q8，電動車：A 指環境後果可能比支持者預期差；E 要求供電損害至少抵銷減排收益，題文未建立此比較。假設收益 100、損害 30，仍有 70 淨收益，也可以比預期差；數字僅供檢核。",
-        "label": "官方例題"
+        "label": "官方例題",
+        "text": "June 2007 S2 Q8，電動車：A 指環境後果可能比支持者預期差；E 要求供電損害至少抵銷減排收益，題文未建立此比較。假設收益 100、損害 30，仍有 70 淨收益，也可以比預期差；數字僅供檢核。"
       },
       {
         "type": "p",
@@ -16904,8 +16925,13 @@
       },
       {
         "type": "p",
-        "text": "推理結構：比較（Comparison）58%；因果（Causation）37%；條件邏輯（Conditional Logic）29%。誘答：程度過強（Too Strong）33%；超出範圍（Out of Scope）21%；關係未獲支持（Unsupported）21%；矛盾（Contradiction）17%；逆命題／反命題（Reversal／Negation）7%。",
-        "label": "教材統計"
+        "label": "官方例題",
+        "text": "PT141 S4 Q14，汽油稅：油價反映污染成本後會減少污染，支持消費者平均少買汽油。污染成本通常不影響決定，卻不能推出汽油費是唯一考量；其他費用仍可能影響決定。排他性與額外假設的檢查見「排除誘答」R7。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "推理結構：比較（Comparison）58%；因果（Causation）37%；條件邏輯（Conditional Logic）29%。誘答：程度過強（Too Strong）33%；超出範圍（Out of Scope）21%；關係未獲支持（Unsupported）21%；矛盾（Contradiction）17%；逆命題／反命題（Reversal／Negation）7%。"
       }
     ],
     "source_refs": [
@@ -16924,13 +16950,66 @@
       {
         "type": "User Revision",
         "ref": "2026-10-07 使用者確認之推論家族整併；沿用現行大綱的教材與教學解析，基準 repo f51e1a3。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-18 使用者確認；既有大綱 OL-013／OL-037／OL-056；PT141 S4 Q14 使用者截圖。[補充]：完整題問的支持方向辨識、排他性與額外假設的檢查。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-10-18",
+        "by": "tutor",
+        "summary": "家教更新 03-20261018-lr-outline-2",
+        "before": {
+          "title": "Most Supported（最受支持）",
+          "summary": "比較選項的正面支持；僅與題文相容不夠，也不必一律達到必然為真的門檻。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "題問要求由題文找支持最充分的結論。線索：most supported、most reasonably inferred、provide the strongest support for；「最合乎邏輯地完成論證」也可能要求填入受支持的結論。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 接受題文資訊為真，比較各選項的支持程度。僅與題文相容、看似可能或符合題外常識都不夠；不要求每題都達到必然性，但必然結果也可以是正解。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 有競爭選項時，指出各選項需要哪一項關係、比較或假設，再核對題文是否提供依據。題文支持到哪一步，就保留到哪一步。"
+            },
+            {
+              "type": "p",
+              "text": "不能只因選項語氣較弱或使用熟悉名詞就選它；程度是否過強，要看完整命題與題文依據，不能只憑 will 等單字判斷。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "June 2007 S2 Q8，電動車：A 指環境後果可能比支持者預期差；E 要求供電損害至少抵銷減排收益，題文未建立此比較。假設收益 100、損害 30，仍有 70 淨收益，也可以比預期差；數字僅供檢核。",
+              "label": "官方例題"
+            },
+            {
+              "type": "p",
+              "text": "June 2007 S2 Q22，政治參與：D 減弱報導不足這一項抑制來源，未主張所有來源消失；E 卻增加「參與不受抑制會減少疏離」的反向因果。完整作用關係見「因果 → 因果鏈」。"
+            },
+            {
+              "type": "p",
+              "text": "June 2007 S3 Q16，國家存續：存續需要許多公民相信國家具有實際上並不存在的道德權利與責任。因此 B 保留「許多公民」「某些錯誤信念」與必要條件，未說錯誤信念足以保證存續；完整翻譯見「條件翻譯與串接」。"
+            },
+            {
+              "type": "p",
+              "text": "推理結構：比較（Comparison）58%；因果（Causation）37%；條件邏輯（Conditional Logic）29%。誘答：程度過強（Too Strong）33%；超出範圍（Out of Scope）21%；關係未獲支持（Unsupported）21%；矛盾（Contradiction）17%；逆命題／反命題（Reversal／Negation）7%。",
+              "label": "教材統計"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "00-20261004-inf-v5-04",
-    "updated_at": "2026-10-08T14:39:33.140Z",
+    "updated_at": "2026-10-19T04:39:42.726Z",
     "updated_by": "tutor"
   },
   {
