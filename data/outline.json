@@ -287,17 +287,17 @@
       {
         "type": "ul",
         "items": [
-          "缺陷（Flaw）：作者哪一步不可靠？此處把申請行為的一種可能動機，當成必然的動機；答案須描述這個推理問題。",
-          "必要假設（NA）：什麼條件不可缺？例如「至少有一位 Notre Dame 申請者想就讀好學校」；若一位也沒有，已申請的 Jason 就不可能如結論所述。原命題本身則尚不足以證明 Jason 的意願。",
-          "充分假設（SA）：加入什麼就足以保證結論？例如「凡申請 Notre Dame 的人，都想就讀好學校」，與已知申請事實合用，即能推出結論。",
-          "加強（Strengthen）：哪項事實使這個動機更可信？例如 Jason 選擇申請對象時，特別重視學校品質；增加支持即可，不必保證結論。",
-          "削弱（Weaken）：哪項事實使申請較不能反映這個動機？例如這份申請只是研究學校如何回覆的一部分，與本人就讀意願無關；削弱的是申請到意願的推論。",
-          "評估（Evaluate）：查明什麼會改變這個判斷？例如「這份申請是否反映 Jason 本人的就讀意願？」比較不同回答對推論的影響，選的是值得查明的問題。"
+          "缺陷（Flaw）：作者哪一步不可靠？申請可能出於不同動機，作者卻由申請行為直接認定 Jason 的就讀意願。",
+          "必要假設（NA）：否定選項後，必要支持是否被破壞？選項：At least one Notre Dame applicant wants to attend a good school. 先Negate：沒有任何 Notre Dame 申請者想就讀好學校。已知事實：Jason 就是 Notre Dame 申請者之一。合起來：既然所有申請者都沒有這個意願，表示Jason 也沒有。對照 Conclusion：作者卻說 Jason 想就讀好學校，與否定後的結果矛盾，因此原選項是 NA。一般 NA 只須確認否定選項後，論證失去必要支持(被破壞)，不要求結論必然為假。",
+          "充分假設（SA）：加入選項後，還有反例嗎？選項：Everyone who applies to Notre Dame wants to attend a good school. Jason 已申請，加上所有申請者都有這個意願，就不可能出現反例(Premise 與選項都真，但 Jason 沒有這個意願的情況)，因此原選項是SA。",
+          "加強（Strengthen）：加入選項後，如何增加支持？選項：Jason places great importance on school quality when deciding where to apply. 這使申請行為更能反映他想就讀好學校。即使仍有其他動機的可能，也不妨礙加強作用；不必通過 NA 的否定檢驗或 SA 的反例檢驗。判斷的是支持作用：能加強，不一定必要；必要，不一定充分；充分，也可以加強(同一選項可同時涵蓋 Strengthen 和 SA 的要求)。",
+          "削弱（Weaken）：加入選項後，如何降低支持？選項：Jason submitted the application solely to study how the school responds, not because he wanted to attend. 申請是為了研究回覆，因而較不能用來支持作者對就讀意願的判斷。",
+          "評估（Evaluate）：哪個問題的不同回答會削弱支持？問題：Did Jason apply because he wanted to attend Notre Dame? 回答 Yes，較支持把申請視為就讀意願的證據；回答 No，則削弱這個連結。"
         ]
       },
       {
         "type": "p",
-        "text": "題型應用: 原則支持以一般規則或適用事實支持結論，門檻依完整題問判斷。Paradox 則接受題文現象、尋找解釋，不強行套入「前提支持結論」；各自見本家族相應子節。"
+        "text": "題型應用: Principle Support以一般規則或適用事實支持結論，門檻依完整題問判斷。Paradox 則接受題文現象、尋找解釋，不強行套入「前提支持結論」；各自見本家族相應子節。"
       },
       {
         "type": "p",
@@ -376,27 +376,15 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-10-10",
-        "by": "user",
-        "summary": "調整順序",
-        "before": {
-          "title": "Assumption Family（假設家族）",
-          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "教材統計",
-              "text": "LSAT Lab 題型比例：Assumption Family 64%；Flaw 16%；Necessary Assumption 11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption 4%。"
-            }
-          ]
-        }
-      },
       {
         "date": "2026-10-10",
         "by": "user",
@@ -691,9 +679,51 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Assumption Family（假設家族）",
+          "summary": "先辨識 Question Stem，再依題型使用 NA vs. SA、Strengthen、Weaken 或 Principle Support 子節；Principle-Support與Paradox另依各自任務處理。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先依完整題問確認任務。評估論證的共用程序見「論證結構 → 質疑結論」；各題型的差別，在於選項須滿足哪個答案要求。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 同一命題可能既是必要假設，也有加強作用；題型仍由題問決定。必要假設檢查必需性，充分假設檢查能否保證結論，加強與削弱則檢查支持程度的變化。"
+            },
+            {
+              "type": "p",
+              "text": "例子: 教材共用論證：Jason 申請了 Notre Dame，因此他一定想就讀好學校。以下比較同一論證的六種答題角度；示例用於辨認任務，不把每個合理補充都當成必要假設。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "缺陷（Flaw）：作者哪一步不可靠？此處把申請行為的一種可能動機，當成必然的動機；答案須描述這個推理問題。",
+                "必要假設（NA）：什麼條件不可缺？例如「至少有一位 Notre Dame 申請者想就讀好學校」；若一位也沒有，已申請的 Jason 就不可能如結論所述。原命題本身則尚不足以證明 Jason 的意願。",
+                "充分假設（SA）：加入什麼就足以保證結論？例如「凡申請 Notre Dame 的人，都想就讀好學校」，與已知申請事實合用，即能推出結論。",
+                "加強（Strengthen）：哪項事實使這個動機更可信？例如 Jason 選擇申請對象時，特別重視學校品質；增加支持即可，不必保證結論。",
+                "削弱（Weaken）：哪項事實使申請較不能反映這個動機？例如這份申請只是研究學校如何回覆的一部分，與本人就讀意願無關；削弱的是申請到意願的推論。",
+                "評估（Evaluate）：查明什麼會改變這個判斷？例如「這份申請是否反映 Jason 本人的就讀意願？」比較不同回答對推論的影響，選的是值得查明的問題。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "題型應用: 原則支持以一般規則或適用事實支持結論，門檻依完整題問判斷。Paradox 則接受題文現象、尋找解釋，不強行套入「前提支持結論」；各自見本家族相應子節。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: Assumption Family 64%；Flaw 16%；Necessary Assumption 11%；Weaken 9%；Principle 9%；Strengthen 7%；Paradox 7%；Sufficient Assumption 4%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-12T06:29:58.180Z",
+    "updated_at": "2026-10-20T04:31:39.945Z",
     "updated_by": "user",
     "proposals": []
   },
