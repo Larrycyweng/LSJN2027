@@ -13260,13 +13260,11 @@
     "blocks": [
       {
         "type": "p",
-        "text": "條件保證：A 成立時，B 必定成立，寫成 A → B；A 是充分條件，B 是必要條件。「提高 B 的機率」並不表達這項保證。",
-        "label": "辨識"
+        "text": "辨識: 條件保證：A 成立時，B 必定成立，寫成 A → B；A 是充分條件，B 是必要條件。「提高 B 的機率」並不表達這項保證。"
       },
       {
         "type": "p",
-        "text": "R1 A → B、B → C，可串接為 A → C。若 (A and B) → C，且 C → D，在已知 A 時可推出 B → D；但只有 A，仍不能直接推出 D。",
-        "label": "規則"
+        "text": "規則: R1 A → B、B → C，可串接為 A → C。若 (A and B) → C，且 C → D，在已知 A 時可推出 B → D；但只有 A，仍不能直接推出 D。"
       },
       {
         "type": "p",
@@ -13278,33 +13276,27 @@
       },
       {
         "type": "p",
-        "text": "R4 unless = if not（如果沒有）。P unless Q 先改寫成「如果非 Q，就 P」：非 Q → P；取逆否得非 P → Q。"
+        "text": "R4 (1) without／unless 後面的內容，保留原有肯定或否定，放箭頭右邊(必要條件)。"
       },
       {
         "type": "p",
-        "text": "Cannot P unless Q：「如果非 Q，就不能 P」，所以非 Q → 非 P；取逆否得 P → Q。unless 否定 Q，cannot 否定 P，兩個否定作用於不同內容。"
+        "text": "(2-1) 另一部分取否定，放左邊；\"P unless Q\" 圖示 \"~P → Q\"."
       },
       {
         "type": "p",
-        "text": "Cannot P unless Q 把 Q 設為 P 的必要條件，不保證 Q → P。without、until、except 也要讀完整句並逐一處理否定，不只套用單字口訣。"
+        "text": "(2-2) 若另一部分已有 No one can/ cannot/ will not，則改為肯定放左邊。\"They cannot P unless Q\" 圖示 \"P → Q\"; \"Without Q, they will not P\" 圖示 \"P → Q\""
       },
       {
         "type": "p",
-        "text": "R5 A if and only if B 表示 A → B 且 B → A。then and only then、when and only when 也表達雙向要求。遇到 otherwise，先還原前後兩句，再判斷是否形成雙條件。"
+        "text": "R5 A if and only if B 表示雙向要求 A → B 且 B → A。then and only then、when and only when 也表達雙向要求。遇到 otherwise，先還原前後兩句，再判斷是否形成雙條件。"
       },
       {
         "type": "p",
-        "text": "T1 條件訊號詞協助翻譯規則，但不決定句子是前提或結論。因果敘述中的 leads to，不可一律轉成沒有例外的條件保證。",
-        "label": "陷阱"
+        "text": "陷阱: T1 條件訊號詞協助翻譯規則，但不決定句子是前提或結論。因果敘述中的 leads to，不可一律轉成沒有例外的條件保證。"
       },
       {
         "type": "p",
-        "text": "June 2007 S3 Q16：S＝國家能存續；R＝許多公民相信國家具有道德權利與責任。No nation can survive unless… 先譯為非 R → 非 S，逆否為 S → R。",
-        "label": "例子"
-      },
-      {
-        "type": "p",
-        "text": "F＝許多公民抱持某些不符合字面事實的信念。題文說國家沒有這些權利與責任，故 R → F；串接得 S → F，等價於非 F → 非 S，也就是答案 B 的 cannot…unless。"
+        "text": "例子: June 2007 S3 Q16：S＝國家能存續；R＝許多公民相信國家具有道德權利與責任。No nation can survive unless responsibility… 先譯為非 R → 非 S，逆否為 S → R。"
       }
     ],
     "source_refs": [
@@ -13323,14 +13315,78 @@
       {
         "type": "LSATLab Notes",
         "ref": "沿用既有條件規則；補入 unless = if not、cannot…unless 的逐步翻譯與 June 2007 S3 Q16 家教解說。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
-    "protected": false,
-    "revisions": [],
+    "protected": true,
+    "revisions": [
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "條件翻譯與串接（Conditional Translations and Chains）",
+          "summary": "先處理否定與複合條件，再確認哪些條件足以啟動推論。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "條件保證：A 成立時，B 必定成立，寫成 A → B；A 是充分條件，B 是必要條件。「提高 B 的機率」並不表達這項保證。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 A → B、B → C，可串接為 A → C。若 (A and B) → C，且 C → D，在已知 A 時可推出 B → D；但只有 A，仍不能直接推出 D。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 否定 and 要改為 or；否定 or 要改為 and。(A and B) → C 的逆否為 not C → (not A or not B)。X → (Y or Z) 的逆否為 (not Y and not Z) → not X。"
+            },
+            {
+              "type": "p",
+              "text": "R3 No A are B 表示 A → not B；Not all A are B 表示有些 A 不是 B。few 不可翻成 none；本片段以 few A are B 表達多數 A 不是 B，閱讀時仍須保留原句的量詞與範圍。"
+            },
+            {
+              "type": "p",
+              "text": "R4 unless = if not（如果沒有）。P unless Q 先改寫成「如果非 Q，就 P」：非 Q → P；取逆否得非 P → Q。"
+            },
+            {
+              "type": "p",
+              "text": "Cannot P unless Q：「如果非 Q，就不能 P」，所以非 Q → 非 P；取逆否得 P → Q。unless 否定 Q，cannot 否定 P，兩個否定作用於不同內容。"
+            },
+            {
+              "type": "p",
+              "text": "Cannot P unless Q 把 Q 設為 P 的必要條件，不保證 Q → P。without、until、except 也要讀完整句並逐一處理否定，不只套用單字口訣。"
+            },
+            {
+              "type": "p",
+              "text": "R5 A if and only if B 表示 A → B 且 B → A。then and only then、when and only when 也表達雙向要求。遇到 otherwise，先還原前後兩句，再判斷是否形成雙條件。"
+            },
+            {
+              "type": "p",
+              "text": "T1 條件訊號詞協助翻譯規則，但不決定句子是前提或結論。因果敘述中的 leads to，不可一律轉成沒有例外的條件保證。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "June 2007 S3 Q16：S＝國家能存續；R＝許多公民相信國家具有道德權利與責任。No nation can survive unless… 先譯為非 R → 非 S，逆否為 S → R。",
+              "label": "例子"
+            },
+            {
+              "type": "p",
+              "text": "F＝許多公民抱持某些不符合字面事實的信念。題文說國家沒有這些權利與責任，故 R → F；串接得 S → F，等價於非 F → 非 S，也就是答案 B 的 cannot…unless。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20260929-o3",
-    "updated_at": "2026-10-05T06:52:09.750Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-20T01:54:36.180Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-043",
