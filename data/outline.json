@@ -9716,8 +9716,7 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
+        "text": "辨識: Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
       },
       {
         "type": "p",
@@ -9725,30 +9724,27 @@
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
+        "text": "規則: R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
       },
       {
         "type": "p",
-        "text": "R2 Causation 依「推理結構 → 因果」核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（「推理結構 → 比較」）。"
+        "text": "R2 Causation／Comparison：Causation 檢查是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 檢查比較標準與可比性，該指標須能支持建議的目標。詳見「推理結構 → 因果／比較」。"
       },
       {
         "type": "p",
-        "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
+        "text": "R3 Conditional：若題文未建立 If 的觸發條件，就不能直接用 Then 的結果作為削弱基礎。"
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（「論證結構」R1）。"
+        "text": "步驟: S1 找論證：標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises。見「論證結構」R1。"
       },
       {
         "type": "p",
-        "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
+        "text": "S2 讀選項：把選項當真，接回題文：「這項資訊如何使作者的推論較不可靠？」區分 Weaken、Strengthen 或無影響，再比較削弱程度。"
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
+        "text": "陷阱: T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
       },
       {
         "type": "p",
@@ -9760,8 +9756,11 @@
       },
       {
         "type": "p",
-        "label": "例子",
-        "text": "旅遊乘客購買 80% 機票，不直接代表航空公司應優先重視其舒適需求。若商務乘客帶來的營收遠高於旅遊乘客，便提供不同的商業理由，削弱「機票占比 → 服務優先順序」的推論。只說長途旅遊者不把睡眠舒適列為首要考量，不等於他們不重視舒適，也未必足以改變整體優先順序。"
+        "text": "例子: 旅遊乘客購買 80% 機票，不直接代表航空公司應優先重視其舒適需求。若商務乘客帶來的營收遠高於旅遊乘客，便提供不同的商業理由，削弱「機票占比 → 服務優先順序」的推論。只說長途旅遊者不把睡眠舒適列為首要考量，不等於他們不重視舒適，也未必足以改變整體優先順序。"
+      },
+      {
+        "type": "p",
+        "text": "選項說：「若疾病在低煙灰城市很少發生，煙灰大概就是病因。」題文只提供煙灰與疾病的正相關，沒有提供「低煙灰城市很少發病」的觸發前提。因此，不能直接取用「煙灰大概就是病因」來反駁作者。"
       }
     ],
     "source_refs": [
@@ -9784,6 +9783,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
@@ -10390,10 +10393,70 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Weaken（削弱）",
+          "summary": "假設選項為真，它如何使證據較不足以支持結論？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "Question Stem 要求 most weakens、casts the most doubt 或 most seriously undermines，常以 if true 指示接受 Answer Choice 為真。Weaken EXCEPT 選不削弱者，可能無影響，也可能 Strengthen。"
+            },
+            {
+              "type": "p",
+              "text": "教材結構統計：Comparison 78%、Causation 52%、Conditional Logic 6%。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 接受 Answer Choice 為真，判斷它是否降低 Premises 對 Conclusion 的支持；不必證明 Conclusion 必然為假。選項可以提供 Stimulus 原先沒有的資訊。"
+            },
+            {
+              "type": "p",
+              "text": "R2 Causation 依「推理結構 → 因果」核對兩問：是否有其他解釋，或作者解釋本身是否受到動搖。Comparison 則核對比較標準與可比性（「推理結構 → 比較」）。"
+            },
+            {
+              "type": "p",
+              "text": "R3 作者由某項比較推導優先順序時，指出比較的對象、衡量指標與建議，再看選項是否動搖該指標對建議的支持。例如 Ticket share 較高，不直接代表應優先分配服務資源；Revenue share 可能提供不同的商業理由。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 標出完整 Conclusion，保留對象、範圍與限定語，再找作者所用的 Premises（「論證結構」R1）。"
+            },
+            {
+              "type": "p",
+              "text": "S2 逐項完成一句話：即使 Premises 為真，這項資訊如何使作者的推論較不可靠？依作用判為 Weaken、Strengthen 或無影響；暫時說不出作用時，先核對對象與關係，不立即判為無影響。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 研究有不完善之處，未必削弱 Argument。檢查它是否動搖 Measurement Validity、組間可比性，或作者對結果的解釋。即使兩組都受到某因素影響，也須判斷其對推論的作用。"
+            },
+            {
+              "type": "p",
+              "text": "T2 教材誘答統計：Out of Scope 37%、Strengthens 35%、Too Weak 24%、Irrelevant Relationship 2%。依序核對：是否涉及本題推理、作用方向是否相反、資訊是否足以動搖推論、所談關係是否與推論有關。"
+            },
+            {
+              "type": "p",
+              "text": "T3 Scope／Degree：not primary concern 不等於 not important；特定情境的一項需求不等於整體需求。讀清楚 Answer Choice 實際涵蓋的範圍與強度，再判斷其削弱作用。"
+            },
+            {
+              "type": "p",
+              "label": "例子",
+              "text": "旅遊乘客購買 80% 機票，不直接代表航空公司應優先重視其舒適需求。若商務乘客帶來的營收遠高於旅遊乘客，便提供不同的商業理由，削弱「機票占比 → 服務優先順序」的推論。只說長途旅遊者不把睡眠舒適列為首要考量，不等於他們不重視舒適，也未必足以改變整體優先順序。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260923-o3",
-    "updated_at": "2026-10-10T20:41:55.706Z",
+    "updated_at": "2026-10-20T01:08:03.273Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -18236,39 +18299,39 @@
     "blocks": [
       {
         "type": "p",
-        "text": "題問常見 explain、resolve、paradox、discrepancy、apparent conflict，通常以 if true 指示接受選項為真。先確認要解釋哪個現象；有些 Explain 題只有待解釋事件，不一定有兩邊明顯衝突。",
-        "label": "辨識"
+        "text": "辨識: 題問常見 explain、resolve、paradox、discrepancy、apparent conflict，通常以 if true 指示接受選項為真。先確認要解釋哪個現象；有些 Explain 題只有待解釋事件，不一定有兩邊明顯衝突。"
       },
       {
         "type": "p",
-        "text": "R1 題文的現象都保留為真。若有表面衝突，答案須說明它們為何能同時發生，不能否定其中一邊，也不必把題文硬拆成前提與結論。",
-        "label": "規則"
+        "text": "規則: R1 題文的現象都保留為真。若有表面衝突，答案須說明它們為何能同時發生。"
       },
       {
         "type": "p",
-        "text": "R2 正解可提供新資訊，使意外結果變得合理；most helps to explain 比較解釋力，不要求證明唯一原因。可用一般常識連接資訊，但不能另編選項沒有提供的關鍵條件。"
+        "text": "R2 正解可提供新資訊，使意外結果變得合理；most helps to explain 比較解釋力，不要求證明唯一原因。"
       },
       {
         "type": "p",
-        "text": "R3 比較題常問：背景相似，結果為何不同？背景不同，結果為何相同？前者找有意義的差異，後者檢查抵銷因素或原先差異為何未起作用。比較與因果工具見「推理結構」相應子節。"
+        "text": "R3 Comparison題常問：背景相似，結果為何不同？Analogy找差異。背景不同，結果為何相同？檢查抵銷因素或原先差異為何未起作用。見「推理結構 → Causation 和 Comparison」。"
       },
       {
         "type": "p",
-        "text": "S1 依題問定位待解釋結果，再找使它令人意外的背景。however、yet、nevertheless 是線索，句子位置不能單獨決定解釋對象。",
-        "label": "步驟"
+        "text": "步驟: S1 Locate:待解釋結果、令人意外的背景。however、yet、nevertheless 是線索，句子位置不能單獨決定解釋對象。"
       },
       {
         "type": "p",
-        "text": "S2 把問題讀成「已知這個背景，為什麼卻出現這個結果？」說清原本預期什麼、實際卻如何；若只問單一事件，就直接確認該事件。"
+        "text": "S2 說出 Expected vs. Actual。"
       },
       {
         "type": "p",
-        "text": "S3 接受選項為真，完成一句話：「因為這項資訊，所以這個背景下仍會出現該結果。」Resolve／Explain EXCEPT 選未提供解釋者；其餘選項可以各用不同機制解釋。"
+        "text": "S3 把選項當真，接回題文：「因為這項資訊，所以這個背景下仍會出現該結果。」門檻：提高可能性即可，不必 保證唯一結果。"
       },
       {
         "type": "p",
-        "text": "T1 加深矛盾（Deepens Paradox）：選項使意外結果更難理解，而非較容易理解。",
-        "label": "陷阱"
+        "text": "錯題: 捕食原本不利，但保水可能帶來抵銷利益，因此族群反而更健康。"
+      },
+      {
+        "type": "p",
+        "text": "陷阱: T1 加深矛盾（Deepens Paradox）：選項使意外結果更難理解，而非較容易理解。"
       },
       {
         "type": "p",
@@ -18287,14 +18350,133 @@
       {
         "type": "LSATLab Notes",
         "ref": "LR-Strategies.pdf 第12–13頁 Paradox；LR-cram-sheet.pdf 第1頁 Paradox；既有大綱 Comparison 的 Paradox 應用。Notes v2 第6頁僅列標題，v3 未收錄專節，故依已附 LSAT Lab 教材補齊，並保留現有家族編排。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
-    "protected": false,
-    "revisions": [],
+    "protected": true,
+    "revisions": [
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Paradox（解釋矛盾）",
+          "summary": "接受題文現象，找出能解釋意外結果或化解表面衝突的新資訊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "題問常見 explain、resolve、paradox、discrepancy、apparent conflict，通常以 if true 指示接受選項為真。先確認要解釋哪個現象；有些 Explain 題只有待解釋事件，不一定有兩邊明顯衝突。",
+              "label": "辨識"
+            },
+            {
+              "type": "p",
+              "text": "R1 題文的現象都保留為真。若有表面衝突，答案須說明它們為何能同時發生，不能否定其中一邊，也不必把題文硬拆成前提與結論。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 正解可提供新資訊，使意外結果變得合理；most helps to explain 比較解釋力，不要求證明唯一原因。可用一般常識連接資訊，但不能另編選項沒有提供的關鍵條件。"
+            },
+            {
+              "type": "p",
+              "text": "R3 比較題常問：背景相似，結果為何不同？背景不同，結果為何相同？前者找有意義的差異，後者檢查抵銷因素或原先差異為何未起作用。比較與因果工具見「推理結構」相應子節。"
+            },
+            {
+              "type": "p",
+              "text": "S1 依題問定位待解釋結果，再找使它令人意外的背景。however、yet、nevertheless 是線索，句子位置不能單獨決定解釋對象。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 把問題讀成「已知這個背景，為什麼卻出現這個結果？」說清原本預期什麼、實際卻如何；若只問單一事件，就直接確認該事件。"
+            },
+            {
+              "type": "p",
+              "text": "S3 接受選項為真，完成一句話：「因為這項資訊，所以這個背景下仍會出現該結果。」Resolve／Explain EXCEPT 選未提供解釋者；其餘選項可以各用不同機制解釋。"
+            },
+            {
+              "type": "p",
+              "text": "T1 加深矛盾（Deepens Paradox）：選項使意外結果更難理解，而非較容易理解。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 只解釋背景（Explains Background）：說明原本預期為何合理，卻未解釋實際結果。"
+            },
+            {
+              "type": "p",
+              "text": "T3 未交代有關差異（No Distinction）：結果不同，選項卻只說兩邊共有的情況，且未說明效果為何不同。核對同一群體、時段與衡量標準，不能換主體。"
+            },
+            {
+              "type": "p",
+              "text": "T4 解釋力不足（Too Weak）：資訊未足以涉及待解釋現象，或仍須另加關鍵假設。依整句的範圍與作用判斷，不因出現 some、may 就直接排除。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Paradox（解釋矛盾）",
+          "summary": "接受題文現象，找出能解釋意外結果或化解表面衝突的新資訊。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 題問常見 explain、resolve、paradox、discrepancy、apparent conflict，通常以 if true 指示接受選項為真。先確認要解釋哪個現象；有些 Explain 題只有待解釋事件，不一定有兩邊明顯衝突。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 題文的現象都保留為真。若有表面衝突，答案須說明它們為何能同時發生。"
+            },
+            {
+              "type": "p",
+              "text": "R2 正解可提供新資訊，使意外結果變得合理；most helps to explain 比較解釋力，不要求證明唯一原因。"
+            },
+            {
+              "type": "p",
+              "text": "R3 Comparison題常問：背景相似，結果為何不同？Analogy找差異。背景不同，結果為何相同？檢查抵銷因素或原先差異為何未起作用。見「推理結構 → Causation 和 Comparison」。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 依題問定位待解釋結果，再找使它令人意外的背景。however、yet、nevertheless 是線索，句子位置不能單獨決定解釋對象。"
+            },
+            {
+              "type": "p",
+              "text": "S2 說出 Expected vs. Actual。"
+            },
+            {
+              "type": "p",
+              "text": "S3 把選項當真，接回題文：「因為這項資訊，所以這個背景下仍會出現該結果。」門檻：提高可能性即可，不必 保證唯一結果。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 加深矛盾（Deepens Paradox）：選項使意外結果更難理解，而非較容易理解。"
+            },
+            {
+              "type": "p",
+              "text": "T2 只解釋背景（Explains Background）：說明原本預期為何合理，卻未解釋實際結果。"
+            },
+            {
+              "type": "p",
+              "text": "T3 未交代有關差異（No Distinction）：結果不同，選項卻只說兩邊共有的情況，且未說明效果為何不同。核對同一群體、時段與衡量標準，不能換主體。"
+            },
+            {
+              "type": "p",
+              "text": "T4 解釋力不足（Too Weak）：資訊未足以涉及待解釋現象，或仍須另加關鍵假設。依整句的範圍與作用判斷，不因出現 some、may 就直接排除。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "01-20261011-notes-v3-a2",
-    "updated_at": "2026-10-12T04:59:48.030Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-20T00:21:53.646Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-063",
