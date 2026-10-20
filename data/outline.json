@@ -10531,8 +10531,8 @@
       {
         "type": "ul",
         "items": [
-          "NA（Necessary Assumption）：問論證必須依賴什麼，常見 requires、depends on、relies on、must be assumed。",
-          "SA（Sufficient Assumption）：問加入什麼可保證結論，常見 conclusion follows logically if … assumed、…enables the conclusion to be properly drawn。"
+          "NA（Necessary Assumption）：常見 requires、depends on、relies on、must be assumed。",
+          "SA（Sufficient Assumption）：常見 conclusion follows logically if … assumed、…enables the conclusion to be properly drawn。"
         ]
       },
       {
@@ -10541,27 +10541,51 @@
       },
       {
         "type": "p",
-        "text": "規則: R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。保留範圍和限定詞，不先刪去子句而只看選項主旨。"
+        "text": "規則: R1 NA｜必要性：作者用 Premises 支持 Conclusion 時，必須依賴的假設。否定選項後，這個支持關係失去必要條件；僅稍微削弱不夠，不要求 Conclusion 本身為假。"
       },
       {
         "type": "p",
-        "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
+        "text": "R2 NA｜Linking／Defending：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞推論的情況。兩種作用都須符合 R1，不能只因選項有幫助就判為 NA。"
       },
       {
         "type": "p",
-        "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
+        "text": "R3 SA｜充分性：Premises 與選項皆真時，不能仍有 Conclusion 為假的反例。若仍須另加未給定的假設才能推出 Conclusion，選項就不夠。"
       },
       {
         "type": "p",
-        "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
+        "text": "R4 SA｜補充方式：選項可提供啟動 Conditional Rule 的事實、補上推理連結，或排除剩餘反例。無論採哪種方式，都須符合 R3；僅提高可信度或排除部分反例，不一定足夠。"
       },
       {
         "type": "p",
-        "text": "步驟: S1 NA：原句意思 → Negate選項 → 對支持關係的影響。(1)找出「作者用什麼理由，支持哪項結論」，預想兩者間必需的連結或須排除的異議；(2)將選項做否定陳述；(3)帶入原句驗證，支持關係是否被破壞。"
+        "text": "步驟: S1 NA｜原意 → Negate → Apply"
       },
       {
         "type": "p",
-        "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+        "text": "1-1. 找出作者用哪些 Premises 支持哪項 Conclusion，預想必需的連結或須排除的異議。"
+      },
+      {
+        "type": "p",
+        "text": "1-2. 讀完整選項，確認範圍、數量、條件與讓步子句，再做精確 Negate；不能只否定自己概括的主旨。"
+      },
+      {
+        "type": "p",
+        "text": "1-3. 保留 Premises，將否定後的選項帶回論證，具體說明哪項必要支持被破壞。不要自行加上否定內容未包含的情境。"
+      },
+      {
+        "type": "p",
+        "text": "S2 SA｜Prephrase → 加入選項 → Bridge Test"
+      },
+      {
+        "type": "p",
+        "text": "2-1. 對照 Premises 與 Conclusion，預想需要補充的事實或連結。"
+      },
+      {
+        "type": "p",
+        "text": "2-2. 將選項當真，與 Premises 合用。遇到 Conditional Reasoning，畫出箭頭，必要時使用 Contrapositive，檢查能否接到 Conclusion。"
+      },
+      {
+        "type": "p",
+        "text": "2-3. 檢查：「Premises 與選項都真，Conclusion 還可能是假嗎？」能指出符合兩者的反例，或推導仍需額外假設，就排除該選項。"
       },
       {
         "type": "p",
@@ -11925,10 +11949,84 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "NA vs. SA（必要假設與充分假設）",
+          "summary": "NA：否定後是否失去必要支持？SA：加入後是否仍可能 Conclusion 為假？",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先用完整題幹區分必要假設與充分假設："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "NA（Necessary Assumption）：問論證必須依賴什麼，常見 requires、depends on、relies on、must be assumed。",
+                "SA（Sufficient Assumption）：問加入什麼可保證結論，常見 conclusion follows logically if … assumed、…enables the conclusion to be properly drawn。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "follows logically 單獨不能區分題型；須依完整句意及 if／only if 的作用判讀。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。保留範圍和限定詞，不先刪去子句而只看選項主旨。"
+            },
+            {
+              "type": "p",
+              "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
+            },
+            {
+              "type": "p",
+              "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 NA：原句意思 → Negate選項 → 對支持關係的影響。(1)找出「作者用什麼理由，支持哪項結論」，預想兩者間必需的連結或須排除的異議；(2)將選項做否定陳述；(3)帶入原句驗證，支持關係是否被破壞。"
+            },
+            {
+              "type": "p",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "text": "T2 SA：Too Weak 指加入後仍有 Counterexample；選項強於所需不是刪除理由，只要與 Premises 合用能保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "T3 SA：Right Ideas, Wrong Order 要核對箭頭方向與 Negation 位置；Lacks Crucial Term 要檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase；Out of Scope 要檢查選項是否真正參與推導 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "官方例題: PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答比較：NA：Too Strong 36%、Out of Scope 33%；SA：Out of Scope 36%、Too Weak 31%。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-na-vs-sa-child01",
-    "updated_at": "2026-10-20T04:50:51.055Z",
+    "updated_at": "2026-10-20T05:11:05.667Z",
     "updated_by": "user"
   },
   {
