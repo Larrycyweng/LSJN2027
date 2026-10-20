@@ -10470,8 +10470,7 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "先用完整題幹區分必要假設與充分假設："
+        "text": "辨識: 先用完整題幹區分必要假設與充分假設："
       },
       {
         "type": "ul",
@@ -10486,8 +10485,7 @@
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。"
+        "text": "規則: R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。保留範圍和限定詞，不先刪去子句而只看選項主旨。"
       },
       {
         "type": "p",
@@ -10503,8 +10501,7 @@
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 NA：先用一句話確認「作者用什麼理由，支持哪項具體結論」，再找兩者間必需的連結或須排除的異議。對仍有競爭力的完整選項做否定測試；保留量詞、否定範圍、條件、讓步與時間限制，不先刪去子句而只否定選項大意。"
+        "text": "步驟: S1 NA：原句意思 → Negate選項 → 對支持關係的影響。(1)找出「作者用什麼理由，支持哪項結論」，預想兩者間必需的連結或須排除的異議；(2)將選項做否定陳述；(3)帶入原句驗證，支持關係是否被破壞。"
       },
       {
         "type": "p",
@@ -10512,8 +10509,7 @@
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
+        "text": "陷阱: T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
       },
       {
         "type": "p",
@@ -10525,13 +10521,11 @@
       },
       {
         "type": "p",
-        "label": "官方例題",
-        "text": "PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
+        "text": "官方例題: PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
       },
       {
         "type": "p",
-        "label": "教材統計",
-        "text": "推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
+        "text": "教材統計: 推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
       },
       {
         "type": "p",
@@ -10562,10 +10556,14 @@
       {
         "type": "User Revision",
         "ref": "2026-10-18 使用者確認之 NA 大綱操作補強；既有 OL-039 R1／R2／S1；PT141 S4 Q19 使用者截圖。[補充]：先定位具體支持關係，再保留完整命題檢查必要性。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-19"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-09-24",
@@ -11569,11 +11567,239 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "NA vs. SA（必要假設與充分假設）",
+          "summary": "NA：否定後是否失去必要支持？SA：加入後是否仍可能 Conclusion 為假？",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "先用完整題幹區分必要假設與充分假設："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "NA（Necessary Assumption）：問論證必須依賴什麼，常見 requires、depends on、relies on、must be assumed。",
+                "SA（Sufficient Assumption）：問加入什麼可保證結論，常見 if assumed、enables the conclusion to be properly drawn。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "follows logically 單獨不能區分題型；須依完整句意及 if／only if 的作用判讀。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。"
+            },
+            {
+              "type": "p",
+              "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
+            },
+            {
+              "type": "p",
+              "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 NA：先用一句話確認「作者用什麼理由，支持哪項具體結論」，再找兩者間必需的連結或須排除的異議。對仍有競爭力的完整選項做否定測試；保留量詞、否定範圍、條件、讓步與時間限制，不先刪去子句而只否定選項大意。"
+            },
+            {
+              "type": "p",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "text": "T2 SA：Too Weak 指加入後仍有 Counterexample；選項強於所需不是刪除理由，只要與 Premises 合用能保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "T3 SA：Right Ideas, Wrong Order 要核對箭頭方向與 Negation 位置；Lacks Crucial Term 要檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase；Out of Scope 要檢查選項是否真正參與推導 Conclusion。"
+            },
+            {
+              "type": "p",
+              "label": "官方例題",
+              "text": "PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
+            },
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答比較：NA：Too Strong 36%、Out of Scope 33%；SA：Out of Scope 36%、Too Weak 31%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "NA vs. SA（必要假設與充分假設）",
+          "summary": "NA：否定後是否失去必要支持？SA：加入後是否仍可能 Conclusion 為假？",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先用完整題幹區分必要假設與充分假設："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "NA（Necessary Assumption）：問論證必須依賴什麼，常見 requires、depends on、relies on、must be assumed。",
+                "SA（Sufficient Assumption）：問加入什麼可保證結論，常見 if assumed、enables the conclusion to be properly drawn。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "follows logically 單獨不能區分題型；須依完整句意及 if／only if 的作用判讀。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。保留範圍和限定詞，不先刪去子句而只看選項主旨。"
+            },
+            {
+              "type": "p",
+              "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
+            },
+            {
+              "type": "p",
+              "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 NA：原句意思 → Negate選項 → 對支持關係的影響。找出「作者用什麼理由，支持哪項結論」，預想兩者間必需的連結或須排除的異議。將選項做否定陳述，帶入原句支持關係做驗證。"
+            },
+            {
+              "type": "p",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "text": "T2 SA：Too Weak 指加入後仍有 Counterexample；選項強於所需不是刪除理由，只要與 Premises 合用能保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "T3 SA：Right Ideas, Wrong Order 要核對箭頭方向與 Negation 位置；Lacks Crucial Term 要檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase；Out of Scope 要檢查選項是否真正參與推導 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "官方例題: PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答比較：NA：Too Strong 36%、Out of Scope 33%；SA：Out of Scope 36%、Too Weak 31%。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-10-19",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "NA vs. SA（必要假設與充分假設）",
+          "summary": "NA：否定後是否失去必要支持？SA：加入後是否仍可能 Conclusion 為假？",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先用完整題幹區分必要假設與充分假設："
+            },
+            {
+              "type": "ul",
+              "items": [
+                "NA（Necessary Assumption）：問論證必須依賴什麼，常見 requires、depends on、relies on、must be assumed。",
+                "SA（Sufficient Assumption）：問加入什麼可保證結論，常見 if assumed、enables the conclusion to be properly drawn。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "follows logically 單獨不能區分題型；須依完整句意及 if／only if 的作用判讀。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 NA：使用 Negation Test。否定 Answer Choice，檢查 Argument 是否失去必須依賴的支持。僅讓 Argument 稍弱不足以確認答案；不要求否定後證明 Conclusion 為假。保留範圍和限定詞，不先刪去子句而只看選項主旨。"
+            },
+            {
+              "type": "p",
+              "text": "R2 NA：Linking 補上 Premises 與 Conclusion 之間必須依賴的連結；Defending 排除會破壞 Argument 的可能性。辨認選項作用後，以 R1 確認；無須自行列出所有可能反例。"
+            },
+            {
+              "type": "p",
+              "text": "R3 SA：使用 Bridge Test。將 Answer Choice 與 Premises 合用，問「是否仍可能 Premises 與選項皆真，而 Conclusion 為假？」若仍有 Counterexample，或仍須另加未給定的 Assumption 才能推出 Conclusion，該選項不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R4 SA：正解可提供啟動 Conditional Rule 的事實、補上推理鏈的 bridge，或排除所有剩餘的 Counterexamples。最後皆須通過 R3；僅排除其中一種 Counterexample 未必足夠。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 NA：原句意思 → Negate選項 → 對支持關係的影響。(1)找出「作者用什麼理由，支持哪項結論」，預想兩者間必需的連結或須排除的異議；(2)將選項做否定陳述；(3)帶入原句驗證支持關係是否被破壞。"
+            },
+            {
+              "type": "p",
+              "text": "S2 SA：先 Prephrase 所需事實或 bridge。遇到 Conditional Reasoning，畫出 Premises 與 Conclusion 的方向，核對 Answer Choice 及其 Contrapositive，再做 Bridge Test。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 NA：Too Strong、Out of Scope。檢查選項是否要求 Argument 不必依賴的內容；也不能只因措辭較弱就接受。all、any、only、most、some 均須放回完整命題判斷。"
+            },
+            {
+              "type": "p",
+              "text": "T2 SA：Too Weak 指加入後仍有 Counterexample；選項強於所需不是刪除理由，只要與 Premises 合用能保證 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "T3 SA：Right Ideas, Wrong Order 要核對箭頭方向與 Negation 位置；Lacks Crucial Term 要檢查是否連接 Conclusion 的關鍵概念，允許 Paraphrase；Out of Scope 要檢查選項是否真正參與推導 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "官方例題: PT141 S4 Q19：目標為防止動機流失，建議為讓孩子相信更好的未來可能實現；B 連接建議與目標。C 的「即使基於幻想也較好」不是論證不可缺少的主張；不接受它，仍可主張有現實依據的希望有助維持動機。此處核對的是支持關係與必要性，不要求選項重複題文關鍵詞。"
+            },
+            {
+              "type": "p",
+              "text": "教材統計: 推理結構／作用分類：NA Linking 41%、Defending 59%；SA Conditional 90%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答比較：NA：Too Strong 36%、Out of Scope 33%；SA：Out of Scope 36%、Too Weak 31%。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-na-vs-sa-child01",
-    "updated_at": "2026-10-19T05:11:20.363Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-10-20T03:11:27.386Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-040",
