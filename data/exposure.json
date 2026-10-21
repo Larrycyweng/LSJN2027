@@ -65,19 +65,19 @@
     "pt_id": "PT141",
     "exposure_status": "已完成",
     "first_exposure": "",
-    "last_exposure": "2026-10-18",
+    "last_exposure": "2026-10-19",
     "sections_seen": "S1 RC：2026-09-18不限時17/27；S2 LR：2026-09-18為16/25，前20題限時內15/20、末5題超時1/5；S3 RC（實驗）：2026-09-25為17/27，使用者回報約60分鐘含休息，非標準35分鐘；S4 LR：2026-10-18 CP1不限時16/26。",
     "questions_seen": 105,
     "full_score": null,
     "blind_review": "否",
-    "explanations_seen": "S1、S2已有檢討；S3已作答、尚未檢討；S4已完成並看過成績對錯標記，尚未逐題檢討。",
+    "explanations_seen": "S1、S2已有檢討；S3已作答、尚未檢討；S4已完成，十題錯題已於2026-10-18至10-19逐題檢討完成。",
     "clean_pt_eligible": "否",
     "notes": "PT141四節已分日完成，不作乾淨完整模考。S4全部26題及十題錯題清單已保存於2026-10-18 handoff。報告49/78、154分僅為不同日期及作答條件合併的換算結果，不作正式模考能力或就緒判定依據。",
     "source": "LSJN2027_LSAT_Study_Plan_2026-09-12.docx",
     "client_request_id": "W1-20260925-x1",
     "created_at": "2026-09-25T22:59:21.695Z",
-    "updated_at": "2026-10-19T02:36:54.870Z",
-    "last_request_id": "03-20261018-cp1-x1"
+    "updated_at": "2026-10-21T03:02:55.903Z",
+    "last_request_id": "03-20261019-cp1-review-x1"
   },
   {
     "pt_id": "PT150",
