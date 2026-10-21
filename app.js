@@ -10,9 +10,10 @@ const ID_KEY = {sessions:'session_id', attempts:'attempt_id', exposure:'pt_id',
 const LS_LOCAL = 'lsjn.local.v1';
 const SIG_EDIT_FIELDS = ['error_type','trigger_signal','why_attractive','corrective_action','attraction','scope','notes','stage','signature_status','evidence_count','last_seen'];
 const LS_GH = 'lsjn.gh.v1';
-const APP_VERSION = '0.5.3';
+const APP_VERSION = '0.5.4';
 
-const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null };
+const S = { settings:null, data:{}, dirty:new Set(), remoteOk:false, gh:null, syncing:false };
+const LS_LASTSYNC = 'lsjn.lastsync.v1';
 
 /* ---------- utilities ---------- */
 const $ = (sel, root=document) => root.querySelector(sel);
@@ -77,6 +78,34 @@ function mergeById(remote, local, key){
   return Array.from(map.values());
 }
 
+/* v0.5.4：跨裝置編號碰撞。session_id、handoff_id 等由各裝置依本機資料推算，
+   兩台裝置在未互相同步前各自新增，會產生同一編號的不同紀錄；舊版 mergeById 以 updated_at 決勝，
+   較舊的一筆會被覆蓋而消失（學習時數不同步的主因之一）。此處在合併前把 pending 中與遠端
+   「同編號但不同紀錄」（created_at 不同）的紀錄改派新編號，兩筆都保留。 */
+function freeId(id, taken, file){
+  let m;
+  if(file==='sessions' && (m=id.match(/^(S-\d{8}-)(\d+)$/))){ let n=Number(m[2]); let c; do{ c=`${m[1]}${pad2(++n)}`; }while(taken.has(c)); return c; }
+  if(file==='attempts'){ const base=id.replace(/-R\d+$/,''); let r=1, c=id; while(taken.has(c)) c=`${base}-R${++r}`; return c; }
+  if((m=id.match(/^([A-Za-z]+-)(\d+)$/))){ let n=Number(m[2]); let c; do{ c=`${m[1]}${String(++n).padStart(m[2].length,'0')}`; }while(taken.has(c)); return c; }
+  let k=2, c=`${id}-${k}`; while(taken.has(c)) c=`${id}-${++k}`; return c;
+}
+function rekeyCollisions(file, remote, pending){
+  const key=ID_KEY[file]; if(!['sessions','attempts','handoffs','signatures','cards'].includes(file) || !pending || !pending.length) return {pending, renamed:[]};
+  const rmap=new Map((remote||[]).map(r=>[r[key], r]));
+  const taken=new Set([...rmap.keys(), ...pending.map(p=>p[key])]);
+  const renamed=[];
+  const out=pending.map(p=>{
+    const r=rmap.get(p[key]);
+    if(!r) return p;
+    const same = (r.created_at && p.created_at && r.created_at===p.created_at) || (r.client_request_id && p.client_request_id && r.client_request_id===p.client_request_id);
+    if(same) return p;
+    const nid=freeId(p[key], taken, file); taken.add(nid);
+    renamed.push(`${p[key]}→${nid}`);
+    return Object.assign({}, p, {[key]:nid, renamed_from:p[key], updated_at:nowISO()});
+  });
+  return {pending:out, renamed};
+}
+
 async function fetchJSON(path){
   const res = await fetch(path + '?t=' + Date.now(), {cache:'no-store'});
   if(!res.ok) throw new Error(path+' '+res.status);
@@ -94,7 +123,8 @@ async function loadAll(){
   for(const f of FILES){
     let remote = [];
     try{ remote = await fetchJSON(`data/${f}.json`); }catch(e){ remoteOk=false; remote = (local[f]&&local[f].snapshot)||[]; }
-    const pending = (local[f]&&local[f].pending)||[];
+    let pending = (local[f]&&local[f].pending)||[];
+    if(pending.length){ const rk=rekeyCollisions(f, remote, pending); if(rk.renamed.length){ pending=rk.pending; local[f].pending=pending; writeLocal(local); console.warn('rekey', f, rk.renamed); toast(`本機紀錄編號與遠端碰撞，已改派：${rk.renamed.join('、')}`); } }
     S.data[f] = mergeById(remote, pending, ID_KEY[f]);
     if(pending.length) S.dirty.add(f);
   }
@@ -121,13 +151,22 @@ function persist(file, record){
   writeLocal(local);
   S.dirty.add(file);
   updateSyncIndicator();
+  scheduleSync();
 }
 
 function persistObj(file, obj){
   obj.updated_at = nowISO();
   S.data[file]=obj;
   const local=readLocal(); local[file]=local[file]||{}; local[file].pendingObj=obj; local[file].snapshot=obj; writeLocal(local);
-  S.dirty.add(file); updateSyncIndicator();
+  S.dirty.add(file); updateSyncIndicator(); scheduleSync();
+}
+/* v0.5.4：任何本機寫入（學習時數表單、進度勾選、卡片複習）在有權杖時自動排程同步。
+   舊版只有寫回包會自動同步，表單新增的學習時數要手動按「立即同步」，否則只留在該裝置。 */
+let syncTimer=null;
+function scheduleSync(){
+  if(!(S.gh&&S.gh.token&&S.gh.owner&&S.gh.repo)) return;
+  clearTimeout(syncTimer);
+  syncTimer=setTimeout(()=>{ if(!S.dirty.size) return; if(S.syncing){ scheduleSync(); return; } syncNow(); }, 1500);
 }
 function updateSyncIndicator(){
   const el=$('#sync-ind'), tx=$('#sync-text');
@@ -174,6 +213,8 @@ async function ghRead(path){
 async function syncNow(){
   if(!S.gh||!S.gh.token||!S.gh.owner||!S.gh.repo){ toast('請先填寫 owner、repo 與 token'); return; }
   if(!S.dirty.size){ toast('沒有需要同步的變更'); return; }
+  if(S.syncing) return;
+  S.syncing=true;
   const btn=$('#btn-sync'); btn.disabled=true;
   const local=readLocal();
   try{
@@ -189,7 +230,9 @@ async function syncNow(){
           out = (pending && (!remote || (pending.updated_at||'')>=(remote.updated_at||''))) ? pending : remote;
         } else {
           const remote = cur ? JSON.parse(cur.text) : [];
-          out = mergeById(remote, (local[f]&&local[f].pending)||[], ID_KEY[f]);
+          const rk=rekeyCollisions(f, remote, (local[f]&&local[f].pending)||[]);
+          if(rk.renamed.length){ local[f].pending=rk.pending; console.warn('rekey', f, rk.renamed); results.push(`${f} 編號改派 ${rk.renamed.join('、')}`); }
+          out = mergeById(remote, rk.pending, ID_KEY[f]);
           out.sort((a,b)=> String(a[ID_KEY[f]]).localeCompare(String(b[ID_KEY[f]])));
         }
         const body={message:`update ${f} (${todayLA()})`, content:b64encode(JSON.stringify(out,null,2)+'\n'), branch:S.gh.branch};
@@ -199,10 +242,12 @@ async function syncNow(){
         local[f]= OBJ_FILES.includes(f)? {snapshot:out} : {pending:[], snapshot:out}; S.dirty.delete(f); results.push(f+' ✓');
       }catch(e){ results.push(f+' ✗ '+e.message.slice(0,80)); }
     }
-    writeLocal(local); S.remoteOk=true; updateSyncIndicator(); renderAll();
-    toast(S.dirty.size? '部分同步失敗：'+results.join('；') : '同步完成');
+    writeLocal(local); S.remoteOk=true; updateSyncIndicator();
+    if(!S.dirty.size) localStorage.setItem(LS_LASTSYNC, nowISO());
+    renderAll();
+    toast(S.dirty.size? '部分同步失敗：'+results.join('；') : '同步完成'+(results.some(r=>r.includes('改派'))?'（'+results.filter(r=>r.includes('改派')).join('；')+'）':''));
   }catch(e){ console.error(e); toast('同步失敗：'+e.message); }
-  finally{ btn.disabled=false; }
+  finally{ btn.disabled=false; S.syncing=false; }
 }
 
 /* ---------- segmented controls ---------- */
@@ -254,7 +299,7 @@ function onSessionSubmit(e){
   const rec={ session_id: nextSessionId(o.session_date), session_date:o.session_date, week_label:weekLabel(o.session_date), phase:phaseFor(o.session_date).key,
     mode:o.mode, effective_minutes:num(o.effective_minutes), material_source:o.material_source||'', lr_minutes:null, rc_minutes:null,
     review_minutes:null, focus_skill:'', completion:'', attention:'', fatigue:'', sleep_hours:null, notes:'', created_at:nowISO(), updated_at:nowISO() };
-  persist('sessions', rec); toast(`已保存 ${rec.session_id}`);
+  persist('sessions', rec); toast((S.gh&&S.gh.token)? `已保存 ${rec.session_id}，同步中` : `已保存 ${rec.session_id}。此裝置未填權杖，時數只存在本機，其他裝置看不到。`);
   f.reset(); segReset(f); $('input[name=session_date]',f).value=todayLA(); renderAll();
 }
 
@@ -495,7 +540,8 @@ function renderCheckpoints(){
 
 function renderSync(){
   $('#sync-ledger').innerHTML=`<tr><td>資料來源</td><td>${S.remoteOk?'repo data 資料夾':'本機快照'}</td></tr>
-    <tr><td>未同步檔案</td><td>${S.dirty.size? Array.from(S.dirty).join('、'):'無'}</td></tr>
+    <tr><td>未同步檔案</td><td>${S.dirty.size? Array.from(S.dirty).map(f=>{ const l=readLocal()[f]||{}; const n=(l.pending||[]).length||(l.pendingObj?1:0); return `${f}（${n} 筆）`; }).join('、'):'無'}</td></tr>
+    <tr><td>此裝置上次同步成功</td><td>${(localStorage.getItem(LS_LASTSYNC)||'').replace('T',' ').slice(0,16)||'無紀錄'}</td></tr>
     <tr><td>寫入目標</td><td style="text-align:left">${S.gh&&S.gh.owner? esc(`${S.gh.owner}/${S.gh.repo}@${S.gh.branch}`):'未設定'}</td></tr>
     <tr><td>權杖</td><td>${S.gh&&S.gh.token? '已保存於本機':'未填'}</td></tr>`;
   $('#ver-ledger').innerHTML=`<tr><td>App</td><td>${APP_VERSION}</td></tr><tr><td>資料結構</td><td>${esc(S.settings.schema_version)}</td></tr><tr><td>讀書計畫版本</td><td>${esc(S.settings.plan_version)}</td></tr>`;
