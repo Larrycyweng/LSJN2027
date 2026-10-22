@@ -635,5 +635,18 @@
     "client_request_id": "03-20261019-cp1-review-h1",
     "created_at": "2026-10-21T03:02:55.895Z",
     "updated_at": "2026-10-21T03:02:55.895Z"
+  },
+  {
+    "handoff_id": "HO-050",
+    "session_id": "",
+    "taught": "本次為CP1結果整理與後續方案，無新教學。",
+    "observed": "【結果】PT141 S4 16/26。錯題：Assumptions 3（Q19、Q24、Q26）、Strengthen or Weaken 2（Q17、Q20）、Deductions and Inference 2（Q12、Q14）、Techniques, Roles, and Principles 1（Q9）、Conclusions and Disputes 1（Q11）、Explain or Resolve 1（Q15）。【與PT141 S2合併】Assumptions 4/9、Strengthen or Weaken 3/7、Deductions and Inference 3/7、Explain or Resolve 2/4、Conclusions and Disputes 1/3、Flaws 7/8、Techniques, Roles, and Principles 8/9、Matching 4/4。兩節19個錯題中13題在前三類。【使用者判斷】錯誤多為觀念問題；已自行修正大綱。後續方向：針對錯誤題型做分類練習以強化觀念。【家教觀察，均為待確認】1. 不限時平均每題約為計時時的1.8倍，正確率未提升，LR限制不在配速。2. HO-048已記錄錯因的四題（Q14題問支持方向讀反；Q20加強已給前提而非主結論；Q9選項程度超過原文；Q19以關鍵詞重複判斷必要性並略去讓步子句），共同點是把已學觀念套用到題問任務與選項完整內容時出錯，跨越題型；其餘六題錯因未記錄。3. Flaws 7/8但Assumptions 4/9，失分可能集中在逐一檢查具體選項的步驟。4. 分類練習事先告知題型，測不到題問任務辨認，需以未標題型的混合題確認移轉。5. CP1其他必要證據：兩組原創小題組自9/25後未進行；LR大綱63節為草稿、1節已核准。",
+    "open_questions": "CP1決定由使用者在App作成；家教建議「針對性修復」。App保存決定後CP1標為完成並改顯示CP2（10/31），CP1重評改由handoff追蹤；CP2日期是否順延由使用者決定。OL-013提案（03-20261018-lr-outline-1）仍待決定。若使用者提供六題各一句錯因，可提高家族排序的準確度。[補充]：使用者指示大綱由使用者自行管理；家教不得變動大綱，也不在大綱寫入錯題紀錄。10/21家教曾判斷OL-037、OL-039、OL-056的PT141 S4例題段屬單題解說，使用者決定維持原狀，不再提議刪除。",
+    "date": "2026-10-21",
+    "stopped_at": "CP1（PT141 S4 LR不限時）結果整理完成：16/26（約62%），未達約85%且理由正確的門檻。十題錯題已檢討完畢，使用者判斷錯誤多為觀念問題，並已自行修正大綱。CP1決定由使用者在App作成。",
+    "next_task": "Drill（官方分類題，不計時，記錄每題答案、信心及一句理由）：依序Assumptions（NA、SA）→Strengthen or Weaken→Inference，每次課只做一個家族、約5至8題，並指定一個要修的步驟，不以題量取代。題型已知時，讀題文前仍先用自己的話說出題問任務與支持方向。只深入檢討錯題、猶豫題、猜對題及理由錯誤題。每個家族48至72小時後以新題延遲複測。三個家族完成後做一組未標題型的混合題。通過後以20題未接觸官方LR混合題不限時重評CP1，參考約17/20且理由正確，並檢查同類錯誤是否再現。避開保留作完整模考的PrepTest，記錄所用題號以更新接觸狀態。RC依既定進度。",
+    "client_request_id": "03-20261021-cp1-result-h1",
+    "created_at": "2026-10-22T02:34:45.758Z",
+    "updated_at": "2026-10-22T02:34:45.758Z"
   }
 ]
