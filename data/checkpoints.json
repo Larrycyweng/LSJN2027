@@ -6,12 +6,12 @@
     "core_question": "LR 體系是否已建立並產生無提示理解？",
     "required_evidence": "陌生官方 LR 題不計時作答、理由正確性、兩組原創小題組、LR 大綱核准狀態。",
     "threshold": "陌生官方 LR 題約85%且理由正確。",
-    "checkpoint_status": "已排定",
-    "checkpoint_decision": "",
-    "decision_date": "",
-    "evidence_summary": "",
+    "checkpoint_status": "已完成",
+    "checkpoint_decision": "針對性修復",
+    "decision_date": "2026-10-21",
+    "evidence_summary": "PT141 S4 LR 不限時 16/26，未達約85%門檻。合併 PT141 S2：Assumptions 4/9、Strengthen or Weaken 3/7、Inference 3/7、Flaws 7/8。不限時未提升正確率，限制不在配速。十題已檢討，錯誤多為觀念套用；已修正大綱。修復：依家族分類練習加48至72小時延遲複測，再以20題未接觸官方LR混合題不限時重評（約17/20且理由正確）。詳見 HO-050。",
     "repair_action": "每次課程只保留一項區分，改變例子與呈現方式，48至72小時後再測。",
-    "updated_at": "2026-09-20T20:00:00Z"
+    "updated_at": "2026-10-22T02:36:35.916Z"
   },
   {
     "checkpoint_id": "CP2",
