@@ -920,5 +920,26 @@
     "notes": "",
     "created_at": "2026-10-20T05:40:23.901Z",
     "updated_at": "2026-10-20T05:40:23.901Z"
+  },
+  {
+    "session_id": "S-20261022-01",
+    "week_label": "第5週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": 85,
+    "rc_minutes": 0,
+    "review_minutes": null,
+    "focus_skill": "LR混合題不限時獨立作答；Main Conclusion支持關係；SA推理模式；Principle-Conform任務方向",
+    "completion": "部分完成",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日總有效學習1小時25分鐘，含作答與對話檢討，只計85分鐘一次。未回報作答與檢討各自時間，不依畫面1:00:05推算分項。模式包含Drill與Review。官方題組18題12對6錯，67%；來自已接觸的PT140與PT141，不作陌生題成績或正式分數推估。第8題完成提示後訂正；第18題本次獨立答對後才看解析；其餘五道錯題待逐題檢討。今天不新增、修改、移動或提議刪除大綱內容。",
+    "session_date": "2026-10-22",
+    "mode": "練習",
+    "effective_minutes": 85,
+    "client_request_id": "01-20261022-s1",
+    "created_at": "2026-10-23T06:30:08.527Z",
+    "updated_at": "2026-10-23T06:30:08.527Z"
   }
 ]
