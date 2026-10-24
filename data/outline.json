@@ -2378,7 +2378,7 @@
       },
       {
         "type": "p",
-        "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認/反駁什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+        "text": "規則: R1 先看作者承認/反駁什麼；主句是否為主結論，仍須由整段支持關係確認。"
       },
       {
         "type": "p",
@@ -2386,15 +2386,11 @@
       },
       {
         "type": "p",
-        "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。"
+        "text": "R3 This is a mistake、That view is wrong等短句可能就是作者的主結論(rebuttal)。先把this或that所指的主張代回，再找支持這個否定的理由。"
       },
       {
         "type": "p",
-        "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由。"
-      },
-      {
-        "type": "p",
-        "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
+        "text": "R4 only、merely常有限縮作用；in any case、even if- 先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
       },
       {
         "type": "p",
@@ -2465,103 +2461,15 @@
       {
         "type": "User Revision",
         "ref": "2026-10-19"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-24"
       }
     ],
     "status": "草稿",
     "protected": true,
     "revisions": [
-      {
-        "date": "2026-09-22",
-        "by": "tutor",
-        "summary": "家教更新 W1-20260922-LR-007",
-        "before": {
-          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
-          "summary": "Find the verdict first, then the evidence that supports it; label everything else.",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Five roles: Conclusion, Premise, Background, Opposing Position, Concession（讓步）.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "Keywords. Conclusion: so, thus, hence, therefore, as a result, this shows, consequently. Support: for, after all, because, since (FABS). Concession（讓步）: but, yet, however. Opinion: should, ought, clearly, obviously, evidently, apparently, probably. Opposing: attributions (most people think, some biologists say); concessions (granted, while, although, naturally, though it is true).",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "A concession（讓步） (\"although\", \"nevertheless\", \"admittedly\") limits the position; it never supports the main conclusion.",
-              "label": "Rule"
-            },
-            {
-              "type": "p",
-              "text": "A rule stated as a premise (\"Any X must Y\") is evidence, not background. Ask: does the conclusion depend on it?",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "A compressed rebuttal (\"This is a mistake.\", \"That view is wrong.\") is the conclusion itself; the sentence after it is evidence, not the conclusion. Do not take the last factual sentence as the conclusion.",
-              "label": "Trap"
-            },
-            {
-              "type": "p",
-              "text": "Reasoning patterns to recognise (Notes step 3): Recommendations, Hypotheses, Rebuttals, Judgments, Predictions. Match the skeptical question to the pattern.",
-              "label": "Recognition"
-            },
-            {
-              "type": "p",
-              "text": "PT140 S2 Q16: compressed rebuttal conclusion missed in 2025 and again in 2026 (SIG-003). PT140 S3 Q12 and S1 Q09 answered correctly with reasons on 2026-09-14.",
-              "label": "Official Example",
-              "refs": [
-                "A-20260914-PT140-S2-Q16",
-                "A-20260914-PT140-S3-Q12",
-                "A-20260914-PT140-S1-Q09"
-              ]
-            },
-            {
-              "type": "p",
-              "text": "Roles: verified 2026-09-13 to 09-15 (original and official). SIG-001 rule premise misread as background: delayed retest passed 2026-09-15. SIG-003: corrective taught, RC official check pending.",
-              "label": "Status"
-            },
-            {
-              "type": "p",
-              "label": "Rule",
-              "text": "Rule premises [Notes §Argument Structure; §Conditional]. A sentence containing must, only if, requires, necessary, unless, if...then, or any...that is a rule, not background. Stop and draw the arrow while reading."
-            },
-            {
-              "type": "ul",
-              "items": [
-                "Position does not decide role. Rules often sit in the last or first sentence next to the conclusion and are mistaken for part of it.",
-                "After drawing the arrow, see which end the conclusion is on: to deny something, use the contrapositive; to affirm, go forward.",
-                "Sufficient Assumption: the answer is the step from the factual premise to the rule's trigger. Delete options that restate a link already in the stimulus.",
-                "Necessary Assumption, Flaw, and Weaken: draw the arrow first; the rule is where the gap sits.",
-                "Backup when the signal word is missed: deletion test. Remove the sentence; if the path from facts to conclusion breaks, it is a premise."
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT141 S2 Q10：規則在末句，訊號詞 must；bridge：discern → care。",
-              "refs": [
-                "A-20260918-PT141-S2-Q10"
-              ]
-            },
-            {
-              "type": "p",
-              "label": "Recognition",
-              "text": "Direction words after an opposing view [Notes §Argument Structure 1, concession keywords]. When a sentence follows someone else's position, read its direction words before assigning it a side: only, merely (minimize), in any case, even if (independent of the preceding claim), despite, but (contrast). Main Conclusion answers must be stated in the stimulus; an evaluation the author never made is out."
-            },
-            {
-              "type": "p",
-              "label": "Official Example",
-              "text": "PT141 S2 Q11：only 淡化、in any case 獨立理由；支持句誤歸反方。",
-              "refs": [
-                "A-20260918-PT141-S2-Q11"
-              ]
-            }
-          ]
-        }
-      },
       {
         "date": "2026-09-23",
         "by": "tutor",
@@ -3731,9 +3639,48 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-24",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Find the Conclusion + Evidence（找結論與證據，用關鍵字）",
+          "summary": "先辨識題文的主結論，若非論證題則無結論。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 先分清作者與他人的觀點，再看各句之間的支持關係。"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 although、despite等讓步或對比詞不能單獨決定句子角色。先看作者承認/反駁什麼，再看主句提出什麼；主句是否為主結論，仍須由整段支持關係確認。"
+            },
+            {
+              "type": "p",
+              "text": "R2 遇到must、only if、requires、necessary、unless、if...then等用語，先確認是否表達條件關係，再畫條件箭頭。含這些詞的句子仍可能是前提，也可能是結論；角色取決於它在論證中被如何使用。"
+            },
+            {
+              "type": "p",
+              "text": "R3 條件箭頭表示命題中的充分與必要關係；論證支持關係表示作者用哪句話證明哪句話。"
+            },
+            {
+              "type": "p",
+              "text": "R4 This is a mistake、That view is wrong等短句可能就是作者的反駁結論。先把this或that所指的主張代回，再找支持這個否定的理由。"
+            },
+            {
+              "type": "p",
+              "text": "R5 only、merely常有限縮作用；in any case、even if可能引出不依賴前一點的理由。先讀清它們改變的是哪個主張，再核對觀點歸屬與支持方向。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 見「配對家族 → Main Conclusion和Role」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-19T22:45:25.359Z",
+    "updated_at": "2026-10-24T17:50:10.513Z",
     "updated_by": "user"
   },
   {
