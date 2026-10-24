@@ -18564,12 +18564,16 @@
         "text": "規則: R1 選項的 Facts 必須符合題文 Rule 的條件，才能據此得到選項的 Conclusion。"
       },
       {
-        "type": "ol",
-        "items": [
-          "Identify the given Rule：找出題文 Rule 的適用條件，以及它允許或要求的結果。",
-          "Identify the choice's Facts and Conclusion：分出選項描述的 Facts，以及選項對這些 Facts 作出的 Conclusion。",
-          "Check the Application：確認選項的 Facts 是否符合題文 Rule 的條件，再確認選項的 Conclusion 是否為該 Rule 所支持的結果。"
-        ]
+        "type": "p",
+        "text": "1-1. Identify the given Rule：找出題文 Rule 的適用條件，以及它允許或要求的結果。"
+      },
+      {
+        "type": "p",
+        "text": "1-2. Identify the choice's Facts and Conclusion：分出選項描述的 Facts，以及選項對這些 Facts 作出的 Conclusion。"
+      },
+      {
+        "type": "p",
+        "text": "1-3. Check the Application：確認選項的 Facts 是否符合題文 Rule 的條件，再確認選項的 Conclusion 是否為該 Rule 所支持的結果。"
       },
       {
         "type": "p",
@@ -18594,12 +18598,16 @@
         "text": "規則: R2 選項的 Rule 必須準確表達作者憑什麼從題文的 Facts 推論出 Conclusion。"
       },
       {
-        "type": "ol",
-        "items": [
-          "Identify the original Facts and Conclusion：找出題文根據哪些 Facts，作出哪個 Conclusion。",
-          "Identify the reasoning gap：找出論證過程中 Facts 條件基礎和 Conclusion 的因果關係。",
-          "Match the Rule：確認選項的 Rule 是否保留作者依賴的條件，以及由該條件導向的判斷。"
-        ]
+        "type": "p",
+        "text": "2-1. Identify the original Facts and Conclusion：找出題文根據哪些 Facts，作出哪個 Conclusion。"
+      },
+      {
+        "type": "p",
+        "text": "2-2. Identify the reasoning gap：找出論證過程中 Facts 條件基礎和 Conclusion 的因果關係。"
+      },
+      {
+        "type": "p",
+        "text": "2-3. Match the Rule：確認選項的 Rule 是否保留作者依賴的條件，以及由該條件導向的判斷。"
       },
       {
         "type": "p",
@@ -18624,12 +18632,16 @@
         "text": "規則: R3 選項與題文可以描述不同的 Facts，但必須依循相同或相近的 Rule，各自得到其 Conclusion。"
       },
       {
-        "type": "ol",
-        "items": [
-          "Identify the original Rule：找出題文的 Rule。",
-          "Identify each choice's Rule：找出各選項的 Rule。",
-          "Compare the Rules：比較 Rule 的條件、判斷方向、程度與限制。"
-        ]
+        "type": "p",
+        "text": "3-1. Identify the original Rule：找出題文的 Rule。"
+      },
+      {
+        "type": "p",
+        "text": "3-2. Identify each choice's Rule：找出各選項的 Rule。"
+      },
+      {
+        "type": "p",
+        "text": "3-3. Compare the Rules：比較 Rule 的條件、判斷方向、程度與限制。"
       },
       {
         "type": "p",
@@ -19149,10 +19161,119 @@
         "date": "2026-10-23",
         "by": "user",
         "summary": "使用者編輯"
+      },
+      {
+        "date": "2026-10-23",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Principle-Conform（原則符合）",
+          "summary": "依題問確認任務: Apply the given Rule；Identify the author's Rule；Compare the Rules。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "理解架構: Rule 對應 Principle，Application 是將個案 Facts 套入 Rule 的論證過程；Conclusion 是對個案作出的論證結果。Rule 可能直接寫出，也可能隱含於論證。"
+            },
+            {
+              "type": "p",
+              "text": "辨識: 先讀完整題問，確認要找 situation、principle 還是 argument，再進入對應流程。以下為常見三種辨識句型；不能只憑 conforms 一字決定任務。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Apply the given Rule: 題文提供 Rule。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Question Stem: Which one of the following situations most closely conforms to the principle stated above?"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 選項的 Facts 必須符合題文 Rule 的條件，才能據此得到選項的 Conclusion。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Identify the given Rule：找出題文 Rule 的適用條件，以及它允許或要求的結果。",
+                "Identify the choice's Facts and Conclusion：分出選項描述的 Facts，以及選項對這些 Facts 作出的 Conclusion。",
+                "Check the Application：確認選項的 Facts 是否符合題文 Rule 的條件，再確認選項的 Conclusion 是否為該 Rule 所支持的結果。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "教學示例: 題文 Rule：因無法控制的原因犯錯，不應因此受責備。選項 Facts：小林因無法控制的交通中斷而遲到。選項 Conclusion：小林不應因這次遲到受責備。Application：選項的 Facts 符合題文 Rule 的條件，因此支持選項的 Conclusion。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 Wrong Trigger／Outcome：選項用了相同名詞，卻未滿足題文 Rule 的條件，或作出另一個 Conclusion。若 Rule 為 P → Q，不能直接改成非 P → 非 Q，或反用為 Q → P；逆否與其他條件操作依既有 Conditional Logic 判準。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Identify the author's Rule: 題文提供作者的 Facts 與 Conclusion；選項提供 Rule。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Question Stem: Which one of the following most accurately expresses the principle underlying the argument?"
+            },
+            {
+              "type": "p",
+              "text": "規則: R2 選項的 Rule 必須準確表達作者憑什麼從題文的 Facts 推論出 Conclusion。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Identify the original Facts and Conclusion：找出題文根據哪些 Facts，作出哪個 Conclusion。",
+                "Identify the reasoning gap：找出論證過程中 Facts 條件基礎和 Conclusion 的因果關係。",
+                "Match the Rule：確認選項的 Rule 是否保留作者依賴的條件，以及由該條件導向的判斷。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "教學示例: 題文：小林的遲到是他無法控制的交通中斷造成的，所以不應責備他。選項的 Rule 應保留「原因無法控制，因此不應受責備」的關係；「任何遲到都不應受責備」則刪掉了作者依賴的條件。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T2 Too Strong：選項的 Rule 雖能支持題文的 Conclusion，卻擴大適用範圍或刪去限制，未必準確表達作者採用的 Rule。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Compare the Rules: 題文與各選項各有自己Argument。任務是找出哪個選項採用了與題文相同或最接近的 Rule。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Question Stem: Which one of the following arguments conforms most closely to the principle illustrated above?"
+            },
+            {
+              "type": "p",
+              "text": "規則: R3 選項與題文可以描述不同的 Facts，但必須依循相同或相近的 Rule，各自得到其 Conclusion。"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Identify the original Rule：找出題文的 Rule。",
+                "Identify each choice's Rule：找出各選項的 Rule。",
+                "Compare the Rules：比較 Rule 的條件、判斷方向、程度與限制。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "教學示例: 題文因「交通中斷無法控制」而認為不應責備遲到者；選項因「設備故障無法控制」而認為不應責備未準時完成工作的人，兩者採用相同的 Rule。若選項因「當事人平常表現很好」而不責備他，採用的 Rule 就不同。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T3 表面相似：人物、主題或 Conclusion 相似，不代表採用相同的 Rule。若 Rule 涉及比較，須保留比較面向及作出相同或不同判斷的依據。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "01-20261009-principle-o2",
-    "updated_at": "2026-10-24T04:49:00.062Z",
+    "updated_at": "2026-10-24T04:50:06.498Z",
     "updated_by": "user"
   },
   {
