@@ -6922,7 +6922,7 @@
       },
       {
         "type": "p",
-        "text": "步驟: S1 前兩段任務: (1)找出文章主題Topic; (2)認出全文框架Framework; (3) 找出作者主旨Author。"
+        "text": "步驟: S1 前兩段任務: (1)找出文章主題Topic; (2)認出全文框架Framework; (3) 找出作者意圖Author。"
       },
       {
         "type": "p",
@@ -6939,6 +6939,36 @@
       {
         "type": "p",
         "text": "例如 Present a Debate 要追蹤各方立場與作者如何處理爭論；Problem/ Solution 要追蹤問題、解法及作者的評價。依後文確認或修正 Framework。"
+      },
+      {
+        "type": "p",
+        "label": "Old / New",
+        "text": "常見題材：Science。線索：recently、traditionally。作者主旨：新發現或新觀點的意涵與影響。"
+      },
+      {
+        "type": "p",
+        "label": "Problem / Solution",
+        "text": "常見題材：Law。線索：difficulties、recommendations。作者主旨：提出解法，或重新陳述問題。"
+      },
+      {
+        "type": "p",
+        "label": "Highlight Noteworthy",
+        "text": "常見題材：Humanities。線索：讀起來像描述性文章。作者主旨：所介紹對象的重要性、風格或演變。"
+      },
+      {
+        "type": "p",
+        "label": "Challenge Position",
+        "text": "常見題材：Society / Law。線索：commonly thought、mistakenly assumed。作者主旨：常由 but、yet、however 引出對既有觀點的挑戰。"
+      },
+      {
+        "type": "p",
+        "label": "Present Debate",
+        "text": "常見題材：Society / Science。線索：proponents、opponents。作者主旨：可能保持中立、綜合各方觀點或提出新觀點。"
+      },
+      {
+        "type": "p",
+        "label": "Locate purpose pivots",
+        "text": "留意 but、however、recently 等提示詞，找出論述方向可能轉變的位置，再讀其後內容確認轉向。上述題材與用語是辨識線索，框架仍依全文內容判斷。"
       }
     ],
     "source_refs": [
@@ -6969,6 +6999,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-28"
+      },
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-10-28完成影片Find a Framework；使用者截圖image(20261029-061558).png（Top 5 Frameworks）及image(20261029-061841).png（閱讀提示）。原有六段逐字保留，只追加尚未涵蓋的資訊。"
       }
     ],
     "status": "草稿",
@@ -7060,78 +7094,46 @@
         "date": "2026-10-28",
         "by": "tutor",
         "summary": "家教提案（待確認）"
+      },
+      {
+        "date": "2026-10-28",
+        "by": "user",
+        "summary": "接受提案 01-20261028-framework-o1",
+        "before": {
+          "title": "Step 1: Active Reading / Finding a Framework（主動閱讀）",
+          "summary": "掌握全文Framework。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: 全文框架可包括：Old/ New、Problem/ Solution、Highlight Noteworthy、Challenge a position、Present a Debate (Top 5)、Explanation、Defend against Criticism、Illustrate Generalization。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 前兩段任務: (1)找出文章主題Topic; (2)認出全文框架Framework; (3) 找出作者主旨Author。"
+            },
+            {
+              "type": "p",
+              "text": "S2 以框架預測文章走向，作為主動閱讀。"
+            },
+            {
+              "type": "p",
+              "text": "(1) Chunking; (2) Connect; (3) Anticipate where the passage is going."
+            },
+            {
+              "type": "p",
+              "text": "S3 續讀時把新內容連回前文，追蹤框架需要的資訊。"
+            },
+            {
+              "type": "p",
+              "text": "例如 Present a Debate 要追蹤各方立場與作者如何處理爭論；Problem/ Solution 要追蹤問題、解法及作者的評價。依後文確認或修正 Framework。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-29T06:24:31.377Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "01-20261028-framework-o1",
-        "date": "2026-10-28",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "辨識: 全文框架可包括：Old/ New、Problem/ Solution、Highlight Noteworthy、Challenge a position、Present a Debate (Top 5)、Explanation、Defend against Criticism、Illustrate Generalization。"
-          },
-          {
-            "type": "p",
-            "text": "步驟: S1 前兩段任務: (1)找出文章主題Topic; (2)認出全文框架Framework; (3) 找出作者意圖Author。"
-          },
-          {
-            "type": "p",
-            "text": "S2 以框架預測文章走向，作為主動閱讀。"
-          },
-          {
-            "type": "p",
-            "text": "(1) Chunking; (2) Connect; (3) Anticipate where the passage is going."
-          },
-          {
-            "type": "p",
-            "text": "S3 續讀時把新內容連回前文，追蹤框架需要的資訊。"
-          },
-          {
-            "type": "p",
-            "text": "例如 Present a Debate 要追蹤各方立場與作者如何處理爭論；Problem/ Solution 要追蹤問題、解法及作者的評價。依後文確認或修正 Framework。"
-          },
-          {
-            "type": "p",
-            "label": "Old / New",
-            "text": "常見題材：Science。線索：recently、traditionally。作者主旨：新發現或新觀點的意涵與影響。"
-          },
-          {
-            "type": "p",
-            "label": "Problem / Solution",
-            "text": "常見題材：Law。線索：difficulties、recommendations。作者主旨：提出解法，或重新陳述問題。"
-          },
-          {
-            "type": "p",
-            "label": "Highlight Noteworthy",
-            "text": "常見題材：Humanities。線索：讀起來像描述性文章。作者主旨：所介紹對象的重要性、風格或演變。"
-          },
-          {
-            "type": "p",
-            "label": "Challenge Position",
-            "text": "常見題材：Society / Law。線索：commonly thought、mistakenly assumed。作者主旨：常由 but、yet、however 引出對既有觀點的挑戰。"
-          },
-          {
-            "type": "p",
-            "label": "Present Debate",
-            "text": "常見題材：Society / Science。線索：proponents、opponents。作者主旨：可能保持中立、綜合各方觀點或提出新觀點。"
-          },
-          {
-            "type": "p",
-            "label": "Locate purpose pivots",
-            "text": "留意 but、however、recently 等提示詞，找出論述方向可能轉變的位置，再讀其後內容確認轉向。上述題材與用語是辨識線索，框架仍依全文內容判斷。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "LSATLab Notes",
-            "ref": "2026-10-28完成影片Find a Framework；使用者截圖image(20261029-061558).png（Top 5 Frameworks）及image(20261029-061841).png（閱讀提示）。原有六段逐字保留，只追加尚未涵蓋的資訊。"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-10-29T06:24:42.702Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-018",
