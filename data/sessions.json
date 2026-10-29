@@ -982,5 +982,26 @@
     "notes": "",
     "created_at": "2026-10-24T17:32:24.195Z",
     "updated_at": "2026-10-24T17:32:24.195Z"
+  },
+  {
+    "session_id": "S-20261027-01",
+    "week_label": "第6週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab；Flaw教材與已檢討過的官方舊題",
+    "lr_minutes": 60,
+    "rc_minutes": 0,
+    "review_minutes": null,
+    "focus_skill": "Learn：Flaw觀念複習；Drill：6題舊題練習；Review：自行再檢討並辨認缺陷類型",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日學習60分鐘，涵蓋觀念複習、作答與自行檢討，只計一次，不另估各階段時間。LSAT Lab練習6題、答對4題、答錯2題，正確率66.7%；六題以前均已檢討過，本次屬舊題重做。使用者已自行再次檢討並找出Flaw類型。未回報實際是否限時，不以教材的9分鐘指示代替實際作答時間。此次訊息未附六題題號截圖，先保存總成績；逐題題號、初答、正解與理由待補。不修改大綱。",
+    "session_date": "2026-10-27",
+    "mode": "練習",
+    "effective_minutes": 60,
+    "client_request_id": "01-20261027-flaw-s1",
+    "created_at": "2026-10-29T03:04:05.462Z",
+    "updated_at": "2026-10-29T03:04:05.462Z"
   }
 ]
