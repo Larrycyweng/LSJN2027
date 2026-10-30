@@ -1024,5 +1024,26 @@
     "client_request_id": "01-20261028-framework-s1",
     "created_at": "2026-10-29T06:24:31.363Z",
     "updated_at": "2026-10-29T06:24:31.363Z"
+  },
+  {
+    "session_id": "S-20261030-01",
+    "week_label": "第6週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab影片 Passage Mapping；使用者截圖與本回合討論",
+    "lr_minutes": 0,
+    "rc_minutes": 30,
+    "review_minutes": null,
+    "focus_skill": "Learn：Passage Map的主旨、段落作用與連結；核心步驟和輔助方法的區分",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報已完成Passage Mapping影片，本回合小計學習30分鐘，只計一次，不當成今日全天總時數。已同意整理OL-019：以Main Point為連結中心，保留既有功能標籤、R1／R2、方法連接及反駁示例；Focus on purpose移至判讀原則，Callbacks移至輔助方法。未回報獨立作答結果。",
+    "session_date": "2026-10-30",
+    "mode": "觀念學習",
+    "effective_minutes": 30,
+    "client_request_id": "01-20261030-mapping-s1",
+    "created_at": "2026-10-30T23:41:58.475Z",
+    "updated_at": "2026-10-30T23:41:58.475Z"
   }
 ]
