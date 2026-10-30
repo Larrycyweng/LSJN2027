@@ -713,5 +713,18 @@
     "client_request_id": "01-20261028-framework-h1",
     "created_at": "2026-10-29T06:24:31.401Z",
     "updated_at": "2026-10-29T06:24:31.401Z"
+  },
+  {
+    "handoff_id": "HO-056",
+    "session_id": "S-20261030-01",
+    "taught": "以Main Point為文章地圖的連結中心，辨認各部分的purpose並連回主旨。Focus on purpose是貫穿閱讀的判讀原則；Callbacks是追蹤前後關係的輔助工具。段落與主旨的關係可為支持、說明、對照或限定，不把所有段落都當成直接支持作者。",
+    "observed": "使用者先要求比較教材與既有步驟的層級關係，再明確同意修訂。OL-019只調整摘要與步驟組織：核心步驟為Find the Main Point及Relate the parts；原Focus on purpose移為判讀原則，Callbacks移為輔助方法。既有功能標籤、R1／R2、方法連接與反駁示例保留；不改其他子節，不另加重複流程。",
+    "open_questions": "尚未提供本次獨立閱讀或作答結果，應用能力待後續文章練習確認。本回合30分鐘為小計，後續若回報同日總時間須先扣除已記錄部分。[補充]：無新增分類；本次為教材內容與既有方法的層級整理。",
+    "date": "2026-10-30",
+    "stopped_at": "Learn：Passage Mapping影片已完成；使用者同意OL-019層級整理。本回合小計30分鐘。",
+    "next_task": "下次先核對最新大綱與課程紀錄，將Passage Mapping及Find a Framework視為影片已完成，再接續既定RC學習。遇到文章練習時沿用OL-019檢查段落功能與Main Point的連結，不只列標籤。LR接續沿用既有handoff；不另改讀書計畫或Checkpoint決定。",
+    "client_request_id": "01-20261030-mapping-h1",
+    "created_at": "2026-10-30T23:41:58.498Z",
+    "updated_at": "2026-10-30T23:41:58.498Z"
   }
 ]
