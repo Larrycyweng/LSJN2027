@@ -7326,7 +7326,7 @@
     "level": 3,
     "order": 3,
     "title": "Step 3: Passage Map/Function（文章地圖）",
-    "summary": "每段用一個功能標籤，並確認觀點屬於作者還是他人。",
+    "summary": "辨認文章各部分的作用，並連結它們與 Main Point 的關係。",
     "blocks": [
       {
         "type": "p",
@@ -7340,25 +7340,32 @@
       },
       {
         "type": "p",
+        "label": "Focus on purpose",
+        "text": "判讀原則：著重每段在文章中做什麼，避免陷入細節。"
+      },
+      {
+        "type": "p",
         "label": "規則",
-        "text": "R1 依段落的主要作用選標籤。SUPPORT 提供支持某觀點的事實、機制或例子；EVAL 衡量某觀點或方法。報導與評價並存時，看哪個作用主導該段；必要時簡記其轉折。"
+        "text": "R1 Focus on purpose。依段落的主要作用選標籤。SUPPORT 提供支持；EVAL 衡量某觀點或方法。"
       },
       {
         "type": "p",
-        "text": "R2 地圖通常每段用一個簡短功能描述即可，不逐句摘錄。標籤不足以表達關係時，直接寫出「提出方法」「指出方法限制」等具體作用。"
+        "text": "R2 地圖標籤不適用時，直接寫出具體作用，例如「提出方法」等。"
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 Focus on the purpose of each paragraph to avoid getting bogged down in details."
+        "label": "S1 Find the Main Point",
+        "text": "找出作者主旨，方法見前一子節；閱讀後文時仍可修正初步判斷。"
       },
       {
         "type": "p",
-        "text": "S2 How the rest of the passage combine and lead to the author’s main point. 串起各段功能，確認或修正全文框架與主旨。"
+        "label": "S2 Relate the parts",
+        "text": "辨認文章各部分的作用，說明它們如何支持、說明、對照或限定 Main Point。"
       },
       {
         "type": "p",
-        "text": "S3 Callbacks：遇到回指前文的詞句，找回所指的觀點或內容，確認本段如何承接它。"
+        "label": "輔助方法",
+        "text": "Callbacks：遇到回指前文的詞句，找回所指的觀點或內容，確認本段如何承接它。"
       },
       {
         "type": "p",
@@ -7390,6 +7397,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-10-30使用者同意之層級整理；依LSAT Lab影片Passage Mapping截圖image(20261030-233034).png及既有OL-018／OL-019。保留既有功能標籤、R1／R2、方法連接與反駁示例。"
       }
     ],
     "status": "草稿",
@@ -7462,9 +7473,57 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-30",
+        "by": "tutor",
+        "summary": "家教更新 01-20261030-mapping-o1",
+        "before": {
+          "title": "Step 3: Passage Map/Function（文章地圖）",
+          "summary": "每段用一個功能標籤，並確認觀點屬於作者還是他人。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "方法連接",
+              "text": "段落 purpose 沿用 LR 的 Function 分析：用 Role 判斷指定內容的作用，用 Method 理解作者如何組織論述。既有方法見 LR 的 Match Family。"
+            },
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "七個段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 依段落的主要作用選標籤。SUPPORT 提供支持某觀點的事實、機制或例子；EVAL 衡量某觀點或方法。報導與評價並存時，看哪個作用主導該段；必要時簡記其轉折。"
+            },
+            {
+              "type": "p",
+              "text": "R2 地圖通常每段用一個簡短功能描述即可，不逐句摘錄。標籤不足以表達關係時，直接寫出「提出方法」「指出方法限制」等具體作用。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Focus on the purpose of each paragraph to avoid getting bogged down in details."
+            },
+            {
+              "type": "p",
+              "text": "S2 How the rest of the passage combine and lead to the author’s main point. 串起各段功能，確認或修正全文框架與主旨。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Callbacks：遇到回指前文的詞句，找回所指的觀點或內容，確認本段如何承接它。"
+            },
+            {
+              "type": "p",
+              "label": "反駁示例結構",
+              "text": "反方觀點 → 反方支持 → 作者反對反方的證據 → 作者主旨。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.685Z",
+    "updated_at": "2026-10-30T23:41:58.485Z",
     "updated_by": "tutor"
   },
   {
