@@ -7330,7 +7330,7 @@
     "blocks": [
       {
         "type": "p",
-        "text": "規則: Focus on purpose: 著重每段在文章中做什麼，避免陷入細節。七個段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。"
+        "text": "規則: Focus on purpose: 著重每段在文章中做什麼，避免陷入細節。"
       },
       {
         "type": "p",
@@ -7343,6 +7343,10 @@
       {
         "type": "p",
         "text": "-見 「LR 的 Match Family」: 用 Role 判斷作用，用 Method 判斷論證結構。"
+      },
+      {
+        "type": "p",
+        "text": "-七個段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。"
       },
       {
         "type": "p",
@@ -7619,9 +7623,44 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-10-30",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Step 3: Passage Map/Function（文章地圖）",
+          "summary": "每段用一個功能標籤，並連結它們與 Main Point 的關係。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: Focus on purpose: 著重每段在文章中做什麼，避免陷入細節。七個段落功能標籤：INTRO、VIEW、COUNTER、SUPPORT、EVAL、AUTHOR、EXTEND。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 Find the Main Point: 找出作者主旨。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Relate the parts: 串起各段的作用，確認或修正全文框架Framework與Main Point。"
+            },
+            {
+              "type": "p",
+              "text": "-見 「LR 的 Match Family」: 用 Role 判斷作用，用 Method 判斷論證結構。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Callbacks：遇到回指前文的詞句，找回所指的觀點或內容，確認本段如何承接它。"
+            },
+            {
+              "type": "p",
+              "text": "反駁示例結構: 反方觀點 → 反方支持 → 作者反對反方的證據 → 作者主旨。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-31T01:32:36.396Z",
+    "updated_at": "2026-10-31T01:33:20.112Z",
     "updated_by": "user"
   },
   {
