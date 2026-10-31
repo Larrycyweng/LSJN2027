@@ -1045,5 +1045,26 @@
     "client_request_id": "01-20261030-mapping-s1",
     "created_at": "2026-10-30T23:41:58.475Z",
     "updated_at": "2026-10-30T23:41:58.475Z"
+  },
+  {
+    "session_id": "S-20261030-02",
+    "week_label": "第6週",
+    "phase": "第一階段",
+    "material_source": "LSAT Lab影片 Challenge Position；使用者筆記截圖",
+    "lr_minutes": 0,
+    "rc_minutes": 60,
+    "review_minutes": null,
+    "focus_skill": "Learn：Challenge a Position框架；觀點歸屬、作者批評或替代觀點、反駁預測",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報本回合學習影片Challenge Position一小時，記60分鐘。與同日先前Passage Mapping的30分鐘分開，本回合不重複計入前次時間。依截圖在OL-017 Find a Framework下新增子節，原有大綱內容不修改。未回報獨立作答結果。",
+    "session_date": "2026-10-30",
+    "mode": "觀念學習",
+    "effective_minutes": 60,
+    "client_request_id": "01-20261030-challenge-s1",
+    "created_at": "2026-10-31T06:56:45.776Z",
+    "updated_at": "2026-10-31T06:56:45.776Z"
   }
 ]
