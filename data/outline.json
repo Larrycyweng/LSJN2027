@@ -21166,5 +21166,72 @@
     ],
     "updated_at": "2026-10-14T05:43:02.387Z",
     "updated_by": "user"
+  },
+  {
+    "section_id": "OL-066",
+    "parent_id": "OL-017",
+    "level": 4,
+    "order": 1,
+    "title": "Challenge a Position（挑戰觀點）",
+    "summary": "辨認Opposing View與Author’s view，釐清作者的批評或替代觀點，預想反駁。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "(1) Opposing View；(2) Author’s view – Complaint? Alternative? 分清作者挑戰的觀點，以及作者的批評或替代觀點。"
+      },
+      {
+        "type": "p",
+        "label": "Humanities",
+        "text": "釐清對某位藝術家的誤解，或為藝術家辯護、回應批評。"
+      },
+      {
+        "type": "p",
+        "label": "Law",
+        "text": "討論一項新趨勢、一個學派或一種解釋，並論證其有所偏差。"
+      },
+      {
+        "type": "p",
+        "label": "Society",
+        "text": "肯定一本新書，但提出一項批評；或指出學者通常假定X，而這項假定有誤。"
+      },
+      {
+        "type": "p",
+        "label": "Science",
+        "text": "反對對數據的某種解讀，或反對對某個現象的解釋。"
+      },
+      {
+        "type": "p",
+        "label": "教材統計",
+        "text": "截圖「By Topic」標示：Humanities 28%；Law 16%；Society 24%；Science 11%。截圖未說明百分比的統計母群。"
+      },
+      {
+        "type": "p",
+        "label": "S1 Identify early attributions",
+        "text": "留意文章前段的觀點歸屬，分清各項觀點由誰提出。"
+      },
+      {
+        "type": "p",
+        "label": "S2 Understand the framework fill-ins",
+        "text": "放慢閱讀，釐清此篇文章的Opposing View，以及Author’s view中的批評或替代觀點。"
+      },
+      {
+        "type": "p",
+        "label": "S3 Anticipate the rebuttal",
+        "text": "預想作者將如何反駁Opposing View。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "LSATLab Notes",
+        "ref": "2026-10-30影片Challenge Position；使用者筆記截圖image(20261031-065259).png。作為OL-017下位子節新增，不修改原有內容。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "01-20261030-challenge-o1",
+    "updated_at": "2026-10-31T06:56:45.816Z",
+    "updated_by": "tutor"
   }
 ]
