@@ -7315,10 +7315,56 @@
         "date": "2026-10-17",
         "by": "user",
         "summary": "使用者編輯"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
-    "updated_at": "2026-10-18T01:29:17.353Z",
-    "updated_by": "user"
+    "updated_at": "2026-11-02T03:24:18.081Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261101-o118-main-point-revision",
+        "date": "2026-11-01",
+        "summary": "抓住 Most Valuable Sentence(s)，綜合形成 Main Point。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "規則",
+            "text": "R1 Big Idea 慢讀 vs. Support 速讀；Main Point = Topic + Purpose。"
+          },
+          {
+            "type": "p",
+            "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；但不會是在讓步子句。"
+          },
+          {
+            "type": "p",
+            "label": "步驟",
+            "text": "S1 Find：區分觀點層與事實層。用 Topic 與 Framework 引導閱讀，從各段辨認作者觀點的 Most Valuable Sentence(s)。"
+          },
+          {
+            "type": "p",
+            "text": "S2 Connect：依 Framework 串起這些 Big Ideas，連接與作者意見有關的 Most Valuable Sentence(s)，綜合形成 Main Point。。"
+          },
+          {
+            "type": "p",
+            "text": "S3 Check：同步用 Passage Map 檢查各段的作用，隨後文確認或修正 Framework 與 Main Point。"
+          },
+          {
+            "type": "p",
+            "text": "S4 五個選項先讀 main clause：主詞是否為 central topic、述語是否表達 Framework 的核心結果。排除明顯無關選項後，再核對子句及限定語。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-11-01 使用者指定完整修訂稿"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-019",
