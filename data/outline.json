@@ -7141,31 +7141,33 @@
     "level": 3,
     "order": 2,
     "title": "Step 2: Main Point/Conclusion（主旨）",
-    "summary": "找作者的觀點，方法同Main Conclusion。",
+    "summary": "抓住 Most Valuable Sentence(s)，綜合形成 Main Point。",
     "blocks": [
       {
         "type": "p",
-        "text": "規則: R1 Big Idea vs. Support: 問每一段在support 誰。"
+        "label": "規則",
+        "text": "R1 Big Idea 慢讀 vs. Support 速讀；Main Point = Topic + Purpose。"
       },
       {
         "type": "p",
-        "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；語氣不決定層級。"
+        "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；但不會是在讓步子句。"
       },
       {
         "type": "p",
-        "text": "步驟: S1 位置線索: 常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
+        "label": "步驟",
+        "text": "S1 Find：區分觀點層與事實層。用 Topic 與 Framework 引導閱讀，從各段辨認作者觀點的 Most Valuable Sentence(s)。"
       },
       {
         "type": "p",
-        "text": "S2 句子判讀: (1)區分觀點層與事實層。"
+        "text": "S2 Connect：依 Framework 串起這些 Big Ideas，連接與作者意見有關的 Most Valuable Sentence(s)，綜合形成 Main Point。。"
       },
       {
         "type": "p",
-        "text": "(2)句中出現從句 by V-ing、in spite of、despite、while、although 時，先找出主句，再標手段與讓步，分段讀。"
+        "text": "S3 Check：同步用 Passage Map 檢查各段的作用，隨後文確認或修正 Framework 與 Main Point。"
       },
       {
         "type": "p",
-        "text": "S3 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
+        "text": "S4 五個選項先讀 main clause：主詞是否為 central topic、述語是否表達 Framework 的核心結果。排除明顯無關選項後，再核對子句及限定語。"
       }
     ],
     "source_refs": [
@@ -7200,6 +7202,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者指定完整修訂稿"
       }
     ],
     "status": "草稿",
@@ -7320,51 +7326,46 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "家教提案（待確認）"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "user",
+        "summary": "接受提案 03-20261101-o118-main-point-revision",
+        "before": {
+          "title": "Step 2: Main Point/Conclusion（主旨）",
+          "summary": "找作者的觀點，方法同Main Conclusion。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "規則: R1 Big Idea vs. Support: 問每一段在support 誰。"
+            },
+            {
+              "type": "p",
+              "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；語氣不決定層級。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 位置線索: 常見位置 (1) Transition: end of 1st para and beg. of 2nd para; or (2) beg. of the last paragraph."
+            },
+            {
+              "type": "p",
+              "text": "S2 句子判讀: (1)區分觀點層與事實層。"
+            },
+            {
+              "type": "p",
+              "text": "(2)句中出現從句 by V-ing、in spite of、despite、while、although 時，先找出主句，再標手段與讓步，分段讀。"
+            },
+            {
+              "type": "p",
+              "text": "S3 結合 Passage Map 檢查各段如何支持、說明、對照或限定作者的主張，確認主旨是否涵蓋全文。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T03:24:18.081Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "03-20261101-o118-main-point-revision",
-        "date": "2026-11-01",
-        "summary": "抓住 Most Valuable Sentence(s)，綜合形成 Main Point。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 Big Idea 慢讀 vs. Support 速讀；Main Point = Topic + Purpose。"
-          },
-          {
-            "type": "p",
-            "text": "R2 帶限定語或條件的主張（if this is right, then...）也可以是主旨；但不會是在讓步子句。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 Find：區分觀點層與事實層。用 Topic 與 Framework 引導閱讀，從各段辨認作者觀點的 Most Valuable Sentence(s)。"
-          },
-          {
-            "type": "p",
-            "text": "S2 Connect：依 Framework 串起這些 Big Ideas，連接與作者意見有關的 Most Valuable Sentence(s)，綜合形成 Main Point。。"
-          },
-          {
-            "type": "p",
-            "text": "S3 Check：同步用 Passage Map 檢查各段的作用，隨後文確認或修正 Framework 與 Main Point。"
-          },
-          {
-            "type": "p",
-            "text": "S4 五個選項先讀 main clause：主詞是否為 central topic、述語是否表達 Framework 的核心結果。排除明顯無關選項後，再核對子句及限定語。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-11-01 使用者指定完整修訂稿"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-11-02T03:24:52.958Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-019",
