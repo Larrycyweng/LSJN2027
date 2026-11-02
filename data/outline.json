@@ -9365,72 +9365,13 @@
   },
   {
     "section_id": "OL-033",
-    "parent_id": "OL-021",
-    "level": 3,
-    "order": 3,
-    "title": "Opinion: Author's Intent",
-    "summary": "TBD",
-    "blocks": [],
-    "source_refs": [
-      {
-        "type": "LSATLab Notes",
-        "ref": "§Question types Organization"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-09-22 大綱重整（RC 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-11-01"
-      }
-    ],
-    "status": "草稿",
-    "protected": true,
-    "revisions": [
-      {
-        "date": "2026-11-01",
-        "by": "tutor",
-        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-033",
-        "before": {
-          "title": "Organization（組織）",
-          "summary": "用段落地圖按順序核對選項對文章組織的描述。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "步驟",
-              "text": "S1 由文章地圖作答；選項的每一部分對照段落順序逐一核對。"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-11-01",
-        "by": "tutor",
-        "summary": "移動節"
-      },
-      {
-        "date": "2026-11-01",
-        "by": "user",
-        "summary": "使用者編輯",
-        "before": {
-          "title": "Big Picture: Organization（組織）",
-          "summary": "用段落地圖按順序核對選項對文章組織的描述。",
-          "blocks": [
-            {
-              "type": "p",
-              "label": "步驟",
-              "text": "S1 由文章地圖作答；選項的每一部分對照段落順序逐一核對。"
-            }
-          ]
-        }
-      }
-    ],
-    "updated_at": "2026-11-02T05:22:41.687Z",
+    "parent_id": null,
+    "level": 9,
+    "order": 0,
+    "title": "",
+    "deleted": true,
+    "deleted_at": "2026-11-02T05:27:00.212Z",
+    "updated_at": "2026-11-02T05:27:00.212Z",
     "updated_by": "user"
   },
   {
