@@ -8187,34 +8187,34 @@
     "level": 3,
     "order": 2,
     "title": "Big Picture: Primary Purpose / Primary Concern（文章目的／主要關切）",
-    "summary": "全篇在做什麼，須涵蓋每一個正文段落。",
+    "summary": "用 Framework 概括作者的目的，再比較選項涵蓋的段落範圍。",
     "blocks": [
       {
         "type": "p",
-        "text": "R1 描述可以是目的。描述型文章沒有反駁或提案時，正解是涵蓋所有正文段落的描述；只涵蓋一段卻像論證的選項屬 Out of Scope（部分）。",
-        "label": "規則"
+        "label": "規則",
+        "text": "R1 Topic < Framework：重點是作者如何處理主題，而不只是文章談什麼。"
       },
       {
         "type": "p",
-        "text": "R2 主題領域不決定結構；不因 humanities 就推定為描述型。"
+        "label": "步驟",
+        "text": "S1 Predict：用已辨認的 Framework 預想作者的整體目的，再以 Most Valuable Sentence(s) 確認方向。"
       },
       {
         "type": "p",
-        "text": "R3 選項寫「批評某些人」而文章只談主張時，刪。選項出現 traditional、recently proposed、gaining popularity 這類新舊或地位標籤時，回第一段確認誰新誰舊。"
+        "text": "S2 Match：將選項的抽象描述對回文章的具體內容，確認作者確實做了什麼、針對什麼；排除不吻合的選項。"
       },
       {
         "type": "p",
-        "text": "S1 選項為「A 做 X 而 B 做 Y」或兩部分句時，兩半分別驗證。",
-        "label": "步驟"
+        "text": "S3 Compare：若候選選項都描述文中做過的事，用 Passage Map 比較各自涵蓋哪些段落，選出能統整最多主要段落者。"
       },
       {
         "type": "p",
-        "text": "T1 描述型文章的目的被讀成論證型。",
-        "label": "陷阱"
+        "label": "陷阱",
+        "text": "T1 Something Doesn’t Match：動作、對象或限定語與文章不符。"
       },
       {
         "type": "p",
-        "text": "T2 Half Scope：兩部分選項只有一半正確。"
+        "text": "T2 Too Narrow：只描述局部段落，漏掉其他主要段落。"
       }
     ],
     "source_refs": [
@@ -8241,6 +8241,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者確認之 Primary Purpose 修訂稿；影片截圖與 RC-cram-sheet-2022 第1頁"
       }
     ],
     "status": "草稿",
@@ -8283,9 +8287,47 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-o123-primary-purpose",
+        "before": {
+          "title": "Big Picture: Primary Purpose / Primary Concern（文章目的／主要關切）",
+          "summary": "全篇在做什麼，須涵蓋每一個正文段落。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 描述可以是目的。描述型文章沒有反駁或提案時，正解是涵蓋所有正文段落的描述；只涵蓋一段卻像論證的選項屬 Out of Scope（部分）。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 主題領域不決定結構；不因 humanities 就推定為描述型。"
+            },
+            {
+              "type": "p",
+              "text": "R3 選項寫「批評某些人」而文章只談主張時，刪。選項出現 traditional、recently proposed、gaining popularity 這類新舊或地位標籤時，回第一段確認誰新誰舊。"
+            },
+            {
+              "type": "p",
+              "text": "S1 選項為「A 做 X 而 B 做 Y」或兩部分句時，兩半分別驗證。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "T1 描述型文章的目的被讀成論證型。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 Half Scope：兩部分選項只有一半正確。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T04:18:53.952Z",
+    "updated_at": "2026-11-02T05:18:57.187Z",
     "updated_by": "tutor"
   },
   {
