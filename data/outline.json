@@ -8059,7 +8059,7 @@
     "section_id": "OL-022",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 4,
+    "order": 6,
     "title": "Opinion: Attitude / Most Likely to Agree（作者態度）",
     "summary": "先判斷是誰的判斷；再判方向，再判強度。",
     "blocks": [
@@ -8186,10 +8186,15 @@
         "date": "2026-11-01",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-11-02T05:23:29.789Z",
-    "updated_by": "user"
+    "updated_at": "2026-11-02T06:56:38.139Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-023",
@@ -8344,40 +8349,32 @@
     "section_id": "OL-024",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 5,
-    "title": "Local Purpose: Paragraph Purpose / Detail Purpose（局部功能）",
-    "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
+    "order": 4,
+    "title": "Local Purpose: Detail Purpose（細節目的）",
+    "summary": "找出作者為什麼要提到這個例子、事實或細節。",
     "blocks": [
       {
         "type": "p",
-        "label": "方法連接",
-        "text": "沿用 Step 3: Passage Map/Function 與 LR 的 Role／Method，將已判斷的功能對應到題目指定內容及選項。"
-      },
-      {
-        "type": "p",
-        "label": "規則",
-        "text": "R1 功能題問作者為什麼放入指定內容。題問要求完整描述時，答案須涵蓋該部分的主要作用，不能只描述其中一半。"
-      },
-      {
-        "type": "p",
-        "text": "R2 區分「宣告反例存在」與「實際舉出反例」；證據屬於實際呈現它的段落。"
-      },
-      {
-        "type": "p",
-        "text": "R3 作者可以整體贊同、局部批評。全文態度不能代替對指定內容的判讀；never、cannot、fails 等詞也不單獨構成批評，須確認它們描述的對象與作用。"
-      },
-      {
-        "type": "p",
-        "text": "R4 限縮主張（qualify a claim）是指出主張的限制、條件或例外，使其適用範圍更精確。例如先介紹方法的用途，再指出它無法解答的問題；指出限制本身不等於否定整個方法。"
+        "label": "辨識",
+        "text": "primary purpose in mentioning／reference to … primarily serves to／mentions … primarily to／in order to／serves to。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 確認題問指定的句子或段落，用一句話說出它的作用；問段落關係時，分別確認兩段做什麼，再描述其連接方式。"
+        "text": "S1 Read：找到指定細節，連同前後文一起讀。先找前面引出它的觀點；如果後面有總結，也一起看。"
       },
       {
         "type": "p",
-        "text": "S2 核對選項的動作、對象與強度：文章是否真的在舉例、讓步、限縮或反駁？動詞吻合後，仍須核對它作用於哪個主張，以及有無誇大。"
+        "text": "S2 Explain：問「作者提到這個細節，是為了讓讀者理解或接受什麼？」把細節連回它要支持、說明、限定或反駁的觀點。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Choose：選出能說明這個用途的答案。核對選項說的是哪個觀點，以及細節對它起什麼作用。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "選項只是換句話重述細節，沒有回答「為什麼提到它」；或加入文章沒有表達的目的。"
       }
     ],
     "source_refs": [
@@ -8412,6 +8409,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
       }
     ],
     "status": "草稿",
@@ -8539,10 +8540,57 @@
         "date": "2026-11-01",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-authors-intent-detail",
+        "before": {
+          "title": "Local Purpose: Paragraph Purpose / Detail Purpose（局部功能）",
+          "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "方法連接",
+              "text": "沿用 Step 3: Passage Map/Function 與 LR 的 Role／Method，將已判斷的功能對應到題目指定內容及選項。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 功能題問作者為什麼放入指定內容。題問要求完整描述時，答案須涵蓋該部分的主要作用，不能只描述其中一半。"
+            },
+            {
+              "type": "p",
+              "text": "R2 區分「宣告反例存在」與「實際舉出反例」；證據屬於實際呈現它的段落。"
+            },
+            {
+              "type": "p",
+              "text": "R3 作者可以整體贊同、局部批評。全文態度不能代替對指定內容的判讀；never、cannot、fails 等詞也不單獨構成批評，須確認它們描述的對象與作用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 限縮主張（qualify a claim）是指出主張的限制、條件或例外，使其適用範圍更精確。例如先介紹方法的用途，再指出它無法解答的問題；指出限制本身不等於否定整個方法。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 確認題問指定的句子或段落，用一句話說出它的作用；問段落關係時，分別確認兩段做什麼，再描述其連接方式。"
+            },
+            {
+              "type": "p",
+              "text": "S2 核對選項的動作、對象與強度：文章是否真的在舉例、讓步、限縮或反駁？動詞吻合後，仍須核對它作用於哪個主張，以及有無誇大。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-11-02T05:23:29.797Z",
-    "updated_by": "user"
+    "updated_at": "2026-11-02T06:56:38.084Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-025",
@@ -9306,14 +9354,41 @@
     "section_id": "OL-032",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 6,
+    "order": 5,
     "title": "Local Purpose: Meaning in Context（語境詞義）",
-    "summary": "用所在句與前後文定義詞義，不採字典常義。",
+    "summary": "根據上下文，判斷詞語指的是什麼，或換成什麼仍保留原意。",
     "blocks": [
       {
         "type": "p",
+        "label": "辨識",
+        "text": "Refer：refers to／means to refer to／intends to include … among。"
+      },
+      {
+        "type": "p",
+        "text": "Substitute：closest in meaning／could replace … without substantively altering the meaning。"
+      },
+      {
+        "type": "p",
         "label": "規則",
-        "text": "R1 以該詞所在句與前後句定義詞義，不採字典義。"
+        "text": "R1 兩種問法使用不同方法：Refer 要找到指涉對象；Substitute 要找到符合這裡意思的替換說法。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Read：定位指定詞語，從前一句讀到所在句，先理解它在這段話中的意思。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Find：依題問選用方法。Refer 題往前追查，找到這個詞語代稱的內容；Substitute 題先用自己的話改述它在此處的意思。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Choose：Refer 題核對選項是否描述同一個對象；Substitute 題把選項代回原句，檢查意思是否維持不變。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "因為熟悉某個字典意思就選它，卻沒有確認這個意思是否符合上下文。"
       }
     ],
     "source_refs": [
@@ -9328,6 +9403,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
       }
     ],
     "status": "草稿",
@@ -9358,10 +9437,31 @@
         "date": "2026-11-01",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-authors-intent-meaning",
+        "before": {
+          "title": "Local Purpose: Meaning in Context（語境詞義）",
+          "summary": "用所在句與前後文定義詞義，不採字典常義。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 以該詞所在句與前後句定義詞義，不採字典義。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-11-02T05:23:18.701Z",
-    "updated_by": "user"
+    "updated_at": "2026-11-02T06:56:38.126Z",
+    "updated_by": "tutor"
   },
   {
     "section_id": "OL-033",
@@ -21792,6 +21892,51 @@
     "revisions": [],
     "client_request_id": "01-20261030-challenge-o1",
     "updated_at": "2026-10-31T06:56:45.816Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-067",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 3,
+    "title": "Local Purpose: Paragraph Purpose（段落目的）",
+    "summary": "看懂這一段在全文中負責做什麼。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "main purpose of the … paragraph／primary function of the … paragraph／relationship between … paragraphs。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Read：回讀指定段落，先看首句如何接上前文，再確認整段在說什麼。首句的轉折或承接用語，是判斷段落作用的線索。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Relate：把這段放回全文，問「作者安排這一段，讓文章往哪裡推進？」例如提出觀點、提供例子、回應反方或補充限制。若問兩段關係，先分別說出兩段的作用，再看後一段如何承接前一段。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Choose：選出準確描述該段主要作用的答案。選項的每一部分都要有依據；若仍有兩個候選，就比較哪個更能說明這段與全文目的的關係。以文章為準，不要求選項與自己的預想措辭相同。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "描述其他段落、只說中本段一小部分，或把作者實際做的事說得太強。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261101-authors-intent-paragraph",
+    "updated_at": "2026-11-02T06:56:38.021Z",
     "updated_by": "tutor"
   }
 ]
