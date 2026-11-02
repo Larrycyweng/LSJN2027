@@ -8744,6 +8744,11 @@
         "type": "p",
         "label": "規則",
         "text": "R1 方法見 Step 2: Main Point/Conclusion。選項須準確表達作者主張；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 先讀 main clause：主詞是否為 central topic、述語是否表達 Framework 的核心結果。排除明顯無關選項後，再核對子句及限定語。"
       }
     ],
     "source_refs": [
@@ -8770,6 +8775,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者確認：Main Point 選項先讀 main clause；精簡回寫。"
       }
     ],
     "status": "草稿",
@@ -8806,9 +8815,25 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-o131-main-clause",
+        "before": {
+          "title": "Main Point（主旨題）",
+          "summary": "選出準確表達作者主張的選項，保留範圍與限定。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 方法見 Step 2: Main Point/Conclusion。選項須準確表達作者主張；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.784Z",
+    "updated_at": "2026-11-02T01:38:04.589Z",
     "updated_by": "tutor"
   },
   {
