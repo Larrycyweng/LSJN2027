@@ -752,5 +752,18 @@
     "client_request_id": "01-20261031-rc65-h1",
     "created_at": "2026-11-01T05:53:55.991Z",
     "updated_at": "2026-11-01T05:53:55.991Z"
+  },
+  {
+    "handoff_id": "HO-059",
+    "session_id": "S-20261101-01",
+    "taught": "Paragraph Purpose：由指定段落與全文的關係判斷作用。Local Purpose：把細節連回前面的觀點或後面的總結，判斷用途。Meaning in Context：區分Refer與Substitute，分別找指涉或做替換檢查。",
+    "observed": "使用者要求用白話連貫說明操作，不拼接術語；辨識只列題問關鍵詞，不保留方法連接。移除與陷阱重複的「重述細節內容，尚未回答作者為何提及它」。原Organization節在repo已刪除，本包於其原位置建立Paragraph Purpose，並將原合併節改為Detail Purpose、更新Meaning in Context，三節相鄰。",
+    "open_questions": "本包已提供，尚未確認匯入。今日120分鐘為總計，後續補充資料不得再次新增同一時段。未提供本次獨立作答證據，應用能力待驗證。影片與cram sheet的Meaning in Context Type 1／2編號相反，沿用Refer／Substitute名稱。[補充]：無新增自創分類。",
+    "date": "2026-11-01",
+    "stopped_at": "Learn：Author’s Intent影片已學習；依使用者確認稿整理三個同位階題型子節，今日總學習120分鐘。",
+    "next_task": "先核對本包是否已匯入及最新大綱、課程與handoff，再接續既定RC進度；不自行指定下一部影片。LR沿用既有HO-050、HO-053，先核對是否已有新進展。",
+    "client_request_id": "03-20261101-authors-intent-handoff",
+    "created_at": "2026-11-02T06:56:38.162Z",
+    "updated_at": "2026-11-02T06:56:38.162Z"
   }
 ]
