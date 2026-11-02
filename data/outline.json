@@ -8059,7 +8059,7 @@
     "section_id": "OL-022",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 5,
+    "order": 4,
     "title": "Opinion: Attitude / Most Likely to Agree（作者態度）",
     "summary": "先判斷是誰的判斷；再判方向，再判強度。",
     "blocks": [
@@ -8181,9 +8181,14 @@
         "date": "2026-11-01",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
-    "updated_at": "2026-11-02T05:23:18.689Z",
+    "updated_at": "2026-11-02T05:23:29.789Z",
     "updated_by": "user"
   },
   {
@@ -8339,7 +8344,7 @@
     "section_id": "OL-024",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 4,
+    "order": 5,
     "title": "Local Purpose: Paragraph Purpose / Detail Purpose（局部功能）",
     "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
     "blocks": [
@@ -8529,10 +8534,15 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
-    "updated_at": "2026-11-02T04:18:54.013Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-11-02T05:23:29.797Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-025",
