@@ -7933,6 +7933,22 @@
         "type": "p",
         "label": "教材統計",
         "text": "各題型比例：Inference 27.6%；Opinion 22.2%；Purpose 13.0%；Main Point 12.3%；Meaning in Context 6.4%；Organization 4.3%；Analogy 3.7%；Most Supported 3.0%；Weaken 2.7%；Application 2.3%；Strengthen 2.0%；Principle 0.5%。"
+      },
+      {
+        "type": "p",
+        "label": "分類目錄",
+        "text": "Question Stem Awareness"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Big Picture: Main Point / Primary Purpose / Primary Concern / Organization / Title / Source",
+          "Local Purpose: Paragraph Purpose / Detail Purpose / Meaning in Context",
+          "Opinion: Attitude / most likely to agree",
+          "Locate a Detail: Five Questions / according to the passage / states / indicates / refers",
+          "Derive from Details: most supported / inferred / suggests / implies",
+          "Go Beyond Passage: Analogy / Application / Strengthen / Weaken / Add to Passage"
+        ]
       }
     ],
     "source_refs": [
@@ -7955,6 +7971,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-01 使用者提供 Question Stem Awareness 分類截圖"
       }
     ],
     "status": "草稿",
@@ -7975,17 +7995,33 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-index",
+        "before": {
+          "title": "Question Stem Types（題型）",
+          "summary": "先辨題幹要找的資訊，再選用主旨、段落地圖或原句。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "教材統計",
+              "text": "各題型比例：Inference 27.6%；Opinion 22.2%；Purpose 13.0%；Main Point 12.3%；Meaning in Context 6.4%；Organization 4.3%；Analogy 3.7%；Most Supported 3.0%；Weaken 2.7%；Application 2.3%；Strengthen 2.0%；Principle 0.5%。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.706Z",
+    "updated_at": "2026-11-02T04:18:53.893Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-022",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 1,
-    "title": "Author Opinion / Attitude（作者態度）",
+    "order": 6,
+    "title": "Opinion: Attitude / Most Likely to Agree（作者態度）",
     "summary": "先判斷是誰的判斷；再判方向，再判強度。",
     "blocks": [
       {
@@ -8049,8 +8085,61 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.146Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-022",
+        "before": {
+          "title": "Author Opinion / Attitude（作者態度）",
+          "summary": "先判斷是誰的判斷；再判方向，再判強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "態度詞須由文章中的具體內容支持；找不到依據，就不能只依印象選擇。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "dismissive：否定、不屑。",
+                "skeptical：懷疑。",
+                "qualified approval：有保留的贊同。",
+                "cautious：謹慎。",
+                "ambivalent：正反並存。",
+                "neutral：只報導、不評價。",
+                "critical：批評。",
+                "enthusiastic：熱切贊同。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "S1 誰的判斷：作者，或被引述的來源？",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 方向：贊同、反對、或中立報導。"
+            },
+            {
+              "type": "p",
+              "text": "S3 強度：有 hedge（有保留、謹慎）或無 hedge（明確贊同或否定）。"
+            },
+            {
+              "type": "p",
+              "text": "T1 作者有立場時，不選中立描述（subject to debate、undecided）。中立只在作者只報導不評價時正確。",
+              "label": "陷阱"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.061Z",
     "updated_by": "tutor"
   },
   {
@@ -8058,7 +8147,7 @@
     "parent_id": "OL-021",
     "level": 3,
     "order": 2,
-    "title": "Primary Purpose（文章目的）",
+    "title": "Big Picture: Primary Purpose / Primary Concern（文章目的／主要關切）",
     "summary": "全篇在做什麼，須涵蓋每一個正文段落。",
     "blocks": [
       {
@@ -8117,16 +8206,55 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.189Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-023",
+        "before": {
+          "title": "Primary Purpose（文章目的）",
+          "summary": "全篇在做什麼，須涵蓋每一個正文段落。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 描述可以是目的。描述型文章沒有反駁或提案時，正解是涵蓋所有正文段落的描述；只涵蓋一段卻像論證的選項屬 Out of Scope（部分）。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 主題領域不決定結構；不因 humanities 就推定為描述型。"
+            },
+            {
+              "type": "p",
+              "text": "R3 選項寫「批評某些人」而文章只談主張時，刪。選項出現 traditional、recently proposed、gaining popularity 這類新舊或地位標籤時，回第一段確認誰新誰舊。"
+            },
+            {
+              "type": "p",
+              "text": "S1 選項為「A 做 X 而 B 做 Y」或兩部分句時，兩半分別驗證。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "T1 描述型文章的目的被讀成論證型。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 Half Scope：兩部分選項只有一半正確。"
+            }
+          ]
+        }
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:53.952Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-024",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 3,
-    "title": "Local Purpose / Function（局部功能）",
+    "order": 4,
+    "title": "Local Purpose: Paragraph Purpose / Detail Purpose（局部功能）",
     "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
     "blocks": [
       {
@@ -8268,17 +8396,64 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-024",
+        "before": {
+          "title": "Local Purpose / Function（局部功能）",
+          "summary": "判斷指定內容在文中的作用，以及它如何連接其他主張或段落。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "方法連接",
+              "text": "沿用 Step 3: Passage Map/Function 與 LR 的 Role／Method，將已判斷的功能對應到題目指定內容及選項。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 功能題問作者為什麼放入指定內容。題問要求完整描述時，答案須涵蓋該部分的主要作用，不能只描述其中一半。"
+            },
+            {
+              "type": "p",
+              "text": "R2 區分「宣告反例存在」與「實際舉出反例」；證據屬於實際呈現它的段落。"
+            },
+            {
+              "type": "p",
+              "text": "R3 作者可以整體贊同、局部批評。全文態度不能代替對指定內容的判讀；never、cannot、fails 等詞也不單獨構成批評，須確認它們描述的對象與作用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 限縮主張（qualify a claim）是指出主張的限制、條件或例外，使其適用範圍更精確。例如先介紹方法的用途，再指出它無法解答的問題；指出限制本身不等於否定整個方法。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 確認題問指定的句子或段落，用一句話說出它的作用；問段落關係時，分別確認兩段做什麼，再描述其連接方式。"
+            },
+            {
+              "type": "p",
+              "text": "S2 核對選項的動作、對象與強度：文章是否真的在舉例、讓步、限縮或反駁？動詞吻合後，仍須核對它作用於哪個主張，以及有無誇大。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.736Z",
+    "updated_at": "2026-11-02T04:18:54.013Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-025",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 4,
-    "title": "Detail / Locate Details（細節定位）",
+    "order": 7,
+    "title": "Locate a Detail（細節定位）",
     "summary": "先定位，再逐字比對名詞與限定語。",
     "blocks": [
       {
@@ -8387,17 +8562,60 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-025",
+        "before": {
+          "title": "Detail / Locate Details（細節定位）",
+          "summary": "先定位，再逐字比對名詞與限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues、according to X）、指代（he、this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項沿用文章關鍵詞但更換受益者或對象者刪。"
+            },
+            {
+              "type": "p",
+              "text": "S1 取題幹的關鍵名詞，定位原句。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 選項與原句逐名詞比對，含限定語。"
+            },
+            {
+              "type": "p",
+              "text": "S3 接受合理改寫；文章有但不回答題幹的句子刪。"
+            },
+            {
+              "type": "p",
+              "text": "T1 引用的句子與題幹不對應；須核對所引內容是否回答本題所問。",
+              "label": "陷阱"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.745Z",
+    "updated_at": "2026-11-02T04:18:54.085Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-026",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 5,
-    "title": "Analogy / Relationship（類比與關係）",
+    "order": 10,
+    "title": "Go Beyond Passage: Analogy / Relationship（類比與關係）",
     "summary": "讀選項前先用一句話寫出關係。",
     "blocks": [
       {
@@ -8448,16 +8666,52 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.224Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-026",
+        "before": {
+          "title": "Analogy / Relationship（類比與關係）",
+          "summary": "讀選項前先用一句話寫出關係。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 選項含 in order to、designed to 時，回文章確認那是作者所述的意圖，還是無法避免的結果。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "S1 先寫一句抽象關係句（或類比目標），再比對選項，不比對表面題材。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 關係句有兩個成分時，選項須兩個都對：層級關係（通論對個案、理論對應用）與立場關係（一致、對立、無關）。"
+            },
+            {
+              "type": "p",
+              "text": "T1 關係題只取一半成分；須同時核對層級關係與立場關係。",
+              "label": "陷阱"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.154Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-027",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 6,
-    "title": "Inference（推論）",
+    "order": 9,
+    "title": "Derive from Details: Inference（推論）",
     "summary": "找文章的具體依據；選項的對象、比較與強度不得超出依據。",
     "blocks": [
       {
@@ -8511,8 +8765,51 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.239Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-027",
+        "before": {
+          "title": "Inference（推論）",
+          "summary": "找文章的具體依據；選項的對象、比較與強度不得超出依據。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 正解由文章原文支撐；最強的支撐是能指出的一句或多句組合。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 推論題先回文章找具體細節，不問該細節與主旨是否相關，不問重要性。看似多餘的描述（人物移動、忍耐、材質）常是依據。"
+            },
+            {
+              "type": "p",
+              "text": "R3 填空題的句子須為全文推理的收束，範圍以作者實際做到的為限；作者只推翻某項論證時，不可選該結論為假。"
+            },
+            {
+              "type": "p",
+              "text": "R4 選項寫「除了某點以外」時，回文章找該例外的出處，找不到即刪。"
+            },
+            {
+              "type": "p",
+              "text": "T1 三類誤選：超出文章所述、方向相反、文章未提供的比較或趨勢。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 以「與主旨無關」或「太瑣碎」刪除選項；覺得想刪時，改去文章找有無明文。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.131Z",
     "updated_by": "tutor"
   },
   {
@@ -8783,8 +9080,8 @@
     "section_id": "OL-031",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 7,
-    "title": "Main Point（主旨題）",
+    "order": 1,
+    "title": "Big Picture: Main Point（主旨題）",
     "summary": "選出準確表達作者主張的選項，保留範圍與限定。",
     "blocks": [
       {
@@ -8878,17 +9175,43 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-031",
+        "before": {
+          "title": "Main Point（主旨題）",
+          "summary": "選出準確表達作者主張的選項，保留範圍與限定。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 方法見 Step 2: Main Point/Conclusion。選項須準確表達作者主張；只有主題、局部細節，或加入文章未支持的比較者，不符合要求。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 先讀 main clause：主詞是否為 central topic、述語是否表達 Framework 的核心結果。排除明顯無關選項後，再核對子句及限定語。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-11-02T01:38:04.589Z",
+    "updated_at": "2026-11-02T04:18:53.940Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-032",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 8,
-    "title": "Meaning in Context（語境詞義）",
+    "order": 5,
+    "title": "Local Purpose: Meaning in Context（語境詞義）",
     "summary": "用所在句與前後文定義詞義，不採字典常義。",
     "blocks": [
       {
@@ -8913,16 +9236,38 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-01T04:49:46.428Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-032",
+        "before": {
+          "title": "Meaning in Context（語境詞義）",
+          "summary": "用所在句與前後文定義詞義，不採字典常義。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 以該詞所在句與前後句定義詞義，不採字典義。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.038Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-033",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 9,
-    "title": "Organization（組織）",
+    "order": 3,
+    "title": "Big Picture: Organization（組織）",
     "summary": "用段落地圖按順序核對選項對文章組織的描述。",
     "blocks": [
       {
@@ -8947,16 +9292,38 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-01T04:49:46.445Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-033",
+        "before": {
+          "title": "Organization（組織）",
+          "summary": "用段落地圖按順序核對選項對文章組織的描述。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 由文章地圖作答；選項的每一部分對照段落順序逐一核對。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:53.979Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-034",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 10,
-    "title": "Application（應用）",
+    "order": 11,
+    "title": "Go Beyond Passage: Application（應用）",
     "summary": "先寫作者的觀點或原則，再看新案例是否落在其範圍內。",
     "blocks": [
       {
@@ -8981,16 +9348,38 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-01T04:49:46.465Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-034",
+        "before": {
+          "title": "Application（應用）",
+          "summary": "先寫作者的觀點或原則，再看新案例是否落在其範圍內。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 先寫出作者的觀點或原則一句，再看選項的新案例是否落在該句之內。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.176Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-035",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 11,
-    "title": "Strengthen / Weaken（加強／削弱）",
+    "order": 12,
+    "title": "Go Beyond Passage: Strengthen / Weaken（加強／削弱）",
     "summary": "先定位文章中的主張，再問選項使它更可信還是更弱。",
     "blocks": [
       {
@@ -9040,17 +9429,38 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o35"
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-035",
+        "before": {
+          "title": "Strengthen / Weaken（加強／削弱）",
+          "summary": "先定位文章中的主張，再問選項使它更可信還是更弱。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 定位該主張，再依「LR → 假設家族 → 加強」或「LR → 假設家族 → 削弱」的方法處理；因果關係另見「LR → 推理結構 → 因果」。"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-10-12T04:52:57.775Z",
+    "updated_at": "2026-11-02T04:18:54.199Z",
     "updated_by": "tutor"
   },
   {
     "section_id": "OL-036",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 12,
-    "title": "Most Supported / Principle（最受支持／原則）",
+    "order": 8,
+    "title": "Derive from Details: Most Supported / Principle（最受支持／原則）",
     "summary": "最受支持：選項不可多於文章所給。",
     "blocks": [
       {
@@ -9079,8 +9489,30 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
-    "updated_at": "2026-10-05T05:04:08.292Z",
+    "revisions": [
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-036",
+        "before": {
+          "title": "Most Supported / Principle（最受支持／原則）",
+          "summary": "最受支持：選項不可多於文章所給。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 最受支持題的選項須由文章提供依據；可以比文章原有主張更弱，但不得加入沒有支持的關係。流程見「推論家族」；選項檢查見「閱讀理解 → 誘答」。",
+              "label": "規則"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "by": "tutor",
+        "summary": "移動節"
+      }
+    ],
+    "updated_at": "2026-11-02T04:18:54.108Z",
     "updated_by": "tutor"
   },
   {
