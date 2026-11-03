@@ -8060,46 +8060,9 @@
     "parent_id": "OL-021",
     "level": 3,
     "order": 6,
-    "title": "Opinion: Attitude / Most Likely to Agree（作者態度）",
-    "summary": "先判斷是誰的判斷；再判方向，再判強度。",
-    "blocks": [
-      {
-        "type": "p",
-        "text": "態度詞須由文章中的具體內容支持；找不到依據，就不能只依印象選擇。",
-        "label": "辨識"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "dismissive：否定、不屑。",
-          "skeptical：懷疑。",
-          "qualified approval：有保留的贊同。",
-          "cautious：謹慎。",
-          "ambivalent：正反並存。",
-          "neutral：只報導、不評價。",
-          "critical：批評。",
-          "enthusiastic：熱切贊同。"
-        ]
-      },
-      {
-        "type": "p",
-        "text": "S1 誰的判斷：作者，或被引述的來源？",
-        "label": "步驟"
-      },
-      {
-        "type": "p",
-        "text": "S2 方向：贊同、反對、或中立報導。"
-      },
-      {
-        "type": "p",
-        "text": "S3 強度：有 hedge（有保留、謹慎）或無 hedge（明確贊同或否定）。"
-      },
-      {
-        "type": "p",
-        "text": "T1 作者有立場時，不選中立描述（subject to debate、undecided）。中立只在作者只報導不評價時正確。",
-        "label": "陷阱"
-      }
-    ],
+    "title": "Opinion: Attitude / Most Likely to Agree（觀點與態度）",
+    "summary": "Opinion：Most provable; preserve meaning, not sound。Attitude：Almost never neutral; start by deciding Pos or Neg。",
+    "blocks": [],
     "source_refs": [
       {
         "type": "LSATLab Notes",
@@ -8120,6 +8083,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之 Opinion & Attitude 修訂：於原節下分列 Opinion 與 Attitude，保留各自摘要、辨識、規則、步驟與陷阱。"
       }
     ],
     "status": "草稿",
@@ -8191,9 +8158,56 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-02",
+        "by": "tutor",
+        "summary": "家教更新 03-20261102-opinion-attitude-o1",
+        "before": {
+          "title": "Opinion: Attitude / Most Likely to Agree（作者態度）",
+          "summary": "先判斷是誰的判斷；再判方向，再判強度。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "態度詞須由文章中的具體內容支持；找不到依據，就不能只依印象選擇。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "dismissive：否定、不屑。",
+                "skeptical：懷疑。",
+                "qualified approval：有保留的贊同。",
+                "cautious：謹慎。",
+                "ambivalent：正反並存。",
+                "neutral：只報導、不評價。",
+                "critical：批評。",
+                "enthusiastic：熱切贊同。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "S1 誰的判斷：作者，或被引述的來源？",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 方向：贊同、反對、或中立報導。"
+            },
+            {
+              "type": "p",
+              "text": "S3 強度：有 hedge（有保留、謹慎）或無 hedge（明確贊同或否定）。"
+            },
+            {
+              "type": "p",
+              "text": "T1 作者有立場時，不選中立描述（subject to debate、undecided）。中立只在作者只報導不評價時正確。",
+              "label": "陷阱"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T06:56:38.139Z",
+    "updated_at": "2026-11-03T07:13:45.470Z",
     "updated_by": "tutor"
   },
   {
@@ -22073,6 +22087,170 @@
     ],
     "client_request_id": "03-20261101-authors-intent-paragraph",
     "updated_at": "2026-11-03T06:03:43.813Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-068",
+    "parent_id": "OL-022",
+    "level": 4,
+    "order": 1,
+    "title": "Opinion（觀點推論）",
+    "summary": "Most provable; preserve meaning, not sound：選最有依據的主張，比對意思而非字面用詞。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "most likely to agree; holds which view。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 Most Supported：選出文章最能支持的主張，不要求原文明說或使用相同字詞。"
+      },
+      {
+        "type": "p",
+        "text": "R2 答案可以改寫單一主張、整合多句，或概括段落／全文。作者觀點題不一定只考主旨。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Identify：確認問的是誰的觀點，以及題目是否指定議題。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Locate：依 Target 決定搜尋方式。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Defined Target：Find Support Window：定位題目指定人物或議題的相關內容，再核對選項。",
+          "Semi-defined Target：Voice turns on at the end：先查結尾的作者立場，再依選項回查相關內容。",
+          "Undefined Target：Omnipresent voice：依各選項的主張回文查證，可能涉及局部內容或整體立場。"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "S3 Check：將選項對回文章，核對觀點歸屬、意思、範圍與強度。若選項整合多句，確認這些內容能共同支持它。"
+      },
+      {
+        "type": "p",
+        "text": "S4 Compare：比較候選選項，選出支持最充分者。語氣較弱通常較容易支持，但仍須有依據；只符合作者的大致立場，還不足以選它。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Wrong Point of View：觀點屬於其他人，不屬於題目所問的人物。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Word Bait／Word Salad：使用原文的熟悉字詞，卻改變原意或拼成沒有依據的主張。"
+      },
+      {
+        "type": "p",
+        "text": "T3 Too Strong：把原文有限度的主張說得過於確定或普遍。"
+      },
+      {
+        "type": "p",
+        "text": "T4 Out of Scope：加入文章沒有支持的新主張。"
+      },
+      {
+        "type": "p",
+        "text": "T5 Unsupported Comparison：加入文章未支持的比較。"
+      },
+      {
+        "type": "p",
+        "text": "T6 Unsupported Causality：加入文章未支持的因果關係。"
+      },
+      {
+        "type": "p",
+        "text": "T7 Contradicted：選項與文中該人物的主張相反。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之修訂；LSAT Lab 影片 Opinion & Attitude 截圖及 RC cramsheet。保留 Defined Target、Semi-defined Target、Undefined Target 的各別操作與影片原文術語。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261102-opinion-attitude-o2",
+    "updated_at": "2026-11-03T07:13:45.498Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-069",
+    "parent_id": "OL-022",
+    "level": 4,
+    "order": 2,
+    "title": "Attitude（態度判斷）",
+    "summary": "Almost never neutral; start by deciding Pos or Neg。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "attitude; stance。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 態度須由文章中的評價用語與結構支持。留意觀點歸屬、讓步及轉折，確認最後採取的立場。"
+      },
+      {
+        "type": "p",
+        "text": "R2 對「形容詞＋態度名詞」的選項，先看名詞表達的整體方向，再看形容詞如何限定它。例如 guarded agreement 是有保留的贊同；cautious skepticism 是謹慎的懷疑。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Locate：確認問誰對什麼的態度。找 Attitudinal Markers，並留意 Attribution、Concession、Pivot、Pushback，確認其立場。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Prioritize：Noun = Overall。先看選項的態度名詞，依 Pos／Neg／Neutral 篩選方向。例如 agreement 是正向；skepticism 是負向。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Verify：Adjective = Concession。再核對形容詞表達的保留或程度，以及選項其餘描述。例如 guarded agreement 仍是贊同，但帶有保留。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Too Strong：把謹慎或有限度的態度說得過於強烈。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Too Weak：把明確的贊同或批評說得過於保留。"
+      },
+      {
+        "type": "p",
+        "text": "T3 Too Mixed：把有保留但方向明確的立場，誤寫成正反並存或尚未決定。"
+      },
+      {
+        "type": "p",
+        "text": "T4 Opposite：態度方向與文章相反。"
+      },
+      {
+        "type": "p",
+        "text": "T5 Neutral：作者已有正向或負向評價，卻選只報導、不表態的描述。"
+      },
+      {
+        "type": "p",
+        "text": "T6 Right Attitude, Wrong Description：態度詞符合，但對其對象或理由的描述不符。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之修訂；LSAT Lab 影片 Opinion & Attitude 截圖及 RC cramsheet。依使用者要求保留摘要原文與 Prioritize／Verify、Noun = Overall／Adjective = Concession。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261102-opinion-attitude-o3",
+    "updated_at": "2026-11-03T07:13:45.510Z",
     "updated_by": "tutor"
   }
 ]
