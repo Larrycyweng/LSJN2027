@@ -8356,25 +8356,29 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "primary purpose in mentioning／reference to … primarily serves to／mentions … primarily to／in order to／serves to。"
+        "text": "primary purpose in mentioning; primarily serves to; primarily to; in order to; serves to。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 Read：找到指定細節，連同前後文一起讀。先找前面引出它的觀點；如果後面有總結，也一起看。"
+        "text": "S1 Read：找到指定細節，先看前面引出它的觀點（framing idea），再看後面是否有總結或轉折。"
       },
       {
         "type": "p",
-        "text": "S2 Explain：問「作者提到這個細節，是為了讓讀者理解或接受什麼？」把細節連回它要支持、說明、限定或反駁的觀點。"
+        "text": "S2 Explain：問「這個細節要支持、說明、限定或反駁什麼觀點？」"
       },
       {
         "type": "p",
-        "text": "S3 Choose：選出能說明這個用途的答案。核對選項說的是哪個觀點，以及細節對它起什麼作用。"
+        "text": "S3 Choose：將選項對回該觀點，核對細節對它的作用。正確答案通常呼應前面的觀點，或後面的總結、轉折。"
       },
       {
         "type": "p",
         "label": "陷阱",
-        "text": "選項只是換句話重述細節，沒有回答「為什麼提到它」；或加入文章沒有表達的目的。"
+        "text": "T1 Word Bait：選項重複細節中的字詞，卻沒有回答「為什麼提到它」。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Unsupported Purpose／Too Strong：加入文章沒有表達的目的，或把細節的作用說得太強。"
       }
     ],
     "source_refs": [
@@ -8413,6 +8417,10 @@
       {
         "type": "User Revision",
         "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之精簡修訂；依 Author’s Intent 影片、Big Takeaways 截圖與 RC cramsheet；統一分號及 S／T 編號。"
       }
     ],
     "status": "草稿",
@@ -8587,9 +8595,43 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-02",
+        "by": "tutor",
+        "summary": "家教更新 03-20261102-authors-intent-o2",
+        "before": {
+          "title": "Local Purpose: Detail Purpose（細節目的）",
+          "summary": "找出作者為什麼要提到這個例子、事實或細節。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "primary purpose in mentioning／reference to … primarily serves to／mentions … primarily to／in order to／serves to。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Read：找到指定細節，連同前後文一起讀。先找前面引出它的觀點；如果後面有總結，也一起看。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Explain：問「作者提到這個細節，是為了讓讀者理解或接受什麼？」把細節連回它要支持、說明、限定或反駁的觀點。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Choose：選出能說明這個用途的答案。核對選項說的是哪個觀點，以及細節對它起什麼作用。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "選項只是換句話重述細節，沒有回答「為什麼提到它」；或加入文章沒有表達的目的。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T06:56:38.084Z",
+    "updated_at": "2026-11-03T06:03:43.825Z",
     "updated_by": "tutor"
   },
   {
@@ -9361,34 +9403,34 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "Refer：refers to／means to refer to／intends to include … among。"
+        "text": "Refer：refers to; means to refer to; intends to include。"
       },
       {
         "type": "p",
-        "text": "Substitute：closest in meaning／could replace … without substantively altering the meaning。"
+        "text": "Substitute：closest in meaning; could replace; without substantively altering the meaning。"
       },
       {
         "type": "p",
         "label": "規則",
-        "text": "R1 兩種問法使用不同方法：Refer 要找到指涉對象；Substitute 要找到符合這裡意思的替換說法。"
+        "text": "R1 Refer 找指涉對象；Substitute 找符合語境的替換說法。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 Read：定位指定詞語，從前一句讀到所在句，先理解它在這段話中的意思。"
+        "text": "S1 Read：從前一句讀到指定詞語所在句，理解上下文。"
       },
       {
         "type": "p",
-        "text": "S2 Find：依題問選用方法。Refer 題往前追查，找到這個詞語代稱的內容；Substitute 題先用自己的話改述它在此處的意思。"
+        "text": "S2 Find：Refer 沿回指語言往前追查，直到找到指涉內容；Substitute 先用自己的話改述此處的意思。"
       },
       {
         "type": "p",
-        "text": "S3 Choose：Refer 題核對選項是否描述同一個對象；Substitute 題把選項代回原句，檢查意思是否維持不變。"
+        "text": "S3 Choose：Refer 核對是否為同一指涉對象；Substitute 將選項代回原句，確認意思不變，並與前文相符。"
       },
       {
         "type": "p",
         "label": "陷阱",
-        "text": "因為熟悉某個字典意思就選它，卻沒有確認這個意思是否符合上下文。"
+        "text": "T1 Dictionary Trap：符合常見字典意思，卻不符合此處語境。"
       }
     ],
     "source_refs": [
@@ -9407,6 +9449,10 @@
       {
         "type": "User Revision",
         "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之精簡修訂；依 Author’s Intent 影片、Big Takeaways 截圖與 RC cramsheet；統一分號及 R／S／T 編號，沿用 Refer／Substitute 名稱。"
       }
     ],
     "status": "草稿",
@@ -9458,9 +9504,52 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-02",
+        "by": "tutor",
+        "summary": "家教更新 03-20261102-authors-intent-o3",
+        "before": {
+          "title": "Local Purpose: Meaning in Context（語境詞義）",
+          "summary": "根據上下文，判斷詞語指的是什麼，或換成什麼仍保留原意。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "Refer：refers to／means to refer to／intends to include … among。"
+            },
+            {
+              "type": "p",
+              "text": "Substitute：closest in meaning／could replace … without substantively altering the meaning。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 兩種問法使用不同方法：Refer 要找到指涉對象；Substitute 要找到符合這裡意思的替換說法。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Read：定位指定詞語，從前一句讀到所在句，先理解它在這段話中的意思。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Find：依題問選用方法。Refer 題往前追查，找到這個詞語代稱的內容；Substitute 題先用自己的話改述它在此處的意思。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Choose：Refer 題核對選項是否描述同一個對象；Substitute 題把選項代回原句，檢查意思是否維持不變。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "因為熟悉某個字典意思就選它，卻沒有確認這個意思是否符合上下文。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T06:56:38.126Z",
+    "updated_at": "2026-11-03T06:03:43.838Z",
     "updated_by": "tutor"
   },
   {
@@ -21905,38 +21994,85 @@
       {
         "type": "p",
         "label": "辨識",
-        "text": "main purpose of the … paragraph／primary function of the … paragraph／relationship between … paragraphs。"
+        "text": "main purpose of the paragraph; primary function of the paragraph; relationship between paragraphs。"
       },
       {
         "type": "p",
         "label": "步驟",
-        "text": "S1 Read：回讀指定段落，先看首句如何接上前文，再確認整段在說什麼。首句的轉折或承接用語，是判斷段落作用的線索。"
+        "text": "S1 Read：先看首句的轉折或承接用語（but; moreover; for example），找出整段要展開的觀點。"
       },
       {
         "type": "p",
-        "text": "S2 Relate：把這段放回全文，問「作者安排這一段，讓文章往哪裡推進？」例如提出觀點、提供例子、回應反方或補充限制。若問兩段關係，先分別說出兩段的作用，再看後一段如何承接前一段。"
+        "text": "S2 Relate：配合 Framework 與 Passage Map，概括這段在全文中的作用。若問兩段關係，確認兩段各自的作用及如何承接。"
       },
       {
         "type": "p",
-        "text": "S3 Choose：選出準確描述該段主要作用的答案。選項的每一部分都要有依據；若仍有兩個候選，就比較哪個更能說明這段與全文目的的關係。以文章為準，不要求選項與自己的預想措辭相同。"
+        "text": "S3 Choose：選項的每一部分都須符合文章，不必與自己的預想措辭相同。若兩個選項都準確，再比較哪個更能說明這段與全文目的的關係。"
       },
       {
         "type": "p",
         "label": "陷阱",
-        "text": "描述其他段落、只說中本段一小部分，或把作者實際做的事說得太強。"
+        "text": "T1 Wrong Paragraph：描述的是其他段落的作用。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Too Narrow：只涵蓋本段局部，未描述整段的主要作用。"
+      },
+      {
+        "type": "p",
+        "text": "T3 Too Strong：把作者實際做的事說得太強。"
       }
     ],
     "source_refs": [
       {
         "type": "User Revision",
         "ref": "2026-11-01 使用者確認之 Author’s Intent 修訂稿；影片截圖與 RC cram sheet 第1頁"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-02 使用者確認之精簡修訂；依 Author’s Intent 影片、Big Takeaways 截圖與 RC cramsheet；統一分號及 S／T 編號。"
       }
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-11-02",
+        "by": "tutor",
+        "summary": "家教更新 03-20261102-authors-intent-o1",
+        "before": {
+          "title": "Local Purpose: Paragraph Purpose（段落目的）",
+          "summary": "看懂這一段在全文中負責做什麼。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "main purpose of the … paragraph／primary function of the … paragraph／relationship between … paragraphs。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Read：回讀指定段落，先看首句如何接上前文，再確認整段在說什麼。首句的轉折或承接用語，是判斷段落作用的線索。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Relate：把這段放回全文，問「作者安排這一段，讓文章往哪裡推進？」例如提出觀點、提供例子、回應反方或補充限制。若問兩段關係，先分別說出兩段的作用，再看後一段如何承接前一段。"
+            },
+            {
+              "type": "p",
+              "text": "S3 Choose：選出準確描述該段主要作用的答案。選項的每一部分都要有依據；若仍有兩個候選，就比較哪個更能說明這段與全文目的的關係。以文章為準，不要求選項與自己的預想措辭相同。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "描述其他段落、只說中本段一小部分，或把作者實際做的事說得太強。"
+            }
+          ]
+        }
+      }
+    ],
     "client_request_id": "03-20261101-authors-intent-paragraph",
-    "updated_at": "2026-11-02T06:56:38.021Z",
+    "updated_at": "2026-11-03T06:03:43.813Z",
     "updated_by": "tutor"
   }
 ]
