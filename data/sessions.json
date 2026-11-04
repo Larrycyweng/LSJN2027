@@ -1129,5 +1129,26 @@
     "client_request_id": "03-20261102-opinion-attitude-s1",
     "created_at": "2026-11-03T07:13:45.523Z",
     "updated_at": "2026-11-03T07:13:45.523Z"
+  },
+  {
+    "session_id": "S-20261103-01",
+    "week_label": "第7週",
+    "phase": "第二階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": 40,
+    "review_minutes": null,
+    "focus_skill": "RC：Locate Details 影片學習與大綱整理",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日學習40分鐘。學習題幹關鍵詞定位、Find Text、Support Window，以及Defined／Semi-defined／Undefined Target的搜尋方式。Inference為下一個獨立影片，不記為已完成。",
+    "session_date": "2026-11-03",
+    "mode": "Learn",
+    "effective_minutes": 40,
+    "client_request_id": "03-20261103-locate-details-s1",
+    "created_at": "2026-11-04T07:03:05.236Z",
+    "updated_at": "2026-11-04T07:03:05.236Z"
   }
 ]
