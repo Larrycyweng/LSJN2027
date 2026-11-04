@@ -8654,34 +8654,59 @@
     "level": 3,
     "order": 7,
     "title": "Locate a Detail（細節定位）",
-    "summary": "先定位，再逐字比對名詞與限定語。",
+    "summary": "Concrete / findable; find the Support Window。",
     "blocks": [
       {
         "type": "p",
-        "text": "R1 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues、according to X）、指代（he、this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。",
-        "label": "規則"
+        "label": "辨識",
+        "text": "according to the passage; the passage indicates; mentions; states; asserts; says。"
       },
       {
         "type": "p",
-        "text": "R2 選項沿用文章關鍵詞但更換受益者或對象者刪。"
+        "label": "規則",
+        "text": "R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
       },
       {
         "type": "p",
-        "text": "S1 取題幹的關鍵名詞，定位原句。",
-        "label": "步驟"
+        "text": "R2 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues; according to X）、指代（he; this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。"
       },
       {
         "type": "p",
-        "text": "S2 選項與原句逐名詞比對，含限定語。"
+        "label": "步驟",
+        "text": "S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
       },
       {
         "type": "p",
-        "text": "S3 接受合理改寫；文章有但不回答題幹的句子刪。"
+        "text": "S2 Target：依題幹線索及相關內容的分布，選擇搜尋方式。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Defined Target：Only 1 or 2 things could be the answer。先回文章鎖定 Support Window，形成答案方向，再掃描選項找對應內容。It pays to be stubborn：以已確認的原文為準。",
+          "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若仍無法縮小範圍，可先略看選項，再到相關段落逐項查證。",
+          "Undefined Target：No keywords; entire passage up for grabs。先看選項，再依各項主張回文找依據。可優先查證沒有極端用語的候選，但語氣較弱仍須有原文支持。"
+        ]
       },
       {
         "type": "p",
-        "text": "T1 引用的句子與題幹不對應；須核對所引內容是否回答本題所問。",
-        "label": "陷阱"
+        "text": "S3 Match：核對選項的意思、人物、對象及限定語，確認它回答的是本題所問。掃描只是初篩，候選選項仍須讀完整句；若整合多處細節，各部分都要有依據。"
+      },
+      {
+        "type": "p",
+        "text": "S4 Five Questions：此問法的五個選項各是一個問題。逐項找相關原文，判斷資訊是否足以回答；不能只憑記憶認定文章有沒有提過。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Wrong Target：引用的內容確實出現在文章中，卻沒有回答本題所問。"
+      },
+      {
+        "type": "p",
+        "text": "T3 Incomplete Support：只核對命中的字詞，漏看前後文、限定語或選項後半句。"
       }
     ],
     "source_refs": [
@@ -8716,6 +8741,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-03 使用者確認之 Locate Details 影片大綱；依影片截圖與 RC cramsheet，移除辨識第二行及原 Stated vs. Implied 規則，後續規則重新編號。搜尋工具採 Find Text 名稱，參考 LSAC：https://www.lsac.org/blog/lsat-week-080223。"
       }
     ],
     "status": "草稿",
@@ -8805,9 +8834,47 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-03",
+        "by": "tutor",
+        "summary": "家教更新 03-20261103-locate-details-o1",
+        "before": {
+          "title": "Locate a Detail（細節定位）",
+          "summary": "先定位，再逐字比對名詞與限定語。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues、according to X）、指代（he、this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 選項沿用文章關鍵詞但更換受益者或對象者刪。"
+            },
+            {
+              "type": "p",
+              "text": "S1 取題幹的關鍵名詞，定位原句。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 選項與原句逐名詞比對，含限定語。"
+            },
+            {
+              "type": "p",
+              "text": "S3 接受合理改寫；文章有但不回答題幹的句子刪。"
+            },
+            {
+              "type": "p",
+              "text": "T1 引用的句子與題幹不對應；須核對所引內容是否回答本題所問。",
+              "label": "陷阱"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T04:18:54.085Z",
+    "updated_at": "2026-11-04T07:03:05.219Z",
     "updated_by": "tutor"
   },
   {
