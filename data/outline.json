@@ -8658,11 +8658,13 @@
     "blocks": [
       {
         "type": "p",
-        "text": "辨識: (1) according to the passage; the passage indicates; what does the author (explicitly) mention/state/offer/say。(2) The passage provides information sufficient enough to answer which if the following questions?"
+        "label": "辨識",
+        "text": "according to the passage; the passage indicates; what does the author (explicitly) mention/state/offer/say; the passage provides information sufficient to answer which of the following questions。"
       },
       {
         "type": "p",
-        "text": "規則: R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
+        "label": "規則",
+        "text": "R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
       },
       {
         "type": "p",
@@ -8670,23 +8672,27 @@
       },
       {
         "type": "p",
-        "text": "步驟: S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
+        "label": "步驟",
+        "text": "S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，查看命中位置、次數及前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
       },
       {
         "type": "p",
-        "text": "S2 Target：依題幹線索及相關內容的分布，選擇搜尋方式。"
+        "text": "S2 Target：依搜尋後相關內容的分布，決定查證方式。"
       },
       {
         "type": "ul",
         "items": [
-          "Defined Target：Only 1 or 2 things could be the answer。先回文章鎖定 Support Window，形成答案方向，再掃描選項找對應內容。It pays to be stubborn：以已確認的原文為準。",
-          "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若仍無法縮小範圍，可先略看選項，再到相關段落逐項查證。",
-          "Undefined Target：No keywords; entire passage up for grabs。先看選項，再依各項主張回文找依據。可優先查證沒有極端用語的候選，但語氣較弱仍須有原文支持。"
+          "Defined Target：Only 1 or 2 things could be the answer。鎖定 Support Window，形成答案方向，再掃描所有選項找意思相符的改寫。It pays to be stubborn：以已確認的原文為準。",
+          "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若範圍仍廣，可先略看選項，再到相關段落查證。"
         ]
       },
       {
         "type": "p",
-        "text": "S3 Match：核對選項的意思、人物、對象及限定語，確認它回答的是本題所問。掃描只是初篩，候選選項仍須讀完整句；若整合多處細節，各部分都要有依據。"
+        "text": "S3 Answers：若題幹沒有定位線索（Undefined Target），先掃過所有選項；Strong or Silly 的先暫緩，優先回文查證 Moderate, Reasonable Ideas。若優先候選沒有足夠支持，再查證暫緩項。Defer ≠ Eliminate。"
+      },
+      {
+        "type": "p",
+        "text": "所有候選選項都須讀完整句，核對意思、人物、對象及限定語，確認回答本題所問；若整合多處細節，各部分都要有依據。"
       },
       {
         "type": "p",
@@ -8694,7 +8700,8 @@
       },
       {
         "type": "p",
-        "text": "陷阱: T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
+        "label": "陷阱",
+        "text": "T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
       },
       {
         "type": "p",
@@ -8745,6 +8752,10 @@
       {
         "type": "User Revision",
         "ref": "2026-11-04"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-04 使用者確認之 Locate a Detail 修訂；基準 origin/main 4d2a023、OL-025。依 Locate Details 截圖、Inference 影片 Undefined Target 完整截圖及 RC cramsheet：S1 Search 後以 S2 Target 處理 Defined／Semi-defined；Undefined Target 併入 S3 Answers，優先查證 Moderate, Reasonable Ideas，Defer ≠ Eliminate。保留既有規則、陷阱及 Five Questions，修正辨識句英文筆誤。"
       }
     ],
     "status": "草稿",
@@ -8999,81 +9010,70 @@
         "date": "2026-11-04",
         "by": "tutor",
         "summary": "家教提案（待確認）"
+      },
+      {
+        "date": "2026-11-04",
+        "by": "user",
+        "summary": "接受提案 03-20261104-locate-details-revision-o1",
+        "before": {
+          "title": "Locate a Detail（細節定位）",
+          "summary": "Concrete / findable; find the Support Window。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "辨識: (1) according to the passage; the passage indicates; what does the author (explicitly) mention/state/offer/say。(2) The passage provides information sufficient enough to answer which if the following questions?"
+            },
+            {
+              "type": "p",
+              "text": "規則: R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
+            },
+            {
+              "type": "p",
+              "text": "R2 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues; according to X）、指代（he; this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。"
+            },
+            {
+              "type": "p",
+              "text": "步驟: S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Target：依題幹線索及相關內容的分布，選擇搜尋方式。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Defined Target：Only 1 or 2 things could be the answer。先回文章鎖定 Support Window，形成答案方向，再掃描選項找對應內容。It pays to be stubborn：以已確認的原文為準。",
+                "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若仍無法縮小範圍，可先略看選項，再到相關段落逐項查證。",
+                "Undefined Target：No keywords; entire passage up for grabs。先看選項，再依各項主張回文找依據。可優先查證沒有極端用語的候選，但語氣較弱仍須有原文支持。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "S3 Match：核對選項的意思、人物、對象及限定語，確認它回答的是本題所問。掃描只是初篩，候選選項仍須讀完整句；若整合多處細節，各部分都要有依據。"
+            },
+            {
+              "type": "p",
+              "text": "S4 Five Questions：此問法的五個選項各是一個問題。逐項找相關原文，判斷資訊是否足以回答；不能只憑記憶認定文章有沒有提過。"
+            },
+            {
+              "type": "p",
+              "text": "陷阱: T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
+            },
+            {
+              "type": "p",
+              "text": "T2 Wrong Target：引用的內容確實出現在文章中，卻沒有回答本題所問。"
+            },
+            {
+              "type": "p",
+              "text": "T3 Incomplete Support：只核對命中的字詞，漏看前後文、限定語或選項後半句。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-05T06:38:51.155Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "03-20261104-locate-details-revision-o1",
-        "date": "2026-11-04",
-        "title": "Locate a Detail（細節定位）",
-        "summary": "Concrete / findable; find the Support Window。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "according to the passage; the passage indicates; what does the author (explicitly) mention/state/offer/say; the passage provides information sufficient to answer which of the following questions。"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
-          },
-          {
-            "type": "p",
-            "text": "R2 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues; according to X）、指代（he; this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。"
-          },
-          {
-            "type": "p",
-            "label": "步驟",
-            "text": "S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，查看命中位置、次數及前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
-          },
-          {
-            "type": "p",
-            "text": "S2 Target：依搜尋後相關內容的分布，決定查證方式。"
-          },
-          {
-            "type": "ul",
-            "items": [
-              "Defined Target：Only 1 or 2 things could be the answer。鎖定 Support Window，形成答案方向，再掃描所有選項找意思相符的改寫。It pays to be stubborn：以已確認的原文為準。",
-              "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若範圍仍廣，可先略看選項，再到相關段落查證。"
-            ]
-          },
-          {
-            "type": "p",
-            "text": "S3 Answers：若題幹沒有定位線索（Undefined Target），先掃過所有選項；Strong or Silly 的先暫緩，優先回文查證 Moderate, Reasonable Ideas。若優先候選沒有足夠支持，再查證暫緩項。Defer ≠ Eliminate。"
-          },
-          {
-            "type": "p",
-            "text": "所有候選選項都須讀完整句，核對意思、人物、對象及限定語，確認回答本題所問；若整合多處細節，各部分都要有依據。"
-          },
-          {
-            "type": "p",
-            "text": "S4 Five Questions：此問法的五個選項各是一個問題。逐項找相關原文，判斷資訊是否足以回答；不能只憑記憶認定文章有沒有提過。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
-          },
-          {
-            "type": "p",
-            "text": "T2 Wrong Target：引用的內容確實出現在文章中，卻沒有回答本題所問。"
-          },
-          {
-            "type": "p",
-            "text": "T3 Incomplete Support：只核對命中的字詞，漏看前後文、限定語或選項後半句。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-11-04 使用者確認之 Locate a Detail 修訂；基準 origin/main 4d2a023、OL-025。依 Locate Details 截圖、Inference 影片 Undefined Target 完整截圖及 RC cramsheet：S1 Search 後以 S2 Target 處理 Defined／Semi-defined；Undefined Target 併入 S3 Answers，優先查證 Moderate, Reasonable Ideas，Defer ≠ Eliminate。保留既有規則、陷阱及 Five Questions，修正辨識句英文筆誤。"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-11-05T06:39:13.216Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-026",
