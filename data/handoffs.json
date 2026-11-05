@@ -817,5 +817,18 @@
     "client_request_id": "03-20261104-locate-details-revision-h1",
     "created_at": "2026-11-05T06:38:51.188Z",
     "updated_at": "2026-11-05T06:38:51.188Z"
+  },
+  {
+    "handoff_id": "HO-064",
+    "session_id": "",
+    "taught": "Inference 包含 most supported 問法；依 Defined／Undefined Target 選擇查證順序，並以單句、整合陳述或段落／全文大意證明選項。Undefined Target 優先查證 Moderate, Reasonable Ideas；Defer ≠ Eliminate。",
+    "observed": "使用者要求合併既有 Inference 與 Most Supported 子節；保留 OL-027，提議刪除重複 OL-036。原 T7 移為 T2，陷阱限四項；七種答案形式保留。",
+    "open_questions": "80分鐘為2026-11-04當日回報總量，後續補記不得重複計時。影片與筆記整理不構成獨立作答或掌握驗證。[補充]：無新增自創分類；中文說明依影片與既有教材整理。",
+    "date": "2026-11-04",
+    "stopped_at": "Learn：完成 Inference 影片大綱整理及回寫包；今日學習80分鐘。",
+    "next_task": "先核對本包是否已匯入及最新 Repo 紀錄，再接續使用者的 RC 影片學習進度。",
+    "client_request_id": "03-20261104-inference-merged-h1",
+    "created_at": "2026-11-05T07:38:44.523Z",
+    "updated_at": "2026-11-05T07:38:44.523Z"
   }
 ]
