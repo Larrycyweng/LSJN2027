@@ -8658,13 +8658,11 @@
     "blocks": [
       {
         "type": "p",
-        "label": "辨識",
-        "text": "according to the passage; the passage indicates; mentions; states; asserts; says。"
+        "text": "辨識: according to the passage; the passage indicates; what does the author (explicitly) mention/state/offer/say。"
       },
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
+        "text": "規則: R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
       },
       {
         "type": "p",
@@ -8672,8 +8670,7 @@
       },
       {
         "type": "p",
-        "label": "步驟",
-        "text": "S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
+        "text": "步驟: S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
       },
       {
         "type": "p",
@@ -8697,8 +8694,7 @@
       },
       {
         "type": "p",
-        "label": "陷阱",
-        "text": "T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
+        "text": "陷阱: T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
       },
       {
         "type": "p",
@@ -8745,10 +8741,14 @@
       {
         "type": "User Revision",
         "ref": "2026-11-03 使用者確認之 Locate Details 影片大綱；依影片截圖與 RC cramsheet，移除辨識第二行及原 Stated vs. Implied 規則，後續規則重新編號。搜尋工具採 Find Text 名稱，參考 LSAC：https://www.lsac.org/blog/lsat-week-080223。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-04"
       }
     ],
     "status": "草稿",
-    "protected": false,
+    "protected": true,
     "revisions": [
       {
         "date": "2026-10-17",
@@ -8872,10 +8872,73 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-04",
+        "by": "user",
+        "summary": "使用者編輯",
+        "before": {
+          "title": "Locate a Detail（細節定位）",
+          "summary": "Concrete / findable; find the Support Window。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "辨識",
+              "text": "according to the passage; the passage indicates; mentions; states; asserts; says。"
+            },
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 關鍵詞用來定位，答案仍須符合該處的完整意思。正確答案可能整合數個已陳述的細節，不一定只對應一句話。"
+            },
+            {
+              "type": "p",
+              "text": "R2 歸屬題先找該人名出現的段落作為定位起點；段落是線索，不是界線。同一人的觀點可能跨段延續，用歸屬語（X argues; according to X）、指代（he; this view）與觀點轉換詞追蹤到哪裡為止；作者自己的評論不計入該人觀點。"
+            },
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 Search：取題幹中能限定對象或議題的關鍵詞，使用 Find Text 定位，並讀命中處的前後文。若沒有命中，改查同義表達或依 Passage Map 回找。"
+            },
+            {
+              "type": "p",
+              "text": "S2 Target：依題幹線索及相關內容的分布，選擇搜尋方式。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Defined Target：Only 1 or 2 things could be the answer。先回文章鎖定 Support Window，形成答案方向，再掃描選項找對應內容。It pays to be stubborn：以已確認的原文為準。",
+                "Semi-defined Target：3+ keyword hits; maybe entire paragraphs。檢查哪些命中處真正回答題問；若仍無法縮小範圍，可先略看選項，再到相關段落逐項查證。",
+                "Undefined Target：No keywords; entire passage up for grabs。先看選項，再依各項主張回文找依據。可優先查證沒有極端用語的候選，但語氣較弱仍須有原文支持。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "S3 Match：核對選項的意思、人物、對象及限定語，確認它回答的是本題所問。掃描只是初篩，候選選項仍須讀完整句；若整合多處細節，各部分都要有依據。"
+            },
+            {
+              "type": "p",
+              "text": "S4 Five Questions：此問法的五個選項各是一個問題。逐項找相關原文，判斷資訊是否足以回答；不能只憑記憶認定文章有沒有提過。"
+            },
+            {
+              "type": "p",
+              "label": "陷阱",
+              "text": "T1 Word Bait：沿用原文關鍵詞，卻更換人物、受益者或對象。"
+            },
+            {
+              "type": "p",
+              "text": "T2 Wrong Target：引用的內容確實出現在文章中，卻沒有回答本題所問。"
+            },
+            {
+              "type": "p",
+              "text": "T3 Incomplete Support：只核對命中的字詞，漏看前後文、限定語或選項後半句。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-04T07:03:05.219Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-11-05T03:57:18.733Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-026",
