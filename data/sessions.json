@@ -1150,5 +1150,26 @@
     "client_request_id": "03-20261103-locate-details-s1",
     "created_at": "2026-11-04T07:03:05.236Z",
     "updated_at": "2026-11-04T07:03:05.236Z"
+  },
+  {
+    "session_id": "S-20261104-01",
+    "week_label": "第7週",
+    "phase": "第二階段",
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": 80,
+    "review_minutes": null,
+    "focus_skill": "RC：Inference 影片學習、查證順序與大綱整合",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日學習80分鐘，按當日總量記錄一次，不另估算影片、討論或筆記整理的時間。今日已學習 Inference 影片並提供截圖；未提供本次獨立作答資料，不作掌握判定。",
+    "session_date": "2026-11-04",
+    "mode": "Learn",
+    "effective_minutes": 80,
+    "client_request_id": "03-20261104-inference-merged-s1",
+    "created_at": "2026-11-05T07:38:44.491Z",
+    "updated_at": "2026-11-05T07:38:44.491Z"
   }
 ]
