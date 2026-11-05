@@ -10060,73 +10060,14 @@
   },
   {
     "section_id": "OL-036",
-    "parent_id": "OL-021",
-    "level": 3,
-    "order": 8,
-    "title": "Derive from Details: Most Supported / Principle（最受支持／原則）",
-    "summary": "最受支持：選項不可多於文章所給。",
-    "blocks": [
-      {
-        "type": "p",
-        "text": "R1 最受支持題的選項須由文章提供依據；可以比文章原有主張更弱，但不得加入沒有支持的關係。流程見「推論家族」；選項檢查見「閱讀理解 → 誘答」。",
-        "label": "規則"
-      }
-    ],
-    "source_refs": [
-      {
-        "type": "LSATLab Notes",
-        "ref": "§Question types Most Supported, Principle"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-09-22 大綱重整（RC 包）：統一節內結構、規則編號、合併重複、移除 Status、中文為主保留術語"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
-      },
-      {
-        "type": "User Revision",
-        "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
-      }
-    ],
-    "status": "草稿",
-    "protected": false,
-    "revisions": [
-      {
-        "date": "2026-11-01",
-        "by": "tutor",
-        "summary": "家教更新 03-20261101-rc-taxonomy-title-OL-036",
-        "before": {
-          "title": "Most Supported / Principle（最受支持／原則）",
-          "summary": "最受支持：選項不可多於文章所給。",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "R1 最受支持題的選項須由文章提供依據；可以比文章原有主張更弱，但不得加入沒有支持的關係。流程見「推論家族」；選項檢查見「閱讀理解 → 誘答」。",
-              "label": "規則"
-            }
-          ]
-        }
-      },
-      {
-        "date": "2026-11-01",
-        "by": "tutor",
-        "summary": "移動節"
-      },
-      {
-        "date": "2026-11-04",
-        "by": "tutor",
-        "summary": "家教提議刪除"
-      }
-    ],
-    "updated_at": "2026-11-05T07:38:44.480Z",
-    "updated_by": "tutor",
-    "deletion_suggested": {
-      "request_id": "03-20261104-inference-merged-o2",
-      "date": "2026-11-04",
-      "reason": "依使用者指示，Most Supported 與 Inference 共用同一子節；OL-036 的支持原則已整合至 OL-027，most supported 保留為辨識關鍵詞，移除重複子節。"
-    }
+    "parent_id": null,
+    "level": 9,
+    "order": 0,
+    "title": "",
+    "deleted": true,
+    "deleted_at": "2026-11-05T07:38:56.743Z",
+    "updated_at": "2026-11-05T07:38:56.743Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-037",
