@@ -804,5 +804,18 @@
     "client_request_id": "03-20261103-locate-details-h1",
     "created_at": "2026-11-04T07:03:05.250Z",
     "updated_at": "2026-11-04T07:03:05.250Z"
+  },
+  {
+    "handoff_id": "HO-063",
+    "session_id": "",
+    "taught": "先用題幹關鍵詞 Search，再依相關內容分布判斷 Defined／Semi-defined Target；Undefined Target 在 S3 先掃選項，優先查證 Moderate, Reasonable Ideas。暫緩不等於排除，最後仍以原文明確陳述的意思核對。",
+    "observed": "使用者指出 Search 必須先於根據 keyword hits 作出的 Target 判斷，並要求將沒有定位線索的分支併入 S3，已按確認版本整理。保留既有歸屬規則、Five Questions 與 T1至T3；未提供本次獨立作答資料，不作掌握判定。",
+    "open_questions": "本次未回報新增學習時間，不新增 session。keyword hits 是範圍線索，不是硬門檻；沒有題幹定位線索不等於搜尋零命中。It pays to be stubborn 沿用既有大綱表述，未核實影片口述。[補充]：無新增自創分類；Undefined Target 查證順序依使用者確認由影片內容整合。",
+    "date": "2026-11-04",
+    "stopped_at": "Review：完成 Locate a Detail 完整子節修訂並提供回寫包。",
+    "next_task": "先核對本包是否已匯入，再接續使用者正在學習的 Inference 影片，依後續截圖整理其專屬方法。",
+    "client_request_id": "03-20261104-locate-details-revision-h1",
+    "created_at": "2026-11-05T06:38:51.188Z",
+    "updated_at": "2026-11-05T06:38:51.188Z"
   }
 ]
