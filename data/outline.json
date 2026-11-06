@@ -9081,26 +9081,39 @@
     "level": 3,
     "order": 10,
     "title": "Go Beyond Passage: Analogy / Relationship（類比與關係）",
-    "summary": "讀選項前先用一句話寫出關係。",
+    "summary": "Strip Away the Topic/Specific；配對核心特徵與邏輯關係。",
     "blocks": [
       {
         "type": "p",
-        "text": "R1 選項含 in order to、designed to 時，回文章確認那是作者所述的意圖，還是無法避免的結果。",
-        "label": "規則"
+        "label": "辨識",
+        "text": "most analogous; most closely parallels; most similar relationship。"
       },
       {
         "type": "p",
-        "text": "S1 先寫一句抽象關係句（或類比目標），再比對選項，不比對表面題材。",
-        "label": "步驟"
+        "label": "規則",
+        "text": "R1 原文難以抽象化時，可先做 S2，利用較短的選項反向理解原文結構。"
       },
       {
         "type": "p",
-        "text": "S2 關係句有兩個成分時，選項須兩個都對：層級關係（通論對個案、理論對應用）與立場關係（一致、對立、無關）。"
+        "text": "R2 耗時時可先標記，留到最後處理。"
       },
       {
         "type": "p",
-        "text": "T1 關係題只取一半成分；須同時核對層級關係與立場關係。",
-        "label": "陷阱"
+        "label": "步驟",
+        "text": "S1 Extract the Essence：將題幹指定的原文抽象化，去掉具體名稱，保留動作、特徵、正負評價及邏輯關係。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Go from Answers to Stimulus：先從較短的選項抓出特徵與邏輯結構，再回文章核對角色及關係如何對應。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Accept Best Available：選出核心特徵與關係對應最完整者；非關鍵細節可以不完全一致。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Wrong Relationship：題材或字詞相似，核心關係卻不符或只對應一部分。例如把結果說成意圖，或符合層級關係卻弄錯立場關係。"
       }
     ],
     "source_refs": [
@@ -9127,6 +9140,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-04 全篇格式修正；基於 2026-10-05T04:35:43.727Z 現行匯出；保留已接受版本及使用者編輯；推論子節依使用者截圖排序。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "使用者提供的 LSAT Lab Analogy/Application 影片截圖、RC cram sheet；依使用者確認保留 Strip Away the Topic/Specific 與 Go from Answers to Stimulus。中文說明及步驟編排為本次整理。"
       }
     ],
     "status": "草稿",
@@ -9166,9 +9183,39 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-06",
+        "by": "tutor",
+        "summary": "家教更新 03-20261106-analogy-application-o1",
+        "before": {
+          "title": "Go Beyond Passage: Analogy / Relationship（類比與關係）",
+          "summary": "讀選項前先用一句話寫出關係。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 選項含 in order to、designed to 時，回文章確認那是作者所述的意圖，還是無法避免的結果。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "S1 先寫一句抽象關係句（或類比目標），再比對選項，不比對表面題材。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 關係句有兩個成分時，選項須兩個都對：層級關係（通論對個案、理論對應用）與立場關係（一致、對立、無關）。"
+            },
+            {
+              "type": "p",
+              "text": "T1 關係題只取一半成分；須同時核對層級關係與立場關係。",
+              "label": "陷阱"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T04:18:54.154Z",
+    "updated_at": "2026-11-06T16:10:24.612Z",
     "updated_by": "tutor"
   },
   {
@@ -9932,12 +9979,37 @@
     "level": 3,
     "order": 11,
     "title": "Go Beyond Passage: Application（應用）",
-    "summary": "先寫作者的觀點或原則，再看新案例是否落在其範圍內。",
+    "summary": "抓出指定原文的特徵與關係，套用到新案例或假設情境。",
     "blocks": [
       {
         "type": "p",
-        "label": "規則",
-        "text": "R1 先寫出作者的觀點或原則一句，再看選項的新案例是否落在該句之內。"
+        "label": "辨識",
+        "text": "best illustrates; example of; application of; suppose。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Find：定位題幹指定的觀點、原則或描述，抓出需要套用的動作、特徵及關係。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Apply：依題目要求處理新情境。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Examples：將需要匹配的特徵與關係列成 Checkboxes，逐項核對選項的新案例。",
+          "Hypotheticals：若題幹改變原文某項事實（Flip the Fact），接受新假設，重新判斷原文關係如何適用；不能只把原結論直接取反。"
+        ]
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Partial Match：只符合部分特徵，卻漏掉必要條件或改變核心關係。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Ignored Hypothetical：仍依文章原本的事實作答，沒有套用題幹改變後的假設。"
       }
     ],
     "source_refs": [
@@ -9952,6 +10024,10 @@
       {
         "type": "User Revision",
         "ref": "2026-09-30 大綱整理（使用者指示；repo 1c2a2ed）"
+      },
+      {
+        "type": "User Revision",
+        "ref": "使用者提供的 LSAT Lab Analogy/Application 影片截圖及 RC cram sheet Application、Flips the Causal Difference-Maker；中文說明及步驟編排為本次整理。"
       }
     ],
     "status": "草稿",
@@ -9977,9 +10053,25 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-06",
+        "by": "tutor",
+        "summary": "家教更新 03-20261106-analogy-application-o2",
+        "before": {
+          "title": "Go Beyond Passage: Application（應用）",
+          "summary": "先寫作者的觀點或原則，再看新案例是否落在其範圍內。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "規則",
+              "text": "R1 先寫出作者的觀點或原則一句，再看選項的新案例是否落在該句之內。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T04:18:54.176Z",
+    "updated_at": "2026-11-06T16:10:24.638Z",
     "updated_by": "tutor"
   },
   {
