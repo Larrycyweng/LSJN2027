@@ -9175,7 +9175,7 @@
     "section_id": "OL-027",
     "parent_id": "OL-021",
     "level": 3,
-    "order": 9,
+    "order": 8,
     "title": "Derive from Details: Inference（推論）",
     "summary": "Testing what’s implied; most provable; preserve meaning, not sound。",
     "blocks": [
@@ -9351,9 +9351,14 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-05",
+        "by": "tutor",
+        "summary": "移動節"
       }
     ],
-    "updated_at": "2026-11-05T07:38:44.454Z",
+    "updated_at": "2026-11-06T07:03:35.781Z",
     "updated_by": "tutor"
   },
   {
@@ -9983,12 +9988,17 @@
     "level": 3,
     "order": 12,
     "title": "Go Beyond Passage: Strengthen / Weaken（加強／削弱）",
-    "summary": "先定位文章中的主張，再問選項使它更可信還是更弱。",
+    "summary": "沿用 LR Strengthen / Weaken 方法。",
     "blocks": [
       {
         "type": "p",
+        "label": "辨識",
+        "text": "most strengthens; most supports the argument; most weakens; casts doubt on; undermines。"
+      },
+      {
+        "type": "p",
         "label": "步驟",
-        "text": "S1 定位該主張，再依「LR → 假設家族 → 加強」或「LR → 假設家族 → 削弱」的方法處理；因果關係另見「LR → 推理結構 → 因果」。"
+        "text": "S1 Check the Noun：定位題幹指定的 Argument、Hypothesis、Claim 或 Position，再依「LR → 假設家族 → 加強」或「LR → 假設家族 → 削弱」處理。"
       }
     ],
     "source_refs": [
@@ -10007,6 +10017,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-05 使用者確認之 RC 低頻 LR 題型整理；依本次四張影片截圖、RC-cram-sheet-2022 與既有 LR 大綱。基準 origin/main 1d13cbf。依使用者指示刪去重複的 LR 規則、操作與陷阱，保留 Check the Noun 定位提醒及轉用指引。"
       }
     ],
     "status": "草稿",
@@ -10053,9 +10067,25 @@
         "date": "2026-11-01",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-05",
+        "by": "tutor",
+        "summary": "家教更新 03-20261105-rc-lr-types-o1",
+        "before": {
+          "title": "Go Beyond Passage: Strengthen / Weaken（加強／削弱）",
+          "summary": "先定位文章中的主張，再問選項使它更可信還是更弱。",
+          "blocks": [
+            {
+              "type": "p",
+              "label": "步驟",
+              "text": "S1 定位該主張，再依「LR → 假設家族 → 加強」或「LR → 假設家族 → 削弱」的方法處理；因果關係另見「LR → 推理結構 → 因果」。"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-11-02T04:18:54.199Z",
+    "updated_at": "2026-11-06T07:03:35.771Z",
     "updated_by": "tutor"
   },
   {
@@ -22546,6 +22576,141 @@
     "revisions": [],
     "client_request_id": "03-20261102-opinion-attitude-o3",
     "updated_at": "2026-11-03T07:13:45.510Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-070",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 9,
+    "title": "Derive from Details: Must Be False（必然為假）",
+    "summary": "Can we prove the opposite？",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "must be false; cannot be true; could be true EXCEPT。"
+      },
+      {
+        "type": "p",
+        "label": "規則",
+        "text": "R1 正解須與文章資訊或其必然結果衝突，兩者不能同時成立。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Research：像 Inference 一樣，依題幹關鍵詞定位並讀取 Support Window。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Test：逐項問「Can we prove the opposite？」用原文或其必然推論，證明選項的否定。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Out of Scope：文章沒提到或未提供支持，不等於必然為假。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Strong Wording：選項語氣強、看似容易反駁，仍須找到文章中的矛盾依據才能選。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-05 使用者確認之 RC 低頻 LR 題型整理；依本次四張影片截圖、RC-cram-sheet-2022 與既有 LR 大綱。基準 origin/main 1d13cbf。依使用者明確指示完整保留第一版 Must Be False，不改為轉用 LR 指引；排列在 Inference 後。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261105-rc-lr-types-o3",
+    "updated_at": "2026-11-06T07:03:35.792Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-071",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 13,
+    "title": "Go Beyond Passage: Evaluate（評估論證）",
+    "summary": "沿用 LR Evaluate 方法。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "evaluate; assessing; most useful to know; most useful to determine。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 定位題幹指定的論證，確認 Conclusion 與 Evidence，再依「LR → 假設家族 → Evaluate」處理。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-05 使用者確認之 RC 低頻 LR 題型整理；依本次四張影片截圖、RC-cram-sheet-2022 與既有 LR 大綱。基準 origin/main 1d13cbf。依使用者確認之精簡版，不重複 LR 的 Anti-conclusion、不同回答測試及相關陷阱。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261105-rc-lr-types-o4",
+    "updated_at": "2026-11-06T07:03:35.803Z",
+    "updated_by": "tutor"
+  },
+  {
+    "section_id": "OL-072",
+    "parent_id": "OL-021",
+    "level": 3,
+    "order": 14,
+    "title": "Go Beyond Passage: Add to Passage（接續文章）",
+    "summary": "Logical Completion；接續文末論述，呼應 Main Point。",
+    "blocks": [
+      {
+        "type": "p",
+        "label": "辨識",
+        "text": "most logically completes; continuation; concluding sentence。"
+      },
+      {
+        "type": "p",
+        "label": "步驟",
+        "text": "S1 Research：重讀最後幾句，確認文末正在談什麼，並回想 Main Point。"
+      },
+      {
+        "type": "p",
+        "text": "S2 Anticipate：預想能延續文末論述、呼應主旨的收束；也可能呼應文章開頭（Bookend）。"
+      },
+      {
+        "type": "p",
+        "text": "S3 Match：將選項代回文末，核對銜接、全文方向及語氣是否一致。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 New Topic：另開文章未展開的新議題。"
+      },
+      {
+        "type": "p",
+        "text": "T2 Backpedal / Dilute：退回作者已反駁的立場，或削弱全文原有的主旨。"
+      },
+      {
+        "type": "p",
+        "text": "T3 Too Extreme：措辭比文章立場更極端或誇張。"
+      }
+    ],
+    "source_refs": [
+      {
+        "type": "User Revision",
+        "ref": "2026-11-05 使用者確認之 RC 低頻 LR 題型整理；依本次四張影片截圖、RC-cram-sheet-2022 與既有 LR 大綱。基準 origin/main 1d13cbf。保留使用者確認之第一版 RC 專屬操作及三項陷阱。"
+      }
+    ],
+    "status": "草稿",
+    "protected": false,
+    "revisions": [],
+    "client_request_id": "03-20261105-rc-lr-types-o5",
+    "updated_at": "2026-11-06T07:03:35.813Z",
     "updated_by": "tutor"
   }
 ]
