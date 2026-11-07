@@ -9459,30 +9459,50 @@
     "level": 3,
     "order": 1,
     "title": "Comparative Passages（比較文章）",
-    "summary": "兩篇同主題文章；題目問各篇，也問兩篇的關係。",
+    "summary": "先讀一篇、處理部分題目，再讀另一篇、比較關係，完成其餘題目。",
     "blocks": [
       {
         "type": "p",
-        "text": "R1 both passages mention 類題目，逐項各查兩篇，任一篇找不到明文即刪。此類題不問重要性；覺得選項瑣碎而想刪時，改去文章找出處。",
-        "label": "規則"
+        "label": "規則",
+        "text": "R1 共同內容須在兩篇各自成立。問 mention 時找明確陳述；問 supported／inferred 時找支持依據。共同內容可以是細節，不必是主旨。"
       },
       {
         "type": "p",
-        "text": "R2 問「A 的作者會如何看待 B 的某事」時，逐一套用 A 的技術定義，不採 B 文或日常詞義。兩篇共用同一個字時，先確認 A 是否為它下過專門定義。"
+        "text": "R2 問 A 的作者如何看待 B 的內容時，以 A 的觀點判斷；若涉及 A 的專門定義，依該定義套用。"
       },
       {
         "type": "p",
-        "text": "S1 分別依 Passage Map/Function 畫兩篇地圖，並確認各篇作者的立場。",
-        "label": "步驟"
+        "label": "步驟",
+        "text": "S1 Pick 1st Passage to Read：選一篇先讀，沿用既有閱讀方法，掌握主旨、段落功能及作者立場。"
       },
       {
         "type": "p",
-        "text": "S2 用白話寫出兩篇的主旨，再比較兩篇的關係。"
+        "text": "S2 Work Some Questions：依題幹的查證範圍，決定現在能做多少。"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "單篇題：若已讀題目指定的一篇，可直接作答。",
+          "共同內容題：先用已讀的一篇排除不符選項，留下的待另一篇確認。",
+          "關係／跨篇評價題：留到兩篇讀完後處理。"
+        ]
       },
       {
         "type": "p",
-        "text": "T1 兩部分選項（A 做 X 而 B 做 Y）：兩半分別對照各自的文章。",
-        "label": "陷阱"
+        "text": "S3 Read the Other Passage：閱讀另一篇，掌握其主旨與立場。"
+      },
+      {
+        "type": "p",
+        "text": "S4 Relate Them to Each Other：用一句話說明兩篇的關係：針對共同議題，各自在做什麼、採取什麼立場，彼此如何連接。"
+      },
+      {
+        "type": "p",
+        "text": "S5 Finish Questions：完成剩餘題目，依各題既有方法回文查證。"
+      },
+      {
+        "type": "p",
+        "label": "陷阱",
+        "text": "T1 Partial Match：選項說「A 做 X，而 B 做 Y」，卻只有一半正確；兩半須分別核對各自文章。"
       }
     ],
     "source_refs": [
@@ -9513,6 +9533,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-17 note 3 與使用者確認：RC 體系整理；保留使用者措辭、Overview 位置，沿用 LR 方法。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "使用者提供的 LSAT Lab Comparative Passages 影片五步驟截圖、RC cram sheet Comparative 指引及既有 OL-029；依使用者確認版本整理，S2 表格改為簡短項目。"
       }
     ],
     "status": "草稿",
@@ -9551,9 +9575,43 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-06",
+        "by": "tutor",
+        "summary": "家教更新 03-20261106-comparative-passages-o1",
+        "before": {
+          "title": "Comparative Passages（比較文章）",
+          "summary": "兩篇同主題文章；題目問各篇，也問兩篇的關係。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "R1 both passages mention 類題目，逐項各查兩篇，任一篇找不到明文即刪。此類題不問重要性；覺得選項瑣碎而想刪時，改去文章找出處。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 問「A 的作者會如何看待 B 的某事」時，逐一套用 A 的技術定義，不採 B 文或日常詞義。兩篇共用同一個字時，先確認 A 是否為它下過專門定義。"
+            },
+            {
+              "type": "p",
+              "text": "S1 分別依 Passage Map/Function 畫兩篇地圖，並確認各篇作者的立場。",
+              "label": "步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 用白話寫出兩篇的主旨，再比較兩篇的關係。"
+            },
+            {
+              "type": "p",
+              "text": "T1 兩部分選項（A 做 X 而 B 做 Y）：兩半分別對照各自的文章。",
+              "label": "陷阱"
+            }
+          ]
+        }
       }
     ],
-    "updated_at": "2026-10-18T01:14:51.758Z",
+    "updated_at": "2026-11-07T06:43:41.019Z",
     "updated_by": "tutor"
   },
   {
