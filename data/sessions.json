@@ -1227,12 +1227,13 @@
     "attention": "",
     "fatigue": "",
     "sleep_hours": null,
-    "notes": "使用者回報今日LR練習19題：Most Supported 10題、Strengthen 6題、Sufficient Assumption 2題、Agree/Disagree 1題；RC練習4題，共23題。今日總學習3.5小時，記210分鐘一次；未提供LR、RC及檢討時間分配，不拆估。未提供本批完整題號、答案、正確率或計時條件，不新增逐題作答紀錄或掌握判定。本包不修改概念大綱。",
+    "notes": "昨日LR19題：Most Supported10題、Strengthen6題、Sufficient Assumption2題、Agree/Disagree1題；RC4題，共23題。昨日總學習210分鐘已記錄，不新增或拆估。本次補充11/7 Most Supported截圖：10/10，100%，均Level 1，平台27:25，已含於210分鐘。逐題：F1997 S1 Q17 ✓ 5:05；PT3 S4 Q6 ✓ 2:22；PT10 S4 Q3 ✓ 1:40；PT12 S4 Q1 ✓ 3:04；PT16 S3 Q5 ✓ 1:39；PT18 S4 Q24 ✓ 2:52；PT101 S3 Q7 ✓ 4:37；PT102 S2 Q3 ✓ 0:50；PT103 S2 Q2 ✓ 2:28；PT107 S3 Q5 ✓ 2:48。總表未顯示答案字母、信心、重讀及理由，均不補造；不據全對判定掌握。其餘題型本次未補逐題資料。",
     "session_date": "2026-11-07",
     "mode": "練習",
     "effective_minutes": 210,
     "client_request_id": "03-20261107-lrrc-summary-s1",
     "created_at": "2026-11-08T06:53:06.910Z",
-    "updated_at": "2026-11-08T06:53:06.910Z"
+    "updated_at": "2026-11-08T23:10:25.702Z",
+    "last_request_id": "03-20261108-mss-nov7-backfill-s1"
   }
 ]
