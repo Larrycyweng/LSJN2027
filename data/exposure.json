@@ -16,6 +16,21 @@
     "last_request_id": "02-20261016-bigpicture-x1"
   },
   {
+    "pt_id": "PT1",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "不明",
+    "source": "LSAT Lab使用者截圖",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "S3 Q3（既有HO-069）；本批新增S4 Q18",
+    "clean_pt_eligible": "否",
+    "notes": "本批S4 Q18已獨立作答；答案字母未知。沿用截圖的原PrepTest編號，不自行轉換新編號。",
+    "client_request_id": "03-20261108-mss-l2-x1",
+    "created_at": "2026-11-09T08:12:41.000Z",
+    "updated_at": "2026-11-09T08:12:41.000Z"
+  },
+  {
     "pt_id": "PT101",
     "first_exposure": "2026-09-12",
     "blind_review": "不明",
@@ -31,6 +46,20 @@
     "clean_pt_eligible": "否"
   },
   {
+    "pt_id": "PT11",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "S4 Q14已於本對話完成Review",
+    "source": "LSAT Lab使用者截圖及本對話",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S4 Q4、Q14",
+    "clean_pt_eligible": "否",
+    "client_request_id": "03-20261108-mss-l2-x6",
+    "created_at": "2026-11-09T08:12:41.049Z",
+    "updated_at": "2026-11-09T08:12:41.049Z"
+  },
+  {
     "pt_id": "PT123",
     "exposure_status": "已完成",
     "first_exposure": "2025-10-12",
@@ -43,6 +72,20 @@
     "clean_pt_eligible": "否",
     "notes": "2025年7Sage測驗紀錄。不得再作為乾淨完整模考。",
     "source": "Analytics_ Overview_10122025.pdf"
+  },
+  {
+    "pt_id": "PT13",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "不明",
+    "source": "LSAT Lab使用者截圖",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S2 Q4",
+    "clean_pt_eligible": "否",
+    "client_request_id": "03-20261108-mss-l2-x7",
+    "created_at": "2026-11-09T08:12:41.057Z",
+    "updated_at": "2026-11-09T08:12:41.057Z"
   },
   {
     "pt_id": "PT140",
@@ -221,6 +264,49 @@
     "clean_pt_eligible": "是"
   },
   {
+    "pt_id": "PT2",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "不明",
+    "source": "LSAT Lab使用者截圖",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S4 Q2、Q18",
+    "clean_pt_eligible": "否",
+    "notes": "兩題已作答；此處保存本次確認範圍，不代表其他題目必定未接觸。",
+    "client_request_id": "03-20261108-mss-l2-x2",
+    "created_at": "2026-11-09T08:12:41.013Z",
+    "updated_at": "2026-11-09T08:12:41.013Z"
+  },
+  {
+    "pt_id": "PT5",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "不明",
+    "source": "LSAT Lab使用者截圖",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S1 Q1",
+    "clean_pt_eligible": "否",
+    "client_request_id": "03-20261108-mss-l2-x3",
+    "created_at": "2026-11-09T08:12:41.021Z",
+    "updated_at": "2026-11-09T08:12:41.021Z"
+  },
+  {
+    "pt_id": "PT6",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "不明",
+    "source": "LSAT Lab使用者截圖",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S3 Q5",
+    "clean_pt_eligible": "否",
+    "client_request_id": "03-20261108-mss-l2-x4",
+    "created_at": "2026-11-09T08:12:41.030Z",
+    "updated_at": "2026-11-09T08:12:41.030Z"
+  },
+  {
     "pt_id": "PT65",
     "first_exposure": "2026-09-21",
     "blind_review": "否",
@@ -235,6 +321,20 @@
     "created_at": "2026-09-25T00:15:26.788Z",
     "updated_at": "2026-11-01T05:53:55.981Z",
     "last_request_id": "01-20261031-rc65-x1"
+  },
+  {
+    "pt_id": "PT7",
+    "first_exposure": "2026-11-09",
+    "blind_review": "不明",
+    "explanations_seen": "S1 Q9、Q21已於本對話完成Review",
+    "source": "LSAT Lab使用者截圖及本對話",
+    "exposure_status": "部分接觸",
+    "last_exposure": "2026-11-08",
+    "sections_seen": "本批S1 Q9、Q21",
+    "clean_pt_eligible": "否",
+    "client_request_id": "03-20261108-mss-l2-x5",
+    "created_at": "2026-11-09T08:12:41.039Z",
+    "updated_at": "2026-11-09T08:12:41.039Z"
   },
   {
     "pt_id": "PT71",
