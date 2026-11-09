@@ -1,5 +1,28 @@
 [
   {
+    "signature_id": "ES-015",
+    "attraction": "使用者確認注意力停留於長主詞，未抓到主要述語，因而未建立兩年代各自的觀點與電影呈現對照",
+    "scope": "LR",
+    "created": "2026-11-09",
+    "last_seen": "2026-11-08",
+    "stage": "已發現；同題講解完成；新題移轉及延遲複測待驗證",
+    "near_transfer": "未測試",
+    "far_transfer": "未測試",
+    "delayed_retest": "未測試",
+    "official_timed": "未測試",
+    "evidence_count": 1,
+    "notes": "本題錯因由使用者確認；作為可執行的候選指紋追蹤，不由單題認定普遍閱讀弱點。只記內部資料，不修改大綱。",
+    "error_type": "長主詞分散注意力，未抓主要述語及平行關係",
+    "trigger_signal": "主詞含長修飾語及子句，其中另有動詞",
+    "corrective_action": "長主詞讀到失去方向時，先抓中心名詞與主要述語，再補回修飾內容；不把修飾子句中先出現的動詞當成主要述語。",
+    "source": "PT11 S4 Q14；使用者本對話自述",
+    "first_seen": "2026-11-08",
+    "client_request_id": "03-20261108-mss-l2-g1",
+    "created_at": "2026-11-09T08:12:40.991Z",
+    "updated_at": "2026-11-09T08:12:40.991Z",
+    "signature_status": "追蹤中"
+  },
+  {
     "signature_id": "SIG-001",
     "attraction": "",
     "scope": "LR",
