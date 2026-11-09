@@ -1235,5 +1235,26 @@
     "created_at": "2026-11-08T06:53:06.910Z",
     "updated_at": "2026-11-08T23:10:25.702Z",
     "last_request_id": "03-20261108-mss-nov7-backfill-s1"
+  },
+  {
+    "session_id": "S-20261108-01",
+    "week_label": "第8週",
+    "phase": "第二階段",
+    "material_source": "LSAT Lab、使用者截圖及本對話",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Drill／Review：Most Supported Level 2；句構理解、跨句整合與選項查證",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者明確更正：今日指11/8，當日總學習3小時，記180分鐘一次，不拆估Drill與Review時間，不另新增11/9時間。本批10題均Level 2，7對3錯，平台21:26，已包含於180分鐘，不另加。逐題：PT1 S4 Q18對1:40；PT2 S4 Q2對2:17；PT2 S4 Q18對1:15；PT5 S1 Q1對1:28；PT6 S3 Q5對2:19；PT7 S1 Q9錯2:55；PT7 S1 Q21錯1:29；PT11 S4 Q4對2:25；PT11 S4 Q14錯3:01；PT13 S2 Q4對2:37。七道答對題未顯示答案字母，只保存題號、結果及用時，不補造答案。平台用時不等同標準限時測驗。連同HO-069既有20題18對，Most Supported累計30題25對；其中11/8兩批合計20題15對。難度組成不同，不據此判定計時掌握或估分。",
+    "session_date": "2026-11-08",
+    "mode": "練習",
+    "effective_minutes": 180,
+    "client_request_id": "03-20261108-mss-l2-s1",
+    "created_at": "2026-11-09T08:12:40.925Z",
+    "updated_at": "2026-11-09T08:12:40.925Z"
   }
 ]
