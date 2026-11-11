@@ -1258,6 +1258,27 @@
     "updated_at": "2026-11-09T08:12:40.925Z"
   },
   {
+    "session_id": "S-20261109-01",
+    "week_label": "第8週",
+    "phase": "第二階段",
+    "material_source": "使用者提供之RC Law passage與題目截圖",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Drill／Review／Learn：RC Law passage練習、Inference選項檢討及學術英文閱讀",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "練習文章主題為Pope Alexander III的中世紀婚姻教義；練習與檢討合計30分鐘，僅記一次，不拆估各模式時間。已知截圖第2題詢問父母在婚姻中的角色，使用者選C，檢討指出D最受原文支持。依既有RC Inference大綱，對照父母同意非婚姻成立必要條件，以及C加入父母對教會認可與法律效力的無據比較。使用者隨後明確表示題文有大量陌生單詞、無法理解，故轉為逐段英文教學，涵蓋ascribe significance to、consensual union、economic expediency、ecclesiastical、solemnization、banns、secular legal validity、clandestine、acid test、sufficient to及at the expense of，並解析rather than、neither…nor及although…nonetheless句構。未提供完整題組作答資料、PT／section、單題時間、信心或盲審答案，不推算整篇正確率。本包不修改大綱。",
+    "session_date": "2026-11-09",
+    "mode": "練習",
+    "effective_minutes": 30,
+    "client_request_id": "03-20261109-rc-law-s1",
+    "created_at": "2026-11-11T07:33:35.000Z",
+    "updated_at": "2026-11-11T07:33:35.000Z"
+  },
+  {
     "session_id": "S-20261110-01",
     "week_label": "第8週",
     "phase": "第二階段",
