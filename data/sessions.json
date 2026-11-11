@@ -1256,5 +1256,26 @@
     "client_request_id": "03-20261108-mss-l2-s1",
     "created_at": "2026-11-09T08:12:40.925Z",
     "updated_at": "2026-11-09T08:12:40.925Z"
+  },
+  {
+    "session_id": "S-20261110-01",
+    "week_label": "第8週",
+    "phase": "第二階段",
+    "material_source": "使用者提供之RC Law passage與題目截圖",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Drill／Review：RC Law passage完成及Paragraph Purpose檢討",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報今日學習20分鐘，完成昨日開始的同一篇Law passage，主題為Pope Alexander III的中世紀婚姻教義。今日僅新增20分鐘，昨日已記錄的30分鐘不重複計入，文章不視為另一篇新接觸材料。已知截圖第8題為第二段功能題，使用者選B，檢討答案C。使用者說明排斥C的原因：第二段程序要求在第一段沒有出現，因此不認為屬於elaboration。教學釐清elaborate upon可藉由新增相關資訊使前段說明更完整；第二段補充公告要求與違規處分，同時保留第一段的婚姻效力。Exception則須有特定情況使原規則不再適用。未提供完整題組答案、正確率、PT／section、單題時間或信心，不補造逐題資料。本包不修改大綱。",
+    "session_date": "2026-11-10",
+    "mode": "練習",
+    "effective_minutes": 20,
+    "client_request_id": "03-20261110-rc-law-s1",
+    "created_at": "2026-11-11T07:32:46.287Z",
+    "updated_at": "2026-11-11T07:32:46.287Z"
   }
 ]
