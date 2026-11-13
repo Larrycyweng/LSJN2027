@@ -1318,5 +1318,26 @@
     "notes": "",
     "created_at": "2026-11-13T07:00:19.845Z",
     "updated_at": "2026-11-13T07:00:19.845Z"
+  },
+  {
+    "session_id": "S-20261112-01",
+    "week_label": "第8週",
+    "phase": "第二階段",
+    "material_source": "使用者提供之LR Most Supported錯題截圖",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Review：LR錯題6題；詞彙、長句結構、比較關係及選項支持查證",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報11/12錯題檢討30分鐘，僅記一次，不拆估單題時間。檢討截圖題號1、5、10、16、17、20，非新作答6題，不新增分類練習題量。Q1運動與老化：原選D，提示後選E並指出prevent強於slow down；使用者回報首次未看到E，將晚開始運動的收益誤作未持續運動者相對獲益較少。Q5胰島素：原選B；使用者確認未完整讀懂末句，經同位語與or連接的兩個to結構教學後，能說明不需能量時可能儲存脂肪；D由教練確認，未記為獨立重選正確。Q10罷工談判：原選B，提示後選C；使用者確認把sufficient leverage誤解為與員工同等籌碼。Q16壁畫：原選C，提示後選B；使用者明確回報不懂fresco、wet plaster及indelibly preserves而失去主線，已用具體中文解釋。Q17畫作評價：原選C，檢討中改選E、A，最後由教練確認D；使用者把所有人選某幅較好理解成全部不喜歡另一幅，並套用all涵蓋most。Q20水生動物：原選B，詞義與結構提示後選E並說明符合資訊範圍；另釐清predecessors在演化情境指祖先，以及祖先水生對演化順序的作用。另做1句原創比較句翻譯，使用者能正確表達新版優於原版且不排除喜歡原版；屬教學後近距離驗證，不與官方題計分。未提供PT／section、首次作答時間、信心或盲審答案，不補造。本包不修改大綱。",
+    "session_date": "2026-11-12",
+    "mode": "檢討",
+    "effective_minutes": 30,
+    "client_request_id": "03-20261112-lr-review-s1",
+    "created_at": "2026-11-13T08:17:55.612Z",
+    "updated_at": "2026-11-13T08:17:55.612Z"
   }
 ]
