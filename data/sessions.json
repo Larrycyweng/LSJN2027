@@ -1298,5 +1298,25 @@
     "client_request_id": "03-20261110-rc-law-s1",
     "created_at": "2026-11-11T07:32:46.287Z",
     "updated_at": "2026-11-11T07:32:46.287Z"
+  },
+  {
+    "session_id": "S-20261111-01",
+    "session_date": "2026-11-11",
+    "week_label": "第8週",
+    "phase": "第二階段",
+    "mode": "練習",
+    "effective_minutes": 120,
+    "material_source": "LSAT Lab",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "",
+    "completion": "",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "",
+    "created_at": "2026-11-13T07:00:19.845Z",
+    "updated_at": "2026-11-13T07:00:19.845Z"
   }
 ]
