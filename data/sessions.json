@@ -1359,5 +1359,26 @@
     "notes": "",
     "created_at": "2026-11-15T22:30:09.560Z",
     "updated_at": "2026-11-15T22:30:09.560Z"
+  },
+  {
+    "session_id": "S-20261115-01",
+    "week_label": "第9週",
+    "phase": "第二階段",
+    "material_source": "LSAT Lab：Strengthen L1-2，官方分類題20題",
+    "lr_minutes": null,
+    "rc_minutes": null,
+    "review_minutes": null,
+    "focus_skill": "Drill：LR Strengthen",
+    "completion": "是",
+    "attention": "",
+    "fatigue": "",
+    "sleep_hours": null,
+    "notes": "使用者回報學習60分鐘；網站作答時間56:11，20題答對15題，正確率75%。錯題為題組第1、10、15、16、19題，均尚未檢討。錯題索引：第1題 PT8 S2 Q21，L1，03:18，Policy Adviser／Freedom of speech；第10題 PT105 S2 Q5，L1，03:08，Archaeologist／A large corporation；第15題 PT106 S1 Q1，L2，01:40，A student has taken twelve courses；第16題 PT106 S3 Q24，L2，04:14，Surviving seventeenth-century Dutch，已標旗；第19題 PT109 S1 Q5，L2，02:35，A recent national study。題號沿用截圖顯示；計時所選答案、盲審答案、正解、信心及重讀方式未提供，不推定。錯誤原因待檢討，不建立已確認診斷或新增錯誤指紋；不修改大綱。",
+    "session_date": "2026-11-15",
+    "mode": "練習",
+    "effective_minutes": 60,
+    "client_request_id": "03-20261115-strengthen-l12-s1",
+    "created_at": "2026-11-16T08:04:26.643Z",
+    "updated_at": "2026-11-16T08:04:26.643Z"
   }
 ]
