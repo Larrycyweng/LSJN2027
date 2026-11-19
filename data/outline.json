@@ -14562,62 +14562,17 @@
         "date": "2026-11-18",
         "by": "tutor",
         "summary": "家教提案（待確認）"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "拒絕提案 03-20261118-o40"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-11-19T06:33:37.359Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "03-20261118-o40",
-        "date": "2026-11-18",
-        "summary": "找規則或補事實，使題文理由更能支持結論。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "Recognition",
-            "text": "先看 justify 的受詞。Justify the argument：Which principle, if valid, justifies the argument? 選項給規則。Justify the application：Which of the following, if true, most helps to justify the application of the principle? 題文已有規則，選項補事實。"
-          },
-          {
-            "type": "p",
-            "label": "Rule",
-            "text": "R1 先確認作者用什麼理由、要支持哪個結論。"
-          },
-          {
-            "type": "p",
-            "text": "R2 找規則（原則在選項）：題文事實須符合規則的適用條件，套用規則所得的判斷須支持原結論。規則可以涵蓋比本案更廣的情形。"
-          },
-          {
-            "type": "p",
-            "text": "R3 補事實（原則在題文）：找出規則尚未獲支持的適用條件，選出能補足該條件的事實。"
-          },
-          {
-            "type": "p",
-            "text": "R4 most justifies／most helps to justify 比較支持程度。題幹若要求 conclusion follows logically，須使結論從理由與選項必然推出。"
-          },
-          {
-            "type": "p",
-            "text": "R5 Weighing Tradeoffs：若作者承認方案有好處，仍因某項風險主張放棄方案，找出能說明何者應優先的規則。"
-          },
-          {
-            "type": "p",
-            "label": "Steps",
-            "text": "S1 Identify：標出理由與結論。S2 Find：題文已有規則就找缺的適用事實，缺規則就預想能把理由接到結論的規則。S3 Check：核對對象、適用條件與規則導出的判斷。"
-          },
-          {
-            "type": "p",
-            "label": "Trap",
-            "text": "T1 Wrong Trigger／Outcome：相同關鍵詞不能代替適用條件。遺址有未檢視的證據，並未建立出資者不關心遺址歷史。T2 Reversal／Negation：P → Q 的逆否是非 Q → 非 P。勿誤用 Q → P 或非 P → 非 Q。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-11-18 使用者指示：依考場解題任務精簡原則題小節。"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-11-19T06:34:10.561Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-041",
