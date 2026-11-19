@@ -13696,7 +13696,7 @@
     "section_id": "OL-040",
     "parent_id": "OL-003",
     "level": 3,
-    "order": 6,
+    "order": 5,
     "title": "Principle Support（原則支持）",
     "summary": "依題問辨認要找橋接規則，還是補足原則的適用事實。",
     "blocks": [
@@ -14635,10 +14635,15 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-11-19T06:37:21.664Z",
+    "updated_at": "2026-11-19T06:37:35.713Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -22114,7 +22119,7 @@
     "section_id": "OL-061",
     "parent_id": "OL-003",
     "level": 3,
-    "order": 5,
+    "order": 6,
     "title": "Evaluate（評估論證）",
     "summary": "比較同一問題的不同可能答案，找出最能影響論證評價的資訊。",
     "blocks": [
@@ -22176,10 +22181,16 @@
     ],
     "status": "草稿",
     "protected": false,
-    "revisions": [],
+    "revisions": [
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "調整順序"
+      }
+    ],
     "client_request_id": "01-20261011-notes-v3-a1",
-    "updated_at": "2026-10-12T04:59:48.020Z",
-    "updated_by": "tutor"
+    "updated_at": "2026-11-19T06:37:35.723Z",
+    "updated_by": "user"
   },
   {
     "section_id": "OL-062",
