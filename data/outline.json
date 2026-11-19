@@ -13698,83 +13698,55 @@
     "level": 3,
     "order": 6,
     "title": "Principle Support（原則支持）",
-    "summary": "依題問確認支持任務，找出理由與結論，再依原則位置檢查橋接規則或適用事實。",
+    "summary": "依題問辨認要找橋接規則，還是補足原則的適用事實。",
     "blocks": [
       {
         "type": "p",
-        "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題問常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
-        "label": "辨識"
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Justify：若原則成立，是否支持原文結論？本節整理原則支持。",
-          "Conform：個案是否正確套用原則，或選項是否貼合原文推理？見「配對家族 → Principle-Conform」。",
-          "Illustrate：例子最能說明什麼一般敘述？見「最受支持 → Principle-Conform：Proposition／Generalization」。",
-          "Parallel：另一個論證是否使用相近的隱含原則？見「配對家族 → Principle-Conform」。",
-          "Underlie：哪條原則最準確表達原文推理背後的規則？見「配對家族 → Principle-Conform」。",
-          "Contradict：哪個個案符合原則適用條件，卻違反其要求？見「推論家族 → 必然為假」的違反原則規則。"
-        ]
+        "label": "辨識",
+        "text": "先看 justify 的受詞。找規則：Which principle, if valid, justifies the argument? 補事實：Which of the following, if true, most helps to justify the application of the principle?"
       },
       {
         "type": "p",
-        "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
-        "label": "規則"
+        "label": "規則",
+        "text": "R1 先找出作者用什麼理由、要支持哪個結論。"
       },
       {
         "type": "p",
-        "text": "R2 原則在選項（Principle-Strengthen with Principles in Answers）：先預想「若理由所給的條件成立，則支持結論的判斷」。檢查理由是否滿足原則的條件，套用結果是否支持原文結論；同義轉述或較廣類別可以適用，字面相同卻未建立適用關係仍不夠。"
+        "text": "R2 找規則（原則在選項）：題文的理由須符合規則的適用條件，套用規則所得的判斷須支持原結論。規則可以涵蓋比本案更廣的情形。"
       },
       {
         "type": "p",
-        "text": "R3 原則在題文（Principle-Strengthen with Principles in Stimulus）：題文給規則及其應用，卻未充分建立規則的觸發條件。選項須補上使個案符合條件的事實，才能支持該應用。"
+        "text": "R3 補事實（原則在題文）：題文已給規則及個案判斷。找出規則尚未獲支持的適用條件，再找能補足該條件的事實。"
       },
       {
         "type": "p",
-        "text": "R4 most justifies／most helps to justify 比較支持程度，不一律要求完全保證結論；若題問明確要求 conclusion follows logically，才須達到保證結論的門檻。支持用的原則若較強，不因此自動排除；表達作者原則則須避免超出原文，見「Principle-Conform」。"
+        "text": "R4 most justifies／most helps to justify 比較支持程度。若題幹要求 conclusion follows logically，理由加上選項須能必然推出結論。"
       },
       {
         "type": "p",
-        "text": "R5 若作者衡量利弊（Weighing Tradeoffs），原則須處理其取捨或比較；不要只預想無例外的絕對規則。比較的共用判準見「推理結構 → 比較」。"
+        "text": "R5 衡量利弊（Weighing Tradeoffs）：若作者承認方案有好處，仍因某項風險主張拒絕方案，找出能說明何者應優先的原則。"
       },
       {
         "type": "p",
-        "text": "S1 依完整題問確認任務，辨識見本節開頭。若要求支持推理，找出結論與理由；題文若給原則及其應用，分清規則、個案事實與待支持的判斷。",
-        "label": "判斷步驟"
+        "label": "判斷步驟",
+        "text": "S1 Identify：標出理由與結論。題文若已給規則，也標出其適用條件與結果。"
       },
       {
         "type": "p",
-        "text": "S2 找出理由到結論的缺口，再確認原則位置：原則在選項時依 R2 找橋接規則，在題文時依 R3 補足適用事實。"
+        "text": "S2 Find：原則在選項，先預想什麼規則能把理由接到結論。原則在題文，先找個案還缺哪個適用條件。"
       },
       {
         "type": "p",
-        "text": "S3 逐項對應「適用對象／觸發條件／結果」，並依完整題問核對支持程度。條件翻譯、逆否與串接見「推理結構 → 條件」。"
+        "text": "S3 Check：依序核對適用對象、適用條件與套用後的判斷。"
       },
       {
         "type": "p",
-        "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
-        "label": "陷阱"
+        "label": "陷阱",
+        "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：遺址仍有未檢視的證據，無法據此判定出資者不關心遺址歷史。選項即使談到同一個方案，也要核對其規則能否由題文理由觸發。"
       },
       {
         "type": "p",
-        "text": "T2 逆命題／反命題（Reversal／Negation）：原則 P → Q 不保證 Q → P 或非 P → 非 Q；正確內容、錯誤順序仍不能支持結論。"
-      },
-      {
-        "type": "p",
-        "text": "T3 其餘依本題任務檢查：超出範圍（Out of Scope）改談其他問題；削弱（Weakens）降低原文結論的支持；矛盾（Contradiction）與已給資訊衝突。強度須看完整命題與題問門檻。"
-      },
-      {
-        "type": "p",
-        "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
-        "label": "教材統計"
-      },
-      {
-        "type": "p",
-        "text": "推理結構：Conditional Logic 66%；Comparison 34%；Causation 12%。"
-      },
-      {
-        "type": "p",
-        "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。"
+        "text": "T2 逆命題／反命題（Reversal／Negation）：P → Q 的逆否是非 Q → 非 P。勿誤用 Q → P 或非 P → 非 Q。"
       }
     ],
     "source_refs": [
@@ -13805,6 +13777,10 @@
       {
         "type": "User Revision",
         "ref": "2026-10-11 使用者指示之內文一致性修訂；以 repo 42dd1fc 的現行大綱為基準。依本對話確認的任務導向流程，將反駁判讀歸入找結論與證據，區分共用評估程序與題型答案要求，並同步相關索引及既有段落格式；沿用各節原有教材來源，不新增題型家族。"
+      },
+      {
+        "type": "User Revision",
+        "ref": "2026-11-18 使用者指示：依考場解題任務精簡內容，沿用現有大綱格式。"
       }
     ],
     "status": "草稿",
@@ -14572,74 +14548,99 @@
         "date": "2026-11-18",
         "by": "tutor",
         "summary": "家教提案（待確認）"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "接受提案 03-20261118-o401",
+        "before": {
+          "title": "Principle Support（原則支持）",
+          "summary": "依題問確認支持任務，找出理由與結論，再依原則位置檢查橋接規則或適用事實。",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "原則（Principle）是一般規則的表達形式，可用於不同任務。題問常見 principle、proposition、generalization；必須再讀完整問句，確認要求支持、符合、概括、平行、表達隱含原則，或找違反原則的情況。",
+              "label": "辨識"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Justify：若原則成立，是否支持原文結論？本節整理原則支持。",
+                "Conform：個案是否正確套用原則，或選項是否貼合原文推理？見「配對家族 → Principle-Conform」。",
+                "Illustrate：例子最能說明什麼一般敘述？見「最受支持 → Principle-Conform：Proposition／Generalization」。",
+                "Parallel：另一個論證是否使用相近的隱含原則？見「配對家族 → Principle-Conform」。",
+                "Underlie：哪條原則最準確表達原文推理背後的規則？見「配對家族 → Principle-Conform」。",
+                "Contradict：哪個個案符合原則適用條件，卻違反其要求？見「推論家族 → 必然為假」的違反原則規則。"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "R1 主結論題找作者已提出的最終主張；原則支持題則找能支持「理由 → 結論」的一般規則。原則可以比個案更廣，仍須核對結論的對象、適用條件與主張。",
+              "label": "規則"
+            },
+            {
+              "type": "p",
+              "text": "R2 原則在選項（Principle-Strengthen with Principles in Answers）：先預想「若理由所給的條件成立，則支持結論的判斷」。檢查理由是否滿足原則的條件，套用結果是否支持原文結論；同義轉述或較廣類別可以適用，字面相同卻未建立適用關係仍不夠。"
+            },
+            {
+              "type": "p",
+              "text": "R3 原則在題文（Principle-Strengthen with Principles in Stimulus）：題文給規則及其應用，卻未充分建立規則的觸發條件。選項須補上使個案符合條件的事實，才能支持該應用。"
+            },
+            {
+              "type": "p",
+              "text": "R4 most justifies／most helps to justify 比較支持程度，不一律要求完全保證結論；若題問明確要求 conclusion follows logically，才須達到保證結論的門檻。支持用的原則若較強，不因此自動排除；表達作者原則則須避免超出原文，見「Principle-Conform」。"
+            },
+            {
+              "type": "p",
+              "text": "R5 若作者衡量利弊（Weighing Tradeoffs），原則須處理其取捨或比較；不要只預想無例外的絕對規則。比較的共用判準見「推理結構 → 比較」。"
+            },
+            {
+              "type": "p",
+              "text": "S1 依完整題問確認任務，辨識見本節開頭。若要求支持推理，找出結論與理由；題文若給原則及其應用，分清規則、個案事實與待支持的判斷。",
+              "label": "判斷步驟"
+            },
+            {
+              "type": "p",
+              "text": "S2 找出理由到結論的缺口，再確認原則位置：原則在選項時依 R2 找橋接規則，在題文時依 R3 補足適用事實。"
+            },
+            {
+              "type": "p",
+              "text": "S3 逐項對應「適用對象／觸發條件／結果」，並依完整題問核對支持程度。條件翻譯、逆否與串接見「推理結構 → 條件」。"
+            },
+            {
+              "type": "p",
+              "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：選項雖有熟悉名詞，仍可能對錯對象、要求另一條件，或推出另一結果。理由未證明結論的對象符合原則條件，就不能直接套用。",
+              "label": "陷阱"
+            },
+            {
+              "type": "p",
+              "text": "T2 逆命題／反命題（Reversal／Negation）：原則 P → Q 不保證 Q → P 或非 P → 非 Q；正確內容、錯誤順序仍不能支持結論。"
+            },
+            {
+              "type": "p",
+              "text": "T3 其餘依本題任務檢查：超出範圍（Out of Scope）改談其他問題；削弱（Weakens）降低原文結論的支持；矛盾（Contradiction）與已給資訊衝突。強度須看完整命題與題問門檻。"
+            },
+            {
+              "type": "p",
+              "text": "任務比例：Justify 48%；Conform 21%；Illustrate 13%；Parallel 12%；Underlie 3%；Contradict 3%。",
+              "label": "教材統計"
+            },
+            {
+              "type": "p",
+              "text": "推理結構：Conditional Logic 66%；Comparison 34%；Causation 12%。"
+            },
+            {
+              "type": "p",
+              "text": "誘答：Wrong Trigger／Outcome 31%；Out of Scope 17%；Weakens 15%；Too Weak／Too Weak 15%；Reversal／Negation 10%；Contradiction 8%。"
+            }
+          ]
+        }
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-11-19T06:36:20.171Z",
-    "updated_by": "tutor",
-    "proposals": [
-      {
-        "request_id": "03-20261118-o401",
-        "date": "2026-11-18",
-        "summary": "依題問辨認要找橋接規則，還是補足原則的適用事實。",
-        "blocks": [
-          {
-            "type": "p",
-            "label": "辨識",
-            "text": "先看 justify 的受詞。找規則：Which principle, if valid, justifies the argument? 補事實：Which of the following, if true, most helps to justify the application of the principle?"
-          },
-          {
-            "type": "p",
-            "label": "規則",
-            "text": "R1 先找出作者用什麼理由、要支持哪個結論。"
-          },
-          {
-            "type": "p",
-            "text": "R2 找規則（原則在選項）：題文的理由須符合規則的適用條件，套用規則所得的判斷須支持原結論。規則可以涵蓋比本案更廣的情形。"
-          },
-          {
-            "type": "p",
-            "text": "R3 補事實（原則在題文）：題文已給規則及個案判斷。找出規則尚未獲支持的適用條件，再找能補足該條件的事實。"
-          },
-          {
-            "type": "p",
-            "text": "R4 most justifies／most helps to justify 比較支持程度。若題幹要求 conclusion follows logically，理由加上選項須能必然推出結論。"
-          },
-          {
-            "type": "p",
-            "text": "R5 衡量利弊（Weighing Tradeoffs）：若作者承認方案有好處，仍因某項風險主張拒絕方案，找出能說明何者應優先的原則。"
-          },
-          {
-            "type": "p",
-            "label": "判斷步驟",
-            "text": "S1 Identify：標出理由與結論。題文若已給規則，也標出其適用條件與結果。"
-          },
-          {
-            "type": "p",
-            "text": "S2 Find：原則在選項，先預想什麼規則能把理由接到結論。原則在題文，先找個案還缺哪個適用條件。"
-          },
-          {
-            "type": "p",
-            "text": "S3 Check：依序核對適用對象、適用條件與套用後的判斷。"
-          },
-          {
-            "type": "p",
-            "label": "陷阱",
-            "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：遺址仍有未檢視的證據，無法據此判定出資者不關心遺址歷史。選項即使談到同一個方案，也要核對其規則能否由題文理由觸發。"
-          },
-          {
-            "type": "p",
-            "text": "T2 逆命題／反命題（Reversal／Negation）：P → Q 的逆否是非 Q → 非 P。勿誤用 Q → P 或非 P → 非 Q。"
-          }
-        ],
-        "source_refs": [
-          {
-            "type": "User Revision",
-            "ref": "2026-11-18 使用者指示：依考場解題任務精簡內容，沿用現有大綱格式。"
-          }
-        ]
-      }
-    ]
+    "updated_at": "2026-11-19T06:37:21.664Z",
+    "updated_by": "user",
+    "proposals": []
   },
   {
     "section_id": "OL-041",
