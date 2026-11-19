@@ -11215,7 +11215,7 @@
     "section_id": "OL-038",
     "parent_id": "OL-003",
     "level": 3,
-    "order": 4,
+    "order": 5,
     "title": "Weaken（削弱）",
     "summary": "假設選項為真，它如何使證據較不足以支持結論？",
     "blocks": [
@@ -11958,10 +11958,15 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
     "client_request_id": "W1-20260923-o3",
-    "updated_at": "2026-10-20T01:08:03.273Z",
+    "updated_at": "2026-11-19T06:37:44.216Z",
     "updated_by": "user",
     "proposals": []
   },
@@ -13696,7 +13701,7 @@
     "section_id": "OL-040",
     "parent_id": "OL-003",
     "level": 3,
-    "order": 5,
+    "order": 4,
     "title": "Principle Support（原則支持）",
     "summary": "依題問辨認要找橋接規則，還是補足原則的適用事實。",
     "blocks": [
@@ -14640,10 +14645,15 @@
         "date": "2026-11-18",
         "by": "user",
         "summary": "調整順序"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "user",
+        "summary": "調整順序"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-11-19T06:37:35.713Z",
+    "updated_at": "2026-11-19T06:37:44.208Z",
     "updated_by": "user",
     "proposals": []
   },
