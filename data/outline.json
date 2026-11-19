@@ -14567,12 +14567,79 @@
         "date": "2026-11-18",
         "by": "user",
         "summary": "拒絕提案 03-20261118-o40"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-11-19T06:34:10.561Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-11-19T06:36:20.171Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261118-o401",
+        "date": "2026-11-18",
+        "summary": "依題問辨認要找橋接規則，還是補足原則的適用事實。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "辨識",
+            "text": "先看 justify 的受詞。找規則：Which principle, if valid, justifies the argument? 補事實：Which of the following, if true, most helps to justify the application of the principle?"
+          },
+          {
+            "type": "p",
+            "label": "規則",
+            "text": "R1 先找出作者用什麼理由、要支持哪個結論。"
+          },
+          {
+            "type": "p",
+            "text": "R2 找規則（原則在選項）：題文的理由須符合規則的適用條件，套用規則所得的判斷須支持原結論。規則可以涵蓋比本案更廣的情形。"
+          },
+          {
+            "type": "p",
+            "text": "R3 補事實（原則在題文）：題文已給規則及個案判斷。找出規則尚未獲支持的適用條件，再找能補足該條件的事實。"
+          },
+          {
+            "type": "p",
+            "text": "R4 most justifies／most helps to justify 比較支持程度。若題幹要求 conclusion follows logically，理由加上選項須能必然推出結論。"
+          },
+          {
+            "type": "p",
+            "text": "R5 衡量利弊（Weighing Tradeoffs）：若作者承認方案有好處，仍因某項風險主張拒絕方案，找出能說明何者應優先的原則。"
+          },
+          {
+            "type": "p",
+            "label": "判斷步驟",
+            "text": "S1 Identify：標出理由與結論。題文若已給規則，也標出其適用條件與結果。"
+          },
+          {
+            "type": "p",
+            "text": "S2 Find：原則在選項，先預想什麼規則能把理由接到結論。原則在題文，先找個案還缺哪個適用條件。"
+          },
+          {
+            "type": "p",
+            "text": "S3 Check：依序核對適用對象、適用條件與套用後的判斷。"
+          },
+          {
+            "type": "p",
+            "label": "陷阱",
+            "text": "T1 觸發條件／結果錯置（Wrong Trigger／Outcome）：遺址仍有未檢視的證據，無法據此判定出資者不關心遺址歷史。選項即使談到同一個方案，也要核對其規則能否由題文理由觸發。"
+          },
+          {
+            "type": "p",
+            "text": "T2 逆命題／反命題（Reversal／Negation）：P → Q 的逆否是非 Q → 非 P。勿誤用 Q → P 或非 P → 非 Q。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-11-18 使用者指示：依考場解題任務精簡內容，沿用現有大綱格式。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-041",
@@ -20904,65 +20971,6 @@
     "protected": true,
     "revisions": [
       {
-        "date": "2026-10-10",
-        "by": "user",
-        "summary": "隨父節移動",
-        "before": {
-          "title": "Principle-Conform（原則符合）",
-          "summary": "準確表達作者的原則，檢查個案是否正確套用規則，或比較兩個論證的隱含原則。",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "本節整理符合或表達原則的題目。線索：most conforms to the reasoning、most accurately expresses the principle underlying the reasoning、which situation conforms to the principle；原則可能在題文、選項，或隱含於論證。",
-              "label": "辨識"
-            },
-            {
-              "type": "p",
-              "text": "R1 原則在選項（Principle-Conform with Principles in Answers）：抽象化作者從理由走到結論所依循的規則，保留原文關係、方向與適用範圍。選項即使足以支持結論，若比作者推理更強或更廣，也未必準確表達該原則。",
-              "label": "規則"
-            },
-            {
-              "type": "p",
-              "text": "R2 原則在題文（Principle-Conform with Principle in Stimulus）：在個案選項中檢查條件是否觸發原則，結論是否為原則所允許或要求的結果。不能只因結果相同，就認定個案正確套用規則。"
-            },
-            {
-              "type": "p",
-              "text": "R3 隱含原則（Principle-Conform with Implicit Principles）：先用一般敘述概括原論證的規則，再找另一個使用相近原則的論證。主題或名詞相似不足以構成平行。"
-            },
-            {
-              "type": "p",
-              "text": "R4 Main Conclusion 找作者已提出的主張；Underlying Principle 找支持關係背後的一般規則。例如個案結論只針對一個人，原則則說明具有某條件的人應如何行動。主結論判準見「配對家族 → 主結論」。"
-            },
-            {
-              "type": "p",
-              "text": "S1 先理解題文結構：若是論證，找出結論、理由及兩者的關係；若直接給原則，辨認其適用條件與結果。再依題幹確認要表達作者的原則、選出符合原則的個案，或配對隱含原則。",
-              "label": "判斷步驟"
-            },
-            {
-              "type": "p",
-              "text": "S2 再依原則的位置作對應：原則在選項時，選準確表達原文推理的規則；原則在題文時，將個案事實及判斷對應規則兩端；隱含原則題則比較兩個論證的一般規則。"
-            },
-            {
-              "type": "p",
-              "text": "S3 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
-            },
-            {
-              "type": "p",
-              "text": "T1 程度過強（Too Strong）：把原文有條件的規則擴成所有情況、無例外的規則。Conform／Underlie 要準確表達，不能只因它支持得更強就選它。",
-              "label": "陷阱"
-            },
-            {
-              "type": "p",
-              "text": "T2 觸發條件／結果錯置（Wrong Trigger／Outcome）：條件方向反轉、否定位置改變，或結果不是原則所允許或要求的判斷。"
-            },
-            {
-              "type": "p",
-              "text": "T3 表面相似：用了相同人物、主題或動作，卻改變真正的推理關係。隱含原則題比的是規則，條件與量詞形式仍依既有邏輯判準檢查。"
-            }
-          ]
-        }
-      },
-      {
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o59",
@@ -21970,12 +21978,135 @@
         "date": "2026-11-18",
         "by": "user",
         "summary": "拒絕提案 03-20261118-o59"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
     "client_request_id": "01-20261009-principle-o2",
-    "updated_at": "2026-11-19T06:35:52.001Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-11-19T06:36:20.181Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261118-o591",
+        "date": "2026-11-18",
+        "summary": "依題問確認任務：Apply the given Rule、Identify the author's Rule、Compare the Rules。",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "理解架構: Rule 說明何種 Situation 可導出何種 Conclusion。Application 是用 Rule 對個案作出判斷。"
+          },
+          {
+            "type": "p",
+            "text": "辨識: 先看題幹要選 situation、principle 還是 argument，再進入對應類型。若題幹要求選一條原則以支持結論（if valid, justifies），見「假設家族 → Principle Support」。"
+          },
+          {
+            "type": "p",
+            "text": "類型1: Apply the given Rule: 題文給 Rule，選項給個案。"
+          },
+          {
+            "type": "p",
+            "text": "Question Stem: Which one of the following situations most closely conforms to the principle stated above?"
+          },
+          {
+            "type": "p",
+            "text": "規則: R1 個案須符合 Rule 的適用條件，個案判斷須符合 Rule 允許或要求的結果。"
+          },
+          {
+            "type": "p",
+            "text": "1-1. Identify the given Rule: 找出適用條件與結果。"
+          },
+          {
+            "type": "p",
+            "text": "1-2. Identify each choice's Situation and Conclusion: 分出個案事實與判斷。"
+          },
+          {
+            "type": "p",
+            "text": "1-3. Check the choice's Application: 核對事實能否觸發 Rule，以及判斷是否符合其結果。"
+          },
+          {
+            "type": "p",
+            "text": "教學示例: 若遲到出於無法控制的原因，就不應責備。小林因突發交通中斷而遲到，因此不應責備。"
+          },
+          {
+            "type": "p",
+            "text": "陷阱: T1 Wrong Trigger／Outcome：選項可能符合條件卻作出錯誤判斷，也可能作出相同判斷卻不符合條件。"
+          },
+          {
+            "type": "p",
+            "text": "類型2: Identify the author's Rule: 題文給 Situation 與 Conclusion，選項給 Rule。"
+          },
+          {
+            "type": "p",
+            "text": "Question Stem: Which one of the following most accurately expresses the principle underlying the argument?"
+          },
+          {
+            "type": "p",
+            "text": "規則: R2 選項須保留作者實際依賴的條件、判斷與適用範圍。"
+          },
+          {
+            "type": "p",
+            "text": "2-1. Identify the given Situation and Conclusion: 找出作者根據什麼事實、作出什麼判斷。"
+          },
+          {
+            "type": "p",
+            "text": "2-2. Identify the given reasoning support: 用「什麼條件 → 作何判斷」概括作者的推理。"
+          },
+          {
+            "type": "p",
+            "text": "2-3. Match the choice's Rule: 核對選項是否保留原推理的條件與判斷。"
+          },
+          {
+            "type": "p",
+            "text": "教學示例: 作者因遲到的原因無法控制而主張不應責備。原則應保留「原因無法控制」這個條件。"
+          },
+          {
+            "type": "p",
+            "text": "陷阱: T2 Too Strong：「任何遲到都不應受責備」雖可支持本案結論，卻刪掉了作者依賴的條件。"
+          },
+          {
+            "type": "p",
+            "text": "類型3: Compare the Rules: 題文與各選項各有一個論證。"
+          },
+          {
+            "type": "p",
+            "text": "Question Stem: Which one of the following arguments conforms most closely to the principle illustrated above?"
+          },
+          {
+            "type": "p",
+            "text": "規則: R3 題文與選項可以描述不同事件，兩者作出判斷的依據須相同或最接近。"
+          },
+          {
+            "type": "p",
+            "text": "3-1. Identify the given Rule: 抽出題文的條件與判斷。"
+          },
+          {
+            "type": "p",
+            "text": "3-2. Identify each choice's Rule: 抽出選項的條件與判斷。"
+          },
+          {
+            "type": "p",
+            "text": "3-3. Compare the Rules: 核對兩條規則的條件、判斷方向、程度與限制。"
+          },
+          {
+            "type": "p",
+            "text": "教學示例: 因無法控制的交通中斷而遲到，與因無法控制的設備故障而逾期，都可以依「原因無法控制 → 不應責備」作判斷。"
+          },
+          {
+            "type": "p",
+            "text": "陷阱: T3 表面相似：同樣主張不應責備，理由仍可能不同。若 Rule 涉及比較，也要比對比較面向與判斷依據。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-11-18 使用者指示：依考場解題任務精簡內容，沿用現有大綱格式。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-060",
