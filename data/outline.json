@@ -14557,12 +14557,67 @@
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "移動節"
+      },
+      {
+        "date": "2026-11-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
     "client_request_id": "W1-20260924-reorg-principle01",
-    "updated_at": "2026-10-12T04:59:47.978Z",
+    "updated_at": "2026-11-19T06:33:37.359Z",
     "updated_by": "tutor",
-    "proposals": []
+    "proposals": [
+      {
+        "request_id": "03-20261118-o40",
+        "date": "2026-11-18",
+        "summary": "找規則或補事實，使題文理由更能支持結論。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "先看 justify 的受詞。Justify the argument：Which principle, if valid, justifies the argument? 選項給規則。Justify the application：Which of the following, if true, most helps to justify the application of the principle? 題文已有規則，選項補事實。"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 先確認作者用什麼理由、要支持哪個結論。"
+          },
+          {
+            "type": "p",
+            "text": "R2 找規則（原則在選項）：題文事實須符合規則的適用條件，套用規則所得的判斷須支持原結論。規則可以涵蓋比本案更廣的情形。"
+          },
+          {
+            "type": "p",
+            "text": "R3 補事實（原則在題文）：找出規則尚未獲支持的適用條件，選出能補足該條件的事實。"
+          },
+          {
+            "type": "p",
+            "text": "R4 most justifies／most helps to justify 比較支持程度。題幹若要求 conclusion follows logically，須使結論從理由與選項必然推出。"
+          },
+          {
+            "type": "p",
+            "text": "R5 Weighing Tradeoffs：若作者承認方案有好處，仍因某項風險主張放棄方案，找出能說明何者應優先的規則。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 Identify：標出理由與結論。S2 Find：題文已有規則就找缺的適用事實，缺規則就預想能把理由接到結論的規則。S3 Check：核對對象、適用條件與規則導出的判斷。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 Wrong Trigger／Outcome：相同關鍵詞不能代替適用條件。遺址有未檢視的證據，並未建立出資者不關心遺址歷史。T2 Reversal／Negation：P → Q 的逆否是非 Q → 非 P。勿誤用 Q → P 或非 P → 非 Q。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-11-18 使用者指示：依考場解題任務精簡原則題小節。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-041",
@@ -21012,65 +21067,6 @@
         }
       },
       {
-        "date": "2026-10-10",
-        "by": "user",
-        "summary": "隨父節移動",
-        "before": {
-          "title": "Principle-Conform（原則符合）",
-          "summary": "準確表達作者的原則，檢查個案是否正確套用規則，或比較兩個論證的隱含原則。",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "本節整理符合或表達原則的題目。線索：most conforms to the reasoning、most accurately expresses the principle underlying the reasoning、which situation conforms to the principle；原則可能在題文、選項，或隱含於論證。",
-              "label": "辨識"
-            },
-            {
-              "type": "p",
-              "text": "R1 原則在選項（Principle-Conform with Principles in Answers）：抽象化作者從理由走到結論所依循的規則，保留原文關係、方向與適用範圍。選項即使足以支持結論，若比作者推理更強或更廣，也未必準確表達該原則。",
-              "label": "規則"
-            },
-            {
-              "type": "p",
-              "text": "R2 原則在題文（Principle-Conform with Principle in Stimulus）：在個案選項中檢查條件是否觸發原則，結論是否為原則所允許或要求的結果。不能只因結果相同，就認定個案正確套用規則。"
-            },
-            {
-              "type": "p",
-              "text": "R3 隱含原則（Principle-Conform with Implicit Principles）：先用一般敘述概括原論證的規則，再找另一個使用相近原則的論證。主題或名詞相似不足以構成平行。"
-            },
-            {
-              "type": "p",
-              "text": "R4 Main Conclusion 找作者已提出的主張；Underlying Principle 找支持關係背後的一般規則。例如個案結論只針對一個人，原則則說明具有某條件的人應如何行動。主結論判準見「配對家族 → 主結論」。"
-            },
-            {
-              "type": "p",
-              "text": "S1 先理解題文結構：若是論證，找出結論、理由及兩者的關係；若直接給原則，辨認其適用條件與結果。再依題幹確認要表達作者的原則、選出符合原則的個案，或配對隱含原則。",
-              "label": "判斷步驟"
-            },
-            {
-              "type": "p",
-              "text": "S2 再依原則的位置作對應：原則在選項時，選準確表達原文推理的規則；原則在題文時，將個案事實及判斷對應規則兩端；隱含原則題則比較兩個論證的一般規則。"
-            },
-            {
-              "type": "p",
-              "text": "S3 若關鍵結構是比較，保留比較對象、面向、層次，以及比較如何支持判斷。相同條件導向同樣處理、重要差異導向不同判斷，須依原文確認；共用方法見「推理結構 → 比較」。"
-            },
-            {
-              "type": "p",
-              "text": "T1 程度過強（Too Strong）：把原文有條件的規則擴成所有情況、無例外的規則。Conform／Underlie 要準確表達，不能只因它支持得更強就選它。",
-              "label": "陷阱"
-            },
-            {
-              "type": "p",
-              "text": "T2 觸發條件／結果錯置（Wrong Trigger／Outcome）：條件方向反轉、否定位置改變，或結果不是原則所允許或要求的判斷。"
-            },
-            {
-              "type": "p",
-              "text": "T3 表面相似：用了相同人物、主題或動作，卻改變真正的推理關係。隱含原則題比的是規則，條件與量詞形式仍依既有邏輯判準檢查。"
-            }
-          ]
-        }
-      },
-      {
         "date": "2026-10-11",
         "by": "tutor",
         "summary": "家教更新 01-20261011-consistency-o59",
@@ -22068,12 +22064,67 @@
             }
           ]
         }
+      },
+      {
+        "date": "2026-11-18",
+        "by": "tutor",
+        "summary": "家教提案（待確認）"
       }
     ],
     "client_request_id": "01-20261009-principle-o2",
-    "updated_at": "2026-10-25T00:39:48.855Z",
-    "updated_by": "user",
-    "proposals": []
+    "updated_at": "2026-11-19T06:33:37.410Z",
+    "updated_by": "tutor",
+    "proposals": [
+      {
+        "request_id": "03-20261118-o59",
+        "date": "2026-11-18",
+        "summary": "依題幹決定要套用、辨認或配對原則。",
+        "blocks": [
+          {
+            "type": "p",
+            "label": "Recognition",
+            "text": "Apply the given Rule（選個案）：Which judgment most closely conforms to the principle stated above?"
+          },
+          {
+            "type": "p",
+            "text": "Identify the author's Rule（選原則）：Which principle most accurately expresses the principle underlying the argument?"
+          },
+          {
+            "type": "p",
+            "text": "Compare the Rules（選論證）：Which argument conforms most closely to the principle illustrated above?"
+          },
+          {
+            "type": "p",
+            "label": "Rule",
+            "text": "R1 套用規則：個案須符合規則的適用條件，個案判斷須符合規則允許或要求的結果。"
+          },
+          {
+            "type": "p",
+            "text": "R2 辨認規則：保留作者依賴的條件、判斷及適用範圍。較廣的規則即使能支持本案，也未必忠實表達作者的推理。題幹若要求選一條原則以支持結論（if valid, justifies），見「假設家族 → Principle Support」。"
+          },
+          {
+            "type": "p",
+            "text": "R3 配對規則：兩個論證可用不同個案，但須用相同或最接近的規則作出判斷。"
+          },
+          {
+            "type": "p",
+            "label": "Steps",
+            "text": "S1 Identify：先看題幹要選個案、原則或論證。S2 Map：說出「什麼條件 → 作何判斷」。S3 Match：依 R1 核對個案與已知規則，依 R2 核對選項規則與作者推理，或依 R3 比對兩個論證的規則。"
+          },
+          {
+            "type": "p",
+            "label": "Trap",
+            "text": "T1 Wrong Trigger／Outcome：核對個案是否滿足條件，判斷是否符合規則的結果。T2 Too Strong：若作者因遲到的原因無法控制而主張不應責備，「任何遲到都不應責備」便刪掉了原條件。T3 表面相似：主題或結論相似，仍須核對作出判斷的依據。"
+          }
+        ],
+        "source_refs": [
+          {
+            "type": "User Revision",
+            "ref": "2026-11-18 使用者指示：依考場解題任務精簡原則題小節。"
+          }
+        ]
+      }
+    ]
   },
   {
     "section_id": "OL-060",
